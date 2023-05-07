@@ -12,4 +12,4 @@ debian/tmp/usr/share/glib-2.0/schemas
 debian/tmp/usr/share/help
 debian/tmp/usr/share/metainfo/update-manager.appdata.xml
 debian/tmp/usr/share/update-manager/gtkbuilder
-debian/extra/update-manager/99flatpak-zenity.sh /usr/share/update-manager/post/
+debian/extra/99flatpak-zenity.sh /usr/share/update-manager/post/
