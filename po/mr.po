@@ -1,0 +1,1096 @@
+# Marathi translation for update-manager
+# Copyright (c) (c) 2006 Canonical Ltd, and Rosetta Contributors 2006
+# This file is distributed under the same license as the update-manager package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2006.
+#
+#: ../UpdateManager/UpdatesAvailable.py:847
+msgid ""
+msgstr ""
+"Project-Id-Version: update-manager\n"
+"Report-Msgid-Bugs-To: sebastian.heinlein@web.de\n"
+"POT-Creation-Date: 2021-12-07 16:54-0800\n"
+"PO-Revision-Date: 2011-12-06 06:42+0000\n"
+"Last-Translator: kunj juhhu <Unknown>\n"
+"Language-Team: Marathi <mr@li.org>\n"
+"Language: mr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Launchpad-Export-Date: 2012-04-17 13:41+0000\n"
+"X-Generator: Launchpad (build 15099)\n"
+
+#: ../UpdateManager/backend/InstallBackendAptdaemon.py:150
+#, fuzzy
+msgid "Checking for updates…"
+msgstr "इतर अपडेट्स."
+
+#: ../UpdateManager/backend/InstallBackendAptdaemon.py:200
+#: ../UpdateManager/backend/InstallBackendAptdaemon.py:256
+#: ../UpdateManager/backend/InstallBackendAptdaemon.py:287
+msgid "Installing updates…"
+msgstr ""
+
+#: ../UpdateManager/backend/InstallBackendSynaptic.py:39
+msgid "Please wait, this can take some time."
+msgstr "कृपया थोडा वेळ थांबा."
+
+#: ../UpdateManager/backend/InstallBackendSynaptic.py:41
+msgid "Update is complete"
+msgstr "अपडेट पूर्ण झालेला आहे."
+
+#: ../UpdateManager/backend/__init__.py:277
+msgid "Updating snaps"
+msgstr ""
+
+#: ../UpdateManager/backend/__init__.py:304
+#, python-format
+msgid "Refreshing %s snap"
+msgstr ""
+
+#: ../UpdateManager/backend/__init__.py:310
+#, python-format
+msgid "Removing %s snap"
+msgstr ""
+
+#: ../UpdateManager/backend/__init__.py:315
+#, python-format
+msgid "Installing %s snap"
+msgstr ""
+
+#: ../UpdateManager/backend/__init__.py:324
+msgid "Upgrade only partially completed."
+msgstr ""
+
+#: ../UpdateManager/backend/__init__.py:325
+msgid ""
+"An error occurred while updating snaps. Please check your network connection."
+msgstr ""
+
+#: ../UpdateManager/ChangelogViewer.py:83
+msgid "Open Link in Browser"
+msgstr ""
+
+#: ../UpdateManager/ChangelogViewer.py:87
+msgid "Copy Link to Clipboard"
+msgstr ""
+
+#: ../UpdateManager/Dialogs.py:126
+msgid "Settings…"
+msgstr ""
+
+#: ../UpdateManager/Dialogs.py:171
+msgid ""
+"<b>Tip:</b> You can use Livepatch to keep your computer more secure between "
+"restarts."
+msgstr ""
+
+#: ../UpdateManager/Dialogs.py:174
+msgid "Settings & Livepatch…"
+msgstr ""
+
+#: ../UpdateManager/Dialogs.py:188
+#, python-format
+msgid "%d Livepatch update applied since the last restart."
+msgid_plural "%d Livepatch updates applied since the last restart."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../UpdateManager/Dialogs.py:196
+#, python-format
+msgid "%d Livepatch update failed to apply since the last restart."
+msgid_plural "%d Livepatch updates failed to apply since the last restart."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../UpdateManager/Dialogs.py:218 ../UpdateManager/UpdateManager.py:292
+msgid "You stopped the check for updates."
+msgstr ""
+
+#: ../UpdateManager/Dialogs.py:220
+msgid "_Check Again"
+msgstr ""
+
+#: ../UpdateManager/Dialogs.py:232
+msgid "No software updates are available."
+msgstr ""
+
+#: ../UpdateManager/Dialogs.py:234 ../UpdateManager/Dialogs.py:245
+msgid "The software on this computer is up to date."
+msgstr ""
+
+#. Translators: these are Ubuntu version names like "Ubuntu 12.04"
+#: ../UpdateManager/Dialogs.py:247
+#, python-format
+msgid "However, %s %s is now available (you have %s)."
+msgstr ""
+
+#: ../UpdateManager/Dialogs.py:252
+#, fuzzy
+msgid "Upgrade…"
+msgstr "अपग्रेड"
+
+#: ../UpdateManager/Dialogs.py:272
+#, fuzzy
+msgid "New important security and hardware support update."
+msgstr "महत्वाचे सुरक्षा अपडेट्स"
+
+#: ../UpdateManager/Dialogs.py:280
+#, fuzzy
+msgid "_Install…"
+msgstr "अपडेट्स प्रस्थापित करा."
+
+#. Translators: this is an Ubuntu version name like "Ubuntu 12.04"
+#: ../UpdateManager/Dialogs.py:292
+#, python-format
+msgid "Software updates are no longer provided for %s %s."
+msgstr ""
+
+#. Translators: this is an Ubuntu version name like "Ubuntu 12.04"
+#: ../UpdateManager/Dialogs.py:296
+#, python-format
+msgid "To stay secure, you should upgrade to %s %s."
+msgstr ""
+
+#: ../UpdateManager/Dialogs.py:309
+msgid "Sorry, there are no more upgrades for this system"
+msgstr ""
+
+#. Translators: this is an Ubuntu version name like "Ubuntu 12.04"
+#: ../UpdateManager/Dialogs.py:311
+#, python-format
+msgid ""
+"\n"
+"There will not be any further Ubuntu releases for this system's '%s' "
+"architecture.\n"
+"\n"
+"Updates for Ubuntu %s will continue until 2023-04-26.\n"
+"\n"
+"If you reinstall Ubuntu from ubuntu.com/download, future upgrades will be "
+"available."
+msgstr ""
+
+#: ../UpdateManager/Dialogs.py:325
+#, fuzzy
+msgid "Not all updates can be installed"
+msgstr "<big><b>सर्व अपडेट्स प्रस्थापित होऊ शकले नाहीत</b></big>"
+
+#: ../UpdateManager/Dialogs.py:327
+msgid ""
+"Run a partial upgrade, to install as many updates as possible.\n"
+"\n"
+"    This can be caused by:\n"
+"     * A previous upgrade which didn't complete\n"
+"     * Problems with some of the installed software\n"
+"     * Unofficial software packages not provided by Ubuntu\n"
+"     * Normal changes of a pre-release version of Ubuntu"
+msgstr ""
+
+#: ../UpdateManager/Dialogs.py:335
+msgid "_Partial Upgrade"
+msgstr "अर्धवट अपग्रेड"
+
+#: ../UpdateManager/Dialogs.py:336
+msgid "_Continue"
+msgstr "पुढे चला"
+
+#: ../UpdateManager/Dialogs.py:372
+msgid "_Try Again"
+msgstr ""
+
+#: ../UpdateManager/Dialogs.py:386
+msgid "The computer needs to restart to finish installing updates."
+msgstr ""
+
+#: ../UpdateManager/Dialogs.py:388
+msgid "Restart _Later"
+msgstr ""
+
+#: ../UpdateManager/Dialogs.py:390
+msgid "_Restart Now"
+msgstr ""
+
+#. Basic GTK+ parameters
+#: ../UpdateManager/UpdateManager.py:96 ../data/update-manager.desktop.in.h:1
+#: ../data/update-manager.appdata.xml.in.h:1
+#, fuzzy
+msgid "Software Updater"
+msgstr "अपडेट व्यवस्थापक सुरु होत आहे."
+
+#: ../UpdateManager/UpdateManager.py:290
+msgid "Some software couldn’t be checked for updates."
+msgstr ""
+
+#: ../UpdateManager/UpdateManager.py:293
+msgid "Updated software is available from a previous check."
+msgstr ""
+
+#. we assert a clean cache
+#: ../UpdateManager/UpdateManager.py:400
+msgid "Software index is broken"
+msgstr ""
+
+#: ../UpdateManager/UpdateManager.py:401
+msgid ""
+"It is impossible to install or remove any software. Please use the package "
+"manager \"Synaptic\" or run \"sudo apt-get install -f\" in a terminal to fix "
+"this issue at first."
+msgstr ""
+
+#: ../UpdateManager/UpdateManager.py:408
+msgid "Could not initialize the package information"
+msgstr ""
+
+#: ../UpdateManager/UpdateManager.py:409
+msgid ""
+"An unresolvable problem occurred while initializing the package "
+"information.\n"
+"\n"
+"Please report this bug against the 'update-manager' package and include the "
+"following error message:\n"
+msgstr ""
+
+#: ../UpdateManager/UpdateManager.py:437
+msgid "Could not calculate the upgrade"
+msgstr "अपग्रेडची गणना करू शकले नाही"
+
+#: ../UpdateManager/UpdateManager.py:438
+msgid ""
+"An unresolvable problem occurred while calculating the upgrade.\n"
+"\n"
+"Please report this bug against the 'update-manager' package and include the "
+"following error message:\n"
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:252
+#, fuzzy
+msgid "Install Now"
+msgstr "अपडेट्स प्रस्थापित करा."
+
+#: ../UpdateManager/UpdatesAvailable.py:285
+#, fuzzy
+msgid "Install or remove"
+msgstr "अपडेट्स प्रस्थापित करा."
+
+#: ../UpdateManager/UpdatesAvailable.py:319
+msgid "Download"
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:378
+#, fuzzy
+msgid "_Remind Me Later"
+msgstr "नंतर विचारा."
+
+#. upload_archive = version_match.group(2).strip()
+#: ../UpdateManager/UpdatesAvailable.py:515
+#, python-format
+msgid "Version %s: \n"
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:580
+msgid ""
+"No network connection detected, you can not download changelog information."
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:590
+msgid "Downloading list of changes..."
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:634
+msgid "_Deselect All"
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:640
+msgid "Select _All"
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:736
+#, python-format
+msgid "%s will be downloaded."
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:750
+msgid "The update has already been downloaded."
+msgid_plural "The updates have already been downloaded."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../UpdateManager/UpdatesAvailable.py:756
+msgid "There are no updates to install."
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:765
+msgid "Unknown download size."
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:792
+#, python-format
+msgid ""
+"Updated software has been issued since %s %s was released. Do you want to "
+"install it now?"
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:797
+msgid ""
+"Updated software is available for this computer. Do you want to install it "
+"now?"
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:800
+msgid ""
+"The computer also needs to restart to finish installing previous updates."
+msgstr ""
+
+#. print("on_button_install_clicked")
+#: ../UpdateManager/UpdatesAvailable.py:830
+msgid "Not enough free disk space"
+msgstr "डिस्कवर पुरेशी जागा उपलब्ध नाही"
+
+#: ../UpdateManager/UpdatesAvailable.py:831
+#, python-format
+msgid ""
+"The upgrade needs a total of %s free space on disk '%s'. Please free at "
+"least an additional %s of disk space on '%s'. %s"
+msgstr ""
+
+#. specific ways to resolve lack of free space
+#: ../UpdateManager/UpdatesAvailable.py:836
+msgid ""
+"Remove temporary packages of former installations using 'sudo apt clean'."
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:838
+msgid ""
+"You can remove old kernels using 'sudo apt autoremove', and you could also "
+"set COMPRESS=xz in /etc/initramfs-tools/initramfs.conf to reduce the size of "
+"your initramfs."
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:843
+msgid ""
+"Empty your trash and remove temporary packages of former installations using "
+"'sudo apt clean'."
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:846
+msgid "Reboot to clean up files in /tmp."
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:888
+msgid "Connecting..."
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:904
+msgid "You may not be able to check for updates or download new updates."
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:1056
+msgid "Improved hardware support"
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:1060
+#, fuzzy
+msgid "Security updates"
+msgstr "महत्वाचे सुरक्षा अपडेट्स"
+
+#: ../UpdateManager/UpdatesAvailable.py:1064
+msgid "Other updates"
+msgstr "इतर अपडेट्स."
+
+#: ../UpdateManager/UpdatesAvailable.py:1067
+msgid "Updates"
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:1072
+msgid "Unused kernel updates to be removed"
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:1077
+msgid "Duplicate packages to be removed"
+msgstr ""
+
+#: ../UpdateManager/UnitySupport.py:70
+msgid "Install All Available Updates"
+msgstr ""
+
+#: ../UpdateManager/Core/MyCache.py:417
+msgid "This update does not come from a source that supports changelogs."
+msgstr ""
+
+#: ../UpdateManager/Core/MyCache.py:423 ../UpdateManager/Core/MyCache.py:458
+msgid ""
+"Failed to download the list of changes. \n"
+"Please check your Internet connection."
+msgstr ""
+
+#: ../UpdateManager/Core/MyCache.py:430
+#, python-format
+msgid ""
+"Changes for %s versions:\n"
+"Installed version: %s\n"
+"Available version: %s\n"
+"\n"
+msgstr ""
+
+#: ../UpdateManager/Core/MyCache.py:444
+#, python-format
+msgid ""
+"The changelog does not contain any relevant changes.\n"
+"\n"
+"Please use http://launchpad.net/ubuntu/+source/%s/%s/+changelog\n"
+"until the changes become available or try again later."
+msgstr ""
+
+#: ../UpdateManager/Core/MyCache.py:451
+#, python-format
+msgid ""
+"The list of changes is not available yet.\n"
+"\n"
+"Please use http://launchpad.net/ubuntu/+source/%s/%s/+changelog\n"
+"until the changes become available or try again later."
+msgstr ""
+"बदलांची यादी उपलब्ध नाही. \n"
+"\n"
+"बदल उपलब्ध होईपर्यंत http://launchpad.net/ubuntu/+source/%s/%s/+changelog\n"
+" वापरा किंवा थोड्या वेळाने परत प्रयत्न करा."
+
+#. Translators: the %s is a distro name, like 'Ubuntu' and 'base' as in
+#. the core components and packages.
+#: ../UpdateManager/Core/UpdateList.py:175
+#, python-format
+msgid "%s base"
+msgstr ""
+
+#. TRANSLATORS: download size of small updates, e.g. "250 kB"
+#: ../UpdateManager/Core/utils.py:483
+#, python-format
+msgid "%(size).0f kB"
+msgid_plural "%(size).0f kB"
+msgstr[0] ""
+msgstr[1] ""
+
+#. TRANSLATORS: download size of updates, e.g. "2.3 MB"
+#: ../UpdateManager/Core/utils.py:487
+#, python-format
+msgid "%.1f MB"
+msgstr "%.1f मेगाबाइट्स"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:1
+msgid "updates"
+msgstr "अपडेट्स"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:2
+msgid "Changes"
+msgstr "बदल"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:3
+msgid "Description"
+msgstr "माहिती"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:4
+#, fuzzy
+msgid "Technical description"
+msgstr "माहिती"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:5
+#, fuzzy
+msgid "Details of updates"
+msgstr "अपडेटची माहिती"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:6
+msgid "The computer will need to restart."
+msgstr ""
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:7
+msgid ""
+"You are connected via roaming and may be charged for the data consumed by "
+"this update."
+msgstr ""
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:8
+msgid ""
+"You may want to wait until you’re not using a mobile broadband connection."
+msgstr ""
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:9
+msgid "It’s safer to connect the computer to AC power before updating."
+msgstr ""
+
+#: ../data/update-manager.desktop.in.h:2
+msgid "Software Updates"
+msgstr ""
+
+#: ../data/update-manager.desktop.in.h:3
+#: ../data/update-manager.appdata.xml.in.h:2
+msgid "Show and install available updates"
+msgstr "उपलब्ध अपडेट्स दाखवा आणि प्रस्थापित करा."
+
+#: ../data/update-manager.appdata.xml.in.h:3
+msgid ""
+"Software Updater checks for updates using apt and let you choose which "
+"updates to install."
+msgstr ""
+
+#: ../update-manager:71
+msgid "Show version and exit"
+msgstr "फक्त वर्जन दाखवा."
+
+#: ../update-manager:74
+msgid "Directory that contains the data files"
+msgstr ""
+
+#: ../update-manager:77
+msgid "Check if a new Ubuntu release is available"
+msgstr "उबुंटूची नवीन रिलीज उपलब्ध आहे का ते पहा."
+
+#: ../update-manager:80
+msgid ""
+"If using the latest supported release, upgrade to the development release"
+msgstr ""
+
+#: ../update-manager:84
+msgid "Upgrade using the latest proposed version of the release upgrader"
+msgstr ""
+
+#. TRANSLATORS: this describes the "focus-on-map" gtk
+#. property that controls if a new window takes the
+#. input focus control when it is displayed for the
+#. first time (see also the gtk devhelp page)
+#: ../update-manager:91
+msgid "Do not focus on map when starting"
+msgstr ""
+
+#: ../update-manager:94
+msgid "Do not check for updates when starting"
+msgstr ""
+
+#: ../update-manager:96
+msgid "Show debug messages"
+msgstr ""
+
+#. Why do we use %s here instead of $strings or {} format placeholders?
+#. It's because we don't want to break existing translations.
+#: ../janitor/plugincore/exceptions.py:43
+#, python-format
+msgid "Unimplemented method: %s"
+msgstr "Unimplemented method: %s"
+
+#: ../janitor/plugincore/core/file_cruft.py:41
+msgid "A file on disk"
+msgstr "डिस्कवरील फाईल."
+
+#: ../janitor/plugincore/core/missing_package_cruft.py:40
+msgid "Install missing package."
+msgstr ""
+
+#. 2012-06-08 BAW: i18n string; don't use {} or PEP 292.
+#: ../janitor/plugincore/core/missing_package_cruft.py:50
+#, python-format
+msgid "Package %s should be installed."
+msgstr "पॅकेज %s प्रस्थापित केले पाहिजे."
+
+#: ../janitor/plugincore/core/package_cruft.py:50
+msgid ".deb package"
+msgstr ".deb पॅकेज"
+
+#: ../janitor/plugincore/plugins/langpack_manual_plugin.py:47
+#, python-format
+msgid "%s needs to be marked as manually installed."
+msgstr "%s समोर manually installed अशी खूण केली पाहिजे."
+
+#: ../janitor/plugincore/plugins/kdelibs4to5_plugin.py:50
+msgid ""
+"When upgrading, if kdelibs4-dev is installed, kdelibs5-dev needs to be "
+"installed. See bugs.launchpad.net, bug #279621 for details."
+msgstr ""
+"अपग्रेड करताना जर kdelibs4-dev प्रस्थापित असेल, तर kdelibs5-dev हे देखील प्रस्थापित "
+"करावे लागेल. अधिक माहितीसाठी bugs.launchpad.net वरती बग #२७९६२१ पहा."
+
+#: ../janitor/plugincore/plugins/dpkg_status_plugin.py:45
+#, python-format
+msgid "%i obsolete entries in the status file"
+msgstr ""
+
+#: ../janitor/plugincore/plugins/dpkg_status_plugin.py:48
+msgid "Obsolete entries in dpkg status"
+msgstr ""
+
+#. pragma: no cover
+#: ../janitor/plugincore/plugins/dpkg_status_plugin.py:51
+msgid "Obsolete dpkg status entries"
+msgstr "dpkg जुन्या स्थितीदर्शक नोंदी"
+
+#: ../janitor/plugincore/plugins/remove_lilo_plugin.py:43
+msgid "Remove lilo since grub is also installed.(See bug #314004 for details.)"
+msgstr ""
+"लिलो काढून टाका कारण ग्रब प्रणालीत प्रस्थापित आहे. (अधिक माहितीसाठी बग #३१४००४ "
+"पहा.)"
+
+#, python-format
+#~ msgid "Server for %s"
+#~ msgstr "%s साठी सर्व्हर"
+
+#~ msgid "Main server"
+#~ msgstr "मुख्य सर्व्हर"
+
+#~ msgid "Custom servers"
+#~ msgstr "कस्टम सर्व्हर्स"
+
+#~ msgid "Could not calculate sources.list entry"
+#~ msgstr "sources.list नोंदींची गणना करू शकत नाही"
+
+#~ msgid ""
+#~ "Unable to locate any package files, perhaps this is not a Ubuntu Disc or "
+#~ "the wrong architecture?"
+#~ msgstr ""
+#~ "पॅकेज फाईल्स मिळाल्या नाहीत, बहुतेक हि उबुंटूची CD नाही किंवा architecture वेगळे आहे."
+
+#~ msgid "Failed to add the CD"
+#~ msgstr "CD घेऊ शकले नाही."
+
+#, python-format
+#~ msgid ""
+#~ "There was a error adding the CD, the upgrade will abort. Please report "
+#~ "this as a bug if this is a valid Ubuntu CD.\n"
+#~ "\n"
+#~ "The error message was:\n"
+#~ "'%s'"
+#~ msgstr ""
+#~ "CD घेताना चूक झाली आहे, अपग्रेड थांबवला जात आहे. जर ही उबुंटूची CD आहे तर हा बग म्हणून "
+#~ "आम्हाला कळवा. \n"
+#~ "\n"
+#~ "चुकीबाबतचा संदेश: \n"
+#~ "'%s'"
+
+#~ msgid "Remove package in bad state"
+#~ msgid_plural "Remove packages in bad state"
+#~ msgstr[0] "खराब स्थितीत असलेले पॅकेज काढून टाका"
+#~ msgstr[1] "खराब स्थितीत असलेले पॅकेजेस काढून टाका"
+
+#, python-format
+#~ msgid ""
+#~ "The package '%s' is in an inconsistent state and needs to be reinstalled, "
+#~ "but no archive can be found for it. Do you want to remove this package "
+#~ "now to continue?"
+#~ msgid_plural ""
+#~ "The packages '%s' are in an inconsistent state and need to be "
+#~ "reinstalled, but no archives can be found for them. Do you want to remove "
+#~ "these packages now to continue?"
+#~ msgstr[0] ""
+#~ "पॅकेज '%s' हे अव्यवस्थित स्थितीमध्ये आहे आणि ते परत प्रस्थापित करावे लागेल, पण "
+#~ "त्याच्यासाठीचे archive मिळत नाही आहे. पुढेजाण्यासाठी हे पॅकेज काढून टाकावे का?"
+#~ msgstr[1] ""
+#~ "पॅकेजेस '%s' ही अव्यवस्थित स्थितीमध्ये आहेत आणि ती परत प्रस्थापित करावी लागतील, पण "
+#~ "त्यासाठीचे archive मिळत नाही आहे. पुढेजाण्यासाठी ही पॅकेजस काढून टाकावीत का?"
+
+#~ msgid "The server may be overloaded"
+#~ msgstr "कदाचित सर्व्हर वर अतिरिक्त भार असावा"
+
+#~ msgid "Broken packages"
+#~ msgstr "अपुर्ण पॅकेजेस"
+
+#~ msgid ""
+#~ "Your system contains broken packages that couldn't be fixed with this "
+#~ "software. Please fix them first using synaptic or apt-get before "
+#~ "proceeding."
+#~ msgstr ""
+#~ "तुमच्या सिस्टिमवर बरीच अपुर्ण/तुटलेली पॅकेजेस आहेत, जी या सॉफ्टवेअर सह दुरुस्त होवू शकणार "
+#~ "नाहीत. पुढे चालू ठेवण्याअगोदर प्रथमतः synaptic किंवा apt-get द्वारे ती अपुर्ण/तुटलेली "
+#~ "पॅकेजेस दुरुस्त करा."
+
+#, python-format
+#~ msgid ""
+#~ "An unresolvable problem occurred while calculating the upgrade:\n"
+#~ "%s\n"
+#~ "\n"
+#~ " This can be caused by:\n"
+#~ " * Upgrading to a pre-release version of Ubuntu\n"
+#~ " * Running the current pre-release version of Ubuntu\n"
+#~ " * Unofficial software packages not provided by Ubuntu\n"
+#~ "\n"
+#~ msgstr ""
+#~ "अपग्रेड करीत असताना एक अडचण येत आहे:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "ही अडचण बहुदा खालील कारणांमुळे येत असावी:\n"
+#~ " * तुम्ही उबुन्टूच्या प्री-रीलिज आवृत्तीसाठी अपग्रेड करत असाल\n"
+#~ " * उबुन्टूची सध्याची प्री-रीलिज आवृत्ती तुम्ही तुमच्या संगणकावर चालवत असाल\n"
+#~ " * उबुन्टूकडून न पुरविल्या गेलेल्या अनधिकृत सॉफ्टवेअर पॅकेजेस मुळे\n"
+#~ "\n"
+
+#~ msgid "This is most likely a transient problem, please try again later."
+#~ msgstr "ही तात्पुरती समस्या आहे, काही क्षणांनंतर पुन्हा प्रयत्न करा."
+
+#~ msgid "Error authenticating some packages"
+#~ msgstr "काही पॅकेजेसचे अधिप्रमाणन करताना त्रुटी येत आहेत"
+
+#~ msgid ""
+#~ "It was not possible to authenticate some packages. This may be a "
+#~ "transient network problem. You may want to try again later. See below for "
+#~ "a list of unauthenticated packages."
+#~ msgstr ""
+#~ "काही पॅकेजेसचे अधिप्रमाणन करणे शक्य नव्हते. बहुदा हे तात्पुरत्या नेटवर्क समस्येमुळे झाले असावे. "
+#~ "काही वेळाने पुन्हा प्रयत्न करून पहा. काही अधिप्रमाणित न केलेल्या पॅकेजेसची यादी "
+#~ "पाहण्यासाठी खाली पहा."
+
+#, python-format
+#~ msgid ""
+#~ "The package '%s' is marked for removal but it is in the removal blacklist."
+#~ msgstr ""
+#~ "'%s' हे पॅकेज काढून टाकण्यासाठी चिन्हांकित केले आहे पण ते काढून टाकलेल्या ब्लॅकलिस्ट मध्ये "
+#~ "आहे."
+
+#, python-format
+#~ msgid "The essential package '%s' is marked for removal."
+#~ msgstr "'%s' हे अत्यावश्यक पॅकेज काढून टाकण्यासाठी चिन्हांकित केलेले आहे."
+
+#, python-format
+#~ msgid "Trying to install blacklisted version '%s'"
+#~ msgstr "ब्लॅकलिस्ट केलेली '%s' आवृत्ती स्थापित करण्याचा प्रयत्न करीत आहे"
+
+#, python-format
+#~ msgid "Can't install '%s'"
+#~ msgstr "'%s' हे स्थापित करू शकत नाही"
+
+#~ msgid "Can't guess meta-package"
+#~ msgstr "meta-package ओळखू शकत नाही"
+
+#~ msgid ""
+#~ "Your system does not contain a ubuntu-desktop, kubuntu-desktop, xubuntu-"
+#~ "desktop or edubuntu-desktop package and it was not possible to detect "
+#~ "which version of Ubuntu you are running.\n"
+#~ " Please install one of the packages above first using synaptic or apt-get "
+#~ "before proceeding."
+#~ msgstr ""
+#~ "तुमच्या सिस्टीम वर ubuntu-desktop, kubuntu-desktop, xubuntu-desktop किंवा "
+#~ "edubuntu-desktop यांपैकी कोणतेच पॅकेज नाही आणि तुम्ही सध्या उबुन्टूची कोणती आवृत्ती "
+#~ "तुमच्या संगणकावर सध्या चालवत आहात याबद्दल माहिती मिळवणे अशक्य होते.\n"
+#~ " कृपया पुढे जाण्याअगोदर वरीलपैकी कोणतेही एखादे पॅकेज synaptic किंवा apt-get द्वारे "
+#~ "स्थापित करा."
+
+#~ msgid "Reading cache"
+#~ msgstr "कॅशे (cache) वाचत आहे"
+
+#~ msgid "Unable to get exclusive lock"
+#~ msgstr "एक्स्क्ल्युजिव्ह लॉक मिळविण्यात असमर्थ"
+
+#~ msgid ""
+#~ "This usually means that another package management application (like apt-"
+#~ "get or aptitude) already running. Please close that application first."
+#~ msgstr ""
+#~ "कदाचित तुमचे दुसरे एखादे पॅकेज मॅनेजमेंट ऍप्लिकेशन (उदा. apt-get किंवा aptitude) चालू "
+#~ "आहे. कृपया ते ऍप्लिकेशन प्रथम बंद करा. (कारण apt-get किंवा aptitude द्वारे एकाच वेळी "
+#~ "एकापेक्षा अधिक पॅकेजेस स्थापित करता येत नाहीत.)"
+
+#~ msgid "Upgrading over remote connection not supported"
+#~ msgstr "रीमोट कनेक्शन वरून अपग्रेड करण्यास समर्थन नाही"
+
+#~ msgid ""
+#~ "You are running the upgrade over a remote ssh connection with a frontend "
+#~ "that does not support this. Please try a text mode upgrade with 'do-"
+#~ "release-upgrade'.\n"
+#~ "\n"
+#~ "The upgrade will abort now. Please try without ssh."
+#~ msgstr ""
+#~ "तुम्ही रीमोट ssh कनेक्शन वरून एका फ्रन्टएन्ड सहाय्यकासह अपग्रेड चालवत आहात ज्याचे तो "
+#~ "फ्रन्टएन्ड सहाय्यक समर्थन करीत नाही. कृपया टेक्स्ट मोड मधून 'do-release-upgrade' या "
+#~ "कमांडद्वारे अपग्रेड करून पहा.\n"
+#~ "\n"
+#~ "अपग्रेड आता थांबविले जाईल. कृपया ssh च्या शिवाय प्रयत्न करून पहा."
+
+#~ msgid "Continue running under SSH?"
+#~ msgstr "SSH च्या अंतर्गत चालू ठेवायचे का?"
+
+#, python-format
+#~ msgid ""
+#~ "This session appears to be running under ssh. It is not recommended to "
+#~ "perform a upgrade over ssh currently because in case of failure it is "
+#~ "harder to recover.\n"
+#~ "\n"
+#~ "If you continue, an additional ssh daemon will be started at port '%s'.\n"
+#~ "Do you want to continue?"
+#~ msgstr ""
+#~ "असे दिसतेय की हे सत्र ssh च्या अंतर्गत चालू आहे. सध्यातरी ssh वरून अपग्रेड चालवणे "
+#~ "धोकादायक असू शकते कारण जर ही क्रिया अयशस्वी झाली तर पुनःस्थितीत येणे अतिशय अवघड "
+#~ "असेल.\n"
+#~ "\n"
+#~ "जर तुम्ही चालू ठेवले, तर '%s' या पोर्टवर एक शिल्ल्कचे ssh daemon सुरू होईल.\n"
+#~ "तुम्ही पुढे चालू ठेवू इच्छिता का?"
+
+#~ msgid "Starting additional sshd"
+#~ msgstr "शिल्लकचे sshd सुरू करीत आहे"
+
+#, python-format
+#~ msgid ""
+#~ "To make recovery in case of failure easier, an additional sshd will be "
+#~ "started on port '%s'. If anything goes wrong with the running ssh you can "
+#~ "still connect to the additional one.\n"
+#~ msgstr ""
+#~ "जर काही कारणास्तव ही क्रिया अयशस्वी झाली तर सुलभ रिकव्हरी करण्यासाठी '%s' या "
+#~ "पोर्टवर एक शिल्लकचे sshd चालू होईल. सध्या चालू असलेल्या ssh सोबत जरी काही अनुचित "
+#~ "प्रकार घडलाच, तरीही तुम्ही एका शिल्लकच्या sshd ला कनेक्ट करू शकता.\n"
+
+#~ msgid "Can not upgrade"
+#~ msgstr "अपग्रेड करू शकत नाही"
+
+#, python-format
+#~ msgid "An upgrade from '%s' to '%s' is not supported with this tool."
+#~ msgstr "या साधनासह '%s' पासून '%s' कडे अपग्रेड करण्यास समर्थन नाही."
+
+#~ msgid "Sandbox setup failed"
+#~ msgstr "Sandbox चे सेटअप अयशस्वी झाले"
+
+#~ msgid "It was not possible to create the sandbox environment."
+#~ msgstr "sandbox वातावरणनिर्मिती तयार करणे शक्य नव्हते."
+
+#~ msgid "Sandbox mode"
+#~ msgstr "Sandbox मोड"
+
+#~ msgid ""
+#~ "Your python install is corrupted. Please fix the '/usr/bin/python' "
+#~ "symlink."
+#~ msgstr ""
+#~ "तुमची python ची स्थापना बिघडली आहे किंवा दूषित झाली आहे. कृपया '/usr/bin/python' "
+#~ "symlink दुरुस्त करा."
+
+#~ msgid "Package 'debsig-verify' is installed"
+#~ msgstr "'debsig-verify' पॅकेज स्थापित केले आहे"
+
+#~ msgid ""
+#~ "The upgrade can not continue with that package installed.\n"
+#~ "Please remove it with synaptic or 'apt-get remove debsig-verify' first "
+#~ "and run the upgrade again."
+#~ msgstr ""
+#~ "त्या स्थापित केलेल्या पॅकेजसह अपग्रेड पुढे चालू शकत नाही.\n"
+#~ "प्रथमतः ते पॅकेज synaptic द्वारे किंवा 'apt-get remove debsig-verify' द्वारे काढून "
+#~ "टाका आणि पुन्हा एकदा अपग्रेड चालू करा."
+
+#~ msgid "Include latest updates from the Internet?"
+#~ msgstr "इंटरनेटवरून सध्या उपलब्ध असलेले ताजे अद्ययावत जोडायचे का?"
+
+#~ msgid ""
+#~ "The upgrade system can use the internet to automatically download the "
+#~ "latest updates and install them during the upgrade.  If you have a "
+#~ "network connection this is highly recommended.\n"
+#~ "\n"
+#~ "The upgrade will take longer, but when it is complete, your system will "
+#~ "be fully up to date.  You can choose not to do this, but you should "
+#~ "install the latest updates soon after upgrading.\n"
+#~ "If you answer 'no' here, the network is not used at all."
+#~ msgstr ""
+#~ "जर तुमच्याकडे नेटवर्क कनेक्शन असेल तर अपग्रेड चालू असताना अपग्रेड प्रणाली इंटरनेटवरून "
+#~ "उपलब्ध ताजे अद्ययावत स्वयंचलितपणे आपोआप डाउनलोड करेल.\n"
+#~ "\n"
+#~ "अपग्रेड करण्यास बराच कालावधी लागू शकतो, पण जेव्हा अपग्रेड पूर्ण होईल तेव्हा तुमची "
+#~ "सिस्टिम आजपर्यंत पूर्णपणे अद्ययावत स्थितीत असेल.  तुम्ही हे निवडणे टाळू देखील शकता, पण "
+#~ "अपग्रेड झाल्यानंतर तुम्हाला ताजे अद्ययावत स्थापित करावेच लागतील.\n"
+#~ "जर तुम्ही येथे 'नाही' असे उत्तर दिले, तर अपग्रेड प्रणाली तुमच्या नेटवर्कचा मुळीच उपयोग "
+#~ "करणार नाही."
+
+#, python-format
+#~ msgid "disabled on upgrade to %s"
+#~ msgstr "%s साठी अपग्रेड अकार्यान्वीत केलेले आहे"
+
+#~ msgid "No valid mirror found"
+#~ msgstr "योग्य प्रतिमा सापडली नाही"
+
+#~ msgid "Package in inconsistent state"
+#~ msgid_plural "Packages in inconsistent state"
+#~ msgstr[0] "पैकेज अपुर्णावस्थेत आहे."
+#~ msgstr[1] "पैकेजेस अपुर्णावस्थेत आहेत."
+
+#, python-format
+#~ msgid ""
+#~ "The package '%s' is in an inconsistent state and needs to be reinstalled, "
+#~ "but no archive can be found for it. Please reinstall the package manually "
+#~ "or remove it from the system."
+#~ msgid_plural ""
+#~ "The packages '%s' are in an inconsistent state and need to be "
+#~ "reinstalled, but no archive can be found for them. Please reinstall the "
+#~ "packages manually or remove them from the system."
+#~ msgstr[0] "पैकेज अपुर्णावस्थेत आहे आणि पुन:प्रस्थापित करावे लागेल,"
+#~ msgstr[1] "पैकेजेस अपुर्णावस्थेत आहेत आणि पुन:प्रस्थापित करावी लागतील,"
+
+#~ msgid "Error during update"
+#~ msgstr "नवीकरण करताना त्रुटि."
+
+#~ msgid "Show Difference >>>"
+#~ msgstr "फरक दाखवा. >>>"
+
+#~ msgid "<<< Hide Difference"
+#~ msgstr "<<< फरक लपवा"
+
+#~ msgid "Information"
+#~ msgstr "माहिती"
+
+#~ msgid "Cancel Upgrade?"
+#~ msgstr "अपग्रेड थांबवायचा का?"
+
+#, python-format
+#~ msgid "%li day"
+#~ msgid_plural "%li days"
+#~ msgstr[0] "%li दिवस"
+#~ msgstr[1] "%li दिवस"
+
+#, python-format
+#~ msgid "%li hour"
+#~ msgid_plural "%li hours"
+#~ msgstr[0] "%li तास"
+#~ msgstr[1] "%liतास"
+
+#, python-format
+#~ msgid "%li minute"
+#~ msgid_plural "%li minutes"
+#~ msgstr[0] "%li मिनिट"
+#~ msgstr[1] "%li मिनिटे"
+
+#, python-format
+#~ msgid "%li second"
+#~ msgid_plural "%li seconds"
+#~ msgstr[0] "%li सेकंद"
+#~ msgstr[1] "%li सेकंद"
+
+#~ msgid ""
+#~ "There are no upgrades available for your system. The upgrade will now be "
+#~ "canceled."
+#~ msgstr "तुमच्या प्रणालीसाठी अपग्रेडस उपलब्ध नाहीत. हा अपग्रेड थांबवला जाईल."
+
+#~ msgid "Can not run the upgrade"
+#~ msgstr "अपग्रेड सुरु करू शकत नाही."
+
+#~ msgid "y"
+#~ msgstr "हो"
+
+#~ msgid "n"
+#~ msgstr "नाही"
+
+#, python-format
+#~ msgid "Remove: %s\n"
+#~ msgstr "काढून टाका: %s\n"
+
+#, python-format
+#~ msgid "Upgrade: %s\n"
+#~ msgstr "अपग्रेड: %s\n"
+
+#~ msgid "Continue [Yn] "
+#~ msgstr "पुढे चला[Yn] "
+
+#~ msgid "_Start Upgrade"
+#~ msgstr "अपग्रेड सुरु करा"
+
+#~ msgid "Difference between the files"
+#~ msgstr "फाईल्समधील फरक"
+
+#~ msgid "<b><big>Start the upgrade?</big></b>"
+#~ msgstr "अपग्रेड सुरु करायचा का?"
+
+#~ msgid ""
+#~ "<b><big>Restart the system to complete the upgrade</big></b>\n"
+#~ "\n"
+#~ "Please save your work before continuing."
+#~ msgstr ""
+#~ "<b><big>अपग्रेड पूर्ण करण्यासाठी प्रणाली बंद करून सुरु करा.</big></b>\n"
+#~ "\n"
+#~ "पुढे जाण्याआधी तुमचे काम सेव्ह करा."
+
+#~ msgid "    "
+#~ msgstr "    "
+
+#~ msgid "Reading package information"
+#~ msgstr "पॅकेजची माहिती वाचत आहे"
+
+#, python-format
+#~ msgid "Version %s"
+#~ msgstr "वर्जन %s"
+
+#~ msgid "Failed to detect distribution"
+#~ msgstr "डीस्ट्रीब्युशनची माहिती काढू शकत नाही."
+
+#, fuzzy
+#~ msgid "<big><b>Starting Software Updater</b></big>"
+#~ msgstr "<big><b>प्रणाली बॅटरीवर सुरु आहे.</b></big>"
+
+#~ msgid "Chec_k"
+#~ msgstr "खूण करा"
+
+#~ msgid "_Hide this information in the future"
+#~ msgstr "ही माहिती यापुढे दाखवू नका."
+
+#~ msgid "Co_ntinue"
+#~ msgstr "पुढे चला."
+
+#~ msgid "<big><b>Running on battery</b></big>"
+#~ msgstr "<big><b>प्रणाली बॅटरीवर सुरु आहे.</b></big>"
+
+#~ msgid ""
+#~ "Your system is running on battery. Are you sure you want to continue?"
+#~ msgstr "तुमची प्रणाली बॅटरीवर चालत आहे. पुढे चालू द्यावे का?"
+
+#~ msgid "_Upgrade"
+#~ msgstr "अपग्रेड"
+
+#~ msgid "Show progress of individual files"
+#~ msgstr "प्रत्येक फाईलची प्रगती दाखवा."
+
+#, fuzzy
+#~ msgid "Starting Software Updater"
+#~ msgstr "अपडेट व्यवस्थापक सुरु होत आहे."
+
+#~ msgid "U_pgrade"
+#~ msgstr "अपग्रेड"
+
+#~ msgid ""
+#~ "<b>A new version of Ubuntu is available. Would you like to upgrade?</b>"
+#~ msgstr "<b>उबुंटूचे नवीन वर्जन उपलब्ध आहे. अपग्रेड करायचे का?</b>"
+
+#~ msgid "Don't Upgrade"
+#~ msgstr "अपग्रेड करू नका."
+
+#~ msgid "Yes, Upgrade Now"
+#~ msgstr "हो, आता अपग्रेड करा."
+
+#~ msgid "You have declined to upgrade to the new Ubuntu"
+#~ msgstr "तुम्ही नवीन उबुंटूला अपग्रेड करायला नकार दिला आहे."
+
+#, fuzzy
+#~ msgid ""
+#~ "You can upgrade at a later time by opening Software Updater and click on "
+#~ "\"Upgrade\"."
+#~ msgstr ""
+#~ "तुम्ही नंतर कधीही अपडेट व्यवस्थापक उघडून \"अपग्रेड\" वर क्लिक करून अपग्रेड करू शकता."
+
+#~ msgid "No new release found"
+#~ msgstr "एकही नवीन रिलीज मिळाली नाही."
+
+#, c-format
+#~ msgid "New release '%s' available."
+#~ msgstr "नवीन रिलीज %s उपलब्ध आहे."
+
+#~ msgid "Run 'do-release-upgrade' to upgrade to it."
+#~ msgstr "त्याला अपग्रेड करण्यासाठी 'do-release-upgrade' चालवा."
+
+#~ msgid "Ubuntu %(version)s Upgrade Available"
+#~ msgstr "उबुंटू %s(वर्जन) अपग्रेड उपलब्ध"
+
+#, c-format
+#~ msgid "You have declined the upgrade to Ubuntu %s"
+#~ msgstr "तुम्ही उबुंटूला अपग्रेड करण्यास नकार करत आहात. %s"
+
+#~ msgid "Update Manager"
+#~ msgstr "अपडेट व्यवस्थापक"
+
+#~ msgid "Checking for a new ubuntu release"
+#~ msgstr "उबुंटूची नवीन रिलीज शोधात आहे."
+
+#~ msgid ""
+#~ "This upgrade is running in sandbox (test) mode. All changes are written "
+#~ "to '%s' and will be lost on the next reboot.\n"
+#~ "\n"
+#~ "*No* changes written to a systemdir from now until the next reboot are "
+#~ "permanent."
+#~ msgstr ""
+#~ "हे अपग्रेड sandbox (test) मोड मध्ये चालु आहे. सर्व बदल '%s' मध्ये लिहिले आहेत आणि "
+#~ "पुढील रीबूट च्या वेळी ते सर्व पुसून टाकले जातील.\n"
+#~ "\n"
+#~ "कोणत्याही systemdir ला आतापासून ते पुढील रीबूट पर्यंत कोणतेच बदल लिहिले जाणार "
+#~ "नाहीत व ते कायमस्वरूपी राहतील."

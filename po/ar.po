@@ -1,0 +1,2398 @@
+# translation of po_update-manager-ar.po to Arabic
+# Arabic translation for update-manager
+# Copyright (c) (c) 2006 Canonical Ltd, and Rosetta Contributors 2006
+# This file is distributed under the same license as the update-manager package.
+#
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2006.
+# OsamaKhalid <osamak.wfm@gmail.com>, 2009.
+#: ../UpdateManager/UpdatesAvailable.py:847
+msgid ""
+msgstr ""
+"Project-Id-Version: po_update-manager-ar\n"
+"Report-Msgid-Bugs-To: sebastian.heinlein@web.de\n"
+"POT-Creation-Date: 2021-12-07 16:54-0800\n"
+"PO-Revision-Date: 2012-04-17 08:34+0000\n"
+"Last-Translator: Ibrahim Saed <ibraheem5000@gmail.com>\n"
+"Language-Team: Arabic\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n % 100 >= "
+"3 && n % 100 <= 10 ? 3 : n % 100 >= 11 && n % 100 <= 99 ? 4 : 5;\n"
+"X-Launchpad-Export-Date: 2012-04-17 13:41+0000\n"
+"X-Generator: Launchpad (build 15099)\n"
+
+#: ../UpdateManager/backend/InstallBackendAptdaemon.py:150
+#, fuzzy
+msgid "Checking for updates…"
+msgstr "التمس تحديثات"
+
+#: ../UpdateManager/backend/InstallBackendAptdaemon.py:200
+#: ../UpdateManager/backend/InstallBackendAptdaemon.py:256
+#: ../UpdateManager/backend/InstallBackendAptdaemon.py:287
+#, fuzzy
+msgid "Installing updates…"
+msgstr "_ثبت التحديثات"
+
+#: ../UpdateManager/backend/InstallBackendSynaptic.py:39
+msgid "Please wait, this can take some time."
+msgstr "رجاء انتظر، قد يستغرق هذا وقتا"
+
+#: ../UpdateManager/backend/InstallBackendSynaptic.py:41
+msgid "Update is complete"
+msgstr "لقد انتهت عملية التحديث"
+
+#: ../UpdateManager/backend/__init__.py:277
+msgid "Updating snaps"
+msgstr ""
+
+#: ../UpdateManager/backend/__init__.py:304
+#, python-format
+msgid "Refreshing %s snap"
+msgstr ""
+
+#: ../UpdateManager/backend/__init__.py:310
+#, fuzzy, python-format
+msgid "Removing %s snap"
+msgstr "أزل %s"
+
+#: ../UpdateManager/backend/__init__.py:315
+#, fuzzy, python-format
+msgid "Installing %s snap"
+msgstr "ثبّت %s"
+
+#: ../UpdateManager/backend/__init__.py:324
+#, fuzzy
+msgid "Upgrade only partially completed."
+msgstr "انتهت الترقية"
+
+#: ../UpdateManager/backend/__init__.py:325
+#, fuzzy
+msgid ""
+"An error occurred while updating snaps. Please check your network connection."
+msgstr ""
+"طرأت مشكلة أثناء التحديث. عادة ما يكون هذا نتيجة مشكلة ما في الشبكة، تحقق من "
+"اتصالك الشبكي وحاول مجددا."
+
+#: ../UpdateManager/ChangelogViewer.py:83
+msgid "Open Link in Browser"
+msgstr "افتح الرابط في المتصفح"
+
+#: ../UpdateManager/ChangelogViewer.py:87
+msgid "Copy Link to Clipboard"
+msgstr "انسخ الرابط إلى الحافظة"
+
+#: ../UpdateManager/Dialogs.py:126
+#, fuzzy
+msgid "Settings…"
+msgstr "الإ_عدادات..."
+
+#: ../UpdateManager/Dialogs.py:171
+msgid ""
+"<b>Tip:</b> You can use Livepatch to keep your computer more secure between "
+"restarts."
+msgstr ""
+
+#: ../UpdateManager/Dialogs.py:174
+msgid "Settings & Livepatch…"
+msgstr ""
+
+#: ../UpdateManager/Dialogs.py:188
+#, python-format
+msgid "%d Livepatch update applied since the last restart."
+msgid_plural "%d Livepatch updates applied since the last restart."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: ../UpdateManager/Dialogs.py:196
+#, python-format
+msgid "%d Livepatch update failed to apply since the last restart."
+msgid_plural "%d Livepatch updates failed to apply since the last restart."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: ../UpdateManager/Dialogs.py:218 ../UpdateManager/UpdateManager.py:292
+#, fuzzy
+msgid "You stopped the check for updates."
+msgstr "لا تلتمس التحديثات عند البدء"
+
+#: ../UpdateManager/Dialogs.py:220
+msgid "_Check Again"
+msgstr ""
+
+#: ../UpdateManager/Dialogs.py:232
+#, fuzzy
+msgid "No software updates are available."
+msgstr "تتوفر تحديثات برمجيات لهذا الحاسوب."
+
+#: ../UpdateManager/Dialogs.py:234 ../UpdateManager/Dialogs.py:245
+msgid "The software on this computer is up to date."
+msgstr "البرمجيات على هذا الحاسوب مُحدّثة."
+
+#. Translators: these are Ubuntu version names like "Ubuntu 12.04"
+#: ../UpdateManager/Dialogs.py:247
+#, python-format
+msgid "However, %s %s is now available (you have %s)."
+msgstr ""
+
+#: ../UpdateManager/Dialogs.py:252
+#, fuzzy
+msgid "Upgrade…"
+msgstr "رقّ"
+
+#: ../UpdateManager/Dialogs.py:272
+#, fuzzy
+msgid "New important security and hardware support update."
+msgstr "تحديثات أمنية مهمّة"
+
+#: ../UpdateManager/Dialogs.py:280
+#, fuzzy
+msgid "_Install…"
+msgstr "ثبّت"
+
+#. Translators: this is an Ubuntu version name like "Ubuntu 12.04"
+#: ../UpdateManager/Dialogs.py:292
+#, fuzzy, python-format
+msgid "Software updates are no longer provided for %s %s."
+msgstr "تتوفر تحديثات برمجيات لهذا الحاسوب."
+
+#. Translators: this is an Ubuntu version name like "Ubuntu 12.04"
+#: ../UpdateManager/Dialogs.py:296
+#, python-format
+msgid "To stay secure, you should upgrade to %s %s."
+msgstr ""
+
+#: ../UpdateManager/Dialogs.py:309
+msgid "Sorry, there are no more upgrades for this system"
+msgstr ""
+
+#. Translators: this is an Ubuntu version name like "Ubuntu 12.04"
+#: ../UpdateManager/Dialogs.py:311
+#, python-format
+msgid ""
+"\n"
+"There will not be any further Ubuntu releases for this system's '%s' "
+"architecture.\n"
+"\n"
+"Updates for Ubuntu %s will continue until 2023-04-26.\n"
+"\n"
+"If you reinstall Ubuntu from ubuntu.com/download, future upgrades will be "
+"available."
+msgstr ""
+
+#: ../UpdateManager/Dialogs.py:325
+#, fuzzy
+msgid "Not all updates can be installed"
+msgstr "<big><b>تعذّر تثبيت كل التحديثات</b></big>"
+
+#: ../UpdateManager/Dialogs.py:327
+#, fuzzy
+msgid ""
+"Run a partial upgrade, to install as many updates as possible.\n"
+"\n"
+"    This can be caused by:\n"
+"     * A previous upgrade which didn't complete\n"
+"     * Problems with some of the installed software\n"
+"     * Unofficial software packages not provided by Ubuntu\n"
+"     * Normal changes of a pre-release version of Ubuntu"
+msgstr ""
+"شغّل ترقية جزئية لتنزيل أكبر عدد ممكن من التحديثات. \n"
+"\n"
+"قد يكون هذا بسبب:\n"
+" * ترقية سابقة لم تكتمل\n"
+" * مشاكل مع بعض البرمجيات المثبتة\n"
+" * حزم برمجيات غير رسمية ليست من أبونتو\n"
+" * تغييرات عادية في نسخة ما قبل الإصدار من أبونتو"
+
+#: ../UpdateManager/Dialogs.py:335
+msgid "_Partial Upgrade"
+msgstr "ترقية _جزئية"
+
+#: ../UpdateManager/Dialogs.py:336
+msgid "_Continue"
+msgstr "ا_ستمر"
+
+#: ../UpdateManager/Dialogs.py:372
+msgid "_Try Again"
+msgstr ""
+
+#: ../UpdateManager/Dialogs.py:386
+#, fuzzy
+msgid "The computer needs to restart to finish installing updates."
+msgstr ""
+"يحتاج الحاسوب لإعادة التشغيل لتطبيق التحديثات. من فضلك احفظ عملك قبل "
+"المواصلة."
+
+#: ../UpdateManager/Dialogs.py:388
+#, fuzzy
+msgid "Restart _Later"
+msgstr "إعادة التشغيل مطلوبة"
+
+#: ../UpdateManager/Dialogs.py:390
+msgid "_Restart Now"
+msgstr "أ_عد التشغيل الآن"
+
+#. Basic GTK+ parameters
+#: ../UpdateManager/UpdateManager.py:96 ../data/update-manager.desktop.in.h:1
+#: ../data/update-manager.appdata.xml.in.h:1
+#, fuzzy
+msgid "Software Updater"
+msgstr "تحديثات البرمجيات"
+
+#: ../UpdateManager/UpdateManager.py:290
+msgid "Some software couldn’t be checked for updates."
+msgstr ""
+
+#: ../UpdateManager/UpdateManager.py:293
+msgid "Updated software is available from a previous check."
+msgstr ""
+
+#. we assert a clean cache
+#: ../UpdateManager/UpdateManager.py:400
+msgid "Software index is broken"
+msgstr "فهرس البرمجيات تالف"
+
+#: ../UpdateManager/UpdateManager.py:401
+msgid ""
+"It is impossible to install or remove any software. Please use the package "
+"manager \"Synaptic\" or run \"sudo apt-get install -f\" in a terminal to fix "
+"this issue at first."
+msgstr ""
+"لا يمكن تثبيت أو إزالة أي برمجيات. استخدم مدير الحزم \"Synaptic\" أو شغل "
+"\"sudo apt-get install -f\" في مرقاب لمحاولة إصلاح هذه المشكلة أولا."
+
+#: ../UpdateManager/UpdateManager.py:408
+msgid "Could not initialize the package information"
+msgstr "تعذّر تمهيد معلومات الحزم"
+
+#: ../UpdateManager/UpdateManager.py:409
+msgid ""
+"An unresolvable problem occurred while initializing the package "
+"information.\n"
+"\n"
+"Please report this bug against the 'update-manager' package and include the "
+"following error message:\n"
+msgstr ""
+"مشكلة غير قابلة للحل صودفت أثناء تمهيد معلومات الحزم.\n"
+"\n"
+"من فضلك أبلغ هذه العلة لحزمة 'update-manager' وضمّن رسالة الخطأ التالية:\n"
+
+#: ../UpdateManager/UpdateManager.py:437
+msgid "Could not calculate the upgrade"
+msgstr "تعذّر حساب الترقية"
+
+#: ../UpdateManager/UpdateManager.py:438
+#, fuzzy
+msgid ""
+"An unresolvable problem occurred while calculating the upgrade.\n"
+"\n"
+"Please report this bug against the 'update-manager' package and include the "
+"following error message:\n"
+msgstr ""
+"مشكلة غير قابلة للحل صودفت أثناء إحصاء الترقية.\n"
+"\n"
+"من فضلك أبلغ هذه العلة للحزمة 'update-manager' وضمّن رسالة الخطأ التالية:"
+
+#: ../UpdateManager/UpdatesAvailable.py:252
+#, fuzzy
+msgid "Install Now"
+msgstr "ثبّت"
+
+#: ../UpdateManager/UpdatesAvailable.py:285
+#, fuzzy
+msgid "Install or remove"
+msgstr "ثبّت"
+
+#: ../UpdateManager/UpdatesAvailable.py:319
+msgid "Download"
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:378
+#, fuzzy
+msgid "_Remind Me Later"
+msgstr "اسألني لاحقا"
+
+#. upload_archive = version_match.group(2).strip()
+#: ../UpdateManager/UpdatesAvailable.py:515
+#, python-format
+msgid "Version %s: \n"
+msgstr "الإصدار %s: \n"
+
+#: ../UpdateManager/UpdatesAvailable.py:580
+msgid ""
+"No network connection detected, you can not download changelog information."
+msgstr "لا يوجد اتصال بالشبكة، لن تستطيع الحصول على معلومات التغيير."
+
+#: ../UpdateManager/UpdatesAvailable.py:590
+msgid "Downloading list of changes..."
+msgstr "ينزّل قائمة التغييرات..."
+
+#: ../UpdateManager/UpdatesAvailable.py:634
+msgid "_Deselect All"
+msgstr "أ_زِل التحديد عن الكل"
+
+#: ../UpdateManager/UpdatesAvailable.py:640
+msgid "Select _All"
+msgstr "حدّد ال_كل"
+
+#: ../UpdateManager/UpdatesAvailable.py:736
+#, python-format
+msgid "%s will be downloaded."
+msgstr "سينزل %s"
+
+#: ../UpdateManager/UpdatesAvailable.py:750
+#, fuzzy
+msgid "The update has already been downloaded."
+msgid_plural "The updates have already been downloaded."
+msgstr[0] "تم تنزي التحديثات ولكن لم تُثبّت."
+msgstr[1] "تم تنزيل تحديث واحد، ولكن لم يُثبّت."
+msgstr[2] "تم تنزيل تحديثين، ولكن لم يُثبّتا."
+msgstr[3] "تم تنزيل التحديثات، ولكن لم تُثبّت."
+msgstr[4] "تم تنزيل التحديثات، ولكن لم تُثبّت."
+msgstr[5] "تم تنزيل التحديثات، ولكن لم تُثبّت."
+
+#: ../UpdateManager/UpdatesAvailable.py:756
+msgid "There are no updates to install."
+msgstr "لا توجد تحديثات للتثبيت."
+
+#: ../UpdateManager/UpdatesAvailable.py:765
+msgid "Unknown download size."
+msgstr "حجم التنزيل مجهول"
+
+#: ../UpdateManager/UpdatesAvailable.py:792
+#, python-format
+msgid ""
+"Updated software has been issued since %s %s was released. Do you want to "
+"install it now?"
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:797
+msgid ""
+"Updated software is available for this computer. Do you want to install it "
+"now?"
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:800
+#, fuzzy
+msgid ""
+"The computer also needs to restart to finish installing previous updates."
+msgstr ""
+"يحتاج الحاسوب لإعادة التشغيل لتطبيق التحديثات. من فضلك احفظ عملك قبل "
+"المواصلة."
+
+#. print("on_button_install_clicked")
+#: ../UpdateManager/UpdatesAvailable.py:830
+msgid "Not enough free disk space"
+msgstr "لا توجد مساحة كافية على القرص"
+
+#: ../UpdateManager/UpdatesAvailable.py:831
+#, fuzzy, python-format
+msgid ""
+"The upgrade needs a total of %s free space on disk '%s'. Please free at "
+"least an additional %s of disk space on '%s'. %s"
+msgstr ""
+"يحتاج التحديث مجموع %s مساحة فارغة على القرص '%s'. من فضلك حرّر على الأقل %s "
+"إضافي من مساحة القرص على '%s'. أفرغ مهملاك وأزل الحزم المؤقتة للتثبيتات "
+"السابقة باستخدام 'sudo apt-get clean'."
+
+#. specific ways to resolve lack of free space
+#: ../UpdateManager/UpdatesAvailable.py:836
+msgid ""
+"Remove temporary packages of former installations using 'sudo apt clean'."
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:838
+msgid ""
+"You can remove old kernels using 'sudo apt autoremove', and you could also "
+"set COMPRESS=xz in /etc/initramfs-tools/initramfs.conf to reduce the size of "
+"your initramfs."
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:843
+#, fuzzy
+msgid ""
+"Empty your trash and remove temporary packages of former installations using "
+"'sudo apt clean'."
+msgstr ""
+"يحتاج التحديث مجموع %s مساحة فارغة على القرص '%s'. من فضلك حرّر على الأقل %s "
+"إضافي من مساحة القرص على '%s'. أفرغ مهملاك وأزل الحزم المؤقتة للتثبيتات "
+"السابقة باستخدام 'sudo apt-get clean'."
+
+#: ../UpdateManager/UpdatesAvailable.py:846
+msgid "Reboot to clean up files in /tmp."
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:888
+msgid "Connecting..."
+msgstr "يتصل..."
+
+#: ../UpdateManager/UpdatesAvailable.py:904
+msgid "You may not be able to check for updates or download new updates."
+msgstr "قد لا تستطيع التماس التحديثات أو تنزيل تحديثات جديدة."
+
+#: ../UpdateManager/UpdatesAvailable.py:1056
+msgid "Improved hardware support"
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:1060
+#, fuzzy
+msgid "Security updates"
+msgstr "تحديثات أمنية مهمّة"
+
+#: ../UpdateManager/UpdatesAvailable.py:1064
+msgid "Other updates"
+msgstr "تحديثات أخرى"
+
+#: ../UpdateManager/UpdatesAvailable.py:1067
+msgid "Updates"
+msgstr "تحديثات"
+
+#: ../UpdateManager/UpdatesAvailable.py:1072
+msgid "Unused kernel updates to be removed"
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:1077
+#, fuzzy
+msgid "Duplicate packages to be removed"
+msgstr "لن تزال أية حزمة."
+
+#: ../UpdateManager/UnitySupport.py:70
+msgid "Install All Available Updates"
+msgstr "ثبّت جميع التحديثات المتوفرة"
+
+#: ../UpdateManager/Core/MyCache.py:417
+msgid "This update does not come from a source that supports changelogs."
+msgstr "هذا التحديث لا يأتي من مصدر يدعم سجل التغييرات."
+
+#: ../UpdateManager/Core/MyCache.py:423 ../UpdateManager/Core/MyCache.py:458
+msgid ""
+"Failed to download the list of changes. \n"
+"Please check your Internet connection."
+msgstr ""
+"فشل تنزيل قائمة التغييرات.\n"
+"افحص اتصالك بإنترنت."
+
+#: ../UpdateManager/Core/MyCache.py:430
+#, fuzzy, python-format
+msgid ""
+"Changes for %s versions:\n"
+"Installed version: %s\n"
+"Available version: %s\n"
+"\n"
+msgstr ""
+"التغييرات في الإصدارات:\n"
+"الإصدارة المُثبّتة: %s\n"
+"الإصدارة المُتوفرة: %s\n"
+"\n"
+
+#: ../UpdateManager/Core/MyCache.py:444
+#, python-format
+msgid ""
+"The changelog does not contain any relevant changes.\n"
+"\n"
+"Please use http://launchpad.net/ubuntu/+source/%s/%s/+changelog\n"
+"until the changes become available or try again later."
+msgstr ""
+"لا يحتوي سجل التغييرات أي تغييرات متعلقة.\n"
+"\n"
+"من فضلك استخدم http://launchpad.net/ubuntu/+source/%s/%s/+changelog\n"
+"حتى تتوفر التغييرات أو حاول مجددا لاحقا."
+
+#: ../UpdateManager/Core/MyCache.py:451
+#, python-format
+msgid ""
+"The list of changes is not available yet.\n"
+"\n"
+"Please use http://launchpad.net/ubuntu/+source/%s/%s/+changelog\n"
+"until the changes become available or try again later."
+msgstr ""
+"قائمة التغييرات ليست متاحة بعد.\n"
+"\n"
+"من فضلك استخدام http://launchpad.net/ubuntu/+source/%s/%s/+changelog\n"
+"حتى تتوفر التغييرات أو حاول مجددا لاحقا."
+
+#. Translators: the %s is a distro name, like 'Ubuntu' and 'base' as in
+#. the core components and packages.
+#: ../UpdateManager/Core/UpdateList.py:175
+#, python-format
+msgid "%s base"
+msgstr ""
+
+#. TRANSLATORS: download size of small updates, e.g. "250 kB"
+#: ../UpdateManager/Core/utils.py:483
+#, python-format
+msgid "%(size).0f kB"
+msgid_plural "%(size).0f kB"
+msgstr[0] "%(size).0f ك.بايت"
+msgstr[1] "%(size).0f ك.بايت"
+msgstr[2] "%(size).0f ك.بايت"
+msgstr[3] "%(size).0f ك.بايت"
+msgstr[4] "%(size).0f ك.بايت"
+msgstr[5] "%(size).0f ك.بايت"
+
+#. TRANSLATORS: download size of updates, e.g. "2.3 MB"
+#: ../UpdateManager/Core/utils.py:487
+#, python-format
+msgid "%.1f MB"
+msgstr "%.1f م.بايت"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:1
+msgid "updates"
+msgstr "تحديثات"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:2
+msgid "Changes"
+msgstr "التغييرات"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:3
+msgid "Description"
+msgstr "الوصف"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:4
+#, fuzzy
+msgid "Technical description"
+msgstr "الوصف"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:5
+#, fuzzy
+msgid "Details of updates"
+msgstr "وصف التحديث"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:6
+msgid "The computer will need to restart."
+msgstr ""
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:7
+msgid ""
+"You are connected via roaming and may be charged for the data consumed by "
+"this update."
+msgstr ""
+"أنت متصل عبر التجوال ومن الممكن أن تحاسب على البيانات المستهلكة خلال هذا "
+"التحديث."
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:8
+msgid ""
+"You may want to wait until you’re not using a mobile broadband connection."
+msgstr ""
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:9
+msgid "It’s safer to connect the computer to AC power before updating."
+msgstr "إنه أكثر أماناً إذا وصلت حاسوبك بمنفذ الطاقة قبل البدء في التحديث."
+
+#: ../data/update-manager.desktop.in.h:2
+msgid "Software Updates"
+msgstr "تحديثات البرمجيات"
+
+#: ../data/update-manager.desktop.in.h:3
+#: ../data/update-manager.appdata.xml.in.h:2
+msgid "Show and install available updates"
+msgstr "أظهر وثبت التحديثات المتوفرة"
+
+#: ../data/update-manager.appdata.xml.in.h:3
+msgid ""
+"Software Updater checks for updates using apt and let you choose which "
+"updates to install."
+msgstr ""
+
+#: ../update-manager:71
+msgid "Show version and exit"
+msgstr "اعرض الإصدارة واخرج"
+
+#: ../update-manager:74
+msgid "Directory that contains the data files"
+msgstr "المجلد الذي يحتوي ملفات البيانات"
+
+#: ../update-manager:77
+msgid "Check if a new Ubuntu release is available"
+msgstr "التمس وجود إصدارة جديدة من أوبونتو"
+
+#: ../update-manager:80
+msgid ""
+"If using the latest supported release, upgrade to the development release"
+msgstr ""
+
+#: ../update-manager:84
+msgid "Upgrade using the latest proposed version of the release upgrader"
+msgstr "رقّ باستخدام آخر نسخة موصى بها لمرقي الإصدار"
+
+#. TRANSLATORS: this describes the "focus-on-map" gtk
+#. property that controls if a new window takes the
+#. input focus control when it is displayed for the
+#. first time (see also the gtk devhelp page)
+#: ../update-manager:91
+msgid "Do not focus on map when starting"
+msgstr "لا تركز على الخريطة عند البدء"
+
+#: ../update-manager:94
+msgid "Do not check for updates when starting"
+msgstr "لا تلتمس التحديثات عند البدء"
+
+#: ../update-manager:96
+msgid "Show debug messages"
+msgstr ""
+
+#. Why do we use %s here instead of $strings or {} format placeholders?
+#. It's because we don't want to break existing translations.
+#: ../janitor/plugincore/exceptions.py:43
+#, python-format
+msgid "Unimplemented method: %s"
+msgstr "طريقة غير مطبقة: %s"
+
+#: ../janitor/plugincore/core/file_cruft.py:41
+msgid "A file on disk"
+msgstr "ملف على القرص"
+
+#: ../janitor/plugincore/core/missing_package_cruft.py:40
+msgid "Install missing package."
+msgstr "ثبّت الحزم الناقصة"
+
+#. 2012-06-08 BAW: i18n string; don't use {} or PEP 292.
+#: ../janitor/plugincore/core/missing_package_cruft.py:50
+#, python-format
+msgid "Package %s should be installed."
+msgstr "يجب تثبيت الحزمة %s"
+
+#: ../janitor/plugincore/core/package_cruft.py:50
+msgid ".deb package"
+msgstr "حزمة .deb"
+
+#: ../janitor/plugincore/plugins/langpack_manual_plugin.py:47
+#, python-format
+msgid "%s needs to be marked as manually installed."
+msgstr "%s تحتاج لتأشيرها على أنها مُثبَّتة يدويا."
+
+#: ../janitor/plugincore/plugins/kdelibs4to5_plugin.py:50
+msgid ""
+"When upgrading, if kdelibs4-dev is installed, kdelibs5-dev needs to be "
+"installed. See bugs.launchpad.net, bug #279621 for details."
+msgstr ""
+"أثناء الترقية، إذا كانت kdelibs4-dev مثبّتة فستحتج تثبيت kdelibs5-dev. راجع "
+"bugs.launchpad.net، علة رقم #279621 لمزيد من التفاصيل."
+
+#: ../janitor/plugincore/plugins/dpkg_status_plugin.py:45
+#, python-format
+msgid "%i obsolete entries in the status file"
+msgstr "%i مدخلات قديمة في ملف الحالة"
+
+#: ../janitor/plugincore/plugins/dpkg_status_plugin.py:48
+msgid "Obsolete entries in dpkg status"
+msgstr "مدخلات قديمة في حالة dpkg"
+
+#. pragma: no cover
+#: ../janitor/plugincore/plugins/dpkg_status_plugin.py:51
+msgid "Obsolete dpkg status entries"
+msgstr "مدخلات قديمة في حالة dpkg"
+
+#: ../janitor/plugincore/plugins/remove_lilo_plugin.py:43
+msgid "Remove lilo since grub is also installed.(See bug #314004 for details.)"
+msgstr "أزٍل lilo حيث أن grub مثبّت. (راجع العلة #314004 لمزيد من التفاصيل)"
+
+#, python-format
+#~ msgid "Server for %s"
+#~ msgstr "خادوم %s"
+
+#~ msgid "Main server"
+#~ msgstr "الخادوم الرئيسي"
+
+#~ msgid "Custom servers"
+#~ msgstr "خواديم مخصصة"
+
+#~ msgid "Could not calculate sources.list entry"
+#~ msgstr "تعذر حساب مدخلة source.list"
+
+#~ msgid ""
+#~ "Unable to locate any package files, perhaps this is not a Ubuntu Disc or "
+#~ "the wrong architecture?"
+#~ msgstr "تعذّر إيجاد أي ملفات حزم، لعل هذا ليس قرص أوبونتو أو البنية الخطأ؟"
+
+#~ msgid "Failed to add the CD"
+#~ msgstr "فشلت إضافة الاسطوانة"
+
+#, python-format
+#~ msgid ""
+#~ "There was a error adding the CD, the upgrade will abort. Please report "
+#~ "this as a bug if this is a valid Ubuntu CD.\n"
+#~ "\n"
+#~ "The error message was:\n"
+#~ "'%s'"
+#~ msgstr ""
+#~ "حدث خطأ بإضافة القرص، ستلغى عملية الترقية. من فضلك قم بالإبلاغ عن هذا "
+#~ "كعلّة إذا كانت هذه إسطوانة صالحة لأوبونتو.\n"
+#~ "\n"
+#~ "رسالة الخطأ كانت:\n"
+#~ "'%s'"
+
+#~ msgid "Remove package in bad state"
+#~ msgid_plural "Remove packages in bad state"
+#~ msgstr[0] "أزل الحزمة التي في حالة سيئة"
+#~ msgstr[1] "أزل الحزمة التي في حالة سيئة"
+#~ msgstr[2] "أزل الحزمتين اللتين في حالة سيئة"
+#~ msgstr[3] "أزل الحزم التي في حالة سيئة"
+#~ msgstr[4] "أزل الحزم التي في حالة سيئة"
+#~ msgstr[5] "أزل الحزم التي في حالة سيئة"
+
+#, python-format
+#~ msgid ""
+#~ "The package '%s' is in an inconsistent state and needs to be reinstalled, "
+#~ "but no archive can be found for it. Do you want to remove this package "
+#~ "now to continue?"
+#~ msgid_plural ""
+#~ "The packages '%s' are in an inconsistent state and need to be "
+#~ "reinstalled, but no archives can be found for them. Do you want to remove "
+#~ "these packages now to continue?"
+#~ msgstr[0] ""
+#~ "حالة الحزمة '%s' متضاربة وتحتاج أن يعاد تثبيتها، لكن لا أرشيف وجد لها. "
+#~ "أتريد إزالة هذه الحزمة الآن للمتابعة؟"
+#~ msgstr[1] ""
+#~ "حالة الحزمة '%s' متضاربة وتحتاج أن يعاد تثبيتها، لكن لا أرشيف وجد لها. "
+#~ "أتريد إزالة هذه الحزمة الآن للمتابعة؟"
+#~ msgstr[2] ""
+#~ "حالة الحزمتين '%s' متضاربة وتحتاجان أن يعاد تثبيتهما، لكن لا أرشيف وجد "
+#~ "لهما. أتريد إزالة هذين الحزمتين الآن للمتابعة؟"
+#~ msgstr[3] ""
+#~ "حالة الحزم '%s' متضاربة وتحتاج أن يعاد تثبيتها، لكن لا أرشيف وجد لها. "
+#~ "أتريد إزالة هذه الحزم الآن للمتابعة؟"
+#~ msgstr[4] ""
+#~ "حالة الحزم '%s' متضاربة وتحتاج أن يعاد تثبيتها، لكن لا أرشيف وجد لها. "
+#~ "أتريد إزالة هذه الحزم الآن للمتابعة؟"
+#~ msgstr[5] ""
+#~ "حالة الحزم '%s' متضاربة وتحتاج أن يعاد تثبيتها، لكن لا أرشيف وجد لها. "
+#~ "أتريد إزالة هذه الحزم الآن للمتابعة؟"
+
+#~ msgid "The server may be overloaded"
+#~ msgstr "قد يكون الخادوم مثقلاً."
+
+#~ msgid "Broken packages"
+#~ msgstr "حزم معطوبة"
+
+#~ msgid ""
+#~ "Your system contains broken packages that couldn't be fixed with this "
+#~ "software. Please fix them first using synaptic or apt-get before "
+#~ "proceeding."
+#~ msgstr ""
+#~ "نظامك يحوي حزما مكسورة لا يمكن إصلاحها بهذه البرمجية. أصلحها مستخدما "
+#~ "سينابتك أو apt-get قبل المواصلة."
+
+#, python-format
+#~ msgid ""
+#~ "An unresolvable problem occurred while calculating the upgrade:\n"
+#~ "%s\n"
+#~ "\n"
+#~ " This can be caused by:\n"
+#~ " * Upgrading to a pre-release version of Ubuntu\n"
+#~ " * Running the current pre-release version of Ubuntu\n"
+#~ " * Unofficial software packages not provided by Ubuntu\n"
+#~ "\n"
+#~ msgstr ""
+#~ "صودفت مشكلة غير قابلة للحل أثناء إحصاء الترقية:\n"
+#~ "%s\n"
+#~ "\n"
+#~ " قد يكون هذا ناتج عن:\n"
+#~ " * الترقية إلى نسخة ما قبل الإصدار من أبونتو\n"
+#~ " * تشغيل نسخة ما قبل الإصدار الحالية من أبونتو\n"
+#~ " * حزم برمجيات غير رسمية ليست مقدمة من أبونتو\n"
+#~ "\n"
+
+#~ msgid "This is most likely a transient problem, please try again later."
+#~ msgstr "هذا على الأغلب عطل عابر، من فضلك حاول لاحقا."
+
+#~ msgid ""
+#~ "If none of this applies, then please report this bug using the command "
+#~ "'ubuntu-bug update-manager' in a terminal."
+#~ msgstr ""
+#~ "إذا لم ينطبق أيًا من هذا، رجاءً أبلغ عن هذه العلة باستخدام الأمر 'ubuntu-"
+#~ "bug update-manager' في الطرفية."
+
+#~ msgid "Error authenticating some packages"
+#~ msgstr "عطل في استيثاق بعض الحزم"
+
+#~ msgid ""
+#~ "It was not possible to authenticate some packages. This may be a "
+#~ "transient network problem. You may want to try again later. See below for "
+#~ "a list of unauthenticated packages."
+#~ msgstr ""
+#~ "تعذّر استيثاق بعض الحزم. قد تكون هذه مشكلة عابرة في الشبكة، وقد تفلح "
+#~ "المحاولة مجددا لاحقا. طالع قائمة الحزم غير المستوثقة أدناه."
+
+#, python-format
+#~ msgid ""
+#~ "The package '%s' is marked for removal but it is in the removal blacklist."
+#~ msgstr "الحزمة '%s' معلّمة للإزالة لكنها في قائمة الحذف السوداء."
+
+#, python-format
+#~ msgid "The essential package '%s' is marked for removal."
+#~ msgstr "الحزمة الأساسية '%s' معلّمة للإزالة."
+
+#, python-format
+#~ msgid "Trying to install blacklisted version '%s'"
+#~ msgstr "يحاول تثبيت نسخة في القائمة السوداء '%s'"
+
+#, python-format
+#~ msgid "Can't install '%s'"
+#~ msgstr "تعذّر تثبيت '%s'"
+
+#~ msgid ""
+#~ "It was impossible to install a required package. Please report this as a "
+#~ "bug using 'ubuntu-bug update-manager' in a terminal."
+#~ msgstr ""
+#~ "لقد كان من المستحيل تثبيت الحزمة المطلوبة. رجاءً أبلغ عن هذا كعلّة باستخدام "
+#~ "الأمر 'ubuntu-bug update-manager' في الطرفية."
+
+#~ msgid "Can't guess meta-package"
+#~ msgstr "تعذّرت معرفة الحزمة الفوقية"
+
+#~ msgid ""
+#~ "Your system does not contain a ubuntu-desktop, kubuntu-desktop, xubuntu-"
+#~ "desktop or edubuntu-desktop package and it was not possible to detect "
+#~ "which version of Ubuntu you are running.\n"
+#~ " Please install one of the packages above first using synaptic or apt-get "
+#~ "before proceeding."
+#~ msgstr ""
+#~ "نظامك لا يحتوي أيا من الحزم ubuntu-desktop أو kubuntu-desktop أو xubuntu-"
+#~ "desktop أو edubuntu-desktop و لم يمكن الكشف عن نسخة أوبونتو التي "
+#~ "تستعملها.\n"
+#~ " رجاءً ثبت إحدى الحزم المذكورة أعلاه باستخدام synaptic أو apt-get قبل "
+#~ "المواصلة."
+
+#~ msgid "Reading cache"
+#~ msgstr "يقرأ المخبئية"
+
+#~ msgid "Unable to get exclusive lock"
+#~ msgstr "تعذر الحصول على قفل حصري"
+
+#~ msgid ""
+#~ "This usually means that another package management application (like apt-"
+#~ "get or aptitude) already running. Please close that application first."
+#~ msgstr ""
+#~ "يعني هذا عادة أن تطبيق إدارة حزم آخر (مثل apt-get أو aptitude) يعمل "
+#~ "حالياً. رجاء أغلق ذاك التطبيق أولاً."
+
+#~ msgid "Upgrading over remote connection not supported"
+#~ msgstr "الترقية عبر اتصال بعيد غير مدعومة"
+
+#~ msgid ""
+#~ "You are running the upgrade over a remote ssh connection with a frontend "
+#~ "that does not support this. Please try a text mode upgrade with 'do-"
+#~ "release-upgrade'.\n"
+#~ "\n"
+#~ "The upgrade will abort now. Please try without ssh."
+#~ msgstr ""
+#~ "لقد قمت بتشغيل الترقية عبر اتصال الغطاء الأمني عن بعد مع واجهة لا تدعم "
+#~ "هذا. الرجاء محاولة ترقية في وضع النص مع'do-release-upgrade'.\n"
+#~ "\n"
+#~ "سيتم الخروج من عملية الترقية الآن. الرجاء المحاولة بدون الغطاء الأمني."
+
+#~ msgid "Continue running under SSH?"
+#~ msgstr "أتريد مواصلة العمل تحت SSH؟"
+
+#, python-format
+#~ msgid ""
+#~ "This session appears to be running under ssh. It is not recommended to "
+#~ "perform a upgrade over ssh currently because in case of failure it is "
+#~ "harder to recover.\n"
+#~ "\n"
+#~ "If you continue, an additional ssh daemon will be started at port '%s'.\n"
+#~ "Do you want to continue?"
+#~ msgstr ""
+#~ "يبدو أن هذه الجلسة تعمل خلال الغطاء الأمني. لا يوصَى بإجراء الترقية عبر "
+#~ "الغطاء الأمني حاليا لأنه في حال الفشل سيكون استرداده أصعب.\n"
+#~ "إذا استمررت، سيتم بدأ عفريت غطاء أمني إضافي على منفذ '%s'.\n"
+#~ "هل تريد الاستمرار؟"
+
+#~ msgid "Starting additional sshd"
+#~ msgstr "يشغّل sshd إضافي"
+
+#, python-format
+#~ msgid ""
+#~ "To make recovery in case of failure easier, an additional sshd will be "
+#~ "started on port '%s'. If anything goes wrong with the running ssh you can "
+#~ "still connect to the additional one.\n"
+#~ msgstr ""
+#~ "لتسهيل الإصلاح في حالة الفشل فإن sshd إضافيا سيُشغّل على المنفذ '%s'. إذا "
+#~ "حدث عطل في ssh المشتغل حاليا يمكنك الاتصال بالإضافي.\n"
+
+#, python-format
+#~ msgid ""
+#~ "If you run a firewall, you may need to temporarily open this port. As "
+#~ "this is potentially dangerous it's not done automatically. You can open "
+#~ "the port with e.g.:\n"
+#~ "'%s'"
+#~ msgstr ""
+#~ "إذا كان الجدار الناري يعمل، فربما تحتاج إلى فتح هذا المنفذ مؤقتاً. وحيث من "
+#~ "المحتمل أن يكون هذا خطراً لا يتم فتحه تقائياً. بإمكانك فتح المنفذ عن طريق:\n"
+#~ "'%s'"
+
+#~ msgid "Can not upgrade"
+#~ msgstr "تعذّرت الترقية"
+
+#, python-format
+#~ msgid "An upgrade from '%s' to '%s' is not supported with this tool."
+#~ msgstr "ترقية من '%s' إلى '%s' غير مدعومة بهذه الأداة."
+
+#~ msgid "Sandbox setup failed"
+#~ msgstr "فشل إعداد صندوق الرمل"
+
+#~ msgid "It was not possible to create the sandbox environment."
+#~ msgstr "تعذّر إنشاء بيئة محاطة (صندوق رمل)"
+
+#~ msgid "Sandbox mode"
+#~ msgstr "طور صندوق الرمل"
+
+#, python-format
+#~ msgid ""
+#~ "This upgrade is running in sandbox (test) mode. All changes are written "
+#~ "to '%s' and will be lost on the next reboot.\n"
+#~ "\n"
+#~ "*No* changes written to a system directory from now until the next reboot "
+#~ "are permanent."
+#~ msgstr ""
+#~ "هذه الترقية تعمل في نمط المرملة (الاختبار). جميع التغييرات تُكتب إلى '%s' "
+#~ "وستُفقد عند إعادة التشغيل التالي.\n"
+#~ "\n"
+#~ "*لن* تُكتب أي تغييرات إلى مجلد النظام من الآن حتى إعادة التشغيل التالي."
+
+#~ msgid ""
+#~ "Your python install is corrupted. Please fix the '/usr/bin/python' "
+#~ "symlink."
+#~ msgstr ""
+#~ "تثبيتة python الحالية معطوبة. رجاءً أصلح الرابط الرمزي '/usr/bin/python'."
+
+#~ msgid "Package 'debsig-verify' is installed"
+#~ msgstr "حزمة 'debsig-verify' مثبتة"
+
+#~ msgid ""
+#~ "The upgrade can not continue with that package installed.\n"
+#~ "Please remove it with synaptic or 'apt-get remove debsig-verify' first "
+#~ "and run the upgrade again."
+#~ msgstr ""
+#~ "لا يمكن مواصة الترقية و تلك الحزمة مثبّتة.\n"
+#~ "أزلها باستخدام synaptic أو 'apt-get' ثم أجر الترقية مجددا."
+
+#, python-format
+#~ msgid "Can not write to '%s'"
+#~ msgstr "لا يمكن الكتابة إلى '%s'"
+
+#, python-format
+#~ msgid ""
+#~ "Its not possible to write to the system directory '%s' on your system. "
+#~ "The upgrade can not continue.\n"
+#~ "Please make sure that the system directory is writable."
+#~ msgstr ""
+#~ "لا يمكن الكتابة إلى مُجلد النظام '%s' على نظامك. لا يُمكن مُتابعة الترقية.\n"
+#~ "رجاءً تأكد أن مُجلد النظام قابل للكتابة."
+
+#~ msgid "Include latest updates from the Internet?"
+#~ msgstr "أأضمن آخر التحديثات من الإنترنت؟"
+
+#~ msgid ""
+#~ "The upgrade system can use the internet to automatically download the "
+#~ "latest updates and install them during the upgrade.  If you have a "
+#~ "network connection this is highly recommended.\n"
+#~ "\n"
+#~ "The upgrade will take longer, but when it is complete, your system will "
+#~ "be fully up to date.  You can choose not to do this, but you should "
+#~ "install the latest updates soon after upgrading.\n"
+#~ "If you answer 'no' here, the network is not used at all."
+#~ msgstr ""
+#~ "نظام الترقية يمكن أن يستخدم الإنرتنت للتنزيل التلقائي لآخر التحديثات "
+#~ "ويثبتها أثناء الترقية. إذا كنت تمتلك اتصال شبكة هذا موصى به بشدة.\n"
+#~ "\n"
+#~ "الترقية سوف تستغرق وقتا أطول، لكن عندما تكتمل، سيكون نظامك محدث تماما. "
+#~ "تستطيع اختيار عدم فعل ذلك، لكن يتعيّن عليك تثبيت آخر التحديثات بعد الترقية "
+#~ "مباشرة.\n"
+#~ "إذا كانت إجابتك 'لا' هنا، لن تستخدم الشبكة مطلقا."
+
+#, python-format
+#~ msgid "disabled on upgrade to %s"
+#~ msgstr "عُطّل عند الترقية إلى %s"
+
+#~ msgid "No valid mirror found"
+#~ msgstr "لم يُعثر على مرآة صحيحة"
+
+#, python-format
+#~ msgid ""
+#~ "While scanning your repository information no mirror entry for the "
+#~ "upgrade was found. This can happen if you run a internal mirror or if the "
+#~ "mirror information is out of date.\n"
+#~ "\n"
+#~ "Do you want to rewrite your 'sources.list' file anyway? If you choose "
+#~ "'Yes' here it will update all '%s' to '%s' entries.\n"
+#~ "If you select 'No' the upgrade will cancel."
+#~ msgstr ""
+#~ "تعذر إيجاد مرآة للترقية أثناء البحث في معلومات المستودعات في حاسوبك. قد "
+#~ "يحدث هذا إن استخدمت مرآة داخلية أو إن كانت معلومات المرآة قديمة.\n"
+#~ "\n"
+#~ "هل تود التعديل على ملف 'sources.list' لديك على أية حال؟ إن أجبت ﺑ'نعم' "
+#~ "فستُحدّث كل '%s' إلى '%s'. وإن أجبت ﺑ'ﻻ' فستُلغى عملية الترقية."
+
+#~ msgid "Generate default sources?"
+#~ msgstr "أأولد المصادر المبدئية؟"
+
+#, python-format
+#~ msgid ""
+#~ "After scanning your 'sources.list' no valid entry for '%s' was found.\n"
+#~ "\n"
+#~ "Should default entries for '%s' be added? If you select 'No', the upgrade "
+#~ "will cancel."
+#~ msgstr ""
+#~ "تعذر إيجاد مدخلة صالحة لـ'%s' أثناء البحث في ملف 'sources.list' في "
+#~ "حاسوبك.\n"
+#~ "\n"
+#~ "هل تود إضافة المدخلات الافتراضية لـ'%s'؟ إن أجبت ﺑ'ﻻ' فستُلغى عملية "
+#~ "الترقية."
+
+#~ msgid "Repository information invalid"
+#~ msgstr "معلومات المستودع غير صحيحة"
+
+#~ msgid ""
+#~ "Upgrading the repository information resulted in a invalid file so a bug "
+#~ "reporting process is being started."
+#~ msgstr ""
+#~ "ترقية معلومات المستودعات أسفرت عن ملف غير صالح، لذلك يجري بدء عملية "
+#~ "للإبلاغ عن العلّة."
+
+#~ msgid "Third party sources disabled"
+#~ msgstr "مصادر الأطراف الخارجية عُطّلت"
+
+#~ msgid ""
+#~ "Some third party entries in your sources.list were disabled. You can re-"
+#~ "enable them after the upgrade with the 'software-properties' tool or your "
+#~ "package manager."
+#~ msgstr ""
+#~ "بعض مدخلات الأطراف الخارجية في sources.list قد عطلت. يمكنك إعادة تفعيلها "
+#~ "بعد الترقية، باستخدام أداة 'software-properties' في مدير الحزم."
+
+#~ msgid "Package in inconsistent state"
+#~ msgid_plural "Packages in inconsistent state"
+#~ msgstr[0] "لا حزم في حالة غير متسقة"
+#~ msgstr[1] "حزمة واحدة في حالة غير متسقة"
+#~ msgstr[2] "حزمتان في حالة غير متسقة"
+#~ msgstr[3] "حزم في حالة غير متسقة"
+#~ msgstr[4] "حزم في حالة غير متسقة"
+#~ msgstr[5] "حزم في حالة غير متسقة"
+
+#, python-format
+#~ msgid ""
+#~ "The package '%s' is in an inconsistent state and needs to be reinstalled, "
+#~ "but no archive can be found for it. Please reinstall the package manually "
+#~ "or remove it from the system."
+#~ msgid_plural ""
+#~ "The packages '%s' are in an inconsistent state and need to be "
+#~ "reinstalled, but no archive can be found for them. Please reinstall the "
+#~ "packages manually or remove them from the system."
+#~ msgstr[0] ""
+#~ "حالة الحزمة '%s' متضاربة وتحتاج أن يعاد تثبيتها، لكن لا أرشيف وجد لها. من "
+#~ "فضلك أعد تثبيت الحزمة يدويا أو أزلها من النظام."
+#~ msgstr[1] ""
+#~ "حالة الحزمة '%s' متضاربة وتحتاج أن يعاد تثبيتها، لكن لا أرشيف وجد لها. من "
+#~ "فضلك أعد تثبيت الحزمة يدويا أو أزلها من النظام."
+#~ msgstr[2] ""
+#~ "حالة الحزمتين '%s' متضاربة وتحتاجان أن يعاد تثبيتهما، لكن لا أرشيف وجد "
+#~ "لهما. من فضلك أعد تثبيت الحزمتين يدويا أو أزلهما من النظام."
+#~ msgstr[3] ""
+#~ "حالة الحزم '%s' متضاربة وتحتاج أن يعاد تثبيتها، لكن لا أرشيف وجد لها. من "
+#~ "فضلك أعد تثبيت الحزم يدويا أو أزلها من النظام."
+#~ msgstr[4] ""
+#~ "حالة الحزم '%s' متضاربة وتحتاج أن يعاد تثبيتها، لكن لا أرشيف وجد لها. من "
+#~ "فضلك أعد تثبيت الحزم يدويا أو أزلها من النظام."
+#~ msgstr[5] ""
+#~ "حالة الحزم '%s' متضاربة وتحتاج أن يعاد تثبيتها، لكن لا أرشيف وجد لها. من "
+#~ "فضلك أعد تثبيت الحزم يدويا أو أزلها من النظام."
+
+#~ msgid "Error during update"
+#~ msgstr "عطل أثناء التحديث"
+
+#, python-format
+#~ msgid ""
+#~ "The upgrade has aborted. The upgrade needs a total of %s free space on "
+#~ "disk '%s'. Please free at least an additional %s of disk space on '%s'. "
+#~ "Empty your trash and remove temporary packages of former installations "
+#~ "using 'sudo apt-get clean'."
+#~ msgstr ""
+#~ "لقد أُجهضت الترقية. تحتاج الترقية إلى %s مساحة خالية على القرص '%s'. من "
+#~ "فضلك أفرغ %s على الأقل من مساحة القرص '%s'. أفرغ المهملات وأزل الحزم "
+#~ "المؤقتة من التثبيتات السابقة باستخدام 'sudo apt-get clean'."
+
+#~ msgid "Calculating the changes"
+#~ msgstr "يحسب التغيرات"
+
+#~ msgid "Do you want to start the upgrade?"
+#~ msgstr "أتريد بدء التحديث الآن؟"
+
+#~ msgid "Upgrade canceled"
+#~ msgstr "أُلغيت الترقية"
+
+#~ msgid ""
+#~ "The upgrade will cancel now and the original system state will be "
+#~ "restored. You can resume the upgrade at a later time."
+#~ msgstr ""
+#~ "الترقية ستلغى وسيتم استعادة الحالة الأصلية للنظام. بإمكانك استئناف "
+#~ "الترقية في وقت لاحق."
+
+#~ msgid "Could not download the upgrades"
+#~ msgstr "تعذّر تنزيل الترقيات"
+
+#~ msgid ""
+#~ "The upgrade has aborted. Please check your Internet connection or "
+#~ "installation media and try again. All files downloaded so far have been "
+#~ "kept."
+#~ msgstr ""
+#~ "تم إلغاء الترقية . من فضلك إفحص إتصالك بالإنترنت أو قرص التثبيت وحاول مرة "
+#~ "أخرى. جميع الملفات المنزلة تم حفظها."
+
+#~ msgid "Error during commit"
+#~ msgstr "عطل أثناء الإيداع"
+
+#~ msgid "Restoring original system state"
+#~ msgstr "يسترجع الحالة الأصلية للنظام"
+
+#~ msgid "Could not install the upgrades"
+#~ msgstr "تعذّر تثبيت الترقيات"
+
+#~ msgid ""
+#~ "The upgrade has aborted. Your system could be in an unusable state. A "
+#~ "recovery will run now (dpkg --configure -a)."
+#~ msgstr ""
+#~ "لقد أُجهضت الترقية. قد يصبح نظامك في خالة غير مستقرة. سيُشغل الاستعفاء الآن "
+#~ "(dpkg --configure -a)."
+
+#, python-format
+#~ msgid ""
+#~ "\n"
+#~ "\n"
+#~ "Please report this bug in a browser at http://bugs.launchpad.net/ubuntu/"
+#~ "+source/update-manager/+filebug and attach the files in /var/log/dist-"
+#~ "upgrade/ to the bug report.\n"
+#~ "%s"
+#~ msgstr ""
+#~ "\n"
+#~ "\n"
+#~ "رجاءً أبلغ عن هذه العلّة من خلال المُتصفح على http://bugs.launchpad.net/"
+#~ "ubuntu/+source/update-manager/+filebug وأرفق الملفات الموجودة في /var/log/"
+#~ "dist-upgrade/ مع البلاغ.\n"
+#~ "%s"
+
+#~ msgid ""
+#~ "The upgrade has aborted. Please check your Internet connection or "
+#~ "installation media and try again. "
+#~ msgstr ""
+#~ "لقد أُجهضت الترقية. راجع الاتصال بالإنترت أو وسيط التثبيت ثم أعد المحاولة. "
+
+#~ msgid "Remove obsolete packages?"
+#~ msgstr "أأزيل الحزم المبطلة؟"
+
+#~ msgid "_Keep"
+#~ msgstr "ا_ستبق"
+
+#~ msgid "_Remove"
+#~ msgstr "أ_زل"
+
+#~ msgid ""
+#~ "A problem occurred during the clean-up. Please see the below message for "
+#~ "more information. "
+#~ msgstr "طرأت مشكلة أثناء التنظيف. طالع الرسالة أدناه لمزيد من المعلومات. "
+
+#~ msgid "Required depends is not installed"
+#~ msgstr "اعتمادات مطلوبة غير مثبتة"
+
+#, python-format
+#~ msgid "The required dependency '%s' is not installed. "
+#~ msgstr "الاعتمادية المطلوبة '%s' ليست مثبتة. "
+
+#~ msgid "Checking package manager"
+#~ msgstr "يفحص مدير الحزم"
+
+#~ msgid "Preparing the upgrade failed"
+#~ msgstr "فشل تجهيز الترقية"
+
+#~ msgid ""
+#~ "Preparing the system for the upgrade failed so a bug reporting process is "
+#~ "being started."
+#~ msgstr "فشل تحضير النظام للترقية، لذلك يجري بدء عملية للإبلاغ عن العلّة."
+
+#~ msgid "Getting upgrade prerequisites failed"
+#~ msgstr "فشل جلب متطلبات الترقية"
+
+#~ msgid ""
+#~ "The system was unable to get the prerequisites for the upgrade. The "
+#~ "upgrade will abort now and restore the original system state.\n"
+#~ "\n"
+#~ "Additionally, a bug reporting process is being started."
+#~ msgstr ""
+#~ "النظام غير قادر على الحصول على المتطلبات الأساسية للترقية. ستُلغى الآن "
+#~ "عملية الترقية وسيُعاد النظام للحالة الأصلية.\n"
+#~ "\n"
+#~ "بالإضافة إلى ذلك، يجري بدء عملية للإبلاغ عن العلّة."
+
+#~ msgid "Updating repository information"
+#~ msgstr "يحدّث معلومات المستودعات"
+
+#~ msgid "Failed to add the cdrom"
+#~ msgstr "فشل في إضافة القرص المدمج"
+
+#~ msgid "Sorry, adding the cdrom was not successful."
+#~ msgstr "عفواً، لم يتم إضافة القرص المدمج بنجاح."
+
+#~ msgid "Invalid package information"
+#~ msgstr "معلومات حزم غير صحيحة"
+
+#~ msgid "Fetching"
+#~ msgstr "يجلب"
+
+#~ msgid "Upgrading"
+#~ msgstr "تجري الترقية"
+
+#~ msgid ""
+#~ "The upgrade has completed but there were errors during the upgrade "
+#~ "process."
+#~ msgstr "الترقية اكتملت، ولكن كان هناك أخطاء أثناء عملية الترقية."
+
+#~ msgid "Searching for obsolete software"
+#~ msgstr "يبحث عن برمجيات قديمة"
+
+#~ msgid "System upgrade is complete."
+#~ msgstr "تمت ترقية النظام."
+
+#~ msgid "The partial upgrade was completed."
+#~ msgstr "انتهت الترقية الجزئية."
+
+#~ msgid "evms in use"
+#~ msgstr "evms قيد الاستخدام"
+
+#~ msgid ""
+#~ "Your system uses the 'evms' volume manager in /proc/mounts. The 'evms' "
+#~ "software is no longer supported, please switch it off and run the upgrade "
+#~ "again when this is done."
+#~ msgstr ""
+#~ "يستخدم نظامك مدير الصوت 'evms' في /proc/mounts. برمجيات 'evms' لم تعد "
+#~ "مدعومة، من فضلك أغلقه ونفذ الترقية مجددا عندما ينتهي."
+
+#~ msgid ""
+#~ "Your graphics hardware may not be fully supported in Ubuntu 12.04 LTS."
+#~ msgstr "قد يكون عتاد الرسوميات في جهازك غير مدعوم بالكامل في أوبنتو 12.04."
+
+#~ msgid ""
+#~ "The support in Ubuntu 12.04 LTS for your Intel graphics hardware is "
+#~ "limited and you may encounter problems after the upgrade. For more "
+#~ "information see https://wiki.ubuntu.com/X/Bugs/"
+#~ "UpdateManagerWarningForI8xx Do you want to continue with the upgrade?"
+#~ msgstr ""
+#~ "دعم أوبنتو 12.04 لعتاد الرسوميات في جهازك محدود وقد تواجه مشاكل بعد "
+#~ "الترقية. لمزيد من المعلومات انظر: https://wiki.ubuntu.com/X/Bugs/"
+#~ "UpdateManagerWarningForI8xx هل تود الاستمرار في الترقية؟"
+
+#~ msgid ""
+#~ "Upgrading may reduce desktop effects, and performance in games and other "
+#~ "graphically intensive programs."
+#~ msgstr ""
+#~ "قد تقلل الترقية من تأثيرات سطح المكتب، وأداء الألعاب وبرامج الرسوميات "
+#~ "المكثفة الأخرى."
+
+#~ msgid ""
+#~ "This computer is currently using the NVIDIA 'nvidia' graphics driver. No "
+#~ "version of this driver is available that works with your video card in "
+#~ "Ubuntu 10.04 LTS.\n"
+#~ "\n"
+#~ "Do you want to continue?"
+#~ msgstr ""
+#~ "يستخدم حاسوبك حاليا مشغل 'nvidia' لرسوميات NVIDIA. لا توجد نسخة من هذا "
+#~ "المشغل متوافقة مع عتادك في أوبونتو 10.04 LTS.\n"
+#~ "\n"
+#~ "أتريد المواصلة؟"
+
+#~ msgid ""
+#~ "This computer is currently using the AMD 'fglrx' graphics driver. No "
+#~ "version of this driver is available that works with your hardware in "
+#~ "Ubuntu 10.04 LTS.\n"
+#~ "\n"
+#~ "Do you want to continue?"
+#~ msgstr ""
+#~ "يستخدم حاسوبك حاليا مشغل 'fglrx' لرسوميات AMD. لا توجد نسخة من هذا المشغل "
+#~ "متوافقة مع عتادك في أوبونتو 10.04 LTS.\n"
+#~ "\n"
+#~ "أتريد المواصلة؟"
+
+#~ msgid "No i686 CPU"
+#~ msgstr "لا يوجد معالج i686"
+
+#~ msgid ""
+#~ "Your system uses an i586 CPU or a CPU that does not have the 'cmov' "
+#~ "extension. All packages were built with optimizations requiring i686 as "
+#~ "the minimal architecture. It is not possible to upgrade your system to a "
+#~ "new Ubuntu release with this hardware."
+#~ msgstr ""
+#~ "نظامك يستخدم وحدة معالجة مركزية من طراز i586 لا تملك ملحق cmov. تم بناء "
+#~ "كل الحزم متطلبةً لبنية i686 كحد أدنى. ليس من الممكن ترقية نظامك إلى إصدارة "
+#~ "أوبونتو الجديدة مع هذا العتاد."
+
+#~ msgid "No ARMv6 CPU"
+#~ msgstr "لا معالج ARMv6"
+
+#~ msgid ""
+#~ "Your system uses an ARM CPU that is older than the ARMv6 architecture. "
+#~ "All packages in karmic were built with optimizations requiring ARMv6 as "
+#~ "the minimal architecture. It is not possible to upgrade your system to a "
+#~ "new Ubuntu release with this hardware."
+#~ msgstr ""
+#~ "نظامك يستخدم معالج ARM أقدم من معمارية ARMv6. إن جميع الحزم في النسخة "
+#~ "karmic مبنية لتعمل على الطراز ARMv6 كحد أدنى. من غير الممكن ترقية نظامك "
+#~ "إلى إصدارة أوبونتو حديثة مع هذا العتاد."
+
+#~ msgid "No init available"
+#~ msgstr "لا يوجد عفريت مدير للعمليات"
+
+#~ msgid ""
+#~ "Your system appears to be a virtualised environment without an init "
+#~ "daemon, e.g. Linux-VServer. Ubuntu 10.04 LTS cannot function within this "
+#~ "type of environment, requiring an update to your virtual machine "
+#~ "configuration first.\n"
+#~ "\n"
+#~ "Are you sure you want to continue?"
+#~ msgstr ""
+#~ "يبدو أن نظامك يعمل في بيئة ظاهرية بدون عفريت بدأ، مثلاً Linux-VServer. لا "
+#~ "يستطيع أوبنتو 10.04 د.ط.أ (دعم طويل الأمد) العمل في هذا النوع من بيئات "
+#~ "العمل، يتطلب تحديثًا لإعدادات الألة الظاهرية أولاً.\n"
+#~ "\n"
+#~ "هل حقاً تريد الاستمرار؟"
+
+#~ msgid "Sandbox upgrade using aufs"
+#~ msgstr "ترقية في بيئة محكومة (صندوق رمل)"
+
+#~ msgid "Use the given path to search for a cdrom with upgradable packages"
+#~ msgstr "ابحث في المسار المعطى عن قرص مدمج يحوي حزم ترقية"
+
+#~ msgid ""
+#~ "Use frontend. Currently available: \n"
+#~ "DistUpgradeViewText, DistUpgradeViewGtk, DistUpgradeViewKDE"
+#~ msgstr ""
+#~ "استخدم واجهة. المتاح حاليا:\n"
+#~ "DistUpgradeViewText, DistUpgradeViewGtk, DistUpgradeViewKD"
+
+#~ msgid "*DEPRECATED* this option will be ignored"
+#~ msgstr "*مهجور* سيتم تجاهل هذا الخيار"
+
+#~ msgid "Perform a partial upgrade only (no sources.list rewriting)"
+#~ msgstr "قم بترقية جزئية فقط (لا كتابة فوق sources.list)"
+
+#~ msgid "Disable GNU screen support"
+#~ msgstr "عطل دعم شاشة جنو"
+
+#~ msgid "Set datadir"
+#~ msgstr "حدد مجلد البيانات"
+
+#, python-format
+#~ msgid "Please insert '%s' into the drive '%s'"
+#~ msgstr "رجاء أدرج '%s' في محرك الأقراص '%s'"
+
+#~ msgid "Fetching is complete"
+#~ msgstr "تم الجلب"
+
+#, python-format
+#~ msgid "Fetching file %li of %li at %sB/s"
+#~ msgstr "يجلب الملف %li من %li بـ %sبايت/ثانية"
+
+#, python-format
+#~ msgid "About %s remaining"
+#~ msgstr "بقي %s تقريبا"
+
+#, python-format
+#~ msgid "Fetching file %li of %li"
+#~ msgstr "يجلب الملف %li من %li"
+
+#~ msgid "Applying changes"
+#~ msgstr "يطبّق التغييرات"
+
+#~ msgid "dependency problems - leaving unconfigured"
+#~ msgstr "مشكلة اعتمادية - سأغادر بدون إعداد"
+
+#, python-format
+#~ msgid "Could not install '%s'"
+#~ msgstr "تعذّر تثبيت '%s'"
+
+#, python-format
+#~ msgid ""
+#~ "The upgrade will continue but the '%s' package may not be in a working "
+#~ "state. Please consider submitting a bug report about it."
+#~ msgstr "ستواصل الترقية لكن حزمة '%s' قد لا تعمل. من فضلك أبلغ عن هذه العلة."
+
+#, python-format
+#~ msgid ""
+#~ "Replace the customized configuration file\n"
+#~ "'%s'?"
+#~ msgstr ""
+#~ "أأستبدل الملف المطوع\n"
+#~ "'%s'؟"
+
+#~ msgid ""
+#~ "You will lose any changes you have made to this configuration file if you "
+#~ "choose to replace it with a newer version."
+#~ msgstr ""
+#~ "ستفقد أي تغيرات كنت قد أحدثتها في ملف التضبيطات هذا إن اخترت استبداله "
+#~ "بإصدارة أحدث."
+
+#~ msgid "The 'diff' command was not found"
+#~ msgstr "تعذّر العثور على أمر 'diff'"
+
+#~ msgid "A fatal error occurred"
+#~ msgstr "حدث خطأ فادح"
+
+#~ msgid ""
+#~ "Please report this as a bug (if you haven't already) and include the "
+#~ "files /var/log/dist-upgrade/main.log and /var/log/dist-upgrade/apt.log in "
+#~ "your report. The upgrade has aborted.\n"
+#~ "Your original sources.list was saved in /etc/apt/sources.list.distUpgrade."
+#~ msgstr ""
+#~ "رجاءً أبلغ عن هذا كعلّة (إذا لم تكن قد فعلت) و أرفق الملفان /var/log/dist-"
+#~ "upgrade/main.log و /var/log/dist-upgrade/apt.log في البلاغ. تم الخروج من "
+#~ "الترقية.\n"
+#~ "ملف sources.list الأصلي حُفِظَ في /etc/apt/sources.list.distUpgrade."
+
+#~ msgid "Ctrl-c pressed"
+#~ msgstr "ضُغط Ctrl-c"
+
+#~ msgid ""
+#~ "This will abort the operation and may leave the system in a broken state. "
+#~ "Are you sure you want to do that?"
+#~ msgstr ""
+#~ "هذا سيجهض العملية وقد يترك النظام في حالة معطوبة. أمتأكد أنك تريد فعل ذلك؟"
+
+#~ msgid "To prevent data loss close all open applications and documents."
+#~ msgstr "لتلافي فقد البيانات أغلق جميع التطبيقات والمستندات."
+
+#, python-format
+#~ msgid "No longer supported by Canonical (%s)"
+#~ msgstr "لم تعد كانونيكال تدعمها (%s)"
+
+#, python-format
+#~ msgid "<b>Downgrade (%s)</b>"
+#~ msgstr "<b>إلى إصدارة أقدم (%s)</b>"
+
+#, python-format
+#~ msgid "Remove (%s)"
+#~ msgstr "أزل (%s)"
+
+#, python-format
+#~ msgid "No longer needed (%s)"
+#~ msgstr "لم تعد مطلوبة (%s)"
+
+#, python-format
+#~ msgid "Install (%s)"
+#~ msgstr "ثبّت (%s)"
+
+#, python-format
+#~ msgid "Upgrade (%s)"
+#~ msgstr "رقّ (%s)"
+
+#~ msgid "Media Change"
+#~ msgstr "تغيير الوسائط"
+
+#~ msgid "Show Difference >>>"
+#~ msgstr "أظهر الفرق >>>"
+
+#~ msgid "<<< Hide Difference"
+#~ msgstr "<<< أخف الفرق"
+
+#~ msgid "Error"
+#~ msgstr "خطأ"
+
+#~ msgid "&Cancel"
+#~ msgstr "أ&لغِ"
+
+#~ msgid "&Close"
+#~ msgstr "أ&غلق"
+
+#~ msgid "Show Terminal >>>"
+#~ msgstr "أظهر الطرفية >>>"
+
+#~ msgid "<<< Hide Terminal"
+#~ msgstr "<<< أخف الطرفية"
+
+#~ msgid "Information"
+#~ msgstr "معلومات"
+
+#~ msgid "Details"
+#~ msgstr "التّفاصيل"
+
+#, python-format
+#~ msgid "No longer supported %s"
+#~ msgstr "لم تعد مدعومة %s"
+
+#, python-format
+#~ msgid "Remove (was auto installed) %s"
+#~ msgstr "أزل %s (ثبّت تلقائيا)"
+
+#, python-format
+#~ msgid "Upgrade %s"
+#~ msgstr "رقِّ %s"
+
+#~ msgid "<b><big>Restart the system to complete the upgrade</big></b>"
+#~ msgstr "<b><big>أعد تشغيل النظام لإتمام الترقية</big><b>"
+
+#~ msgid ""
+#~ "<b><big>Cancel the running upgrade?</big></b>\n"
+#~ "\n"
+#~ "The system could be in an unusable state if you cancel the upgrade. You "
+#~ "are strongly advised to resume the upgrade."
+#~ msgstr ""
+#~ "<b><big>أألغ الترقية الجارية ؟</big></b>\n"
+#~ "\n"
+#~ "قد يصبح النظام في حالة غير صالحة للاستعمال إذا ألغيت الترقية. ننصح بشدة "
+#~ "استئناف الترقية."
+
+#~ msgid "Cancel Upgrade?"
+#~ msgstr "أألغي الترقية؟"
+
+#, python-format
+#~ msgid "%li day"
+#~ msgid_plural "%li days"
+#~ msgstr[0] "لا أيام"
+#~ msgstr[1] "يوم واحد"
+#~ msgstr[2] "يومان"
+#~ msgstr[3] "%li أيام"
+#~ msgstr[4] "%li يوما"
+#~ msgstr[5] "%li يوم"
+
+#, python-format
+#~ msgid "%li hour"
+#~ msgid_plural "%li hours"
+#~ msgstr[0] "لا ساعات"
+#~ msgstr[1] "ساعة واحدة"
+#~ msgstr[2] "ساعاتان"
+#~ msgstr[3] "%li ساعات"
+#~ msgstr[4] "%li ساعة"
+#~ msgstr[5] "%li ساعة"
+
+#, python-format
+#~ msgid "%li minute"
+#~ msgid_plural "%li minutes"
+#~ msgstr[0] "لا دقائق"
+#~ msgstr[1] "دقيقة واحدة"
+#~ msgstr[2] "دقيقتان"
+#~ msgstr[3] "%li دقائق"
+#~ msgstr[4] "%li دقيقة"
+#~ msgstr[5] "%li دقيقة"
+
+#, python-format
+#~ msgid "%li second"
+#~ msgid_plural "%li seconds"
+#~ msgstr[0] "لا ثوان"
+#~ msgstr[1] "ثانية واحدة"
+#~ msgstr[2] "ثانيتان"
+#~ msgstr[3] "%li ثوان"
+#~ msgstr[4] "%li ثانية"
+#~ msgstr[5] "%li ثانية"
+
+#, python-format
+#~ msgid "%(str_days)s %(str_hours)s"
+#~ msgstr "%(str_days)s %(str_hours)s"
+
+#, python-format
+#~ msgid "%(str_hours)s %(str_minutes)s"
+#~ msgstr "%(str_hours)s %(str_minutes)s"
+
+#, python-format
+#~ msgid ""
+#~ "This download will take about %s with a 1Mbit DSL connection and about %s "
+#~ "with a 56k modem."
+#~ msgstr ""
+#~ "سيأخذ التنزيل حوالي %s على اتصال بسرعة 1م.بايت، وحوالي %s على مودم 56ك."
+
+#, python-format
+#~ msgid "This download will take about %s with your connection. "
+#~ msgstr "سيستغرق التنزيل حوالي %s بسرعة اتصالك. "
+
+#~ msgid "Preparing to upgrade"
+#~ msgstr "يحضّر للترقية"
+
+#~ msgid "Getting new software channels"
+#~ msgstr "يجلب قنوات البرمجيات الجديدة"
+
+#~ msgid "Getting new packages"
+#~ msgstr "يجلب الحزم الجديدة"
+
+#~ msgid "Installing the upgrades"
+#~ msgstr "يثبّت الترقيات"
+
+#~ msgid "Cleaning up"
+#~ msgstr "ينظّف"
+
+#, python-format
+#~ msgid ""
+#~ "%(amount)d installed package is no longer supported by Canonical. You can "
+#~ "still get support from the community."
+#~ msgid_plural ""
+#~ "%(amount)d installed packages are no longer supported by Canonical. You "
+#~ "can still get support from the community."
+#~ msgstr[0] ""
+#~ "ليس أي من الحزم المثبتة لم تعد كانونيكال تدعمه. مازال بإمكانك الحصول على "
+#~ "الدعم من المجتمع."
+#~ msgstr[1] ""
+#~ "واحدة من الحزم المثبتة لم تعد كانونيكال تدعمه. مازال بإمكانك الحصول على "
+#~ "الدعم من المجتمع."
+#~ msgstr[2] ""
+#~ "اثنتان من الحزم المثبتة لم تعد كانونيكال تدعمه. مازال بإمكانك الحصول على "
+#~ "الدعم من المجتمع."
+#~ msgstr[3] ""
+#~ "%(amount)d حزم من المثبتة لم تعد كانونيكال تدعمه. مازال بإمكانك الحصول "
+#~ "على الدعم من المجتمع."
+#~ msgstr[4] ""
+#~ "%(amount)d حزمة من المثبتة لم تعد كانونيكال تدعمه. مازال بإمكانك الحصول "
+#~ "على الدعم من المجتمع."
+#~ msgstr[5] ""
+#~ "%(amount)d حزمة من المثبتة لم تعد كانونيكال تدعمه. مازال بإمكانك الحصول "
+#~ "على الدعم من المجتمع."
+
+#, python-format
+#~ msgid "%d new package is going to be installed."
+#~ msgid_plural "%d new packages are going to be installed."
+#~ msgstr[0] "لن تثبت أي حزم جديدة."
+#~ msgstr[1] "ستثبت حزمة واحدة جديدة."
+#~ msgstr[2] "ستثبت حزمتان جديدتان."
+#~ msgstr[3] "ستثبت %d حزم جديدة."
+#~ msgstr[4] "ستثبت %d حزمة جديدة."
+#~ msgstr[5] "ستثبت %d حزمة جديدة."
+
+#, python-format
+#~ msgid "%d package is going to be upgraded."
+#~ msgid_plural "%d packages are going to be upgraded."
+#~ msgstr[0] "لن ترقى أي حزم جديدة."
+#~ msgstr[1] "سترقى حزمة واحدة جديدة."
+#~ msgstr[2] "سترقى حزمتان جديدتان."
+#~ msgstr[3] "سترقى %d حزم جديدة."
+#~ msgstr[4] "سترقى %d حزمة جديدة."
+#~ msgstr[5] "سترقى %d حزمة جديدة."
+
+#, python-format
+#~ msgid ""
+#~ "\n"
+#~ "\n"
+#~ "You have to download a total of %s. "
+#~ msgstr ""
+#~ "\n"
+#~ "\n"
+#~ "تحتاج لتنزيل ما مجمله %s. "
+
+#~ msgid ""
+#~ "Installing the upgrade can take several hours. Once the download has "
+#~ "finished, the process cannot be canceled."
+#~ msgstr ""
+#~ "تثبيت الترقية قد يأخذ بضع ساعات. حالما ينتهي التنزيل، فلا يمكن إلغاء "
+#~ "العملية."
+
+#~ msgid ""
+#~ "Fetching and installing the upgrade can take several hours. Once the "
+#~ "download has finished, the process cannot be canceled."
+#~ msgstr ""
+#~ "جلب وتثبيت الترقية قد يأخذ بضع ساعات. حالما ينتهي التنزيل، لا يمكن إلغاء "
+#~ "العملية."
+
+#~ msgid "Removing the packages can take several hours. "
+#~ msgstr "إزالة الحزم قد يأخذ بضع ساعات. "
+
+#~ msgid ""
+#~ "There are no upgrades available for your system. The upgrade will now be "
+#~ "canceled."
+#~ msgstr "لا توجد أي ترقيات متوفرة لنظامك. ستلغى الترقية الآن."
+
+#~ msgid "Reboot required"
+#~ msgstr "إعادة التشغيل مطلوبة"
+
+#~ msgid ""
+#~ "The upgrade is finished and a reboot is required. Do you want to do this "
+#~ "now?"
+#~ msgstr "لقد انتهت الترقية وإعادة التشغيل مطلوبة. هل تود القيام بذلك الآن؟"
+
+#, python-format
+#~ msgid "authenticate '%(file)s' against '%(signature)s' "
+#~ msgstr "توثيق '%(file)s' باستخدام البصمة '%(signature)s' "
+
+#, python-format
+#~ msgid "extracting '%s'"
+#~ msgstr "يستخرج '%s'"
+
+#~ msgid "Could not run the upgrade tool"
+#~ msgstr "تعذّر تشغيل أداة الترقية"
+
+#~ msgid ""
+#~ "This is most likely a bug in the upgrade tool. Please report it as a bug "
+#~ "using the command 'ubuntu-bug update-manager'."
+#~ msgstr ""
+#~ "على الأرجح هذه مشكلة في أداة الترقية. رجاءً أبلغ عنها كعلّة باستخدام الأمر "
+#~ "'ubuntu-bug update-manager' في الطرفية."
+
+#~ msgid "Upgrade tool signature"
+#~ msgstr "توقيع أداة الترقية"
+
+#~ msgid "Upgrade tool"
+#~ msgstr "أداة الترقية"
+
+#~ msgid "Failed to fetch"
+#~ msgstr "فشل الجلب"
+
+#~ msgid "Fetching the upgrade failed. There may be a network problem. "
+#~ msgstr "فشل جلب الترقية، قد تكون هناك مشكلة في الشبكة. "
+
+#~ msgid "Authentication failed"
+#~ msgstr "فشل الاستيثاق"
+
+#~ msgid ""
+#~ "Authenticating the upgrade failed. There may be a problem with the "
+#~ "network or with the server. "
+#~ msgstr "فشل استيثاق الترقية. قد توجد مشكلة في الشبكة أو في الخادوم. "
+
+#~ msgid "Failed to extract"
+#~ msgstr "فشل الاستخراج"
+
+#~ msgid ""
+#~ "Extracting the upgrade failed. There may be a problem with the network or "
+#~ "with the server. "
+#~ msgstr "فشل استخلاص الترقية، قد تكون هناك مشكلة في الشبكة أو الخادوم. "
+
+#~ msgid "Verification failed"
+#~ msgstr "فشل التحقق"
+
+#~ msgid ""
+#~ "Verifying the upgrade failed.  There may be a problem with the network or "
+#~ "with the server. "
+#~ msgstr "فشل التحقق من الترقية. قد توجد مشكلة في الشبكة أو في الخادوم. "
+
+#~ msgid "Can not run the upgrade"
+#~ msgstr "لا يمكن اجراء الترقية"
+
+#~ msgid ""
+#~ "This usually is caused by a system where /tmp is mounted noexec. Please "
+#~ "remount without noexec and run the upgrade again."
+#~ msgstr ""
+#~ "غالباً ما يحدث هذا إذا ما تم تحميل /tmp بإشارة nonexec. رجاءاً أعد التحميل "
+#~ "بدون nonexec ثم أعد تشغيل الترقية."
+
+#, python-format
+#~ msgid "The error message is '%s'."
+#~ msgstr "رسالة الخطأ هي '%s'."
+
+#~ msgid ""
+#~ "Please report this as a bug and include the files /var/log/dist-upgrade/"
+#~ "main.log and /var/log/dist-upgrade/apt.log in your report. The upgrade "
+#~ "has aborted.\n"
+#~ "Your original sources.list was saved in /etc/apt/sources.list.distUpgrade."
+#~ msgstr ""
+#~ "رجاءً أبلغ عن هذا كعلّة وأرفق الملفان /var/log/dist-upgrade/main.log و /var/"
+#~ "log/dist-upgrade/apt.log في البلاغ. تم الخروج من الترقية.\n"
+#~ "ملف sources.list الأصلي حُفِظَ في /etc/apt/sources.list.distUpgrade."
+
+#~ msgid "Aborting"
+#~ msgstr "يُجهض"
+
+#~ msgid "Demoted:\n"
+#~ msgstr "حطّت رتبته:\n"
+
+#~ msgid "To continue please press [ENTER]"
+#~ msgstr "للإستمرار اضغط على [Enter]"
+
+#~ msgid "Continue [yN] "
+#~ msgstr "استمر [ن(ل)] "
+
+#~ msgid "Details [d]"
+#~ msgstr "التّفاصيل [ف]"
+
+#~ msgid "y"
+#~ msgstr "ن"
+
+#~ msgid "n"
+#~ msgstr "ل"
+
+#~ msgid "d"
+#~ msgstr "ف"
+
+#, python-format
+#~ msgid "No longer supported: %s\n"
+#~ msgstr "لم تعد مدعومة: %s\n"
+
+#, python-format
+#~ msgid "Remove: %s\n"
+#~ msgstr "إزالة: %s\n"
+
+#, python-format
+#~ msgid "Install: %s\n"
+#~ msgstr "تثبيت: %s\n"
+
+#, python-format
+#~ msgid "Upgrade: %s\n"
+#~ msgstr "ترقية: %s\n"
+
+#~ msgid "Continue [Yn] "
+#~ msgstr "تابع [Yn] "
+
+#~ msgid ""
+#~ "To finish the upgrade, a restart is required.\n"
+#~ "If you select 'y' the system will be restarted."
+#~ msgstr ""
+#~ "لإتمام الترقية تنبغي إعادة تشغيل النظام.\n"
+#~ "إن اخترت 'ن' فإن النظام سيعاد تشغيله."
+
+#~ msgid "_Cancel Upgrade"
+#~ msgstr "أ_لغ الترقية"
+
+#~ msgid "_Resume Upgrade"
+#~ msgstr "أ_كمل التحديث"
+
+#~ msgid ""
+#~ "<b><big>Cancel the running upgrade?</big></b>\n"
+#~ "\n"
+#~ "The system could be in an unusable state if you cancel the upgrade. You "
+#~ "are strongly adviced to resume the upgrade."
+#~ msgstr ""
+#~ "<b><big>أألغي الترقية الجارية؟</big></b>\n"
+#~ "\n"
+#~ "إن ألغيت الترقية فقد يبقى نظامك في حالة غير صالحة للاستخدام. نحثك بشدة أن "
+#~ "تواصل الترقية."
+
+#~ msgid "_Start Upgrade"
+#~ msgstr "اب_دأ الترقية"
+
+#~ msgid "_Replace"
+#~ msgstr "_استبدل"
+
+#~ msgid "Difference between the files"
+#~ msgstr "الفرق بين الملفات"
+
+#~ msgid "_Report Bug"
+#~ msgstr "أ_بلغ عن علّة"
+
+#~ msgid "<b><big>Start the upgrade?</big></b>"
+#~ msgstr "<b><big>أأبدأ الترقية؟</big></b>"
+
+#~ msgid ""
+#~ "<b><big>Restart the system to complete the upgrade</big></b>\n"
+#~ "\n"
+#~ "Please save your work before continuing."
+#~ msgstr ""
+#~ "<b><big>أعد تشغيل النظام لإكمال عملية الترقية</big></b>\n"
+#~ "\n"
+#~ "من فضلك احفظ أي عمل كنت تقوم به أولا."
+
+#~ msgid "Distribution Upgrade"
+#~ msgstr "ترقية التوزيعة"
+
+#, fuzzy
+#~ msgid "<b><big>Upgrading Ubuntu to version 12.10</big></b>"
+#~ msgstr "<b><big>ترقية أبونتو إلى الإصدارة 12.04</big></b>"
+
+#~ msgid "    "
+#~ msgstr "    "
+
+#~ msgid "Setting new software channels"
+#~ msgstr "يضبط قنوات البرمجيات الجديدة"
+
+#~ msgid "Restarting the computer"
+#~ msgstr "يعيد تشغيل الحاسوب"
+
+#~ msgid "Terminal"
+#~ msgstr "طرفية"
+
+#~ msgid "Could not find the release notes"
+#~ msgstr "تعذّر العثور على ملاحظات الإصدارة"
+
+#~ msgid "The server may be overloaded. "
+#~ msgstr "قد يكون الخادوم محملا فوق طاقته. "
+
+#~ msgid "Could not download the release notes"
+#~ msgstr "تعذّر تنزيل ملاحظات الإصدارة"
+
+#~ msgid "Please check your internet connection."
+#~ msgstr "رجاء تأكد من اتصالك بالإنترنت"
+
+#~ msgid "Release Notes"
+#~ msgstr "ملاحظات الإصدار"
+
+#~ msgid "Downloading additional package files..."
+#~ msgstr "تنزيل ملفات الحزم الإضافية..."
+
+#, python-format
+#~ msgid "File %s of %s at %sB/s"
+#~ msgstr "الملف %s من %s بسرعة %s ب/ث"
+
+#, python-format
+#~ msgid "File %s of %s"
+#~ msgstr "ملف %s من %s"
+
+#, python-format
+#~ msgid "Downloading file %(current)li of %(total)li with %(speed)s/s"
+#~ msgstr "ينزّل الملف %(current)li من %(total)li بسرعة %(speed)s/ثانية"
+
+#, python-format
+#~ msgid "Downloading file %(current)li of %(total)li"
+#~ msgstr "ينزّل الملف %(current)li من %(total)li"
+
+#~ msgid "Your Ubuntu release is not supported anymore."
+#~ msgstr "نسختك من أبونتو لم تعد مدعومة بعد الآن."
+
+#~ msgid ""
+#~ "You will not get any further security fixes or critical updates. Please "
+#~ "upgrade to a later version of Ubuntu."
+#~ msgstr ""
+#~ "لن تحصل على المزيد من الإصلاحات الأمنية أو التحديثات الحرجة. يرجى الترقية "
+#~ "إلى آخر نسخة من أبونتو."
+
+#~ msgid "Upgrade information"
+#~ msgstr "معلومات الترقية"
+
+#~ msgid "Name"
+#~ msgstr "الاسم"
+
+#~ msgid ""
+#~ "It is unknown when the package information was updated last. Please click "
+#~ "the 'Check' button to update the information."
+#~ msgstr ""
+#~ "غير معروف متى حُدِّثت معلومات الحزم آخر مرة. رجاءً انقر زر 'التمس' لتحديث "
+#~ "المعلومات."
+
+#, python-format
+#~ msgid ""
+#~ "The package information was last updated %(days_ago)s days ago.\n"
+#~ "Press the 'Check' button below to check for new software updates."
+#~ msgstr ""
+#~ "حُدّثت معلومات الحزم آخر مرة قبل %(days_ago)s أيام/يوم.\n"
+#~ "اضغط زر 'التمس' لفحص التحديثات الجديدة للبرمجيات."
+
+#, python-format
+#~ msgid "The package information was last updated %(days_ago)s day ago."
+#~ msgid_plural ""
+#~ "The package information was last updated %(days_ago)s days ago."
+#~ msgstr[0] "حُدّثت معلومات الحزم آخر مرة اليوم."
+#~ msgstr[1] "حُدّثت معلومات الحزم آخر مرة منذ يوم واحد."
+#~ msgstr[2] "حُدّثت معلومات الحزم آخر مرة منذ يومين."
+#~ msgstr[3] "حُدّثت معلومات الحزم آخر مرة منذ %(days_ago)s أيام."
+#~ msgstr[4] "حُدّثت معلومات الحزم آخر مرة منذ %(days_ago)s يوما."
+#~ msgstr[5] "حُدّثت معلومات الحزم آخر مرة منذ %(days_ago)s يوم."
+
+#, python-format
+#~ msgid "The package information was last updated %(hours_ago)s hour ago."
+#~ msgid_plural ""
+#~ "The package information was last updated %(hours_ago)s hours ago."
+#~ msgstr[0] "حُدّثت معلومات الحزم آخر مرة منذ أقل من ساعة."
+#~ msgstr[1] "حُدّثت معلومات الحزم آخر مرة منذ ساعة."
+#~ msgstr[2] "حُدّثت معلومات الحزم آخر مرة منذ ساعتين."
+#~ msgstr[3] "حُدّثت معلومات الحزم آخر مرة منذ %(hours_ago)s ساعات."
+#~ msgstr[4] "حُدّثت معلومات الحزم آخر مرة منذ %(hours_ago)s ساعة."
+#~ msgstr[5] "حُدّثت معلومات الحزم آخر مرة منذ %(hours_ago)s ساعة."
+
+#, python-format
+#~ msgid "The package information was last updated about %s minutes ago."
+#~ msgstr "حُدّثت معلومات الحزم آخر مرة منذ حوالي %s دقيقة."
+
+#~ msgid "The package information was just updated."
+#~ msgstr "حُدثت معلومات الحزم توًا."
+
+#~ msgid "Software updates may be available for your computer."
+#~ msgstr "قد تتوفر تحديثات برمجيات لحاسوبك."
+
+#~ msgid "Reading package information"
+#~ msgstr "يقرأ معلومات الحزم"
+
+#~ msgid " (New install)"
+#~ msgstr " (تثبيت جديد)"
+
+#, python-format
+#~ msgid "(Size: %s)"
+#~ msgstr "(الحجم: %s)"
+
+#, python-format
+#~ msgid "From version %(old_version)s to %(new_version)s"
+#~ msgstr "من الإصدارة %(old_version)s إلى %(new_version)s"
+
+#, python-format
+#~ msgid "Version %s"
+#~ msgstr "الإصدارة %s"
+
+#~ msgid "Release upgrade not possible right now"
+#~ msgstr "يتعذّر ترقية الإصدارة حاليا"
+
+#, c-format, python-format
+#~ msgid ""
+#~ "The release upgrade can not be performed currently, please try again "
+#~ "later. The server reported: '%s'"
+#~ msgstr "تعذّر ترفية الإصدارة حاليا، أعد المحاولة لاحقا. رد الخادوم: '%s'"
+
+#~ msgid "Downloading the release upgrade tool"
+#~ msgstr "ينزّل أداة الترقية"
+
+#, python-format
+#~ msgid "<b>New Ubuntu release '%s' is available</b>"
+#~ msgstr "<b>تتوفر إصدارة جديدة '%s' من أوبونتو</b>"
+
+#~ msgid "Cancel"
+#~ msgstr "ألغِ"
+
+#~ msgid "Changelog"
+#~ msgstr "سجل التغييرات"
+
+#~ msgid "Building Updates List"
+#~ msgstr "يبني قائمة التحديثات"
+
+#~ msgid ""
+#~ "\n"
+#~ "A normal upgrade can not be calculated, please run: \n"
+#~ "  sudo apt-get dist-upgrade\n"
+#~ "\n"
+#~ "\n"
+#~ "This can be caused by:\n"
+#~ " * A previous upgrade which didn't complete\n"
+#~ " * Problems with some of the installed software\n"
+#~ " * Unofficial software packages not provided by Ubuntu\n"
+#~ " * Normal changes of a pre-release version of Ubuntu"
+#~ msgstr ""
+#~ "\n"
+#~ "لا يمكن إحصاء ترقية عادية، من فضلك نفّذ: \n"
+#~ "  sudo apt-get dist-upgrade\n"
+#~ "\n"
+#~ "\n"
+#~ "قد يكون هذا ناتج عن:\n"
+#~ " * ترقية سابقة لم تكتمل\n"
+#~ " * مشاكل مع بعض البرمجيات المثبتة\n"
+#~ " * حزم برمجيات غير رسمية ليست مقدمة من أبونتو\n"
+#~ " * تغييرات عادية لنسخة ما قبل الإصدار من أبونتو."
+
+#~ msgid "Downloading changelog"
+#~ msgstr "تنزيل سجل التغييرات"
+
+#, python-format
+#~ msgid "Other updates (%s)"
+#~ msgstr "تحديثات أخرى (%s)"
+
+#~ msgid "Failed to detect distribution"
+#~ msgstr "فشل الكشف على التوزيع"
+
+#, python-format
+#~ msgid "A error '%s' occurred while checking what system you are using."
+#~ msgstr "صودف خطأ '%s' أثناء التماس ما يستخدمه النظام."
+
+#~ msgid "Recommended updates"
+#~ msgstr "تحديثات منصوح بها"
+
+#~ msgid "Proposed updates"
+#~ msgstr "تحديثات مقترحة"
+
+#~ msgid "Backports"
+#~ msgstr "تحديثات رجوعية"
+
+#~ msgid "Distribution updates"
+#~ msgstr "تحديثات التوزيعة"
+
+#, fuzzy
+#~ msgid "<big><b>Starting Software Updater</b></big>"
+#~ msgstr "<big><b>يبدأ مدير التحديثات</b></big>"
+
+#~ msgid ""
+#~ "Software updates correct errors, eliminate security vulnerabilities and "
+#~ "provide new features."
+#~ msgstr ""
+#~ "تحديثات البرمجيات تصحّح الأخطاء وتسد الثغرات الأمنية وتوّفر ميزات جديدة."
+
+#~ msgid "Chec_k"
+#~ msgstr "الت_مس"
+
+#~ msgid ""
+#~ "<b><big>You must check for updates manually</big></b>\n"
+#~ "\n"
+#~ "Your system does not check for updates automatically. You can configure "
+#~ "this behavior in <i>Software Sources</i> on the <i>Updates</i> tab."
+#~ msgstr ""
+#~ "<b><big>ينبغي لك التماس التحديثات يدويا</big></b>\n"
+#~ "\n"
+#~ "نظامك لا يلتمس التحديثات أوتوماتيا. يمكنك ضبط هذا السلوك في <i>مصادر "
+#~ "البرمجيات</i> في لسان <i>التحديثات</i>."
+
+#~ msgid "_Hide this information in the future"
+#~ msgstr "_أخفِ هذة المعلومات في المستقبل"
+
+#~ msgid "Co_ntinue"
+#~ msgstr "ا_ستمرّ"
+
+#~ msgid "<big><b>Running on battery</b></big>"
+#~ msgstr "<big><b>يعمل على البطارية</b></big>"
+
+#~ msgid ""
+#~ "Your system is running on battery. Are you sure you want to continue?"
+#~ msgstr "يعمل نظامك على البطارية. أمتأكد أنك تريد المتابعة؟"
+
+#~ msgid "_Upgrade"
+#~ msgstr "تر_قية"
+
+#~ msgid "Show progress of individual files"
+#~ msgstr "أظهر تقدّم الملفات المفردة"
+
+#, fuzzy
+#~ msgid "Starting Software Updater"
+#~ msgstr "تحديثات البرمجيات"
+
+#~ msgid "U_pgrade"
+#~ msgstr "ت_رقية"
+
+#~ msgid ""
+#~ "<b>A new version of Ubuntu is available. Would you like to upgrade?</b>"
+#~ msgstr "<b>تتوفر إصدارة جديدة من أوبونتو، أترغب في الترقية؟</b>"
+
+#~ msgid "Don't Upgrade"
+#~ msgstr "لا أرغب"
+
+#~ msgid "Yes, Upgrade Now"
+#~ msgstr "نعم، رقِّ الآن"
+
+#~ msgid "You have declined to upgrade to the new Ubuntu"
+#~ msgstr "لقد رفضت الترقية إلى أوبونتو الجديدة"
+
+#, fuzzy
+#~ msgid ""
+#~ "You can upgrade at a later time by opening Software Updater and click on "
+#~ "\"Upgrade\"."
+#~ msgstr "يمكنك الترقية لاحقا بفتح مدير التحديثات والنقر على \"رقِّ\""
+
+#~ msgid "Check if upgrading to the latest devel release is possible"
+#~ msgstr "يفحص إن كانت الترقية ممكنة إلى أحدث إصدارة تطوير"
+
+#~ msgid "Try to run a dist-upgrade"
+#~ msgstr "حاول تشغيل dist-upgrade"
+
+#~ msgid "Test upgrade with a sandbox aufs overlay"
+#~ msgstr "اختبر الترقية في بيئة محكومة (صندوق رمل)"
+
+#~ msgid "Running partial upgrade"
+#~ msgstr "يُجري ترقية جزئية"
+
+#~ msgid "Show description of the package instead of the changelog"
+#~ msgstr "اعرض وصف الحزمة بدلًا من سجل التغييرات"
+
+#~ msgid ""
+#~ "Try upgrading to the latest release using the upgrader from $distro-"
+#~ "proposed"
+#~ msgstr "حاول الترقية إلى أحدث إصدارة باستخدام المحدِّث من $distro-proposed"
+
+#~ msgid ""
+#~ "Run in a special upgrade mode.\n"
+#~ "Currently 'desktop' for regular upgrades of a desktop system and 'server' "
+#~ "for server systems are supported."
+#~ msgstr ""
+#~ "يعمل في طور ترقية خاص.\n"
+#~ "حاليا الطوران المدعومان هما 'desktop' للترقية الاعتيادية لنظام سطح مكتب، "
+#~ "و 'server' لنظم الخواديم."
+
+#~ msgid "Run the specified frontend"
+#~ msgstr "يشغل الواجهة المحددة"
+
+#~ msgid ""
+#~ "Check only if a new distribution release is available and report the "
+#~ "result via the exit code"
+#~ msgstr ""
+#~ "تحقق فقط إذا كان هناك إصدار جديد من التوزيعة متوفرا و أرسل تقريرا خلال "
+#~ "كود الخروج"
+
+#~ msgid "Checking for a new Ubuntu release"
+#~ msgstr "يتحقق من وجود إصدارة جديدة من أبونتو"
+
+#~ msgid ""
+#~ "For upgrade information, please visit:\n"
+#~ "%(url)s\n"
+#~ msgstr ""
+#~ "لمعلومات عن الترقية، رجاءً قم بزيارة:\n"
+#~ "%(url)s\n"
+
+#~ msgid "No new release found"
+#~ msgstr "لا توجد إصدارات أحدث"
+
+#, c-format
+#~ msgid "New release '%s' available."
+#~ msgstr "لا تتوفر إصدارات '%s'"
+
+#~ msgid "Run 'do-release-upgrade' to upgrade to it."
+#~ msgstr "شغّل 'do-release-upgrade' للترقية إليه."
+
+#~ msgid "Ubuntu %(version)s Upgrade Available"
+#~ msgstr "يتوفر ترقية إلى أوبونتو %(version)s"
+
+#, c-format
+#~ msgid "You have declined the upgrade to Ubuntu %s"
+#~ msgstr "لقد رفضت الترقية إلى أوبونتو %s"
+
+#~ msgid "Add debug output"
+#~ msgstr "أضف مُخرَجات التنقيح"
+
+#~ msgid "Show unsupported packages on this machine"
+#~ msgstr "اعرض الحزم الغير مدعومة على هذا الجهاز"
+
+#~ msgid "Show supported packages on this machine"
+#~ msgstr "اعرض الحزم المدعومة على هذا الجهاز"
+
+#~ msgid "Show all packages with their status"
+#~ msgstr "اعرض كُل الحزم مع حالاتها"
+
+#~ msgid "Show all packages in a list"
+#~ msgstr "اعرض كُل الحزم في قائمة"
+
+#, c-format
+#~ msgid "Support status summary of '%s':"
+#~ msgstr "مُلخص حالة الدعم لـ '%s':"
+
+#~ msgid "You have %(num)s packages (%(percent).1f%%) supported until %(time)s"
+#~ msgstr "لديك %(num)s حزمة (%(percent).1f%%) مدعومة حتى %(time)s"
+
+#~ msgid ""
+#~ "You have %(num)s packages (%(percent).1f%%) that can not/no-longer be "
+#~ "downloaded"
+#~ msgstr "لديك %(num)s حزمة (%(percent).1f%%) لم تعد قابلة للتنزيل"
+
+#~ msgid "You have %(num)s packages (%(percent).1f%%) that are unsupported"
+#~ msgstr "لديك %(num)s حزمة (%(percent).1f%%) غير مدعومة"
+
+#~ msgid ""
+#~ "Run with --show-unsupported, --show-supported or --show-all to see more "
+#~ "details"
+#~ msgstr ""
+#~ "شغّل باستخدام --show-unsupported أو --show-supported أو --show-all لرؤية "
+#~ "مزيد من التفاصيل"
+
+#~ msgid "No longer downloadable:"
+#~ msgstr "لم تعد قابلة للتنزيل:"
+
+#~ msgid "Unsupported: "
+#~ msgstr "غير مدعومة: "
+
+#, c-format
+#~ msgid "Supported until %s:"
+#~ msgstr "مدعومة حتى %s:"
+
+#~ msgid "Unsupported"
+#~ msgstr "غير مدعومة"
+
+#~ msgid ""
+#~ "After your package information was updated the essential package '%s' can "
+#~ "not be found anymore so a bug reporting process is being started."
+#~ msgstr ""
+#~ "بعد أن تم تحديث معلومات الحزم، فإن الحزمة الأساسية '%s' لا يمكن العثور "
+#~ "عليها بعد الآن، لذلك يجري بدء عملية للإبلاغ عن العلّة."
+
+#~ msgid "%(count)s update has been selected."
+#~ msgid_plural "%(count)s updates have been selected."
+#~ msgstr[0] "لم تحدد أي تحديثات"
+#~ msgstr[1] "حُدد تحديث واحد"
+#~ msgstr[2] "حُدد تحديثين"
+#~ msgstr[3] "حُددت %(count)s تحديثات"
+#~ msgstr[4] "حُدد %(count)s تحديثا"
+#~ msgstr[5] "حُدد %(count)s تحديث"
+
+#~ msgid "%(count_str)s %(download_str)s"
+#~ msgstr "%(count_str)s %(download_str)s"
+
+#~ msgid "Welcome to Ubuntu"
+#~ msgstr "مرحبًا بك في أوبونتو"
+
+#~ msgid ""
+#~ "These software updates have been issued since this version of Ubuntu was "
+#~ "released."
+#~ msgstr "صدرت هذه التحديثات البرمجية منذ إطلاق هذه الإصدارة من أبونتو."
+
+#~ msgid "Update Manager"
+#~ msgstr "مدير التحديثات"
+
+#~ msgid "Starting Update Manager"
+#~ msgstr "يبدأ مدير التحديثات"
+
+#~ msgid "You are connected via a wireless modem."
+#~ msgstr "أنت متصل عبر مودم لاسلكي."
+
+#~ msgid "Checking for a new ubuntu release"
+#~ msgstr "يجري التماس إصدارة أحدث من أوبونتو"
+
+#~ msgid "Your system is up-to-date"
+#~ msgstr "نظامك محدّث"
+
+#~ msgid ""
+#~ "Fetching and installing the upgrade can take several hours. Once the "
+#~ "download has finished, the process cannot be cancelled."
+#~ msgstr ""
+#~ "يمكن أن يستغرق جلب و تثبيت الترقية عدة ساعات؛ و بمجرد تمام التنزيل فإن "
+#~ "السيرورة لا يمكن إلغاؤها."
+
+#~ msgid ""
+#~ "This upgrade is running in sandbox (test) mode. All changes are written "
+#~ "to '%s' and will be lost on the next reboot.\n"
+#~ "\n"
+#~ "*No* changes written to a systemdir from now until the next reboot are "
+#~ "permanent."
+#~ msgstr ""
+#~ "تعمل الترقية في طور صندوق الرمل (للاختبار). كل التغييرات التي ستكتب في "
+#~ "'%s' ستُفقد بعد إعادة التشغيل.\n"
+#~ "*لن* تكتب أي تغييرات في مجلدات النظام من الآن وحتى إعادة التشغيل."
+
+#~ msgid "Software updates are available for this computer"
+#~ msgstr "تتوفر تحديثات برمجية لهذا الحاسوب"
+
+#~ msgid ""
+#~ "If you don't want to install them now, choose \"Update Manager\" from the "
+#~ "Administration menu later."
+#~ msgstr ""
+#~ "إذا لم تُرِد تثبيتها الآن فاختر \"مدير التحديثات\" لاحقا من قائمة الإدارة."
+
+#~ msgid "There are no updates to install"
+#~ msgstr "لا تحديثات لتثبيتها"
+
+#~ msgid "The update has already been downloaded, but not installed"
+#~ msgid_plural "The updates have already been downloaded, but not installed"
+#~ msgstr[0] "لم ينزل التحديث"
+#~ msgstr[1] "نُزّل التحديث لكن لم يثبّت"
+#~ msgstr[2] "نُزّل التحديثين لكن لم يثبّتا"
+#~ msgstr[3] "نُزّل التحديثات لكن لم تثبّت"
+#~ msgstr[4] "نُزّل التحديثات لكن لم تثبّت"
+#~ msgstr[5] "نُزّل التحديثات لكن لم تثبّت"
+
+#~ msgid ""
+#~ "You will not get any further security fixes or critical updates. Please "
+#~ "upgrade to a later version of Ubuntu Linux."
+#~ msgstr ""
+#~ "لن تحصل على المزيد من الإصلاحات الأمنية أو التحديثات الحرجة. الرجاء "
+#~ "الترقية إلى نسخة لاحقة من لينكس أبونتو."
+
+#~ msgid ""
+#~ "These software updates have been issued since this version of Ubuntu was "
+#~ "released. If you don't want to install them now, choose \"Update Manager"
+#~ "\" from Applications later."
+#~ msgstr ""
+#~ "تحديثات البرمجيات هذه صدرت منذ إطلاق هذا الإصدار من أبونتو. إذا لم تكن "
+#~ "ترغب في تثبيتها الآن، يمكنك تثبيتها لاحقًا باختيار \"مدير التحديثات\" من "
+#~ "التطبيقات."
+
+#~ msgid ""
+#~ "These software updates have been issued since this version of Ubuntu was "
+#~ "released. If you don't want to install them now, choose \"Update Manager"
+#~ "\" from the Administration Menu later."
+#~ msgstr ""
+#~ "تحديثات البرمجيات هذه صدرت منذ إطلاق هذا الإصدار من أبونتو. إذا لم تكن "
+#~ "ترغب في تثبيتها الآن، يمكنك تثبيتها لاحقًا باختيار \"مدير التحديثات\" من "
+#~ "قائمة الإدارة."
+
+#~ msgid ""
+#~ "If you don't want to install them now, choose \"Update Manager\" from "
+#~ "Applications later."
+#~ msgstr ""
+#~ "إذا لم تكن ترغب في تثبيتها الآن، يمكنك تثبيتها لاحقًا باختيار \"مدير "
+#~ "التحديثات\" من التطبيقات."
+
+#~ msgid ""
+#~ "The support in Ubuntu 11.04 for your intel graphics hardware is limited "
+#~ "and you may encounter problems after the upgrade. Do you want to continue "
+#~ "with the upgrade?"
+#~ msgstr ""
+#~ "دعم أوبنتو 11.04 لعتاد الرسوميات في جهازك محدود وقد تواجه مشاكل بعد "
+#~ "الترقية. هل تود الاستمرار في الترقية؟"
+
+#~ msgid "Your graphics hardware may not be fully supported in Ubuntu 11.04."
+#~ msgstr "قد يكون عتاد الرسوميات في جهازك غير مدعوم بالكامل في أوبنتو 11.04."

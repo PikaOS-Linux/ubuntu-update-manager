@@ -1,0 +1,1253 @@
+# translation of mk.po to Macedonian
+# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) 2005 THE PACKAGE'S COPYRIGHT HOLDER.
+# Арангел Ангов <ufo@linux.net.mk>, 2005.
+#
+#: ../UpdateManager/UpdatesAvailable.py:847
+msgid ""
+msgstr ""
+"Project-Id-Version: mk\n"
+"Report-Msgid-Bugs-To: sebastian.heinlein@web.de\n"
+"POT-Creation-Date: 2021-12-07 16:54-0800\n"
+"PO-Revision-Date: 2011-01-03 08:51+0000\n"
+"Last-Translator: Јован Наумовски <jovan@lugola.net>\n"
+"Language-Team: Macedonian <ossm-members@hedona.on.net.mk>\n"
+"Language: mk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : 1;\n"
+"X-Launchpad-Export-Date: 2012-04-17 13:40+0000\n"
+"X-Generator: Launchpad (build 15099)\n"
+
+#: ../UpdateManager/backend/InstallBackendAptdaemon.py:150
+#, fuzzy
+msgid "Checking for updates…"
+msgstr "Други надградби"
+
+#: ../UpdateManager/backend/InstallBackendAptdaemon.py:200
+#: ../UpdateManager/backend/InstallBackendAptdaemon.py:256
+#: ../UpdateManager/backend/InstallBackendAptdaemon.py:287
+#, fuzzy
+msgid "Installing updates…"
+msgstr "_Инсталирај надградби"
+
+#: ../UpdateManager/backend/InstallBackendSynaptic.py:39
+msgid "Please wait, this can take some time."
+msgstr "Ве молам, почекајте, ова може да потрае."
+
+#: ../UpdateManager/backend/InstallBackendSynaptic.py:41
+msgid "Update is complete"
+msgstr "Надградбата е завршена"
+
+#: ../UpdateManager/backend/__init__.py:277
+msgid "Updating snaps"
+msgstr ""
+
+#: ../UpdateManager/backend/__init__.py:304
+#, python-format
+msgid "Refreshing %s snap"
+msgstr ""
+
+#: ../UpdateManager/backend/__init__.py:310
+#, fuzzy, python-format
+msgid "Removing %s snap"
+msgstr "Отстрани го %s"
+
+#: ../UpdateManager/backend/__init__.py:315
+#, fuzzy, python-format
+msgid "Installing %s snap"
+msgstr "Инсталирај %s"
+
+#: ../UpdateManager/backend/__init__.py:324
+#, fuzzy
+msgid "Upgrade only partially completed."
+msgstr "Надградбата е завршена"
+
+#: ../UpdateManager/backend/__init__.py:325
+#, fuzzy
+msgid ""
+"An error occurred while updating snaps. Please check your network connection."
+msgstr ""
+"Се случи проблем при надградбата. Ова е обично некој проблем со мрежата и Ве "
+"молиме да ја проверете Вашата мрежна врска и да се обидете повторно."
+
+#: ../UpdateManager/ChangelogViewer.py:83
+msgid "Open Link in Browser"
+msgstr ""
+
+#: ../UpdateManager/ChangelogViewer.py:87
+msgid "Copy Link to Clipboard"
+msgstr ""
+
+#: ../UpdateManager/Dialogs.py:126
+msgid "Settings…"
+msgstr ""
+
+#: ../UpdateManager/Dialogs.py:171
+msgid ""
+"<b>Tip:</b> You can use Livepatch to keep your computer more secure between "
+"restarts."
+msgstr ""
+
+#: ../UpdateManager/Dialogs.py:174
+msgid "Settings & Livepatch…"
+msgstr ""
+
+#: ../UpdateManager/Dialogs.py:188
+#, python-format
+msgid "%d Livepatch update applied since the last restart."
+msgid_plural "%d Livepatch updates applied since the last restart."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../UpdateManager/Dialogs.py:196
+#, python-format
+msgid "%d Livepatch update failed to apply since the last restart."
+msgid_plural "%d Livepatch updates failed to apply since the last restart."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../UpdateManager/Dialogs.py:218 ../UpdateManager/UpdateManager.py:292
+msgid "You stopped the check for updates."
+msgstr ""
+
+#: ../UpdateManager/Dialogs.py:220
+msgid "_Check Again"
+msgstr ""
+
+#: ../UpdateManager/Dialogs.py:232
+msgid "No software updates are available."
+msgstr ""
+
+#: ../UpdateManager/Dialogs.py:234 ../UpdateManager/Dialogs.py:245
+msgid "The software on this computer is up to date."
+msgstr ""
+
+#. Translators: these are Ubuntu version names like "Ubuntu 12.04"
+#: ../UpdateManager/Dialogs.py:247
+#, python-format
+msgid "However, %s %s is now available (you have %s)."
+msgstr ""
+
+#: ../UpdateManager/Dialogs.py:252
+#, fuzzy
+msgid "Upgrade…"
+msgstr "Н_адгради"
+
+#: ../UpdateManager/Dialogs.py:272
+#, fuzzy
+msgid "New important security and hardware support update."
+msgstr "Важни безбедносни ажурирања"
+
+#: ../UpdateManager/Dialogs.py:280
+#, fuzzy
+msgid "_Install…"
+msgstr "Инсталирај %s"
+
+#. Translators: this is an Ubuntu version name like "Ubuntu 12.04"
+#: ../UpdateManager/Dialogs.py:292
+#, python-format
+msgid "Software updates are no longer provided for %s %s."
+msgstr ""
+
+#. Translators: this is an Ubuntu version name like "Ubuntu 12.04"
+#: ../UpdateManager/Dialogs.py:296
+#, python-format
+msgid "To stay secure, you should upgrade to %s %s."
+msgstr ""
+
+#: ../UpdateManager/Dialogs.py:309
+msgid "Sorry, there are no more upgrades for this system"
+msgstr ""
+
+#. Translators: this is an Ubuntu version name like "Ubuntu 12.04"
+#: ../UpdateManager/Dialogs.py:311
+#, python-format
+msgid ""
+"\n"
+"There will not be any further Ubuntu releases for this system's '%s' "
+"architecture.\n"
+"\n"
+"Updates for Ubuntu %s will continue until 2023-04-26.\n"
+"\n"
+"If you reinstall Ubuntu from ubuntu.com/download, future upgrades will be "
+"available."
+msgstr ""
+
+#: ../UpdateManager/Dialogs.py:325
+#, fuzzy
+msgid "Not all updates can be installed"
+msgstr "<big><b>Не може да се инсталираат сите ажурирања</b></big>"
+
+#: ../UpdateManager/Dialogs.py:327
+msgid ""
+"Run a partial upgrade, to install as many updates as possible.\n"
+"\n"
+"    This can be caused by:\n"
+"     * A previous upgrade which didn't complete\n"
+"     * Problems with some of the installed software\n"
+"     * Unofficial software packages not provided by Ubuntu\n"
+"     * Normal changes of a pre-release version of Ubuntu"
+msgstr ""
+
+#: ../UpdateManager/Dialogs.py:335
+msgid "_Partial Upgrade"
+msgstr "_Парцијална надградба"
+
+#: ../UpdateManager/Dialogs.py:336
+msgid "_Continue"
+msgstr "Продолжи"
+
+#: ../UpdateManager/Dialogs.py:372
+msgid "_Try Again"
+msgstr ""
+
+#: ../UpdateManager/Dialogs.py:386
+msgid "The computer needs to restart to finish installing updates."
+msgstr ""
+
+#: ../UpdateManager/Dialogs.py:388
+#, fuzzy
+msgid "Restart _Later"
+msgstr "Потребно е рестартирање"
+
+#: ../UpdateManager/Dialogs.py:390
+msgid "_Restart Now"
+msgstr "_Рестартирај сега"
+
+#. Basic GTK+ parameters
+#: ../UpdateManager/UpdateManager.py:96 ../data/update-manager.desktop.in.h:1
+#: ../data/update-manager.appdata.xml.in.h:1
+#, fuzzy
+msgid "Software Updater"
+msgstr "Надградба на софтвер"
+
+#: ../UpdateManager/UpdateManager.py:290
+msgid "Some software couldn’t be checked for updates."
+msgstr ""
+
+#: ../UpdateManager/UpdateManager.py:293
+msgid "Updated software is available from a previous check."
+msgstr ""
+
+#. we assert a clean cache
+#: ../UpdateManager/UpdateManager.py:400
+msgid "Software index is broken"
+msgstr "Индексот на софтвер е расипан"
+
+#: ../UpdateManager/UpdateManager.py:401
+msgid ""
+"It is impossible to install or remove any software. Please use the package "
+"manager \"Synaptic\" or run \"sudo apt-get install -f\" in a terminal to fix "
+"this issue at first."
+msgstr ""
+"Невозможно е да инсталирам или избришам некој софтвер. Користете го "
+"менаџерот за пакети Синаптик или прво извршете „sudo apt-ge install -f“ во "
+"терминал за да го надминете овој проблем."
+
+#: ../UpdateManager/UpdateManager.py:408
+msgid "Could not initialize the package information"
+msgstr "Не можам да ги иницијализирам информациите за пакетот"
+
+#: ../UpdateManager/UpdateManager.py:409
+msgid ""
+"An unresolvable problem occurred while initializing the package "
+"information.\n"
+"\n"
+"Please report this bug against the 'update-manager' package and include the "
+"following error message:\n"
+msgstr ""
+
+#: ../UpdateManager/UpdateManager.py:437
+msgid "Could not calculate the upgrade"
+msgstr "Не може да се одреди надградбата"
+
+#: ../UpdateManager/UpdateManager.py:438
+msgid ""
+"An unresolvable problem occurred while calculating the upgrade.\n"
+"\n"
+"Please report this bug against the 'update-manager' package and include the "
+"following error message:\n"
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:252
+#, fuzzy
+msgid "Install Now"
+msgstr "Инсталирај %s"
+
+#: ../UpdateManager/UpdatesAvailable.py:285
+#, fuzzy
+msgid "Install or remove"
+msgstr "Инсталирај %s"
+
+#: ../UpdateManager/UpdatesAvailable.py:319
+msgid "Download"
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:378
+msgid "_Remind Me Later"
+msgstr ""
+
+#. upload_archive = version_match.group(2).strip()
+#: ../UpdateManager/UpdatesAvailable.py:515
+#, python-format
+msgid "Version %s: \n"
+msgstr "Верзија %s: \n"
+
+#: ../UpdateManager/UpdatesAvailable.py:580
+msgid ""
+"No network connection detected, you can not download changelog information."
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:590
+msgid "Downloading list of changes..."
+msgstr "Преземам листа на промени..."
+
+#: ../UpdateManager/UpdatesAvailable.py:634
+msgid "_Deselect All"
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:640
+msgid "Select _All"
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:736
+#, python-format
+msgid "%s will be downloaded."
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:750
+#, fuzzy
+msgid "The update has already been downloaded."
+msgid_plural "The updates have already been downloaded."
+msgstr[0] "Серверот може да е преоптоварен. "
+msgstr[1] "Серверот може да е преоптоварен. "
+
+#: ../UpdateManager/UpdatesAvailable.py:756
+msgid "There are no updates to install."
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:765
+msgid "Unknown download size."
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:792
+#, python-format
+msgid ""
+"Updated software has been issued since %s %s was released. Do you want to "
+"install it now?"
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:797
+msgid ""
+"Updated software is available for this computer. Do you want to install it "
+"now?"
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:800
+msgid ""
+"The computer also needs to restart to finish installing previous updates."
+msgstr ""
+
+#. print("on_button_install_clicked")
+#: ../UpdateManager/UpdatesAvailable.py:830
+msgid "Not enough free disk space"
+msgstr "Нема доволно место на дискот"
+
+#: ../UpdateManager/UpdatesAvailable.py:831
+#, python-format
+msgid ""
+"The upgrade needs a total of %s free space on disk '%s'. Please free at "
+"least an additional %s of disk space on '%s'. %s"
+msgstr ""
+
+#. specific ways to resolve lack of free space
+#: ../UpdateManager/UpdatesAvailable.py:836
+msgid ""
+"Remove temporary packages of former installations using 'sudo apt clean'."
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:838
+msgid ""
+"You can remove old kernels using 'sudo apt autoremove', and you could also "
+"set COMPRESS=xz in /etc/initramfs-tools/initramfs.conf to reduce the size of "
+"your initramfs."
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:843
+msgid ""
+"Empty your trash and remove temporary packages of former installations using "
+"'sudo apt clean'."
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:846
+msgid "Reboot to clean up files in /tmp."
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:888
+msgid "Connecting..."
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:904
+msgid "You may not be able to check for updates or download new updates."
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:1056
+msgid "Improved hardware support"
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:1060
+#, fuzzy
+msgid "Security updates"
+msgstr "Важни безбедносни ажурирања"
+
+#: ../UpdateManager/UpdatesAvailable.py:1064
+msgid "Other updates"
+msgstr "Други надградби"
+
+#: ../UpdateManager/UpdatesAvailable.py:1067
+msgid "Updates"
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:1072
+msgid "Unused kernel updates to be removed"
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:1077
+#, fuzzy
+msgid "Duplicate packages to be removed"
+msgstr "Ќе биде отстранет %d пакет."
+
+#: ../UpdateManager/UnitySupport.py:70
+msgid "Install All Available Updates"
+msgstr ""
+
+#: ../UpdateManager/Core/MyCache.py:417
+msgid "This update does not come from a source that supports changelogs."
+msgstr ""
+
+#: ../UpdateManager/Core/MyCache.py:423 ../UpdateManager/Core/MyCache.py:458
+msgid ""
+"Failed to download the list of changes. \n"
+"Please check your Internet connection."
+msgstr ""
+"Не успеав ја преземам листата со промени. \n"
+"Ве молам проверете дали Вашата интернет врска е активна."
+
+#: ../UpdateManager/Core/MyCache.py:430
+#, python-format
+msgid ""
+"Changes for %s versions:\n"
+"Installed version: %s\n"
+"Available version: %s\n"
+"\n"
+msgstr ""
+
+#: ../UpdateManager/Core/MyCache.py:444
+#, python-format
+msgid ""
+"The changelog does not contain any relevant changes.\n"
+"\n"
+"Please use http://launchpad.net/ubuntu/+source/%s/%s/+changelog\n"
+"until the changes become available or try again later."
+msgstr ""
+
+#: ../UpdateManager/Core/MyCache.py:451
+#, python-format
+msgid ""
+"The list of changes is not available yet.\n"
+"\n"
+"Please use http://launchpad.net/ubuntu/+source/%s/%s/+changelog\n"
+"until the changes become available or try again later."
+msgstr ""
+
+#. Translators: the %s is a distro name, like 'Ubuntu' and 'base' as in
+#. the core components and packages.
+#: ../UpdateManager/Core/UpdateList.py:175
+#, python-format
+msgid "%s base"
+msgstr ""
+
+#. TRANSLATORS: download size of small updates, e.g. "250 kB"
+#: ../UpdateManager/Core/utils.py:483
+#, python-format
+msgid "%(size).0f kB"
+msgid_plural "%(size).0f kB"
+msgstr[0] ""
+msgstr[1] ""
+
+#. TRANSLATORS: download size of updates, e.g. "2.3 MB"
+#: ../UpdateManager/Core/utils.py:487
+#, python-format
+msgid "%.1f MB"
+msgstr "%.1f MB"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:1
+msgid "updates"
+msgstr "ажурирања"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:2
+msgid "Changes"
+msgstr "Промени"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:3
+msgid "Description"
+msgstr "Опис"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:4
+#, fuzzy
+msgid "Technical description"
+msgstr "Опис"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:5
+#, fuzzy
+msgid "Details of updates"
+msgstr "Опис на ажурирањето"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:6
+msgid "The computer will need to restart."
+msgstr ""
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:7
+msgid ""
+"You are connected via roaming and may be charged for the data consumed by "
+"this update."
+msgstr ""
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:8
+msgid ""
+"You may want to wait until you’re not using a mobile broadband connection."
+msgstr ""
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:9
+msgid "It’s safer to connect the computer to AC power before updating."
+msgstr ""
+
+#: ../data/update-manager.desktop.in.h:2
+msgid "Software Updates"
+msgstr "Надградба на софтвер"
+
+#: ../data/update-manager.desktop.in.h:3
+#: ../data/update-manager.appdata.xml.in.h:2
+msgid "Show and install available updates"
+msgstr "Прикажи и инсталирај ги достапните надградби"
+
+#: ../data/update-manager.appdata.xml.in.h:3
+msgid ""
+"Software Updater checks for updates using apt and let you choose which "
+"updates to install."
+msgstr ""
+
+#: ../update-manager:71
+msgid "Show version and exit"
+msgstr "Прикажи верзија и излези"
+
+#: ../update-manager:74
+msgid "Directory that contains the data files"
+msgstr ""
+
+#: ../update-manager:77
+msgid "Check if a new Ubuntu release is available"
+msgstr ""
+
+#: ../update-manager:80
+msgid ""
+"If using the latest supported release, upgrade to the development release"
+msgstr ""
+
+#: ../update-manager:84
+msgid "Upgrade using the latest proposed version of the release upgrader"
+msgstr ""
+
+#. TRANSLATORS: this describes the "focus-on-map" gtk
+#. property that controls if a new window takes the
+#. input focus control when it is displayed for the
+#. first time (see also the gtk devhelp page)
+#: ../update-manager:91
+msgid "Do not focus on map when starting"
+msgstr ""
+
+#: ../update-manager:94
+msgid "Do not check for updates when starting"
+msgstr ""
+
+#: ../update-manager:96
+msgid "Show debug messages"
+msgstr ""
+
+#. Why do we use %s here instead of $strings or {} format placeholders?
+#. It's because we don't want to break existing translations.
+#: ../janitor/plugincore/exceptions.py:43
+#, python-format
+msgid "Unimplemented method: %s"
+msgstr ""
+
+#: ../janitor/plugincore/core/file_cruft.py:41
+msgid "A file on disk"
+msgstr ""
+
+#: ../janitor/plugincore/core/missing_package_cruft.py:40
+msgid "Install missing package."
+msgstr ""
+
+#. 2012-06-08 BAW: i18n string; don't use {} or PEP 292.
+#: ../janitor/plugincore/core/missing_package_cruft.py:50
+#, python-format
+msgid "Package %s should be installed."
+msgstr ""
+
+#: ../janitor/plugincore/core/package_cruft.py:50
+msgid ".deb package"
+msgstr ""
+
+#: ../janitor/plugincore/plugins/langpack_manual_plugin.py:47
+#, python-format
+msgid "%s needs to be marked as manually installed."
+msgstr ""
+
+#: ../janitor/plugincore/plugins/kdelibs4to5_plugin.py:50
+msgid ""
+"When upgrading, if kdelibs4-dev is installed, kdelibs5-dev needs to be "
+"installed. See bugs.launchpad.net, bug #279621 for details."
+msgstr ""
+
+#: ../janitor/plugincore/plugins/dpkg_status_plugin.py:45
+#, python-format
+msgid "%i obsolete entries in the status file"
+msgstr ""
+
+#: ../janitor/plugincore/plugins/dpkg_status_plugin.py:48
+msgid "Obsolete entries in dpkg status"
+msgstr ""
+
+#. pragma: no cover
+#: ../janitor/plugincore/plugins/dpkg_status_plugin.py:51
+msgid "Obsolete dpkg status entries"
+msgstr ""
+
+#: ../janitor/plugincore/plugins/remove_lilo_plugin.py:43
+msgid "Remove lilo since grub is also installed.(See bug #314004 for details.)"
+msgstr ""
+
+#, python-format
+#~ msgid "Server for %s"
+#~ msgstr "Сервер за %s"
+
+#~ msgid "Main server"
+#~ msgstr "Главен сервер"
+
+#~ msgid "Custom servers"
+#~ msgstr "Други сервери"
+
+#~ msgid "Failed to add the CD"
+#~ msgstr "Не можам да го додадам CD-то"
+
+#, python-format
+#~ msgid ""
+#~ "There was a error adding the CD, the upgrade will abort. Please report "
+#~ "this as a bug if this is a valid Ubuntu CD.\n"
+#~ "\n"
+#~ "The error message was:\n"
+#~ "'%s'"
+#~ msgstr ""
+#~ "Имаше грешка во додавањето на CD-то, надградбата ќе прекине. Ве молам, "
+#~ "пријавете го ова како бубачка ако CD-то е валидно Ubuntu CD.\n"
+#~ "\n"
+#~ "Пораката со грешка беше:\n"
+#~ "'%s'"
+
+#~ msgid "Remove package in bad state"
+#~ msgid_plural "Remove packages in bad state"
+#~ msgstr[0] "Отстрани го пакетот во лоша состојба"
+#~ msgstr[1] "Отстрани ги пакетите во лоша состојба"
+
+#~ msgid "Broken packages"
+#~ msgstr "Оштетени пакети"
+
+#~ msgid ""
+#~ "Your system contains broken packages that couldn't be fixed with this "
+#~ "software. Please fix them first using synaptic or apt-get before "
+#~ "proceeding."
+#~ msgstr ""
+#~ "Вашиот систем содржи оштетени пакети кои не може да се поправат со овој "
+#~ "софтвер. Ве молам поправете ги со Синаптик или apt-get пред да продолжите."
+
+#~ msgid "This is most likely a transient problem, please try again later."
+#~ msgstr "Ова најверојатно е минлив проблем, пробајте подоцна."
+
+#~ msgid "Error authenticating some packages"
+#~ msgstr "Грешка при автентикација на некои пакети"
+
+#~ msgid ""
+#~ "It was not possible to authenticate some packages. This may be a "
+#~ "transient network problem. You may want to try again later. See below for "
+#~ "a list of unauthenticated packages."
+#~ msgstr ""
+#~ "Не можат да се автентицираат некои пакети. Може да има мрежни пречки. "
+#~ "Обидете се повторно. Видете подолу за листа на неавтентицирани пакети."
+
+#, python-format
+#~ msgid "Can't install '%s'"
+#~ msgstr "Не може да се инсталира %s'"
+
+#~ msgid "Can't guess meta-package"
+#~ msgstr "Не може да се погоди мета пакетот"
+
+#~ msgid ""
+#~ "Your system does not contain a ubuntu-desktop, kubuntu-desktop, xubuntu-"
+#~ "desktop or edubuntu-desktop package and it was not possible to detect "
+#~ "which version of Ubuntu you are running.\n"
+#~ " Please install one of the packages above first using synaptic or apt-get "
+#~ "before proceeding."
+#~ msgstr ""
+#~ "Вашиот систем не содржи ни еден од пакетите ubuntu-desktop, kubuntu-"
+#~ "desktop, xubuntu-desktop или edubuntu-desktop и затоа беше невозможно да "
+#~ "се одреди која верзија на Ubuntu извршувате.\n"
+#~ " Ве молам, инсталирајте еден од пакетите погоре со synaptic или apt-get "
+#~ "пред да продолжите."
+
+#~ msgid "Reading cache"
+#~ msgstr "Читање на кешот"
+
+#~ msgid "Unable to get exclusive lock"
+#~ msgstr "Не можам да добијам ексклузивно заклучување"
+
+#~ msgid ""
+#~ "This usually means that another package management application (like apt-"
+#~ "get or aptitude) already running. Please close that application first."
+#~ msgstr ""
+#~ "Ова најчесто значи дека моментално работи друга апликација за менаџмент "
+#~ "на пакети (како apt-get или aptitude). Ве молам прво затворете ја таа "
+#~ "апликација."
+
+#~ msgid "Continue running under SSH?"
+#~ msgstr "Да продолжам да се извршувам под SSH?"
+
+#~ msgid "Starting additional sshd"
+#~ msgstr "Стартувам додатен sshd"
+
+#~ msgid "Can not upgrade"
+#~ msgstr "Не можам да извршам надградба"
+
+#, python-format
+#~ msgid "An upgrade from '%s' to '%s' is not supported with this tool."
+#~ msgstr "Надградбата од „%s“ во „%s“ не е поддржано со оваа алатка."
+
+#~ msgid ""
+#~ "Your python install is corrupted. Please fix the '/usr/bin/python' "
+#~ "symlink."
+#~ msgstr ""
+#~ "Вашата инсталација на python e расипана. Ве молам, поправете ја "
+#~ "симболичката врска „/usr/bin/python“."
+
+#~ msgid "Include latest updates from the Internet?"
+#~ msgstr "Да ги вклучам најновите ажурирања од Интернет?"
+
+#~ msgid "No valid mirror found"
+#~ msgstr "Не е пронајден валиден помошен сервер"
+
+#~ msgid "Generate default sources?"
+#~ msgstr "Да ги генерирам стандардните извори?"
+
+#~ msgid "Repository information invalid"
+#~ msgstr "Информациите за складиштето се невалидни"
+
+#~ msgid "Third party sources disabled"
+#~ msgstr "Додатните извори се оневозможени"
+
+#~ msgid ""
+#~ "Some third party entries in your sources.list were disabled. You can re-"
+#~ "enable them after the upgrade with the 'software-properties' tool or your "
+#~ "package manager."
+#~ msgstr ""
+#~ "Некои од додатните записи во sources.list беа оневозможени. Можете да ги "
+#~ "овозможите повторно по надградбата со алатката „software-properties“ или "
+#~ "со Вашиот менаџер на пакети."
+
+#~ msgid "Package in inconsistent state"
+#~ msgid_plural "Packages in inconsistent state"
+#~ msgstr[0] "Пакет во неправилна состојба"
+#~ msgstr[1] "Пакети во неправилна состојба"
+
+#~ msgid "Error during update"
+#~ msgstr "Грешка при ажурирањето"
+
+#~ msgid "Calculating the changes"
+#~ msgstr "Ги проценувам промените"
+
+#~ msgid "Do you want to start the upgrade?"
+#~ msgstr "Дали сакате да ја започнете надградбата?"
+
+#~ msgid "Could not download the upgrades"
+#~ msgstr "Не можам да ги симнам надградбите"
+
+#~ msgid "Error during commit"
+#~ msgstr "Грешка при испраќањето"
+
+#~ msgid "Restoring original system state"
+#~ msgstr "Ја враќам првичната состојба на системот"
+
+#~ msgid "Could not install the upgrades"
+#~ msgstr "Не можам да ги инсталирам надградбите"
+
+#~ msgid "Remove obsolete packages?"
+#~ msgstr "Да ги отстранам застарените пакети?"
+
+#~ msgid "_Keep"
+#~ msgstr "_Чувај"
+
+#~ msgid "_Remove"
+#~ msgstr "_Отстрани"
+
+#~ msgid ""
+#~ "A problem occurred during the clean-up. Please see the below message for "
+#~ "more information. "
+#~ msgstr ""
+#~ "Се случи некој проблем при расчистувањето. Видете ја пораката подолу за "
+#~ "повеќе информации. "
+
+#~ msgid "Required depends is not installed"
+#~ msgstr "Не се инсталирани потребните зависности"
+
+#, python-format
+#~ msgid "The required dependency '%s' is not installed. "
+#~ msgstr "Потребната зависност „%s“ не е инсталирана. "
+
+#~ msgid "Checking package manager"
+#~ msgstr "Проверете го менаџерот за пакети"
+
+#~ msgid "Preparing the upgrade failed"
+#~ msgstr "Подготвувањето на надградбата не успеа"
+
+#~ msgid "Getting upgrade prerequisites failed"
+#~ msgstr "Земањето на почетните потребни пакети не успеа"
+
+#~ msgid "Updating repository information"
+#~ msgstr "Ги ажурирам информациите за складиштето"
+
+#~ msgid "Invalid package information"
+#~ msgstr "Невалидни информации за пакетот"
+
+#~ msgid "Fetching"
+#~ msgstr "Земам"
+
+#~ msgid "Upgrading"
+#~ msgstr "Надградувам"
+
+#~ msgid "Searching for obsolete software"
+#~ msgstr "Барам застарен софтвер"
+
+#~ msgid "System upgrade is complete."
+#~ msgstr "Надградбата на системот е завршена."
+
+#~ msgid "Use the given path to search for a cdrom with upgradable packages"
+#~ msgstr ""
+#~ "Користи ја дадената патека за пребарување на cdrom со пакети за надградба"
+
+#~ msgid ""
+#~ "Use frontend. Currently available: \n"
+#~ "DistUpgradeViewText, DistUpgradeViewGtk, DistUpgradeViewKDE"
+#~ msgstr ""
+#~ "Користи фронтенд. Моментално достапни: \n"
+#~ "DistUpgradeViewText, DistUpgradeViewGtk, DistUpgradeViewKDE"
+
+#, python-format
+#~ msgid "Please insert '%s' into the drive '%s'"
+#~ msgstr "Внесете '%s' во драјвот '%s'"
+
+#~ msgid "Fetching is complete"
+#~ msgstr "Земањето заврши"
+
+#, python-format
+#~ msgid "About %s remaining"
+#~ msgstr "Преостануваат околу %s"
+
+#, python-format
+#~ msgid "Fetching file %li of %li"
+#~ msgstr "Земам датотека %li од %li"
+
+#~ msgid "Applying changes"
+#~ msgstr "Применувам промени"
+
+#, python-format
+#~ msgid "Could not install '%s'"
+#~ msgstr "Не можам да инсталирам '%s'"
+
+#, python-format
+#~ msgid ""
+#~ "Replace the customized configuration file\n"
+#~ "'%s'?"
+#~ msgstr ""
+#~ "Да ја заменам сопствената конфигурациска датотека\n"
+#~ "„%s“?"
+
+#~ msgid ""
+#~ "You will lose any changes you have made to this configuration file if you "
+#~ "choose to replace it with a newer version."
+#~ msgstr ""
+#~ "Ќе ги загубите сите промени кои ги направивте на оваа конфигурациска "
+#~ "датотека ако изберете да ја замените со понова верзија."
+
+#~ msgid "The 'diff' command was not found"
+#~ msgstr "Командата „diff“ не беше пронајдена"
+
+#~ msgid "A fatal error occurred"
+#~ msgstr "Се случи фатална грешка"
+
+#~ msgid "To prevent data loss close all open applications and documents."
+#~ msgstr ""
+#~ "За да спречите загуба на податоци, затворете ги сите отворени апликации и "
+#~ "документи."
+
+#~ msgid "Media Change"
+#~ msgstr "Промена на медиум"
+
+#~ msgid "Show Difference >>>"
+#~ msgstr "Покажи ја разликата >>>"
+
+#~ msgid "<<< Hide Difference"
+#~ msgstr "<<< Скриј ја разлаката"
+
+#~ msgid "Show Terminal >>>"
+#~ msgstr "Покажи терминал >>>"
+
+#~ msgid "<<< Hide Terminal"
+#~ msgstr "<<< Скриј го терминалот"
+
+#~ msgid "Details"
+#~ msgstr "Детали"
+
+#, python-format
+#~ msgid "Upgrade %s"
+#~ msgstr "Надгради %s"
+
+#~ msgid "<b><big>Restart the system to complete the upgrade</big></b>"
+#~ msgstr ""
+#~ "<b><big>Рестартирајте го системот за да ја завршите надградбата</big></b>"
+
+#~ msgid "Cancel Upgrade?"
+#~ msgstr "Да ја прекинам надградбата?"
+
+#, python-format
+#~ msgid "This download will take about %s with your connection. "
+#~ msgstr "Ова преземање ќе трае околу %s со Вашата врска. "
+
+#~ msgid "Preparing to upgrade"
+#~ msgstr "Ја подготвувам надградбата"
+
+#~ msgid "Getting new software channels"
+#~ msgstr "Земам нови софтверски канали"
+
+#~ msgid "Getting new packages"
+#~ msgstr "Земам нови пакети"
+
+#~ msgid "Installing the upgrades"
+#~ msgstr "Ги инсталирам надградбите"
+
+#~ msgid "Cleaning up"
+#~ msgstr "Расчистувам"
+
+#, python-format
+#~ msgid "%d new package is going to be installed."
+#~ msgid_plural "%d new packages are going to be installed."
+#~ msgstr[0] "Ќе се инсталира %d нов пакет."
+#~ msgstr[1] "Ќе се инсталираат %d нови пакети."
+
+#, python-format
+#~ msgid "%d package is going to be upgraded."
+#~ msgid_plural "%d packages are going to be upgraded."
+#~ msgstr[0] "Ќе се надгради %d пакет."
+#~ msgstr[1] "Ќе се надградат %d пакети."
+
+#, python-format
+#~ msgid ""
+#~ "\n"
+#~ "\n"
+#~ "You have to download a total of %s. "
+#~ msgstr ""
+#~ "\n"
+#~ "\n"
+#~ "Мора да преземете вкупно %s. "
+
+#~ msgid ""
+#~ "There are no upgrades available for your system. The upgrade will now be "
+#~ "canceled."
+#~ msgstr ""
+#~ "Нема достапни надградби за Вашиот систем. Надградбата сега ќе се прекине."
+
+#~ msgid "Reboot required"
+#~ msgstr "Потребно е рестартирање"
+
+#~ msgid ""
+#~ "The upgrade is finished and a reboot is required. Do you want to do this "
+#~ "now?"
+#~ msgstr ""
+#~ "Надградбата е завршена и потребно е рестартирање. Дали сакате да го "
+#~ "направите сега?"
+
+#~ msgid "Could not run the upgrade tool"
+#~ msgstr "Не можам да ја извршам алатката за надградба"
+
+#~ msgid "Upgrade tool signature"
+#~ msgstr "Потпис на алатката за надградба"
+
+#~ msgid "Upgrade tool"
+#~ msgstr "Алатка за надградба"
+
+#~ msgid "Failed to fetch"
+#~ msgstr "Не можам да симнам"
+
+#~ msgid "Fetching the upgrade failed. There may be a network problem. "
+#~ msgstr ""
+#~ "Симнувањето на надградбите не успеа. Можеби има проблем со мрежата. "
+
+#~ msgid "Authentication failed"
+#~ msgstr "Проверката беше неуспешна"
+
+#~ msgid ""
+#~ "Authenticating the upgrade failed. There may be a problem with the "
+#~ "network or with the server. "
+#~ msgstr ""
+#~ "Проверката на автентичност на надградбата не успеа. Можеби има проблем со "
+#~ "мрежата или серверот. "
+
+#~ msgid "Failed to extract"
+#~ msgstr "Не можам да отпакувам"
+
+#~ msgid ""
+#~ "Extracting the upgrade failed. There may be a problem with the network or "
+#~ "with the server. "
+#~ msgstr ""
+#~ "Отпакувањето на надградбата не успеа. Можеби има проблем со мрежата или "
+#~ "серверот. "
+
+#~ msgid ""
+#~ "Verifying the upgrade failed.  There may be a problem with the network or "
+#~ "with the server. "
+#~ msgstr ""
+#~ "Проверката на надградбата не успеа. Можеби има проблем со мережата или со "
+#~ "серверот. "
+
+#~ msgid "Aborting"
+#~ msgstr "Прекинувам"
+
+#~ msgid "Demoted:\n"
+#~ msgstr "Снижено:\n"
+
+#~ msgid "Continue [yN] "
+#~ msgstr "Продолжи [yN] "
+
+#~ msgid "Details [d]"
+#~ msgstr "Детали [d]"
+
+#~ msgid "y"
+#~ msgstr "y"
+
+#~ msgid "n"
+#~ msgstr "n"
+
+#~ msgid "d"
+#~ msgstr "d"
+
+#, python-format
+#~ msgid "Remove: %s\n"
+#~ msgstr "Отстрани го: %s\n"
+
+#, python-format
+#~ msgid "Install: %s\n"
+#~ msgstr "Инсталирај: %s\n"
+
+#, python-format
+#~ msgid "Upgrade: %s\n"
+#~ msgstr "Надгради: %s\n"
+
+#~ msgid ""
+#~ "To finish the upgrade, a restart is required.\n"
+#~ "If you select 'y' the system will be restarted."
+#~ msgstr ""
+#~ "Потребно е рестартирање за да заврши надградбата.\n"
+#~ "Ако изберете „y“, системот ќе се рестартира."
+
+#~ msgid "_Cancel Upgrade"
+#~ msgstr "_Прекини ја надградбата"
+
+#~ msgid "_Resume Upgrade"
+#~ msgstr "_Продолжи со надградбата"
+
+#~ msgid ""
+#~ "<b><big>Cancel the running upgrade?</big></b>\n"
+#~ "\n"
+#~ "The system could be in an unusable state if you cancel the upgrade. You "
+#~ "are strongly adviced to resume the upgrade."
+#~ msgstr ""
+#~ "<b><big>Да ја прекинам тековната надградба?</big></b>\n"
+#~ "\n"
+#~ "Системот може да е во неупотреблива состојба ако ја прекинете "
+#~ "надградбата. Строго препорачливо е да надградбата да продолжи."
+
+#~ msgid "_Start Upgrade"
+#~ msgstr "_Започни со надградбата"
+
+#~ msgid "_Replace"
+#~ msgstr "_Замени"
+
+#~ msgid "Difference between the files"
+#~ msgstr "Разлика помеѓу датотеките"
+
+#~ msgid "_Report Bug"
+#~ msgstr "_Пријави бубачка"
+
+#~ msgid "<b><big>Start the upgrade?</big></b>"
+#~ msgstr "<b><big>Да ја започнам надградбата?</big></b>"
+
+#~ msgid "Distribution Upgrade"
+#~ msgstr "Надградба на дистрибуцијата"
+
+#~ msgid "    "
+#~ msgstr "    "
+
+#~ msgid "Setting new software channels"
+#~ msgstr "Ги поставувам новите софтверски канали"
+
+#~ msgid "Restarting the computer"
+#~ msgstr "Го рестартирам системот"
+
+#~ msgid "Terminal"
+#~ msgstr "Терминал"
+
+#~ msgid "Could not find the release notes"
+#~ msgstr "Не можам да ги најдам белешките за изданието"
+
+#~ msgid "The server may be overloaded. "
+#~ msgstr "Серверот може да е преоптоварен. "
+
+#~ msgid "Could not download the release notes"
+#~ msgstr "Не можам да ги преземам белешките за изданието"
+
+#~ msgid "Please check your internet connection."
+#~ msgstr "Ве молам проверете ја Вашата интернет врска."
+
+#~ msgid "Release Notes"
+#~ msgstr "Белешки за изданието"
+
+#, python-format
+#~ msgid "Downloading file %(current)li of %(total)li with %(speed)s/s"
+#~ msgstr "Ја преземам датотеката %(current)li од %(total)li со %(speed)s/сек."
+
+#, python-format
+#~ msgid "Downloading file %(current)li of %(total)li"
+#~ msgstr "Ја преземам датотеката %(current)li од %(total)li"
+
+#~ msgid "Reading package information"
+#~ msgstr "Ги читам податоците за пакетот"
+
+#, python-format
+#~ msgid "(Size: %s)"
+#~ msgstr "(големина: %s)"
+
+#, python-format
+#~ msgid "From version %(old_version)s to %(new_version)s"
+#~ msgstr "Од верзијата %(old_version)s во %(new_version)s"
+
+#, python-format
+#~ msgid "Version %s"
+#~ msgstr "Верзија %s"
+
+#~ msgid "Recommended updates"
+#~ msgstr "Препорачливи ажурирања"
+
+#~ msgid "Proposed updates"
+#~ msgstr "Предложени ажурирања"
+
+#~ msgid "Backports"
+#~ msgstr "Надградени пакети од понови верзии на Ubuntu"
+
+#~ msgid "Distribution updates"
+#~ msgstr "Надградби на дистрибуцијата"
+
+#, fuzzy
+#~ msgid "<big><b>Starting Software Updater</b></big>"
+#~ msgstr "<big><b>Го стартувам менаџерот за ажурирање</b></big>"
+
+#~ msgid ""
+#~ "Software updates correct errors, eliminate security vulnerabilities and "
+#~ "provide new features."
+#~ msgstr ""
+#~ "Надградбата на софтверот ги поправа грешките, ги елиминира сигурносните "
+#~ "пропусти и овозможува нови карактеристики."
+
+#~ msgid "Chec_k"
+#~ msgstr "Провер_и"
+
+#~ msgid ""
+#~ "<b><big>You must check for updates manually</big></b>\n"
+#~ "\n"
+#~ "Your system does not check for updates automatically. You can configure "
+#~ "this behavior in <i>Software Sources</i> on the <i>Updates</i> tab."
+#~ msgstr ""
+#~ "<b><big>Мора да проверите рачно дали има ажурирања</big></b>\n"
+#~ "\n"
+#~ "Вашиот систем не проверува дали има ажурирања автоматски. Можете да го "
+#~ "конфигурирате тоа во <i>Софтверски извори</i> во јазичето <i>Интернет "
+#~ "ажурирања</i>."
+
+#~ msgid "_Hide this information in the future"
+#~ msgstr "_Криј ги овие информации во иднина"
+
+#~ msgid "Show progress of individual files"
+#~ msgstr "Покажувај го напредокот на поединечните датотеки"
+
+#, fuzzy
+#~ msgid "Starting Software Updater"
+#~ msgstr "Надградба на софтвер"
+
+#~ msgid "U_pgrade"
+#~ msgstr "Н_адгради"
+
+#~ msgid "Check if upgrading to the latest devel release is possible"
+#~ msgstr "Провери дали е можна надградбата до најновата развојна верзија"
+
+#~ msgid "Try to run a dist-upgrade"
+#~ msgstr "Пробајте да извршите dist-upgrade"
+
+#~ msgid "Running partial upgrade"
+#~ msgstr "Извршувам парцијална надградба"
+
+#~ msgid ""
+#~ "Try upgrading to the latest release using the upgrader from $distro-"
+#~ "proposed"
+#~ msgstr ""
+#~ "Пробајте да го надградите системот до најновото издание со користење на "
+#~ "надградувачот од $distro-proposed"
+
+#~ msgid ""
+#~ "Run in a special upgrade mode.\n"
+#~ "Currently 'desktop' for regular upgrades of a desktop system and 'server' "
+#~ "for server systems are supported."
+#~ msgstr ""
+#~ "Се извршувам во специјален режим за надградба.\n"
+#~ "Моментално се поддржани „desktop“ за регуларни надградби за десктоп "
+#~ "систем и „server“ за серверски системи."
+
+#~ msgid "Run the specified frontend"
+#~ msgstr "Изврши го одредениот фронтенд"
+
+#~ msgid "No new release found"
+#~ msgstr "Не е пронајдено ново издание"
+
+#~ msgid "Update Manager"
+#~ msgstr "Менаџер за надградба"
+
+#~ msgid "Checking for a new ubuntu release"
+#~ msgstr "Провери за нови изданија од дистрибуцијата"
+
+#~ msgid "Your system is up-to-date"
+#~ msgstr "Вашиот систем е надграден"
+
+#~ msgid ""
+#~ "Fetching and installing the upgrade can take several hours. Once the "
+#~ "download has finished, the process cannot be cancelled."
+#~ msgstr ""
+#~ "Земањето и инсталирањето на надградбите може да трае неколку часови и не "
+#~ "може да се прекине било кога."

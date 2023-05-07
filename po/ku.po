@@ -1,0 +1,1326 @@
+# Kurdish translation for update-manager
+# Copyright (c) (c) 2006 Canonical Ltd, and Rosetta Contributors 2006
+# This file is distributed under the same license as the update-manager package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2006.
+#
+#: ../UpdateManager/UpdatesAvailable.py:847
+msgid ""
+msgstr ""
+"Project-Id-Version: update-manager\n"
+"Report-Msgid-Bugs-To: sebastian.heinlein@web.de\n"
+"POT-Creation-Date: 2021-12-07 16:54-0800\n"
+"PO-Revision-Date: 2011-12-06 06:47+0000\n"
+"Last-Translator: Amed Çeko Jiyan <amedcj@gmail.com>\n"
+"Language-Team: Kurdish <ku@li.org>\n"
+"Language: ku\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Launchpad-Export-Date: 2012-04-17 13:41+0000\n"
+"X-Generator: Launchpad (build 15099)\n"
+
+#: ../UpdateManager/backend/InstallBackendAptdaemon.py:150
+#, fuzzy
+msgid "Checking for updates…"
+msgstr "Rojanekirinên din"
+
+#: ../UpdateManager/backend/InstallBackendAptdaemon.py:200
+#: ../UpdateManager/backend/InstallBackendAptdaemon.py:256
+#: ../UpdateManager/backend/InstallBackendAptdaemon.py:287
+#, fuzzy
+msgid "Installing updates…"
+msgstr "Rojanekirinan _saz bike"
+
+#: ../UpdateManager/backend/InstallBackendSynaptic.py:39
+msgid "Please wait, this can take some time."
+msgstr "Divê raweste, dibe ku ev hinekî demdirêj be."
+
+#: ../UpdateManager/backend/InstallBackendSynaptic.py:41
+msgid "Update is complete"
+msgstr "Rojanekirin temam bû"
+
+#: ../UpdateManager/backend/__init__.py:277
+msgid "Updating snaps"
+msgstr ""
+
+#: ../UpdateManager/backend/__init__.py:304
+#, python-format
+msgid "Refreshing %s snap"
+msgstr ""
+
+#: ../UpdateManager/backend/__init__.py:310
+#, fuzzy, python-format
+msgid "Removing %s snap"
+msgstr "%s rake"
+
+#: ../UpdateManager/backend/__init__.py:315
+#, fuzzy, python-format
+msgid "Installing %s snap"
+msgstr "%s saz bike"
+
+#: ../UpdateManager/backend/__init__.py:324
+#, fuzzy
+msgid "Upgrade only partially completed."
+msgstr "Bilindkirin temam bû"
+
+#: ../UpdateManager/backend/__init__.py:325
+#, fuzzy
+msgid ""
+"An error occurred while updating snaps. Please check your network connection."
+msgstr ""
+"Daxistina lîsteya guhertinan biserneket.\n"
+"Ji kerema xwe re girêdana internetê kontrol bike."
+
+#: ../UpdateManager/ChangelogViewer.py:83
+msgid "Open Link in Browser"
+msgstr ""
+
+#: ../UpdateManager/ChangelogViewer.py:87
+msgid "Copy Link to Clipboard"
+msgstr ""
+
+#: ../UpdateManager/Dialogs.py:126
+#, fuzzy
+msgid "Settings…"
+msgstr "_Vebijêrk..."
+
+#: ../UpdateManager/Dialogs.py:171
+msgid ""
+"<b>Tip:</b> You can use Livepatch to keep your computer more secure between "
+"restarts."
+msgstr ""
+
+#: ../UpdateManager/Dialogs.py:174
+msgid "Settings & Livepatch…"
+msgstr ""
+
+#: ../UpdateManager/Dialogs.py:188
+#, python-format
+msgid "%d Livepatch update applied since the last restart."
+msgid_plural "%d Livepatch updates applied since the last restart."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../UpdateManager/Dialogs.py:196
+#, python-format
+msgid "%d Livepatch update failed to apply since the last restart."
+msgid_plural "%d Livepatch updates failed to apply since the last restart."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../UpdateManager/Dialogs.py:218 ../UpdateManager/UpdateManager.py:292
+msgid "You stopped the check for updates."
+msgstr ""
+
+#: ../UpdateManager/Dialogs.py:220
+msgid "_Check Again"
+msgstr ""
+
+#: ../UpdateManager/Dialogs.py:232
+msgid "No software updates are available."
+msgstr ""
+
+#: ../UpdateManager/Dialogs.py:234 ../UpdateManager/Dialogs.py:245
+msgid "The software on this computer is up to date."
+msgstr ""
+
+#. Translators: these are Ubuntu version names like "Ubuntu 12.04"
+#: ../UpdateManager/Dialogs.py:247
+#, python-format
+msgid "However, %s %s is now available (you have %s)."
+msgstr ""
+
+#: ../UpdateManager/Dialogs.py:252
+#, fuzzy
+msgid "Upgrade…"
+msgstr "_Bilindkirin"
+
+#: ../UpdateManager/Dialogs.py:272
+#, fuzzy
+msgid "New important security and hardware support update."
+msgstr "Rojanekirinên ewlekariyê yên girîng (security)"
+
+#: ../UpdateManager/Dialogs.py:280
+#, fuzzy
+msgid "_Install…"
+msgstr "%s saz bike"
+
+#. Translators: this is an Ubuntu version name like "Ubuntu 12.04"
+#: ../UpdateManager/Dialogs.py:292
+#, python-format
+msgid "Software updates are no longer provided for %s %s."
+msgstr ""
+
+#. Translators: this is an Ubuntu version name like "Ubuntu 12.04"
+#: ../UpdateManager/Dialogs.py:296
+#, python-format
+msgid "To stay secure, you should upgrade to %s %s."
+msgstr ""
+
+#: ../UpdateManager/Dialogs.py:309
+msgid "Sorry, there are no more upgrades for this system"
+msgstr ""
+
+#. Translators: this is an Ubuntu version name like "Ubuntu 12.04"
+#: ../UpdateManager/Dialogs.py:311
+#, python-format
+msgid ""
+"\n"
+"There will not be any further Ubuntu releases for this system's '%s' "
+"architecture.\n"
+"\n"
+"Updates for Ubuntu %s will continue until 2023-04-26.\n"
+"\n"
+"If you reinstall Ubuntu from ubuntu.com/download, future upgrades will be "
+"available."
+msgstr ""
+
+#: ../UpdateManager/Dialogs.py:325
+#, fuzzy
+msgid "Not all updates can be installed"
+msgstr "<big><b>Di lênihertina CDyê de çewtî</b></big>"
+
+#: ../UpdateManager/Dialogs.py:327
+msgid ""
+"Run a partial upgrade, to install as many updates as possible.\n"
+"\n"
+"    This can be caused by:\n"
+"     * A previous upgrade which didn't complete\n"
+"     * Problems with some of the installed software\n"
+"     * Unofficial software packages not provided by Ubuntu\n"
+"     * Normal changes of a pre-release version of Ubuntu"
+msgstr ""
+
+#: ../UpdateManager/Dialogs.py:335
+msgid "_Partial Upgrade"
+msgstr "_Bilindkirina Qismen"
+
+#: ../UpdateManager/Dialogs.py:336
+msgid "_Continue"
+msgstr "_Bidomîne"
+
+#: ../UpdateManager/Dialogs.py:372
+msgid "_Try Again"
+msgstr ""
+
+#: ../UpdateManager/Dialogs.py:386
+msgid "The computer needs to restart to finish installing updates."
+msgstr ""
+
+#: ../UpdateManager/Dialogs.py:388
+#, fuzzy
+msgid "Restart _Later"
+msgstr "Destpêkirina nû pêwîst e"
+
+#: ../UpdateManager/Dialogs.py:390
+msgid "_Restart Now"
+msgstr "Niha _ji nû ve bide destpêkirin"
+
+#. Basic GTK+ parameters
+#: ../UpdateManager/UpdateManager.py:96 ../data/update-manager.desktop.in.h:1
+#: ../data/update-manager.appdata.xml.in.h:1
+#, fuzzy
+msgid "Software Updater"
+msgstr "Rojanekirinên Nivîsbariyê"
+
+#: ../UpdateManager/UpdateManager.py:290
+msgid "Some software couldn’t be checked for updates."
+msgstr ""
+
+#: ../UpdateManager/UpdateManager.py:293
+msgid "Updated software is available from a previous check."
+msgstr ""
+
+#. we assert a clean cache
+#: ../UpdateManager/UpdateManager.py:400
+msgid "Software index is broken"
+msgstr "Pêrista nivîsbariyê xera bûye"
+
+#: ../UpdateManager/UpdateManager.py:401
+msgid ""
+"It is impossible to install or remove any software. Please use the package "
+"manager \"Synaptic\" or run \"sudo apt-get install -f\" in a terminal to fix "
+"this issue at first."
+msgstr ""
+"Sazkirin an jî rakirina nivîsbariyê qet ne gengaz e. Ji kerema xwe berî her "
+"tiştî vê pirsgirêkê bi gerînendeyê pakêtan ya \"Synaptic\" and jî bi fermana "
+"\"sudo apt-get install -f\" re di termînalê de çareser bike."
+
+#: ../UpdateManager/UpdateManager.py:408
+msgid "Could not initialize the package information"
+msgstr ""
+
+#: ../UpdateManager/UpdateManager.py:409
+msgid ""
+"An unresolvable problem occurred while initializing the package "
+"information.\n"
+"\n"
+"Please report this bug against the 'update-manager' package and include the "
+"following error message:\n"
+msgstr ""
+
+#: ../UpdateManager/UpdateManager.py:437
+msgid "Could not calculate the upgrade"
+msgstr "Bilindkirin nehat hesabkirin"
+
+#: ../UpdateManager/UpdateManager.py:438
+msgid ""
+"An unresolvable problem occurred while calculating the upgrade.\n"
+"\n"
+"Please report this bug against the 'update-manager' package and include the "
+"following error message:\n"
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:252
+#, fuzzy
+msgid "Install Now"
+msgstr "%s saz bike"
+
+#: ../UpdateManager/UpdatesAvailable.py:285
+#, fuzzy
+msgid "Install or remove"
+msgstr "%s saz bike"
+
+#: ../UpdateManager/UpdatesAvailable.py:319
+msgid "Download"
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:378
+msgid "_Remind Me Later"
+msgstr ""
+
+#. upload_archive = version_match.group(2).strip()
+#: ../UpdateManager/UpdatesAvailable.py:515
+#, python-format
+msgid "Version %s: \n"
+msgstr "Guhartoya %s: \n"
+
+#: ../UpdateManager/UpdatesAvailable.py:580
+msgid ""
+"No network connection detected, you can not download changelog information."
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:590
+msgid "Downloading list of changes..."
+msgstr "Lîsteya guhartinan tê daxistin..."
+
+#: ../UpdateManager/UpdatesAvailable.py:634
+msgid "_Deselect All"
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:640
+msgid "Select _All"
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:736
+#, python-format
+msgid "%s will be downloaded."
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:750
+#, fuzzy
+msgid "The update has already been downloaded."
+msgid_plural "The updates have already been downloaded."
+msgstr[0] "Dibe ku barê pêşkêşkerê pir zêde be "
+msgstr[1] "Dibe ku barê pêşkêşkerê pir zêde be "
+
+#: ../UpdateManager/UpdatesAvailable.py:756
+msgid "There are no updates to install."
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:765
+msgid "Unknown download size."
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:792
+#, python-format
+msgid ""
+"Updated software has been issued since %s %s was released. Do you want to "
+"install it now?"
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:797
+msgid ""
+"Updated software is available for this computer. Do you want to install it "
+"now?"
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:800
+msgid ""
+"The computer also needs to restart to finish installing previous updates."
+msgstr ""
+
+#. print("on_button_install_clicked")
+#: ../UpdateManager/UpdatesAvailable.py:830
+msgid "Not enough free disk space"
+msgstr "Cihê vala yê diskê têr nake"
+
+#: ../UpdateManager/UpdatesAvailable.py:831
+#, python-format
+msgid ""
+"The upgrade needs a total of %s free space on disk '%s'. Please free at "
+"least an additional %s of disk space on '%s'. %s"
+msgstr ""
+
+#. specific ways to resolve lack of free space
+#: ../UpdateManager/UpdatesAvailable.py:836
+msgid ""
+"Remove temporary packages of former installations using 'sudo apt clean'."
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:838
+msgid ""
+"You can remove old kernels using 'sudo apt autoremove', and you could also "
+"set COMPRESS=xz in /etc/initramfs-tools/initramfs.conf to reduce the size of "
+"your initramfs."
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:843
+msgid ""
+"Empty your trash and remove temporary packages of former installations using "
+"'sudo apt clean'."
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:846
+msgid "Reboot to clean up files in /tmp."
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:888
+msgid "Connecting..."
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:904
+msgid "You may not be able to check for updates or download new updates."
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:1056
+msgid "Improved hardware support"
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:1060
+#, fuzzy
+msgid "Security updates"
+msgstr "Rojanekirinên ewlekariyê yên girîng (security)"
+
+#: ../UpdateManager/UpdatesAvailable.py:1064
+msgid "Other updates"
+msgstr "Rojanekirinên din"
+
+#: ../UpdateManager/UpdatesAvailable.py:1067
+msgid "Updates"
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:1072
+msgid "Unused kernel updates to be removed"
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:1077
+#, fuzzy
+msgid "Duplicate packages to be removed"
+msgstr "%d pakêt dê were rakirin."
+
+#: ../UpdateManager/UnitySupport.py:70
+msgid "Install All Available Updates"
+msgstr ""
+
+#: ../UpdateManager/Core/MyCache.py:417
+msgid "This update does not come from a source that supports changelogs."
+msgstr ""
+
+#: ../UpdateManager/Core/MyCache.py:423 ../UpdateManager/Core/MyCache.py:458
+msgid ""
+"Failed to download the list of changes. \n"
+"Please check your Internet connection."
+msgstr ""
+"Daxistina lîsteya guhertinan biserneket.\n"
+"Ji kerema xwe re girêdana internetê kontrol bike."
+
+#: ../UpdateManager/Core/MyCache.py:430
+#, python-format
+msgid ""
+"Changes for %s versions:\n"
+"Installed version: %s\n"
+"Available version: %s\n"
+"\n"
+msgstr ""
+
+#: ../UpdateManager/Core/MyCache.py:444
+#, python-format
+msgid ""
+"The changelog does not contain any relevant changes.\n"
+"\n"
+"Please use http://launchpad.net/ubuntu/+source/%s/%s/+changelog\n"
+"until the changes become available or try again later."
+msgstr ""
+
+#: ../UpdateManager/Core/MyCache.py:451
+#, python-format
+msgid ""
+"The list of changes is not available yet.\n"
+"\n"
+"Please use http://launchpad.net/ubuntu/+source/%s/%s/+changelog\n"
+"until the changes become available or try again later."
+msgstr ""
+
+#. Translators: the %s is a distro name, like 'Ubuntu' and 'base' as in
+#. the core components and packages.
+#: ../UpdateManager/Core/UpdateList.py:175
+#, python-format
+msgid "%s base"
+msgstr ""
+
+#. TRANSLATORS: download size of small updates, e.g. "250 kB"
+#: ../UpdateManager/Core/utils.py:483
+#, python-format
+msgid "%(size).0f kB"
+msgid_plural "%(size).0f kB"
+msgstr[0] ""
+msgstr[1] ""
+
+#. TRANSLATORS: download size of updates, e.g. "2.3 MB"
+#: ../UpdateManager/Core/utils.py:487
+#, python-format
+msgid "%.1f MB"
+msgstr "%.1f MB"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:1
+msgid "updates"
+msgstr "rojanekirin"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:2
+msgid "Changes"
+msgstr "Guhartin"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:3
+msgid "Description"
+msgstr "Rave"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:4
+#, fuzzy
+msgid "Technical description"
+msgstr "Rave"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:5
+#, fuzzy
+msgid "Details of updates"
+msgstr "Raveya rojanekirinê"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:6
+msgid "The computer will need to restart."
+msgstr ""
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:7
+msgid ""
+"You are connected via roaming and may be charged for the data consumed by "
+"this update."
+msgstr ""
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:8
+msgid ""
+"You may want to wait until you’re not using a mobile broadband connection."
+msgstr ""
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:9
+msgid "It’s safer to connect the computer to AC power before updating."
+msgstr ""
+
+#: ../data/update-manager.desktop.in.h:2
+msgid "Software Updates"
+msgstr "Rojanekirinên Nivîsbariyê"
+
+#: ../data/update-manager.desktop.in.h:3
+#: ../data/update-manager.appdata.xml.in.h:2
+msgid "Show and install available updates"
+msgstr "Rojanekirinên amade nîşan bide û saz bike"
+
+#: ../data/update-manager.appdata.xml.in.h:3
+msgid ""
+"Software Updater checks for updates using apt and let you choose which "
+"updates to install."
+msgstr ""
+
+#: ../update-manager:71
+msgid "Show version and exit"
+msgstr "Guhartoyê nîşan bide û derkeve"
+
+#: ../update-manager:74
+msgid "Directory that contains the data files"
+msgstr ""
+
+#: ../update-manager:77
+msgid "Check if a new Ubuntu release is available"
+msgstr ""
+
+#: ../update-manager:80
+msgid ""
+"If using the latest supported release, upgrade to the development release"
+msgstr ""
+
+#: ../update-manager:84
+msgid "Upgrade using the latest proposed version of the release upgrader"
+msgstr ""
+
+#. TRANSLATORS: this describes the "focus-on-map" gtk
+#. property that controls if a new window takes the
+#. input focus control when it is displayed for the
+#. first time (see also the gtk devhelp page)
+#: ../update-manager:91
+msgid "Do not focus on map when starting"
+msgstr ""
+
+#: ../update-manager:94
+msgid "Do not check for updates when starting"
+msgstr ""
+
+#: ../update-manager:96
+msgid "Show debug messages"
+msgstr ""
+
+#. Why do we use %s here instead of $strings or {} format placeholders?
+#. It's because we don't want to break existing translations.
+#: ../janitor/plugincore/exceptions.py:43
+#, python-format
+msgid "Unimplemented method: %s"
+msgstr ""
+
+#: ../janitor/plugincore/core/file_cruft.py:41
+msgid "A file on disk"
+msgstr ""
+
+#: ../janitor/plugincore/core/missing_package_cruft.py:40
+msgid "Install missing package."
+msgstr ""
+
+#. 2012-06-08 BAW: i18n string; don't use {} or PEP 292.
+#: ../janitor/plugincore/core/missing_package_cruft.py:50
+#, python-format
+msgid "Package %s should be installed."
+msgstr ""
+
+#: ../janitor/plugincore/core/package_cruft.py:50
+msgid ".deb package"
+msgstr ""
+
+#: ../janitor/plugincore/plugins/langpack_manual_plugin.py:47
+#, python-format
+msgid "%s needs to be marked as manually installed."
+msgstr ""
+
+#: ../janitor/plugincore/plugins/kdelibs4to5_plugin.py:50
+msgid ""
+"When upgrading, if kdelibs4-dev is installed, kdelibs5-dev needs to be "
+"installed. See bugs.launchpad.net, bug #279621 for details."
+msgstr ""
+
+#: ../janitor/plugincore/plugins/dpkg_status_plugin.py:45
+#, python-format
+msgid "%i obsolete entries in the status file"
+msgstr ""
+
+#: ../janitor/plugincore/plugins/dpkg_status_plugin.py:48
+msgid "Obsolete entries in dpkg status"
+msgstr ""
+
+#. pragma: no cover
+#: ../janitor/plugincore/plugins/dpkg_status_plugin.py:51
+msgid "Obsolete dpkg status entries"
+msgstr ""
+
+#: ../janitor/plugincore/plugins/remove_lilo_plugin.py:43
+msgid "Remove lilo since grub is also installed.(See bug #314004 for details.)"
+msgstr ""
+
+#, python-format
+#~ msgid "Server for %s"
+#~ msgstr "Pêşkêşkera %s"
+
+#~ msgid "Main server"
+#~ msgstr "Pêşkêşkera Mak"
+
+#~ msgid "Custom servers"
+#~ msgstr "Pêşkêşkera taybet"
+
+#~ msgid "Could not calculate sources.list entry"
+#~ msgstr "Hesibandina ketana sources.list biserneket"
+
+#~ msgid ""
+#~ "Unable to locate any package files, perhaps this is not a Ubuntu Disc or "
+#~ "the wrong architecture?"
+#~ msgstr ""
+#~ "Tu pelên pakêtan nayên bicîkirin, pêkan e ku ev ne Diskeke Ubuntuyê be an "
+#~ "jî avabûneke çewt be?"
+
+#~ msgid "Failed to add the CD"
+#~ msgstr "Di têxistina CD'yê de çewtî"
+
+#, python-format
+#~ msgid ""
+#~ "There was a error adding the CD, the upgrade will abort. Please report "
+#~ "this as a bug if this is a valid Ubuntu CD.\n"
+#~ "\n"
+#~ "The error message was:\n"
+#~ "'%s'"
+#~ msgstr ""
+#~ "Di têxistina CD'yê de çewtî, bilindkirin dê bisekine. Heke CD'ya te "
+#~ "CD'yeke derbasdar a Ubuntuyê be vê çewtiyê ragihîne.\n"
+#~ "\n"
+#~ "Peyama çewtiyê:\n"
+#~ "'%s'"
+
+#~ msgid "Remove package in bad state"
+#~ msgid_plural "Remove packages in bad state"
+#~ msgstr[0] "Pakêta di rewşa nebaş de rake"
+#~ msgstr[1] "Pakêtên di rewşa nebaş de rake"
+
+#, python-format
+#~ msgid ""
+#~ "The package '%s' is in an inconsistent state and needs to be reinstalled, "
+#~ "but no archive can be found for it. Do you want to remove this package "
+#~ "now to continue?"
+#~ msgid_plural ""
+#~ "The packages '%s' are in an inconsistent state and need to be "
+#~ "reinstalled, but no archives can be found for them. Do you want to remove "
+#~ "these packages now to continue?"
+#~ msgstr[0] ""
+#~ "Pakêta '%s' ne hevgirtî ye û divê ji nû ve bê sazkirin, lê ji bo wê tu "
+#~ "arşîv nayê dîtin. Ji bo dewam bikî dixwazî vê pakêtê niha rakî?"
+#~ msgstr[1] ""
+#~ "Pakêtên '%s' ne hevgirtî ne û divê ji nû ve bên sazkirin, lê ji bo wan tu "
+#~ "arşîv nayê dîtin. Ji bo dewam bikî dixwazî van pakêtan niha rakî?"
+
+#~ msgid "The server may be overloaded"
+#~ msgstr "Dibe ku li ser pêşkêşkarê pir hatibe barkirin"
+
+#~ msgid "Broken packages"
+#~ msgstr "Pakêtên şikestî"
+
+#~ msgid ""
+#~ "Your system contains broken packages that couldn't be fixed with this "
+#~ "software. Please fix them first using synaptic or apt-get before "
+#~ "proceeding."
+#~ msgstr ""
+#~ "Pergala te tevî vê nivîsbariyê hin pakêtên xerabe yên ku nayên "
+#~ "sererastkirin dihewîne. Berî ku tu berdewam bikî ji kerema xwe re van "
+#~ "bernameyan bi synaptic an jî i apt-getê sererast bike."
+
+#, python-format
+#~ msgid ""
+#~ "An unresolvable problem occurred while calculating the upgrade:\n"
+#~ "%s\n"
+#~ "\n"
+#~ " This can be caused by:\n"
+#~ " * Upgrading to a pre-release version of Ubuntu\n"
+#~ " * Running the current pre-release version of Ubuntu\n"
+#~ " * Unofficial software packages not provided by Ubuntu\n"
+#~ "\n"
+#~ msgstr ""
+#~ "Di hesabkirina rojanekirinê de pirsgirêkeke nayê çareserkirin rû da:\n"
+#~ "%s\n"
+#~ "\n"
+#~ " Dibe ku sedem yek ji van be:\n"
+#~ " * Bilindkirina ji bo pêş-guhertoyeke Ubuntuyê\n"
+#~ " * Xebitandina pêş-guhertoya Ubuntuyê ya niha\n"
+#~ " * Pakêtên bernameyên nenavendî ji hêla Ubuntuyê ve nayên peydakirin\n"
+#~ "\n"
+
+#~ msgid "This is most likely a transient problem, please try again later."
+#~ msgstr "Ev wekî pirsgirêkeke demdemî xuya dike, tika ye dîsa biceribîne."
+
+#~ msgid "Error authenticating some packages"
+#~ msgstr "Di piştrastkirina çend paketan de çewtî derket"
+
+#~ msgid ""
+#~ "It was not possible to authenticate some packages. This may be a "
+#~ "transient network problem. You may want to try again later. See below for "
+#~ "a list of unauthenticated packages."
+#~ msgstr ""
+#~ "Hin pakêt nehatin piştrastkirin. Dibe ku ev pirsgirêkeke derbasdar a torê "
+#~ "be. Ji bo lîsteya pakêtên ku nehatine piştrastkirin li jêr binihêre."
+
+#, python-format
+#~ msgid ""
+#~ "The package '%s' is marked for removal but it is in the removal blacklist."
+#~ msgstr ""
+#~ "Pakêta '%s' ji bo rakirinê hate nîşankirin lê di lîsteya reş a rakirinê "
+#~ "de ye."
+
+#, python-format
+#~ msgid "The essential package '%s' is marked for removal."
+#~ msgstr "Pakêta bingehîn '%s' ji bo rakirinê hate nîşankirin."
+
+#, python-format
+#~ msgid "Trying to install blacklisted version '%s'"
+#~ msgstr "Sazkirina guhertoya '%s' a lîsteya reş diceribîne"
+
+#, python-format
+#~ msgid "Can't install '%s'"
+#~ msgstr "Nikare '%s' saz bike"
+
+#~ msgid "Can't guess meta-package"
+#~ msgstr "Pakêta meta nehate texmînkirin"
+
+#~ msgid ""
+#~ "Your system does not contain a ubuntu-desktop, kubuntu-desktop, xubuntu-"
+#~ "desktop or edubuntu-desktop package and it was not possible to detect "
+#~ "which version of Ubuntu you are running.\n"
+#~ " Please install one of the packages above first using synaptic or apt-get "
+#~ "before proceeding."
+#~ msgstr ""
+#~ "Pergala te tu pakêtên ubuntu-desktop, kubuntu-desktop, xubuntu-desktop an "
+#~ "edubuntu-desktop nahundirîne û nehate tespîtkirin ku tu kîjan guhertoya "
+#~ "Ubuntuyê bikar tînî.\n"
+#~ " Ji kerema xwe re berî ku tu berdewam bikî, bi synaptic an jî bi apt-getê "
+#~ "yek ji pakêtên ku li jor in saz bike."
+
+#~ msgid "Reading cache"
+#~ msgstr "Pêşbîr tê xwendin"
+
+#~ msgid "Unable to get exclusive lock"
+#~ msgstr "Kilîtkirina eksklusîv nayê çêkirin"
+
+#~ msgid ""
+#~ "This usually means that another package management application (like apt-"
+#~ "get or aptitude) already running. Please close that application first."
+#~ msgstr ""
+#~ "Wateya vê ew e ku, niha sepana rêveberiya pakêteke din dixebite (apt-get "
+#~ "an jî aptitude). Ji kerema xwe re berê wê sepanê bigire."
+
+#~ msgid "Upgrading over remote connection not supported"
+#~ msgstr "Bilindkirina li ser girêdana ji dûr ve nayê destekirin"
+
+#~ msgid "Continue running under SSH?"
+#~ msgstr "Bila xebitandina bin SSH'yê were domandin?"
+
+#~ msgid "Starting additional sshd"
+#~ msgstr "sshdyeke nû tê destpêkirin"
+
+#~ msgid "Can not upgrade"
+#~ msgstr "Bilinkirin çênabe"
+
+#, python-format
+#~ msgid "An upgrade from '%s' to '%s' is not supported with this tool."
+#~ msgstr "Ev amûr piştgiriya bilindkirina ji '%s' ber ve '%s nade."
+
+#~ msgid ""
+#~ "Your python install is corrupted. Please fix the '/usr/bin/python' "
+#~ "symlink."
+#~ msgstr ""
+#~ "Di sazkirina te ya Pythonê de çewtî heye. Ji kerema xwe re girêdana '/usr/"
+#~ "bin/python' a sembolîk tamîr bike."
+
+#~ msgid "Include latest updates from the Internet?"
+#~ msgstr ""
+#~ "Bila rojanekirinên herî dawîn yên di înternetê de lê werine zêdekirin?"
+
+#~ msgid "No valid mirror found"
+#~ msgstr "Neynikeke derbasdar nehate dîtin."
+
+#~ msgid "Generate default sources?"
+#~ msgstr "Bila depoyên pêşsalixbûyî bên çêkirin?"
+
+#~ msgid "Repository information invalid"
+#~ msgstr "Agahiya depoyê ne derbasdar e"
+
+#~ msgid "Third party sources disabled"
+#~ msgstr "Ji çavkaniyên partiyên sêyemîn têkilî hate birîn."
+
+#~ msgid ""
+#~ "Some third party entries in your sources.list were disabled. You can re-"
+#~ "enable them after the upgrade with the 'software-properties' tool or your "
+#~ "package manager."
+#~ msgstr ""
+#~ "Ketanên aligirên sêyemîn yên di pelê sources.list de neçalak in. Piştî "
+#~ "bilindkirinê tu dikarî van ketanan bi amûra 'software-properties' yan jî "
+#~ "bi rêvebirê pakêtan dîsa çalak bikî."
+
+#~ msgid "Error during update"
+#~ msgstr "Di rojanekirinê de çewtî derket"
+
+#~ msgid "Calculating the changes"
+#~ msgstr "Guherandin tê hesibandin"
+
+#~ msgid "Do you want to start the upgrade?"
+#~ msgstr "Tu dixwazî dest bi bilindkirinê bikî?"
+
+#~ msgid "Upgrade canceled"
+#~ msgstr "Bilindkirin hate betalkirin"
+
+#~ msgid "Could not download the upgrades"
+#~ msgstr "Daxistina bilindkirinan bi ser neket"
+
+#~ msgid "Error during commit"
+#~ msgstr "Çewtî di dema xebitandinê de"
+
+#~ msgid "Restoring original system state"
+#~ msgstr "Vedigere rewşa pergala orjînal"
+
+#~ msgid "Could not install the upgrades"
+#~ msgstr "Sazkirina bilindkirinan bi ser neket"
+
+#~ msgid "Remove obsolete packages?"
+#~ msgstr "Bila pakêtên ku nayên bikaranîn werin rakirin?"
+
+#~ msgid "_Keep"
+#~ msgstr "Bi_parêze"
+
+#~ msgid "_Remove"
+#~ msgstr "_Jêbirin"
+
+#~ msgid "Required depends is not installed"
+#~ msgstr "Divêtiyên pêwîst ne barkirî ne"
+
+#, python-format
+#~ msgid "The required dependency '%s' is not installed. "
+#~ msgstr "Divêtiya pêwîst '%s' ne barkirî ye "
+
+#~ msgid "Checking package manager"
+#~ msgstr "Rêvebiriya paketan tê kontrol kirin"
+
+#~ msgid "Preparing the upgrade failed"
+#~ msgstr "Amadekirinên nûjenkirinê bi ser neketin"
+
+#~ msgid "Getting upgrade prerequisites failed"
+#~ msgstr "Amadekirinên bilindkirinê bi ser neketin"
+
+#~ msgid "Updating repository information"
+#~ msgstr "Agahiyên çavkaniyan tên rojanekirin"
+
+#~ msgid "Invalid package information"
+#~ msgstr "Agahiya pakêtê nederbasdar e"
+
+#~ msgid "Fetching"
+#~ msgstr "Tê daxistin"
+
+#~ msgid "Upgrading"
+#~ msgstr "Tê bilindkirin"
+
+#~ msgid "Searching for obsolete software"
+#~ msgstr "Li nivîsbariya kevin tê gerandin"
+
+#~ msgid "System upgrade is complete."
+#~ msgstr "Bilindkirina pergalê temam bû."
+
+#~ msgid "No ARMv6 CPU"
+#~ msgstr "CPU ya ARMv6 tune"
+
+#~ msgid "Use the given path to search for a cdrom with upgradable packages"
+#~ msgstr ""
+#~ "Ji bo lêgerîna cdroma ku tê de pakêtên bilindbar hene, rêça ku hatiye "
+#~ "destnîşankirin bikar bîne"
+
+#, python-format
+#~ msgid "Please insert '%s' into the drive '%s'"
+#~ msgstr "Ji kerema xwe '%s' bixe nav ajokera '%s'"
+
+#~ msgid "Fetching is complete"
+#~ msgstr "Rojanekirin temam bû"
+
+#, python-format
+#~ msgid "Fetching file %li of %li at %sB/s"
+#~ msgstr "Pelê %li ji %li bi %sB/ç tê anîn"
+
+#, python-format
+#~ msgid "About %s remaining"
+#~ msgstr "Nêzîka %s ma"
+
+#, python-format
+#~ msgid "Fetching file %li of %li"
+#~ msgstr "Pelê %li ji %li tê daxistin"
+
+#~ msgid "Applying changes"
+#~ msgstr "Guherandin tê bi kar anîn"
+
+#~ msgid "dependency problems - leaving unconfigured"
+#~ msgstr "pirsgirêkên girêdanan - bê veavakirinê dimîne"
+
+#, python-format
+#~ msgid "Could not install '%s'"
+#~ msgstr "Nikarî '%s' saz bike"
+
+#, python-format
+#~ msgid ""
+#~ "Replace the customized configuration file\n"
+#~ "'%s'?"
+#~ msgstr ""
+#~ "Pelgeha veavakirinan ya hatiye taybetkirin ya\n"
+#~ "'%s' bila were guherandin?"
+
+#~ msgid ""
+#~ "You will lose any changes you have made to this configuration file if you "
+#~ "choose to replace it with a newer version."
+#~ msgstr ""
+#~ "Heke tu vê guhertoyê bi yeke nû biguherînî tu yê hemû guhertinên xwe yên "
+#~ "di pelê mîhengkirinê de winda bikî."
+
+#~ msgid "The 'diff' command was not found"
+#~ msgstr "Fermana 'diff' nehatiye dîtin"
+
+#~ msgid "A fatal error occurred"
+#~ msgstr "Çewtiyeke cîdî derket holê"
+
+#~ msgid "To prevent data loss close all open applications and documents."
+#~ msgstr ""
+#~ "Ji bo ku dane winda nebin hemû sepan û pelgeyên ku vekirî ne bigire."
+
+#~ msgid "Media Change"
+#~ msgstr "Guhartina Medyayê"
+
+#~ msgid "Show Difference >>>"
+#~ msgstr "Cudahiyan Nîşân bide >>>"
+
+#~ msgid "<<< Hide Difference"
+#~ msgstr "<<< Cudahiyan veşêre"
+
+#~ msgid "Error"
+#~ msgstr "Çewtî"
+
+#~ msgid "&Cancel"
+#~ msgstr "&Betalkirin"
+
+#~ msgid "&Close"
+#~ msgstr "&Girtin"
+
+#~ msgid "Show Terminal >>>"
+#~ msgstr "Termînalê Nîşân bide >>>"
+
+#~ msgid "<<< Hide Terminal"
+#~ msgstr "Termînalê veşêre"
+
+#~ msgid "Information"
+#~ msgstr "Agahî"
+
+#~ msgid "Details"
+#~ msgstr "Kîtekît"
+
+#, python-format
+#~ msgid "Upgrade %s"
+#~ msgstr "%s bilind bike"
+
+#~ msgid "<b><big>Restart the system to complete the upgrade</big></b>"
+#~ msgstr ""
+#~ "<b><big>Ji bo bidawîanîna bilindkirinê pergalê ji nû ve bide destpêkirin</"
+#~ "big></b>"
+
+#~ msgid "Cancel Upgrade?"
+#~ msgstr "Ji Bilindkirinê derkeve?"
+
+#, python-format
+#~ msgid "%li day"
+#~ msgid_plural "%li days"
+#~ msgstr[0] "%li roj"
+#~ msgstr[1] "%li roj"
+
+#, python-format
+#~ msgid "%li hour"
+#~ msgid_plural "%li hours"
+#~ msgstr[0] "%li demjimêr"
+#~ msgstr[1] "%li demjimêr"
+
+#, python-format
+#~ msgid "%li minute"
+#~ msgid_plural "%li minutes"
+#~ msgstr[0] "%li xulek"
+#~ msgstr[1] "%li xulek"
+
+#, python-format
+#~ msgid "%li second"
+#~ msgid_plural "%li seconds"
+#~ msgstr[0] "%li çirke"
+#~ msgstr[1] "%li çirke"
+
+#, python-format
+#~ msgid "%(str_hours)s %(str_minutes)s"
+#~ msgstr "%(str_hours)s %(str_minutes)s"
+
+#, python-format
+#~ msgid "This download will take about %s with your connection. "
+#~ msgstr "Bi girêdana te, daxistin dê %s biajo. "
+
+#~ msgid "Preparing to upgrade"
+#~ msgstr "Bilinkirin amade dibe"
+
+#~ msgid "Getting new software channels"
+#~ msgstr "Çavkaniyên nû yên nivîsbariyê tên anîn"
+
+#~ msgid "Getting new packages"
+#~ msgstr "Pakêtên nû tên anîn"
+
+#~ msgid "Installing the upgrades"
+#~ msgstr "Bilindkirin tên sazkirin"
+
+#~ msgid "Cleaning up"
+#~ msgstr "Tê pakij kirin"
+
+#, python-format
+#~ msgid "%d new package is going to be installed."
+#~ msgid_plural "%d new packages are going to be installed."
+#~ msgstr[0] "Dê %d pakêta nû were sazkirin."
+#~ msgstr[1] "Dê %d pakêtên nû werine sazkirin."
+
+#, python-format
+#~ msgid "%d package is going to be upgraded."
+#~ msgid_plural "%d packages are going to be upgraded."
+#~ msgstr[0] "Dê %d pakêt were bilindkirin"
+#~ msgstr[1] "Dê %d pakêt werine bilindkirin"
+
+#, python-format
+#~ msgid ""
+#~ "\n"
+#~ "\n"
+#~ "You have to download a total of %s. "
+#~ msgstr ""
+#~ "\n"
+#~ "\n"
+#~ "Pêwîst e tu %s bi tevahî daxî. "
+
+#~ msgid ""
+#~ "There are no upgrades available for your system. The upgrade will now be "
+#~ "canceled."
+#~ msgstr ""
+#~ "Ji bo pergala te bilindkirin tuneye. Karê bilindkirinê wê a niha were "
+#~ "betalkirin."
+
+#~ msgid "Reboot required"
+#~ msgstr "Destpêkirina nû pêwîst e"
+
+#~ msgid ""
+#~ "The upgrade is finished and a reboot is required. Do you want to do this "
+#~ "now?"
+#~ msgstr ""
+#~ "Bilindkirin bi dawî bû û destpêkirina nû pêwîst e. Tu dixwazî niha bikî?"
+
+#~ msgid "Could not run the upgrade tool"
+#~ msgstr "Amûra bilindkirinê nikaribû bimeşîne"
+
+#~ msgid "Upgrade tool signature"
+#~ msgstr "Destnîşana amûra bilindkirinê"
+
+#~ msgid "Upgrade tool"
+#~ msgstr "Amûra bilindkirinê"
+
+#~ msgid "Failed to fetch"
+#~ msgstr "Anîn biserneket"
+
+#~ msgid "Fetching the upgrade failed. There may be a network problem. "
+#~ msgstr "Anîna bilindkirinê biserneket. Dibe ku pirsgirêkeke torê hebe. "
+
+#~ msgid "Authentication failed"
+#~ msgstr "Naskirin lê nehat"
+
+#~ msgid ""
+#~ "Authenticating the upgrade failed. There may be a problem with the "
+#~ "network or with the server. "
+#~ msgstr ""
+#~ "Naskirina bilindkirnê lê nehat. Dibe ku pirsgirekeke tor an pêşkêşkarê "
+#~ "hebe. "
+
+#~ msgid "Failed to extract"
+#~ msgstr "Derxistin biserneket"
+
+#~ msgid ""
+#~ "Extracting the upgrade failed. There may be a problem with the network or "
+#~ "with the server. "
+#~ msgstr ""
+#~ "Derxistina bilindkirinê biserneket. Dibe ku pirsgirekeke tor an "
+#~ "pêşkêşkarê hebe. "
+
+#~ msgid ""
+#~ "Verifying the upgrade failed.  There may be a problem with the network or "
+#~ "with the server. "
+#~ msgstr ""
+#~ "Di dema erêkirina bilindkirinê de çewtî. Dibe ku yan di torê de yan jî di "
+#~ "pêşkêşkerê de pirsgirêk hebe "
+
+#~ msgid "Can not run the upgrade"
+#~ msgstr "Bilindkirin nayê xebitandin"
+
+#, python-format
+#~ msgid "The error message is '%s'."
+#~ msgstr "Peyama çewtiyê '%s' e."
+
+#~ msgid "Aborting"
+#~ msgstr "Tê betalkirin"
+
+#~ msgid "Continue [yN] "
+#~ msgstr "Domandin [eN] "
+
+#~ msgid "Details [d]"
+#~ msgstr "Kîtekît [k]"
+
+#~ msgid "y"
+#~ msgstr "e"
+
+#~ msgid "n"
+#~ msgstr "n"
+
+#~ msgid "d"
+#~ msgstr "k"
+
+#, python-format
+#~ msgid "Remove: %s\n"
+#~ msgstr "Rakirin: %s\n"
+
+#, python-format
+#~ msgid "Install: %s\n"
+#~ msgstr "Sazkirin: %s\n"
+
+#, python-format
+#~ msgid "Upgrade: %s\n"
+#~ msgstr "Bilindkirin: %s\n"
+
+#~ msgid ""
+#~ "To finish the upgrade, a restart is required.\n"
+#~ "If you select 'y' the system will be restarted."
+#~ msgstr ""
+#~ "Ji bo temamkirina rojanekirina, nûdestpêkek pêwist e.\n"
+#~ "Heke 'e' hilbijêrî pergal ji nû ve dê dest pê bike."
+
+#~ msgid "_Cancel Upgrade"
+#~ msgstr "_Ji Bilindkirinê derkeve"
+
+#~ msgid "_Resume Upgrade"
+#~ msgstr "Bilindkirinan _Bidomînî"
+
+#~ msgid ""
+#~ "<b><big>Cancel the running upgrade?</big></b>\n"
+#~ "\n"
+#~ "The system could be in an unusable state if you cancel the upgrade. You "
+#~ "are strongly adviced to resume the upgrade."
+#~ msgstr ""
+#~ "<b><big>Bilindkirina çalak bila were betal kirin?</big></b>\n"
+#~ "\n"
+#~ "Dibe ku pergal neyê bikaranîn. Pêşniyar ew e ku bilindkirin were "
+#~ "dewamkirin."
+
+#~ msgid "_Start Upgrade"
+#~ msgstr "_Destpêkirina nûjenkirinê"
+
+#~ msgid "_Replace"
+#~ msgstr "Bide _ser"
+
+#~ msgid "Difference between the files"
+#~ msgstr "Cudahiyên navbera pelan"
+
+#~ msgid "_Report Bug"
+#~ msgstr "Çewtiyê _Ragihîne"
+
+#~ msgid "<b><big>Start the upgrade?</big></b>"
+#~ msgstr "<b><big>Dest bi bilindkirinê were kirin?</big></b>"
+
+#~ msgid "Distribution Upgrade"
+#~ msgstr "Bilindkirina Distrîbusiyonê"
+
+#~ msgid "    "
+#~ msgstr "    "
+
+#~ msgid "Setting new software channels"
+#~ msgstr "Kanalên nivîsbariyê yên nû tên nivîsîn"
+
+#~ msgid "Restarting the computer"
+#~ msgstr "Kompute tê nûdestpêkirin"
+
+#~ msgid "Terminal"
+#~ msgstr "Termînal"
+
+#~ msgid "Could not find the release notes"
+#~ msgstr "nîşeyên derxistinan nayên dîtin"
+
+#~ msgid "The server may be overloaded. "
+#~ msgstr "Dibe ku barê pêşkêşkerê pir zêde be "
+
+#~ msgid "Could not download the release notes"
+#~ msgstr "Nîşeyên weşanê nehate daxistin"
+
+#~ msgid "Please check your internet connection."
+#~ msgstr "Ji kerema xwe girêdana înternetê kontrol bike."
+
+#~ msgid "Release Notes"
+#~ msgstr "Nîşeyên Weşanê"
+
+#, python-format
+#~ msgid "Downloading file %(current)li of %(total)li with %(speed)s/s"
+#~ msgstr "Pelê %(current)li ji %(total)li bi %(speed)s/ç tê daxistin"
+
+#, python-format
+#~ msgid "Downloading file %(current)li of %(total)li"
+#~ msgstr "Pelê %(current)li ji %(total)li tê daxistin"
+
+#~ msgid "Reading package information"
+#~ msgstr "Agahiya pakêtê tê xwendin"
+
+#, python-format
+#~ msgid "(Size: %s)"
+#~ msgstr "(Mezinahî: %s)"
+
+#, python-format
+#~ msgid "From version %(old_version)s to %(new_version)s"
+#~ msgstr "Ji guhertoya %(old_version)s ta %(new_version)s"
+
+#, python-format
+#~ msgid "Version %s"
+#~ msgstr "Guhertoya %s:"
+
+#~ msgid "Recommended updates"
+#~ msgstr "Rojanekirinên têne tewsiyekirin (recommended)"
+
+#~ msgid "Proposed updates"
+#~ msgstr "Rojanekirinên hatine pêşniyarkirin (proposed)"
+
+#~ msgid "Backports"
+#~ msgstr "Nivîsbariyên bi paş de şandî (backports)"
+
+#~ msgid "Distribution updates"
+#~ msgstr "Rojanekirinên dîstrîbusiyonê"
+
+#, fuzzy
+#~ msgid "<big><b>Starting Software Updater</b></big>"
+#~ msgstr "<big><b>Rêveberê Rojanekirinê tê destpêkirin</b></big>"
+
+#~ msgid ""
+#~ "Software updates correct errors, eliminate security vulnerabilities and "
+#~ "provide new features."
+#~ msgstr ""
+#~ "Rojanekirinên nivîsbariyê çewtiyan serrast dikin, valahiyên ewlêkariyê "
+#~ "dadigirin û funksiyonên nû tînin."
+
+#~ msgid "Chec_k"
+#~ msgstr "_Kontrol bike"
+
+#~ msgid "_Hide this information in the future"
+#~ msgstr "Di pêşerojê de vê agahiyê _veşêre"
+
+#~ msgid "Show progress of individual files"
+#~ msgstr "Pêşketina pelan yek bi yek nîşan bide"
+
+#, fuzzy
+#~ msgid "Starting Software Updater"
+#~ msgstr "Rojanekirinên Nivîsbariyê"
+
+#~ msgid "U_pgrade"
+#~ msgstr "_Bilindkirin"
+
+#~ msgid "Check if upgrading to the latest devel release is possible"
+#~ msgstr ""
+#~ "Kontrol bike ma bilindkirina bi weşana pêşdebiran ya dawî gengaz e an na"
+
+#~ msgid "Try to run a dist-upgrade"
+#~ msgstr "Xebitandina dist-upgrade biceribîne"
+
+#~ msgid "Running partial upgrade"
+#~ msgstr "Bilindkirina qismen tê xebitandin"
+
+#~ msgid "No new release found"
+#~ msgstr "Weşaneke nû nehat dîtin"
+
+#~ msgid "Update Manager"
+#~ msgstr "Rêveberiya rojanekirinê"
+
+#~ msgid "Checking for a new ubuntu release"
+#~ msgstr "Li weşaneke nû ya Ubuntu'yê bigere"
+
+#~ msgid "Your system is up-to-date"
+#~ msgstr "Pergala te rojane ye"
+
+#~ msgid "There are no updates to install"
+#~ msgstr "Rojanekirinên ku werin sazkirin tune"

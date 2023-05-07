@@ -1,0 +1,2087 @@
+# Welsh translation for update-manager
+# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# This file is distributed under the same license as the update-manager package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+#
+#: ../UpdateManager/UpdatesAvailable.py:847
+msgid ""
+msgstr ""
+"Project-Id-Version: update-manager\n"
+"Report-Msgid-Bugs-To: sebastian.heinlein@web.de\n"
+"POT-Creation-Date: 2021-12-07 16:54-0800\n"
+"PO-Revision-Date: 2011-12-06 06:42+0000\n"
+"Last-Translator: Owen Llywelyn <owen.llywelyn@gmail.com>\n"
+"Language-Team: Welsh <cy@li.org>\n"
+"Language: cy\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=n==1 ? 0 : n==2 ? 1 : (n != 8 && n != 11) ? "
+"2 : 3;\n"
+"X-Launchpad-Export-Date: 2012-04-17 13:41+0000\n"
+"X-Generator: Launchpad (build 15099)\n"
+
+#: ../UpdateManager/backend/InstallBackendAptdaemon.py:150
+#, fuzzy
+msgid "Checking for updates…"
+msgstr "Diweddariadau eraill"
+
+#: ../UpdateManager/backend/InstallBackendAptdaemon.py:200
+#: ../UpdateManager/backend/InstallBackendAptdaemon.py:256
+#: ../UpdateManager/backend/InstallBackendAptdaemon.py:287
+#, fuzzy
+msgid "Installing updates…"
+msgstr "_Gosod diweddariadau"
+
+#: ../UpdateManager/backend/InstallBackendSynaptic.py:39
+msgid "Please wait, this can take some time."
+msgstr "Bydd yn amyneddgar, gall hyn gymryd amser."
+
+#: ../UpdateManager/backend/InstallBackendSynaptic.py:41
+msgid "Update is complete"
+msgstr "Uwchraddiad wedi cwblhau"
+
+#: ../UpdateManager/backend/__init__.py:277
+msgid "Updating snaps"
+msgstr ""
+
+#: ../UpdateManager/backend/__init__.py:304
+#, python-format
+msgid "Refreshing %s snap"
+msgstr ""
+
+#: ../UpdateManager/backend/__init__.py:310
+#, fuzzy, python-format
+msgid "Removing %s snap"
+msgstr "Tynnu %s"
+
+#: ../UpdateManager/backend/__init__.py:315
+#, fuzzy, python-format
+msgid "Installing %s snap"
+msgstr "Gosod %s"
+
+#: ../UpdateManager/backend/__init__.py:324
+#, fuzzy
+msgid "Upgrade only partially completed."
+msgstr "Uwchraddiad wedi cwblhau"
+
+#: ../UpdateManager/backend/__init__.py:325
+#, fuzzy
+msgid ""
+"An error occurred while updating snaps. Please check your network connection."
+msgstr ""
+"Digwyddodd gwall wrth ddiweddaru. Problem rhwydwaith sy'n achosi hyn fel "
+"arfer. Gwiria dy gysylltiad rhwydwaith a cheisio eto."
+
+#: ../UpdateManager/ChangelogViewer.py:83
+msgid "Open Link in Browser"
+msgstr "Agor Dolen Mewn Porwr"
+
+#: ../UpdateManager/ChangelogViewer.py:87
+msgid "Copy Link to Clipboard"
+msgstr "Copio Dolen i'r Clipfwrdd"
+
+#: ../UpdateManager/Dialogs.py:126
+msgid "Settings…"
+msgstr ""
+
+#: ../UpdateManager/Dialogs.py:171
+msgid ""
+"<b>Tip:</b> You can use Livepatch to keep your computer more secure between "
+"restarts."
+msgstr ""
+
+#: ../UpdateManager/Dialogs.py:174
+msgid "Settings & Livepatch…"
+msgstr ""
+
+#: ../UpdateManager/Dialogs.py:188
+#, python-format
+msgid "%d Livepatch update applied since the last restart."
+msgid_plural "%d Livepatch updates applied since the last restart."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: ../UpdateManager/Dialogs.py:196
+#, python-format
+msgid "%d Livepatch update failed to apply since the last restart."
+msgid_plural "%d Livepatch updates failed to apply since the last restart."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: ../UpdateManager/Dialogs.py:218 ../UpdateManager/UpdateManager.py:292
+msgid "You stopped the check for updates."
+msgstr ""
+
+#: ../UpdateManager/Dialogs.py:220
+msgid "_Check Again"
+msgstr ""
+
+#: ../UpdateManager/Dialogs.py:232
+#, fuzzy
+msgid "No software updates are available."
+msgstr "Mae diweddariadau meddalwedd ar gael ar gyfer y cyfrifiadur hwn."
+
+#: ../UpdateManager/Dialogs.py:234 ../UpdateManager/Dialogs.py:245
+msgid "The software on this computer is up to date."
+msgstr ""
+
+#. Translators: these are Ubuntu version names like "Ubuntu 12.04"
+#: ../UpdateManager/Dialogs.py:247
+#, python-format
+msgid "However, %s %s is now available (you have %s)."
+msgstr ""
+
+#: ../UpdateManager/Dialogs.py:252
+#, fuzzy
+msgid "Upgrade…"
+msgstr "Uwchraddio"
+
+#: ../UpdateManager/Dialogs.py:272
+#, fuzzy
+msgid "New important security and hardware support update."
+msgstr "Diweddariadau diogelwch pwysig"
+
+#: ../UpdateManager/Dialogs.py:280
+#, fuzzy
+msgid "_Install…"
+msgstr "Gosod"
+
+#. Translators: this is an Ubuntu version name like "Ubuntu 12.04"
+#: ../UpdateManager/Dialogs.py:292
+#, fuzzy, python-format
+msgid "Software updates are no longer provided for %s %s."
+msgstr "Mae diweddariadau meddalwedd ar gael ar gyfer y cyfrifiadur hwn."
+
+#. Translators: this is an Ubuntu version name like "Ubuntu 12.04"
+#: ../UpdateManager/Dialogs.py:296
+#, python-format
+msgid "To stay secure, you should upgrade to %s %s."
+msgstr ""
+
+#: ../UpdateManager/Dialogs.py:309
+msgid "Sorry, there are no more upgrades for this system"
+msgstr ""
+
+#. Translators: this is an Ubuntu version name like "Ubuntu 12.04"
+#: ../UpdateManager/Dialogs.py:311
+#, python-format
+msgid ""
+"\n"
+"There will not be any further Ubuntu releases for this system's '%s' "
+"architecture.\n"
+"\n"
+"Updates for Ubuntu %s will continue until 2023-04-26.\n"
+"\n"
+"If you reinstall Ubuntu from ubuntu.com/download, future upgrades will be "
+"available."
+msgstr ""
+
+#: ../UpdateManager/Dialogs.py:325
+#, fuzzy
+msgid "Not all updates can be installed"
+msgstr "<big><b>Does dim modd gosod pob diweddariad</b></big>"
+
+#: ../UpdateManager/Dialogs.py:327
+#, fuzzy
+msgid ""
+"Run a partial upgrade, to install as many updates as possible.\n"
+"\n"
+"    This can be caused by:\n"
+"     * A previous upgrade which didn't complete\n"
+"     * Problems with some of the installed software\n"
+"     * Unofficial software packages not provided by Ubuntu\n"
+"     * Normal changes of a pre-release version of Ubuntu"
+msgstr ""
+"Rhedeg uwchraddiad rhannol i osod cymaint o ddiweddariadau â phosib. \n"
+"\n"
+"Gall y canlynol achosi hyn:\n"
+" * Uwchraddiad blaenorol heb gwblhau\n"
+" * Problemau gyda meddalwedd sydd wedi ei osod\n"
+" * Pecynnau meddalwedd answyddogol sydd ddim yn cael eu darparu gan Ubuntu\n"
+" * Newidiadau normal o fersiwn cyn rhyddhau o Ubuntu"
+
+#: ../UpdateManager/Dialogs.py:335
+msgid "_Partial Upgrade"
+msgstr "_Uwchraddiad Rhannol"
+
+#: ../UpdateManager/Dialogs.py:336
+msgid "_Continue"
+msgstr "_Parhau"
+
+#: ../UpdateManager/Dialogs.py:372
+msgid "_Try Again"
+msgstr ""
+
+#: ../UpdateManager/Dialogs.py:386
+#, fuzzy
+msgid "The computer needs to restart to finish installing updates."
+msgstr ""
+"Mae angen ailgychwyn y cyfrifiadur i orffen gosod diweddariadau. Cofia gadw "
+"dy waith cyn parhau."
+
+#: ../UpdateManager/Dialogs.py:388
+#, fuzzy
+msgid "Restart _Later"
+msgstr "Angen ailgychwyn"
+
+#: ../UpdateManager/Dialogs.py:390
+msgid "_Restart Now"
+msgstr "_Ailgychwyn Nawr"
+
+#. Basic GTK+ parameters
+#: ../UpdateManager/UpdateManager.py:96 ../data/update-manager.desktop.in.h:1
+#: ../data/update-manager.appdata.xml.in.h:1
+#, fuzzy
+msgid "Software Updater"
+msgstr "Diweddariadau Meddalwedd"
+
+#: ../UpdateManager/UpdateManager.py:290
+msgid "Some software couldn’t be checked for updates."
+msgstr ""
+
+#: ../UpdateManager/UpdateManager.py:293
+msgid "Updated software is available from a previous check."
+msgstr ""
+
+#. we assert a clean cache
+#: ../UpdateManager/UpdateManager.py:400
+msgid "Software index is broken"
+msgstr "Mynegai meddalwedd wedi torri"
+
+#: ../UpdateManager/UpdateManager.py:401
+msgid ""
+"It is impossible to install or remove any software. Please use the package "
+"manager \"Synaptic\" or run \"sudo apt-get install -f\" in a terminal to fix "
+"this issue at first."
+msgstr ""
+"Mae'n amhosib gosod neu dynnu meddalwedd. Defnyddia rheolwr pecynnau "
+"\"Synaptic\" neu redeg \"sudo apt-get install -f\" mewn terfynell i drwsio'r "
+"broblem."
+
+#: ../UpdateManager/UpdateManager.py:408
+msgid "Could not initialize the package information"
+msgstr "Methu cychwyn y gwybodaeth pecynnau"
+
+#: ../UpdateManager/UpdateManager.py:409
+msgid ""
+"An unresolvable problem occurred while initializing the package "
+"information.\n"
+"\n"
+"Please report this bug against the 'update-manager' package and include the "
+"following error message:\n"
+msgstr ""
+"Digwyddodd gwall nad oedd modd ei ddatrys wrth gychwyn y gwybodaeth "
+"pecynnau.\n"
+"\n"
+"Adrodda hwn fel chwilen yn erbyn pecyn 'update-manager' a chynnwys y neges "
+"gwall canlynol:\n"
+
+#: ../UpdateManager/UpdateManager.py:437
+msgid "Could not calculate the upgrade"
+msgstr "Methu cyfrifo'r uwchraddiad"
+
+#: ../UpdateManager/UpdateManager.py:438
+#, fuzzy
+msgid ""
+"An unresolvable problem occurred while calculating the upgrade.\n"
+"\n"
+"Please report this bug against the 'update-manager' package and include the "
+"following error message:\n"
+msgstr ""
+"Digwyddodd gwall nad oedd modd ei ddatrys wrth gyfrifo'r uwchraddiad.\n"
+"\n"
+"Adrodda hwn fel chwilen yn erbyn pecyn 'update-manager' a chynnwys y neges "
+"gwall canlynol:"
+
+#: ../UpdateManager/UpdatesAvailable.py:252
+#, fuzzy
+msgid "Install Now"
+msgstr "Gosod"
+
+#: ../UpdateManager/UpdatesAvailable.py:285
+#, fuzzy
+msgid "Install or remove"
+msgstr "Gosod"
+
+#: ../UpdateManager/UpdatesAvailable.py:319
+msgid "Download"
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:378
+#, fuzzy
+msgid "_Remind Me Later"
+msgstr "Gofyn Wedyn"
+
+#. upload_archive = version_match.group(2).strip()
+#: ../UpdateManager/UpdatesAvailable.py:515
+#, python-format
+msgid "Version %s: \n"
+msgstr "Fersiwn %s: \n"
+
+#: ../UpdateManager/UpdatesAvailable.py:580
+msgid ""
+"No network connection detected, you can not download changelog information."
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:590
+msgid "Downloading list of changes..."
+msgstr "Lawrlwytho rhestr o newidiadau..."
+
+#: ../UpdateManager/UpdatesAvailable.py:634
+msgid "_Deselect All"
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:640
+msgid "Select _All"
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:736
+#, python-format
+msgid "%s will be downloaded."
+msgstr "Bydd %s yn cael ei lawrlwytho."
+
+#: ../UpdateManager/UpdatesAvailable.py:750
+#, fuzzy
+msgid "The update has already been downloaded."
+msgid_plural "The updates have already been downloaded."
+msgstr[0] "Mae'r diweddariad wedi cael ei lawrlwytho, ond heb gael ei osod."
+msgstr[1] "Mae'r diweddariadau wedi cael eu lawrlwytho, ond heb gael eu gosod."
+msgstr[2] "Mae'r diweddariadau wedi cael eu lawrlwytho, ond heb gael eu gosod."
+msgstr[3] "Mae'r diweddariadau wedi cael eu lawrlwytho, ond heb gael eu gosod."
+
+#: ../UpdateManager/UpdatesAvailable.py:756
+msgid "There are no updates to install."
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:765
+msgid "Unknown download size."
+msgstr "Maint lawrlwythiad anhysbys."
+
+#: ../UpdateManager/UpdatesAvailable.py:792
+#, python-format
+msgid ""
+"Updated software has been issued since %s %s was released. Do you want to "
+"install it now?"
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:797
+msgid ""
+"Updated software is available for this computer. Do you want to install it "
+"now?"
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:800
+#, fuzzy
+msgid ""
+"The computer also needs to restart to finish installing previous updates."
+msgstr ""
+"Mae angen ailgychwyn y cyfrifiadur i orffen gosod diweddariadau. Cofia gadw "
+"dy waith cyn parhau."
+
+#. print("on_button_install_clicked")
+#: ../UpdateManager/UpdatesAvailable.py:830
+msgid "Not enough free disk space"
+msgstr "Dim digon o le disg rhydd"
+
+#: ../UpdateManager/UpdatesAvailable.py:831
+#, fuzzy, python-format
+msgid ""
+"The upgrade needs a total of %s free space on disk '%s'. Please free at "
+"least an additional %s of disk space on '%s'. %s"
+msgstr ""
+"Mae angen cyfanswm o %s o le rhydd ar ddisg '%s' ar gyfer yr uwchraddiad. "
+"Bydd angen rhyddhau %s o le ar ddisg '%s'. Gwagia'r sbwriel, a thynnu "
+"pecynnau dros dro fersiynau blaenorol drwy ddefnyddio 'sudo apt-get clean'."
+
+#. specific ways to resolve lack of free space
+#: ../UpdateManager/UpdatesAvailable.py:836
+msgid ""
+"Remove temporary packages of former installations using 'sudo apt clean'."
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:838
+msgid ""
+"You can remove old kernels using 'sudo apt autoremove', and you could also "
+"set COMPRESS=xz in /etc/initramfs-tools/initramfs.conf to reduce the size of "
+"your initramfs."
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:843
+#, fuzzy
+msgid ""
+"Empty your trash and remove temporary packages of former installations using "
+"'sudo apt clean'."
+msgstr ""
+"Mae angen cyfanswm o %s o le rhydd ar ddisg '%s' ar gyfer yr uwchraddiad. "
+"Bydd angen rhyddhau %s o le ar ddisg '%s'. Gwagia'r sbwriel, a thynnu "
+"pecynnau dros dro fersiynau blaenorol drwy ddefnyddio 'sudo apt-get clean'."
+
+#: ../UpdateManager/UpdatesAvailable.py:846
+msgid "Reboot to clean up files in /tmp."
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:888
+msgid "Connecting..."
+msgstr "Cysylltu ..."
+
+#: ../UpdateManager/UpdatesAvailable.py:904
+msgid "You may not be able to check for updates or download new updates."
+msgstr "Efallai na fydd modd i ti wirio am ddiweddariadau na'u lawrlwytho."
+
+#: ../UpdateManager/UpdatesAvailable.py:1056
+msgid "Improved hardware support"
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:1060
+#, fuzzy
+msgid "Security updates"
+msgstr "Diweddariadau diogelwch pwysig"
+
+#: ../UpdateManager/UpdatesAvailable.py:1064
+msgid "Other updates"
+msgstr "Diweddariadau eraill"
+
+#: ../UpdateManager/UpdatesAvailable.py:1067
+msgid "Updates"
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:1072
+msgid "Unused kernel updates to be removed"
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:1077
+#, fuzzy
+msgid "Duplicate packages to be removed"
+msgstr "Mae %d pecyn yn mynd i gael ei dynnu."
+
+#: ../UpdateManager/UnitySupport.py:70
+msgid "Install All Available Updates"
+msgstr ""
+
+#: ../UpdateManager/Core/MyCache.py:417
+msgid "This update does not come from a source that supports changelogs."
+msgstr ""
+
+#: ../UpdateManager/Core/MyCache.py:423 ../UpdateManager/Core/MyCache.py:458
+msgid ""
+"Failed to download the list of changes. \n"
+"Please check your Internet connection."
+msgstr ""
+"Methwyd lawrlwytho rhestr newidiadau. \n"
+"Gwiria dy gysylltiad rhyngrwyd."
+
+#: ../UpdateManager/Core/MyCache.py:430
+#, python-format
+msgid ""
+"Changes for %s versions:\n"
+"Installed version: %s\n"
+"Available version: %s\n"
+"\n"
+msgstr ""
+
+#: ../UpdateManager/Core/MyCache.py:444
+#, python-format
+msgid ""
+"The changelog does not contain any relevant changes.\n"
+"\n"
+"Please use http://launchpad.net/ubuntu/+source/%s/%s/+changelog\n"
+"until the changes become available or try again later."
+msgstr ""
+"Nid yw'r log newidiadau yn cynnwys unrhyw newidiadau perthnasol.\n"
+"\n"
+"Defnyddia http://launchpad.net/ubuntu/+source/%s/%s/+changelog\n"
+"tan fod y newidiadau ar gael neu tria eto yn nes ymlaen."
+
+#: ../UpdateManager/Core/MyCache.py:451
+#, python-format
+msgid ""
+"The list of changes is not available yet.\n"
+"\n"
+"Please use http://launchpad.net/ubuntu/+source/%s/%s/+changelog\n"
+"until the changes become available or try again later."
+msgstr ""
+"Nid yw'r rhestr newidiadau ar gael eto.\n"
+"\n"
+"Defnyddia http://launchpad.net/ubuntu/+source/%s/%s/+changelog\n"
+"tan ei fod ar gael neu tria eto yn nes ymlaen."
+
+#. Translators: the %s is a distro name, like 'Ubuntu' and 'base' as in
+#. the core components and packages.
+#: ../UpdateManager/Core/UpdateList.py:175
+#, python-format
+msgid "%s base"
+msgstr ""
+
+#. TRANSLATORS: download size of small updates, e.g. "250 kB"
+#: ../UpdateManager/Core/utils.py:483
+#, python-format
+msgid "%(size).0f kB"
+msgid_plural "%(size).0f kB"
+msgstr[0] ""
+msgstr[1] ""
+
+#. TRANSLATORS: download size of updates, e.g. "2.3 MB"
+#: ../UpdateManager/Core/utils.py:487
+#, python-format
+msgid "%.1f MB"
+msgstr "%.1f MB"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:1
+msgid "updates"
+msgstr "diweddariadau"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:2
+msgid "Changes"
+msgstr "Newidiadau"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:3
+msgid "Description"
+msgstr "Disgrifiad"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:4
+#, fuzzy
+msgid "Technical description"
+msgstr "Disgrifiad"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:5
+#, fuzzy
+msgid "Details of updates"
+msgstr "Disgrifiad o'r diweddariad"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:6
+msgid "The computer will need to restart."
+msgstr ""
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:7
+msgid ""
+"You are connected via roaming and may be charged for the data consumed by "
+"this update."
+msgstr ""
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:8
+msgid ""
+"You may want to wait until you’re not using a mobile broadband connection."
+msgstr ""
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:9
+msgid "It’s safer to connect the computer to AC power before updating."
+msgstr "Mae'n fwy diogel cysylltu'r cyfrifiadur i bwer AC cyn diweddaru."
+
+#: ../data/update-manager.desktop.in.h:2
+msgid "Software Updates"
+msgstr "Diweddariadau Meddalwedd"
+
+#: ../data/update-manager.desktop.in.h:3
+#: ../data/update-manager.appdata.xml.in.h:2
+msgid "Show and install available updates"
+msgstr "Dangos a gosod diweddariadau sydd ar gael"
+
+#: ../data/update-manager.appdata.xml.in.h:3
+msgid ""
+"Software Updater checks for updates using apt and let you choose which "
+"updates to install."
+msgstr ""
+
+#: ../update-manager:71
+msgid "Show version and exit"
+msgstr "Dangos fersiwn a gadael"
+
+#: ../update-manager:74
+msgid "Directory that contains the data files"
+msgstr "Cyfeiriadur sy'n cynnwys y ffeiliau data"
+
+#: ../update-manager:77
+msgid "Check if a new Ubuntu release is available"
+msgstr "Gwirio i weld os oes fersiwn newydd o Ubuntu ar gael"
+
+#: ../update-manager:80
+msgid ""
+"If using the latest supported release, upgrade to the development release"
+msgstr ""
+
+#: ../update-manager:84
+msgid "Upgrade using the latest proposed version of the release upgrader"
+msgstr ""
+"Uwchraddio drwy ddefnyddio'r fersiwn diweddaraf o'r uwchraddiwr fersiwn"
+
+#. TRANSLATORS: this describes the "focus-on-map" gtk
+#. property that controls if a new window takes the
+#. input focus control when it is displayed for the
+#. first time (see also the gtk devhelp page)
+#: ../update-manager:91
+msgid "Do not focus on map when starting"
+msgstr "Peidio canolbwyntio ar map wrth gychwyn"
+
+#: ../update-manager:94
+msgid "Do not check for updates when starting"
+msgstr ""
+
+#: ../update-manager:96
+msgid "Show debug messages"
+msgstr ""
+
+#. Why do we use %s here instead of $strings or {} format placeholders?
+#. It's because we don't want to break existing translations.
+#: ../janitor/plugincore/exceptions.py:43
+#, python-format
+msgid "Unimplemented method: %s"
+msgstr "Dull heb ei weithredu: %s"
+
+#: ../janitor/plugincore/core/file_cruft.py:41
+msgid "A file on disk"
+msgstr "Ffeil ar ddisg"
+
+#: ../janitor/plugincore/core/missing_package_cruft.py:40
+msgid "Install missing package."
+msgstr "Gosod pecyn sydd ar goll."
+
+#. 2012-06-08 BAW: i18n string; don't use {} or PEP 292.
+#: ../janitor/plugincore/core/missing_package_cruft.py:50
+#, python-format
+msgid "Package %s should be installed."
+msgstr ""
+
+#: ../janitor/plugincore/core/package_cruft.py:50
+msgid ".deb package"
+msgstr "pecyn .deb"
+
+#: ../janitor/plugincore/plugins/langpack_manual_plugin.py:47
+#, python-format
+msgid "%s needs to be marked as manually installed."
+msgstr ""
+
+#: ../janitor/plugincore/plugins/kdelibs4to5_plugin.py:50
+msgid ""
+"When upgrading, if kdelibs4-dev is installed, kdelibs5-dev needs to be "
+"installed. See bugs.launchpad.net, bug #279621 for details."
+msgstr ""
+
+#: ../janitor/plugincore/plugins/dpkg_status_plugin.py:45
+#, python-format
+msgid "%i obsolete entries in the status file"
+msgstr ""
+
+#: ../janitor/plugincore/plugins/dpkg_status_plugin.py:48
+msgid "Obsolete entries in dpkg status"
+msgstr ""
+
+#. pragma: no cover
+#: ../janitor/plugincore/plugins/dpkg_status_plugin.py:51
+msgid "Obsolete dpkg status entries"
+msgstr ""
+
+#: ../janitor/plugincore/plugins/remove_lilo_plugin.py:43
+msgid "Remove lilo since grub is also installed.(See bug #314004 for details.)"
+msgstr ""
+
+#, python-format
+#~ msgid "Server for %s"
+#~ msgstr "Gweinydd ar gyfer %s"
+
+#~ msgid "Main server"
+#~ msgstr "Prif weinydd"
+
+#~ msgid "Custom servers"
+#~ msgstr "Gweinyddion addasiedig"
+
+#~ msgid "Could not calculate sources.list entry"
+#~ msgstr "Methu cyfrifo cofnod sources.list"
+
+#~ msgid ""
+#~ "Unable to locate any package files, perhaps this is not a Ubuntu Disc or "
+#~ "the wrong architecture?"
+#~ msgstr ""
+#~ "Methu cael hyd i ffeiliau pecynnau, efallai mai nid disg Ubuntu yw hwn, "
+#~ "neu'r math o adeiladaeth anghywir?"
+
+#~ msgid "Failed to add the CD"
+#~ msgstr "Methu ychwanegu'r CD"
+
+#, python-format
+#~ msgid ""
+#~ "There was a error adding the CD, the upgrade will abort. Please report "
+#~ "this as a bug if this is a valid Ubuntu CD.\n"
+#~ "\n"
+#~ "The error message was:\n"
+#~ "'%s'"
+#~ msgstr ""
+#~ "Roedd gwall wrth ychwanegu'r CD, bydd yr uwchraddiad yn terfynu. Adrodd "
+#~ "hwn fel chwilen os yw hwn yn CD Ubuntu dilys.\n"
+#~ "\n"
+#~ "Y neges gwall oedd:\n"
+#~ "'%s'"
+
+#~ msgid "Remove package in bad state"
+#~ msgid_plural "Remove packages in bad state"
+#~ msgstr[0] "Tynnu pecyn mewn cyflwr gwael"
+#~ msgstr[1] "Tynnu pecynnau mewn cyflwr gwael"
+#~ msgstr[2] "Tynnu pecynnau mewn cyflwr gwael"
+#~ msgstr[3] "Tynnu pecynnau mewn cyflwr gwael"
+
+#, python-format
+#~ msgid ""
+#~ "The package '%s' is in an inconsistent state and needs to be reinstalled, "
+#~ "but no archive can be found for it. Do you want to remove this package "
+#~ "now to continue?"
+#~ msgid_plural ""
+#~ "The packages '%s' are in an inconsistent state and need to be "
+#~ "reinstalled, but no archives can be found for them. Do you want to remove "
+#~ "these packages now to continue?"
+#~ msgstr[0] ""
+#~ "Mae pecyn '%s' mewn cyflwr anghyson a rhaid ei ailsefydlu, ond does dim "
+#~ "modd cael hyd i archif ar ei gyfer. Wyt ti eisiau tynnu'r pecyn hwn nawr "
+#~ "i barhau?"
+#~ msgstr[1] ""
+#~ "Mae pecynnau '%s' mewn cyflwr anghyson a rhaid eu hailsefydlu, ond does "
+#~ "dim modd cael hyd i archifau ar eu cyfer. Wyt ti eisiau tynnu'r pecynnau "
+#~ "hyn nawr i barhau?"
+#~ msgstr[2] ""
+#~ "Mae pecynnau '%s' mewn cyflwr anghyson a rhaid eu hailsefydlu, ond does "
+#~ "dim modd cael hyd i archifau ar eu cyfer. Wyt ti eisiau tynnu'r pecynnau "
+#~ "hyn nawr i barhau?"
+#~ msgstr[3] ""
+#~ "Mae pecynnau '%s' mewn cyflwr anghyson a rhaid eu hailsefydlu, ond does "
+#~ "dim modd cael hyd i archifau ar eu cyfer. Wyt ti eisiau tynnu'r pecynnau "
+#~ "hyn nawr i barhau?"
+
+#~ msgid "The server may be overloaded"
+#~ msgstr "Efallai bod gormod o lwyth ar y gweinydd"
+
+#~ msgid "Broken packages"
+#~ msgstr "Pecynnau wedi torri"
+
+#~ msgid ""
+#~ "Your system contains broken packages that couldn't be fixed with this "
+#~ "software. Please fix them first using synaptic or apt-get before "
+#~ "proceeding."
+#~ msgstr ""
+#~ "Mae dy system yn cynnwys pecynnau nad oedd modd eu trwsio gyda'r "
+#~ "meddalwedd hwn. Trwsia nhw'n gyntaf drwy ddefnyddio synaptic neu apt-get "
+#~ "cyn parhau."
+
+#, python-format
+#~ msgid ""
+#~ "An unresolvable problem occurred while calculating the upgrade:\n"
+#~ "%s\n"
+#~ "\n"
+#~ " This can be caused by:\n"
+#~ " * Upgrading to a pre-release version of Ubuntu\n"
+#~ " * Running the current pre-release version of Ubuntu\n"
+#~ " * Unofficial software packages not provided by Ubuntu\n"
+#~ "\n"
+#~ msgstr ""
+#~ "Digwyddodd problem nad oes modd ei datrys wrth gynllunio'r uwchraddiad:\n"
+#~ "%s\n"
+#~ "\n"
+#~ " Gall y canlynol achosi hyn:\n"
+#~ " * Uwchraddio i fersiwn cyn rhyddhau o Ubuntu\n"
+#~ " * Rhedeg fersiwn cyn rhyddhau o Ubuntu\n"
+#~ " * Pecynnau meddalwedd answyddogol sydd ddim yn cael eu darparu gan "
+#~ "Ubuntu\n"
+#~ "\n"
+
+#~ msgid "This is most likely a transient problem, please try again later."
+#~ msgstr ""
+#~ "Mwy na thebyg mai problem dros dro yw hon, rho gynnig arall arni'n "
+#~ "hwyrach."
+
+#~ msgid "Error authenticating some packages"
+#~ msgstr "Gwall wrth ddilysu rhai pecynnau"
+
+#~ msgid ""
+#~ "It was not possible to authenticate some packages. This may be a "
+#~ "transient network problem. You may want to try again later. See below for "
+#~ "a list of unauthenticated packages."
+#~ msgstr ""
+#~ "Doedd hi ddim yn bosib dilysu rhai pecynnau. Efallai mai problem "
+#~ "rhwydwaith dros dro yw hon. Rho gynnig arni wedyn. Gweler isod am restr o "
+#~ "becynnau sydd heb eu dilysu."
+
+#, python-format
+#~ msgid ""
+#~ "The package '%s' is marked for removal but it is in the removal blacklist."
+#~ msgstr ""
+#~ "Marciwyd pecyn '%s' ar gyfer ei dynnu ond mae yn rhestr ddu pecynnau i'w "
+#~ "tynnu."
+
+#, python-format
+#~ msgid "The essential package '%s' is marked for removal."
+#~ msgstr "Marciwyd y pecyn hanfodol '%s' i'w dynnu."
+
+#, python-format
+#~ msgid "Trying to install blacklisted version '%s'"
+#~ msgstr "Ceisio gosod fersiwn rhestr ddu '%s'"
+
+#, python-format
+#~ msgid "Can't install '%s'"
+#~ msgstr "Methu gosod '%s'"
+
+#~ msgid "Can't guess meta-package"
+#~ msgstr "Methu dyfalu pecyn-meta"
+
+#~ msgid ""
+#~ "Your system does not contain a ubuntu-desktop, kubuntu-desktop, xubuntu-"
+#~ "desktop or edubuntu-desktop package and it was not possible to detect "
+#~ "which version of Ubuntu you are running.\n"
+#~ " Please install one of the packages above first using synaptic or apt-get "
+#~ "before proceeding."
+#~ msgstr ""
+#~ "Nid yw dy system yn cynnwys pecyn ubuntu-desktop, kubuntu-desktop, "
+#~ "xubuntu-desktop na edubuntu-desktop, a doedd hi ddim yn bosib canfod pa "
+#~ "fersiwn o Ubuntu rwyt ti'n ei rhedeg.\n"
+#~ " Gosoda un o'r pecynnau uchod yn gyntaf drwy synaptic neu apt-get cyn "
+#~ "parhau."
+
+#~ msgid "Reading cache"
+#~ msgstr "Yn darllen storfa"
+
+#~ msgid "Unable to get exclusive lock"
+#~ msgstr "Methu cael clo unigryw"
+
+#~ msgid ""
+#~ "This usually means that another package management application (like apt-"
+#~ "get or aptitude) already running. Please close that application first."
+#~ msgstr ""
+#~ "Mae hyn fel arfer yn golygu bod rhaglen rheoli pecynnau arall (fel apt-"
+#~ "get neu aptitude) eisoes yn rhedeg. Mae angen cau'r rhaglen honno'n "
+#~ "gyntaf."
+
+#~ msgid "Upgrading over remote connection not supported"
+#~ msgstr "Nid yw uwchraddio dros gysylltiad o bell yn cael ei gefnogi"
+
+#~ msgid ""
+#~ "You are running the upgrade over a remote ssh connection with a frontend "
+#~ "that does not support this. Please try a text mode upgrade with 'do-"
+#~ "release-upgrade'.\n"
+#~ "\n"
+#~ "The upgrade will abort now. Please try without ssh."
+#~ msgstr ""
+#~ "Rwyt ti'n rhedeg uwchraddiad dros gysylltiad ssh o bell drwy rhyngwyneb "
+#~ "blaen sydd ddim yn cefnogi hyn. Tria uwchraddiad modd testun gyda 'do-"
+#~ "release-upgrade'.\n"
+#~ "\n"
+#~ "Bydd yr uwchraddiad yn dod i ben nawr. Tria heb ssh."
+
+#~ msgid "Continue running under SSH?"
+#~ msgstr "Parhau i redeg dan SSH?"
+
+#, python-format
+#~ msgid ""
+#~ "This session appears to be running under ssh. It is not recommended to "
+#~ "perform a upgrade over ssh currently because in case of failure it is "
+#~ "harder to recover.\n"
+#~ "\n"
+#~ "If you continue, an additional ssh daemon will be started at port '%s'.\n"
+#~ "Do you want to continue?"
+#~ msgstr ""
+#~ "Ymddengys bod y sesiwn yn rhedeg dan ssh. Dyw hi ddim yn ddoeth "
+#~ "uwchraddio drwy ssh ar hyn o bryd oherwydd ei bod yn anoddach ei adfer os "
+#~ "yw'n methu.\n"
+#~ "\n"
+#~ "Os wnei di barhau, bydd daemon ssh yn cychwyn ar borth '%s'.\n"
+#~ "Wyt ti eisiau parhau?"
+
+#~ msgid "Starting additional sshd"
+#~ msgstr "Cychwyn sshd ychwanegol"
+
+#, python-format
+#~ msgid ""
+#~ "To make recovery in case of failure easier, an additional sshd will be "
+#~ "started on port '%s'. If anything goes wrong with the running ssh you can "
+#~ "still connect to the additional one.\n"
+#~ msgstr ""
+#~ "I adfer pethau'n haws os fydd yn methu, bydd sshd ychwanegol yn cychwyn "
+#~ "ar borth '%s'. Os fydd rhywbeth yn mynd o'i le wrth redeg ssh bydd modd i "
+#~ "ti gysylltu drwy'r un ychwanegol.\n"
+
+#~ msgid "Can not upgrade"
+#~ msgstr "Methu uwchraddio"
+
+#, python-format
+#~ msgid "An upgrade from '%s' to '%s' is not supported with this tool."
+#~ msgstr ""
+#~ "Nid yw uwchraddio o '%s' i '%s' yn cael ei gefnogi gan y rhaglen hon."
+
+#~ msgid "Sandbox setup failed"
+#~ msgstr "Methwyd creu blwch tywod"
+
+#~ msgid "It was not possible to create the sandbox environment."
+#~ msgstr "Doedd hi ddim yn bosib creu amgylchedd blwch tywod"
+
+#~ msgid "Sandbox mode"
+#~ msgstr "Modd blwch tywod"
+
+#~ msgid ""
+#~ "Your python install is corrupted. Please fix the '/usr/bin/python' "
+#~ "symlink."
+#~ msgstr ""
+#~ "Mae dy osodiad o python wedi llygru. Trwsia'r ddolen symbolig '/usr/bin/"
+#~ "python' ."
+
+#~ msgid "Package 'debsig-verify' is installed"
+#~ msgstr "Mae pecyn 'debsig-verify' wedi ei osod"
+
+#~ msgid ""
+#~ "The upgrade can not continue with that package installed.\n"
+#~ "Please remove it with synaptic or 'apt-get remove debsig-verify' first "
+#~ "and run the upgrade again."
+#~ msgstr ""
+#~ "Does dim modd i'r uwchraddiad barhau gyda'r pecyn yna wedi ei osod.\n"
+#~ "Tynna hwn drwy synaptic neu 'apt-get remove debsig-verify' yn gyntaf a "
+#~ "rhedeg yr uwchraddiad eto."
+
+#~ msgid "Include latest updates from the Internet?"
+#~ msgstr "Cynnwys diweddariadau mwyaf newydd o'r Rhyngrwyd?"
+
+#~ msgid ""
+#~ "The upgrade system can use the internet to automatically download the "
+#~ "latest updates and install them during the upgrade.  If you have a "
+#~ "network connection this is highly recommended.\n"
+#~ "\n"
+#~ "The upgrade will take longer, but when it is complete, your system will "
+#~ "be fully up to date.  You can choose not to do this, but you should "
+#~ "install the latest updates soon after upgrading.\n"
+#~ "If you answer 'no' here, the network is not used at all."
+#~ msgstr ""
+#~ "Gall y system uwchraddio ddefnyddio'r rhyngrwyd i lawrlwytho a gosod y "
+#~ "diweddariadau mwyaf newydd yn ystod yr uwchraddiad. Os oes gen ti "
+#~ "gysylltiad rhwydwaith mae hyn yn syniad da.\n"
+#~ "\n"
+#~ "Bydd yr uwchraddiad yn cymryd mwy o amser, ond wedi iddo orffen bydd dy "
+#~ "system yn fwy cyfredol. Gallet ddewis peidio gwneud hyn, ond dylet felly "
+#~ "osod y diweddariadau mwyaf newydd yn fuan wedi uwchraddio.\n"
+#~ "Os wyt ti'n ateb 'na' fan hyn, fydd y rhwydwaith ddim yn cael ei "
+#~ "ddefnyddio o gwbl."
+
+#, python-format
+#~ msgid "disabled on upgrade to %s"
+#~ msgstr "analluogwyd wrth uwchraddio i %s"
+
+#~ msgid "No valid mirror found"
+#~ msgstr "Heb ganfod drych dilys"
+
+#, python-format
+#~ msgid ""
+#~ "While scanning your repository information no mirror entry for the "
+#~ "upgrade was found. This can happen if you run a internal mirror or if the "
+#~ "mirror information is out of date.\n"
+#~ "\n"
+#~ "Do you want to rewrite your 'sources.list' file anyway? If you choose "
+#~ "'Yes' here it will update all '%s' to '%s' entries.\n"
+#~ "If you select 'No' the upgrade will cancel."
+#~ msgstr ""
+#~ "Methwyd canfod cofnod drych ar gyfer yr uwchraddiad wrth sganio dy "
+#~ "wybodaeth cronfa. Gall hyn ddigwydd os wyt ti'n rhedeg drych mewnol neu "
+#~ "os yw'r wybodaeth drych wedi dyddio.\n"
+#~ "\n"
+#~ "Wyt ti eisiau ailysgrifennu ffeil 'sources.list' beth bynnag? Os wnei di "
+#~ "ddewis 'Ie' fan hyn bydd yn diweddaru pob cofnod '%s' i '%s'.\n"
+#~ "Os wnei di ddewis 'Na' bydd yr uwchraddiad yn terfynu."
+
+#~ msgid "Generate default sources?"
+#~ msgstr "Creu cronfeydd diofyn"
+
+#, python-format
+#~ msgid ""
+#~ "After scanning your 'sources.list' no valid entry for '%s' was found.\n"
+#~ "\n"
+#~ "Should default entries for '%s' be added? If you select 'No', the upgrade "
+#~ "will cancel."
+#~ msgstr ""
+#~ "Wedi sganio 'sources.list' methwyd canfod cofnod dilys i '%s'.\n"
+#~ "\n"
+#~ "A ddylid ychwanegu cofnod '%s' diofyn? Os wnei di ddewis 'Na' bydd yr "
+#~ "uwchraddiad yn terfynu."
+
+#~ msgid "Repository information invalid"
+#~ msgstr "Gwybodaeth cronfeydd annilys"
+
+#~ msgid "Third party sources disabled"
+#~ msgstr "Cronfeydd trydydd plaid wedi'u hanalluogi"
+
+#~ msgid ""
+#~ "Some third party entries in your sources.list were disabled. You can re-"
+#~ "enable them after the upgrade with the 'software-properties' tool or your "
+#~ "package manager."
+#~ msgstr ""
+#~ "Analluogwyd rhai cofnodion trydydd plaid yn sources.list. Galli di eu "
+#~ "galluogi eto wedi'r uwchraddiad gyda'r teclyn 'priodweddau-meddalwedd' yn "
+#~ "dy reolwr pecynnau."
+
+#~ msgid "Package in inconsistent state"
+#~ msgid_plural "Packages in inconsistent state"
+#~ msgstr[0] "Pecyn mewn cyflwr anghyson"
+#~ msgstr[1] "Pecynnau mewn cyflwr anghyson"
+#~ msgstr[2] "Pecynnau mewn cyflwr anghyson"
+#~ msgstr[3] "Pecynnau mewn cyflwr anghyson"
+
+#, python-format
+#~ msgid ""
+#~ "The package '%s' is in an inconsistent state and needs to be reinstalled, "
+#~ "but no archive can be found for it. Please reinstall the package manually "
+#~ "or remove it from the system."
+#~ msgid_plural ""
+#~ "The packages '%s' are in an inconsistent state and need to be "
+#~ "reinstalled, but no archive can be found for them. Please reinstall the "
+#~ "packages manually or remove them from the system."
+#~ msgstr[0] ""
+#~ "Mae pecyn '%s' mewn cyflwr anghyson a bydd angen ei ailosod, ond methwyd "
+#~ "canfod archif ar ei gyfer. Ailosoda'r pecyn eto gyda llaw neu ei dynnu "
+#~ "o'r system."
+#~ msgstr[1] ""
+#~ "Mae pecynnau '%s' mewn cyflwr anghyson a bydd angen eu hailosod, ond "
+#~ "methwyd canfod archif ar eu cyfer. Ailosoda'r pecynnau eto gyda llaw neu "
+#~ "eu tynnu o'r system."
+#~ msgstr[2] ""
+#~ "Mae pecynnau '%s' mewn cyflwr anghyson a bydd angen eu hailosod, ond "
+#~ "methwyd canfod archif ar eu cyfer. Ailosoda'r pecynnau eto gyda llaw neu "
+#~ "eu tynnu o'r system."
+#~ msgstr[3] ""
+#~ "Mae pecynnau '%s' mewn cyflwr anghyson a bydd angen eu hailosod, ond "
+#~ "methwyd canfod archif ar eu cyfer. Ailosoda'r pecynnau eto gyda llaw neu "
+#~ "eu tynnu o'r system."
+
+#~ msgid "Error during update"
+#~ msgstr "Gwall wrth ddiweddaru"
+
+#, python-format
+#~ msgid ""
+#~ "The upgrade has aborted. The upgrade needs a total of %s free space on "
+#~ "disk '%s'. Please free at least an additional %s of disk space on '%s'. "
+#~ "Empty your trash and remove temporary packages of former installations "
+#~ "using 'sudo apt-get clean'."
+#~ msgstr ""
+#~ "Terfynwyd yr uwchraddiad. Mae angen %s o le rhydd ar ddisg '%s' i "
+#~ "uwchraddio. Rhyddha o leiaf %s o le ar ddisg '%s'. Gwagia'r sbwriel a "
+#~ "thynnu pecynnau dros dro eraill drwy ddefnyddio 'sudo apt-get clean'."
+
+#~ msgid "Calculating the changes"
+#~ msgstr "Cyfrifo'r newidiadau"
+
+#~ msgid "Do you want to start the upgrade?"
+#~ msgstr "Wyt ti eisiau dechrau uwchraddio?"
+
+#~ msgid "Upgrade canceled"
+#~ msgstr "Terfynwyd yr uwchraddiad"
+
+#~ msgid "Could not download the upgrades"
+#~ msgstr "Methu lawrthwytho'r uwchraddiad"
+
+#~ msgid "Error during commit"
+#~ msgstr "Gwall wrth gyflwyno"
+
+#~ msgid "Restoring original system state"
+#~ msgstr "Adfer cyflwr gwreiddiol y system"
+
+#~ msgid "Could not install the upgrades"
+#~ msgstr "Methu gosod yr uwchraddiad"
+
+#~ msgid ""
+#~ "The upgrade has aborted. Your system could be in an unusable state. A "
+#~ "recovery will run now (dpkg --configure -a)."
+#~ msgstr ""
+#~ "Mae'r uwchraddiad wedi terfynu. Efallai fod cyflwr nad oes modd ei "
+#~ "ddefnyddio ar dy system. Bydd adferiad yn rhedeg nawr (dpkg --configure -"
+#~ "a)."
+
+#~ msgid ""
+#~ "The upgrade has aborted. Please check your Internet connection or "
+#~ "installation media and try again. "
+#~ msgstr ""
+#~ "Mae'r uwchraddiad wedi terfynu. Gwiria dy gysylltiad rhyngrwyd neu "
+#~ "gyfrwng gosod a thrio eto. "
+
+#~ msgid "Remove obsolete packages?"
+#~ msgstr "Tynnu pecynnau darfodedig?"
+
+#~ msgid "_Keep"
+#~ msgstr "_Cadw"
+
+#~ msgid "_Remove"
+#~ msgstr "_Tynnu"
+
+#~ msgid ""
+#~ "A problem occurred during the clean-up. Please see the below message for "
+#~ "more information. "
+#~ msgstr ""
+#~ "Digwyddodd problem wrth lanhau. Gweler y neges isod am fwy o wybodaeth. "
+
+#, python-format
+#~ msgid "The required dependency '%s' is not installed. "
+#~ msgstr "Dyw'r dibyniaeth angenrheidiol '%s' ddim wedi ei osod. "
+
+#~ msgid "Checking package manager"
+#~ msgstr "Gwirio rheolwr pecynnau"
+
+#~ msgid "Preparing the upgrade failed"
+#~ msgstr "Methwyd paratoi'r uwchraddiad"
+
+#~ msgid "Getting upgrade prerequisites failed"
+#~ msgstr "Methwyd paratoi rhagblaen ar gyfer uwchraddio"
+
+#~ msgid "Updating repository information"
+#~ msgstr "Diweddaru gwybodaeth cronfeydd"
+
+#~ msgid "Invalid package information"
+#~ msgstr "Gwybodaeth pecyn annilys"
+
+#~ msgid "Fetching"
+#~ msgstr "Cyrchu"
+
+#~ msgid "Upgrading"
+#~ msgstr "Uwchraddio"
+
+#~ msgid ""
+#~ "The upgrade has completed but there were errors during the upgrade "
+#~ "process."
+#~ msgstr "Mae'r uwchraddiad wedi cwblhau ond roedd gwallau yn ystod y broses."
+
+#~ msgid "Searching for obsolete software"
+#~ msgstr "Chwilio am feddalwedd darfodedig"
+
+#~ msgid "System upgrade is complete."
+#~ msgstr "Uwchraddio'r sytem wedi cwblhau."
+
+#~ msgid "The partial upgrade was completed."
+#~ msgstr "Uwchraddiad rhannol wedi cwblhau."
+
+#~ msgid "evms in use"
+#~ msgstr "evms yn cael ei ddefnyddio"
+
+#~ msgid ""
+#~ "Your system uses the 'evms' volume manager in /proc/mounts. The 'evms' "
+#~ "software is no longer supported, please switch it off and run the upgrade "
+#~ "again when this is done."
+#~ msgstr ""
+#~ "Mae dy system yn defnyddio rheolwr cyfrol 'evms' yn /proc/mounts. Nid yw "
+#~ "meddalwedd 'evms' yn derbyn cefnogaeth bellach. Diffodda hwn a rhedeg yr "
+#~ "uwchraddiad eto wedyn."
+
+#~ msgid ""
+#~ "Upgrading may reduce desktop effects, and performance in games and other "
+#~ "graphically intensive programs."
+#~ msgstr ""
+#~ "Gall uwchraddio leihau effeithiau penbwrdd a pherfformiad gyda gêmau a "
+#~ "rhaglenni eraill sy'n drwm ar graffeg."
+
+#~ msgid ""
+#~ "This computer is currently using the NVIDIA 'nvidia' graphics driver. No "
+#~ "version of this driver is available that works with your video card in "
+#~ "Ubuntu 10.04 LTS.\n"
+#~ "\n"
+#~ "Do you want to continue?"
+#~ msgstr ""
+#~ "Mae'r cyfrifiadur hwn yn defnyddio gyrrwr graffeg NVIDIA 'nvidia' ar hyn "
+#~ "o bryd. Does dim fersiwn o'r gyrrwr hwn sy'n gweithio gyda dy gerdyn "
+#~ "fideo yn Ubuntu 10.04 LTS ar gael.\n"
+#~ "\n"
+#~ "Wyt ti eisiau parhau?"
+
+#~ msgid ""
+#~ "This computer is currently using the AMD 'fglrx' graphics driver. No "
+#~ "version of this driver is available that works with your hardware in "
+#~ "Ubuntu 10.04 LTS.\n"
+#~ "\n"
+#~ "Do you want to continue?"
+#~ msgstr ""
+#~ "Mae'r cyfrifiadur hwn yn defnyddio gyrrwr graffeg AMD 'fglrx'. Does dim "
+#~ "fersiwn o'r gyrrwr hwn ar gael sy'n gweithio gyda dy galedwedd yn Ubuntu "
+#~ "10.04 LTS.\n"
+#~ "\n"
+#~ "Wyt ti eisiau parhau?"
+
+#~ msgid "No i686 CPU"
+#~ msgstr "Dim CPU i686"
+
+#~ msgid ""
+#~ "Your system uses an i586 CPU or a CPU that does not have the 'cmov' "
+#~ "extension. All packages were built with optimizations requiring i686 as "
+#~ "the minimal architecture. It is not possible to upgrade your system to a "
+#~ "new Ubuntu release with this hardware."
+#~ msgstr ""
+#~ "Mae dy system yn defnyddio CPU i586 neu CPU sydd heb estyniad 'cmov'. "
+#~ "Crewyd y pecynnau fel eu bod angen o leiaf adeiladaeth i686 cyn eu bod yn "
+#~ "gweithio. Nid yw'n bosib uwchraddio dy system i fersiwn newydd o Ubuntu "
+#~ "gyda'r caledwedd hwn."
+
+#~ msgid "No ARMv6 CPU"
+#~ msgstr "Dim CPU ARMv6"
+
+#~ msgid ""
+#~ "Your system uses an ARM CPU that is older than the ARMv6 architecture. "
+#~ "All packages in karmic were built with optimizations requiring ARMv6 as "
+#~ "the minimal architecture. It is not possible to upgrade your system to a "
+#~ "new Ubuntu release with this hardware."
+#~ msgstr ""
+#~ "Mae dy system yn defnyddio CPU ARM sydd ddim mor newydd ag adeiladaeth "
+#~ "ARMv6. Crewyd y pecynnau fel eu bod angen o leiaf adeiladaeth ARMv6 cyn "
+#~ "eu bod yn gweithio. Nid yw'n bosib uwchraddio dy system i fersiwn newydd "
+#~ "o Ubuntu gyda'r caledwedd hwn."
+
+#~ msgid "No init available"
+#~ msgstr "Dim init ar gael"
+
+#~ msgid ""
+#~ "Your system appears to be a virtualised environment without an init "
+#~ "daemon, e.g. Linux-VServer. Ubuntu 10.04 LTS cannot function within this "
+#~ "type of environment, requiring an update to your virtual machine "
+#~ "configuration first.\n"
+#~ "\n"
+#~ "Are you sure you want to continue?"
+#~ msgstr ""
+#~ "Ymddengys mai amgylchedd rhithiol heb daemon init yw dy system, e.e. "
+#~ "Linux-VServer. Nid yw Ubuntu 10.04 LTS yn medru gweithredu mewn "
+#~ "amgylchedd fel hwn ac mae angen uwchraddio cyfluniad dy beiriant rhithiol "
+#~ "yn gyntaf.\n"
+#~ "\n"
+#~ "Wyt ti'n siwr dy fod eisiau parhau?"
+
+#~ msgid "Sandbox upgrade using aufs"
+#~ msgstr "Uwchraddiad bocs tywod yn defnyddio aufs"
+
+#~ msgid "Use the given path to search for a cdrom with upgradable packages"
+#~ msgstr ""
+#~ "Defnyddia'r llwybr roddwyd i chwilio am cdrom gyda phecynnau uwchraddio"
+
+#~ msgid ""
+#~ "Use frontend. Currently available: \n"
+#~ "DistUpgradeViewText, DistUpgradeViewGtk, DistUpgradeViewKDE"
+#~ msgstr ""
+#~ "Defnyddio blaen. Ar gael ar hyn o bryd: \n"
+#~ "DistUpgradeViewText, DistUpgradeViewGtk, DistUpgradeViewKDE"
+
+#~ msgid "Perform a partial upgrade only (no sources.list rewriting)"
+#~ msgstr ""
+#~ "Perfformio uwchraddiad rhannol yn unig (dim ailysgrifennu sources.list)"
+
+#~ msgid "Disable GNU screen support"
+#~ msgstr "Analluogi cefnogaeth sgrin GNU"
+
+#~ msgid "Set datadir"
+#~ msgstr "Gosod datadir"
+
+#, python-format
+#~ msgid "Please insert '%s' into the drive '%s'"
+#~ msgstr "Rho '%s' mewn i yrriant '%s'"
+
+#~ msgid "Fetching is complete"
+#~ msgstr "Wedi gorffen cyrchu"
+
+#, python-format
+#~ msgid "Fetching file %li of %li at %sB/s"
+#~ msgstr "Yn cyrchu ffeil %li o %li ar %sB/s"
+
+#, python-format
+#~ msgid "About %s remaining"
+#~ msgstr "Tua %s yn weddill"
+
+#, python-format
+#~ msgid "Fetching file %li of %li"
+#~ msgstr "Yn cyrchu ffeil %li o %li"
+
+#~ msgid "Applying changes"
+#~ msgstr "Yn gweithredu newidiadau"
+
+#~ msgid "dependency problems - leaving unconfigured"
+#~ msgstr "problemau dibyniaeth - yn gadael heb ei gyflunio"
+
+#, python-format
+#~ msgid "Could not install '%s'"
+#~ msgstr "Methu gosod '%s'"
+
+#, python-format
+#~ msgid ""
+#~ "The upgrade will continue but the '%s' package may not be in a working "
+#~ "state. Please consider submitting a bug report about it."
+#~ msgstr ""
+#~ "Bydd yr uwchraddiad yn parhau ond efallai na fydd pecyn '%s' yn gweithio. "
+#~ "Ystyria gyflwyno adroddiad chwilen am hwn."
+
+#, python-format
+#~ msgid ""
+#~ "Replace the customized configuration file\n"
+#~ "'%s'?"
+#~ msgstr ""
+#~ "Amnewid y ffeil cyfluniad addasiedig\n"
+#~ "'%s'?"
+
+#~ msgid ""
+#~ "You will lose any changes you have made to this configuration file if you "
+#~ "choose to replace it with a newer version."
+#~ msgstr ""
+#~ "Fe fyddi di'n colli unrhyw newidiadau wnaed i'r ffeil cyfluniad yma os "
+#~ "wyt ti'n ei amnewid am fersiwn mwy newydd."
+
+#~ msgid "The 'diff' command was not found"
+#~ msgstr "Methwyd canfod gorchymyn 'diff'"
+
+#~ msgid "A fatal error occurred"
+#~ msgstr "Digwyddodd gwall marwol"
+
+#~ msgid ""
+#~ "Please report this as a bug (if you haven't already) and include the "
+#~ "files /var/log/dist-upgrade/main.log and /var/log/dist-upgrade/apt.log in "
+#~ "your report. The upgrade has aborted.\n"
+#~ "Your original sources.list was saved in /etc/apt/sources.list.distUpgrade."
+#~ msgstr ""
+#~ "Adrodda hwn fel chwilen (os nad wyt ti eisoes wedi gwneud) gan gynnwys "
+#~ "ffeiliau /var/log/dist-upgrade/main.log a /var/log/dist-upgrade/apt.log "
+#~ "yn dy adroddiad. Mae'r uwchraddiad wedi terfynu.\n"
+#~ "Cadwyd dy sources.list gwreiddiol yn /etc/apt/sources.list.distUpgrade."
+
+#~ msgid "Ctrl-c pressed"
+#~ msgstr "Gwasgwyd Ctrl-c"
+
+#~ msgid ""
+#~ "This will abort the operation and may leave the system in a broken state. "
+#~ "Are you sure you want to do that?"
+#~ msgstr ""
+#~ "Bydd hyn yn terfynu'r weithred a gadael y system mewn cyflwr wedi torri. "
+#~ "Wyt ti'n siwr dy fod eisiau gwneud hyn?"
+
+#~ msgid "To prevent data loss close all open applications and documents."
+#~ msgstr "Cau pob rhaglen a dogfen i osgoi colli data."
+
+#, python-format
+#~ msgid "No longer supported by Canonical (%s)"
+#~ msgstr "Ddim yn derbyn cefnogaeth Canonical bellach (%s)"
+
+#, python-format
+#~ msgid "<b>Downgrade (%s)</b>"
+#~ msgstr "<b>Israddio (%s)</b>"
+
+#, python-format
+#~ msgid "Remove (%s)"
+#~ msgstr "Tynnu (%s)"
+
+#, python-format
+#~ msgid "No longer needed (%s)"
+#~ msgstr "Dim angen rhagor (%s)"
+
+#, python-format
+#~ msgid "Install (%s)"
+#~ msgstr "Gosod (%s)"
+
+#, python-format
+#~ msgid "Upgrade (%s)"
+#~ msgstr "Uwchraddio (%s)"
+
+#~ msgid "Media Change"
+#~ msgstr "Newid Cyfrwng"
+
+#~ msgid "Show Difference >>>"
+#~ msgstr "Dangos Gwahaniaeth >>>"
+
+#~ msgid "<<< Hide Difference"
+#~ msgstr "<<< Cuddio Gwahaniaeth"
+
+#~ msgid "Error"
+#~ msgstr "Gwall"
+
+#~ msgid "&Cancel"
+#~ msgstr "&Canslo"
+
+#~ msgid "&Close"
+#~ msgstr "&Cau"
+
+#~ msgid "Show Terminal >>>"
+#~ msgstr "Dangos Terfynell >>>"
+
+#~ msgid "<<< Hide Terminal"
+#~ msgstr "<<< Cuddio Terfynell"
+
+#~ msgid "Information"
+#~ msgstr "Gwybodaeth"
+
+#~ msgid "Details"
+#~ msgstr "Manylion"
+
+#, python-format
+#~ msgid "No longer supported %s"
+#~ msgstr "Ddim bellach yn cefnogi %s"
+
+#, python-format
+#~ msgid "Remove (was auto installed) %s"
+#~ msgstr "Tynnu (wedi ei osod yn awtomatig) %s"
+
+#, python-format
+#~ msgid "Upgrade %s"
+#~ msgstr "Uwchraddio %s"
+
+#~ msgid "<b><big>Restart the system to complete the upgrade</big></b>"
+#~ msgstr "<b><big>Ailgychwyn y system i gwblhau'r uwchraddiad</big></b>"
+
+#~ msgid ""
+#~ "<b><big>Cancel the running upgrade?</big></b>\n"
+#~ "\n"
+#~ "The system could be in an unusable state if you cancel the upgrade. You "
+#~ "are strongly advised to resume the upgrade."
+#~ msgstr ""
+#~ "<b><big>Canslo'r uwchraddiad sy'n rhedeg?</big></b>\n"
+#~ "\n"
+#~ "Efallai na fydd modd defnyddio'r system os wnei di ganslo'r uwchraddiad. "
+#~ "Cynghorir ti yn gryf i ailgychwyn yr uwchraddiad."
+
+#~ msgid "Cancel Upgrade?"
+#~ msgstr "Canslo Uwchraddiad?"
+
+#, python-format
+#~ msgid "%li day"
+#~ msgid_plural "%li days"
+#~ msgstr[0] "%li diwrnod"
+#~ msgstr[1] "%li diwrnod"
+#~ msgstr[2] "%li diwrnod"
+#~ msgstr[3] "%li diwrnod"
+
+#, python-format
+#~ msgid "%li hour"
+#~ msgid_plural "%li hours"
+#~ msgstr[0] "%li awr"
+#~ msgstr[1] "%li awr"
+#~ msgstr[2] "%li awr"
+#~ msgstr[3] "%li awr"
+
+#, python-format
+#~ msgid "%li minute"
+#~ msgid_plural "%li minutes"
+#~ msgstr[0] "%li munud"
+#~ msgstr[1] "%li munud"
+#~ msgstr[2] "%li munud"
+#~ msgstr[3] "%li munud"
+
+#, python-format
+#~ msgid "%li second"
+#~ msgid_plural "%li seconds"
+#~ msgstr[0] "%li eiliad"
+#~ msgstr[1] "%li eiliad"
+#~ msgstr[2] "%li eiliad"
+#~ msgstr[3] "%li eiliad"
+
+#, python-format
+#~ msgid "%(str_days)s %(str_hours)s"
+#~ msgstr "%(str_days)s %(str_hours)s"
+
+#, python-format
+#~ msgid "%(str_hours)s %(str_minutes)s"
+#~ msgstr "%(str_hours)s %(str_minutes)s"
+
+#, python-format
+#~ msgid ""
+#~ "This download will take about %s with a 1Mbit DSL connection and about %s "
+#~ "with a 56k modem."
+#~ msgstr ""
+#~ "Bydd lawrlwytho yn cymryd tua %s gyda chysylltiad DSL 1Mbit a thua %s "
+#~ "gyda modem 56k."
+
+#, python-format
+#~ msgid "This download will take about %s with your connection. "
+#~ msgstr "Bydd lawrlwytho yn cymrud tua %s gyda dy gysylltiad di. "
+
+#~ msgid "Preparing to upgrade"
+#~ msgstr "Paratoi i uwchraddio"
+
+#~ msgid "Getting new software channels"
+#~ msgstr "Cyrchu sianeli meddalwedd newydd"
+
+#~ msgid "Getting new packages"
+#~ msgstr "Cyrchu pecynnau newydd"
+
+#~ msgid "Installing the upgrades"
+#~ msgstr "Gosod yr uwchraddiad"
+
+#~ msgid "Cleaning up"
+#~ msgstr "Yn glanhau"
+
+#, python-format
+#~ msgid ""
+#~ "%(amount)d installed package is no longer supported by Canonical. You can "
+#~ "still get support from the community."
+#~ msgid_plural ""
+#~ "%(amount)d installed packages are no longer supported by Canonical. You "
+#~ "can still get support from the community."
+#~ msgstr[0] ""
+#~ "Nid yw %(amount)d pecyn sydd wedi ei osod bellach yn derbyn cefnogaeth "
+#~ "gan Canonical. Bydd modd i ti gael cefnogaeth o hyd gan y gymuned."
+#~ msgstr[1] ""
+#~ "Nid yw %(amount)d o becynnau sydd wedi eu gosod bellach yn derbyn "
+#~ "cefnogaeth gan Canonical. Bydd modd i ti gael cefnogaeth o hyd gan y "
+#~ "gymuned."
+#~ msgstr[2] ""
+#~ "Nid yw %(amount)d o becynnau sydd wedi eu gosod bellach yn derbyn "
+#~ "cefnogaeth gan Canonical. Bydd modd i ti gael cefnogaeth o hyd gan y "
+#~ "gymuned."
+#~ msgstr[3] ""
+#~ "Nid yw %(amount)d o becynnau sydd wedi eu gosod bellach yn derbyn "
+#~ "cefnogaeth gan Canonical. Bydd modd i ti gael cefnogaeth o hyd gan y "
+#~ "gymuned."
+
+#, python-format
+#~ msgid "%d new package is going to be installed."
+#~ msgid_plural "%d new packages are going to be installed."
+#~ msgstr[0] "Bydd %d pecyn newydd yn cael ei osod."
+#~ msgstr[1] "Bydd %d o becynnau newydd yn cael eu gosod."
+#~ msgstr[2] "Bydd %d o becynnau newydd yn cael eu gosod."
+#~ msgstr[3] "Bydd %d o becynnau newydd yn cael eu gosod."
+
+#, python-format
+#~ msgid "%d package is going to be upgraded."
+#~ msgid_plural "%d packages are going to be upgraded."
+#~ msgstr[0] "Bydd %d pecyn yn cael ei uwchraddio."
+#~ msgstr[1] "Bydd %d o becynnau yn cael eu huwchraddio."
+#~ msgstr[2] "Bydd %d o becynnau yn cael eu huwchraddio."
+#~ msgstr[3] "Bydd %d o becynnau yn cael eu huwchraddio."
+
+#, python-format
+#~ msgid ""
+#~ "\n"
+#~ "\n"
+#~ "You have to download a total of %s. "
+#~ msgstr ""
+#~ "\n"
+#~ "\n"
+#~ "Rwyt ti wedi lawrlwytho cyfanswm o %s. "
+
+#~ msgid ""
+#~ "There are no upgrades available for your system. The upgrade will now be "
+#~ "canceled."
+#~ msgstr ""
+#~ "Does dim uwchraddiad ar gael ar gyfer dy system. Bydd yr uwchraddiad yn "
+#~ "cael ei ganslo."
+
+#~ msgid "Reboot required"
+#~ msgstr "Angen ailgychwyn"
+
+#~ msgid ""
+#~ "The upgrade is finished and a reboot is required. Do you want to do this "
+#~ "now?"
+#~ msgstr ""
+#~ "Mae'r uwchraddiad wedi gorffen ac mae angen ailgychwyn. Wyt ti eisiau "
+#~ "gwneud hyn nawr?"
+
+#~ msgid "Could not run the upgrade tool"
+#~ msgstr "Methu rhedeg y teclyn uwchraddio"
+
+#~ msgid "Upgrade tool signature"
+#~ msgstr "Llofnod teclyn uwchraddio"
+
+#~ msgid "Upgrade tool"
+#~ msgstr "Teclyn uwchraddio"
+
+#~ msgid "Failed to fetch"
+#~ msgstr "Methwyd cyrchu"
+
+#~ msgid "Fetching the upgrade failed. There may be a network problem. "
+#~ msgstr "Methwyd cyrchu'r uwchraddiad. Efallai bod problem rhwydwaith. "
+
+#~ msgid "Authentication failed"
+#~ msgstr "Methwyd dilysu"
+
+#~ msgid ""
+#~ "Authenticating the upgrade failed. There may be a problem with the "
+#~ "network or with the server. "
+#~ msgstr ""
+#~ "Methwyd cadarnhau dilysrwydd yr uwchraddiad. Efallai bod problem gyda'r "
+#~ "rhwydwaith neu'r gweinydd. "
+
+#~ msgid "Failed to extract"
+#~ msgstr "Methwyd echdynnu"
+
+#~ msgid ""
+#~ "Extracting the upgrade failed. There may be a problem with the network or "
+#~ "with the server. "
+#~ msgstr ""
+#~ "Methwyd echdynnu'r uwchraddiad. Efallai bod problem gyda'r rhwydwaith "
+#~ "neu'r gweinydd. "
+
+#~ msgid "Verification failed"
+#~ msgstr "Methwyd dilysu"
+
+#~ msgid ""
+#~ "Verifying the upgrade failed.  There may be a problem with the network or "
+#~ "with the server. "
+#~ msgstr ""
+#~ "Methwyd dilysu'r uwchraddiad. Efallai bod problem gyda'r rhwydwaith neu'r "
+#~ "gweinydd. "
+
+#~ msgid "Can not run the upgrade"
+#~ msgstr "Methu rhedeg yr uwchraddiad"
+
+#, python-format
+#~ msgid "The error message is '%s'."
+#~ msgstr "Y neges gwall yw '%s'."
+
+#~ msgid ""
+#~ "Please report this as a bug and include the files /var/log/dist-upgrade/"
+#~ "main.log and /var/log/dist-upgrade/apt.log in your report. The upgrade "
+#~ "has aborted.\n"
+#~ "Your original sources.list was saved in /etc/apt/sources.list.distUpgrade."
+#~ msgstr ""
+#~ "Adrodda hwn fel chwilen gan gynnwys ffeiliau /var/log/dist-upgrade/main."
+#~ "log a /var/log/dist-upgrade/apt.log yn dy adroddiad. Terfynwyd yr "
+#~ "uwchraddiad.\n"
+#~ "Cadwyd y ffeil sources.list gwreiddiol yn /etc/apt/sources.list."
+#~ "distUpgrade."
+
+#~ msgid "Aborting"
+#~ msgstr "Yn terfynu"
+
+#~ msgid "Demoted:\n"
+#~ msgstr "Diraddiwyd:\n"
+
+#~ msgid "Continue [yN] "
+#~ msgstr "Parhau [yN] "
+
+#~ msgid "Details [d]"
+#~ msgstr "Manylion [d]"
+
+#~ msgid "y"
+#~ msgstr "i"
+
+#~ msgid "n"
+#~ msgstr "n"
+
+#~ msgid "d"
+#~ msgstr "m"
+
+#, python-format
+#~ msgid "No longer supported: %s\n"
+#~ msgstr "Ddim yn derbyn cefnogaeth bellach: %s\n"
+
+#, python-format
+#~ msgid "Remove: %s\n"
+#~ msgstr "Tynnu: %s\n"
+
+#, python-format
+#~ msgid "Install: %s\n"
+#~ msgstr "Gosod: %s\n"
+
+#, python-format
+#~ msgid "Upgrade: %s\n"
+#~ msgstr "Uwchraddio: %s\n"
+
+#~ msgid "Continue [Yn] "
+#~ msgstr "Parhau [Yn] "
+
+#~ msgid ""
+#~ "To finish the upgrade, a restart is required.\n"
+#~ "If you select 'y' the system will be restarted."
+#~ msgstr ""
+#~ "I gwblhau'r uwchraddiad, mae angen ailgychwyn.\n"
+#~ "Os wnei di ddewis 'i' bydd y system yn ailgychwyn."
+
+#~ msgid "_Cancel Upgrade"
+#~ msgstr "_Canslo Uwchraddiad"
+
+#~ msgid "_Resume Upgrade"
+#~ msgstr "_Ailgychwyn Uwchraddiad"
+
+#~ msgid ""
+#~ "<b><big>Cancel the running upgrade?</big></b>\n"
+#~ "\n"
+#~ "The system could be in an unusable state if you cancel the upgrade. You "
+#~ "are strongly adviced to resume the upgrade."
+#~ msgstr ""
+#~ "<b><big>Canslo'r uwchraddiad sy'n rhedeg?</big></b>\n"
+#~ "\n"
+#~ "Gallai'r system fod yn ansefydlog os wnei di ganslo'r uwchraddiad. Y "
+#~ "cyngor yw i ti ailgychwyn uwchraddio."
+
+#~ msgid "_Start Upgrade"
+#~ msgstr "_Dechrau Uwchraddiad"
+
+#~ msgid "_Replace"
+#~ msgstr "_Amnewid"
+
+#~ msgid "Difference between the files"
+#~ msgstr "Y gwahaniaeth rhwng y ffeiliau"
+
+#~ msgid "_Report Bug"
+#~ msgstr "_Adrodd Chwilen"
+
+#~ msgid "<b><big>Start the upgrade?</big></b>"
+#~ msgstr "<b><big>Dechrau'r uwchraddiad?</big></b>"
+
+#~ msgid ""
+#~ "<b><big>Restart the system to complete the upgrade</big></b>\n"
+#~ "\n"
+#~ "Please save your work before continuing."
+#~ msgstr ""
+#~ "<b><big>Ailgychwyn y system i gwblhau'r uwchraddiad</big></b>\n"
+#~ "\n"
+#~ "Cofia gadw dy waith cyn parhau."
+
+#~ msgid "Distribution Upgrade"
+#~ msgstr "Uwchraddio Dosbarthiad"
+
+#~ msgid "    "
+#~ msgstr "    "
+
+#~ msgid "Setting new software channels"
+#~ msgstr "Gosod sianeli meddalwedd newydd"
+
+#~ msgid "Restarting the computer"
+#~ msgstr "Ailgychwyn y cyfrifiadur"
+
+#~ msgid "Terminal"
+#~ msgstr "Terfynell"
+
+#~ msgid "Could not find the release notes"
+#~ msgstr "Methu canfod nodiadau rhyddhau"
+
+#~ msgid "The server may be overloaded. "
+#~ msgstr "Gall fod pwysau ar y gweinydd. "
+
+#~ msgid "Could not download the release notes"
+#~ msgstr "Methu lawrlwytho'r nodiadau rhyddhau"
+
+#~ msgid "Please check your internet connection."
+#~ msgstr "Gwiria dy gysylltiad rhyngrwyd."
+
+#~ msgid "Release Notes"
+#~ msgstr "Nodiadau Ryddhau"
+
+#~ msgid "Downloading additional package files..."
+#~ msgstr "Lawrlwytho ffeiliau pecynnau ychwanegol..."
+
+#, python-format
+#~ msgid "File %s of %s at %sB/s"
+#~ msgstr "Ffeil %s o %s ar %sB/s"
+
+#, python-format
+#~ msgid "File %s of %s"
+#~ msgstr "Ffeil %s o %s"
+
+#, python-format
+#~ msgid "Downloading file %(current)li of %(total)li with %(speed)s/s"
+#~ msgstr "Lawrlwytho ffeil %(current)li o %(total)li gyda %(speed)s/s"
+
+#, python-format
+#~ msgid "Downloading file %(current)li of %(total)li"
+#~ msgstr "Lawrlwytho ffeil %(current)li o %(total)li"
+
+#~ msgid "Your Ubuntu release is not supported anymore."
+#~ msgstr "Nid yw dy fersiwn o Ubuntu'n derbyn cefnogaeth bellach."
+
+#~ msgid "Upgrade information"
+#~ msgstr "Gwybodaeth diweddaru"
+
+#, python-format
+#~ msgid ""
+#~ "The package information was last updated %(days_ago)s days ago.\n"
+#~ "Press the 'Check' button below to check for new software updates."
+#~ msgstr ""
+#~ "Diweddarwyd gwybodaeth am y pecynnau %(days_ago)s dydd yn ôl.\n"
+#~ "Clicia botwm 'Gwirio' isod i wirio am ddiweddariadau meddalwedd newydd."
+
+#, python-format
+#~ msgid "The package information was last updated %(days_ago)s day ago."
+#~ msgid_plural ""
+#~ "The package information was last updated %(days_ago)s days ago."
+#~ msgstr[0] "Diweddarwyd gwybodaeth am y pecynnau %(days_ago)s dydd yn ôl."
+#~ msgstr[1] "Diweddarwyd gwybodaeth am y pecynnau %(days_ago)s dydd yn ôl."
+#~ msgstr[2] "Diweddarwyd gwybodaeth am y pecynnau %(days_ago)s dydd yn ôl."
+#~ msgstr[3] "Diweddarwyd gwybodaeth am y pecynnau %(days_ago)s dydd l.yn ô"
+
+#, python-format
+#~ msgid "The package information was last updated %(hours_ago)s hour ago."
+#~ msgid_plural ""
+#~ "The package information was last updated %(hours_ago)s hours ago."
+#~ msgstr[0] "Diweddarwyd gwybodaeth am y pecynnau %(hours_ago)s awr yn ôl."
+#~ msgstr[1] "Diweddarwyd gwybodaeth am y pecynnau %(hours_ago)s awr yn ôl."
+#~ msgstr[2] "Diweddarwyd gwybodaeth am y pecynnau %(hours_ago)s awr yn ôl."
+#~ msgstr[3] "Diweddarwyd gwybodaeth am y pecynnau %(hours_ago)s awr yn ôl."
+
+#~ msgid "Software updates may be available for your computer."
+#~ msgstr ""
+#~ "Efallai bod diweddariadau meddalwedd ar gael ar gyfer dy gyfrifiadur."
+
+#~ msgid "Reading package information"
+#~ msgstr "Darllen gwybodaeth pecynnau"
+
+#~ msgid " (New install)"
+#~ msgstr " (Gosod o'r newydd)"
+
+#, python-format
+#~ msgid "(Size: %s)"
+#~ msgstr "(Maint: %s)"
+
+#, python-format
+#~ msgid "From version %(old_version)s to %(new_version)s"
+#~ msgstr "O fersiwn %(old_version)s i %(new_version)s"
+
+#, python-format
+#~ msgid "Version %s"
+#~ msgstr "Fersiwn %s"
+
+#~ msgid "Release upgrade not possible right now"
+#~ msgstr "Uwchraddiad fersiwn ddim yn bosib ar hyn o bryd"
+
+#, c-format, python-format
+#~ msgid ""
+#~ "The release upgrade can not be performed currently, please try again "
+#~ "later. The server reported: '%s'"
+#~ msgstr ""
+#~ "Nid yw'n bosib uwchraddio'r fersiwn ar hyn o bryd, tria eto yn nes "
+#~ "ymlaen. Adroddodd y gweinydd: '%s'"
+
+#~ msgid "Downloading the release upgrade tool"
+#~ msgstr "Lawrlwytho'r teclyn uwchraddio fersiwn"
+
+#, python-format
+#~ msgid "<b>New Ubuntu release '%s' is available</b>"
+#~ msgstr "<b>Mae fersiwn newydd '%s' o Ubuntu ar gael</b>"
+
+#~ msgid "Cancel"
+#~ msgstr "Canslo"
+
+#~ msgid "Building Updates List"
+#~ msgstr "Creu Rhestr Diweddariadau"
+
+#~ msgid ""
+#~ "\n"
+#~ "A normal upgrade can not be calculated, please run: \n"
+#~ "  sudo apt-get dist-upgrade\n"
+#~ "\n"
+#~ "\n"
+#~ "This can be caused by:\n"
+#~ " * A previous upgrade which didn't complete\n"
+#~ " * Problems with some of the installed software\n"
+#~ " * Unofficial software packages not provided by Ubuntu\n"
+#~ " * Normal changes of a pre-release version of Ubuntu"
+#~ msgstr ""
+#~ "\n"
+#~ "Methwyd cyfrifo uwchraddiad normal, rheda: \n"
+#~ "  sudo apt-get dist-upgrade\n"
+#~ "\n"
+#~ "\n"
+#~ "Gall y canlynol achosi hyn:\n"
+#~ " * Uwchraddiad blaenorol heb gwblhau\n"
+#~ " * Problemau gyda meddalwedd sydd wedi ei osod\n"
+#~ " * Pecynnau meddalwedd answyddogol sydd ddim yn cael eu darparu gan "
+#~ "Ubuntu\n"
+#~ " * Newidiadau normal o fersiwn cyn rhyddhau o Ubuntu"
+
+#~ msgid "Downloading changelog"
+#~ msgstr "Lawrlwytho log newid"
+
+#, python-format
+#~ msgid "Other updates (%s)"
+#~ msgstr "Diweddariadau eraill (%s)"
+
+#~ msgid "Failed to detect distribution"
+#~ msgstr "Methwyd canfod fersiwn"
+
+#, python-format
+#~ msgid "A error '%s' occurred while checking what system you are using."
+#~ msgstr "Digwyddodd gwall '%s' wrth wirio pa system rwyt ti'n defnyddio."
+
+#~ msgid "Recommended updates"
+#~ msgstr "Diweddariadau sy'n cael eu hargymell"
+
+#~ msgid "Proposed updates"
+#~ msgstr "Diweddariadau a gynigir"
+
+#~ msgid "Backports"
+#~ msgstr "Ol ddiweddariadau"
+
+#~ msgid "Distribution updates"
+#~ msgstr "Diweddariadau fersiwn"
+
+#, fuzzy
+#~ msgid "<big><b>Starting Software Updater</b></big>"
+#~ msgstr "<big><b>Cychwyn Rheolwr Diweddariadau</b></big>"
+
+#~ msgid ""
+#~ "Software updates correct errors, eliminate security vulnerabilities and "
+#~ "provide new features."
+#~ msgstr ""
+#~ "Mae diweddariadau meddalwedd yn trwsio gwallau, cael gwared ar fylchau "
+#~ "diogelwch, ac yn cynnig nodweddion newydd."
+
+#~ msgid "Chec_k"
+#~ msgstr "Gwirio"
+
+#~ msgid ""
+#~ "<b><big>You must check for updates manually</big></b>\n"
+#~ "\n"
+#~ "Your system does not check for updates automatically. You can configure "
+#~ "this behavior in <i>Software Sources</i> on the <i>Updates</i> tab."
+#~ msgstr ""
+#~ "<b><big>Rhaidi ti wirio am ddiweddariadau â llaw</big></b>\n"
+#~ "\n"
+#~ "Nid yw dy system yn gwirio am ddiweddariadau yn awtomatig. Mae modd "
+#~ "cyflunio'r weithred hon yn <i>Cronfeydd Meddalwedd</i> yn y tab "
+#~ "<i>Diweddariadau</i>."
+
+#~ msgid "_Hide this information in the future"
+#~ msgstr "_Cuddio'r wybodaeth yma yn y dyfodol"
+
+#~ msgid "Co_ntinue"
+#~ msgstr "Parhau"
+
+#~ msgid "<big><b>Running on battery</b></big>"
+#~ msgstr "<big><b>Yn rhedeg ar fatri</b></big>"
+
+#~ msgid ""
+#~ "Your system is running on battery. Are you sure you want to continue?"
+#~ msgstr ""
+#~ "Mae dy system yn rhedeg ar fatri. Wyt ti'n siwr dy fod eisiau parhau?"
+
+#~ msgid "_Upgrade"
+#~ msgstr "_Uwchraddio"
+
+#~ msgid "Show progress of individual files"
+#~ msgstr "Dangos cynnydd ffeiliau unigol"
+
+#, fuzzy
+#~ msgid "Starting Software Updater"
+#~ msgstr "Diweddariadau Meddalwedd"
+
+#~ msgid "U_pgrade"
+#~ msgstr "Uwchraddio"
+
+#~ msgid ""
+#~ "<b>A new version of Ubuntu is available. Would you like to upgrade?</b>"
+#~ msgstr ""
+#~ "<b>Mae fersiwn newydd o Ubuntu ar gael. Wyt ti eisiau uwchraddio?</b>"
+
+#~ msgid "Don't Upgrade"
+#~ msgstr "Peidio Uwchraddio"
+
+#~ msgid "Yes, Upgrade Now"
+#~ msgstr "Ydw, Uwchraddio Nawr"
+
+#~ msgid "You have declined to upgrade to the new Ubuntu"
+#~ msgstr "Rwyt ti wedi penderfynu peidio uwchraddio i'r Ubuntu newydd"
+
+#, fuzzy
+#~ msgid ""
+#~ "You can upgrade at a later time by opening Software Updater and click on "
+#~ "\"Upgrade\"."
+#~ msgstr ""
+#~ "Galli di uwchraddio rhywbryd eto drwy agor y Rheolwr Diweddariadau a "
+#~ "chlicio \"Uwchraddio\"."
+
+#~ msgid "Check if upgrading to the latest devel release is possible"
+#~ msgstr ""
+#~ "Gwirio i weld os yw'n bosib uwchraddio i'r fersiwn datblygol diweddaraf"
+
+#~ msgid "Try to run a dist-upgrade"
+#~ msgstr "Ceisio rhedeg dist-upgrade"
+
+#~ msgid "Test upgrade with a sandbox aufs overlay"
+#~ msgstr "Profi uwchraddiad gyda throshaeniad blwch tywod aufs"
+
+#~ msgid "Running partial upgrade"
+#~ msgstr "Yn rhedeg uwchraddiad rhannol"
+
+#~ msgid ""
+#~ "Try upgrading to the latest release using the upgrader from $distro-"
+#~ "proposed"
+#~ msgstr "Ceisio uwchraddio i'r fersiwn diweddaraf o $distro-proposed"
+
+#~ msgid ""
+#~ "Run in a special upgrade mode.\n"
+#~ "Currently 'desktop' for regular upgrades of a desktop system and 'server' "
+#~ "for server systems are supported."
+#~ msgstr ""
+#~ "Rhedeg fel uwchraddiad arbennig.\n"
+#~ "Ar hyn o bryd mae 'desktop' ar gyfer uwchraddio system penbwrdd arferol a "
+#~ "'server' ar gyfer systemau gweinydd yn cael eu cefnogi."
+
+#~ msgid ""
+#~ "Check only if a new distribution release is available and report the "
+#~ "result via the exit code"
+#~ msgstr ""
+#~ "Gwirio dim ond os oes fersiwn newydd ar gael ac adrodd y canlyniad drwy'r "
+#~ "cod gadael"
+
+#~ msgid ""
+#~ "For upgrade information, please visit:\n"
+#~ "%(url)s\n"
+#~ msgstr ""
+#~ "Am wybodaeth am uwchraddio, cer i:\n"
+#~ "%(url)s\n"
+
+#~ msgid "No new release found"
+#~ msgstr "Dim fersiwn newydd wedi ei ganfod"
+
+#, c-format
+#~ msgid "New release '%s' available."
+#~ msgstr "Fersiwn newydd '%s' ar gael."
+
+#~ msgid "Run 'do-release-upgrade' to upgrade to it."
+#~ msgstr "Rheda 'do-release-upgrade' i uwchraddio i hwn."
+
+#~ msgid "Ubuntu %(version)s Upgrade Available"
+#~ msgstr "Uwchraddiad i Ubuntu %(version)s Ar Gael"
+
+#, c-format
+#~ msgid "You have declined the upgrade to Ubuntu %s"
+#~ msgstr "Rwyt ti wedi penderfynu peidio uwchraddio i Ubuntu %s"
+
+#~ msgid "%(count)s update has been selected."
+#~ msgid_plural "%(count)s updates have been selected."
+#~ msgstr[0] "%(count)s diweddariad wedi ei ddewis."
+#~ msgstr[1] "%(count)s diweddariad wedi eu dewis."
+#~ msgstr[2] "%(count)s diweddariad wedi eu dewis."
+#~ msgstr[3] "%(count)s diweddariad wedi eu dewis."
+
+#~ msgid "%(count_str)s %(download_str)s"
+#~ msgstr "%(count_str)s %(download_str)s"
+
+#~ msgid "Welcome to Ubuntu"
+#~ msgstr "Croeso i Ubuntu"
+
+#~ msgid "Update Manager"
+#~ msgstr "Rheolwr Diweddariadau"
+
+#~ msgid "Starting Update Manager"
+#~ msgstr "Cychwyn Rheolwr Diweddariadau"
+
+#~ msgid ""
+#~ "This upgrade is running in sandbox (test) mode. All changes are written "
+#~ "to '%s' and will be lost on the next reboot.\n"
+#~ "\n"
+#~ "*No* changes written to a systemdir from now until the next reboot are "
+#~ "permanent."
+#~ msgstr ""
+#~ "Mae'r uwchraddiad yn rhedeg ym modd blwch tywod (prawf). Bydd pob newid "
+#~ "yn cael ei ysgrifennu i '%s' a'i golli y tro nesaf i ti ailgychwyn.\n"
+#~ "Fydd *dim* newidiadau sy'n cael eu hysgrifennu i systemdir rhwng nawr a'r "
+#~ "ailgychwyn nesaf yn barhaol."
+
+#~ msgid "Your system is up-to-date"
+#~ msgstr "Mae dy system yn gyfredol"
+
+#~ msgid ""
+#~ "Fetching and installing the upgrade can take several hours. Once the "
+#~ "download has finished, the process cannot be cancelled."
+#~ msgstr ""
+#~ "Gall cyrchu a gosod yr uwchraddiad gymryd sawl awr. Unwaith i'r "
+#~ "lawrlwythiad orffen does dim modd canslo'r broses."
+
+#~ msgid ""
+#~ "You will not get any further security fixes or critical updates. Please "
+#~ "upgrade to a later version of Ubuntu Linux."
+#~ msgstr ""
+#~ "Fyddi di ddim yn derbyn diweddariadau hanfodol na rhai diogelwch. "
+#~ "Uwchraddia i fersiwn mwy newydd o Ubuntu Linux."
+
+#~ msgid "There are no updates to install"
+#~ msgstr "Does dim diweddariadau i'w gosod"
+
+#~ msgid ""
+#~ "If you don't want to install them now, choose \"Update Manager\" from the "
+#~ "Administration menu later."
+#~ msgstr ""
+#~ "Os nad wyt ti eisiau eu gosod nawr, defnyddia \"Rheolwr Diweddariadau\" "
+#~ "o'r ddewislen Gweinyddiaeth yn nes ymlaen."
+
+#~ msgid "Checking for a new ubuntu release"
+#~ msgstr "Yn gwirio am fersiwn newydd o Ubuntu"

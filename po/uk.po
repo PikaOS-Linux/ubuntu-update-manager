@@ -1,0 +1,2491 @@
+# translation of uk(5).po to Ukrainian
+# Maxim Dziumanenko <mvd@mylinux.ua>, 2005.
+# Vadim Abramchuck <Abram@email.ua>, 2006.
+# Ukrainian translation of update-manager.
+# Copyright (C) 2005, 2006 Free Software Foundation, Inc.
+#: ../UpdateManager/UpdatesAvailable.py:847
+msgid ""
+msgstr ""
+"Project-Id-Version: uk(5)\n"
+"Report-Msgid-Bugs-To: sebastian.heinlein@web.de\n"
+"POT-Creation-Date: 2021-12-07 16:54-0800\n"
+"PO-Revision-Date: 2012-04-13 01:02+0000\n"
+"Last-Translator: Leonid Yaitskiy <Unknown>\n"
+"Language-Team: Ukrainian <uk@li.org>\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Launchpad-Export-Date: 2012-04-17 13:41+0000\n"
+"X-Generator: Launchpad (build 15099)\n"
+
+#: ../UpdateManager/backend/InstallBackendAptdaemon.py:150
+#, fuzzy
+msgid "Checking for updates…"
+msgstr "Перевірити наявність оновлень"
+
+#: ../UpdateManager/backend/InstallBackendAptdaemon.py:200
+#: ../UpdateManager/backend/InstallBackendAptdaemon.py:256
+#: ../UpdateManager/backend/InstallBackendAptdaemon.py:287
+#, fuzzy
+msgid "Installing updates…"
+msgstr "_Встановлення оновлень"
+
+#: ../UpdateManager/backend/InstallBackendSynaptic.py:39
+msgid "Please wait, this can take some time."
+msgstr "Будь ласка, зачекайте, це може зайняти деякий час."
+
+#: ../UpdateManager/backend/InstallBackendSynaptic.py:41
+msgid "Update is complete"
+msgstr "Оновлення завершено"
+
+#: ../UpdateManager/backend/__init__.py:277
+msgid "Updating snaps"
+msgstr ""
+
+#: ../UpdateManager/backend/__init__.py:304
+#, python-format
+msgid "Refreshing %s snap"
+msgstr ""
+
+#: ../UpdateManager/backend/__init__.py:310
+#, fuzzy, python-format
+msgid "Removing %s snap"
+msgstr "Видалити %s"
+
+#: ../UpdateManager/backend/__init__.py:315
+#, fuzzy, python-format
+msgid "Installing %s snap"
+msgstr "Встановити %s"
+
+#: ../UpdateManager/backend/__init__.py:324
+#, fuzzy
+msgid "Upgrade only partially completed."
+msgstr "Оновлення завершено"
+
+#: ../UpdateManager/backend/__init__.py:325
+#, fuzzy
+msgid ""
+"An error occurred while updating snaps. Please check your network connection."
+msgstr ""
+"Під час оновлення сталася помилка. Це зазвичай викликано проблемами у "
+"мережі, будь ласка, перевірте Ваше мережеве з’єднання та спробуйте знову."
+
+#: ../UpdateManager/ChangelogViewer.py:83
+msgid "Open Link in Browser"
+msgstr "Відкрити посилання в браузері"
+
+#: ../UpdateManager/ChangelogViewer.py:87
+msgid "Copy Link to Clipboard"
+msgstr "Копіювати посилання в буфер обміну"
+
+#: ../UpdateManager/Dialogs.py:126
+#, fuzzy
+msgid "Settings…"
+msgstr "_Параметри…"
+
+#: ../UpdateManager/Dialogs.py:171
+msgid ""
+"<b>Tip:</b> You can use Livepatch to keep your computer more secure between "
+"restarts."
+msgstr ""
+
+#: ../UpdateManager/Dialogs.py:174
+msgid "Settings & Livepatch…"
+msgstr ""
+
+#: ../UpdateManager/Dialogs.py:188
+#, python-format
+msgid "%d Livepatch update applied since the last restart."
+msgid_plural "%d Livepatch updates applied since the last restart."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: ../UpdateManager/Dialogs.py:196
+#, python-format
+msgid "%d Livepatch update failed to apply since the last restart."
+msgid_plural "%d Livepatch updates failed to apply since the last restart."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: ../UpdateManager/Dialogs.py:218 ../UpdateManager/UpdateManager.py:292
+#, fuzzy
+msgid "You stopped the check for updates."
+msgstr "Не перевіряти оновлення під час старту"
+
+#: ../UpdateManager/Dialogs.py:220
+msgid "_Check Again"
+msgstr ""
+
+#: ../UpdateManager/Dialogs.py:232
+#, fuzzy
+msgid "No software updates are available."
+msgstr "Для цього комп’ютера доступні оновлення програмного забезпечення."
+
+#: ../UpdateManager/Dialogs.py:234 ../UpdateManager/Dialogs.py:245
+msgid "The software on this computer is up to date."
+msgstr "Програмне забезпечення на цьому комп'ютері актуальне."
+
+#. Translators: these are Ubuntu version names like "Ubuntu 12.04"
+#: ../UpdateManager/Dialogs.py:247
+#, python-format
+msgid "However, %s %s is now available (you have %s)."
+msgstr ""
+
+#: ../UpdateManager/Dialogs.py:252
+#, fuzzy
+msgid "Upgrade…"
+msgstr "Оновлення"
+
+#: ../UpdateManager/Dialogs.py:272
+#, fuzzy
+msgid "New important security and hardware support update."
+msgstr "Важливі оновлення безпеки"
+
+#: ../UpdateManager/Dialogs.py:280
+#, fuzzy
+msgid "_Install…"
+msgstr "Встановлення"
+
+#. Translators: this is an Ubuntu version name like "Ubuntu 12.04"
+#: ../UpdateManager/Dialogs.py:292
+#, fuzzy, python-format
+msgid "Software updates are no longer provided for %s %s."
+msgstr "Для цього комп’ютера доступні оновлення програмного забезпечення."
+
+#. Translators: this is an Ubuntu version name like "Ubuntu 12.04"
+#: ../UpdateManager/Dialogs.py:296
+#, python-format
+msgid "To stay secure, you should upgrade to %s %s."
+msgstr ""
+
+#: ../UpdateManager/Dialogs.py:309
+msgid "Sorry, there are no more upgrades for this system"
+msgstr ""
+
+#. Translators: this is an Ubuntu version name like "Ubuntu 12.04"
+#: ../UpdateManager/Dialogs.py:311
+#, python-format
+msgid ""
+"\n"
+"There will not be any further Ubuntu releases for this system's '%s' "
+"architecture.\n"
+"\n"
+"Updates for Ubuntu %s will continue until 2023-04-26.\n"
+"\n"
+"If you reinstall Ubuntu from ubuntu.com/download, future upgrades will be "
+"available."
+msgstr ""
+
+#: ../UpdateManager/Dialogs.py:325
+#, fuzzy
+msgid "Not all updates can be installed"
+msgstr "<big><b>Не всі оновлення можливо встановити</b></big>"
+
+#: ../UpdateManager/Dialogs.py:327
+#, fuzzy
+msgid ""
+"Run a partial upgrade, to install as many updates as possible.\n"
+"\n"
+"    This can be caused by:\n"
+"     * A previous upgrade which didn't complete\n"
+"     * Problems with some of the installed software\n"
+"     * Unofficial software packages not provided by Ubuntu\n"
+"     * Normal changes of a pre-release version of Ubuntu"
+msgstr ""
+"Виконати часткове оновлення, що здійснить максимально можливе встановлення "
+"оновлень. \n"
+"\n"
+"Це може бути викликано:\n"
+" * попереднім оновленням, яке ще не завершено\n"
+" * проблемами з деяким встановленими програмами\n"
+" * неофіційними пакунками програм, що не постачаються з Ubuntu\n"
+" * нормальними змінами пре-реліз версії Ubuntu"
+
+#: ../UpdateManager/Dialogs.py:335
+msgid "_Partial Upgrade"
+msgstr "_Часткове оновлення"
+
+#: ../UpdateManager/Dialogs.py:336
+msgid "_Continue"
+msgstr "Пр_одовжити"
+
+#: ../UpdateManager/Dialogs.py:372
+msgid "_Try Again"
+msgstr ""
+
+#: ../UpdateManager/Dialogs.py:386
+#, fuzzy
+msgid "The computer needs to restart to finish installing updates."
+msgstr ""
+"Комп’ютер потребує перезавантаження для завершення встановлення оновлень. "
+"Збережіть ваші дані перед тим як продовжити."
+
+#: ../UpdateManager/Dialogs.py:388
+#, fuzzy
+msgid "Restart _Later"
+msgstr "Необхідне перезавантаження"
+
+#: ../UpdateManager/Dialogs.py:390
+msgid "_Restart Now"
+msgstr "Перезапустити зараз"
+
+#. Basic GTK+ parameters
+#: ../UpdateManager/UpdateManager.py:96 ../data/update-manager.desktop.in.h:1
+#: ../data/update-manager.appdata.xml.in.h:1
+#, fuzzy
+msgid "Software Updater"
+msgstr "Оновлення програм"
+
+#: ../UpdateManager/UpdateManager.py:290
+msgid "Some software couldn’t be checked for updates."
+msgstr ""
+
+#: ../UpdateManager/UpdateManager.py:293
+msgid "Updated software is available from a previous check."
+msgstr ""
+
+#. we assert a clean cache
+#: ../UpdateManager/UpdateManager.py:400
+msgid "Software index is broken"
+msgstr "Індекс програм пошкоджений"
+
+#: ../UpdateManager/UpdateManager.py:401
+msgid ""
+"It is impossible to install or remove any software. Please use the package "
+"manager \"Synaptic\" or run \"sudo apt-get install -f\" in a terminal to fix "
+"this issue at first."
+msgstr ""
+"Встановлення або видалення програм неможливе. Для виправлення цієї ситуації "
+"використовуйте менеджер пакетів \"Synaptic\" або запустіть в терміналі "
+"\"sudo apt-get install -f\"."
+
+#: ../UpdateManager/UpdateManager.py:408
+msgid "Could not initialize the package information"
+msgstr "Неможливо ініціалізувати інформацію про пакунок"
+
+#: ../UpdateManager/UpdateManager.py:409
+msgid ""
+"An unresolvable problem occurred while initializing the package "
+"information.\n"
+"\n"
+"Please report this bug against the 'update-manager' package and include the "
+"following error message:\n"
+msgstr ""
+"В процесі ініціалізації інформації про пакунок виникла проблема, яку "
+"неможливо розв’язати.\n"
+"\n"
+"Будь ласка, повідомте про цю помилку в \"Менеджері оновлення\" та включіть у "
+"звіт таке повідомлення:\n"
+
+#: ../UpdateManager/UpdateManager.py:437
+msgid "Could not calculate the upgrade"
+msgstr "Не вдалося розрахувати оновлення"
+
+#: ../UpdateManager/UpdateManager.py:438
+#, fuzzy
+msgid ""
+"An unresolvable problem occurred while calculating the upgrade.\n"
+"\n"
+"Please report this bug against the 'update-manager' package and include the "
+"following error message:\n"
+msgstr ""
+"В процесі обробки інформації про оновлення виникла проблема, яку неможливо "
+"розв’язати.\n"
+"\n"
+"Будь ласка, повідомте про цю помилку в \"Менеджері оновлення\" та включіть у "
+"звіт таке повідомлення:"
+
+#: ../UpdateManager/UpdatesAvailable.py:252
+#, fuzzy
+msgid "Install Now"
+msgstr "Встановлення"
+
+#: ../UpdateManager/UpdatesAvailable.py:285
+#, fuzzy
+msgid "Install or remove"
+msgstr "Встановлення"
+
+#: ../UpdateManager/UpdatesAvailable.py:319
+msgid "Download"
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:378
+#, fuzzy
+msgid "_Remind Me Later"
+msgstr "Запитати пізніше"
+
+#. upload_archive = version_match.group(2).strip()
+#: ../UpdateManager/UpdatesAvailable.py:515
+#, python-format
+msgid "Version %s: \n"
+msgstr "Версія %s: \n"
+
+#: ../UpdateManager/UpdatesAvailable.py:580
+msgid ""
+"No network connection detected, you can not download changelog information."
+msgstr ""
+"Ви не можете завантажити список змін за відсутності з’єднання з інтернетом."
+
+#: ../UpdateManager/UpdatesAvailable.py:590
+msgid "Downloading list of changes..."
+msgstr "Завантаження списку змін..."
+
+#: ../UpdateManager/UpdatesAvailable.py:634
+msgid "_Deselect All"
+msgstr "_Прибрати виділення"
+
+#: ../UpdateManager/UpdatesAvailable.py:640
+msgid "Select _All"
+msgstr "Вибрати _все"
+
+#: ../UpdateManager/UpdatesAvailable.py:736
+#, python-format
+msgid "%s will be downloaded."
+msgstr "%s буде завантажено."
+
+#: ../UpdateManager/UpdatesAvailable.py:750
+#, fuzzy
+msgid "The update has already been downloaded."
+msgid_plural "The updates have already been downloaded."
+msgstr[0] "Оновлення завантажено, але не встановлено."
+msgstr[1] "Оновлення завантажено, але не встановлено."
+msgstr[2] "Оновлення завантажено, але не встановлено."
+
+#: ../UpdateManager/UpdatesAvailable.py:756
+msgid "There are no updates to install."
+msgstr "Немає оновлень для встановлення."
+
+#: ../UpdateManager/UpdatesAvailable.py:765
+msgid "Unknown download size."
+msgstr "Завантажувальний розмір невідомий."
+
+#: ../UpdateManager/UpdatesAvailable.py:792
+#, python-format
+msgid ""
+"Updated software has been issued since %s %s was released. Do you want to "
+"install it now?"
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:797
+msgid ""
+"Updated software is available for this computer. Do you want to install it "
+"now?"
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:800
+#, fuzzy
+msgid ""
+"The computer also needs to restart to finish installing previous updates."
+msgstr ""
+"Комп’ютер потребує перезавантаження для завершення встановлення оновлень. "
+"Збережіть ваші дані перед тим як продовжити."
+
+#. print("on_button_install_clicked")
+#: ../UpdateManager/UpdatesAvailable.py:830
+msgid "Not enough free disk space"
+msgstr "Недостатньо місця на диску"
+
+#: ../UpdateManager/UpdatesAvailable.py:831
+#, fuzzy, python-format
+msgid ""
+"The upgrade needs a total of %s free space on disk '%s'. Please free at "
+"least an additional %s of disk space on '%s'. %s"
+msgstr ""
+"Оновлення потребує всього %s вільного місця на диску '%s'. Будь-ласка, "
+"звільніть принаймні %s додатково дискового простору на '%s'. Очистіть "
+"смітник і видаліть тимчасові пакети колишніх об'єктів за допомогою 'sudo apt-"
+"get clean'."
+
+#. specific ways to resolve lack of free space
+#: ../UpdateManager/UpdatesAvailable.py:836
+msgid ""
+"Remove temporary packages of former installations using 'sudo apt clean'."
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:838
+msgid ""
+"You can remove old kernels using 'sudo apt autoremove', and you could also "
+"set COMPRESS=xz in /etc/initramfs-tools/initramfs.conf to reduce the size of "
+"your initramfs."
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:843
+#, fuzzy
+msgid ""
+"Empty your trash and remove temporary packages of former installations using "
+"'sudo apt clean'."
+msgstr ""
+"Оновлення потребує всього %s вільного місця на диску '%s'. Будь-ласка, "
+"звільніть принаймні %s додатково дискового простору на '%s'. Очистіть "
+"смітник і видаліть тимчасові пакети колишніх об'єктів за допомогою 'sudo apt-"
+"get clean'."
+
+#: ../UpdateManager/UpdatesAvailable.py:846
+msgid "Reboot to clean up files in /tmp."
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:888
+msgid "Connecting..."
+msgstr "З’єднання..."
+
+#: ../UpdateManager/UpdatesAvailable.py:904
+msgid "You may not be able to check for updates or download new updates."
+msgstr "Ви не можете перевірити наявність оновлень або завантажити оновлення."
+
+#: ../UpdateManager/UpdatesAvailable.py:1056
+msgid "Improved hardware support"
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:1060
+#, fuzzy
+msgid "Security updates"
+msgstr "Важливі оновлення безпеки"
+
+#: ../UpdateManager/UpdatesAvailable.py:1064
+msgid "Other updates"
+msgstr "Інші оновлення"
+
+#: ../UpdateManager/UpdatesAvailable.py:1067
+msgid "Updates"
+msgstr "Оновлення"
+
+#: ../UpdateManager/UpdatesAvailable.py:1072
+msgid "Unused kernel updates to be removed"
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:1077
+#, fuzzy
+msgid "Duplicate packages to be removed"
+msgstr ""
+"Copy text   \t\r\n"
+"%d пакет буде видалено."
+
+#: ../UpdateManager/UnitySupport.py:70
+msgid "Install All Available Updates"
+msgstr "Встановити всі доступні оновлення"
+
+#: ../UpdateManager/Core/MyCache.py:417
+msgid "This update does not come from a source that supports changelogs."
+msgstr "Це оновлення надходить з джерела, що не підтримує журналювання змін."
+
+#: ../UpdateManager/Core/MyCache.py:423 ../UpdateManager/Core/MyCache.py:458
+msgid ""
+"Failed to download the list of changes. \n"
+"Please check your Internet connection."
+msgstr ""
+"Помилка завантаження списку змін. \n"
+"Перевірте з'єднання з Internet."
+
+#: ../UpdateManager/Core/MyCache.py:430
+#, fuzzy, python-format
+msgid ""
+"Changes for %s versions:\n"
+"Installed version: %s\n"
+"Available version: %s\n"
+"\n"
+msgstr ""
+"Зміни версій:\n"
+"Встановлена версія: %s\n"
+"Доступна версія: %s\n"
+"\n"
+
+#: ../UpdateManager/Core/MyCache.py:444
+#, python-format
+msgid ""
+"The changelog does not contain any relevant changes.\n"
+"\n"
+"Please use http://launchpad.net/ubuntu/+source/%s/%s/+changelog\n"
+"until the changes become available or try again later."
+msgstr ""
+"Журнал змін не містить істотних змін.\n"
+"\n"
+"Будь ласка, використовуйте http://launchpad.net/ubuntu/+source/%s/%s/"
+"+changelog,\n"
+"доки зміни не стануть доступними, або спробуйте знову пізніше."
+
+#: ../UpdateManager/Core/MyCache.py:451
+#, python-format
+msgid ""
+"The list of changes is not available yet.\n"
+"\n"
+"Please use http://launchpad.net/ubuntu/+source/%s/%s/+changelog\n"
+"until the changes become available or try again later."
+msgstr ""
+"Журнал змін ще не доступний.\n"
+"\n"
+"Будь ласка, використовуйте http://launchpad.net/ubuntu/+source/%s/%s/"
+"+changelog,\n"
+"доки зміни не стануть доступними, або спробуйте знову пізніше."
+
+#. Translators: the %s is a distro name, like 'Ubuntu' and 'base' as in
+#. the core components and packages.
+#: ../UpdateManager/Core/UpdateList.py:175
+#, python-format
+msgid "%s base"
+msgstr ""
+
+#. TRANSLATORS: download size of small updates, e.g. "250 kB"
+#: ../UpdateManager/Core/utils.py:483
+#, python-format
+msgid "%(size).0f kB"
+msgid_plural "%(size).0f kB"
+msgstr[0] "%(size).0f кБ"
+msgstr[1] "%(size).0f кБ"
+msgstr[2] "%(size).0f кБ"
+
+#. TRANSLATORS: download size of updates, e.g. "2.3 MB"
+#: ../UpdateManager/Core/utils.py:487
+#, python-format
+msgid "%.1f MB"
+msgstr "%.1f Mб"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:1
+msgid "updates"
+msgstr "оновлення"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:2
+msgid "Changes"
+msgstr "Зміни"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:3
+msgid "Description"
+msgstr "Опис"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:4
+#, fuzzy
+msgid "Technical description"
+msgstr "Опис"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:5
+#, fuzzy
+msgid "Details of updates"
+msgstr "Опис оновлень"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:6
+msgid "The computer will need to restart."
+msgstr ""
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:7
+msgid ""
+"You are connected via roaming and may be charged for the data consumed by "
+"this update."
+msgstr ""
+"Ви під'єднані в режимі роумінгу, тому може стягуватися додаткова плата за "
+"дані, передані під час цього оновлення."
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:8
+msgid ""
+"You may want to wait until you’re not using a mobile broadband connection."
+msgstr ""
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:9
+msgid "It’s safer to connect the computer to AC power before updating."
+msgstr ""
+"Безпечніше буде під'єднати комп'ютер до мережі змінного струму перед "
+"оновленням."
+
+#: ../data/update-manager.desktop.in.h:2
+msgid "Software Updates"
+msgstr "Оновлення програм"
+
+#: ../data/update-manager.desktop.in.h:3
+#: ../data/update-manager.appdata.xml.in.h:2
+msgid "Show and install available updates"
+msgstr "Перегляд і встановлення доступних оновлень"
+
+#: ../data/update-manager.appdata.xml.in.h:3
+msgid ""
+"Software Updater checks for updates using apt and let you choose which "
+"updates to install."
+msgstr ""
+
+#: ../update-manager:71
+msgid "Show version and exit"
+msgstr "Показати версію та вийти"
+
+#: ../update-manager:74
+msgid "Directory that contains the data files"
+msgstr "Каталог, який вміщує файли даних."
+
+#: ../update-manager:77
+msgid "Check if a new Ubuntu release is available"
+msgstr "Перевірити чи доступний новий випуск Ubuntu"
+
+#: ../update-manager:80
+msgid ""
+"If using the latest supported release, upgrade to the development release"
+msgstr ""
+
+#: ../update-manager:84
+msgid "Upgrade using the latest proposed version of the release upgrader"
+msgstr ""
+"Оновити, використовуючи найновішу, запропоновану оновлювачем випусків, версію"
+
+#. TRANSLATORS: this describes the "focus-on-map" gtk
+#. property that controls if a new window takes the
+#. input focus control when it is displayed for the
+#. first time (see also the gtk devhelp page)
+#: ../update-manager:91
+msgid "Do not focus on map when starting"
+msgstr "Не вибирати карту при запуску"
+
+#: ../update-manager:94
+msgid "Do not check for updates when starting"
+msgstr "Не перевіряти оновлення під час старту"
+
+#: ../update-manager:96
+msgid "Show debug messages"
+msgstr ""
+
+#. Why do we use %s here instead of $strings or {} format placeholders?
+#. It's because we don't want to break existing translations.
+#: ../janitor/plugincore/exceptions.py:43
+#, python-format
+msgid "Unimplemented method: %s"
+msgstr "Незадіяний метод: %s"
+
+#: ../janitor/plugincore/core/file_cruft.py:41
+msgid "A file on disk"
+msgstr "Файл на диску"
+
+#: ../janitor/plugincore/core/missing_package_cruft.py:40
+msgid "Install missing package."
+msgstr "Встановлення відсутніх пакунків."
+
+#. 2012-06-08 BAW: i18n string; don't use {} or PEP 292.
+#: ../janitor/plugincore/core/missing_package_cruft.py:50
+#, python-format
+msgid "Package %s should be installed."
+msgstr "Пакунок %s повинен бути встановлений."
+
+#: ../janitor/plugincore/core/package_cruft.py:50
+msgid ".deb package"
+msgstr ".deb пакунок"
+
+#: ../janitor/plugincore/plugins/langpack_manual_plugin.py:47
+#, python-format
+msgid "%s needs to be marked as manually installed."
+msgstr "%s повинен бути позначений як встановлений вручну ."
+
+#: ../janitor/plugincore/plugins/kdelibs4to5_plugin.py:50
+msgid ""
+"When upgrading, if kdelibs4-dev is installed, kdelibs5-dev needs to be "
+"installed. See bugs.launchpad.net, bug #279621 for details."
+msgstr ""
+"Під час оновлення, якщо встановлено kdelibs4-dev, також повинно бути "
+"встановлено kdelibs5-dev. Див. bugs.launchpad.net, bug #279621 для детальної "
+"інформації."
+
+#: ../janitor/plugincore/plugins/dpkg_status_plugin.py:45
+#, python-format
+msgid "%i obsolete entries in the status file"
+msgstr "%i застарілі записи в файлі статусу"
+
+#: ../janitor/plugincore/plugins/dpkg_status_plugin.py:48
+msgid "Obsolete entries in dpkg status"
+msgstr "Застарілі записи в dpkg статусі"
+
+#. pragma: no cover
+#: ../janitor/plugincore/plugins/dpkg_status_plugin.py:51
+msgid "Obsolete dpkg status entries"
+msgstr "Застарілі записи dpkg статусів"
+
+#: ../janitor/plugincore/plugins/remove_lilo_plugin.py:43
+msgid "Remove lilo since grub is also installed.(See bug #314004 for details.)"
+msgstr ""
+"Видаліть LILO після того, як встановлено GRUB. (Дивіться помилку #314004 для "
+"більш детальної інформації)."
+
+#, python-format
+#~ msgid "Server for %s"
+#~ msgstr "Сервер для %s"
+
+#~ msgid "Main server"
+#~ msgstr "Основний сервер"
+
+#~ msgid "Custom servers"
+#~ msgstr "Сервери користувача"
+
+#~ msgid "Could not calculate sources.list entry"
+#~ msgstr "Неможливо підрахувати запис sources.list"
+
+#~ msgid ""
+#~ "Unable to locate any package files, perhaps this is not a Ubuntu Disc or "
+#~ "the wrong architecture?"
+#~ msgstr ""
+#~ "Не вдалося знайти жодного файлу пакунків; можливо, це не диск Ubuntu або "
+#~ "диск для іншої архітектури?"
+
+#~ msgid "Failed to add the CD"
+#~ msgstr "Не вдалося додати компакт-диск"
+
+#, python-format
+#~ msgid ""
+#~ "There was a error adding the CD, the upgrade will abort. Please report "
+#~ "this as a bug if this is a valid Ubuntu CD.\n"
+#~ "\n"
+#~ "The error message was:\n"
+#~ "'%s'"
+#~ msgstr ""
+#~ "Виникла помилка при додаванні компакт-диску, оновлення буде припинено. "
+#~ "Будь-ласка, повідомте про цю помилку, якщо це правильний компакт-диск "
+#~ "Ubuntu.\n"
+#~ "Повідомлення про помилку:\n"
+#~ "'%s'"
+
+#~ msgid "Remove package in bad state"
+#~ msgid_plural "Remove packages in bad state"
+#~ msgstr[0] "Вилучити пакунок, що знаходиться в поганому стані"
+#~ msgstr[1] "Вилучити пакунки, що знаходяться в поганому стані"
+#~ msgstr[2] "Вилучити пакунки, що знаходяться в поганому стані"
+
+#, python-format
+#~ msgid ""
+#~ "The package '%s' is in an inconsistent state and needs to be reinstalled, "
+#~ "but no archive can be found for it. Do you want to remove this package "
+#~ "now to continue?"
+#~ msgid_plural ""
+#~ "The packages '%s' are in an inconsistent state and need to be "
+#~ "reinstalled, but no archives can be found for them. Do you want to remove "
+#~ "these packages now to continue?"
+#~ msgstr[0] ""
+#~ "Пакунок '%s' знаходиться у несумісному стані і повинен бути "
+#~ "перевстановлений, але не знайдено жодного архіву для нього. Чи ви бажаєте "
+#~ "видалити цей пакунок зараз, щоб продовжити?"
+#~ msgstr[1] ""
+#~ "Пакунки'%s' знаходяться у несумісному стані і повинні бути "
+#~ "перевстановлені, але не знайдено жодного архіву для них. Чи ви бажаєте "
+#~ "видалити ці пакунки зараз, щоб продовжити?"
+#~ msgstr[2] ""
+#~ "Пакунки '%s' знаходяться у несумісному стані і повинні бути "
+#~ "перевстановлені, але не знайдено жодного архіву для них. Чи ви бажаєте "
+#~ "видалити ці пакунки зараз, щоб продовжити?"
+
+#~ msgid "The server may be overloaded"
+#~ msgstr "Схоже, що сервер перенавантажений"
+
+#~ msgid "Broken packages"
+#~ msgstr "Пошкоджені пакунки"
+
+#~ msgid ""
+#~ "Your system contains broken packages that couldn't be fixed with this "
+#~ "software. Please fix them first using synaptic or apt-get before "
+#~ "proceeding."
+#~ msgstr ""
+#~ "Ваша система містить пошкоджені пакунки, котрі не можуть бути виправлені "
+#~ "цією програмою. Будь-ласка, виправіть їх програмами synaptic або apt-get."
+
+#, python-format
+#~ msgid ""
+#~ "An unresolvable problem occurred while calculating the upgrade:\n"
+#~ "%s\n"
+#~ "\n"
+#~ " This can be caused by:\n"
+#~ " * Upgrading to a pre-release version of Ubuntu\n"
+#~ " * Running the current pre-release version of Ubuntu\n"
+#~ " * Unofficial software packages not provided by Ubuntu\n"
+#~ "\n"
+#~ msgstr ""
+#~ "Виникла невиправна помилка при розрахунку оновлення:\n"
+#~ "%s\n"
+#~ "\n"
+#~ " Причиною можуть бути:\n"
+#~ " * Оновлення Ubuntu до версії pre-release\n"
+#~ " * Використання поточної pre-release-версії Ubuntu\n"
+#~ " * Неофіційні пакунки програм, що не підтримуються Ubuntu\n"
+#~ "\n"
+
+#~ msgid "This is most likely a transient problem, please try again later."
+#~ msgstr "Перелік змін ще не готовий, спробуйте пізніше."
+
+#~ msgid ""
+#~ "If none of this applies, then please report this bug using the command "
+#~ "'ubuntu-bug update-manager' in a terminal."
+#~ msgstr ""
+#~ "Якщо нічого з цього не спрацює, тоді повідомте, будь-ласка, про цю "
+#~ "помилку, використовуючи в Терміналі команду 'ubuntu-bug update-manager'."
+
+#~ msgid "Error authenticating some packages"
+#~ msgstr "Помилка аутенфікації деяких пакетів"
+
+#~ msgid ""
+#~ "It was not possible to authenticate some packages. This may be a "
+#~ "transient network problem. You may want to try again later. See below for "
+#~ "a list of unauthenticated packages."
+#~ msgstr ""
+#~ "Не вдалося перевірити деякі пакети. Це може бути викликано проблемами в "
+#~ "мережі. Можливо, Ви захочете спробувати пізніше. Список не перевірених "
+#~ "пакетів надано нижче."
+
+#, python-format
+#~ msgid ""
+#~ "The package '%s' is marked for removal but it is in the removal blacklist."
+#~ msgstr ""
+#~ "Пакунок '%s' помічено для видалення, але він в чорному списку видалення."
+
+#, python-format
+#~ msgid "The essential package '%s' is marked for removal."
+#~ msgstr "Важливий пакунок '%s' помічено для видалення."
+
+#, python-format
+#~ msgid "Trying to install blacklisted version '%s'"
+#~ msgstr "Спроба встановити версію '%s' чорного списку"
+
+#, python-format
+#~ msgid "Can't install '%s'"
+#~ msgstr "Не можливо встановити '%s'"
+
+#~ msgid ""
+#~ "It was impossible to install a required package. Please report this as a "
+#~ "bug using 'ubuntu-bug update-manager' in a terminal."
+#~ msgstr ""
+#~ "Не вдалось встановити потрібний пакунок. Повідомте, будь-ласка, про цю "
+#~ "помилку, використовуючи в Терміналі команду 'ubuntu-bug update-manager'."
+
+#~ msgid "Can't guess meta-package"
+#~ msgstr "Не можливо підібрати meta-пакунок"
+
+#~ msgid ""
+#~ "Your system does not contain a ubuntu-desktop, kubuntu-desktop, xubuntu-"
+#~ "desktop or edubuntu-desktop package and it was not possible to detect "
+#~ "which version of Ubuntu you are running.\n"
+#~ " Please install one of the packages above first using synaptic or apt-get "
+#~ "before proceeding."
+#~ msgstr ""
+#~ "Ваша система не містить пакунків ubuntu-desktop, kubuntu-deskto, xubuntu-"
+#~ "desktop або edubuntu-desktop, через що не вдалося встановити, яку версію "
+#~ "Ubuntu ви використовуєте.\n"
+#~ " Будь ласка, спочатку встановіть один з цих пакунків, використовуючи "
+#~ "synaptic або apt-get."
+
+#~ msgid "Reading cache"
+#~ msgstr "Зчитування кешу"
+
+#~ msgid "Unable to get exclusive lock"
+#~ msgstr "Не вдалося отримати ексклюзивне блокування"
+
+#~ msgid ""
+#~ "This usually means that another package management application (like apt-"
+#~ "get or aptitude) already running. Please close that application first."
+#~ msgstr ""
+#~ "Це зазвичай значить, що запущено інший менеджер пакунків (наприклад, apt-"
+#~ "get або aptitude). Будь ласка, спочатку закрийте цю програму."
+
+#~ msgid "Upgrading over remote connection not supported"
+#~ msgstr "Віддалене оновлення системи більше не підтримується"
+
+#~ msgid ""
+#~ "You are running the upgrade over a remote ssh connection with a frontend "
+#~ "that does not support this. Please try a text mode upgrade with 'do-"
+#~ "release-upgrade'.\n"
+#~ "\n"
+#~ "The upgrade will abort now. Please try without ssh."
+#~ msgstr ""
+#~ "Ви намагаєтесь виконати оновлення через ssh-з'єднання з непідтримуваним "
+#~ "клієнтом. Оновіться у текстовому режимі через \"do-release-upgrade\".\n"
+#~ "\n"
+#~ "Оновлення зупинене. Спробуйте без ssh."
+
+#~ msgid "Continue running under SSH?"
+#~ msgstr "Продовжити роботу через SSH?"
+
+#, python-format
+#~ msgid ""
+#~ "This session appears to be running under ssh. It is not recommended to "
+#~ "perform a upgrade over ssh currently because in case of failure it is "
+#~ "harder to recover.\n"
+#~ "\n"
+#~ "If you continue, an additional ssh daemon will be started at port '%s'.\n"
+#~ "Do you want to continue?"
+#~ msgstr ""
+#~ "Ця сесія, скоріш за все, працює через ssh. Наполегливо рекомендуємо не "
+#~ "виконувати оновлення через ssh через те, що в разі невдачі буде важче "
+#~ "відновитись.\n"
+#~ "\n"
+#~ "Якщо Ви продовжите, буде запущено додаткову службу ssh на порті '%s'.\n"
+#~ "Чи бажаєте продовжити?"
+
+#~ msgid "Starting additional sshd"
+#~ msgstr "Запуск додаткового sshd"
+
+#, python-format
+#~ msgid ""
+#~ "To make recovery in case of failure easier, an additional sshd will be "
+#~ "started on port '%s'. If anything goes wrong with the running ssh you can "
+#~ "still connect to the additional one.\n"
+#~ msgstr ""
+#~ "Щоб зробити відновлення легшим у разі поломки, на порті '%s' буде "
+#~ "запущений додатковий sshd. Якщо щось піде не так із запуском ssh, Ви все "
+#~ "ще зможете під'єднатись до другого.\n"
+
+#, python-format
+#~ msgid ""
+#~ "If you run a firewall, you may need to temporarily open this port. As "
+#~ "this is potentially dangerous it's not done automatically. You can open "
+#~ "the port with e.g.:\n"
+#~ "'%s'"
+#~ msgstr ""
+#~ "Якщо брандмауер увімкнений, треба тимчасово відкрити цей порт. Це "
+#~ "потенційно небезпечно, тому потребує втручання користувача. Ви можете "
+#~ "відкрити порт наступним чином:\n"
+#~ "'%s'"
+
+#~ msgid "Can not upgrade"
+#~ msgstr "Оновлення неможливе"
+
+#, python-format
+#~ msgid "An upgrade from '%s' to '%s' is not supported with this tool."
+#~ msgstr "Оновлення з '%s' до '%s' цією програмою не підтримується."
+
+#~ msgid "Sandbox setup failed"
+#~ msgstr "Помилка встановлення в пісочниці"
+
+#~ msgid "It was not possible to create the sandbox environment."
+#~ msgstr "Не вдалося створити середовище для пісочниці"
+
+#~ msgid "Sandbox mode"
+#~ msgstr "Режим пісочниці"
+
+#, python-format
+#~ msgid ""
+#~ "This upgrade is running in sandbox (test) mode. All changes are written "
+#~ "to '%s' and will be lost on the next reboot.\n"
+#~ "\n"
+#~ "*No* changes written to a system directory from now until the next reboot "
+#~ "are permanent."
+#~ msgstr ""
+#~ "Це оновлення запускається у режимі пісочниці (випробовуваному). Всі зміни "
+#~ "записуються у '%s' і будуть втрачені при наступному перезапуску.\n"
+#~ "\n"
+#~ "*Ні* зміни записані до системної директорії з цього моменту до наступного "
+#~ "перезапуску будуть постійні."
+
+#~ msgid ""
+#~ "Your python install is corrupted. Please fix the '/usr/bin/python' "
+#~ "symlink."
+#~ msgstr ""
+#~ "Ваше встановлення пакету python пошкоджене. Виправте посилання '/usr/bin/"
+#~ "python'."
+
+#~ msgid "Package 'debsig-verify' is installed"
+#~ msgstr "Пакунок 'debsig-verify' встановлено"
+
+#~ msgid ""
+#~ "The upgrade can not continue with that package installed.\n"
+#~ "Please remove it with synaptic or 'apt-get remove debsig-verify' first "
+#~ "and run the upgrade again."
+#~ msgstr ""
+#~ "Оновлення не може бути продовжене, якщо цей пакунок встановлено.\n"
+#~ "Будь ласка, спочатку вилучіть його за домогою synaptic або командою 'apt-"
+#~ "get remove debsig-verify' та спробуйте запустити оновлення знову."
+
+#, python-format
+#~ msgid "Can not write to '%s'"
+#~ msgstr "Неможливо виконати запис в '%s'"
+
+#, python-format
+#~ msgid ""
+#~ "Its not possible to write to the system directory '%s' on your system. "
+#~ "The upgrade can not continue.\n"
+#~ "Please make sure that the system directory is writable."
+#~ msgstr ""
+#~ "Неможливо виконати запис в системний каталог '%s' у Вашій системі. "
+#~ "Оновлення не може бути продовженим.\n"
+#~ "Переконайтеся, що системний каталог доступний для запису."
+
+#~ msgid "Include latest updates from the Internet?"
+#~ msgstr "Додати останні оновлення з Інтернету?"
+
+#~ msgid ""
+#~ "The upgrade system can use the internet to automatically download the "
+#~ "latest updates and install them during the upgrade.  If you have a "
+#~ "network connection this is highly recommended.\n"
+#~ "\n"
+#~ "The upgrade will take longer, but when it is complete, your system will "
+#~ "be fully up to date.  You can choose not to do this, but you should "
+#~ "install the latest updates soon after upgrading.\n"
+#~ "If you answer 'no' here, the network is not used at all."
+#~ msgstr ""
+#~ "Система оновлення може використовувати Інтернет для автоматичного "
+#~ "завантаження останніх оновлень та встановлювати їх під час оновлення "
+#~ "системи. Якщо у вас є мережеве підключення — це наполегливо "
+#~ "рекомендується.\n"
+#~ "\n"
+#~ "Оновлення буде більш тривалим, проте коли завершиться, Ваша система буде "
+#~ "повністю оновлена. Ви можете відмовитись від цього, але ви маєте "
+#~ "встановити останні оновлення одразу після завершення процесу оновлення.\n"
+#~ "Якщо Ви тут відповісте 'ні', мережа не буде використовуватись взагалі."
+
+#, python-format
+#~ msgid "disabled on upgrade to %s"
+#~ msgstr "відключено під час оновлення до %s"
+
+#~ msgid "No valid mirror found"
+#~ msgstr "Не знайдено правильного дзеркала"
+
+#, python-format
+#~ msgid ""
+#~ "While scanning your repository information no mirror entry for the "
+#~ "upgrade was found. This can happen if you run a internal mirror or if the "
+#~ "mirror information is out of date.\n"
+#~ "\n"
+#~ "Do you want to rewrite your 'sources.list' file anyway? If you choose "
+#~ "'Yes' here it will update all '%s' to '%s' entries.\n"
+#~ "If you select 'No' the upgrade will cancel."
+#~ msgstr ""
+#~ "Під час сканування інформації у репозиторію не було знайдено запису про "
+#~ "дзеркало для оновлення. Це може трапитися, якщо ви використовуєте "
+#~ "внутрішнє дзеркало або інформація про дзеркала застаріла.\n"
+#~ "\n"
+#~ "Ви все ж таки бажаєте перезаписати 'sources.list'? Якщо ви оберете 'Так', "
+#~ "то це оновить усі '%s' з '%s' записи.\n"
+#~ "Якщо ви оберете 'Ні' оновлення не відбудеться."
+
+#~ msgid "Generate default sources?"
+#~ msgstr "Створити типові джерела?"
+
+#, python-format
+#~ msgid ""
+#~ "After scanning your 'sources.list' no valid entry for '%s' was found.\n"
+#~ "\n"
+#~ "Should default entries for '%s' be added? If you select 'No', the upgrade "
+#~ "will cancel."
+#~ msgstr ""
+#~ "Після сканування вашого 'sources.list' не було знайдено дійсного запису "
+#~ "для '%s'.\n"
+#~ "\n"
+#~ "Додати типовий запис для '%s'? Якщо ви оберете 'Ні', оновлення буде "
+#~ "скасовано."
+
+#~ msgid "Repository information invalid"
+#~ msgstr "Помилка в даних про сховище"
+
+#~ msgid ""
+#~ "Upgrading the repository information resulted in a invalid file so a bug "
+#~ "reporting process is being started."
+#~ msgstr ""
+#~ "Оновлення інформації про репозиторій закінчилося невдачею (недійсний "
+#~ "файл), тому запустився процес звітування про помилку."
+
+#~ msgid "Third party sources disabled"
+#~ msgstr "Сторонні джерела відключені"
+
+#~ msgid ""
+#~ "Some third party entries in your sources.list were disabled. You can re-"
+#~ "enable them after the upgrade with the 'software-properties' tool or your "
+#~ "package manager."
+#~ msgstr ""
+#~ "Деякі сторонні джерела у Вашому sources.list були відключені. Ви можете "
+#~ "знову включити їх після оновлення за допомогою програми 'software-"
+#~ "properties' чи менеджера пакунків."
+
+#~ msgid "Package in inconsistent state"
+#~ msgid_plural "Packages in inconsistent state"
+#~ msgstr[0] "Пакунок у незадовільному стані"
+#~ msgstr[1] "Пакунки у незадовільному стані"
+#~ msgstr[2] "Пакунків у незадовільному стані"
+
+#, python-format
+#~ msgid ""
+#~ "The package '%s' is in an inconsistent state and needs to be reinstalled, "
+#~ "but no archive can be found for it. Please reinstall the package manually "
+#~ "or remove it from the system."
+#~ msgid_plural ""
+#~ "The packages '%s' are in an inconsistent state and need to be "
+#~ "reinstalled, but no archive can be found for them. Please reinstall the "
+#~ "packages manually or remove them from the system."
+#~ msgstr[0] ""
+#~ "Пакунок '%s' знаходиться в несумісному стані і повинен бути "
+#~ "перевстановлений, але не знайдено жодного архіву для нього. Будь ласка, "
+#~ "перевстановіть пакунок вручну чи вилучіть його з системи."
+#~ msgstr[1] ""
+#~ "Пакунки '%s' знаходяться в несумісному стані, було б добре їх "
+#~ "перевстановити, та не вдається знайти для них ніяких архівів. Будь ласка, "
+#~ "перевстановіть пакунки вручну чи вилучіть їх із системи."
+#~ msgstr[2] ""
+#~ "Пакунки '%s' знаходяться в несумісному стані і повинні бути "
+#~ "перевстановлені, але не знайдено жодного архіву для них. Будь ласка, "
+#~ "перевстановіть пакунки вручну чи вилучіть їх з системи."
+
+#~ msgid "Error during update"
+#~ msgstr "Помилка під час оновлення"
+
+#, python-format
+#~ msgid ""
+#~ "The upgrade has aborted. The upgrade needs a total of %s free space on "
+#~ "disk '%s'. Please free at least an additional %s of disk space on '%s'. "
+#~ "Empty your trash and remove temporary packages of former installations "
+#~ "using 'sudo apt-get clean'."
+#~ msgstr ""
+#~ "Оновлення було перервано. Для оновлення необхідно %s вільного місця на "
+#~ "диску '%s'. Будь ласка, звільніть додатково хоча б %s дискового простору "
+#~ "на '%s'. Очистіть кошик та вилучіть тимчасові пакунки з попередніх "
+#~ "установок, використовуючи 'sudo apt-get clean'."
+
+#~ msgid "Calculating the changes"
+#~ msgstr "Проводиться аналіз змін"
+
+#~ msgid "Do you want to start the upgrade?"
+#~ msgstr "Бажаєте почати оновлення системи?"
+
+#~ msgid "Upgrade canceled"
+#~ msgstr "Оновлення скасовано"
+
+#~ msgid ""
+#~ "The upgrade will cancel now and the original system state will be "
+#~ "restored. You can resume the upgrade at a later time."
+#~ msgstr ""
+#~ "Оновлення буде скасовано та систему буде відновлено до попереднього "
+#~ "стану. Ви зможете продовжити оновлення пізніше."
+
+#~ msgid "Could not download the upgrades"
+#~ msgstr "Неможливо завантажити пакунки для оновлення системи"
+
+#~ msgid ""
+#~ "The upgrade has aborted. Please check your Internet connection or "
+#~ "installation media and try again. All files downloaded so far have been "
+#~ "kept."
+#~ msgstr ""
+#~ "Оновлення було перервано. Будь ласка, перевірте ваше інтернет-з'єднання "
+#~ "чи носій, з якого здійснюється встановлення, та спробуйте знову. Всі "
+#~ "завантажені файли будуть збережені."
+
+#~ msgid "Error during commit"
+#~ msgstr "Помилка при фіксації"
+
+#~ msgid "Restoring original system state"
+#~ msgstr "Відновлення первісного стану системи"
+
+#~ msgid "Could not install the upgrades"
+#~ msgstr "Неможливо провести оновлення системи"
+
+#~ msgid ""
+#~ "The upgrade has aborted. Your system could be in an unusable state. A "
+#~ "recovery will run now (dpkg --configure -a)."
+#~ msgstr ""
+#~ "Оновлення було перервано. Ваша система може бути в нестабільному стані. "
+#~ "Зараз буде запущено процес відновлення (dpkg --configure -a)."
+
+#, python-format
+#~ msgid ""
+#~ "\n"
+#~ "\n"
+#~ "Please report this bug in a browser at http://bugs.launchpad.net/ubuntu/"
+#~ "+source/update-manager/+filebug and attach the files in /var/log/dist-"
+#~ "upgrade/ to the bug report.\n"
+#~ "%s"
+#~ msgstr ""
+#~ "\n"
+#~ "\n"
+#~ "Будь ласка, повідомте про цю помилку в браузері на http://bugs.launchpad."
+#~ "net/ubuntu/+source/update-manager/+filebug і прикріпіть файли в /var/log/"
+#~ "dist-upgrade/ до звіту.\n"
+#~ "%s"
+
+#~ msgid ""
+#~ "The upgrade has aborted. Please check your Internet connection or "
+#~ "installation media and try again. "
+#~ msgstr ""
+#~ "Оновлення було перервано. Будь ласка, перевірте Ваше з'єднання з "
+#~ "Інтернетом чи носій для встановлення та спробуйте знову. "
+
+#~ msgid "Remove obsolete packages?"
+#~ msgstr "Видалити застарілі пакунки?"
+
+#~ msgid "_Keep"
+#~ msgstr "_Залишити"
+
+#~ msgid "_Remove"
+#~ msgstr "Видалити"
+
+#~ msgid ""
+#~ "A problem occurred during the clean-up. Please see the below message for "
+#~ "more information. "
+#~ msgstr ""
+#~ "При очищенні системи виникли проблеми. Прочитайте детальнішу інформацію "
+#~ "нижче. "
+
+#~ msgid "Required depends is not installed"
+#~ msgstr "Необхідний пакет (залежність) не встановлений"
+
+#, python-format
+#~ msgid "The required dependency '%s' is not installed. "
+#~ msgstr "Необхідний пакет (залежність) '%s' не встановлений. "
+
+#~ msgid "Checking package manager"
+#~ msgstr "Перевірка програми управління пакунками"
+
+#~ msgid "Preparing the upgrade failed"
+#~ msgstr "Підготовка до оновлення не вдалася"
+
+#~ msgid ""
+#~ "Preparing the system for the upgrade failed so a bug reporting process is "
+#~ "being started."
+#~ msgstr ""
+#~ "Підготовка системи до оновлення закінчилася невдало. Почато процес "
+#~ "звітування про помилку."
+
+#~ msgid "Getting upgrade prerequisites failed"
+#~ msgstr "Помилка отримання необхідних файлів для оновлення"
+
+#~ msgid ""
+#~ "The system was unable to get the prerequisites for the upgrade. The "
+#~ "upgrade will abort now and restore the original system state.\n"
+#~ "\n"
+#~ "Additionally, a bug reporting process is being started."
+#~ msgstr ""
+#~ "Системі не вдалося отримати попередні конфігурації для повного оновлення. "
+#~ "Зараз процес оновлення буде перервано і буде відновлено початковий стан "
+#~ "системи.\n"
+#~ "\n"
+#~ "Також почато процес звітування про помилку."
+
+#~ msgid "Updating repository information"
+#~ msgstr "Оновлення інформації про сховище"
+
+#~ msgid "Failed to add the cdrom"
+#~ msgstr "Помилка при підключенні CD-ROM"
+
+#~ msgid "Sorry, adding the cdrom was not successful."
+#~ msgstr "На жаль, не вдалося підключити CD-ROM"
+
+#~ msgid "Invalid package information"
+#~ msgstr "Невірна інформація про пакунок"
+
+#~ msgid "Fetching"
+#~ msgstr "Отримання"
+
+#~ msgid "Upgrading"
+#~ msgstr "Процес оновлення"
+
+#~ msgid ""
+#~ "The upgrade has completed but there were errors during the upgrade "
+#~ "process."
+#~ msgstr "Оновлення було завершено, але в його процесі виникли деякі помилки."
+
+#~ msgid "Searching for obsolete software"
+#~ msgstr "Пошук застарілих програм"
+
+#~ msgid "System upgrade is complete."
+#~ msgstr "Оновлення системи завершено."
+
+#~ msgid "The partial upgrade was completed."
+#~ msgstr "Часткове оновлення завершене."
+
+#~ msgid "evms in use"
+#~ msgstr "використовується evms"
+
+#~ msgid ""
+#~ "Your system uses the 'evms' volume manager in /proc/mounts. The 'evms' "
+#~ "software is no longer supported, please switch it off and run the upgrade "
+#~ "again when this is done."
+#~ msgstr ""
+#~ "Ваша система використовує менеджер томів 'evms' в /proc/mounts. Програма "
+#~ "'evms' більше не підтримується, будь ласка, вимкніть її та запустіть "
+#~ "оновлення знову."
+
+#~ msgid ""
+#~ "Your graphics hardware may not be fully supported in Ubuntu 12.04 LTS."
+#~ msgstr "Ваш графічний пристрій підтримується Ubuntu 12.04 LTS не повністю."
+
+#~ msgid ""
+#~ "The support in Ubuntu 12.04 LTS for your Intel graphics hardware is "
+#~ "limited and you may encounter problems after the upgrade. For more "
+#~ "information see https://wiki.ubuntu.com/X/Bugs/"
+#~ "UpdateManagerWarningForI8xx Do you want to continue with the upgrade?"
+#~ msgstr ""
+#~ "Підтримку Вашого графічного адаптера Intel в Ubuntu 12.04 LTS обмежено, і "
+#~ "Ви можете стикнутися з проблемами після оновлення. Для отримання "
+#~ "детальної інформації відвідайте https://wiki.ubuntu.com/X/Bugs/"
+#~ "UpdateManagerWarningForI8xx Ви дійсно бажаєте продовжити оновлення?"
+
+#~ msgid ""
+#~ "Upgrading may reduce desktop effects, and performance in games and other "
+#~ "graphically intensive programs."
+#~ msgstr ""
+#~ "Оновлення може уповільнити ефекти робочого столу, продуктивність роботи в "
+#~ "іграх та інших графічно складних програмах."
+
+#~ msgid ""
+#~ "This computer is currently using the NVIDIA 'nvidia' graphics driver. No "
+#~ "version of this driver is available that works with your video card in "
+#~ "Ubuntu 10.04 LTS.\n"
+#~ "\n"
+#~ "Do you want to continue?"
+#~ msgstr ""
+#~ "Цей комп'ютер зараз використовує графічний драйвер NVIDIA 'nvidia'. Нема "
+#~ "доступних версій драйверів, які б працювали з вашим обладнанням на Ubuntu "
+#~ "10.04 LTS.\n"
+#~ "\n"
+#~ "Чи хочете ви продовжувати?"
+
+#~ msgid ""
+#~ "This computer is currently using the AMD 'fglrx' graphics driver. No "
+#~ "version of this driver is available that works with your hardware in "
+#~ "Ubuntu 10.04 LTS.\n"
+#~ "\n"
+#~ "Do you want to continue?"
+#~ msgstr ""
+#~ "Цей комп'ютер зараз використовує графічний драйвер AMD 'fglrx'. Нема "
+#~ "доступних версій драйверів, які б працювали з вашим обладнанням на Ubuntu "
+#~ "10.04 LTS.\n"
+#~ "\n"
+#~ "Чи хочете ви продовжувати?"
+
+#~ msgid "No i686 CPU"
+#~ msgstr "Немає процесора i686"
+
+#~ msgid ""
+#~ "Your system uses an i586 CPU or a CPU that does not have the 'cmov' "
+#~ "extension. All packages were built with optimizations requiring i686 as "
+#~ "the minimal architecture. It is not possible to upgrade your system to a "
+#~ "new Ubuntu release with this hardware."
+#~ msgstr ""
+#~ "У вашому комп’ютері стоїть процесор i586 або інший, що не має розширення "
+#~ "'cmov'. Усі ж пакети було зібрано з оптимізацією, що вимагає мінімум i686-"
+#~ "архітектуру. Неможливо оновити систему до нової версії Ubuntu на цьому "
+#~ "комп’ютері."
+
+#~ msgid "No ARMv6 CPU"
+#~ msgstr "Немає ARMv6 CPU"
+
+#~ msgid ""
+#~ "Your system uses an ARM CPU that is older than the ARMv6 architecture. "
+#~ "All packages in karmic were built with optimizations requiring ARMv6 as "
+#~ "the minimal architecture. It is not possible to upgrade your system to a "
+#~ "new Ubuntu release with this hardware."
+#~ msgstr ""
+#~ "Ваша система використовує процесор ARM з архітектурою, старішою за ARMv6. "
+#~ "Всі пакети у karmic були скомпільовані з оптимізаціями, які вимагають "
+#~ "ARMv6 як мінімум. Оновлення вашої системи до нового випуску Ubuntu "
+#~ "неможливе на даному обладнанні."
+
+#~ msgid "No init available"
+#~ msgstr "Служба init недоступна"
+
+#~ msgid ""
+#~ "Your system appears to be a virtualised environment without an init "
+#~ "daemon, e.g. Linux-VServer. Ubuntu 10.04 LTS cannot function within this "
+#~ "type of environment, requiring an update to your virtual machine "
+#~ "configuration first.\n"
+#~ "\n"
+#~ "Are you sure you want to continue?"
+#~ msgstr ""
+#~ "Схоже, що ваша система є віртуалізованим оточенням без служби init, "
+#~ "наприклад Linux-VServer. Ubuntu 10.04 LTS не може працювати в такому типі "
+#~ "оточення, ви повинні спочатку виправити конфігурацію своєї віртуальної "
+#~ "машини.\n"
+#~ "\n"
+#~ "Ви впевнені, що хочете продовжити?"
+
+#~ msgid "Sandbox upgrade using aufs"
+#~ msgstr "Оновлення Sandbox з використанням aufs"
+
+#~ msgid "Use the given path to search for a cdrom with upgradable packages"
+#~ msgstr ""
+#~ "Вживати наступний шлях для пошуку компакт-диска з пакунками оновлення"
+
+#~ msgid ""
+#~ "Use frontend. Currently available: \n"
+#~ "DistUpgradeViewText, DistUpgradeViewGtk, DistUpgradeViewKDE"
+#~ msgstr ""
+#~ "Використовувати інтерфейс. В наявності: \n"
+#~ "DistUpgradeViewText, DistUpgradeViewGtk, DistUpgradeViewKDE"
+
+#~ msgid "*DEPRECATED* this option will be ignored"
+#~ msgstr "*ЗАСТАРІЛЕ* Цю опцію буде проігноровано"
+
+#~ msgid "Perform a partial upgrade only (no sources.list rewriting)"
+#~ msgstr "Виконати лише часткове оновлення (без перезапису sources.list)"
+
+#~ msgid "Disable GNU screen support"
+#~ msgstr "Вимкнути підтримку GNU screen"
+
+#~ msgid "Set datadir"
+#~ msgstr "Вказати каталог з даними"
+
+#, python-format
+#~ msgid "Please insert '%s' into the drive '%s'"
+#~ msgstr "Вставте '%s' в привід '%s'"
+
+#~ msgid "Fetching is complete"
+#~ msgstr "Отримання завершено"
+
+#, python-format
+#~ msgid "Fetching file %li of %li at %sB/s"
+#~ msgstr "Отримання файлу %li з %li на швидкості %sB/s"
+
+#, python-format
+#~ msgid "About %s remaining"
+#~ msgstr "Приблизно '%s' залишилось"
+
+#, python-format
+#~ msgid "Fetching file %li of %li"
+#~ msgstr "Отримання файлу %li з %li"
+
+#~ msgid "Applying changes"
+#~ msgstr "Застосування змін"
+
+#~ msgid "dependency problems - leaving unconfigured"
+#~ msgstr "проблеми з залежностями - залишається неналаштованим"
+
+#, python-format
+#~ msgid "Could not install '%s'"
+#~ msgstr "Не вдалося встановити '%s'"
+
+#, python-format
+#~ msgid ""
+#~ "The upgrade will continue but the '%s' package may not be in a working "
+#~ "state. Please consider submitting a bug report about it."
+#~ msgstr ""
+#~ "Обновлення продовжиться, але пакет '%s' може бути в неробочому стані. "
+#~ "Будь ласка, надішліть звіт про помилку."
+
+#, python-format
+#~ msgid ""
+#~ "Replace the customized configuration file\n"
+#~ "'%s'?"
+#~ msgstr ""
+#~ "Замінити змінений користувачем конфігураційний файл\n"
+#~ "'%s'?"
+
+#~ msgid ""
+#~ "You will lose any changes you have made to this configuration file if you "
+#~ "choose to replace it with a newer version."
+#~ msgstr ""
+#~ "Ви втратите всі зроблені Вами у цьому конфігураційному файлі зміни якщо "
+#~ "заміните його новою версією."
+
+#~ msgid "The 'diff' command was not found"
+#~ msgstr "Команда 'diff' не знайдена"
+
+#~ msgid "A fatal error occurred"
+#~ msgstr "Виникла невиправна помилка"
+
+#~ msgid ""
+#~ "Please report this as a bug (if you haven't already) and include the "
+#~ "files /var/log/dist-upgrade/main.log and /var/log/dist-upgrade/apt.log in "
+#~ "your report. The upgrade has aborted.\n"
+#~ "Your original sources.list was saved in /etc/apt/sources.list.distUpgrade."
+#~ msgstr ""
+#~ "Будь ласка, повідомте про цю помилку (якщо ви ще це не зробили) та "
+#~ "додайте фали /var/log/dist-upgrade/main.log та /var/log/dist-upgrade/apt."
+#~ "log до вашого звіту. Оновлення було перервано.\n"
+#~ "Ваш оригінальний sources.list було збережено в /etc/apt/sources.list."
+#~ "distUpgrade."
+
+#~ msgid "Ctrl-c pressed"
+#~ msgstr "Натиснено Ctrl-c"
+
+#~ msgid ""
+#~ "This will abort the operation and may leave the system in a broken state. "
+#~ "Are you sure you want to do that?"
+#~ msgstr ""
+#~ "Операція буде скасована, що може залишити систему в несправному стані. Ви "
+#~ "все ще хочете це зробити?"
+
+#~ msgid "To prevent data loss close all open applications and documents."
+#~ msgstr ""
+#~ "Для запобігання втрати інформації закрийте усі програми та документи."
+
+#, python-format
+#~ msgid "No longer supported by Canonical (%s)"
+#~ msgstr "Більше не підтримується Canonical (%s)"
+
+#, python-format
+#~ msgid "<b>Downgrade (%s)</b>"
+#~ msgstr "<b>Встановлення старої версії (%s)</b>"
+
+#, python-format
+#~ msgid "Remove (%s)"
+#~ msgstr "Видалити (%s)"
+
+#, python-format
+#~ msgid "No longer needed (%s)"
+#~ msgstr "Більш не потрібен (%s)"
+
+#, python-format
+#~ msgid "Install (%s)"
+#~ msgstr "Встановлення (%s)"
+
+#, python-format
+#~ msgid "Upgrade (%s)"
+#~ msgstr "Оновлення (%s)"
+
+#~ msgid "Media Change"
+#~ msgstr "Зміна носія"
+
+#~ msgid "Show Difference >>>"
+#~ msgstr "Показати відмінності >>>"
+
+#~ msgid "<<< Hide Difference"
+#~ msgstr "<<< Сховати відмінності"
+
+#~ msgid "Error"
+#~ msgstr "Помилка"
+
+#~ msgid "&Cancel"
+#~ msgstr "&Скасувати"
+
+#~ msgid "&Close"
+#~ msgstr "&Закрити"
+
+#~ msgid "Show Terminal >>>"
+#~ msgstr "Показати Термінал >>>"
+
+#~ msgid "<<< Hide Terminal"
+#~ msgstr "<<< Сховати Термінал"
+
+#~ msgid "Information"
+#~ msgstr "Інформація"
+
+#~ msgid "Details"
+#~ msgstr "Деталі"
+
+#, python-format
+#~ msgid "No longer supported %s"
+#~ msgstr "Більш не підтримується %s"
+
+#, python-format
+#~ msgid "Remove (was auto installed) %s"
+#~ msgstr "Видалити (був автоматично інстальований) %s"
+
+#, python-format
+#~ msgid "Upgrade %s"
+#~ msgstr "Оновити %s"
+
+#~ msgid "<b><big>Restart the system to complete the upgrade</big></b>"
+#~ msgstr "<b><big>Перезавантажте систему для завершення оновлення</big></b>"
+
+#~ msgid ""
+#~ "<b><big>Cancel the running upgrade?</big></b>\n"
+#~ "\n"
+#~ "The system could be in an unusable state if you cancel the upgrade. You "
+#~ "are strongly advised to resume the upgrade."
+#~ msgstr ""
+#~ "<b><big>Скасувати запущене оновлення?</big></b>\n"
+#~ "\n"
+#~ "Система може потрапити у непридатний стан, якщо скасувати оновлення. Вам "
+#~ "наполегливо рекомендується продовжити оновлення."
+
+#~ msgid "Cancel Upgrade?"
+#~ msgstr "Скасувати оновлення?"
+
+#, python-format
+#~ msgid "%li day"
+#~ msgid_plural "%li days"
+#~ msgstr[0] "%li день"
+#~ msgstr[1] "%li дні"
+#~ msgstr[2] "%li днів"
+
+#, python-format
+#~ msgid "%li hour"
+#~ msgid_plural "%li hours"
+#~ msgstr[0] "%li година"
+#~ msgstr[1] "%li години"
+#~ msgstr[2] "%li годин"
+
+#, python-format
+#~ msgid "%li minute"
+#~ msgid_plural "%li minutes"
+#~ msgstr[0] "%li хвилина"
+#~ msgstr[1] "%li хвилини"
+#~ msgstr[2] "%li хвилин"
+
+#, python-format
+#~ msgid "%li second"
+#~ msgid_plural "%li seconds"
+#~ msgstr[0] "%li секунда"
+#~ msgstr[1] "%li секунди"
+#~ msgstr[2] "%li секунд"
+
+#, python-format
+#~ msgid "%(str_days)s %(str_hours)s"
+#~ msgstr "%(str_days)s %(str_hours)s"
+
+#, python-format
+#~ msgid "%(str_hours)s %(str_minutes)s"
+#~ msgstr "%(str_hours)s %(str_minutes)s"
+
+#, python-format
+#~ msgid ""
+#~ "This download will take about %s with a 1Mbit DSL connection and about %s "
+#~ "with a 56k modem."
+#~ msgstr ""
+#~ "Це завантаження триватиме близько %s з 1Mбіт DSL-з'єднанням та біля %s з "
+#~ "56k модемом."
+
+#, python-format
+#~ msgid "This download will take about %s with your connection. "
+#~ msgstr "Це завантаження триватиме приблизно %s. "
+
+#~ msgid "Preparing to upgrade"
+#~ msgstr "Підготовка до оновлення"
+
+#~ msgid "Getting new software channels"
+#~ msgstr "Отримання нових каналів програм"
+
+#~ msgid "Getting new packages"
+#~ msgstr "Отримання нових пакунків"
+
+#~ msgid "Installing the upgrades"
+#~ msgstr "Встановлення оновлень"
+
+#~ msgid "Cleaning up"
+#~ msgstr "Очищення"
+
+#, python-format
+#~ msgid ""
+#~ "%(amount)d installed package is no longer supported by Canonical. You can "
+#~ "still get support from the community."
+#~ msgid_plural ""
+#~ "%(amount)d installed packages are no longer supported by Canonical. You "
+#~ "can still get support from the community."
+#~ msgstr[0] ""
+#~ "%(amount)d установлений пакет більш не підтримується Canonical. Ви можете "
+#~ "отримати підтримку у спільноти."
+#~ msgstr[1] ""
+#~ "%(amount)d установлених пакетів більш не підтримуються Canonical. Ви "
+#~ "можете отримати підтримку у спільноти."
+#~ msgstr[2] ""
+#~ "%(amount)d установлених пакетів більш не підтримуються Canonical. Ви "
+#~ "можете отримати підтримку у спільноти."
+
+#, python-format
+#~ msgid "%d new package is going to be installed."
+#~ msgid_plural "%d new packages are going to be installed."
+#~ msgstr[0] "Буде встановлено %d новий пакет."
+#~ msgstr[1] "Буде встановлено %d нових пекети."
+#~ msgstr[2] "Буде встановлено %d нових пекетів."
+
+#, python-format
+#~ msgid "%d package is going to be upgraded."
+#~ msgid_plural "%d packages are going to be upgraded."
+#~ msgstr[0] "Буде оновлено %d пакунок."
+#~ msgstr[1] "Буде оновлено %d пакунки."
+#~ msgstr[2] "Буде оновлено %d пакунків."
+
+#, python-format
+#~ msgid ""
+#~ "\n"
+#~ "\n"
+#~ "You have to download a total of %s. "
+#~ msgstr ""
+#~ "\n"
+#~ "\n"
+#~ "Вам треба завантажити всього %s. "
+
+#~ msgid ""
+#~ "Installing the upgrade can take several hours. Once the download has "
+#~ "finished, the process cannot be canceled."
+#~ msgstr ""
+#~ "Встановлення оновлень може зайняти декілька годин. Після завершення "
+#~ "завантаження процес неможливо скасувати."
+
+#~ msgid ""
+#~ "Fetching and installing the upgrade can take several hours. Once the "
+#~ "download has finished, the process cannot be canceled."
+#~ msgstr ""
+#~ "Отримання та встановлення оновлень може зайняти декілька годин. Після "
+#~ "завершення завантаження процес неможливо скасувати."
+
+#~ msgid "Removing the packages can take several hours. "
+#~ msgstr "Видалення пакунків може зайняти декілька годин. "
+
+#~ msgid ""
+#~ "There are no upgrades available for your system. The upgrade will now be "
+#~ "canceled."
+#~ msgstr "Немає оновлень для Вашої системи. Оновлення буде скасовано."
+
+#~ msgid "Reboot required"
+#~ msgstr "Необхідно перезавантажити систему"
+
+#~ msgid ""
+#~ "The upgrade is finished and a reboot is required. Do you want to do this "
+#~ "now?"
+#~ msgstr ""
+#~ "Виконання оновлення завершено. Необхідно перезавантажити систему. "
+#~ "Перезавантажити зара?"
+
+#, python-format
+#~ msgid "authenticate '%(file)s' against '%(signature)s' "
+#~ msgstr "автентифікувати '%(file)s' замість '%(signature)s' "
+
+#, python-format
+#~ msgid "extracting '%s'"
+#~ msgstr "видобування '%s'"
+
+#~ msgid "Could not run the upgrade tool"
+#~ msgstr "Неможливо провести апргрейд системи"
+
+#~ msgid ""
+#~ "This is most likely a bug in the upgrade tool. Please report it as a bug "
+#~ "using the command 'ubuntu-bug update-manager'."
+#~ msgstr ""
+#~ "Швидше за все, це помилка в засобі оновлення. Повідомте, будь-ласка, про "
+#~ "цю помилку, використовуючи команду 'ubuntu-bug update-manager'."
+
+#~ msgid "Upgrade tool signature"
+#~ msgstr "Підпис інструменту оновлення"
+
+#~ msgid "Upgrade tool"
+#~ msgstr "Інструмент оновлення"
+
+#~ msgid "Failed to fetch"
+#~ msgstr "Не вдалося отримати"
+
+#~ msgid "Fetching the upgrade failed. There may be a network problem. "
+#~ msgstr ""
+#~ "Не вдалося отримати оновлення. Це може бути викликано проблемою у мережі. "
+
+#~ msgid "Authentication failed"
+#~ msgstr "Помилка аутентифікації"
+
+#~ msgid ""
+#~ "Authenticating the upgrade failed. There may be a problem with the "
+#~ "network or with the server. "
+#~ msgstr ""
+#~ "Автентифікація оновлення зазнала краху. Це може бути викликано проблемою "
+#~ "з мережею або сервером. "
+
+#~ msgid "Failed to extract"
+#~ msgstr "Не вдалося розпакувати"
+
+#~ msgid ""
+#~ "Extracting the upgrade failed. There may be a problem with the network or "
+#~ "with the server. "
+#~ msgstr ""
+#~ "Не вдалося розпакувати оновлення. Можливо, виникла проблема в мережі або "
+#~ "на сервері. "
+
+#~ msgid "Verification failed"
+#~ msgstr "Перевірка не вдала"
+
+#~ msgid ""
+#~ "Verifying the upgrade failed.  There may be a problem with the network or "
+#~ "with the server. "
+#~ msgstr ""
+#~ "Не вдалося перевірити наявність оновлень. Можливо, виникла проблема в "
+#~ "мережі або на сервері. "
+
+#~ msgid "Can not run the upgrade"
+#~ msgstr "Не вдається почати оновлення"
+
+#~ msgid ""
+#~ "This usually is caused by a system where /tmp is mounted noexec. Please "
+#~ "remount without noexec and run the upgrade again."
+#~ msgstr ""
+#~ "Це, зазвичай, виникає в системах з /tmp змонтованому з noexec. "
+#~ "Перемонтуйте, будь-ласка, без noexec та виконайте оновлення знов."
+
+#, python-format
+#~ msgid "The error message is '%s'."
+#~ msgstr "Повідомлення про помилку: '%s'."
+
+#~ msgid ""
+#~ "Please report this as a bug and include the files /var/log/dist-upgrade/"
+#~ "main.log and /var/log/dist-upgrade/apt.log in your report. The upgrade "
+#~ "has aborted.\n"
+#~ "Your original sources.list was saved in /etc/apt/sources.list.distUpgrade."
+#~ msgstr ""
+#~ "Будь ласка, повідомте про цю помилку та додайте файли  /var/log/dist-"
+#~ "upgrade/main.log та /var/log/dist-upgrade/apt.log до вашого звіту. "
+#~ "Оновлення було перервано.\n"
+#~ "Ваш оригінальний sources.list було збережено в /etc/apt/sources.list."
+#~ "distUpgrade."
+
+#~ msgid "Aborting"
+#~ msgstr "Перервано"
+
+#~ msgid "Demoted:\n"
+#~ msgstr "Понижено версію:\n"
+
+#~ msgid "To continue please press [ENTER]"
+#~ msgstr "Щоб продовжити натисніть [ENTER]"
+
+#~ msgid "Continue [yN] "
+#~ msgstr "Продовжити [yN] "
+
+#~ msgid "Details [d]"
+#~ msgstr "Подробиці [d]"
+
+#~ msgid "y"
+#~ msgstr "y"
+
+#~ msgid "n"
+#~ msgstr "n"
+
+#~ msgid "d"
+#~ msgstr "d"
+
+#, python-format
+#~ msgid "No longer supported: %s\n"
+#~ msgstr "Більше не підтримується: %s\n"
+
+#, python-format
+#~ msgid "Remove: %s\n"
+#~ msgstr "Видалити: %s\n"
+
+#, python-format
+#~ msgid "Install: %s\n"
+#~ msgstr "Встановити %s\n"
+
+#, python-format
+#~ msgid "Upgrade: %s\n"
+#~ msgstr "Оновити %s\n"
+
+#~ msgid "Continue [Yn] "
+#~ msgstr "Продовжити [Yn] "
+
+#~ msgid ""
+#~ "To finish the upgrade, a restart is required.\n"
+#~ "If you select 'y' the system will be restarted."
+#~ msgstr ""
+#~ "Потрібне перезавантаження для завершення оновлення.\n"
+#~ "Оберіть 'y' для перезавантаження."
+
+#~ msgid "_Cancel Upgrade"
+#~ msgstr "_Скасувати оновлення"
+
+#~ msgid "_Resume Upgrade"
+#~ msgstr "Продовжити оновлення"
+
+#~ msgid ""
+#~ "<b><big>Cancel the running upgrade?</big></b>\n"
+#~ "\n"
+#~ "The system could be in an unusable state if you cancel the upgrade. You "
+#~ "are strongly adviced to resume the upgrade."
+#~ msgstr ""
+#~ "<b><big>Відмінити оновлення системи?</big></b>\n"
+#~ "\n"
+#~ "Зауважте, що якщо Ви скасуєте оновлення, це може призвести до "
+#~ "нестабільного стану системи. Дуже рекомендується продовжити оновлення."
+
+#~ msgid "_Start Upgrade"
+#~ msgstr "_Почати оновлення"
+
+#~ msgid "_Replace"
+#~ msgstr "_Замінити"
+
+#~ msgid "Difference between the files"
+#~ msgstr "Різниця між файлами"
+
+#~ msgid "_Report Bug"
+#~ msgstr "Повідомити про помилку"
+
+#~ msgid "<b><big>Start the upgrade?</big></b>"
+#~ msgstr "<b><big>Почати оновлення?</big></b>"
+
+#~ msgid ""
+#~ "<b><big>Restart the system to complete the upgrade</big></b>\n"
+#~ "\n"
+#~ "Please save your work before continuing."
+#~ msgstr ""
+#~ "<b><big>Перезавантажте Вашу систему для завершення оновлення</big></b>\n"
+#~ "\n"
+#~ "Будь ласка, збережіть Вашу дані перед продовженням."
+
+#~ msgid "Distribution Upgrade"
+#~ msgstr "Оновлення дистрибутивів"
+
+#, fuzzy
+#~ msgid "<b><big>Upgrading Ubuntu to version 12.10</big></b>"
+#~ msgstr "<b><big>Оновлення Ubuntu до версії 11.10</big></b>"
+
+#~ msgid "    "
+#~ msgstr "    "
+
+#~ msgid "Setting new software channels"
+#~ msgstr "Встановлення нових каналів програм"
+
+#~ msgid "Restarting the computer"
+#~ msgstr "Перезавантаження системи"
+
+#~ msgid "Terminal"
+#~ msgstr "Термінал"
+
+#~ msgid "Could not find the release notes"
+#~ msgstr "Не вдалося знайти примітки випуску."
+
+#~ msgid "The server may be overloaded. "
+#~ msgstr "Сервер може бути перенавантажений. "
+
+#~ msgid "Could not download the release notes"
+#~ msgstr "Не вдалося завантажити примітки випуску."
+
+#~ msgid "Please check your internet connection."
+#~ msgstr "Будь ласка, перевірте ваше з'єднання з Інтернетом."
+
+#~ msgid "Release Notes"
+#~ msgstr "Відомості про релізе"
+
+#~ msgid "Downloading additional package files..."
+#~ msgstr "Завантаження додаткових файлів пакунків..."
+
+#, python-format
+#~ msgid "File %s of %s at %sB/s"
+#~ msgstr "Файл %s з %s при %sБ/с"
+
+#, python-format
+#~ msgid "File %s of %s"
+#~ msgstr "Файл %s з %s"
+
+#, python-format
+#~ msgid "Downloading file %(current)li of %(total)li with %(speed)s/s"
+#~ msgstr ""
+#~ "Завантаження файлу %(current)li з %(total)li із швидкістю %(speed)s/с"
+
+#, python-format
+#~ msgid "Downloading file %(current)li of %(total)li"
+#~ msgstr "Завантаження файлу %(current)li з %(total)li"
+
+#~ msgid "Your Ubuntu release is not supported anymore."
+#~ msgstr "Ваша версія Ubuntu вже не підтримується."
+
+#~ msgid ""
+#~ "You will not get any further security fixes or critical updates. Please "
+#~ "upgrade to a later version of Ubuntu."
+#~ msgstr ""
+#~ "Ви надалі не отримуватимете жодних виправлень безпеки та критичних "
+#~ "оновлень. Будь ласка, оновіть систему до пізнішої версії Ubuntu."
+
+#~ msgid "Upgrade information"
+#~ msgstr "Інформація про оновлення"
+
+#~ msgid "Name"
+#~ msgstr "Назва"
+
+#~ msgid ""
+#~ "It is unknown when the package information was updated last. Please click "
+#~ "the 'Check' button to update the information."
+#~ msgstr ""
+#~ "Неможливо з’ясувати коли було востаннє оновлено інформацію про пакунки. "
+#~ "Натисніть, будь-ласка, кнопку \"Перевірити\" щоб зробити це зараз."
+
+#, python-format
+#~ msgid ""
+#~ "The package information was last updated %(days_ago)s days ago.\n"
+#~ "Press the 'Check' button below to check for new software updates."
+#~ msgstr ""
+#~ "Інформація про пакунки востаннє була оновлена %(days_ago)s днів тому.\n"
+#~ "Натисніть кнопку \"Перевірка\" для перевірки наявності оновлень."
+
+#, python-format
+#~ msgid "The package information was last updated %(days_ago)s day ago."
+#~ msgid_plural ""
+#~ "The package information was last updated %(days_ago)s days ago."
+#~ msgstr[0] "Інформація про пакунки була оновлена %(days_ago)s день тому."
+#~ msgstr[1] "Інформація про пакунки була оновлена %(days_ago)s днів тому."
+#~ msgstr[2] "Інформація про пакунки була оновлена %(days_ago)s днів тому."
+
+#, python-format
+#~ msgid "The package information was last updated %(hours_ago)s hour ago."
+#~ msgid_plural ""
+#~ "The package information was last updated %(hours_ago)s hours ago."
+#~ msgstr[0] "Інформація про пакунки була оновлена %(hours_ago)s годину тому."
+#~ msgstr[1] "Інформація про пакунки була оновлена %(hours_ago)s годин тому."
+#~ msgstr[2] "Інформація про пакунки була оновлена %(hours_ago)s годин тому."
+
+#, python-format
+#~ msgid "The package information was last updated about %s minutes ago."
+#~ msgstr ""
+#~ "Інформація про пакунки востаннє була оновлена близько %s хвилин тому."
+
+#~ msgid "The package information was just updated."
+#~ msgstr "Інформація про пакунки була щойно оновлена."
+
+#~ msgid "Software updates may be available for your computer."
+#~ msgstr ""
+#~ "Для вашого комп'ютера можуть бути доступні оновлення програмного "
+#~ "забезпечення."
+
+#~ msgid "Reading package information"
+#~ msgstr "Зчитування інформації про пакунок"
+
+#~ msgid " (New install)"
+#~ msgstr " (Нове встановлення)"
+
+#, python-format
+#~ msgid "(Size: %s)"
+#~ msgstr "(Розмір %s)"
+
+#, python-format
+#~ msgid "From version %(old_version)s to %(new_version)s"
+#~ msgstr "Від версії %(old_version)s до %(new_version)s"
+
+#, python-format
+#~ msgid "Version %s"
+#~ msgstr "Версія %s"
+
+#~ msgid "Release upgrade not possible right now"
+#~ msgstr "Оновлення реліза зараз неможливо."
+
+#, c-format, python-format
+#~ msgid ""
+#~ "The release upgrade can not be performed currently, please try again "
+#~ "later. The server reported: '%s'"
+#~ msgstr ""
+#~ "Оновлення реліза не може бути виконано зараз, будь ласка, спробуйте "
+#~ "пізніше. Сервер повідомив: '%s'"
+
+#~ msgid "Downloading the release upgrade tool"
+#~ msgstr "Завантаження засобу оновлення випуску"
+
+#, python-format
+#~ msgid "<b>New Ubuntu release '%s' is available</b>"
+#~ msgstr "<b>Новий випуск Ubuntu '%s' є доступним</b>"
+
+#~ msgid "Cancel"
+#~ msgstr "Скасувати"
+
+#~ msgid "Changelog"
+#~ msgstr "Журнал змін"
+
+#~ msgid "Building Updates List"
+#~ msgstr "Формується список оновлень"
+
+#~ msgid ""
+#~ "\n"
+#~ "A normal upgrade can not be calculated, please run: \n"
+#~ "  sudo apt-get dist-upgrade\n"
+#~ "\n"
+#~ "\n"
+#~ "This can be caused by:\n"
+#~ " * A previous upgrade which didn't complete\n"
+#~ " * Problems with some of the installed software\n"
+#~ " * Unofficial software packages not provided by Ubuntu\n"
+#~ " * Normal changes of a pre-release version of Ubuntu"
+#~ msgstr ""
+#~ "\n"
+#~ "Звичайне оновлення не може бути оброблене, будь-ласка запустіть: \n"
+#~ "  sudo apt-get dist-upgrade\n"
+#~ "\n"
+#~ "\n"
+#~ "Це може бути спричинене:\n"
+#~ " * Незавершеним останнім оновленням\n"
+#~ " * Проблемами з деяким встановленим програмним забезпеченням\n"
+#~ " * Неофіційним програмним забезпеченням, яке не підтримується Ubuntu\n"
+#~ " * Звичайними змінами у попередніх випусках Ubuntu"
+
+#~ msgid "Downloading changelog"
+#~ msgstr "Завантаження списку змін"
+
+#, python-format
+#~ msgid "Other updates (%s)"
+#~ msgstr "Інші оновлення (%s)"
+
+#~ msgid "Failed to detect distribution"
+#~ msgstr "Не вдалося визначити дистрибутив"
+
+#, python-format
+#~ msgid "A error '%s' occurred while checking what system you are using."
+#~ msgstr "Виникла помилка '%s' при перевірці яку систему Ви використовуєте."
+
+#~ msgid "Recommended updates"
+#~ msgstr "Рекоменодовані оновлення"
+
+#~ msgid "Proposed updates"
+#~ msgstr "Пропоновані оновлення"
+
+#~ msgid "Backports"
+#~ msgstr "Backports"
+
+#~ msgid "Distribution updates"
+#~ msgstr "Оновлення дистрибутиву"
+
+#, fuzzy
+#~ msgid "<big><b>Starting Software Updater</b></big>"
+#~ msgstr "<b><big>Запуск менеджера оновлень</big></b>"
+
+#~ msgid ""
+#~ "Software updates correct errors, eliminate security vulnerabilities and "
+#~ "provide new features."
+#~ msgstr ""
+#~ "Оновлення програм виправляють помилки, проблеми безпеки та додають нові "
+#~ "можливості."
+
+#~ msgid "Chec_k"
+#~ msgstr "Перевір_ка"
+
+#~ msgid ""
+#~ "<b><big>You must check for updates manually</big></b>\n"
+#~ "\n"
+#~ "Your system does not check for updates automatically. You can configure "
+#~ "this behavior in <i>Software Sources</i> on the <i>Updates</i> tab."
+#~ msgstr ""
+#~ "<b><big>Вам потрібно перевірити наявність оновлень вручну</big></b>\n"
+#~ "\n"
+#~ "Ваша система не перевіряє наявність оновлень автоматично. Ви можете "
+#~ "змінити цю поведінку у <i>Джерелах програмного забезпечення</i> на "
+#~ "вкладці <i>Оновлення</i>."
+
+#~ msgid "_Hide this information in the future"
+#~ msgstr "_Не показувати цю інформацію надалі"
+
+#~ msgid "Co_ntinue"
+#~ msgstr "Про_довжити"
+
+#~ msgid "<big><b>Running on battery</b></big>"
+#~ msgstr "<big><b>Працює від акумулятора</b></big>"
+
+#~ msgid ""
+#~ "Your system is running on battery. Are you sure you want to continue?"
+#~ msgstr ""
+#~ "Ваша система працює від акумулятора. Ви впевнені, що бажаєте продовжити?"
+
+#~ msgid "_Upgrade"
+#~ msgstr "_Оновлення"
+
+#~ msgid "Show progress of individual files"
+#~ msgstr "Показувати прогрес для окремих файлів"
+
+#, fuzzy
+#~ msgid "Starting Software Updater"
+#~ msgstr "Оновлення програм"
+
+#~ msgid "U_pgrade"
+#~ msgstr "Оновити"
+
+#~ msgid ""
+#~ "<b>A new version of Ubuntu is available. Would you like to upgrade?</b>"
+#~ msgstr "<b>Доступна нова версія Ubuntu. Хочете оновити?</b>"
+
+#~ msgid "Don't Upgrade"
+#~ msgstr "Не оновлювати"
+
+#~ msgid "Yes, Upgrade Now"
+#~ msgstr "Так, оновити зараз"
+
+#~ msgid "You have declined to upgrade to the new Ubuntu"
+#~ msgstr "Ви відмовилось від оновлення Ubuntu до нової версії"
+
+#, fuzzy
+#~ msgid ""
+#~ "You can upgrade at a later time by opening Software Updater and click on "
+#~ "\"Upgrade\"."
+#~ msgstr ""
+#~ "Ви можете оновити систему пізніше, відкривши Менеджер Оновлень і натиснув "
+#~ "«Встановити оновлення»"
+
+#~ msgid "Check if upgrading to the latest devel release is possible"
+#~ msgstr ""
+#~ "Перевірити можливість оновлення до останнього випуску, що перебуває в "
+#~ "стані розробки"
+
+#~ msgid "Try to run a dist-upgrade"
+#~ msgstr "Спробуйте запустить dist-upgrade"
+
+#~ msgid "Test upgrade with a sandbox aufs overlay"
+#~ msgstr "Протестувати оновлення в безпечному режимі"
+
+#~ msgid "Running partial upgrade"
+#~ msgstr "Проводиться часткове оновлення"
+
+#~ msgid "Show description of the package instead of the changelog"
+#~ msgstr "Показати опис пакета замість журналу змін."
+
+#~ msgid ""
+#~ "Try upgrading to the latest release using the upgrader from $distro-"
+#~ "proposed"
+#~ msgstr ""
+#~ "Спробуйте оновитись до останньої версії за допомогою $distro-proposed"
+
+#~ msgid ""
+#~ "Run in a special upgrade mode.\n"
+#~ "Currently 'desktop' for regular upgrades of a desktop system and 'server' "
+#~ "for server systems are supported."
+#~ msgstr ""
+#~ "Запустити в особливому режимі оновлення.\n"
+#~ "Наразі підтримуються режим \"стільниця\" для регулярного оновлення "
+#~ "персональних робочих станцій та \"сервер\" для серверних систем."
+
+#~ msgid "Run the specified frontend"
+#~ msgstr "Запустити вказаний інтерфейс оболонки"
+
+#~ msgid ""
+#~ "Check only if a new distribution release is available and report the "
+#~ "result via the exit code"
+#~ msgstr ""
+#~ "Перевіряти доступність нової версії дистрибутива і повертати результат за "
+#~ "допомогою кода виходу."
+
+#~ msgid "Checking for a new Ubuntu release"
+#~ msgstr "Перевіряється наявність нового випуску Ubuntu"
+
+#~ msgid ""
+#~ "For upgrade information, please visit:\n"
+#~ "%(url)s\n"
+#~ msgstr ""
+#~ "Для отримання інформації щодо оновлення, будь ласка, відвідайте:\n"
+#~ "%(url)s\n"
+
+#~ msgid "No new release found"
+#~ msgstr "Нової версії не знайдено"
+
+#, c-format
+#~ msgid "New release '%s' available."
+#~ msgstr "Доступний новий реліз '%s' ."
+
+#~ msgid "Run 'do-release-upgrade' to upgrade to it."
+#~ msgstr "Виконайте команду 'do-release-upgrade' для оновлення."
+
+#~ msgid "Ubuntu %(version)s Upgrade Available"
+#~ msgstr "Доступне оновлення Ubuntu %(version)s"
+
+#, c-format
+#~ msgid "You have declined the upgrade to Ubuntu %s"
+#~ msgstr "Ви відмовились від оновлення до Ubuntu %s"
+
+#~ msgid "Add debug output"
+#~ msgstr "Додати результати відладки"
+
+#~ msgid "Show unsupported packages on this machine"
+#~ msgstr "Показати непідтримувані пакунки на цьому комп'ютері."
+
+#~ msgid "Show supported packages on this machine"
+#~ msgstr "Показати підтримувані пакунки на цьому комп'ютері."
+
+#~ msgid "Show all packages with their status"
+#~ msgstr "Показати всі пакунки з їх статусами"
+
+#~ msgid "Show all packages in a list"
+#~ msgstr "Показати список всіх пакунків"
+
+#, c-format
+#~ msgid "Support status summary of '%s':"
+#~ msgstr "Сумарний статус підтримки '%s':"
+
+#~ msgid "You have %(num)s packages (%(percent).1f%%) supported until %(time)s"
+#~ msgstr ""
+#~ "Ви маєте %(num)s пакунків  (%(percent).1f%%) з них підтримуються до "
+#~ "%(time)s"
+
+#~ msgid ""
+#~ "You have %(num)s packages (%(percent).1f%%) that can not/no-longer be "
+#~ "downloaded"
+#~ msgstr ""
+#~ "Ви маєте %(num)s пакунків (%(percent).1f%%) яких вже/взагалі не можуть "
+#~ "бути завантажені."
+
+#~ msgid "You have %(num)s packages (%(percent).1f%%) that are unsupported"
+#~ msgstr "Ви маєте %(num)s пакунків (%(percent).1f%%) яких не підтримуються."
+
+#~ msgid ""
+#~ "Run with --show-unsupported, --show-supported or --show-all to see more "
+#~ "details"
+#~ msgstr ""
+#~ "Запустить з --show-unsupported, --show-supported або --show-all, щоб "
+#~ "подивитьсь більш детально"
+
+#~ msgid "No longer downloadable:"
+#~ msgstr "Більше не доступне для завантаження"
+
+#~ msgid "Unsupported: "
+#~ msgstr "Не підтримується: "
+
+#, c-format
+#~ msgid "Supported until %s:"
+#~ msgstr "Підтримується до %s:"
+
+#~ msgid "Unsupported"
+#~ msgstr "Не підтримується"
+
+#~ msgid ""
+#~ "After your package information was updated the essential package '%s' can "
+#~ "not be found anymore so a bug reporting process is being started."
+#~ msgstr ""
+#~ "Після того, як пакет '%s' був оновлений, його не вдається знайти, тому "
+#~ "процес звітування про помилку розпочався."
+
+#~ msgid "<b><big>Upgrading Ubuntu to version 12.04</big></b>"
+#~ msgstr "<b><big>Оновлення Ubuntu до версії 12.04</big></b>"
+
+#~ msgid "%(count)s update has been selected."
+#~ msgid_plural "%(count)s updates have been selected."
+#~ msgstr[0] "Обрано %(count)s оновлення."
+#~ msgstr[1] "Обрано %(count)s оновлення."
+#~ msgstr[2] "Обрано %(count)s оновлень."
+
+#~ msgid "%(count_str)s %(download_str)s"
+#~ msgstr "%(count_str)s %(download_str)s"
+
+#~ msgid "Welcome to Ubuntu"
+#~ msgstr "Ласкаво просимо в Ubuntu"
+
+#~ msgid ""
+#~ "These software updates have been issued since this version of Ubuntu was "
+#~ "released."
+#~ msgstr "Ці оновлення було випущено з моменту випуску цієї версії Ubuntu."
+
+#~ msgid "Update Manager"
+#~ msgstr "Менеджер оновлення"
+
+#~ msgid "Starting Update Manager"
+#~ msgstr "Запуск менеджера оновлень."
+
+#~ msgid "You are connected via a wireless modem."
+#~ msgstr "Ви під’єднані за допомогою бездротового модему."
+
+#~ msgid "Checking for a new ubuntu release"
+#~ msgstr "Перевірка нової версії Ubuntu"
+
+#~ msgid "Your system is up-to-date"
+#~ msgstr "Ваша система оновлена!"
+
+#~ msgid "Software updates are available for this computer"
+#~ msgstr "Оновлення програмного забезпечення доступні на цьому комп'ютері"
+
+#~ msgid ""
+#~ "If you don't want to install them now, choose \"Update Manager\" from the "
+#~ "Administration menu later."
+#~ msgstr ""
+#~ "Якщо ви не хочете встановити їх зараз, виберіть \"Менеджер оновлення\" з "
+#~ "меню Адміністрування пізніше."
+
+#~ msgid "There are no updates to install"
+#~ msgstr "Оновлення для установки відсутні."
+
+#~ msgid "The update has already been downloaded, but not installed"
+#~ msgid_plural "The updates have already been downloaded, but not installed"
+#~ msgstr[0] "Оновлення вже завантажено, але ще не встановлено."
+#~ msgstr[1] "Оновлення вже завантажені, але ще не встановлені."
+#~ msgstr[2] "Оновлення вже завантажені, але ще не встановлені."
+
+#~ msgid ""
+#~ "You will not get any further security fixes or critical updates. Please "
+#~ "upgrade to a later version of Ubuntu Linux."
+#~ msgstr ""
+#~ "Ви більше не зможете отримувати оновлень безпеки та критичних оновлень. "
+#~ "Будь ласка, виконайте оновлення до останньої версії Ubuntu Linux."
+
+#~ msgid ""
+#~ "This upgrade is running in sandbox (test) mode. All changes are written "
+#~ "to '%s' and will be lost on the next reboot.\n"
+#~ "\n"
+#~ "*No* changes written to a systemdir from now until the next reboot are "
+#~ "permanent."
+#~ msgstr ""
+#~ "Це оновлення запущено в тестовому режимі (пісочниці). Усі зміни записані "
+#~ "в '%s' і будуть втрачені після перезавантаження.\n"
+#~ "\n"
+#~ "*Жодні* змінити, записані в системний каталог відтепер і до наступного "
+#~ "перезавантаження не будуть постійними ."
+
+#~ msgid ""
+#~ "Fetching and installing the upgrade can take several hours. Once the "
+#~ "download has finished, the process cannot be cancelled."
+#~ msgstr ""
+#~ "Отримання та встановлення оновлень може тривати кілька годин. Коли процес "
+#~ "завершиться, його вже не можна буде скасувати."
+
+#~ msgid ""
+#~ "If you don't want to install them now, choose \"Update Manager\" from "
+#~ "Applications later."
+#~ msgstr ""
+#~ "Якщо ви не хочете встановлювати їх зараз, скористайтеся \"Менеджером "
+#~ "оновлення \" з меню Програми пізніше."
+
+#~ msgid ""
+#~ "After your package information was updated the essential package '%s' can "
+#~ "not be found anymore.\n"
+#~ "This indicates a serious error, please report this bug using the command "
+#~ "'ubuntu-bug update-manager' in a terminal and include the files in /var/"
+#~ "log/dist-upgrade/ in the bug report."
+#~ msgstr ""
+#~ "Після оновлення інформації про пакунки, суттєвий пакунок '%s' не можливо "
+#~ "знайти.\n"
+#~ "Це вказує на серйозну помилку. Повідомте, будь-ласка, про цю помилку, "
+#~ "використовуючи в Терміналі команду 'ubuntu-bug update-manager', та "
+#~ "додайте до звіту файли з /var/log/dist-upgrade/."
+
+#~ msgid ""
+#~ "The system was unable to get the prerequisites for the upgrade. The "
+#~ "upgrade will abort now and restore the original system state.\n"
+#~ "\n"
+#~ "Please report this as a bug using the command 'ubuntu-bug update-manager' "
+#~ "in a terminal and include the files in /var/log/dist-upgrade/ in the bug "
+#~ "report."
+#~ msgstr ""
+#~ "Системі не вдалося отримати необхідні дані оновлення. Зараз оновлення "
+#~ "буде перервано, і система повернеться до попереднього стану.\n"
+#~ "\n"
+#~ "Повідомте, будь-ласка, про цю помилку, використовуючи в Терміналі команду "
+#~ "'ubuntu-bug update-manager', та додайте до звіту файли з /var/log/dist-"
+#~ "upgrade/."
+
+#~ msgid ""
+#~ "The support in Ubuntu 11.04 for your intel graphics hardware is limited "
+#~ "and you may encounter problems after the upgrade. Do you want to continue "
+#~ "with the upgrade?"
+#~ msgstr ""
+#~ "Підтримка вашого графічного обладнання intel обмежена, і ви можете "
+#~ "зіткнутися з проблемами після оновлення. Ви хочете продовжити оновлення?"
+
+#~ msgid ""
+#~ "\n"
+#~ "\n"
+#~ "Please report this bug using the command 'ubuntu-bug update-manager' in a "
+#~ "terminal and include the files in /var/log/dist-upgrade/ in the bug "
+#~ "report.\n"
+#~ "%s"
+#~ msgstr ""
+#~ "\n"
+#~ "\n"
+#~ "Повідомте, будь-ласка, про цю помилку, використовуючи в Терміналі команду "
+#~ "'ubuntu-bug update-manager', та додайте до звіту файли з /var/log/dist-"
+#~ "upgrade/.\n"
+#~ "%s"
+
+#~ msgid ""
+#~ "Preparing the system for the upgrade failed. Please report this using the "
+#~ "command 'ubuntu-bug update-manager' in a terminal and include the files "
+#~ "in /var/log/dist-upgrade/ in the bug report."
+#~ msgstr ""
+#~ "Не вдалося підготувати систему для оновлення. Повідомте, будь-ласка, про "
+#~ "це, використовуючи в Терміналі команду 'ubuntu-bug update-manager', та "
+#~ "додайте до звіту файли з /var/log/dist-upgrade/."
+
+#~ msgid "%.0f kB"
+#~ msgstr "%.0f кБ"
+
+#~ msgid "0 kB"
+#~ msgstr "0 кБ"
+
+#~ msgid "1 kB"
+#~ msgstr "1 кБ"
+
+#~ msgid "Your graphics hardware may not be fully supported in Ubuntu 11.04."
+#~ msgstr ""
+#~ "Ваше графічне обладнання може не повністю підтримуватись в Ubuntu 11.04."
+
+#~ msgid ""
+#~ "These software updates have been issued since this version of Ubuntu was "
+#~ "released. If you don't want to install them now, choose \"Update Manager"
+#~ "\" from Applications later."
+#~ msgstr ""
+#~ "Ці оновлення програм були випущені після того, як вийшла ця версія "
+#~ "Ubuntu. Якщо ви не хочете зараз їх встановлювати, оберіть \"Менеджер "
+#~ "оновлення\" з меню Програми пізніше."
+
+#~ msgid ""
+#~ "These software updates have been issued since this version of Ubuntu was "
+#~ "released. If you don't want to install them now, choose \"Update Manager"
+#~ "\" from the Administration Menu later."
+#~ msgstr ""
+#~ "Ці оновлення програм були випущені після того, як вийшла ця версія "
+#~ "Ubuntu. Якщо ви не хочете зараз їх встановлювати, оберіть \"Менеджер "
+#~ "оновлення\" з меню Адміністрування пізніше."
+
+#~ msgid ""
+#~ "Upgrading the repository information resulted in a invalid file. Please "
+#~ "report this as a bug using the command 'ubuntu-bug update-manager' in a "
+#~ "terminal."
+#~ msgstr ""
+#~ "Оновлення інформації репозиторію завершилося помилкою у файлі. Повідомте, "
+#~ "будь-ласка, про цю помилку, використовуючи в Терміналі команду 'ubuntu-"
+#~ "bug update-manager'."

@@ -1,0 +1,1369 @@
+# Afrikaans translation for update-manager
+# Copyright (c) 2007 Rosetta Contributors and Canonical Ltd 2007
+# This file is distributed under the same license as the update-manager package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2007.
+#
+#: ../UpdateManager/UpdatesAvailable.py:847
+msgid ""
+msgstr ""
+"Project-Id-Version: update-manager\n"
+"Report-Msgid-Bugs-To: sebastian.heinlein@web.de\n"
+"POT-Creation-Date: 2021-12-07 16:54-0800\n"
+"PO-Revision-Date: 2012-02-23 19:53+0000\n"
+"Last-Translator: hawk <Unknown>\n"
+"Language-Team: Afrikaans <af@li.org>\n"
+"Language: af\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Launchpad-Export-Date: 2012-04-17 13:40+0000\n"
+"X-Generator: Launchpad (build 15099)\n"
+
+#: ../UpdateManager/backend/InstallBackendAptdaemon.py:150
+#, fuzzy
+msgid "Checking for updates…"
+msgstr "Ander opdaterings"
+
+#: ../UpdateManager/backend/InstallBackendAptdaemon.py:200
+#: ../UpdateManager/backend/InstallBackendAptdaemon.py:256
+#: ../UpdateManager/backend/InstallBackendAptdaemon.py:287
+#, fuzzy
+msgid "Installing updates…"
+msgstr "Installeer die opgraderings"
+
+#: ../UpdateManager/backend/InstallBackendSynaptic.py:39
+msgid "Please wait, this can take some time."
+msgstr "Wag asseblief, hierdie kan 'n ruk duur."
+
+#: ../UpdateManager/backend/InstallBackendSynaptic.py:41
+msgid "Update is complete"
+msgstr "Opdatering is voltooi"
+
+#: ../UpdateManager/backend/__init__.py:277
+msgid "Updating snaps"
+msgstr ""
+
+#: ../UpdateManager/backend/__init__.py:304
+#, python-format
+msgid "Refreshing %s snap"
+msgstr ""
+
+#: ../UpdateManager/backend/__init__.py:310
+#, fuzzy, python-format
+msgid "Removing %s snap"
+msgstr "Verwyder %s"
+
+#: ../UpdateManager/backend/__init__.py:315
+#, fuzzy, python-format
+msgid "Installing %s snap"
+msgstr "Installeer %s"
+
+#: ../UpdateManager/backend/__init__.py:324
+#, fuzzy
+msgid "Upgrade only partially completed."
+msgstr "Opgradering voltooi"
+
+#: ../UpdateManager/backend/__init__.py:325
+#, fuzzy
+msgid ""
+"An error occurred while updating snaps. Please check your network connection."
+msgstr ""
+"'n Probleem het tydens die opgradering ontstaan. Dit is gewoonlik as gevolg "
+"van 'n probleem met die netwerkverbing. Kontrolleer asseblief u "
+"netwerkverbinding en probeer weer."
+
+#: ../UpdateManager/ChangelogViewer.py:83
+msgid "Open Link in Browser"
+msgstr "Open skakel in Webblaaier"
+
+#: ../UpdateManager/ChangelogViewer.py:87
+msgid "Copy Link to Clipboard"
+msgstr "Kopieer skakel na knipbord"
+
+#: ../UpdateManager/Dialogs.py:126
+msgid "Settings…"
+msgstr ""
+
+#: ../UpdateManager/Dialogs.py:171
+msgid ""
+"<b>Tip:</b> You can use Livepatch to keep your computer more secure between "
+"restarts."
+msgstr ""
+
+#: ../UpdateManager/Dialogs.py:174
+msgid "Settings & Livepatch…"
+msgstr ""
+
+#: ../UpdateManager/Dialogs.py:188
+#, python-format
+msgid "%d Livepatch update applied since the last restart."
+msgid_plural "%d Livepatch updates applied since the last restart."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../UpdateManager/Dialogs.py:196
+#, python-format
+msgid "%d Livepatch update failed to apply since the last restart."
+msgid_plural "%d Livepatch updates failed to apply since the last restart."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../UpdateManager/Dialogs.py:218 ../UpdateManager/UpdateManager.py:292
+msgid "You stopped the check for updates."
+msgstr ""
+
+#: ../UpdateManager/Dialogs.py:220
+msgid "_Check Again"
+msgstr ""
+
+#: ../UpdateManager/Dialogs.py:232
+msgid "No software updates are available."
+msgstr ""
+
+#: ../UpdateManager/Dialogs.py:234 ../UpdateManager/Dialogs.py:245
+msgid "The software on this computer is up to date."
+msgstr ""
+
+#. Translators: these are Ubuntu version names like "Ubuntu 12.04"
+#: ../UpdateManager/Dialogs.py:247
+#, python-format
+msgid "However, %s %s is now available (you have %s)."
+msgstr ""
+
+#: ../UpdateManager/Dialogs.py:252
+#, fuzzy
+msgid "Upgrade…"
+msgstr "Gradeer op"
+
+#: ../UpdateManager/Dialogs.py:272
+msgid "New important security and hardware support update."
+msgstr ""
+
+#: ../UpdateManager/Dialogs.py:280
+#, fuzzy
+msgid "_Install…"
+msgstr "Installeer"
+
+#. Translators: this is an Ubuntu version name like "Ubuntu 12.04"
+#: ../UpdateManager/Dialogs.py:292
+#, python-format
+msgid "Software updates are no longer provided for %s %s."
+msgstr ""
+
+#. Translators: this is an Ubuntu version name like "Ubuntu 12.04"
+#: ../UpdateManager/Dialogs.py:296
+#, python-format
+msgid "To stay secure, you should upgrade to %s %s."
+msgstr ""
+
+#: ../UpdateManager/Dialogs.py:309
+msgid "Sorry, there are no more upgrades for this system"
+msgstr ""
+
+#. Translators: this is an Ubuntu version name like "Ubuntu 12.04"
+#: ../UpdateManager/Dialogs.py:311
+#, python-format
+msgid ""
+"\n"
+"There will not be any further Ubuntu releases for this system's '%s' "
+"architecture.\n"
+"\n"
+"Updates for Ubuntu %s will continue until 2023-04-26.\n"
+"\n"
+"If you reinstall Ubuntu from ubuntu.com/download, future upgrades will be "
+"available."
+msgstr ""
+
+#: ../UpdateManager/Dialogs.py:325
+#, fuzzy
+msgid "Not all updates can be installed"
+msgstr "<big><b>Nie alle opdaterings kon geïnstalleer word nie</b></big>"
+
+#: ../UpdateManager/Dialogs.py:327
+msgid ""
+"Run a partial upgrade, to install as many updates as possible.\n"
+"\n"
+"    This can be caused by:\n"
+"     * A previous upgrade which didn't complete\n"
+"     * Problems with some of the installed software\n"
+"     * Unofficial software packages not provided by Ubuntu\n"
+"     * Normal changes of a pre-release version of Ubuntu"
+msgstr ""
+
+#: ../UpdateManager/Dialogs.py:335
+msgid "_Partial Upgrade"
+msgstr ""
+
+#: ../UpdateManager/Dialogs.py:336
+msgid "_Continue"
+msgstr "_Gaan voort"
+
+#: ../UpdateManager/Dialogs.py:372
+msgid "_Try Again"
+msgstr ""
+
+#: ../UpdateManager/Dialogs.py:386
+msgid "The computer needs to restart to finish installing updates."
+msgstr ""
+
+#: ../UpdateManager/Dialogs.py:388
+#, fuzzy
+msgid "Restart _Later"
+msgstr "Herlaai benodig"
+
+#: ../UpdateManager/Dialogs.py:390
+msgid "_Restart Now"
+msgstr "He_rlaai nou"
+
+#. Basic GTK+ parameters
+#: ../UpdateManager/UpdateManager.py:96 ../data/update-manager.desktop.in.h:1
+#: ../data/update-manager.appdata.xml.in.h:1
+#, fuzzy
+msgid "Software Updater"
+msgstr "Sagteware-indeks is stukkend"
+
+#: ../UpdateManager/UpdateManager.py:290
+msgid "Some software couldn’t be checked for updates."
+msgstr ""
+
+#: ../UpdateManager/UpdateManager.py:293
+msgid "Updated software is available from a previous check."
+msgstr ""
+
+#. we assert a clean cache
+#: ../UpdateManager/UpdateManager.py:400
+msgid "Software index is broken"
+msgstr "Sagteware-indeks is stukkend"
+
+#: ../UpdateManager/UpdateManager.py:401
+msgid ""
+"It is impossible to install or remove any software. Please use the package "
+"manager \"Synaptic\" or run \"sudo apt-get install -f\" in a terminal to fix "
+"this issue at first."
+msgstr ""
+
+#: ../UpdateManager/UpdateManager.py:408
+msgid "Could not initialize the package information"
+msgstr ""
+
+#: ../UpdateManager/UpdateManager.py:409
+msgid ""
+"An unresolvable problem occurred while initializing the package "
+"information.\n"
+"\n"
+"Please report this bug against the 'update-manager' package and include the "
+"following error message:\n"
+msgstr ""
+
+#: ../UpdateManager/UpdateManager.py:437
+msgid "Could not calculate the upgrade"
+msgstr "Kon nie die opgradering bereken nie"
+
+#: ../UpdateManager/UpdateManager.py:438
+msgid ""
+"An unresolvable problem occurred while calculating the upgrade.\n"
+"\n"
+"Please report this bug against the 'update-manager' package and include the "
+"following error message:\n"
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:252
+#, fuzzy
+msgid "Install Now"
+msgstr "Installeer"
+
+#: ../UpdateManager/UpdatesAvailable.py:285
+#, fuzzy
+msgid "Install or remove"
+msgstr "Installeer"
+
+#: ../UpdateManager/UpdatesAvailable.py:319
+msgid "Download"
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:378
+msgid "_Remind Me Later"
+msgstr ""
+
+#. upload_archive = version_match.group(2).strip()
+#: ../UpdateManager/UpdatesAvailable.py:515
+#, python-format
+msgid "Version %s: \n"
+msgstr "Weergawe %s: \n"
+
+#: ../UpdateManager/UpdatesAvailable.py:580
+msgid ""
+"No network connection detected, you can not download changelog information."
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:590
+msgid "Downloading list of changes..."
+msgstr "Laai lys van veranderinge af..."
+
+#: ../UpdateManager/UpdatesAvailable.py:634
+msgid "_Deselect All"
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:640
+msgid "Select _All"
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:736
+#, python-format
+msgid "%s will be downloaded."
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:750
+#, fuzzy
+msgid "The update has already been downloaded."
+msgid_plural "The updates have already been downloaded."
+msgstr[0] "Die bediener is dalk oorlaai. "
+msgstr[1] "Die bediener is dalk oorlaai. "
+
+#: ../UpdateManager/UpdatesAvailable.py:756
+msgid "There are no updates to install."
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:765
+msgid "Unknown download size."
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:792
+#, python-format
+msgid ""
+"Updated software has been issued since %s %s was released. Do you want to "
+"install it now?"
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:797
+msgid ""
+"Updated software is available for this computer. Do you want to install it "
+"now?"
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:800
+msgid ""
+"The computer also needs to restart to finish installing previous updates."
+msgstr ""
+
+#. print("on_button_install_clicked")
+#: ../UpdateManager/UpdatesAvailable.py:830
+msgid "Not enough free disk space"
+msgstr "Onvoldoende skyfspasie beskikaar"
+
+#: ../UpdateManager/UpdatesAvailable.py:831
+#, python-format
+msgid ""
+"The upgrade needs a total of %s free space on disk '%s'. Please free at "
+"least an additional %s of disk space on '%s'. %s"
+msgstr ""
+
+#. specific ways to resolve lack of free space
+#: ../UpdateManager/UpdatesAvailable.py:836
+msgid ""
+"Remove temporary packages of former installations using 'sudo apt clean'."
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:838
+msgid ""
+"You can remove old kernels using 'sudo apt autoremove', and you could also "
+"set COMPRESS=xz in /etc/initramfs-tools/initramfs.conf to reduce the size of "
+"your initramfs."
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:843
+msgid ""
+"Empty your trash and remove temporary packages of former installations using "
+"'sudo apt clean'."
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:846
+msgid "Reboot to clean up files in /tmp."
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:888
+msgid "Connecting..."
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:904
+msgid "You may not be able to check for updates or download new updates."
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:1056
+msgid "Improved hardware support"
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:1060
+#, fuzzy
+msgid "Security updates"
+msgstr "Ander opdaterings"
+
+#: ../UpdateManager/UpdatesAvailable.py:1064
+msgid "Other updates"
+msgstr "Ander opdaterings"
+
+#: ../UpdateManager/UpdatesAvailable.py:1067
+msgid "Updates"
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:1072
+msgid "Unused kernel updates to be removed"
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:1077
+#, fuzzy
+msgid "Duplicate packages to be removed"
+msgstr "%d pakket gaan verwyder word."
+
+#: ../UpdateManager/UnitySupport.py:70
+msgid "Install All Available Updates"
+msgstr ""
+
+#: ../UpdateManager/Core/MyCache.py:417
+msgid "This update does not come from a source that supports changelogs."
+msgstr ""
+
+#: ../UpdateManager/Core/MyCache.py:423 ../UpdateManager/Core/MyCache.py:458
+msgid ""
+"Failed to download the list of changes. \n"
+"Please check your Internet connection."
+msgstr ""
+"Misluk om die lys veranderinge af te laai. \n"
+"Kontrolleer asseblief u Internet-verbinding."
+
+#: ../UpdateManager/Core/MyCache.py:430
+#, python-format
+msgid ""
+"Changes for %s versions:\n"
+"Installed version: %s\n"
+"Available version: %s\n"
+"\n"
+msgstr ""
+
+#: ../UpdateManager/Core/MyCache.py:444
+#, python-format
+msgid ""
+"The changelog does not contain any relevant changes.\n"
+"\n"
+"Please use http://launchpad.net/ubuntu/+source/%s/%s/+changelog\n"
+"until the changes become available or try again later."
+msgstr ""
+
+#: ../UpdateManager/Core/MyCache.py:451
+#, python-format
+msgid ""
+"The list of changes is not available yet.\n"
+"\n"
+"Please use http://launchpad.net/ubuntu/+source/%s/%s/+changelog\n"
+"until the changes become available or try again later."
+msgstr ""
+"Die lys veranderinge is nog nie beskikbaar nie.\n"
+"\n"
+"Maak asseblief gebruik van http://launchpad.net/ubuntu/+source/%s/%s/"
+"+changelog\n"
+"totdat die veranderinge beskikbaar word of probeer later weer."
+
+#. Translators: the %s is a distro name, like 'Ubuntu' and 'base' as in
+#. the core components and packages.
+#: ../UpdateManager/Core/UpdateList.py:175
+#, python-format
+msgid "%s base"
+msgstr ""
+
+#. TRANSLATORS: download size of small updates, e.g. "250 kB"
+#: ../UpdateManager/Core/utils.py:483
+#, python-format
+msgid "%(size).0f kB"
+msgid_plural "%(size).0f kB"
+msgstr[0] ""
+msgstr[1] ""
+
+#. TRANSLATORS: download size of updates, e.g. "2.3 MB"
+#: ../UpdateManager/Core/utils.py:487
+#, python-format
+msgid "%.1f MB"
+msgstr "%.1f MB"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:1
+msgid "updates"
+msgstr "opdaterings"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:2
+msgid "Changes"
+msgstr "Veranderinge"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:3
+msgid "Description"
+msgstr "Omskrywing"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:4
+#, fuzzy
+msgid "Technical description"
+msgstr "Omskrywing"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:5
+#, fuzzy
+msgid "Details of updates"
+msgstr "Besonderhede [d]"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:6
+msgid "The computer will need to restart."
+msgstr ""
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:7
+msgid ""
+"You are connected via roaming and may be charged for the data consumed by "
+"this update."
+msgstr ""
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:8
+msgid ""
+"You may want to wait until you’re not using a mobile broadband connection."
+msgstr ""
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:9
+msgid "It’s safer to connect the computer to AC power before updating."
+msgstr ""
+
+#: ../data/update-manager.desktop.in.h:2
+msgid "Software Updates"
+msgstr ""
+
+#: ../data/update-manager.desktop.in.h:3
+#: ../data/update-manager.appdata.xml.in.h:2
+msgid "Show and install available updates"
+msgstr "Wys en installeer beskikbare opdaterings"
+
+#: ../data/update-manager.appdata.xml.in.h:3
+msgid ""
+"Software Updater checks for updates using apt and let you choose which "
+"updates to install."
+msgstr ""
+
+#: ../update-manager:71
+msgid "Show version and exit"
+msgstr "Toon weergawe en sluit af"
+
+#: ../update-manager:74
+msgid "Directory that contains the data files"
+msgstr "Gids wat die datalêers bevat"
+
+#: ../update-manager:77
+msgid "Check if a new Ubuntu release is available"
+msgstr ""
+
+#: ../update-manager:80
+msgid ""
+"If using the latest supported release, upgrade to the development release"
+msgstr ""
+
+#: ../update-manager:84
+msgid "Upgrade using the latest proposed version of the release upgrader"
+msgstr ""
+
+#. TRANSLATORS: this describes the "focus-on-map" gtk
+#. property that controls if a new window takes the
+#. input focus control when it is displayed for the
+#. first time (see also the gtk devhelp page)
+#: ../update-manager:91
+msgid "Do not focus on map when starting"
+msgstr ""
+
+#: ../update-manager:94
+msgid "Do not check for updates when starting"
+msgstr ""
+
+#: ../update-manager:96
+msgid "Show debug messages"
+msgstr ""
+
+#. Why do we use %s here instead of $strings or {} format placeholders?
+#. It's because we don't want to break existing translations.
+#: ../janitor/plugincore/exceptions.py:43
+#, python-format
+msgid "Unimplemented method: %s"
+msgstr ""
+
+#: ../janitor/plugincore/core/file_cruft.py:41
+msgid "A file on disk"
+msgstr ""
+
+#: ../janitor/plugincore/core/missing_package_cruft.py:40
+msgid "Install missing package."
+msgstr ""
+
+#. 2012-06-08 BAW: i18n string; don't use {} or PEP 292.
+#: ../janitor/plugincore/core/missing_package_cruft.py:50
+#, python-format
+msgid "Package %s should be installed."
+msgstr "Pakket %s behoort geïnstalleer te word"
+
+#: ../janitor/plugincore/core/package_cruft.py:50
+msgid ".deb package"
+msgstr ".deb-pakket"
+
+#: ../janitor/plugincore/plugins/langpack_manual_plugin.py:47
+#, python-format
+msgid "%s needs to be marked as manually installed."
+msgstr ""
+
+#: ../janitor/plugincore/plugins/kdelibs4to5_plugin.py:50
+msgid ""
+"When upgrading, if kdelibs4-dev is installed, kdelibs5-dev needs to be "
+"installed. See bugs.launchpad.net, bug #279621 for details."
+msgstr ""
+
+#: ../janitor/plugincore/plugins/dpkg_status_plugin.py:45
+#, python-format
+msgid "%i obsolete entries in the status file"
+msgstr ""
+
+#: ../janitor/plugincore/plugins/dpkg_status_plugin.py:48
+msgid "Obsolete entries in dpkg status"
+msgstr ""
+
+#. pragma: no cover
+#: ../janitor/plugincore/plugins/dpkg_status_plugin.py:51
+msgid "Obsolete dpkg status entries"
+msgstr ""
+
+#: ../janitor/plugincore/plugins/remove_lilo_plugin.py:43
+msgid "Remove lilo since grub is also installed.(See bug #314004 for details.)"
+msgstr ""
+
+#, python-format
+#~ msgid "Server for %s"
+#~ msgstr "Bediener vir %s"
+
+#~ msgid "Main server"
+#~ msgstr "Hoofbediener"
+
+#~ msgid "Custom servers"
+#~ msgstr "Gebruikersspesifieke bedieners"
+
+#~ msgid "Could not calculate sources.list entry"
+#~ msgstr "Kon nie sources.list inskrywing bereken nie"
+
+#~ msgid ""
+#~ "Unable to locate any package files, perhaps this is not a Ubuntu Disc or "
+#~ "the wrong architecture?"
+#~ msgstr ""
+#~ "Kon nie enige pakkette opspoor nie. Hierdie is dalk nie 'n Ubuntu Skyf "
+#~ "nie of van die verkeerde argitektuur?"
+
+#~ msgid "Failed to add the CD"
+#~ msgstr "Misluk om die CD toe te voeg"
+
+#, python-format
+#~ msgid ""
+#~ "There was a error adding the CD, the upgrade will abort. Please report "
+#~ "this as a bug if this is a valid Ubuntu CD.\n"
+#~ "\n"
+#~ "The error message was:\n"
+#~ "'%s'"
+#~ msgstr ""
+#~ "Daar was 'n probleem met die toevoeging van die CD. Die opgradering sal "
+#~ "nou staak. Rapporteer asseblief hierdie gebeurtenis as 'n fout indien dit "
+#~ "'n geldige Ubuntu CD is.\n"
+#~ "Die foutboodskap was:\n"
+#~ "'%s'"
+
+#~ msgid "Remove package in bad state"
+#~ msgid_plural "Remove packages in bad state"
+#~ msgstr[0] "Verwyder pakket in swak toestand"
+#~ msgstr[1] "Verwyder pakette in swak toestand"
+
+#, python-format
+#~ msgid ""
+#~ "The package '%s' is in an inconsistent state and needs to be reinstalled, "
+#~ "but no archive can be found for it. Do you want to remove this package "
+#~ "now to continue?"
+#~ msgid_plural ""
+#~ "The packages '%s' are in an inconsistent state and need to be "
+#~ "reinstalled, but no archives can be found for them. Do you want to remove "
+#~ "these packages now to continue?"
+#~ msgstr[0] ""
+#~ "Die pakket '%s' is in 'n inkonsekwente toestand en benodig "
+#~ "herinstallasie, maar geen argief kan daarvoor gevind word nie. Wil u die "
+#~ "pakket nou verwyder om voort te gaan?"
+#~ msgstr[1] ""
+#~ "Die pakkette '%s' is in 'n inkonsekwente toestand en benodig "
+#~ "herinstallasie, maar geen argief kan daarvoor gevind word nie. Wil u die "
+#~ "pakkette nou verwyder om voort te gaan?"
+
+#~ msgid "The server may be overloaded"
+#~ msgstr "Die bediener is dalk oorlaai"
+
+#~ msgid "Broken packages"
+#~ msgstr "Gebroke pakette"
+
+#~ msgid ""
+#~ "Your system contains broken packages that couldn't be fixed with this "
+#~ "software. Please fix them first using synaptic or apt-get before "
+#~ "proceeding."
+#~ msgstr ""
+#~ "U stelsel bevat gebroke pakette wat nie deur middel van hierdie sagteware "
+#~ "reggemaak kon word nie. Gebruik asseblief synaptic of apt-get om dit reg "
+#~ "te maak voordat u voort gaan."
+
+#, python-format
+#~ msgid ""
+#~ "An unresolvable problem occurred while calculating the upgrade:\n"
+#~ "%s\n"
+#~ "\n"
+#~ " This can be caused by:\n"
+#~ " * Upgrading to a pre-release version of Ubuntu\n"
+#~ " * Running the current pre-release version of Ubuntu\n"
+#~ " * Unofficial software packages not provided by Ubuntu\n"
+#~ "\n"
+#~ msgstr ""
+#~ "'n Onoplosbare probleem het onstaan terwyl die volgende opgradering "
+#~ "bereken is:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Dit kan veroorsaak word deur:\n"
+#~ "*Opgradering na 'n vooruitgawe van Ubuntu\n"
+#~ "*Gebruik van die huidige vooruitgawe van Ubuntu\n"
+#~ "*Nie-amptelike sagtewarepakkette, nie deur Ubuntu gelewer nie\n"
+#~ "\n"
+
+#~ msgid "This is most likely a transient problem, please try again later."
+#~ msgstr ""
+#~ "Hierdie is heel waarskynlik 'n tydelike probleem, probeer asseblief later "
+#~ "weer."
+
+#~ msgid "Error authenticating some packages"
+#~ msgstr "Fout by bepaling van die egtheid van sommige pakkette"
+
+#~ msgid ""
+#~ "It was not possible to authenticate some packages. This may be a "
+#~ "transient network problem. You may want to try again later. See below for "
+#~ "a list of unauthenticated packages."
+#~ msgstr ""
+#~ "Dit was nie moontlik om somige pakkette te staaf nie. Hierdie is moontlik "
+#~ "'n tydelike netwerkprobleem. Probeer later weer. Sien hieronder vir 'n "
+#~ "lys van ongestaafde pakkette."
+
+#, python-format
+#~ msgid ""
+#~ "The package '%s' is marked for removal but it is in the removal blacklist."
+#~ msgstr ""
+#~ "Die pakket '%s' is gemerk vir verwydering, maar dit is op die "
+#~ "verwyderings-swartlys."
+
+#, python-format
+#~ msgid "The essential package '%s' is marked for removal."
+#~ msgstr "Die noodsaaklike pakket '%s' is gemerk vir verwydering."
+
+#, python-format
+#~ msgid "Trying to install blacklisted version '%s'"
+#~ msgstr "Probeer tans om die swartlys weergawe '%s' te installeer."
+
+#, python-format
+#~ msgid "Can't install '%s'"
+#~ msgstr "Kan nie '%s' installeer nie."
+
+#~ msgid "Can't guess meta-package"
+#~ msgstr "Kan nie 'n meta-paket raai nie"
+
+#~ msgid ""
+#~ "Your system does not contain a ubuntu-desktop, kubuntu-desktop, xubuntu-"
+#~ "desktop or edubuntu-desktop package and it was not possible to detect "
+#~ "which version of Ubuntu you are running.\n"
+#~ " Please install one of the packages above first using synaptic or apt-get "
+#~ "before proceeding."
+#~ msgstr ""
+#~ "U stelsel bevat nie die ubuntu-desktop, kubuntu-desktop, xubuntu-desktop "
+#~ "of edubuntu-desktop paket nie en dit was nie moontlik om jou weergawe van "
+#~ "Ubuntu te bepaal nie."
+
+#~ msgid "Reading cache"
+#~ msgstr "Lees geheuekas"
+
+#~ msgid "Unable to get exclusive lock"
+#~ msgstr "Kan nie 'n eksklusiewe slot bekom nie"
+
+#~ msgid ""
+#~ "This usually means that another package management application (like apt-"
+#~ "get or aptitude) already running. Please close that application first."
+#~ msgstr ""
+#~ "Hierdie beteken gewoonlik dat 'n ander pakketbestuurder (soos apt-get of "
+#~ "aptitude) alreeds loop. Maak asseblief eers daardie program toe."
+
+#~ msgid "Upgrading over remote connection not supported"
+#~ msgstr "Opgradering oor 'n afstandsverbinding word nie ondersteun nie"
+
+#~ msgid ""
+#~ "You are running the upgrade over a remote ssh connection with a frontend "
+#~ "that does not support this. Please try a text mode upgrade with 'do-"
+#~ "release-upgrade'.\n"
+#~ "\n"
+#~ "The upgrade will abort now. Please try without ssh."
+#~ msgstr ""
+#~ "U is besig om die opgradering te doen oor 'n ssh-afstandsverbinding met "
+#~ "'n voorkant wat dit nie ondersteun nie. Probeer asseblief 'n teksmodus "
+#~ "opgradering met 'do-release-upgrade'.\n"
+#~ "\n"
+#~ "Die opgradering gaan nou staak. Probeer asseblief weer sonder ssh."
+
+#~ msgid "Continue running under SSH?"
+#~ msgstr "Voortgaan met die uitvoer van SSH?"
+
+#, python-format
+#~ msgid ""
+#~ "This session appears to be running under ssh. It is not recommended to "
+#~ "perform a upgrade over ssh currently because in case of failure it is "
+#~ "harder to recover.\n"
+#~ "\n"
+#~ "If you continue, an additional ssh daemon will be started at port '%s'.\n"
+#~ "Do you want to continue?"
+#~ msgstr ""
+#~ "Dit kom voor of hierdie sessie onder ssh loop. Opgradering oor ssh word "
+#~ "huidiglik nie aanbeveel nie: in geval 'n probleem ontstaan is dit "
+#~ "moeiliker om te herstel.\n"
+#~ "\n"
+#~ "Indien u voortgaan sal 'n bykomende ssh prosess in die agtergrond op "
+#~ "poort '%s' begin word.\n"
+#~ "Wil u voortgaan?"
+
+#~ msgid "Starting additional sshd"
+#~ msgstr "Begin bykomende sshd"
+
+#, python-format
+#~ msgid ""
+#~ "To make recovery in case of failure easier, an additional sshd will be "
+#~ "started on port '%s'. If anything goes wrong with the running ssh you can "
+#~ "still connect to the additional one.\n"
+#~ msgstr ""
+#~ "Om herstelling in die geval van 'n probleem te vergemaklik, sal 'n "
+#~ "bykomende sshd op poort '%s' begin word. Indien iets sou verkeerd loop, "
+#~ "kan u steeds deur middel van hierdie bykomende sshd konnekteer.\n"
+
+#~ msgid "Can not upgrade"
+#~ msgstr "Kan nie opgradeer nie"
+
+#, python-format
+#~ msgid "An upgrade from '%s' to '%s' is not supported with this tool."
+#~ msgstr ""
+#~ "Opgradering van '%s' na '%s' is nie met hierdie nutsprogram moontlik nie."
+
+#~ msgid "Sandbox setup failed"
+#~ msgstr "Sandpit opstelling het misluk"
+
+#~ msgid "It was not possible to create the sandbox environment."
+#~ msgstr "Dit was nie moontlik om 'n sandpit omgewing te skep nie."
+
+#~ msgid "Sandbox mode"
+#~ msgstr "Sandpit-modus"
+
+#~ msgid ""
+#~ "Your python install is corrupted. Please fix the '/usr/bin/python' "
+#~ "symlink."
+#~ msgstr ""
+#~ "U python installasie is korrup. Maak asseblief die '/usr/bin/python' "
+#~ "simboliese skakel reg."
+
+#~ msgid "Package 'debsig-verify' is installed"
+#~ msgstr "Pakket 'debsig-verify' is  geÏnstalleer"
+
+#~ msgid ""
+#~ "The upgrade can not continue with that package installed.\n"
+#~ "Please remove it with synaptic or 'apt-get remove debsig-verify' first "
+#~ "and run the upgrade again."
+#~ msgstr ""
+#~ "Met daardie pakket geÏnstalleer, kan die opgradering nie voortgaan nie.\n"
+#~ "Verwyder asseblief eers die pakket met synaptic of `apt-get remove debsig-"
+#~ "verify' en begin dan weer die opgradering."
+
+#~ msgid "Include latest updates from the Internet?"
+#~ msgstr "Moet die nuutste opdaterings vanaf die Internet ingesluit word?"
+
+#~ msgid ""
+#~ "The upgrade system can use the internet to automatically download the "
+#~ "latest updates and install them during the upgrade.  If you have a "
+#~ "network connection this is highly recommended.\n"
+#~ "\n"
+#~ "The upgrade will take longer, but when it is complete, your system will "
+#~ "be fully up to date.  You can choose not to do this, but you should "
+#~ "install the latest updates soon after upgrading.\n"
+#~ "If you answer 'no' here, the network is not used at all."
+#~ msgstr ""
+#~ "Die opgraderingsisteem kan die Internet gebruik om outomaties die nuutste "
+#~ "opdaterings af te laai en gedurende die opgradering te installeer. Indien "
+#~ "u 'n netwerkverbinding het, word hierdie opsie hoogs aanbeveel.\n"
+#~ "\n"
+#~ "Die opgradering sal langer neem, maar sodra dit afgehandel is, sal u "
+#~ "sisteem ten volle op datum wees. U kan kies om nie hierdie roete te volg "
+#~ "nie, maar u word dan aangeraai om die nuutste opdaterings na die "
+#~ "opgradering te installeer.\n"
+#~ "Indien u hier 'nee' kies' sal die netwerk glad nie gebruik word nie."
+
+#, python-format
+#~ msgid "disabled on upgrade to %s"
+#~ msgstr "versper op opgradering na %s"
+
+#~ msgid "No valid mirror found"
+#~ msgstr "Geldige spieëlbediener nie gevind nie"
+
+#~ msgid "Repository information invalid"
+#~ msgstr "Stoorplek inligting ongeldig"
+
+#~ msgid "Third party sources disabled"
+#~ msgstr "Derde-party bronne versper"
+
+#~ msgid ""
+#~ "Some third party entries in your sources.list were disabled. You can re-"
+#~ "enable them after the upgrade with the 'software-properties' tool or your "
+#~ "package manager."
+#~ msgstr ""
+#~ "Sekere derde-party inskrywings in u sources.list is versper. U kan hul na "
+#~ "die opgradering herstel deur gebruik te maak van die 'software-"
+#~ "properties' nutsprogram of u pakket bestuurder."
+
+#~ msgid "Package in inconsistent state"
+#~ msgid_plural "Packages in inconsistent state"
+#~ msgstr[0] "Pakket in inkonsekwente toestand"
+#~ msgstr[1] "Pakkette in inkonsekwente toestand"
+
+#~ msgid "Error during update"
+#~ msgstr "Fout gedurende opdatering"
+
+#~ msgid "Calculating the changes"
+#~ msgstr "Bereken die veranderinge"
+
+#~ msgid "Do you want to start the upgrade?"
+#~ msgstr "Begin met opgradering?"
+
+#~ msgid "Upgrade canceled"
+#~ msgstr "Opgradering gekanselleer"
+
+#~ msgid "Could not download the upgrades"
+#~ msgstr "Kon nie die opgraderings aflaai nie"
+
+#~ msgid "Restoring original system state"
+#~ msgstr "Oorspronklike stelseltoestand word herstel"
+
+#~ msgid "Could not install the upgrades"
+#~ msgstr "Kon nie die opgraderings installeer nie"
+
+#~ msgid "Remove obsolete packages?"
+#~ msgstr "Verouderde pakkette verwyder?"
+
+#~ msgid "_Keep"
+#~ msgstr "_Behou"
+
+#~ msgid "_Remove"
+#~ msgstr "Sk_rap"
+
+#~ msgid ""
+#~ "A problem occurred during the clean-up. Please see the below message for "
+#~ "more information. "
+#~ msgstr ""
+#~ "'n Probleem het tydens die skoonmaak-proses ontstaan. Sien asseblief die "
+#~ "onderstaande boodskap vir verdere inligting. "
+
+#~ msgid "Checking package manager"
+#~ msgstr "Kontrolleer pakketbestuurder"
+
+#~ msgid "Preparing the upgrade failed"
+#~ msgstr "Misluk om die opgradering voor te berei"
+
+#~ msgid "Updating repository information"
+#~ msgstr "Stoorplek inligting word opgedateer"
+
+#~ msgid "Invalid package information"
+#~ msgstr "Ongeldige pakketinligting"
+
+#~ msgid "Fetching"
+#~ msgstr "Haal tans"
+
+#~ msgid "Upgrading"
+#~ msgstr "Besig om op te gradeer"
+
+#~ msgid "Searching for obsolete software"
+#~ msgstr "Soek na verouderde sagteware"
+
+#~ msgid "System upgrade is complete."
+#~ msgstr "Sisteem-opgradering voltooi."
+
+#~ msgid "The partial upgrade was completed."
+#~ msgstr "Die gedeeltelike opgradering is voltooi."
+
+#~ msgid "evms in use"
+#~ msgstr "evms in gebruik"
+
+#~ msgid "No ARMv6 CPU"
+#~ msgstr "Geen ARMv6 verwerker"
+
+#~ msgid "Sandbox upgrade using aufs"
+#~ msgstr "Sandpit-opgradering deur gebruik van aufs"
+
+#~ msgid "Use the given path to search for a cdrom with upgradable packages"
+#~ msgstr ""
+#~ "Gebruik die gegewe aanwysing om 'n CD-ROM te soek met opdaterende pakette"
+
+#~ msgid ""
+#~ "Use frontend. Currently available: \n"
+#~ "DistUpgradeViewText, DistUpgradeViewGtk, DistUpgradeViewKDE"
+#~ msgstr "Gebruik koppelvlak. Tans beskikbaar."
+
+#~ msgid "Perform a partial upgrade only (no sources.list rewriting)"
+#~ msgstr ""
+#~ "Voer slegs 'n gedeeltelike opgradering uit (sources.list nie herskryf)"
+
+#~ msgid "Set datadir"
+#~ msgstr "Stel datadir"
+
+#, python-format
+#~ msgid "Please insert '%s' into the drive '%s'"
+#~ msgstr "Plaas asseblief '%s' in dryf '%s'"
+
+#, python-format
+#~ msgid "Fetching file %li of %li at %sB/s"
+#~ msgstr "Haal lêer %li van %li teen %sB/s"
+
+#, python-format
+#~ msgid "Fetching file %li of %li"
+#~ msgstr "Haal lêer %li van %li"
+
+#~ msgid "Applying changes"
+#~ msgstr "Pas veranderings toe"
+
+#, python-format
+#~ msgid "Could not install '%s'"
+#~ msgstr "Kon nie '%s' installeer nie"
+
+#, python-format
+#~ msgid ""
+#~ "The upgrade will continue but the '%s' package may not be in a working "
+#~ "state. Please consider submitting a bug report about it."
+#~ msgstr ""
+#~ "Die opgradering sal voortgaan maar die '%s' pakket is moontlik nie in 'n "
+#~ "werkende toestand nie. Oorweeg dit asseblief om hierdie fout te "
+#~ "rapporteer."
+
+#~ msgid ""
+#~ "You will lose any changes you have made to this configuration file if you "
+#~ "choose to replace it with a newer version."
+#~ msgstr ""
+#~ "U sal enige veranderinge wat u aan hierdie instellingslêer gemaak het "
+#~ "verloor indien u kies om dit met 'n nuwer weergawe te vervang."
+
+#~ msgid "The 'diff' command was not found"
+#~ msgstr "Die 'diff' bevel is nie gevind nie"
+
+#~ msgid "A fatal error occurred"
+#~ msgstr "'n Fatale fout het voorgekom"
+
+#~ msgid "Ctrl-c pressed"
+#~ msgstr "Ctrl-c gedruk"
+
+#~ msgid "To prevent data loss close all open applications and documents."
+#~ msgstr ""
+#~ "Om dataverlies te voorkom, sluit asseblief alle toepassings en dokumente."
+
+#~ msgid "Media Change"
+#~ msgstr "Media verwisseling"
+
+#~ msgid "Show Difference >>>"
+#~ msgstr "Toon verskil >>>"
+
+#~ msgid "<<< Hide Difference"
+#~ msgstr "<<< Versteek verskil"
+
+#~ msgid "Error"
+#~ msgstr "Fout"
+
+#~ msgid "&Cancel"
+#~ msgstr "&Kanselleer"
+
+#~ msgid "&Close"
+#~ msgstr "&Sluit"
+
+#~ msgid "Information"
+#~ msgstr "Inligting"
+
+#~ msgid "Details"
+#~ msgstr "Besonderhede"
+
+#, python-format
+#~ msgid "Remove (was auto installed) %s"
+#~ msgstr "Verwyder (is outomaties geïinstalleer) %s"
+
+#, python-format
+#~ msgid "Upgrade %s"
+#~ msgstr "Opgradeer %s"
+
+#~ msgid "<b><big>Restart the system to complete the upgrade</big></b>"
+#~ msgstr "<b><big>Herlaai die sisteem om die opgradering te voltooi</big></b>"
+
+#~ msgid "Cancel Upgrade?"
+#~ msgstr "Opgradering kanselleer?"
+
+#, python-format
+#~ msgid "%li day"
+#~ msgid_plural "%li days"
+#~ msgstr[0] "%li dag"
+#~ msgstr[1] "%li dae"
+
+#, python-format
+#~ msgid "%li hour"
+#~ msgid_plural "%li hours"
+#~ msgstr[0] "%li uur"
+#~ msgstr[1] "%li ure"
+
+#, python-format
+#~ msgid "%li minute"
+#~ msgid_plural "%li minutes"
+#~ msgstr[0] "%li minuut"
+#~ msgstr[1] "%li minute"
+
+#, python-format
+#~ msgid "%li second"
+#~ msgid_plural "%li seconds"
+#~ msgstr[0] "%li sekond"
+#~ msgstr[1] "%li sekondes"
+
+#~ msgid "Preparing to upgrade"
+#~ msgstr "Maak gereed vir opgradering"
+
+#~ msgid "Getting new packages"
+#~ msgstr "Verkry nuwe pakkette"
+
+#~ msgid "Cleaning up"
+#~ msgstr "Besig om skoon te maak"
+
+#, python-format
+#~ msgid "%d new package is going to be installed."
+#~ msgid_plural "%d new packages are going to be installed."
+#~ msgstr[0] "%d nuwe pakket gaan geïinstalleer word."
+#~ msgstr[1] "%d nuwe pakkette gaan geïinstalleer word."
+
+#, python-format
+#~ msgid "%d package is going to be upgraded."
+#~ msgid_plural "%d packages are going to be upgraded."
+#~ msgstr[0] "%d pakket gaan opgegradeer word."
+#~ msgstr[1] "%d pakkette gaan opgegradeer word."
+
+#, python-format
+#~ msgid ""
+#~ "\n"
+#~ "\n"
+#~ "You have to download a total of %s. "
+#~ msgstr ""
+#~ "\n"
+#~ "\n"
+#~ "U moet in totaal %s aflaai. "
+
+#~ msgid ""
+#~ "There are no upgrades available for your system. The upgrade will now be "
+#~ "canceled."
+#~ msgstr ""
+#~ "Daar is geen opdaterings vir u sisteem beskikbaar nie. Die opgradering "
+#~ "word nou gekanselleer."
+
+#~ msgid "Reboot required"
+#~ msgstr "Herlaai benodig"
+
+#~ msgid "Could not run the upgrade tool"
+#~ msgstr "Kon nie die opgradering-nutsprogram loop nie."
+
+#~ msgid "Upgrade tool"
+#~ msgstr "Opgradering-nutsprogram"
+
+#~ msgid "Authentication failed"
+#~ msgstr "Stawing het misluk"
+
+#~ msgid ""
+#~ "Authenticating the upgrade failed. There may be a problem with the "
+#~ "network or with the server. "
+#~ msgstr ""
+#~ "Stawing van die opgradering het misluk. Daar is moontlik 'n probleem met "
+#~ "die netwerkverbinding of die bediener. "
+
+#~ msgid "Verification failed"
+#~ msgstr "Verifikasie het misluk"
+
+#~ msgid ""
+#~ "Verifying the upgrade failed.  There may be a problem with the network or "
+#~ "with the server. "
+#~ msgstr ""
+#~ "Verifikasie van die opgradering het misluk. Daar is moontlik 'n probleem "
+#~ "met die netwerkverbinding of die bediener. "
+
+#~ msgid "Can not run the upgrade"
+#~ msgstr "Kan nie die opgradering loop nie"
+
+#, python-format
+#~ msgid "The error message is '%s'."
+#~ msgstr "Die foutboodskap is '%s'."
+
+#~ msgid "Aborting"
+#~ msgstr "Besig om te kanselleer"
+
+#~ msgid "Continue [yN] "
+#~ msgstr "Voortgaan [yN] "
+
+#~ msgid "Details [d]"
+#~ msgstr "Besonderhede [d]"
+
+#~ msgid "y"
+#~ msgstr "j"
+
+#~ msgid "n"
+#~ msgstr "n"
+
+#, python-format
+#~ msgid "Remove: %s\n"
+#~ msgstr "Verwyder: %s\n"
+
+#, python-format
+#~ msgid "Install: %s\n"
+#~ msgstr "Installeer: %s\n"
+
+#, python-format
+#~ msgid "Upgrade: %s\n"
+#~ msgstr "Opgradeer: %s\n"
+
+#~ msgid "Continue [Yn] "
+#~ msgstr "Voortgaan [Yn] "
+
+#~ msgid "_Cancel Upgrade"
+#~ msgstr "_Kanselleer opgradering"
+
+#~ msgid "_Resume Upgrade"
+#~ msgstr "He_rvat opgradering"
+
+#~ msgid "_Start Upgrade"
+#~ msgstr "_Begin opgradering"
+
+#~ msgid "_Replace"
+#~ msgstr "Ve_rvang"
+
+#~ msgid "Difference between the files"
+#~ msgstr "Verskil tussen die lêers"
+
+#~ msgid "_Report Bug"
+#~ msgstr "_Rapporteer fout"
+
+#~ msgid "<b><big>Start the upgrade?</big></b>"
+#~ msgstr "<b><big>Begin met opgradering?</big></b>"
+
+#~ msgid ""
+#~ "<b><big>Restart the system to complete the upgrade</big></b>\n"
+#~ "\n"
+#~ "Please save your work before continuing."
+#~ msgstr ""
+#~ "<b><big>Herlaai die sisteem om die opgradering te voltooi</big></b>\n"
+#~ "\n"
+#~ "Stoor asseblief u werk voordat u voortgaan."
+
+#~ msgid "    "
+#~ msgstr "    "
+
+#~ msgid "Restarting the computer"
+#~ msgstr "Herlaai die rekenaar"
+
+#~ msgid "Terminal"
+#~ msgstr "Terminaal"
+
+#~ msgid "The server may be overloaded. "
+#~ msgstr "Die bediener is dalk oorlaai. "
+
+#~ msgid "Please check your internet connection."
+#~ msgstr "Kontrolleer asseblief u Internet-verbinding."
+
+#~ msgid "Downloading additional package files..."
+#~ msgstr "Laai bykomende pakketlêers af..."
+
+#, python-format
+#~ msgid "File %s of %s at %sB/s"
+#~ msgstr "Lêer %s van %s teen %sB/s"
+
+#, python-format
+#~ msgid "File %s of %s"
+#~ msgstr "Lêer %s van %s"
+
+#, python-format
+#~ msgid "Downloading file %(current)li of %(total)li with %(speed)s/s"
+#~ msgstr "Laai lêer %(current)li van %(total)li af teen %(speed)s/s"
+
+#, python-format
+#~ msgid "Downloading file %(current)li of %(total)li"
+#~ msgstr "Laai lêer %(current)li van %(total)li af"
+
+#~ msgid "Reading package information"
+#~ msgstr "Lees pakketinligting"
+
+#~ msgid " (New install)"
+#~ msgstr " (Nuwe installasie)"
+
+#, python-format
+#~ msgid "(Size: %s)"
+#~ msgstr "(Grootte: %s)"
+
+#, python-format
+#~ msgid "From version %(old_version)s to %(new_version)s"
+#~ msgstr "Van weergawe %(old_version)s na weergawe %(new_version)s"
+
+#, python-format
+#~ msgid "Version %s"
+#~ msgstr "Weergawe %s"
+
+#~ msgid "Cancel"
+#~ msgstr "Kanselleer"
+
+#, python-format
+#~ msgid "Other updates (%s)"
+#~ msgstr "Ander opdaterings (%s)"
+
+#~ msgid "Recommended updates"
+#~ msgstr "Aanbevole opdaterings"
+
+#~ msgid "Proposed updates"
+#~ msgstr "Voorgestelde updaterings"
+
+#, fuzzy
+#~ msgid "<big><b>Starting Software Updater</b></big>"
+#~ msgstr "<b><big>Begin met opgradering?</big></b>"
+
+#, fuzzy
+#~ msgid "Starting Software Updater"
+#~ msgstr "Herlaai die rekenaar"
+
+#~ msgid ""
+#~ "<b>A new version of Ubuntu is available. Would you like to upgrade?</b>"
+#~ msgstr ""
+#~ "<b>'n Nuwe weergawe van Ubuntu is beskikbaar. Wil u graag opgradeer?</b>"
+
+#~ msgid "Don't Upgrade"
+#~ msgstr "Moenie opgradeer nie"
+
+#~ msgid "Yes, Upgrade Now"
+#~ msgstr "Ja, Opgradeer Nou"
+
+#~ msgid "Try to run a dist-upgrade"
+#~ msgstr "Probeer 'n dist-upgrade te loop"
+
+#~ msgid "Ubuntu %(version)s Upgrade Available"
+#~ msgstr "Ubuntu %(version)s opgradering beskikbaar"
+
+#~ msgid "Welcome to Ubuntu"
+#~ msgstr "Welkom by Ubuntu"
+
+#~ msgid ""
+#~ "This upgrade is running in sandbox (test) mode. All changes are written "
+#~ "to '%s' and will be lost on the next reboot.\n"
+#~ "\n"
+#~ "*No* changes written to a systemdir from now until the next reboot are "
+#~ "permanent."
+#~ msgstr ""
+#~ "Hierdie opgradering loop in sandpit- (toets-) modus. Alle veranderinge "
+#~ "word na '%s' geskryf en sal verlore gaan sodra die rekenaar weer oplaai.\n"
+#~ "\n"
+#~ "Tot die volgende oplaai sal *geen* verdere veranderinge aan 'n systemdir "
+#~ "permanent wees nie."
+
+#~ msgid "Your system is up-to-date"
+#~ msgstr "U sisteem is op datum."

@@ -1,0 +1,2450 @@
+# Esperanto translation for update-manager
+# Copyright (c) (c) 2006 Canonical Ltd, and Rosetta Contributors 2006
+# This file is distributed under the same license as the update-manager package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2006.
+#
+#: ../UpdateManager/UpdatesAvailable.py:847
+msgid ""
+msgstr ""
+"Project-Id-Version: update-manager\n"
+"Report-Msgid-Bugs-To: sebastian.heinlein@web.de\n"
+"POT-Creation-Date: 2021-12-07 16:54-0800\n"
+"PO-Revision-Date: 2012-03-21 15:10+0000\n"
+"Last-Translator: Michael Moroni <michael.moroni@mailoo.org>\n"
+"Language-Team: Esperanto <eo@li.org>\n"
+"Language: eo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Launchpad-Export-Date: 2012-04-17 13:40+0000\n"
+"X-Generator: Launchpad (build 15099)\n"
+
+#: ../UpdateManager/backend/InstallBackendAptdaemon.py:150
+#, fuzzy
+msgid "Checking for updates…"
+msgstr "Kontroli por ĝisdatigoj"
+
+#: ../UpdateManager/backend/InstallBackendAptdaemon.py:200
+#: ../UpdateManager/backend/InstallBackendAptdaemon.py:256
+#: ../UpdateManager/backend/InstallBackendAptdaemon.py:287
+#, fuzzy
+msgid "Installing updates…"
+msgstr "_Instali ĝisdatigojn"
+
+#: ../UpdateManager/backend/InstallBackendSynaptic.py:39
+msgid "Please wait, this can take some time."
+msgstr "Bonvolu atendi. Tio eble longe daŭros."
+
+#: ../UpdateManager/backend/InstallBackendSynaptic.py:41
+msgid "Update is complete"
+msgstr "Ĝisdatigado estas finita."
+
+#: ../UpdateManager/backend/__init__.py:277
+msgid "Updating snaps"
+msgstr ""
+
+#: ../UpdateManager/backend/__init__.py:304
+#, python-format
+msgid "Refreshing %s snap"
+msgstr ""
+
+#: ../UpdateManager/backend/__init__.py:310
+#, fuzzy, python-format
+msgid "Removing %s snap"
+msgstr "Forigi %s"
+
+#: ../UpdateManager/backend/__init__.py:315
+#, fuzzy, python-format
+msgid "Installing %s snap"
+msgstr "Instali je %s"
+
+#: ../UpdateManager/backend/__init__.py:324
+#, fuzzy
+msgid "Upgrade only partially completed."
+msgstr "Ĝisdatigo finita"
+
+#: ../UpdateManager/backend/__init__.py:325
+#, fuzzy
+msgid ""
+"An error occurred while updating snaps. Please check your network connection."
+msgstr ""
+"Problemo okazis dum la ĝisdatigo. Kutime tio okazas pro iu reta problemo, "
+"bonvolu kontroli vian retan konekton kaj reprovi."
+
+#: ../UpdateManager/ChangelogViewer.py:83
+msgid "Open Link in Browser"
+msgstr "Malfermi ligilon en foliumilo"
+
+#: ../UpdateManager/ChangelogViewer.py:87
+msgid "Copy Link to Clipboard"
+msgstr "Kopii ligilon al tondejo"
+
+#: ../UpdateManager/Dialogs.py:126
+#, fuzzy
+msgid "Settings…"
+msgstr "_Agordoj..."
+
+#: ../UpdateManager/Dialogs.py:171
+msgid ""
+"<b>Tip:</b> You can use Livepatch to keep your computer more secure between "
+"restarts."
+msgstr ""
+
+#: ../UpdateManager/Dialogs.py:174
+msgid "Settings & Livepatch…"
+msgstr ""
+
+#: ../UpdateManager/Dialogs.py:188
+#, python-format
+msgid "%d Livepatch update applied since the last restart."
+msgid_plural "%d Livepatch updates applied since the last restart."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../UpdateManager/Dialogs.py:196
+#, python-format
+msgid "%d Livepatch update failed to apply since the last restart."
+msgid_plural "%d Livepatch updates failed to apply since the last restart."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../UpdateManager/Dialogs.py:218 ../UpdateManager/UpdateManager.py:292
+#, fuzzy
+msgid "You stopped the check for updates."
+msgstr "Ne kontroli por ĝisdatigoj dum startigo"
+
+#: ../UpdateManager/Dialogs.py:220
+msgid "_Check Again"
+msgstr ""
+
+#: ../UpdateManager/Dialogs.py:232
+#, fuzzy
+msgid "No software updates are available."
+msgstr "Ĝisdatigoj de programaroj disponeblas por ĉi tiu komputilo."
+
+#: ../UpdateManager/Dialogs.py:234 ../UpdateManager/Dialogs.py:245
+msgid "The software on this computer is up to date."
+msgstr "La programaro sur ĉi tiu komputilo estas ĝisdata."
+
+#. Translators: these are Ubuntu version names like "Ubuntu 12.04"
+#: ../UpdateManager/Dialogs.py:247
+#, python-format
+msgid "However, %s %s is now available (you have %s)."
+msgstr ""
+
+#: ../UpdateManager/Dialogs.py:252
+#, fuzzy
+msgid "Upgrade…"
+msgstr "Promocii"
+
+#: ../UpdateManager/Dialogs.py:272
+#, fuzzy
+msgid "New important security and hardware support update."
+msgstr "Gravaj sekurecaj ĝisdatigoj"
+
+#: ../UpdateManager/Dialogs.py:280
+#, fuzzy
+msgid "_Install…"
+msgstr "Instali"
+
+#. Translators: this is an Ubuntu version name like "Ubuntu 12.04"
+#: ../UpdateManager/Dialogs.py:292
+#, fuzzy, python-format
+msgid "Software updates are no longer provided for %s %s."
+msgstr "Ĝisdatigoj de programaroj disponeblas por ĉi tiu komputilo."
+
+#. Translators: this is an Ubuntu version name like "Ubuntu 12.04"
+#: ../UpdateManager/Dialogs.py:296
+#, python-format
+msgid "To stay secure, you should upgrade to %s %s."
+msgstr ""
+
+#: ../UpdateManager/Dialogs.py:309
+msgid "Sorry, there are no more upgrades for this system"
+msgstr ""
+
+#. Translators: this is an Ubuntu version name like "Ubuntu 12.04"
+#: ../UpdateManager/Dialogs.py:311
+#, python-format
+msgid ""
+"\n"
+"There will not be any further Ubuntu releases for this system's '%s' "
+"architecture.\n"
+"\n"
+"Updates for Ubuntu %s will continue until 2023-04-26.\n"
+"\n"
+"If you reinstall Ubuntu from ubuntu.com/download, future upgrades will be "
+"available."
+msgstr ""
+
+#: ../UpdateManager/Dialogs.py:325
+#, fuzzy
+msgid "Not all updates can be installed"
+msgstr "<big><b>Ne ĉiuj ĝisdatigoj estas instaleblaj</b></big>"
+
+#: ../UpdateManager/Dialogs.py:327
+#, fuzzy
+msgid ""
+"Run a partial upgrade, to install as many updates as possible.\n"
+"\n"
+"    This can be caused by:\n"
+"     * A previous upgrade which didn't complete\n"
+"     * Problems with some of the installed software\n"
+"     * Unofficial software packages not provided by Ubuntu\n"
+"     * Normal changes of a pre-release version of Ubuntu"
+msgstr ""
+"Rulu partan ĝisdatigon por instali kiom eble plej multe da ĝisdatigoj. \n"
+"\n"
+"Tio povas esti kaŭzata de:\n"
+"\n"
+" * Antaŭa promocio kiu ne kompletiĝis\n"
+" * Problemoj kun kelkaj instalitaj programoj\n"
+" * Neoficialaj programpakaĵoj nesubtenataj de Ubuntu\n"
+" * Kutimaj ŝanĝoj de antaŭ-eldono de Ubuntu"
+
+#: ../UpdateManager/Dialogs.py:335
+msgid "_Partial Upgrade"
+msgstr "_Parta ĝisdatigo"
+
+#: ../UpdateManager/Dialogs.py:336
+msgid "_Continue"
+msgstr "_Daŭrigu"
+
+#: ../UpdateManager/Dialogs.py:372
+msgid "_Try Again"
+msgstr ""
+
+#: ../UpdateManager/Dialogs.py:386
+#, fuzzy
+msgid "The computer needs to restart to finish installing updates."
+msgstr ""
+"Necesas restartigi la komputilon por fini la instaladon de ĝisdatigoj. "
+"Bonvolu konservi vian laboron antaŭ ol daŭrigi."
+
+#: ../UpdateManager/Dialogs.py:388
+#, fuzzy
+msgid "Restart _Later"
+msgstr "Necesas restartigo"
+
+#: ../UpdateManager/Dialogs.py:390
+msgid "_Restart Now"
+msgstr "_Restartigi nun"
+
+#. Basic GTK+ parameters
+#: ../UpdateManager/UpdateManager.py:96 ../data/update-manager.desktop.in.h:1
+#: ../data/update-manager.appdata.xml.in.h:1
+#, fuzzy
+msgid "Software Updater"
+msgstr "Programaj ĝisdatigoj"
+
+#: ../UpdateManager/UpdateManager.py:290
+msgid "Some software couldn’t be checked for updates."
+msgstr ""
+
+#: ../UpdateManager/UpdateManager.py:293
+msgid "Updated software is available from a previous check."
+msgstr ""
+
+#. we assert a clean cache
+#: ../UpdateManager/UpdateManager.py:400
+msgid "Software index is broken"
+msgstr "Indekso de programaroj estas difektita"
+
+#: ../UpdateManager/UpdateManager.py:401
+msgid ""
+"It is impossible to install or remove any software. Please use the package "
+"manager \"Synaptic\" or run \"sudo apt-get install -f\" in a terminal to fix "
+"this issue at first."
+msgstr ""
+"Ne eblas instali aŭ forigi ian programaron. Bonvolu unue uzi la pakaĵan "
+"mastrumilon \"Synaptic\" aŭ ruli la komandon \"sudo apt-get install -f\" en "
+"terminalo por ripari ĉi/tiun problemon."
+
+#: ../UpdateManager/UpdateManager.py:408
+msgid "Could not initialize the package information"
+msgstr "Ne eblis pravalorizi la pakaĵajn informojn"
+
+#: ../UpdateManager/UpdateManager.py:409
+msgid ""
+"An unresolvable problem occurred while initializing the package "
+"information.\n"
+"\n"
+"Please report this bug against the 'update-manager' package and include the "
+"following error message:\n"
+msgstr ""
+"Nesolvebla problemo okazis dum pravalorizado de la pakaĵinformoj.\n"
+"\n"
+"Bonvolu raporti ĉi tiun cimon pri la pakaĵo 'update-manager' kaj inkluzivu "
+"la jenan erarmesaĝon:\n"
+
+#: ../UpdateManager/UpdateManager.py:437
+msgid "Could not calculate the upgrade"
+msgstr "Ne eblas kalkuli la ĝisdatigon"
+
+#: ../UpdateManager/UpdateManager.py:438
+#, fuzzy
+msgid ""
+"An unresolvable problem occurred while calculating the upgrade.\n"
+"\n"
+"Please report this bug against the 'update-manager' package and include the "
+"following error message:\n"
+msgstr ""
+"Nesolvebla problemo okazis dum kalkulado de la ĝisdatigo.\n"
+"\n"
+"Bonvolu raporti ĉi tiun cimon pri la pakaĵo 'update-manager' kaj inkluzivu "
+"la jenan erarmesaĝon:"
+
+#: ../UpdateManager/UpdatesAvailable.py:252
+#, fuzzy
+msgid "Install Now"
+msgstr "Instali"
+
+#: ../UpdateManager/UpdatesAvailable.py:285
+#, fuzzy
+msgid "Install or remove"
+msgstr "Instali"
+
+#: ../UpdateManager/UpdatesAvailable.py:319
+msgid "Download"
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:378
+#, fuzzy
+msgid "_Remind Me Later"
+msgstr "Demandi al mi poste"
+
+#. upload_archive = version_match.group(2).strip()
+#: ../UpdateManager/UpdatesAvailable.py:515
+#, python-format
+msgid "Version %s: \n"
+msgstr "Versio %s: \n"
+
+#: ../UpdateManager/UpdatesAvailable.py:580
+msgid ""
+"No network connection detected, you can not download changelog information."
+msgstr ""
+"Neniu retkonekto detektita, vi ne povos elŝuti ŝanĝoprotokolajn informojn."
+
+#: ../UpdateManager/UpdatesAvailable.py:590
+msgid "Downloading list of changes..."
+msgstr "Elŝutante liston de ŝanĝoj..."
+
+#: ../UpdateManager/UpdatesAvailable.py:634
+msgid "_Deselect All"
+msgstr "Ma_lelekti ĉiujn"
+
+#: ../UpdateManager/UpdatesAvailable.py:640
+msgid "Select _All"
+msgstr "_Elekti ĉiujn"
+
+#: ../UpdateManager/UpdatesAvailable.py:736
+#, python-format
+msgid "%s will be downloaded."
+msgstr "%s estas elŝutota."
+
+#: ../UpdateManager/UpdatesAvailable.py:750
+#, fuzzy
+msgid "The update has already been downloaded."
+msgid_plural "The updates have already been downloaded."
+msgstr[0] "La promocio estas jam elŝutita, sed ankoraŭ ne instalita."
+msgstr[1] "La promocioj estas jam elŝutitaj, sed ankoraŭ ne instalitaj."
+
+#: ../UpdateManager/UpdatesAvailable.py:756
+msgid "There are no updates to install."
+msgstr "Estas neniu instalebla ĝisdatigo."
+
+#: ../UpdateManager/UpdatesAvailable.py:765
+msgid "Unknown download size."
+msgstr "Nekonata elŝutgrando."
+
+#: ../UpdateManager/UpdatesAvailable.py:792
+#, python-format
+msgid ""
+"Updated software has been issued since %s %s was released. Do you want to "
+"install it now?"
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:797
+msgid ""
+"Updated software is available for this computer. Do you want to install it "
+"now?"
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:800
+#, fuzzy
+msgid ""
+"The computer also needs to restart to finish installing previous updates."
+msgstr ""
+"Necesas restartigi la komputilon por fini la instaladon de ĝisdatigoj. "
+"Bonvolu konservi vian laboron antaŭ ol daŭrigi."
+
+#. print("on_button_install_clicked")
+#: ../UpdateManager/UpdatesAvailable.py:830
+msgid "Not enough free disk space"
+msgstr "Ne estas sufiĉa libera loko en disko"
+
+#: ../UpdateManager/UpdatesAvailable.py:831
+#, fuzzy, python-format
+msgid ""
+"The upgrade needs a total of %s free space on disk '%s'. Please free at "
+"least an additional %s of disk space on '%s'. %s"
+msgstr ""
+"La ĝisdatigo postulas entute %s da libera spaco sur disko '%s'. Liberigu "
+"aldone almenaŭ %s da spaco sur '%s'. Malplenigu vian rubujon kaj forigu "
+"provizorajn pakaĵojn de antaŭaj instaloj uzante 'sudo apt-get clean'."
+
+#. specific ways to resolve lack of free space
+#: ../UpdateManager/UpdatesAvailable.py:836
+msgid ""
+"Remove temporary packages of former installations using 'sudo apt clean'."
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:838
+msgid ""
+"You can remove old kernels using 'sudo apt autoremove', and you could also "
+"set COMPRESS=xz in /etc/initramfs-tools/initramfs.conf to reduce the size of "
+"your initramfs."
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:843
+#, fuzzy
+msgid ""
+"Empty your trash and remove temporary packages of former installations using "
+"'sudo apt clean'."
+msgstr ""
+"La ĝisdatigo postulas entute %s da libera spaco sur disko '%s'. Liberigu "
+"aldone almenaŭ %s da spaco sur '%s'. Malplenigu vian rubujon kaj forigu "
+"provizorajn pakaĵojn de antaŭaj instaloj uzante 'sudo apt-get clean'."
+
+#: ../UpdateManager/UpdatesAvailable.py:846
+msgid "Reboot to clean up files in /tmp."
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:888
+msgid "Connecting..."
+msgstr "Konektante..."
+
+#: ../UpdateManager/UpdatesAvailable.py:904
+msgid "You may not be able to check for updates or download new updates."
+msgstr ""
+"Povas esti ke vi ne povos kontroli por novaj ĝisdatigoj aŭ elŝuti novajn."
+
+#: ../UpdateManager/UpdatesAvailable.py:1056
+msgid "Improved hardware support"
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:1060
+#, fuzzy
+msgid "Security updates"
+msgstr "Gravaj sekurecaj ĝisdatigoj"
+
+#: ../UpdateManager/UpdatesAvailable.py:1064
+msgid "Other updates"
+msgstr "Aliaj ĝisdatigoj"
+
+#: ../UpdateManager/UpdatesAvailable.py:1067
+msgid "Updates"
+msgstr "Ĝisdatigoj"
+
+#: ../UpdateManager/UpdatesAvailable.py:1072
+msgid "Unused kernel updates to be removed"
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:1077
+#, fuzzy
+msgid "Duplicate packages to be removed"
+msgstr "%d pakaĵo estas forigota."
+
+#: ../UpdateManager/UnitySupport.py:70
+msgid "Install All Available Updates"
+msgstr "Instali ĉiujn disponeblajn ĝisdatigojn"
+
+#: ../UpdateManager/Core/MyCache.py:417
+msgid "This update does not come from a source that supports changelogs."
+msgstr "Ĉi tiu ĝisdatigo ne devenas de fonto, kiu subtenas ŝanĝoprotokolojn."
+
+#: ../UpdateManager/Core/MyCache.py:423 ../UpdateManager/Core/MyCache.py:458
+msgid ""
+"Failed to download the list of changes. \n"
+"Please check your Internet connection."
+msgstr ""
+"Malsukcesis elŝuti la liston de ŝanĝoj. \n"
+"Bonvolu kontroli vian interretan konekton."
+
+#: ../UpdateManager/Core/MyCache.py:430
+#, fuzzy, python-format
+msgid ""
+"Changes for %s versions:\n"
+"Installed version: %s\n"
+"Available version: %s\n"
+"\n"
+msgstr ""
+"Ŝanĝoj inter la versioj:\n"
+"Instalita versio: %s\n"
+"Disponebla versio: %s\n"
+"\n"
+
+#: ../UpdateManager/Core/MyCache.py:444
+#, python-format
+msgid ""
+"The changelog does not contain any relevant changes.\n"
+"\n"
+"Please use http://launchpad.net/ubuntu/+source/%s/%s/+changelog\n"
+"until the changes become available or try again later."
+msgstr ""
+"La protokolo de ŝanĝoj enhavas neniun ajn rilatan ŝanĝon.\n"
+"\n"
+"Uzu http://launchpad.net/ubuntu/+source/%s/%s/+changelog\n"
+"ĝis la ŝanĝoj ekhaveblos aŭ reprovu poste."
+
+#: ../UpdateManager/Core/MyCache.py:451
+#, python-format
+msgid ""
+"The list of changes is not available yet.\n"
+"\n"
+"Please use http://launchpad.net/ubuntu/+source/%s/%s/+changelog\n"
+"until the changes become available or try again later."
+msgstr ""
+"La listo de ŝanĝoj ankoraŭ ne estas havebla.\n"
+"\n"
+"Bonvolu uzi http://launchpad.net/ubuntu/+source/%s/%s/+changelog\n"
+"ĝis kiam la ŝanĝoj iĝos haveblaj aŭ poste reprovi."
+
+#. Translators: the %s is a distro name, like 'Ubuntu' and 'base' as in
+#. the core components and packages.
+#: ../UpdateManager/Core/UpdateList.py:175
+#, python-format
+msgid "%s base"
+msgstr ""
+
+#. TRANSLATORS: download size of small updates, e.g. "250 kB"
+#: ../UpdateManager/Core/utils.py:483
+#, python-format
+msgid "%(size).0f kB"
+msgid_plural "%(size).0f kB"
+msgstr[0] "%(size).0f kB"
+msgstr[1] "%(size).0f kB"
+
+#. TRANSLATORS: download size of updates, e.g. "2.3 MB"
+#: ../UpdateManager/Core/utils.py:487
+#, python-format
+msgid "%.1f MB"
+msgstr "%.1f MB"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:1
+msgid "updates"
+msgstr "ĝisdatigoj"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:2
+msgid "Changes"
+msgstr "Ŝanĝoj"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:3
+msgid "Description"
+msgstr "Priskribo"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:4
+#, fuzzy
+msgid "Technical description"
+msgstr "Priskribo"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:5
+#, fuzzy
+msgid "Details of updates"
+msgstr "Priskribo de ĝisdatigo"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:6
+msgid "The computer will need to restart."
+msgstr ""
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:7
+msgid ""
+"You are connected via roaming and may be charged for the data consumed by "
+"this update."
+msgstr ""
+"Vi estas konektita per retmigrado kaj eble vi devos pagi pro la datumoj "
+"elŝutotaj por la ĝisdatigo."
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:8
+msgid ""
+"You may want to wait until you’re not using a mobile broadband connection."
+msgstr ""
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:9
+msgid "It’s safer to connect the computer to AC power before updating."
+msgstr ""
+"Estas pli sekure konekti vian komputilon al konektingo antaŭ ol ĝisdatigi."
+
+#: ../data/update-manager.desktop.in.h:2
+msgid "Software Updates"
+msgstr "Programaj ĝisdatigoj"
+
+#: ../data/update-manager.desktop.in.h:3
+#: ../data/update-manager.appdata.xml.in.h:2
+msgid "Show and install available updates"
+msgstr "Vidigi kaj instali disponeblajn ĝisdatigojn"
+
+#: ../data/update-manager.appdata.xml.in.h:3
+msgid ""
+"Software Updater checks for updates using apt and let you choose which "
+"updates to install."
+msgstr ""
+
+#: ../update-manager:71
+msgid "Show version and exit"
+msgstr "Montru la version kaj ĉesu"
+
+#: ../update-manager:74
+msgid "Directory that contains the data files"
+msgstr "Dosierujo kiu enhavas la datumdosierojn"
+
+#: ../update-manager:77
+msgid "Check if a new Ubuntu release is available"
+msgstr "Kontrolu, ĉu nova eldono de Ubuntu estas disponebla"
+
+#: ../update-manager:80
+msgid ""
+"If using the latest supported release, upgrade to the development release"
+msgstr ""
+
+#: ../update-manager:84
+msgid "Upgrade using the latest proposed version of the release upgrader"
+msgstr "Ĝisdatigi uzante la laste proponitan version de la eldonĝisdatigilo"
+
+#. TRANSLATORS: this describes the "focus-on-map" gtk
+#. property that controls if a new window takes the
+#. input focus control when it is displayed for the
+#. first time (see also the gtk devhelp page)
+#: ../update-manager:91
+msgid "Do not focus on map when starting"
+msgstr "Ne enfokusigi al mapo dum starto"
+
+#: ../update-manager:94
+msgid "Do not check for updates when starting"
+msgstr "Ne kontroli por ĝisdatigoj dum startigo"
+
+#: ../update-manager:96
+msgid "Show debug messages"
+msgstr ""
+
+#. Why do we use %s here instead of $strings or {} format placeholders?
+#. It's because we don't want to break existing translations.
+#: ../janitor/plugincore/exceptions.py:43
+#, python-format
+msgid "Unimplemented method: %s"
+msgstr "Nerealigita metodo: %s"
+
+#: ../janitor/plugincore/core/file_cruft.py:41
+msgid "A file on disk"
+msgstr "Dosiero sur disko"
+
+#: ../janitor/plugincore/core/missing_package_cruft.py:40
+msgid "Install missing package."
+msgstr "Instali mankantan pakaĵon"
+
+#. 2012-06-08 BAW: i18n string; don't use {} or PEP 292.
+#: ../janitor/plugincore/core/missing_package_cruft.py:50
+#, python-format
+msgid "Package %s should be installed."
+msgstr "Pakaĵo %s estu instalita."
+
+#: ../janitor/plugincore/core/package_cruft.py:50
+msgid ".deb package"
+msgstr ".deb-pakaĵo"
+
+#: ../janitor/plugincore/plugins/langpack_manual_plugin.py:47
+#, python-format
+msgid "%s needs to be marked as manually installed."
+msgstr "Necesas marki %s kiel permanan instalaĵon."
+
+#: ../janitor/plugincore/plugins/kdelibs4to5_plugin.py:50
+msgid ""
+"When upgrading, if kdelibs4-dev is installed, kdelibs5-dev needs to be "
+"installed. See bugs.launchpad.net, bug #279621 for details."
+msgstr ""
+"Kiam dum promocio la dosiero kdelibs4-dev estas instalita, kdelibs5-dev "
+"devos esti instalata. Vidu bugs.launchpad.net, cimo #279621 por detaloj."
+
+#: ../janitor/plugincore/plugins/dpkg_status_plugin.py:45
+#, python-format
+msgid "%i obsolete entries in the status file"
+msgstr "%i arkaikaj eroj en la statdosiero"
+
+#: ../janitor/plugincore/plugins/dpkg_status_plugin.py:48
+msgid "Obsolete entries in dpkg status"
+msgstr "Arkaikaj eroj en dpkg-stato"
+
+#. pragma: no cover
+#: ../janitor/plugincore/plugins/dpkg_status_plugin.py:51
+msgid "Obsolete dpkg status entries"
+msgstr "Arkaikaj eroj de dpkg-stato"
+
+#: ../janitor/plugincore/plugins/remove_lilo_plugin.py:43
+msgid "Remove lilo since grub is also installed.(See bug #314004 for details.)"
+msgstr ""
+"Forigu 'lilo', ĉar ankaŭ 'grub' estas instalita. (Vidu detalojn en eraro n-"
+"ro 314004.)"
+
+#, python-format
+#~ msgid "Server for %s"
+#~ msgstr "Servilo por %s"
+
+#~ msgid "Main server"
+#~ msgstr "Ĉefa servilo"
+
+#~ msgid "Custom servers"
+#~ msgstr "Propraj serviloj"
+
+#~ msgid "Could not calculate sources.list entry"
+#~ msgstr "Ne eblis kalkuli eron de sources.list"
+
+#~ msgid ""
+#~ "Unable to locate any package files, perhaps this is not a Ubuntu Disc or "
+#~ "the wrong architecture?"
+#~ msgstr ""
+#~ "Neeblas trovi ajnan pakaĵdosieron. Ĉu eble ĉi tiu ne estas Ubuntu-disko "
+#~ "aŭ neĝustas ĝia arkitekturo?"
+
+#~ msgid "Failed to add the CD"
+#~ msgstr "Malsukcesis aldoni la KD"
+
+#, python-format
+#~ msgid ""
+#~ "There was a error adding the CD, the upgrade will abort. Please report "
+#~ "this as a bug if this is a valid Ubuntu CD.\n"
+#~ "\n"
+#~ "The error message was:\n"
+#~ "'%s'"
+#~ msgstr ""
+#~ "Estis eraro dum aldono de la KD, la aktualigo ĉesos. Bonvolu raporti ĉi "
+#~ "tion kiel cimon, se ĉi tio estas valida Ubuntu-KD.\n"
+#~ "\n"
+#~ "La erarmesaĝo estis:\n"
+#~ "'%s'"
+
+#~ msgid "Remove package in bad state"
+#~ msgid_plural "Remove packages in bad state"
+#~ msgstr[0] "Forigi pakaĵon en erara stato"
+#~ msgstr[1] "Forigi pakaĵojn en erara stato"
+
+#, python-format
+#~ msgid ""
+#~ "The package '%s' is in an inconsistent state and needs to be reinstalled, "
+#~ "but no archive can be found for it. Do you want to remove this package "
+#~ "now to continue?"
+#~ msgid_plural ""
+#~ "The packages '%s' are in an inconsistent state and need to be "
+#~ "reinstalled, but no archives can be found for them. Do you want to remove "
+#~ "these packages now to continue?"
+#~ msgstr[0] ""
+#~ "La pakaĵo '%s' estas en nekohera stato kaj estas reinstalenda, sed neniu "
+#~ "arkivo estas trovebla por ĝi. Ĉu vi volas forigi ĉi tiun pakaĵon nun por "
+#~ "daŭrigi?"
+#~ msgstr[1] ""
+#~ "La pakaĵoj '%s' estas en nekohera stato kaj estas reinstalendaj, sed "
+#~ "neniu arkivo estas trovebla por ili. Ĉu vi volas forigi ĉi tiujn pakaĵojn "
+#~ "nun por daŭrigi?"
+
+#~ msgid "The server may be overloaded"
+#~ msgstr "Eble la servilo estas superŝarĝita"
+
+#~ msgid "Broken packages"
+#~ msgstr "Difektaj pakaĵoj"
+
+#~ msgid ""
+#~ "Your system contains broken packages that couldn't be fixed with this "
+#~ "software. Please fix them first using synaptic or apt-get before "
+#~ "proceeding."
+#~ msgstr ""
+#~ "Via sistemo enhavas difektajn pakaĵojn, kiujn ĉi tiu programo ne povas "
+#~ "ripari. Bonvolu ripari ilin per Synaptic aŭ Apt-get antaŭ ol daŭrigi."
+
+#, python-format
+#~ msgid ""
+#~ "An unresolvable problem occurred while calculating the upgrade:\n"
+#~ "%s\n"
+#~ "\n"
+#~ " This can be caused by:\n"
+#~ " * Upgrading to a pre-release version of Ubuntu\n"
+#~ " * Running the current pre-release version of Ubuntu\n"
+#~ " * Unofficial software packages not provided by Ubuntu\n"
+#~ "\n"
+#~ msgstr ""
+#~ "Nesolvebla problemo okazis dum kalkulado de la ĝisdatigo:\n"
+#~ "%s\n"
+#~ "\n"
+#~ " Ĉi tio estas kaŭzebla de:\n"
+#~ " * Ĝisdatigado al antaŭeldona versio de Ubuntu\n"
+#~ " * Rulado de la nuna antaŭeldona versio de Ubuntu\n"
+#~ " * Neoficiala programaraj pakaĵoj ne provizitaj de Ubuntu\n"
+#~ "\n"
+
+#~ msgid "This is most likely a transient problem, please try again later."
+#~ msgstr "Ĉi tio probable estas maldaŭra problemo, bonvolu reprovi poste."
+
+#~ msgid ""
+#~ "If none of this applies, then please report this bug using the command "
+#~ "'ubuntu-bug update-manager' in a terminal."
+#~ msgstr ""
+#~ "Se neniu el ĉi tiuj aplikas, do bonvolu raporti tion kiel cimo per la "
+#~ "komando 'ubuntu-bug update-manager' en terminalo."
+
+#~ msgid "Error authenticating some packages"
+#~ msgstr "Eraro dum aŭtentigado de iuj pakaĵoj"
+
+#~ msgid ""
+#~ "It was not possible to authenticate some packages. This may be a "
+#~ "transient network problem. You may want to try again later. See below for "
+#~ "a list of unauthenticated packages."
+#~ msgstr ""
+#~ "Ne eblis aŭtentigi iujn pakaĵojn, eble pro maldaŭra reta problemo. Eble "
+#~ "vi volas reprovi poste. Vidu malsupre por listo de neaŭtentigitaj pakaĵoj."
+
+#, python-format
+#~ msgid ""
+#~ "The package '%s' is marked for removal but it is in the removal blacklist."
+#~ msgstr ""
+#~ "La pakaĵo '%s' estas markita por forigi sed ĝi estas en la nigra listo "
+#~ "por forigoj."
+
+#, python-format
+#~ msgid "The essential package '%s' is marked for removal."
+#~ msgstr "La esenca pakaĵo '%s' estas markita por forigi."
+
+#, python-format
+#~ msgid "Trying to install blacklisted version '%s'"
+#~ msgstr "Provo instali version '%s', kiu estas en la nigra listo"
+
+#, python-format
+#~ msgid "Can't install '%s'"
+#~ msgstr "Ne eblis instalo de '%s'"
+
+#~ msgid ""
+#~ "It was impossible to install a required package. Please report this as a "
+#~ "bug using 'ubuntu-bug update-manager' in a terminal."
+#~ msgstr ""
+#~ "Instalado de postulataj pakaĵoj neeblas. Bonvolu raporti tion kiel cimo "
+#~ "per la komando 'ubuntu-bug update-manager' en terminalo."
+
+#~ msgid "Can't guess meta-package"
+#~ msgstr "Ne eblas diveni meta-pakaĵon"
+
+#~ msgid ""
+#~ "Your system does not contain a ubuntu-desktop, kubuntu-desktop, xubuntu-"
+#~ "desktop or edubuntu-desktop package and it was not possible to detect "
+#~ "which version of Ubuntu you are running.\n"
+#~ " Please install one of the packages above first using synaptic or apt-get "
+#~ "before proceeding."
+#~ msgstr ""
+#~ "Via sistemo ne enhavas pakaĵon ubuntu-desktop, kubuntu-desktop, xubuntu-"
+#~ "desktop aŭ edubuntu-desktop kaj ne eblis detekti kiun version de Ubuntu "
+#~ "vi rulas.\n"
+#~ " Bonvolu unue instali iun el la suprajn pakaĵojn uzante synaptic aŭ apt-"
+#~ "get antaŭ ol daŭrigi."
+
+#~ msgid "Reading cache"
+#~ msgstr "Legado de kaŝmemoro"
+
+#~ msgid "Unable to get exclusive lock"
+#~ msgstr "Ne eblas ekskluzive ŝlosi."
+
+#~ msgid ""
+#~ "This usually means that another package management application (like apt-"
+#~ "get or aptitude) already running. Please close that application first."
+#~ msgstr ""
+#~ "Tio plej ofte signifas ke alia pakaĵomastruma aplikaĵo (eble apt-get aŭ "
+#~ "aptitude) jam ruliĝas. Bonvolu unue fermi tiun aplikaĵon."
+
+#~ msgid "Upgrading over remote connection not supported"
+#~ msgstr "Promociado trans fora konekto ne subtenata"
+
+#~ msgid ""
+#~ "You are running the upgrade over a remote ssh connection with a frontend "
+#~ "that does not support this. Please try a text mode upgrade with 'do-"
+#~ "release-upgrade'.\n"
+#~ "\n"
+#~ "The upgrade will abort now. Please try without ssh."
+#~ msgstr ""
+#~ "Vi ĝisdatigas laŭ fora ssh-konekto per fasado kiu ne subtenas tion. "
+#~ "Bonvolu provi ĝisdatigadi en teksta reĝimo per 'do-release-upgrade'.\n"
+#~ "\n"
+#~ "La ĝisdatigado nun ĉesos. Bonvolu reprovi sen ssh."
+
+#~ msgid "Continue running under SSH?"
+#~ msgstr "Ĉu daŭrigi ruladon sub SSH?"
+
+#, python-format
+#~ msgid ""
+#~ "This session appears to be running under ssh. It is not recommended to "
+#~ "perform a upgrade over ssh currently because in case of failure it is "
+#~ "harder to recover.\n"
+#~ "\n"
+#~ "If you continue, an additional ssh daemon will be started at port '%s'.\n"
+#~ "Do you want to continue?"
+#~ msgstr ""
+#~ "Ŝajnas, ke ĉi tiu seanco ruliĝas laŭ ssh. Ne estas rekomendate "
+#~ "ĝisdatigadi laŭ ssh nun ĉar kaze de eraro estas pli malfacile ripari "
+#~ "ĝin.\n"
+#~ "\n"
+#~ "Se vi daŭrigas, aldona ssh-demono estos lanĉata je pordo '%s\n"
+#~ "Ĉiu vi volas daŭrigi?"
+
+#~ msgid "Starting additional sshd"
+#~ msgstr "Lanĉante ekstran sshd"
+
+#, python-format
+#~ msgid ""
+#~ "To make recovery in case of failure easier, an additional sshd will be "
+#~ "started on port '%s'. If anything goes wrong with the running ssh you can "
+#~ "still connect to the additional one.\n"
+#~ msgstr ""
+#~ "Por plifaciligi la riparon en kazo de fiasko, aldona sshd estos "
+#~ "startigata je pordo '%s'. Se io ajn fiaskas pri la ruliĝanta ssh, vi "
+#~ "ankoraŭ povos konekti al la aldona.\n"
+
+#, python-format
+#~ msgid ""
+#~ "If you run a firewall, you may need to temporarily open this port. As "
+#~ "this is potentially dangerous it's not done automatically. You can open "
+#~ "the port with e.g.:\n"
+#~ "'%s'"
+#~ msgstr ""
+#~ "Se vi uzas fajroŝirmilon, eble vi devas provizore malfermi tiun ĉi "
+#~ "pordon. Pro la potenciala danĝero tio ne aŭtomate okazas. Vi povas "
+#~ "malfermi la pordon per ekz.:\n"
+#~ "‘%s’"
+
+#~ msgid "Can not upgrade"
+#~ msgstr "Ne povas ĝisdatigi"
+
+#, python-format
+#~ msgid "An upgrade from '%s' to '%s' is not supported with this tool."
+#~ msgstr "Ĉi tiu ilo ne ebligas ĝisdatigon de '%s' al '%s'."
+
+#~ msgid "Sandbox setup failed"
+#~ msgstr "Instalo de la testludejo malsukcesis."
+
+#~ msgid "It was not possible to create the sandbox environment."
+#~ msgstr "Estis neeble krei la testludejan medion."
+
+#~ msgid "Sandbox mode"
+#~ msgstr "Testludeja reĝimo"
+
+#, python-format
+#~ msgid ""
+#~ "This upgrade is running in sandbox (test) mode. All changes are written "
+#~ "to '%s' and will be lost on the next reboot.\n"
+#~ "\n"
+#~ "*No* changes written to a system directory from now until the next reboot "
+#~ "are permanent."
+#~ msgstr ""
+#~ "Ĉi tiu promociado estas plenumata en proveja reĝimo. Ĉiuj ŝanĝoj estos "
+#~ "konservataj al ‘%s’ kaj ili estos perditaj post la sekva restartigo.\n"
+#~ "\n"
+#~ "Ekde nun ĝis la sekva restartigo, *neniu* ŝanĝo al sistemdosierujo estos "
+#~ "permanenta."
+
+#~ msgid ""
+#~ "Your python install is corrupted. Please fix the '/usr/bin/python' "
+#~ "symlink."
+#~ msgstr ""
+#~ "Via pitona instalado estas damaĝita. Bonvolu ripari la simbolan ligilon '/"
+#~ "usr/bin/python'."
+
+#~ msgid "Package 'debsig-verify' is installed"
+#~ msgstr "Pakaĵo 'debsig-verify' estas instalita."
+
+#~ msgid ""
+#~ "The upgrade can not continue with that package installed.\n"
+#~ "Please remove it with synaptic or 'apt-get remove debsig-verify' first "
+#~ "and run the upgrade again."
+#~ msgstr ""
+#~ "La ĝisdatigo ne povas progresi, dum ke tiu pakaĵo restas instalita.\n"
+#~ "Bonvolu unue forigi ĝin per synaptic aŭ 'apt-get remove debsig-verify' "
+#~ "kaj re-ruli la aktualigon."
+
+#, python-format
+#~ msgid "Can not write to '%s'"
+#~ msgstr "Ne povis konservi al ‘%s’"
+
+#, python-format
+#~ msgid ""
+#~ "Its not possible to write to the system directory '%s' on your system. "
+#~ "The upgrade can not continue.\n"
+#~ "Please make sure that the system directory is writable."
+#~ msgstr ""
+#~ "Ne eblas konservi al la sistemdosierujo ‘%s’ sur via sistemo. Ne eblas "
+#~ "daŭrigi la promociadon.\n"
+#~ "Bonvolu certigi ke la sistemdosierujo estas skribebla."
+
+#~ msgid "Include latest updates from the Internet?"
+#~ msgstr "Ĉu inkluzivi la plej lastajn ĝisdatigojn el la interreto?"
+
+#~ msgid ""
+#~ "The upgrade system can use the internet to automatically download the "
+#~ "latest updates and install them during the upgrade.  If you have a "
+#~ "network connection this is highly recommended.\n"
+#~ "\n"
+#~ "The upgrade will take longer, but when it is complete, your system will "
+#~ "be fully up to date.  You can choose not to do this, but you should "
+#~ "install the latest updates soon after upgrading.\n"
+#~ "If you answer 'no' here, the network is not used at all."
+#~ msgstr ""
+#~ "La ĝisdatigsistemo povas per la Interreto aŭtomate elŝuti la plej novajn "
+#~ "ĝisdatigojn kaj tuj instali ilin. Se vi posedas retaliron, ĉi tiu metodo "
+#~ "estas ege rekomendita.\n"
+#~ "\n"
+#~ "La ĝisdatigo daŭros pli longe, sed kiam ĝi estos preta, via sistemo estos "
+#~ "tute ĝisdatigita. Vi povas elekti ne fari ĉi tion, sed tiukaze vi prefere "
+#~ "instalu la plej novajn ĝisdatigojn baldaŭ post ĝisdatigo. Se vi respondas "
+#~ "'ne' ĉi tie, la reto estos entute ne uzata."
+
+#, python-format
+#~ msgid "disabled on upgrade to %s"
+#~ msgstr "malaktivigita dum ĝisdatigo al %s"
+
+#~ msgid "No valid mirror found"
+#~ msgstr "Ne eblis trovi validan spegulejon"
+
+#, python-format
+#~ msgid ""
+#~ "While scanning your repository information no mirror entry for the "
+#~ "upgrade was found. This can happen if you run a internal mirror or if the "
+#~ "mirror information is out of date.\n"
+#~ "\n"
+#~ "Do you want to rewrite your 'sources.list' file anyway? If you choose "
+#~ "'Yes' here it will update all '%s' to '%s' entries.\n"
+#~ "If you select 'No' the upgrade will cancel."
+#~ msgstr ""
+#~ "Serĉado en via deponejinformo ne trovis spegulan valoron por la "
+#~ "ĝisdatigo. Tio povas okazi, se vi rulas internan spegulon aŭ se la spegul-"
+#~ "informo estas eksdata.\n"
+#~ "\n"
+#~ "Ĉu vi tamen volas reskribi vian dosieron 'sources.list\"? Se vi decidas, "
+#~ "ke 'jes', ĉiuj '%s'-valoroj iĝos '%s'-valoroj.\n"
+#~ "Se vi decidas, ke 'ne', la ĝisdatigo ĉesos."
+
+#~ msgid "Generate default sources?"
+#~ msgstr "Generi defaŭltajn fontojn?"
+
+#, python-format
+#~ msgid ""
+#~ "After scanning your 'sources.list' no valid entry for '%s' was found.\n"
+#~ "\n"
+#~ "Should default entries for '%s' be added? If you select 'No', the upgrade "
+#~ "will cancel."
+#~ msgstr ""
+#~ "Serĉado en via dosiero 'sources.list' ne trovis valoron por '%s'.\n"
+#~ "\n"
+#~ "Ĉu vi volas aldoni normajn valorojn por '%s'? Se vi decidas, ke 'ne', la "
+#~ "ĝisdatigo nuliĝos."
+
+#~ msgid "Repository information invalid"
+#~ msgstr "Deponeja informo ne valida"
+
+#~ msgid ""
+#~ "Upgrading the repository information resulted in a invalid file so a bug "
+#~ "reporting process is being started."
+#~ msgstr ""
+#~ "La promociado de la deponejaj informoj rezultiĝis en nevalidan dosieron, "
+#~ "do cimraportaĵo estas aŭtomate farata."
+
+#~ msgid "Third party sources disabled"
+#~ msgstr "Aliulaj fontoj malŝaltitaj"
+
+#~ msgid ""
+#~ "Some third party entries in your sources.list were disabled. You can re-"
+#~ "enable them after the upgrade with the 'software-properties' tool or your "
+#~ "package manager."
+#~ msgstr ""
+#~ "Kelkaj triapartiaj elementoj en via sources.list-o estis malŝaltitaj. Vi "
+#~ "povas reŝalti ilin post la ĝisdatigo per la ilo 'software-properties' aŭ "
+#~ "per via pakaĵadministrilo."
+
+#~ msgid "Package in inconsistent state"
+#~ msgid_plural "Packages in inconsistent state"
+#~ msgstr[0] "Pakaĵo en nekohera stato"
+#~ msgstr[1] "Pakaĵoj en nekohera stato"
+
+#, python-format
+#~ msgid ""
+#~ "The package '%s' is in an inconsistent state and needs to be reinstalled, "
+#~ "but no archive can be found for it. Please reinstall the package manually "
+#~ "or remove it from the system."
+#~ msgid_plural ""
+#~ "The packages '%s' are in an inconsistent state and need to be "
+#~ "reinstalled, but no archive can be found for them. Please reinstall the "
+#~ "packages manually or remove them from the system."
+#~ msgstr[0] ""
+#~ "La stato de pakaĵo '%s' estas malkonsekvenca kaj ĝi devas esti "
+#~ "reinstalita, sed ne troviĝas arkivo por ĝi. Bonvolu reinstali la pakaĵon "
+#~ "permane aŭ forigi ĝin."
+#~ msgstr[1] ""
+#~ "La stato de pakaĵoj '%s' estas malkonsekvenca kaj ili devas esti "
+#~ "reinstalitaj, sed ne troviĝas arkivo por ili. Bonvolu reinstali la "
+#~ "pakaĵojn permane aŭ forigi ilin."
+
+#~ msgid "Error during update"
+#~ msgstr "Eraro dum ĝisdatigo"
+
+#, python-format
+#~ msgid ""
+#~ "The upgrade has aborted. The upgrade needs a total of %s free space on "
+#~ "disk '%s'. Please free at least an additional %s of disk space on '%s'. "
+#~ "Empty your trash and remove temporary packages of former installations "
+#~ "using 'sudo apt-get clean'."
+#~ msgstr ""
+#~ "La ĝisdatigo ĉesiĝis. La ĝisdatigo bezonas entute %s da libera spaco sur "
+#~ "disko '%s'. Bonvolu liberigi almenaŭ %s da plia diskspaco sur '%s'. "
+#~ "Malplenigu vian rubujon kaj forigu provizorajn pakaĵojn de antaŭaj "
+#~ "instaloj uzante 'sudo apt-get clean'."
+
+#~ msgid "Calculating the changes"
+#~ msgstr "Kalkulado de la ŝanĝoj"
+
+#~ msgid "Do you want to start the upgrade?"
+#~ msgstr "Ĉu vi volas komenci la ĝisdatigon?"
+
+#~ msgid "Upgrade canceled"
+#~ msgstr "Ĝisdatigo nuligita"
+
+#~ msgid ""
+#~ "The upgrade will cancel now and the original system state will be "
+#~ "restored. You can resume the upgrade at a later time."
+#~ msgstr ""
+#~ "La ĝisdatigado nun ĉesos kaj la originala sistemstato estos restaŭrita. "
+#~ "Vi povas daŭrigi la ĝisdatigadon je alia fojo."
+
+#~ msgid "Could not download the upgrades"
+#~ msgstr "Ne eblis elŝuti la ĝisdatigojn"
+
+#~ msgid ""
+#~ "The upgrade has aborted. Please check your Internet connection or "
+#~ "installation media and try again. All files downloaded so far have been "
+#~ "kept."
+#~ msgstr ""
+#~ "La ĝisatigo estas ĉesigita. Bonvolu kontroli vian interretan kontekton aŭ "
+#~ "instalan datumportilon kaj provu denove. Ĉiuj ĝis nun elŝutitaj dosieroj "
+#~ "estas mantenataj."
+
+#~ msgid "Error during commit"
+#~ msgstr "Eraro dum farado"
+
+#~ msgid "Restoring original system state"
+#~ msgstr "Restarigante originan sisteman staton"
+
+#~ msgid "Could not install the upgrades"
+#~ msgstr "Ne eblis instali la ĝisdatigojn"
+
+#~ msgid ""
+#~ "The upgrade has aborted. Your system could be in an unusable state. A "
+#~ "recovery will run now (dpkg --configure -a)."
+#~ msgstr ""
+#~ "La ĝisdatigo ĉesiĝis. Via sistemo povas esti en neuzebla stato. "
+#~ "Riparproceduro nun ruliĝos (dpkg --configure -a)."
+
+#, python-format
+#~ msgid ""
+#~ "\n"
+#~ "\n"
+#~ "Please report this bug in a browser at http://bugs.launchpad.net/ubuntu/"
+#~ "+source/update-manager/+filebug and attach the files in /var/log/dist-"
+#~ "upgrade/ to the bug report.\n"
+#~ "%s"
+#~ msgstr ""
+#~ "\n"
+#~ "\n"
+#~ "Bonvolu raporti tiun cimon en retfoliumilo je http://bugs.launchpad.net/"
+#~ "ubuntu/+source/update-manager/+filebug kaj aldonu la dosierojn en /var/"
+#~ "log/dist-upgrade/ al la cimraportaĵo.\n"
+#~ "%s"
+
+#~ msgid ""
+#~ "The upgrade has aborted. Please check your Internet connection or "
+#~ "installation media and try again. "
+#~ msgstr ""
+#~ "La ĝisdatigo ĉesiĝis. Bonvolu kontroli vian retkonekton aŭ instal-"
+#~ "datumportilojn kaj reprovu. "
+
+#~ msgid "Remove obsolete packages?"
+#~ msgstr "Ĉu forigi arkaikajn pakaĵojn?"
+
+#~ msgid "_Keep"
+#~ msgstr "Konservi"
+
+#~ msgid "_Remove"
+#~ msgstr "Forigi"
+
+#~ msgid ""
+#~ "A problem occurred during the clean-up. Please see the below message for "
+#~ "more information. "
+#~ msgstr ""
+#~ "Problemo okazis dum la purigado. Bonvolu vidi la ĉi-suban mesaĝon por "
+#~ "pliaj informoj. "
+
+#~ msgid "Required depends is not installed"
+#~ msgstr "Bezonataj dependaĵoj ne estas instalitaj"
+
+#, python-format
+#~ msgid "The required dependency '%s' is not installed. "
+#~ msgstr "La bezonata dependaĵo '%s' ne estas instalita. "
+
+#~ msgid "Checking package manager"
+#~ msgstr "Kontrolado de pakaĵa direktisto"
+
+#~ msgid "Preparing the upgrade failed"
+#~ msgstr "Preparado de la ĝisdatigo malsukcesis"
+
+#~ msgid ""
+#~ "Preparing the system for the upgrade failed so a bug reporting process is "
+#~ "being started."
+#~ msgstr ""
+#~ "Pretigado de la sistemo por la ĝisdatigo fiaskis, do raporto de cimo "
+#~ "estas startigota."
+
+#~ msgid "Getting upgrade prerequisites failed"
+#~ msgstr "Akirado de risursoj bezonataj por la ĝisdatigo malsukcesis"
+
+#~ msgid ""
+#~ "The system was unable to get the prerequisites for the upgrade. The "
+#~ "upgrade will abort now and restore the original system state.\n"
+#~ "\n"
+#~ "Additionally, a bug reporting process is being started."
+#~ msgstr ""
+#~ "La sistemo ne povis akiri la postulaĵojn por la promocio. La promociado "
+#~ "nun estas ĉesata kaj la sistemo restariĝos al la originala stato.\n"
+#~ "\n"
+#~ "Aldone, cimraportaĵo estas farata."
+
+#~ msgid "Updating repository information"
+#~ msgstr "Ĝisdatigo de deponeja informo"
+
+#~ msgid "Failed to add the cdrom"
+#~ msgstr "Fiaskis aldoni la lumdiskon"
+
+#~ msgid "Sorry, adding the cdrom was not successful."
+#~ msgstr "Bedaŭrinde la aldono de la lumdisko fiaskis."
+
+#~ msgid "Invalid package information"
+#~ msgstr "Nevalida pakaĵa informo"
+
+#~ msgid "Fetching"
+#~ msgstr "Prenado"
+
+#~ msgid "Upgrading"
+#~ msgstr "Aktualigo"
+
+#~ msgid ""
+#~ "The upgrade has completed but there were errors during the upgrade "
+#~ "process."
+#~ msgstr "La ĝisdatigo kompletiĝis sed okazis eraroj dum la ĝisdatigado."
+
+#~ msgid "Searching for obsolete software"
+#~ msgstr "Serĉado de ne plu uzataj programaroj"
+
+#~ msgid "System upgrade is complete."
+#~ msgstr "Sistema ĝisdatigo estas kompleta."
+
+#~ msgid "The partial upgrade was completed."
+#~ msgstr "La parta ĝisdatigo finiĝis."
+
+#~ msgid "evms in use"
+#~ msgstr "evms uzata"
+
+#~ msgid ""
+#~ "Your system uses the 'evms' volume manager in /proc/mounts. The 'evms' "
+#~ "software is no longer supported, please switch it off and run the upgrade "
+#~ "again when this is done."
+#~ msgstr ""
+#~ "Via sistemo uzas la datumportilan mastrumilon 'evms' en /proc/mounts. La "
+#~ "programaro 'evms' ne plu estas subtenata, bonvolu malŝalti ĝin kaj poste "
+#~ "denove rulu la ĝisdatigon."
+
+#~ msgid ""
+#~ "Your graphics hardware may not be fully supported in Ubuntu 12.04 LTS."
+#~ msgstr ""
+#~ "Via grafika aparataro eble ne estas tute subtenata de Ubuntu 12.04 LTS."
+
+#~ msgid ""
+#~ "The support in Ubuntu 12.04 LTS for your Intel graphics hardware is "
+#~ "limited and you may encounter problems after the upgrade. For more "
+#~ "information see https://wiki.ubuntu.com/X/Bugs/"
+#~ "UpdateManagerWarningForI8xx Do you want to continue with the upgrade?"
+#~ msgstr ""
+#~ "La subteno de Ubuntu 12.04 LTS por via grafika aparataro de Intel estas "
+#~ "limigita kaj vi povas trovi problemojn post la promocio. Por pliaj "
+#~ "informoj, vidu https://wiki.ubuntu.com/X/Bugs/UpdateManagerWarningForI8xx "
+#~ "Ĉu vi volas daŭrigi kun la promocio?"
+
+#~ msgid ""
+#~ "Upgrading may reduce desktop effects, and performance in games and other "
+#~ "graphically intensive programs."
+#~ msgstr ""
+#~ "Promociado povas redukti labortablajn efektojn, kaj rendimenton en ludoj "
+#~ "kaj aliaj grafike intensaj programoj."
+
+#~ msgid ""
+#~ "This computer is currently using the NVIDIA 'nvidia' graphics driver. No "
+#~ "version of this driver is available that works with your video card in "
+#~ "Ubuntu 10.04 LTS.\n"
+#~ "\n"
+#~ "Do you want to continue?"
+#~ msgstr ""
+#~ "Tiu ĉi komputilo nun uzas la grafikan pelilon 'nvidia' de NVIDIA. Ne "
+#~ "disponeblas versio de tiu ĉi pelilo, kiu funkcias kun via ekrankarto en "
+#~ "Ubuntu 10.04 LTS.\n"
+#~ "Ĉu vi volas daŭrigi?"
+
+#~ msgid ""
+#~ "This computer is currently using the AMD 'fglrx' graphics driver. No "
+#~ "version of this driver is available that works with your hardware in "
+#~ "Ubuntu 10.04 LTS.\n"
+#~ "\n"
+#~ "Do you want to continue?"
+#~ msgstr ""
+#~ "Tiu ĉi komputilo nun uzas la AMD 'fglrx'-grafikan pelilon. Ne haveblas "
+#~ "versio de tiu pelilo kiu funkcias per via aparataro en Ubuntu 10.04 LTS.\n"
+#~ "Ĉu vi volas daŭrigi?"
+
+#~ msgid "No i686 CPU"
+#~ msgstr "Neniu i686-procesoro"
+
+#~ msgid ""
+#~ "Your system uses an i586 CPU or a CPU that does not have the 'cmov' "
+#~ "extension. All packages were built with optimizations requiring i686 as "
+#~ "the minimal architecture. It is not possible to upgrade your system to a "
+#~ "new Ubuntu release with this hardware."
+#~ msgstr ""
+#~ "Via sistemo uzas i586-procesoron aŭ procesoron sen la 'cmov'-etendaĵo. "
+#~ "Ĉiuj pakaĵoj kunmetiĝis kun optimigoj kiuj postulas minimume i686-"
+#~ "procesoron. Ne eblas ĝisdatigi vian sistemon al nova Ubuntu-eldono kun ĉi "
+#~ "tiu aparataro."
+
+#~ msgid "No ARMv6 CPU"
+#~ msgstr "Ne estas ARMv6-CPU"
+
+#~ msgid ""
+#~ "Your system uses an ARM CPU that is older than the ARMv6 architecture. "
+#~ "All packages in karmic were built with optimizations requiring ARMv6 as "
+#~ "the minimal architecture. It is not possible to upgrade your system to a "
+#~ "new Ubuntu release with this hardware."
+#~ msgstr ""
+#~ "Via sistemo uzas ARM-ĉefprocesoron kiu pli aĝas ol la ARMv6-arkitekturo. "
+#~ "Ĉiuj pakaĵoj en karmic estas kompilitaj kun optimumigoj kiuj minimume "
+#~ "postulas la ARMv6-arkitekturon. Ne eblas ĝisdatigi vian sistemon al nova "
+#~ "Ubuntu-eldono kun ĉi tiu aparataro."
+
+#~ msgid "No init available"
+#~ msgstr "Ne disponeblas 'init'"
+
+#~ msgid ""
+#~ "Your system appears to be a virtualised environment without an init "
+#~ "daemon, e.g. Linux-VServer. Ubuntu 10.04 LTS cannot function within this "
+#~ "type of environment, requiring an update to your virtual machine "
+#~ "configuration first.\n"
+#~ "\n"
+#~ "Are you sure you want to continue?"
+#~ msgstr ""
+#~ "Ŝajne via sistemo estas virtuala medio sen 'init'-demono, ekzemple Linux-"
+#~ "VServer. Ubuntu 10.04 ne povas funkcii en tia medio. Unue vi ĝisdatigu la "
+#~ "agordojn de via virtuala maŝino.\n"
+#~ "Ĉu vi vere volas daŭrigi?"
+
+#~ msgid "Sandbox upgrade using aufs"
+#~ msgstr "Proveja ĝisdatigo uzanta aufs"
+
+#~ msgid "Use the given path to search for a cdrom with upgradable packages"
+#~ msgstr ""
+#~ "Uzu la donitan vojprefikson por serĉi lumdiskon kun aktualigeblaj pakaĵoj"
+
+#~ msgid ""
+#~ "Use frontend. Currently available: \n"
+#~ "DistUpgradeViewText, DistUpgradeViewGtk, DistUpgradeViewKDE"
+#~ msgstr ""
+#~ "Uzu fasadon. Aktuale disponeblaj: \n"
+#~ "DistUpgradeViewText, DistUpgradeViewGtk, DistUpgradeViewKDE"
+
+#~ msgid "*DEPRECATED* this option will be ignored"
+#~ msgstr "*EVITINDA* ĉi tiu opcio estos ignorata"
+
+#~ msgid "Perform a partial upgrade only (no sources.list rewriting)"
+#~ msgstr "Ĝisdatigu nur parte (ne rekonservu la dosieron sources.list)"
+
+#~ msgid "Disable GNU screen support"
+#~ msgstr "Malŝalti GNU-ekransubtenon"
+
+#~ msgid "Set datadir"
+#~ msgstr "Agordi datendosierujon"
+
+#, python-format
+#~ msgid "Please insert '%s' into the drive '%s'"
+#~ msgstr "Bonvolu enmeti je '%s' en ingon '%s'"
+
+#~ msgid "Fetching is complete"
+#~ msgstr "Prenado estas preta"
+
+#, python-format
+#~ msgid "Fetching file %li of %li at %sB/s"
+#~ msgstr "Prenas dosieron %li el %li per %sB/s"
+
+#, python-format
+#~ msgid "About %s remaining"
+#~ msgstr "Ĉirkaŭ %s restas"
+
+#, python-format
+#~ msgid "Fetching file %li of %li"
+#~ msgstr "Prenante dosieron %li el %li"
+
+#~ msgid "Applying changes"
+#~ msgstr "Aplikanta ŝanĝojn"
+
+#~ msgid "dependency problems - leaving unconfigured"
+#~ msgstr "dependecaj problemoj - agordado ne farita"
+
+#, python-format
+#~ msgid "Could not install '%s'"
+#~ msgstr "Ne eblis instali '%s'"
+
+#, python-format
+#~ msgid ""
+#~ "The upgrade will continue but the '%s' package may not be in a working "
+#~ "state. Please consider submitting a bug report about it."
+#~ msgstr ""
+#~ "La ĝisdatigo daŭros sed la pakaĵo '%s' eble ne funkcios. Bonvolu "
+#~ "konsideri sendi cim-raportaĵon pri ĝi."
+
+#, python-format
+#~ msgid ""
+#~ "Replace the customized configuration file\n"
+#~ "'%s'?"
+#~ msgstr ""
+#~ "Ĉu anstataŭigi la modifitan agordan dosieron\n"
+#~ "'%s'?"
+
+#~ msgid ""
+#~ "You will lose any changes you have made to this configuration file if you "
+#~ "choose to replace it with a newer version."
+#~ msgstr ""
+#~ "Vi perdos ĉiujn ŝanĝojn, kiujn vi faris pri ĉi tiu agorda dosiero, se vi "
+#~ "elektas anstataŭigi ĝin per pli nova versio."
+
+#~ msgid "The 'diff' command was not found"
+#~ msgstr "La komando 'diff' ne estis trovita"
+
+#~ msgid "A fatal error occurred"
+#~ msgstr "Neriparebla eraro okazis"
+
+#~ msgid ""
+#~ "Please report this as a bug (if you haven't already) and include the "
+#~ "files /var/log/dist-upgrade/main.log and /var/log/dist-upgrade/apt.log in "
+#~ "your report. The upgrade has aborted.\n"
+#~ "Your original sources.list was saved in /etc/apt/sources.list.distUpgrade."
+#~ msgstr ""
+#~ "Bonvolu fari cimraporton (se vi ne jam faris) kaj aldoni la dosierojn /"
+#~ "var/log/dist-upgrade/main.log kaj /var/log/dist-upgrade/apt.log en via "
+#~ "raporto. La ĝisdatigo ĉesiĝis.\n"
+#~ "Via originala sources.list estis konservita en /etc/apt/sources.list."
+#~ "distUpgrade."
+
+#~ msgid "Ctrl-c pressed"
+#~ msgstr "Stir-c premita"
+
+#~ msgid ""
+#~ "This will abort the operation and may leave the system in a broken state. "
+#~ "Are you sure you want to do that?"
+#~ msgstr ""
+#~ "Ĉi tio ĉesigos la operacion kaj povas lasi vian sistemon en rompita "
+#~ "stato. Ĉu vi certas ke vi volas fari tion?"
+
+#~ msgid "To prevent data loss close all open applications and documents."
+#~ msgstr ""
+#~ "Por preventi datuman perdon, fermu ĉiujn malfermitajn aplikaĵojn kaj "
+#~ "dokumentojn."
+
+#, python-format
+#~ msgid "No longer supported by Canonical (%s)"
+#~ msgstr "Ne plu subtenata de Canonical (%s)"
+
+#, python-format
+#~ msgid "<b>Downgrade (%s)</b>"
+#~ msgstr "<b>Malĝisdatigi (%s)</b>"
+
+#, python-format
+#~ msgid "Remove (%s)"
+#~ msgstr "Forigi (%s)"
+
+#, python-format
+#~ msgid "No longer needed (%s)"
+#~ msgstr "Ne plu nepra (%s)"
+
+#, python-format
+#~ msgid "Install (%s)"
+#~ msgstr "Instali (%s)"
+
+#, python-format
+#~ msgid "Upgrade (%s)"
+#~ msgstr "Ĝisdatigi (%s)"
+
+#~ msgid "Media Change"
+#~ msgstr "Ŝanĝo de Datumportilo"
+
+#~ msgid "Show Difference >>>"
+#~ msgstr "Montru la diferencon >>>"
+
+#~ msgid "<<< Hide Difference"
+#~ msgstr "<<< Kaŝu la diferencon"
+
+#~ msgid "Error"
+#~ msgstr "Eraro"
+
+#~ msgid "&Cancel"
+#~ msgstr "&Rezignu"
+
+#~ msgid "&Close"
+#~ msgstr "F&ermu"
+
+#~ msgid "Show Terminal >>>"
+#~ msgstr "Vidigu Terminalon >>>"
+
+#~ msgid "<<< Hide Terminal"
+#~ msgstr "<<< Kaŝu Terminalon"
+
+#~ msgid "Information"
+#~ msgstr "Informoj"
+
+#~ msgid "Details"
+#~ msgstr "Detaloj"
+
+#, python-format
+#~ msgid "No longer supported %s"
+#~ msgstr "Ne plu subtenata %s"
+
+#, python-format
+#~ msgid "Remove (was auto installed) %s"
+#~ msgstr "Forigi %s (estis aŭtomate instalita)"
+
+#, python-format
+#~ msgid "Upgrade %s"
+#~ msgstr "Ĝisdatigi %s"
+
+#~ msgid "<b><big>Restart the system to complete the upgrade</big></b>"
+#~ msgstr ""
+#~ "<b><big>Restartigu la sistemon por kompletigi la ĝisdatigon</big></b>"
+
+#~ msgid ""
+#~ "<b><big>Cancel the running upgrade?</big></b>\n"
+#~ "\n"
+#~ "The system could be in an unusable state if you cancel the upgrade. You "
+#~ "are strongly advised to resume the upgrade."
+#~ msgstr ""
+#~ "<b><big>Ĉu ni haltigu la ruliĝantan ĝisdatigon?</big></b>\n"
+#~ "\n"
+#~ "La sistemo povas esti neuzebla, se la ĝisdatigo estas interrompita nun. "
+#~ "Estas rekomendite daŭrigi la ĝisdatigon."
+
+#~ msgid "Cancel Upgrade?"
+#~ msgstr "Rezigni ĝisdatigadon?"
+
+#, python-format
+#~ msgid "%li day"
+#~ msgid_plural "%li days"
+#~ msgstr[0] "%li tago"
+#~ msgstr[1] "%li tagoj"
+
+#, python-format
+#~ msgid "%li hour"
+#~ msgid_plural "%li hours"
+#~ msgstr[0] "%li horo"
+#~ msgstr[1] "%li horoj"
+
+#, python-format
+#~ msgid "%li minute"
+#~ msgid_plural "%li minutes"
+#~ msgstr[0] "%li minuto"
+#~ msgstr[1] "%li minutoj"
+
+#, python-format
+#~ msgid "%li second"
+#~ msgid_plural "%li seconds"
+#~ msgstr[0] "%li sekundo"
+#~ msgstr[1] "%li sekundoj"
+
+#, python-format
+#~ msgid "%(str_days)s %(str_hours)s"
+#~ msgstr "%(str_days)s %(str_hours)s"
+
+#, python-format
+#~ msgid "%(str_hours)s %(str_minutes)s"
+#~ msgstr "%(str_hours)s %(str_minutes)s"
+
+#, python-format
+#~ msgid ""
+#~ "This download will take about %s with a 1Mbit DSL connection and about %s "
+#~ "with a 56k modem."
+#~ msgstr ""
+#~ "Tiu ĉi elŝuto daŭros proksimume %s per DSL-konekto de 1 Mbit kaj "
+#~ "proksimume %s per 56k-modemo."
+
+#, python-format
+#~ msgid "This download will take about %s with your connection. "
+#~ msgstr "Ĉi-tiu elŝuto daŭros ĉirkaŭ %s tra via konekto. "
+
+#~ msgid "Preparing to upgrade"
+#~ msgstr "Pretigi por ĝisdatigi"
+
+#~ msgid "Getting new software channels"
+#~ msgstr "Akirado de novaj programaraj kanaloj"
+
+#~ msgid "Getting new packages"
+#~ msgstr "Prenado de novaj pakaĵoj"
+
+#~ msgid "Installing the upgrades"
+#~ msgstr "Intstalanta ĝisdatigojn"
+
+#~ msgid "Cleaning up"
+#~ msgstr "Fina purigado"
+
+#, python-format
+#~ msgid ""
+#~ "%(amount)d installed package is no longer supported by Canonical. You can "
+#~ "still get support from the community."
+#~ msgid_plural ""
+#~ "%(amount)d installed packages are no longer supported by Canonical. You "
+#~ "can still get support from the community."
+#~ msgstr[0] ""
+#~ "%(amount)d instalita pakaĵo ne plu estas subtenata de Canonical. Vi povas "
+#~ "ankoraŭ akiri subtenon de la komunumo."
+#~ msgstr[1] ""
+#~ "%(amount)d instalitaj pakaĵoj ne plu estas subtenataj de Canonical. Vi "
+#~ "povas ankoraŭ akiri subtenon de la komunumo."
+
+#, python-format
+#~ msgid "%d new package is going to be installed."
+#~ msgid_plural "%d new packages are going to be installed."
+#~ msgstr[0] "%d nova pakaĵo estas instalota."
+#~ msgstr[1] "%d novaj pakaĵoj estas instalotaj."
+
+#, python-format
+#~ msgid "%d package is going to be upgraded."
+#~ msgid_plural "%d packages are going to be upgraded."
+#~ msgstr[0] "%d pakaĵo estas ĝisdatigota."
+#~ msgstr[1] "%d pakaĵoj estas ĝisdatigotaj."
+
+#, python-format
+#~ msgid ""
+#~ "\n"
+#~ "\n"
+#~ "You have to download a total of %s. "
+#~ msgstr ""
+#~ "\n"
+#~ "\n"
+#~ "Vi devas elŝuti totalon de %s. "
+
+#~ msgid ""
+#~ "Installing the upgrade can take several hours. Once the download has "
+#~ "finished, the process cannot be canceled."
+#~ msgstr ""
+#~ "La instalado de promocio povas daŭri plurajn horojn. Post la fino de la "
+#~ "elŝutado, ne plu eblos nuligi la procezon."
+
+#~ msgid ""
+#~ "Fetching and installing the upgrade can take several hours. Once the "
+#~ "download has finished, the process cannot be canceled."
+#~ msgstr ""
+#~ "La akirado kaj instalado de la promocio povas daŭri plurajn horojn. Post "
+#~ "la fino de la elŝutado, ne plu eblos nuligi la procezon."
+
+#~ msgid "Removing the packages can take several hours. "
+#~ msgstr "La forigo de la pakaĵoj povas daŭri plurajn horojn. "
+
+#~ msgid ""
+#~ "There are no upgrades available for your system. The upgrade will now be "
+#~ "canceled."
+#~ msgstr ""
+#~ "Neniuj aktualigoj estas disponeblaj por via sistemo. La ĝisdatigo nun "
+#~ "ĉesos."
+
+#~ msgid "Reboot required"
+#~ msgstr "Necesas restartigo"
+
+#~ msgid ""
+#~ "The upgrade is finished and a reboot is required. Do you want to do this "
+#~ "now?"
+#~ msgstr ""
+#~ "La ĝisdatigado finiĝis kaj restartigo bezonatas. Ĉu vi volas nun fari "
+#~ "tion?"
+
+#, python-format
+#~ msgid "authenticate '%(file)s' against '%(signature)s' "
+#~ msgstr "aŭtentigi '%(file)s' per '%(signature)s' "
+
+#, python-format
+#~ msgid "extracting '%s'"
+#~ msgstr "eltiras ‘%s’"
+
+#~ msgid "Could not run the upgrade tool"
+#~ msgstr "Ne eblis ruli la ĝisdatigilon"
+
+#~ msgid ""
+#~ "This is most likely a bug in the upgrade tool. Please report it as a bug "
+#~ "using the command 'ubuntu-bug update-manager'."
+#~ msgstr ""
+#~ "Tre ŝajnas, ke tio estas cimo en la promociilo. Bonvolu raporti tion kiel "
+#~ "cimo per la komando 'ubuntu-bug update-manager' en terminalo."
+
+#~ msgid "Upgrade tool signature"
+#~ msgstr "Ĝisdatigu ilan subskribon"
+
+#~ msgid "Upgrade tool"
+#~ msgstr "Ĝisdatigilo"
+
+#~ msgid "Failed to fetch"
+#~ msgstr "Malsukcesis alporti"
+
+#~ msgid "Fetching the upgrade failed. There may be a network problem. "
+#~ msgstr "Malsukcesis alporti la ĝisdatigon. Eble okazis reta problemo. "
+
+#~ msgid "Authentication failed"
+#~ msgstr "Malsukcesis aŭtentikigi"
+
+#~ msgid ""
+#~ "Authenticating the upgrade failed. There may be a problem with the "
+#~ "network or with the server. "
+#~ msgstr ""
+#~ "Malsukcesis aŭtentikigi la ĝisdatigon. Eble okazis problemo pri la reto "
+#~ "aŭ pri la servilo. "
+
+#~ msgid "Failed to extract"
+#~ msgstr "Malsukcesis ekstrakti"
+
+#~ msgid ""
+#~ "Extracting the upgrade failed. There may be a problem with the network or "
+#~ "with the server. "
+#~ msgstr ""
+#~ "Malsukcesis malpaki la ĝisdatigon. Eble okazis problemo pri la reto aŭ "
+#~ "pri la servilo. "
+
+#~ msgid "Verification failed"
+#~ msgstr "Fiaskis la programkontrolo"
+
+#~ msgid ""
+#~ "Verifying the upgrade failed.  There may be a problem with the network or "
+#~ "with the server. "
+#~ msgstr ""
+#~ "Konfirmado de la ĝisdatigo malsukcesis. Eble estas problemo pri la reto "
+#~ "aŭ servilo. "
+
+#~ msgid "Can not run the upgrade"
+#~ msgstr "Ne povas ruli la ĝisdatigon"
+
+#~ msgid ""
+#~ "This usually is caused by a system where /tmp is mounted noexec. Please "
+#~ "remount without noexec and run the upgrade again."
+#~ msgstr ""
+#~ "Tio kutime estas kaŭzata pro sistemo kiam /tmp estas surmetita kun "
+#~ "noexec. Bonvolu resurmeti sen noexec kaj ruli la promocion denove."
+
+#, python-format
+#~ msgid "The error message is '%s'."
+#~ msgstr "La erarmesaĝo estas '%s'."
+
+#~ msgid ""
+#~ "Please report this as a bug and include the files /var/log/dist-upgrade/"
+#~ "main.log and /var/log/dist-upgrade/apt.log in your report. The upgrade "
+#~ "has aborted.\n"
+#~ "Your original sources.list was saved in /etc/apt/sources.list.distUpgrade."
+#~ msgstr ""
+#~ "Bonvolu fari cimraporton kaj aldonu la dosierojn /var/log/dist-upgrade/"
+#~ "main.log kaj /var/log/dist-upgrade/apt.log en via raporto. La ĝisdatigo "
+#~ "ĉesiĝis.\n"
+#~ "Via originala sources.list estis konservita en /etc/apt/sources.list."
+#~ "distUpgrade."
+
+#~ msgid "Aborting"
+#~ msgstr "Ĉesante"
+
+#~ msgid "Demoted:\n"
+#~ msgstr "Malĝisdatigi:\n"
+
+#~ msgid "To continue please press [ENTER]"
+#~ msgstr "Por daŭrigi premu [ENIGKLAVON]"
+
+#~ msgid "Continue [yN] "
+#~ msgstr "Daŭrigi [jN] "
+
+#~ msgid "Details [d]"
+#~ msgstr "Detaloj [d]"
+
+#~ msgid "y"
+#~ msgstr "j"
+
+#~ msgid "n"
+#~ msgstr "n"
+
+#~ msgid "d"
+#~ msgstr "d"
+
+#, python-format
+#~ msgid "No longer supported: %s\n"
+#~ msgstr "Ne plu subtenata: %s\n"
+
+#, python-format
+#~ msgid "Remove: %s\n"
+#~ msgstr "Forigi: %s\n"
+
+#, python-format
+#~ msgid "Install: %s\n"
+#~ msgstr "Instali: %s\n"
+
+#, python-format
+#~ msgid "Upgrade: %s\n"
+#~ msgstr "Ĝisdatigi: %s\n"
+
+#~ msgid "Continue [Yn] "
+#~ msgstr "Daŭrigi [Jn] "
+
+#~ msgid ""
+#~ "To finish the upgrade, a restart is required.\n"
+#~ "If you select 'y' the system will be restarted."
+#~ msgstr ""
+#~ "Por kompletigi la ĝisdatigon necesas restartigo.\n"
+#~ "Se vi elektas 'J', la sistemo restartos."
+
+#~ msgid "_Cancel Upgrade"
+#~ msgstr "Nuligu ĝisdatigon"
+
+#~ msgid "_Resume Upgrade"
+#~ msgstr "Daŭ_rigi ĝisdatigon"
+
+#~ msgid ""
+#~ "<b><big>Cancel the running upgrade?</big></b>\n"
+#~ "\n"
+#~ "The system could be in an unusable state if you cancel the upgrade. You "
+#~ "are strongly adviced to resume the upgrade."
+#~ msgstr ""
+#~ "<b><big>Ĉu nuligi la ruliĝantan ĝisdatigon?</big></b>\n"
+#~ "\n"
+#~ "Se vi nuligos la ĝisdatigon, la sistemo eble estos neuzebla. Ni forte "
+#~ "konsilas daŭrigi la ĝisdatigon."
+
+#~ msgid "_Start Upgrade"
+#~ msgstr "Komencu ĝi_sdatigon"
+
+#~ msgid "_Replace"
+#~ msgstr "Anstataŭigi"
+
+#~ msgid "Difference between the files"
+#~ msgstr "Diferenco inter la dosieroj"
+
+#~ msgid "_Report Bug"
+#~ msgstr "Raporti cimon"
+
+#~ msgid "<b><big>Start the upgrade?</big></b>"
+#~ msgstr "<b><big>Ĉu komenci la ĝisdatigon?</big></b>"
+
+#~ msgid ""
+#~ "<b><big>Restart the system to complete the upgrade</big></b>\n"
+#~ "\n"
+#~ "Please save your work before continuing."
+#~ msgstr ""
+#~ "<b><big>Restartigu la sistemon por kompletigi la ĝisdatigadon</big></b>\n"
+#~ "\n"
+#~ "Bonvolu konservi vian laboron antaŭ ol daŭrigi."
+
+#~ msgid "Distribution Upgrade"
+#~ msgstr "Ĝisdatigo de la distribuaĵo"
+
+#, fuzzy
+#~ msgid "<b><big>Upgrading Ubuntu to version 12.10</big></b>"
+#~ msgstr "<b><big>Promocianta Ubuntu al versio 11.10</big></b>"
+
+#~ msgid "    "
+#~ msgstr "    "
+
+#~ msgid "Setting new software channels"
+#~ msgstr "Agordado de novaj programaraj kanaloj"
+
+#~ msgid "Restarting the computer"
+#~ msgstr "La komputilo estas restartigata"
+
+#~ msgid "Terminal"
+#~ msgstr "Terminalo"
+
+#~ msgid "Could not find the release notes"
+#~ msgstr "Ne eblis trovi la eldonajn notojn"
+
+#~ msgid "The server may be overloaded. "
+#~ msgstr "La servilo eble estas tro uzata. "
+
+#~ msgid "Could not download the release notes"
+#~ msgstr "Ne eblis elŝuti la eldonajn notojn"
+
+#~ msgid "Please check your internet connection."
+#~ msgstr "Bonvolu kontroli vian interretan konekton."
+
+#~ msgid "Release Notes"
+#~ msgstr "Eldonaj Notoj"
+
+#~ msgid "Downloading additional package files..."
+#~ msgstr "Elŝutas aldonajn pakaĵdosierojn..."
+
+#, python-format
+#~ msgid "File %s of %s at %sB/s"
+#~ msgstr "Bestand %s van %s met %sB/s"
+
+#, python-format
+#~ msgid "File %s of %s"
+#~ msgstr "Dosiero %s el %s"
+
+#, python-format
+#~ msgid "Downloading file %(current)li of %(total)li with %(speed)s/s"
+#~ msgstr "Elŝutante dosieron %(current)li el %(total)li per %(speed)s/s"
+
+#, python-format
+#~ msgid "Downloading file %(current)li of %(total)li"
+#~ msgstr "Elŝutante dosieron %(current)li el %(total)li"
+
+#~ msgid "Your Ubuntu release is not supported anymore."
+#~ msgstr "Via Ubuntu-eldono estas ne plu subtenata."
+
+#~ msgid ""
+#~ "You will not get any further security fixes or critical updates. Please "
+#~ "upgrade to a later version of Ubuntu."
+#~ msgstr ""
+#~ "Vi ne plu obtenos pliajn sekurecajn flikaĵojn aŭ kritikajn ĝisdatigojn. "
+#~ "Bonvole promociu al nova versio de Ubuntu."
+
+#~ msgid "Upgrade information"
+#~ msgstr "Informoj pri promocio"
+
+#~ msgid "Name"
+#~ msgstr "Nomo"
+
+#~ msgid ""
+#~ "It is unknown when the package information was updated last. Please click "
+#~ "the 'Check' button to update the information."
+#~ msgstr ""
+#~ "Ne estas konata kiam la pakaĵinformoj estis lastfoje ĝisdatigitaj. "
+#~ "Bonvolu alklaki sur la 'Kontroli'-butonon por ĝisdatigi la informojn."
+
+#, python-format
+#~ msgid ""
+#~ "The package information was last updated %(days_ago)s days ago.\n"
+#~ "Press the 'Check' button below to check for new software updates."
+#~ msgstr ""
+#~ "La pakaĵinformoj estis laste ĝisdatigitaj antaŭ %(days_ago)s tagoj.\n"
+#~ "Alklaku la ĉi-suban butonon 'Kontroli' por kontroli ĉu estas novaj "
+#~ "programaraj ĝisdatigoj."
+
+#, python-format
+#~ msgid "The package information was last updated %(days_ago)s day ago."
+#~ msgid_plural ""
+#~ "The package information was last updated %(days_ago)s days ago."
+#~ msgstr[0] ""
+#~ "La pakaĵinformoj estis laste ĝisdatigitaj antaŭ %(days_ago)s tago."
+#~ msgstr[1] ""
+#~ "La pakaĵinformoj estis laste ĝisdatigitaj antaŭ %(days_ago)s tagoj."
+
+#, python-format
+#~ msgid "The package information was last updated %(hours_ago)s hour ago."
+#~ msgid_plural ""
+#~ "The package information was last updated %(hours_ago)s hours ago."
+#~ msgstr[0] ""
+#~ "La pakaĵinformoj estis laste ĝisdatigitaj antaŭ %(hours_ago)s horo."
+#~ msgstr[1] ""
+#~ "La pakaĵinformoj estis laste ĝisdatigitaj antaŭ %(hours_ago)s horoj."
+
+#, python-format
+#~ msgid "The package information was last updated about %s minutes ago."
+#~ msgstr ""
+#~ "La pakaĵinformoj estis lastfoje ĝisdatigitaj antaŭ preskaŭ %s minutoj."
+
+#~ msgid "The package information was just updated."
+#~ msgstr "La pakaĵinformoj estas ĵus ĝisdatigitaj."
+
+#~ msgid "Software updates may be available for your computer."
+#~ msgstr "Programaraj ĝisdatigoj povas esti disponeblaj por via komputilo."
+
+#~ msgid "Reading package information"
+#~ msgstr "Legado de pakaĵaj informoj"
+
+#~ msgid " (New install)"
+#~ msgstr " (nova instalaĵo)"
+
+#, python-format
+#~ msgid "(Size: %s)"
+#~ msgstr "(Grando: %s)"
+
+#, python-format
+#~ msgid "From version %(old_version)s to %(new_version)s"
+#~ msgstr "De versio %(old_version)s al %(new_version)s"
+
+#, python-format
+#~ msgid "Version %s"
+#~ msgstr "Versio %s"
+
+#~ msgid "Release upgrade not possible right now"
+#~ msgstr "Eldonĝisdatigo aktuale ne eblas"
+
+#, c-format, python-format
+#~ msgid ""
+#~ "The release upgrade can not be performed currently, please try again "
+#~ "later. The server reported: '%s'"
+#~ msgstr ""
+#~ "La eldonĝisdatigo aktuale ne eblas, bonvolu reprovi poste. La servilo "
+#~ "raportis: '%s'"
+
+#~ msgid "Downloading the release upgrade tool"
+#~ msgstr "Elŝutaanta la ilon por eldonĝisdatigi"
+
+#, python-format
+#~ msgid "<b>New Ubuntu release '%s' is available</b>"
+#~ msgstr "<b>Nova eldono '%s' de Ubuntu estas disponebla.</b>"
+
+#~ msgid "Cancel"
+#~ msgstr "Nuligi"
+
+#~ msgid "Changelog"
+#~ msgstr "Ŝanĝoprotokolo"
+
+#~ msgid "Building Updates List"
+#~ msgstr "Kunmetanta la liston de ĝisdatigoj"
+
+#~ msgid ""
+#~ "\n"
+#~ "A normal upgrade can not be calculated, please run: \n"
+#~ "  sudo apt-get dist-upgrade\n"
+#~ "\n"
+#~ "\n"
+#~ "This can be caused by:\n"
+#~ " * A previous upgrade which didn't complete\n"
+#~ " * Problems with some of the installed software\n"
+#~ " * Unofficial software packages not provided by Ubuntu\n"
+#~ " * Normal changes of a pre-release version of Ubuntu"
+#~ msgstr ""
+#~ "\n"
+#~ "Normala ĝisdatigo ne povas esti kalkulita. Bonvolu ruli: \n"
+#~ "  sudo apt-get dist-upgrade\n"
+#~ "\n"
+#~ "\n"
+#~ "La kaŭzo de la problemo povas esti:\n"
+#~ " * Antaŭa ĝisdatigo kiu ne kompletiĝis\n"
+#~ " * Problemoj kun kelkaj instalitaj programaroj\n"
+#~ " * Neoficialaj programarpakaĵoj nesubtenataj de Ubuntu\n"
+#~ " * Kutimaj ŝanĝoj de antaŭ-eldono de Ubuntu"
+
+#~ msgid "Downloading changelog"
+#~ msgstr "Elŝutanta protokolon de ŝanĝoj"
+
+#, python-format
+#~ msgid "Other updates (%s)"
+#~ msgstr "Aliaj ĝisdatigoj (%s)"
+
+#~ msgid "Failed to detect distribution"
+#~ msgstr "Malsukcesis trovi distribuaĵon"
+
+#, python-format
+#~ msgid "A error '%s' occurred while checking what system you are using."
+#~ msgstr "Eraro '%s' okazis dum provo eltrovi, kiun sistemon vi uzas."
+
+#~ msgid "Recommended updates"
+#~ msgstr "Rekomenditaj ĝisdatigoj"
+
+#~ msgid "Proposed updates"
+#~ msgstr "Proponitaj ĝisdatigoj"
+
+#~ msgid "Backports"
+#~ msgstr "Retroportoj"
+
+#~ msgid "Distribution updates"
+#~ msgstr "Distribuaj ĝisdatigoj"
+
+#, fuzzy
+#~ msgid "<big><b>Starting Software Updater</b></big>"
+#~ msgstr "<big><b>Lanĉado de la ĝisdatiga mastrumilo</b></big>"
+
+#~ msgid ""
+#~ "Software updates correct errors, eliminate security vulnerabilities and "
+#~ "provide new features."
+#~ msgstr ""
+#~ "Programaj ĝisdatigoj korektas erarojn, eliminas sekurecajn difektojn kaj "
+#~ "aldonas novajn trajtojn."
+
+#~ msgid "Chec_k"
+#~ msgstr "Kontroli"
+
+#~ msgid ""
+#~ "<b><big>You must check for updates manually</big></b>\n"
+#~ "\n"
+#~ "Your system does not check for updates automatically. You can configure "
+#~ "this behavior in <i>Software Sources</i> on the <i>Updates</i> tab."
+#~ msgstr ""
+#~ "<b><big>Vi devas permane kontroli pri ĝisdatigoj</big></b>\n"
+#~ "\n"
+#~ "Via sistemo ne aŭtomate kontrolas pri ĝisdatigoj. Vi povas agordi ĉi tiun "
+#~ "konduton en <i>Programaraj fontoj</i> sur la lango <i>Interretaj "
+#~ "ĝisdatigoj</i>."
+
+#~ msgid "_Hide this information in the future"
+#~ msgstr "Kaŝi ĉi tiujn informojn estonte"
+
+#~ msgid "Co_ntinue"
+#~ msgstr "Da_ŭrigi"
+
+#~ msgid "<big><b>Running on battery</b></big>"
+#~ msgstr "<big><b>Funkcianta per pila energio</b></big>"
+
+#~ msgid ""
+#~ "Your system is running on battery. Are you sure you want to continue?"
+#~ msgstr "Via sistemo uzas pilan energion. Ĉu certe vi volas daŭrigi?"
+
+#~ msgid "_Upgrade"
+#~ msgstr "Ĝisdatig_u"
+
+#~ msgid "Show progress of individual files"
+#~ msgstr "Vidigi progreson de unuopaj dosieroj"
+
+#, fuzzy
+#~ msgid "Starting Software Updater"
+#~ msgstr "Programaj ĝisdatigoj"
+
+#~ msgid "U_pgrade"
+#~ msgstr "Ĝisdatigi"
+
+#~ msgid ""
+#~ "<b>A new version of Ubuntu is available. Would you like to upgrade?</b>"
+#~ msgstr "<b>Nova versio de Ubuntu disponeblas. Ĉu vi volas ĝisdatigi?</b>"
+
+#~ msgid "Don't Upgrade"
+#~ msgstr "Ne ĝisdatigu"
+
+#~ msgid "Yes, Upgrade Now"
+#~ msgstr "Jes, ĝisdatigu nun"
+
+#~ msgid "You have declined to upgrade to the new Ubuntu"
+#~ msgstr "Vi decidis ne ĝisdatigi al la nova Ubuntu"
+
+#, fuzzy
+#~ msgid ""
+#~ "You can upgrade at a later time by opening Software Updater and click on "
+#~ "\"Upgrade\"."
+#~ msgstr ""
+#~ "Eblas ĝisdatigi poste per lanĉo de la Ĝisdatiga mastrumilo kaj klako al "
+#~ "\"Ĝisdatigi\"."
+
+#~ msgid "Check if upgrading to the latest devel release is possible"
+#~ msgstr "Kontroli ĉu aktualigo al la plej nova disvolva eldono eblas"
+
+#~ msgid "Try to run a dist-upgrade"
+#~ msgstr "Klopodu ruli dist-upgrade"
+
+#~ msgid "Test upgrade with a sandbox aufs overlay"
+#~ msgstr "Testi ĝisdatigon per proveja aufs-surmeto"
+
+#~ msgid "Running partial upgrade"
+#~ msgstr "Rulanta partan ĝisdatigon"
+
+#~ msgid "Show description of the package instead of the changelog"
+#~ msgstr "Montri priskribon de la pakaĵo anstataŭ la ŝanĝoprotokolon"
+
+#~ msgid ""
+#~ "Try upgrading to the latest release using the upgrader from $distro-"
+#~ "proposed"
+#~ msgstr ""
+#~ "Provu ĝisdatigi al la plej nova eldono uzante la ĝisdatigilon de $distro-"
+#~ "proposed"
+
+#~ msgid ""
+#~ "Run in a special upgrade mode.\n"
+#~ "Currently 'desktop' for regular upgrades of a desktop system and 'server' "
+#~ "for server systems are supported."
+#~ msgstr ""
+#~ "Ruli en speciala ĝisdatiga reĝimo.\n"
+#~ "Aktuale 'labortablo' por normalaj labortabl-sistemaj ĝisdatigoj kaj "
+#~ "'servilo' por servilaj sistemoj estas subtenataj."
+
+#~ msgid "Run the specified frontend"
+#~ msgstr "Ruli la specifitan fasadon"
+
+#~ msgid ""
+#~ "Check only if a new distribution release is available and report the "
+#~ "result via the exit code"
+#~ msgstr ""
+#~ "Nur kontroli ĉu haveblas nova distribu-eldono kaj raporti la rezulton per "
+#~ "la elira kodo"
+
+#~ msgid "Checking for a new Ubuntu release"
+#~ msgstr "Kontrolas por nova eldono de Ubuntu"
+
+#~ msgid ""
+#~ "For upgrade information, please visit:\n"
+#~ "%(url)s\n"
+#~ msgstr ""
+#~ "Por informoj pri ĝisdatigado, bonvolu viziti:\n"
+#~ "%(url)s\n"
+
+#~ msgid "No new release found"
+#~ msgstr "Neniu nova eldono trovita"
+
+#, c-format
+#~ msgid "New release '%s' available."
+#~ msgstr "Nova eldono '%s' disponebla."
+
+#~ msgid "Run 'do-release-upgrade' to upgrade to it."
+#~ msgstr "Rulu 'do-release-upgrade' por ĝisdatigi al ĝi"
+
+#~ msgid "Ubuntu %(version)s Upgrade Available"
+#~ msgstr "Ĝisdatigoj por Ubuntu %(version) disponeblas"
+
+#, c-format
+#~ msgid "You have declined the upgrade to Ubuntu %s"
+#~ msgstr "Vi decidis ne ĝisdatigi al Ubuntu %s"
+
+#~ msgid "Add debug output"
+#~ msgstr "Aldoni eligon de sencimigo"
+
+#~ msgid "Show unsupported packages on this machine"
+#~ msgstr "Montri nesubtenatajn pakaĵojn sur tiu ĉi maŝino"
+
+#~ msgid "Show supported packages on this machine"
+#~ msgstr "Montri subtenatajn pakaĵojn sur tiu ĉi maŝino"
+
+#~ msgid "Show all packages with their status"
+#~ msgstr "Montri ĉiujn pakaĵojn kun ilia stato"
+
+#~ msgid "Show all packages in a list"
+#~ msgstr "Montri ĉiujn pakaĵojn en listo"
+
+#, c-format
+#~ msgid "Support status summary of '%s':"
+#~ msgstr "Subteni statresumon de ‘%s’:"
+
+#~ msgid "You have %(num)s packages (%(percent).1f%%) supported until %(time)s"
+#~ msgstr ""
+#~ "Vi havas %(num)s pakaĵojn (%(percent).1f%%) kiuj estas subtenataj ĝis "
+#~ "%(time)s"
+
+#~ msgid ""
+#~ "You have %(num)s packages (%(percent).1f%%) that can not/no-longer be "
+#~ "downloaded"
+#~ msgstr ""
+#~ "Vi havas %(num)s pakaĵojn (%(percent).1f%%) kiuj ne (plu) estas elŝuteblaj"
+
+#~ msgid "You have %(num)s packages (%(percent).1f%%) that are unsupported"
+#~ msgstr "Vi havas %(num)s pakaĵojn (%(percent).1f%%) kiuj estas nesubtenataj"
+
+#~ msgid ""
+#~ "Run with --show-unsupported, --show-supported or --show-all to see more "
+#~ "details"
+#~ msgstr ""
+#~ "Rulu ĝin per --show-unsupported, --show-supported aŭ --show-all por vidi "
+#~ "pli da detaloj"
+
+#~ msgid "No longer downloadable:"
+#~ msgstr "Ne plu elŝuteblaj:"
+
+#~ msgid "Unsupported: "
+#~ msgstr "Nesubtenataj: "
+
+#, c-format
+#~ msgid "Supported until %s:"
+#~ msgstr "Subtenataj ĝis %s:"
+
+#~ msgid "Unsupported"
+#~ msgstr "Nesubtenate"
+
+#~ msgid ""
+#~ "After your package information was updated the essential package '%s' can "
+#~ "not be found anymore so a bug reporting process is being started."
+#~ msgstr ""
+#~ "Post la renovigo de la pakaĵinformoj la esenca pakaĵo ‘%s’ ne plu estas "
+#~ "trovebla. Cimraportaĵo estas farata."
+
+#~ msgid "<b><big>Upgrading Ubuntu to version 12.04</big></b>"
+#~ msgstr "<b><big>Promocias Ubuntu al versio 12.04</big></b>"
+
+#~ msgid "%(count)s update has been selected."
+#~ msgid_plural "%(count)s updates have been selected."
+#~ msgstr[0] "%(count)s ĝisdatigo elektiĝis."
+#~ msgstr[1] "%(count)s ĝisdatigoj elektiĝis."
+
+#~ msgid "%(count_str)s %(download_str)s"
+#~ msgstr "%(count_str)s %(download_str)s"
+
+#~ msgid "Welcome to Ubuntu"
+#~ msgstr "Bonvenon al Ubuntu"
+
+#~ msgid ""
+#~ "These software updates have been issued since this version of Ubuntu was "
+#~ "released."
+#~ msgstr ""
+#~ "Ĉi tiuj ĝisdatigoj de programaroj estas eldonitaj ekde ĉi tiu versio de "
+#~ "Ubuntu estis publikigita."
+
+#~ msgid "Update Manager"
+#~ msgstr "Ĝisdatiga mastrumilo"
+
+#~ msgid "Starting Update Manager"
+#~ msgstr "Komencanta ĝisdatigan mastrumilon"
+
+#~ msgid "You are connected via a wireless modem."
+#~ msgstr "Vi estas konektita per sendrata modemo."
+
+#~ msgid "Checking for a new ubuntu release"
+#~ msgstr "Kontrolante pri nova ubuntu-eldono"
+
+#~ msgid "Your system is up-to-date"
+#~ msgstr "Via sistemo estas ĝisdatigita"
+
+#~ msgid "Software updates are available for this computer"
+#~ msgstr "Programaraj ĝisdatigoj haveblas por tiu ĉi komputilo"
+
+#~ msgid "There are no updates to install"
+#~ msgstr "Ne haveblas ĝisdatigoj"
+
+#~ msgid "The update has already been downloaded, but not installed"
+#~ msgid_plural "The updates have already been downloaded, but not installed"
+#~ msgstr[0] "La ĝisdatigo estas jam elŝutita, sed ne instalita."
+#~ msgstr[1] "La ĝisdatigoj estas jam elŝutitaj, sed ne instalitaj."
+
+#~ msgid ""
+#~ "You will not get any further security fixes or critical updates. Please "
+#~ "upgrade to a later version of Ubuntu Linux."
+#~ msgstr ""
+#~ "Vi ne plu ricevos kritikajn ĝisdatigojn aŭ sekurajn riparojn. Bonvolu "
+#~ "ĝisdatigi al pli nova versio de Ubuntu-Linukso."
+
+#~ msgid ""
+#~ "This upgrade is running in sandbox (test) mode. All changes are written "
+#~ "to '%s' and will be lost on the next reboot.\n"
+#~ "\n"
+#~ "*No* changes written to a systemdir from now until the next reboot are "
+#~ "permanent."
+#~ msgstr ""
+#~ "Ĉi tiu ĝisdatigo ruliĝas en la test-ludeja reĝimo. Ĉiu ŝanĝoj estos "
+#~ "senditaj '%s' kaj perdiĝos je la sekva restartigo de la sistemo.\n"
+#~ "\n"
+#~ "Neniu ŝanĝo skribita al iu sistema dosierujo inter nun kaj la sekva "
+#~ "restartigo estos daŭra,"
+
+#~ msgid ""
+#~ "Fetching and installing the upgrade can take several hours. Once the "
+#~ "download has finished, the process cannot be cancelled."
+#~ msgstr ""
+#~ "Prenado kaj instalado de la ĝisdatigo povas daŭri plurajn horojn. Post "
+#~ "fino de la elŝuto la procezo ne povas esti rezignata."
+
+#~ msgid ""
+#~ "If you don't want to install them now, choose \"Update Manager\" from the "
+#~ "Administration menu later."
+#~ msgstr ""
+#~ "Se vi volas instali ilin ne nun, elektu la programon \"Ĝisdatiga "
+#~ "mastrumilo\" el la menuo \"Administrado\" poste."
+
+#~ msgid ""
+#~ "If you don't want to install them now, choose \"Update Manager\" from "
+#~ "Applications later."
+#~ msgstr ""
+#~ "Se vi ne volas instali ilin nun, elektu \"Ĝisdatiga mastrumilo\" el "
+#~ "Aplikaĵoj poste"
+
+#~ msgid ""
+#~ "Preparing the system for the upgrade failed. Please report this using the "
+#~ "command 'ubuntu-bug update-manager' in a terminal and include the files "
+#~ "in /var/log/dist-upgrade/ in the bug report."
+#~ msgstr ""
+#~ "Pretigado de la sistemo fiaskis. Bonvolu raporti tion kiel cimo per la "
+#~ "komando 'ubuntu-bug update-manager' en terminalo kaj aldoni la dosierojn "
+#~ "en /var/log/dist-upgrade/ en la cimraporto."
+
+#~ msgid ""
+#~ "The system was unable to get the prerequisites for the upgrade. The "
+#~ "upgrade will abort now and restore the original system state.\n"
+#~ "\n"
+#~ "Please report this as a bug using the command 'ubuntu-bug update-manager' "
+#~ "in a terminal and include the files in /var/log/dist-upgrade/ in the bug "
+#~ "report."
+#~ msgstr ""
+#~ "La sistemo ne eblis obteni la antaŭkondiĉojn por la promocio. La "
+#~ "promocioj eliros nun kaj ĝi restaŭros la originan sistemstaton.\n"
+#~ "\n"
+#~ "Bonvolu raporti tion kiel cimo per la komando 'ubuntu-bug update-manager' "
+#~ "en terminalo kaj aldoni la dosierojn en /var/log/dist-upgrade/ en la "
+#~ "cimraporto."
+
+#~ msgid ""
+#~ "After your package information was updated the essential package '%s' can "
+#~ "not be found anymore.\n"
+#~ "This indicates a serious error, please report this bug using the command "
+#~ "'ubuntu-bug update-manager' in a terminal and include the files in /var/"
+#~ "log/dist-upgrade/ in the bug report."
+#~ msgstr ""
+#~ "Post ol via pakaĵinformoj estis ĝisdatigitaj, la esenca pakaĵo '%s' ne "
+#~ "plu troveblas.\n"
+#~ "Tio indikas gravan eraron, bonvolu raporti tion kiel cimo per la komando "
+#~ "'ubuntu-bug update-manager' en terminalo kaj aldoni la dosierojn en /var/"
+#~ "log/dist-upgrade/ en la cimraporto."
+
+#~ msgid "Your graphics hardware may not be fully supported in Ubuntu 11.04."
+#~ msgstr "Via grafika aparataro eble ne estas tute subtenata en Ubuntu 11.04."
+
+#~ msgid ""
+#~ "The support in Ubuntu 11.04 for your intel graphics hardware is limited "
+#~ "and you may encounter problems after the upgrade. Do you want to continue "
+#~ "with the upgrade?"
+#~ msgstr ""
+#~ "La subteno en Ubuntu 11.04 por via grafika aparataro de Intel estas "
+#~ "limigita kaj vi eble havas problemojn post la promociado. Ĉu vi volas "
+#~ "daŭrigi kun la ĝisdatigo?"
+
+#~ msgid ""
+#~ "\n"
+#~ "\n"
+#~ "Please report this bug using the command 'ubuntu-bug update-manager' in a "
+#~ "terminal and include the files in /var/log/dist-upgrade/ in the bug "
+#~ "report.\n"
+#~ "%s"
+#~ msgstr ""
+#~ "\n"
+#~ "\n"
+#~ "Bonvolu raporti ĉi tiun cimon per la komando 'ubuntu-bug update-manager' "
+#~ "en terminalo kaj aldoni la dosierojn en /var/log/dist-upgrade/ en la "
+#~ "cimraporto.\n"
+#~ "%s"
+
+#~ msgid ""
+#~ "Upgrading the repository information resulted in a invalid file. Please "
+#~ "report this as a bug using the command 'ubuntu-bug update-manager' in a "
+#~ "terminal."
+#~ msgstr ""
+#~ "Promociado de la deponejinformoj rezultis nevalidan dosieron. Bonvolu "
+#~ "raporti tion kiel cimo per la komando 'ubuntu-bug update-manager' en "
+#~ "terminalo."
+
+#~ msgid "%.0f kB"
+#~ msgstr "%.0f kB"
+
+#~ msgid "0 kB"
+#~ msgstr "0 kB"
+
+#~ msgid "1 kB"
+#~ msgstr "1 kB"
+
+#~ msgid ""
+#~ "These software updates have been issued since this version of Ubuntu was "
+#~ "released. If you don't want to install them now, choose \"Update Manager"
+#~ "\" from Applications later."
+#~ msgstr ""
+#~ "Ĉi tiuj programaraj ĝisdatigoj eldoniĝis depost kiam ĉi tiu versio de "
+#~ "Ubuntu eldoniĝis. Se vi ne volas instali ilin nun, elektu la “Ĝisdatigan "
+#~ "mastrumilon” el la aplikaĵa menuo poste."
+
+#~ msgid ""
+#~ "These software updates have been issued since this version of Ubuntu was "
+#~ "released. If you don't want to install them now, choose \"Update Manager"
+#~ "\" from the Administration Menu later."
+#~ msgstr ""
+#~ "Ĉi tiuj programaraj ĝisdatigoj eldoniĝis depost kiam ĉi tiu versio de "
+#~ "Ubuntu eldoniĝis. Se vi ne volas instali ilin nun, elektu la “Ĝisdatigan "
+#~ "mastrumilon” el la administra menuo poste."

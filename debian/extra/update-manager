@@ -1,0 +1,2 @@
+#! /bin/bash
+/usr/bin/update-manager-bin "$@" && for i in /usr/share/update-manager/post/*; do exec $; done

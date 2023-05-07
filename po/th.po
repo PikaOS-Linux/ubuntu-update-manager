@@ -1,0 +1,1953 @@
+# Thai translation for update-manager
+# Copyright (c) (c) 2006 Canonical Ltd, and Rosetta Contributors 2006
+# This file is distributed under the same license as the update-manager package.
+# Roys Hengwatanakul <roysheng@gmail.com>, 2006.
+# Theppitak Karoonboonyanan <thep@linux.thai.net>, 2009.
+#
+#: ../UpdateManager/UpdatesAvailable.py:847
+msgid ""
+msgstr ""
+"Project-Id-Version: update-manager\n"
+"Report-Msgid-Bugs-To: sebastian.heinlein@web.de\n"
+"POT-Creation-Date: 2021-12-07 16:54-0800\n"
+"PO-Revision-Date: 2012-02-23 19:54+0000\n"
+"Last-Translator: Manop Pornpeanvichanon(มานพ พรเพียรวิชานนท์) <Unknown>\n"
+"Language-Team: Thai <thai-l10n@googlegroups.com>\n"
+"Language: th\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Launchpad-Export-Date: 2012-04-17 13:41+0000\n"
+"X-Generator: Launchpad (build 15099)\n"
+
+#: ../UpdateManager/backend/InstallBackendAptdaemon.py:150
+#, fuzzy
+msgid "Checking for updates…"
+msgstr "ตรวจการปรับปรุง"
+
+#: ../UpdateManager/backend/InstallBackendAptdaemon.py:200
+#: ../UpdateManager/backend/InstallBackendAptdaemon.py:256
+#: ../UpdateManager/backend/InstallBackendAptdaemon.py:287
+#, fuzzy
+msgid "Installing updates…"
+msgstr "ติดตั้งปรับปรุง"
+
+#: ../UpdateManager/backend/InstallBackendSynaptic.py:39
+msgid "Please wait, this can take some time."
+msgstr "กรุณารอสักครู่ นี่อาจจะใช้เวลาสักหน่อย"
+
+#: ../UpdateManager/backend/InstallBackendSynaptic.py:41
+msgid "Update is complete"
+msgstr "ปรับปรุงเสร็จสิ้นแล้ว"
+
+#: ../UpdateManager/backend/__init__.py:277
+msgid "Updating snaps"
+msgstr ""
+
+#: ../UpdateManager/backend/__init__.py:304
+#, python-format
+msgid "Refreshing %s snap"
+msgstr ""
+
+#: ../UpdateManager/backend/__init__.py:310
+#, fuzzy, python-format
+msgid "Removing %s snap"
+msgstr "ลบ %s"
+
+#: ../UpdateManager/backend/__init__.py:315
+#, fuzzy, python-format
+msgid "Installing %s snap"
+msgstr "ติดตั้ง  %s"
+
+#: ../UpdateManager/backend/__init__.py:324
+#, fuzzy
+msgid "Upgrade only partially completed."
+msgstr "ปรับปรุงเสร็จแล้ว"
+
+#: ../UpdateManager/backend/__init__.py:325
+#, fuzzy
+msgid ""
+"An error occurred while updating snaps. Please check your network connection."
+msgstr ""
+"มีปัญหาเกิดขึ้นขณะทำการปรับปรุง โดยปกติจะเป็นปัญหาในระบบเครือข่าย "
+"กรุณาตรวจสอบการทำงานของระบบเครือข่ายแล้วลองใหม่อีกครั้ง"
+
+#: ../UpdateManager/ChangelogViewer.py:83
+msgid "Open Link in Browser"
+msgstr "เปิดลิงก์ในเบราว์เซอร์"
+
+#: ../UpdateManager/ChangelogViewer.py:87
+msgid "Copy Link to Clipboard"
+msgstr "คัดลอกลิงก์ไปที่คลิปบอร์ด"
+
+#: ../UpdateManager/Dialogs.py:126
+#, fuzzy
+msgid "Settings…"
+msgstr "_ตั้งค่า..."
+
+#: ../UpdateManager/Dialogs.py:171
+msgid ""
+"<b>Tip:</b> You can use Livepatch to keep your computer more secure between "
+"restarts."
+msgstr ""
+
+#: ../UpdateManager/Dialogs.py:174
+msgid "Settings & Livepatch…"
+msgstr ""
+
+#: ../UpdateManager/Dialogs.py:188
+#, python-format
+msgid "%d Livepatch update applied since the last restart."
+msgid_plural "%d Livepatch updates applied since the last restart."
+msgstr[0] ""
+
+#: ../UpdateManager/Dialogs.py:196
+#, python-format
+msgid "%d Livepatch update failed to apply since the last restart."
+msgid_plural "%d Livepatch updates failed to apply since the last restart."
+msgstr[0] ""
+
+#: ../UpdateManager/Dialogs.py:218 ../UpdateManager/UpdateManager.py:292
+#, fuzzy
+msgid "You stopped the check for updates."
+msgstr "ไม่ต้องตรวจสอบการปรับปรุงเมื่อเริ่มเครื่อง"
+
+#: ../UpdateManager/Dialogs.py:220
+msgid "_Check Again"
+msgstr ""
+
+#: ../UpdateManager/Dialogs.py:232
+#, fuzzy
+msgid "No software updates are available."
+msgstr "มีซอฟต์แวร์รุ่นใหม่ที่สามารถติดตั้งได้สำหรับเครื่องนี้"
+
+#: ../UpdateManager/Dialogs.py:234 ../UpdateManager/Dialogs.py:245
+msgid "The software on this computer is up to date."
+msgstr ""
+
+#. Translators: these are Ubuntu version names like "Ubuntu 12.04"
+#: ../UpdateManager/Dialogs.py:247
+#, python-format
+msgid "However, %s %s is now available (you have %s)."
+msgstr ""
+
+#: ../UpdateManager/Dialogs.py:252
+#, fuzzy
+msgid "Upgrade…"
+msgstr "ปรับปรุง"
+
+#: ../UpdateManager/Dialogs.py:272
+#, fuzzy
+msgid "New important security and hardware support update."
+msgstr "ปรับปรุงด้านความปลอดภัยที่สำคัญ"
+
+#: ../UpdateManager/Dialogs.py:280
+#, fuzzy
+msgid "_Install…"
+msgstr "ติดตั้ง"
+
+#. Translators: this is an Ubuntu version name like "Ubuntu 12.04"
+#: ../UpdateManager/Dialogs.py:292
+#, fuzzy, python-format
+msgid "Software updates are no longer provided for %s %s."
+msgstr "มีซอฟต์แวร์รุ่นใหม่ที่สามารถติดตั้งได้สำหรับเครื่องนี้"
+
+#. Translators: this is an Ubuntu version name like "Ubuntu 12.04"
+#: ../UpdateManager/Dialogs.py:296
+#, python-format
+msgid "To stay secure, you should upgrade to %s %s."
+msgstr ""
+
+#: ../UpdateManager/Dialogs.py:309
+msgid "Sorry, there are no more upgrades for this system"
+msgstr ""
+
+#. Translators: this is an Ubuntu version name like "Ubuntu 12.04"
+#: ../UpdateManager/Dialogs.py:311
+#, python-format
+msgid ""
+"\n"
+"There will not be any further Ubuntu releases for this system's '%s' "
+"architecture.\n"
+"\n"
+"Updates for Ubuntu %s will continue until 2023-04-26.\n"
+"\n"
+"If you reinstall Ubuntu from ubuntu.com/download, future upgrades will be "
+"available."
+msgstr ""
+
+#: ../UpdateManager/Dialogs.py:325
+#, fuzzy
+msgid "Not all updates can be installed"
+msgstr "<big><b>ไม่สามารถทำการติดตั้งปรับปรุงได้ทั้งหมด</b></big>"
+
+#: ../UpdateManager/Dialogs.py:327
+#, fuzzy
+msgid ""
+"Run a partial upgrade, to install as many updates as possible.\n"
+"\n"
+"    This can be caused by:\n"
+"     * A previous upgrade which didn't complete\n"
+"     * Problems with some of the installed software\n"
+"     * Unofficial software packages not provided by Ubuntu\n"
+"     * Normal changes of a pre-release version of Ubuntu"
+msgstr ""
+"\n"
+"การปรับปรุงแบบปกติไม่สามารถคำนวนได้ กรุณาใช้คำสั่ง: \n"
+"  sudo apt-get dist-upgrade\n"
+"\n"
+"\n"
+"ปัญหาอาจจะเกิดมาจาก:\n"
+" * การปรับปรุงครั้งก่อนไม่สมบรูณ์\n"
+" * มีปัญหากับซอฟต์แวร์ที่ถูกติดตั้ง\n"
+" * ซอฟต์แวร์แพคเกจที่ไม่ได้มาจากอูบุนตูอย่างเป็นทางการ\n"
+" * การปรับปรุงแบบปกติของรุ่นก่อนออกใช้ของอูบุนตู"
+
+#: ../UpdateManager/Dialogs.py:335
+msgid "_Partial Upgrade"
+msgstr "ปรับปรุงรุ่นบางส่วน"
+
+#: ../UpdateManager/Dialogs.py:336
+msgid "_Continue"
+msgstr "ดำเนินการต่อไป"
+
+#: ../UpdateManager/Dialogs.py:372
+msgid "_Try Again"
+msgstr ""
+
+#: ../UpdateManager/Dialogs.py:386
+#, fuzzy
+msgid "The computer needs to restart to finish installing updates."
+msgstr ""
+"ต้องการเริ่มระบบใหม่หลังการติดตั้งส่วนปรับปรุงเสร็จสิ้น กรุณาบันทึกงานของท่านก่อนดำเนินการต่อไป"
+
+#: ../UpdateManager/Dialogs.py:388
+#, fuzzy
+msgid "Restart _Later"
+msgstr "ต้องการเริ่มระบบใหม่"
+
+#: ../UpdateManager/Dialogs.py:390
+msgid "_Restart Now"
+msgstr "เริ่มระบบใหม่เดี๋ยวนี้"
+
+#. Basic GTK+ parameters
+#: ../UpdateManager/UpdateManager.py:96 ../data/update-manager.desktop.in.h:1
+#: ../data/update-manager.appdata.xml.in.h:1
+#, fuzzy
+msgid "Software Updater"
+msgstr "ซอฟต์แวร์ปรับปรุง"
+
+#: ../UpdateManager/UpdateManager.py:290
+msgid "Some software couldn’t be checked for updates."
+msgstr ""
+
+#: ../UpdateManager/UpdateManager.py:293
+msgid "Updated software is available from a previous check."
+msgstr ""
+
+#. we assert a clean cache
+#: ../UpdateManager/UpdateManager.py:400
+msgid "Software index is broken"
+msgstr "ดัชนีของซอฟแวร์เสียหาย"
+
+#: ../UpdateManager/UpdateManager.py:401
+msgid ""
+"It is impossible to install or remove any software. Please use the package "
+"manager \"Synaptic\" or run \"sudo apt-get install -f\" in a terminal to fix "
+"this issue at first."
+msgstr ""
+"ไม่สามารถที่จะติดตั้งหรือลบออกซอฟแวร์ใดๆ กรุณาใช้โปรแกรมจัดการแพกเกจ \"Synaptic\" หรือ "
+"คำสั่ง \"sudo apt-get install -f\" ในเทอร์มินัลเพื่อที่จะแก้ปัญหานี้ก่อน"
+
+#: ../UpdateManager/UpdateManager.py:408
+msgid "Could not initialize the package information"
+msgstr "ไม่สามารถอ่านข้อมูลเริ่มต้นของแพ็กเกจ"
+
+#: ../UpdateManager/UpdateManager.py:409
+msgid ""
+"An unresolvable problem occurred while initializing the package "
+"information.\n"
+"\n"
+"Please report this bug against the 'update-manager' package and include the "
+"following error message:\n"
+msgstr ""
+"ไม่สามารถแก้ปัญหาได้ขณะทำการเตรียมข้อมูลของแพคเกจ\n"
+"\n"
+"กรุณารายงานปัญหานี้สำหรับแพคเกจ 'update-manager' และแนบข้อผิดพลาดต่อไปนี้มาด้วย:\n"
+
+#: ../UpdateManager/UpdateManager.py:437
+msgid "Could not calculate the upgrade"
+msgstr "ไม่สามารถคำนวนการปรับปรุงได้"
+
+#: ../UpdateManager/UpdateManager.py:438
+#, fuzzy
+msgid ""
+"An unresolvable problem occurred while calculating the upgrade.\n"
+"\n"
+"Please report this bug against the 'update-manager' package and include the "
+"following error message:\n"
+msgstr ""
+"ไม่สามารถแก้ปัญหาได้ขณะทำการคำนวนการปรับปรุง\n"
+"\n"
+"กรุณารายงานปัญหานี้สำหรับแพคเกจ 'update-manager' และแนบข้อผิดพลาดต่อไปนี้มาด้วย:"
+
+#: ../UpdateManager/UpdatesAvailable.py:252
+#, fuzzy
+msgid "Install Now"
+msgstr "ติดตั้ง"
+
+#: ../UpdateManager/UpdatesAvailable.py:285
+#, fuzzy
+msgid "Install or remove"
+msgstr "ติดตั้ง"
+
+#: ../UpdateManager/UpdatesAvailable.py:319
+msgid "Download"
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:378
+#, fuzzy
+msgid "_Remind Me Later"
+msgstr "ถามฉันในครั้งหน้า"
+
+#. upload_archive = version_match.group(2).strip()
+#: ../UpdateManager/UpdatesAvailable.py:515
+#, python-format
+msgid "Version %s: \n"
+msgstr "รุ่น %s: \n"
+
+#: ../UpdateManager/UpdatesAvailable.py:580
+msgid ""
+"No network connection detected, you can not download changelog information."
+msgstr "ไม่พบการเชื่อมต่อเครือข่าย คุณจะไม่สามารถดาวน์โหลดข่าวสารการเปลี่ยนแปลง"
+
+#: ../UpdateManager/UpdatesAvailable.py:590
+msgid "Downloading list of changes..."
+msgstr "กำลังดาวน์โหลดรายการของการเปลี่ยนแปลง..."
+
+#: ../UpdateManager/UpdatesAvailable.py:634
+msgid "_Deselect All"
+msgstr "ไ_ม่เลือกทั้งหมด"
+
+#: ../UpdateManager/UpdatesAvailable.py:640
+msgid "Select _All"
+msgstr "เลือก_ทั้งหมด"
+
+#: ../UpdateManager/UpdatesAvailable.py:736
+#, python-format
+msgid "%s will be downloaded."
+msgstr "%s จะถูกดาวน์โหลด"
+
+#: ../UpdateManager/UpdatesAvailable.py:750
+#, fuzzy
+msgid "The update has already been downloaded."
+msgid_plural "The updates have already been downloaded."
+msgstr[0] "การปรับปรุงได้ดาวน์โหลดแล้ว แต่ยังไม่ได้ติดตั้ง"
+
+#: ../UpdateManager/UpdatesAvailable.py:756
+msgid "There are no updates to install."
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:765
+msgid "Unknown download size."
+msgstr "ไม่ทราบขนาดดาวน์โหลด"
+
+#: ../UpdateManager/UpdatesAvailable.py:792
+#, python-format
+msgid ""
+"Updated software has been issued since %s %s was released. Do you want to "
+"install it now?"
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:797
+msgid ""
+"Updated software is available for this computer. Do you want to install it "
+"now?"
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:800
+#, fuzzy
+msgid ""
+"The computer also needs to restart to finish installing previous updates."
+msgstr ""
+"ต้องการเริ่มระบบใหม่หลังการติดตั้งส่วนปรับปรุงเสร็จสิ้น กรุณาบันทึกงานของท่านก่อนดำเนินการต่อไป"
+
+#. print("on_button_install_clicked")
+#: ../UpdateManager/UpdatesAvailable.py:830
+msgid "Not enough free disk space"
+msgstr "ไม่มีพื้นที่ว่างในดิสก์เพียงพอ"
+
+#: ../UpdateManager/UpdatesAvailable.py:831
+#, fuzzy, python-format
+msgid ""
+"The upgrade needs a total of %s free space on disk '%s'. Please free at "
+"least an additional %s of disk space on '%s'. %s"
+msgstr ""
+"การปรับปรุงต้องการเนื้อที่ว่างทั้งหมด %s ในดิสก์ '%s'. กรุณาหาพื้นที่ว่างเพิ่มอีก %s ในดิสก์ '%s'. "
+"เทถังขยะทิ้งและลบแพคเกจเก่าๆจากการติดตั้งครั้งก่อนโดยใช้คำสั่ง  'sudo apt-get clean'."
+
+#. specific ways to resolve lack of free space
+#: ../UpdateManager/UpdatesAvailable.py:836
+msgid ""
+"Remove temporary packages of former installations using 'sudo apt clean'."
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:838
+msgid ""
+"You can remove old kernels using 'sudo apt autoremove', and you could also "
+"set COMPRESS=xz in /etc/initramfs-tools/initramfs.conf to reduce the size of "
+"your initramfs."
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:843
+#, fuzzy
+msgid ""
+"Empty your trash and remove temporary packages of former installations using "
+"'sudo apt clean'."
+msgstr ""
+"การปรับปรุงต้องการเนื้อที่ว่างทั้งหมด %s ในดิสก์ '%s'. กรุณาหาพื้นที่ว่างเพิ่มอีก %s ในดิสก์ '%s'. "
+"เทถังขยะทิ้งและลบแพคเกจเก่าๆจากการติดตั้งครั้งก่อนโดยใช้คำสั่ง  'sudo apt-get clean'."
+
+#: ../UpdateManager/UpdatesAvailable.py:846
+msgid "Reboot to clean up files in /tmp."
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:888
+msgid "Connecting..."
+msgstr "กำลังเชื่อมต่อ..."
+
+#: ../UpdateManager/UpdatesAvailable.py:904
+msgid "You may not be able to check for updates or download new updates."
+msgstr "คุณอาจจะตรวจสอบการปรับปรุงหรือดึงการปรับปรุงใหม่ลงมาไม่ได้"
+
+#: ../UpdateManager/UpdatesAvailable.py:1056
+msgid "Improved hardware support"
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:1060
+#, fuzzy
+msgid "Security updates"
+msgstr "ปรับปรุงด้านความปลอดภัยที่สำคัญ"
+
+#: ../UpdateManager/UpdatesAvailable.py:1064
+msgid "Other updates"
+msgstr "_ปรับปรุงอื่นๆ"
+
+#: ../UpdateManager/UpdatesAvailable.py:1067
+msgid "Updates"
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:1072
+msgid "Unused kernel updates to be removed"
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:1077
+#, fuzzy
+msgid "Duplicate packages to be removed"
+msgstr "%d แพกเกจจะถูกลบออก"
+
+#: ../UpdateManager/UnitySupport.py:70
+msgid "Install All Available Updates"
+msgstr "ติดตั้งการปรับปรุงที่มีทั้งหมด"
+
+#: ../UpdateManager/Core/MyCache.py:417
+msgid "This update does not come from a source that supports changelogs."
+msgstr ""
+
+#: ../UpdateManager/Core/MyCache.py:423 ../UpdateManager/Core/MyCache.py:458
+msgid ""
+"Failed to download the list of changes. \n"
+"Please check your Internet connection."
+msgstr ""
+"ไม่สามารถดาวน์โหลดรายการของการเปลี่ยนแปลง \n"
+"กรุณาตรวจสอบการสื่อสารทางอินเตอร์เน็ตของคุณ"
+
+#: ../UpdateManager/Core/MyCache.py:430
+#, fuzzy, python-format
+msgid ""
+"Changes for %s versions:\n"
+"Installed version: %s\n"
+"Available version: %s\n"
+"\n"
+msgstr ""
+"การเปลี่ยนแปลงของรุ่นต่าง ๆ:\n"
+"รุ่นที่ถูกติดตั้งแล้ว: %s\n"
+"รุ่นที่มีให้: %s\n"
+"\n"
+
+#: ../UpdateManager/Core/MyCache.py:444
+#, python-format
+msgid ""
+"The changelog does not contain any relevant changes.\n"
+"\n"
+"Please use http://launchpad.net/ubuntu/+source/%s/%s/+changelog\n"
+"until the changes become available or try again later."
+msgstr ""
+"บันทึกการเปลี่ยนแปลงไม่มีข้อมูลที่เกี่ยวข้อง \n"
+"\n"
+"กรุณาดูที่ http://launchpad.net/ubuntu/+source/%s/%s/+changelog\n"
+"จนกว่าจะมีข้อมูลใหม่หรือลองอีกครั้งหลังจากนี้สักพัก"
+
+#: ../UpdateManager/Core/MyCache.py:451
+#, python-format
+msgid ""
+"The list of changes is not available yet.\n"
+"\n"
+"Please use http://launchpad.net/ubuntu/+source/%s/%s/+changelog\n"
+"until the changes become available or try again later."
+msgstr ""
+"รายการของการเปลี่ยนแปลงยังไม่มีให้ดู\n"
+"\n"
+"กรุณาดูที่ http://launchpad.net/ubuntu/+source/%s/%s/+changelog\n"
+"จนกว่ารายการเปลี่ยนแปลงจะมีให้ดูได้หรือลองใหม่อีกครั้งหลังในภายหลัง"
+
+#. Translators: the %s is a distro name, like 'Ubuntu' and 'base' as in
+#. the core components and packages.
+#: ../UpdateManager/Core/UpdateList.py:175
+#, python-format
+msgid "%s base"
+msgstr ""
+
+#. TRANSLATORS: download size of small updates, e.g. "250 kB"
+#: ../UpdateManager/Core/utils.py:483
+#, python-format
+msgid "%(size).0f kB"
+msgid_plural "%(size).0f kB"
+msgstr[0] ""
+msgstr[1] ""
+
+#. TRANSLATORS: download size of updates, e.g. "2.3 MB"
+#: ../UpdateManager/Core/utils.py:487
+#, python-format
+msgid "%.1f MB"
+msgstr "%.1f MB"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:1
+msgid "updates"
+msgstr "ปรับปรุง"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:2
+msgid "Changes"
+msgstr "เปลี่ยนแปลง"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:3
+msgid "Description"
+msgstr "คำบรรยาย"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:4
+#, fuzzy
+msgid "Technical description"
+msgstr "คำบรรยาย"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:5
+#, fuzzy
+msgid "Details of updates"
+msgstr "รายละเอียดของการปรับปรุง"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:6
+msgid "The computer will need to restart."
+msgstr ""
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:7
+msgid ""
+"You are connected via roaming and may be charged for the data consumed by "
+"this update."
+msgstr "คุณเชื่อมต่อผ่านโรมมิงและอาจจะมีค่าใช้จ่ายสำหรับการส่งผ่านข้อมูลการปรับรุ่น"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:8
+msgid ""
+"You may want to wait until you’re not using a mobile broadband connection."
+msgstr ""
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:9
+msgid "It’s safer to connect the computer to AC power before updating."
+msgstr "จะเป็นการปลอดภัยกว่าถ้าต่อคอมพิวเตอร์ของคุณเข้ากับแหล่งจ่ายไฟก่อนเริ่มทำการปรับปรุง"
+
+#: ../data/update-manager.desktop.in.h:2
+msgid "Software Updates"
+msgstr "ซอฟต์แวร์ปรับปรุง"
+
+#: ../data/update-manager.desktop.in.h:3
+#: ../data/update-manager.appdata.xml.in.h:2
+msgid "Show and install available updates"
+msgstr "แสดงและปรับปรุงทั้งหมดที่มี"
+
+#: ../data/update-manager.appdata.xml.in.h:3
+msgid ""
+"Software Updater checks for updates using apt and let you choose which "
+"updates to install."
+msgstr ""
+
+#: ../update-manager:71
+msgid "Show version and exit"
+msgstr "แสดงรุ่นและออกจากโปรแกรม"
+
+#: ../update-manager:74
+msgid "Directory that contains the data files"
+msgstr "ไดเรกทอรีมีแฟ้มข้อมูล"
+
+#: ../update-manager:77
+msgid "Check if a new Ubuntu release is available"
+msgstr "ตรวจสอบหารุ่นใหม่ของ Ubuntu"
+
+#: ../update-manager:80
+msgid ""
+"If using the latest supported release, upgrade to the development release"
+msgstr ""
+
+#: ../update-manager:84
+msgid "Upgrade using the latest proposed version of the release upgrader"
+msgstr "ปรับปรุงโดยใช้รุ่นล่าสุด ที่เสนอโดยตัวปรับรุ่น"
+
+#. TRANSLATORS: this describes the "focus-on-map" gtk
+#. property that controls if a new window takes the
+#. input focus control when it is displayed for the
+#. first time (see also the gtk devhelp page)
+#: ../update-manager:91
+msgid "Do not focus on map when starting"
+msgstr "ไม่ต้องโฟกัสบนแผนที่เมื่อกำลังเริ่มขึ้น"
+
+#: ../update-manager:94
+msgid "Do not check for updates when starting"
+msgstr "ไม่ต้องตรวจสอบการปรับปรุงเมื่อเริ่มเครื่อง"
+
+#: ../update-manager:96
+msgid "Show debug messages"
+msgstr ""
+
+#. Why do we use %s here instead of $strings or {} format placeholders?
+#. It's because we don't want to break existing translations.
+#: ../janitor/plugincore/exceptions.py:43
+#, python-format
+msgid "Unimplemented method: %s"
+msgstr "วิธีที่ยังไม่ได้พัฒนา: %s"
+
+#: ../janitor/plugincore/core/file_cruft.py:41
+msgid "A file on disk"
+msgstr "ไฟล์ในดิสก์"
+
+#: ../janitor/plugincore/core/missing_package_cruft.py:40
+msgid "Install missing package."
+msgstr "ติดตั้งแพคเกจที่หายไป"
+
+#. 2012-06-08 BAW: i18n string; don't use {} or PEP 292.
+#: ../janitor/plugincore/core/missing_package_cruft.py:50
+#, python-format
+msgid "Package %s should be installed."
+msgstr "ควรติดตั้งแพคเกจ %s"
+
+#: ../janitor/plugincore/core/package_cruft.py:50
+msgid ".deb package"
+msgstr ".deb แพคเกจ"
+
+#: ../janitor/plugincore/plugins/langpack_manual_plugin.py:47
+#, python-format
+msgid "%s needs to be marked as manually installed."
+msgstr "%s ต้องถูกกำหนดไว้ให้ติดตั้งด้วยตนเอง"
+
+#: ../janitor/plugincore/plugins/kdelibs4to5_plugin.py:50
+msgid ""
+"When upgrading, if kdelibs4-dev is installed, kdelibs5-dev needs to be "
+"installed. See bugs.launchpad.net, bug #279621 for details."
+msgstr ""
+"เมื่อทำการปรับรุ่น, ถ้า kdelibs4-dev ได้ถูกติดตั้งอยู่แล้ว, kdelibs5-dev จะถูกติดตั้งด้วย. ดูที่ "
+"bugs.launchpad.net, ข้อผิดพลาดที่ #279621 สำหรับรายละเอียด"
+
+#: ../janitor/plugincore/plugins/dpkg_status_plugin.py:45
+#, python-format
+msgid "%i obsolete entries in the status file"
+msgstr "%i รายการที่ล้าสมัยในไฟล์สถานะ"
+
+#: ../janitor/plugincore/plugins/dpkg_status_plugin.py:48
+msgid "Obsolete entries in dpkg status"
+msgstr "รายการที่ล้าสมัยใน dpkg สถานะ"
+
+#. pragma: no cover
+#: ../janitor/plugincore/plugins/dpkg_status_plugin.py:51
+msgid "Obsolete dpkg status entries"
+msgstr "รายการของ dpkg สถานะที่ล้าสมัย"
+
+#: ../janitor/plugincore/plugins/remove_lilo_plugin.py:43
+msgid "Remove lilo since grub is also installed.(See bug #314004 for details.)"
+msgstr "เอา lilo ออกเพราะ grub ถูกติดตั้งด้วย (กรุณาดูรายละเอียด bug #314004)"
+
+#, python-format
+#~ msgid "Server for %s"
+#~ msgstr "เซิร์ฟเวอร์สำหรับ %s"
+
+#~ msgid "Main server"
+#~ msgstr "เซิร์ฟเวอร์หลัก"
+
+#~ msgid "Custom servers"
+#~ msgstr "เซิร์ฟเวอร์กำหนดเอง"
+
+#~ msgid "Could not calculate sources.list entry"
+#~ msgstr "ไม่สามารถคำนวนรายการใน sources.list ได้"
+
+#~ msgid ""
+#~ "Unable to locate any package files, perhaps this is not a Ubuntu Disc or "
+#~ "the wrong architecture?"
+#~ msgstr "ไม่พบแพคเกจใดเลย บางทีนี่อาจไม่ใช่แผ่น Ubuntu หรือแผ่นอาจเสียหาย?"
+
+#~ msgid "Failed to add the CD"
+#~ msgstr "ไม่สามารถเพิ่มซีดีได้"
+
+#, python-format
+#~ msgid ""
+#~ "There was a error adding the CD, the upgrade will abort. Please report "
+#~ "this as a bug if this is a valid Ubuntu CD.\n"
+#~ "\n"
+#~ "The error message was:\n"
+#~ "'%s'"
+#~ msgstr ""
+#~ "มีปัญหาในการเพิ่มซีดี การปรับปรุงรุ่นจะถูกยกเลิก กรุณารายงานปัญหานี้ถ้าเป็นซีดีที่ถูกต้องของ "
+#~ "Ubuntu\n"
+#~ "\n"
+#~ "ปัญหาคือ : \n"
+#~ "'%s'"
+
+#~ msgid "Remove package in bad state"
+#~ msgid_plural "Remove packages in bad state"
+#~ msgstr[0] "ลบแพกเกจส่วนที่ใช้การไม่ได้"
+
+#, python-format
+#~ msgid ""
+#~ "The package '%s' is in an inconsistent state and needs to be reinstalled, "
+#~ "but no archive can be found for it. Do you want to remove this package "
+#~ "now to continue?"
+#~ msgid_plural ""
+#~ "The packages '%s' are in an inconsistent state and need to be "
+#~ "reinstalled, but no archives can be found for them. Do you want to remove "
+#~ "these packages now to continue?"
+#~ msgstr[0] ""
+#~ "แพคเกจ '%s' อยู่ในสถานะที่ไม่ถูกต้องและต้องทำการติดตั้งใหม่ แต่ไม่สามารถหาข้อมูลมาแก้ไขได้ "
+#~ "คุณต้องการที่จะลบแพคเกจนี้ออกก่อนเพื่อดำเนินการต่อหรือไม่?"
+
+#~ msgid "The server may be overloaded"
+#~ msgstr "เซิร์ฟเวอร์อาจทำงานหนักเกินไป"
+
+#~ msgid "Broken packages"
+#~ msgstr "แพกเกจมีปัญหา"
+
+#~ msgid ""
+#~ "Your system contains broken packages that couldn't be fixed with this "
+#~ "software. Please fix them first using synaptic or apt-get before "
+#~ "proceeding."
+#~ msgstr ""
+#~ "ระบบของคุณมีแพกเกจที่มีปัญหาที่ไม่สามารถซ่อมได้ด้วยโปรแกรมนี้ กรุณาซ่อมโดยใช้โปรแกรม "
+#~ "synaptic หรือ apt-get ก่อนดำเนินการต่อไป"
+
+#, python-format
+#~ msgid ""
+#~ "An unresolvable problem occurred while calculating the upgrade:\n"
+#~ "%s\n"
+#~ "\n"
+#~ " This can be caused by:\n"
+#~ " * Upgrading to a pre-release version of Ubuntu\n"
+#~ " * Running the current pre-release version of Ubuntu\n"
+#~ " * Unofficial software packages not provided by Ubuntu\n"
+#~ "\n"
+#~ msgstr ""
+#~ "มีปัญหาที่แก้ไม่ได้ขณะวางแผนในการปรับปรุง:\n"
+#~ "%s\n"
+#~ "\n"
+#~ " ปัญหาอาจมาจาก:\n"
+#~ " * ปรับรุ่นขึ้นไปเป็นรุ่น pre-release ของ Ubuntu\n"
+#~ " * ขณะนี้กำลังใช้รุ่น pre-release ของ Ubuntu อยู่\n"
+#~ " * ไม่ใช่ซอฟต์แวร์แพคเกจที่มาจาก Ubuntu อย่างเป็นทางการ\n"
+#~ "\n"
+
+#~ msgid "This is most likely a transient problem, please try again later."
+#~ msgstr "ปัญหานี้ดูเหมือนว่าจะเป็นปัญหาชั่วคราว, กรุณาลองใหม่อีกครั้งภายหลัง"
+
+#~ msgid ""
+#~ "If none of this applies, then please report this bug using the command "
+#~ "'ubuntu-bug update-manager' in a terminal."
+#~ msgstr ""
+#~ "หากไม่สามารถใช้ได้เลย กรุณารายงานข้อผิดพลาดนี้โดยใช้คำสั่ง 'ubuntu-bug update-"
+#~ "manager' ในเทอร์มินัล"
+
+#~ msgid "Error authenticating some packages"
+#~ msgstr "ผิดพลาดในการยืนยันของจริงในบางแพกเกจ"
+
+#~ msgid ""
+#~ "It was not possible to authenticate some packages. This may be a "
+#~ "transient network problem. You may want to try again later. See below for "
+#~ "a list of unauthenticated packages."
+#~ msgstr ""
+#~ "ไม่สามารถยืนยันความถูกต้องของบางแพกเกจได้ นี่อาจเกี่ยวกับปัญหาด้านเครือข่าย "
+#~ "คุณอาจลองอีกครั้งได้ในภายหลัง กรุณาตรวจดูรายการของแพกเกจที่ไม่ผ่านการยืนยัน"
+
+#, python-format
+#~ msgid ""
+#~ "The package '%s' is marked for removal but it is in the removal blacklist."
+#~ msgstr "แพกเกจ '%s' ถูกกาไว้เพื่อถอดถอนแต่แพกเกจนี้อยู่ในรายชื่อที่ไม่ให้ลบออก"
+
+#, python-format
+#~ msgid "The essential package '%s' is marked for removal."
+#~ msgstr "แพกเกจที่จำเป็น '%s' ถูกกำหนดไว้เพื่อลบออก"
+
+#, python-format
+#~ msgid "Trying to install blacklisted version '%s'"
+#~ msgstr "พยายามติดตั้งรุ่นที่ถูกขึ้นบัญชีดำ '%s'"
+
+#, python-format
+#~ msgid "Can't install '%s'"
+#~ msgstr "ไม่สามารถติดตั้ง '%s' ได้"
+
+#~ msgid ""
+#~ "It was impossible to install a required package. Please report this as a "
+#~ "bug using 'ubuntu-bug update-manager' in a terminal."
+#~ msgstr ""
+#~ "ไม่สามารถติดตั้งแพกเกจที่ต้องการ กรุณารายงานบั๊กนี้โดยใช้คำสั่ง 'ubuntu-bug update-"
+#~ "manager' ในเทอร์มินัล"
+
+#~ msgid "Can't guess meta-package"
+#~ msgstr "ไม่สามารถเดาเมตาแพกเกจได้"
+
+#~ msgid ""
+#~ "Your system does not contain a ubuntu-desktop, kubuntu-desktop, xubuntu-"
+#~ "desktop or edubuntu-desktop package and it was not possible to detect "
+#~ "which version of Ubuntu you are running.\n"
+#~ " Please install one of the packages above first using synaptic or apt-get "
+#~ "before proceeding."
+#~ msgstr ""
+#~ "ระบบของคุณไม่ได้ประกอบด้วย Ubuntu-desktop, Kubuntu-desktop, Xubuntu-desktop "
+#~ "หรือ Edubuntu-desktop และไม่สามารถตรวจสอบได้ว่าคุณใช้ Ubuntu รุ่นอะไรอยู่\n"
+#~ " กรุณาติดตั้งแพกเกจด้านบนอย่างใดอย่างหนึ่งก่อนโดยใช้โปรแกรม Synaptic หรือ apt-get "
+#~ "ก่อนจะดำเนินการต่อไป"
+
+#~ msgid "Reading cache"
+#~ msgstr "กำลังอ่านแคช"
+
+#~ msgid "Unable to get exclusive lock"
+#~ msgstr "ไม่สามารถเอาล็อคแต่ผู้เดียวได้"
+
+#~ msgid ""
+#~ "This usually means that another package management application (like apt-"
+#~ "get or aptitude) already running. Please close that application first."
+#~ msgstr ""
+#~ "ปกติแล้วหมายความว่ามีโปรแกรมจัดการแพ็กเกจอื่นๆ(เช่น apt-get หรือ aptitude) "
+#~ "กำลังทำงานอยู่ กรุณาออกจากโปรแกรมนั้นก่อน"
+
+#~ msgid "Upgrading over remote connection not supported"
+#~ msgstr "ไม่สนับสนุนการปรับรุ่นผ่านการติดต่อระยะไกล"
+
+#~ msgid ""
+#~ "You are running the upgrade over a remote ssh connection with a frontend "
+#~ "that does not support this. Please try a text mode upgrade with 'do-"
+#~ "release-upgrade'.\n"
+#~ "\n"
+#~ "The upgrade will abort now. Please try without ssh."
+#~ msgstr ""
+#~ "คุณกำลังเรียกใช้การปรับรุ่นผ่านการเชื่อมต่อระยะไกลด้วย SSH ส่วนติดต่อไม่สนับสนุนการกระทำนี้ "
+#~ "โปรดลองโหมดข้อความด้วย 'do-release-upgrade'\n"
+#~ "\n"
+#~ "การปรับปรุ่นจะยกเลิกเดี๋ยวนี้ โปรดลองโดยไม่ใช้ SSH"
+
+#~ msgid "Continue running under SSH?"
+#~ msgstr "ใช้งานภายใต้ SSH ต่อไปหรือไม่?"
+
+#, python-format
+#~ msgid ""
+#~ "This session appears to be running under ssh. It is not recommended to "
+#~ "perform a upgrade over ssh currently because in case of failure it is "
+#~ "harder to recover.\n"
+#~ "\n"
+#~ "If you continue, an additional ssh daemon will be started at port '%s'.\n"
+#~ "Do you want to continue?"
+#~ msgstr ""
+#~ "วาระนี้ดูเหมือนจะทำงานภายใต้ SSH ซึ่งไม่แนะนำที่จะทำการอัพเกรดผ่าน SSH "
+#~ "เพราะถ้ามีปัญหาเกิดขึ้นมันยากที่จะกู้คืน\n"
+#~ "\n"
+#~ "ถ้าคุณต้องการทำต่อ ให้เพิ่มที่ดีมอน ssh ด้วยพอร์ต '%s'\n"
+#~ "คุณต้องการที่จะต่อหรือไม่"
+
+#~ msgid "Starting additional sshd"
+#~ msgstr "กำลังเพิ่ม sshd อีก"
+
+#, python-format
+#~ msgid ""
+#~ "To make recovery in case of failure easier, an additional sshd will be "
+#~ "started on port '%s'. If anything goes wrong with the running ssh you can "
+#~ "still connect to the additional one.\n"
+#~ msgstr ""
+#~ "เพื่อให้การกู้ระบบคืนสู่สภาพเดิมง่ายขึ้นในกรณีที่มีปัญหา โปรแกรมจะเริ่ม sshd อีกอันหนึ่งที่พอร์ต "
+#~ "'%s' ถ้ามีปัญหาเกิดขึ้นกับโปรแกรม ssh ที่ใช้อยู่คุณยังสามารถติดต่อผ่านอีกอันหนึ่งได้\n"
+
+#, python-format
+#~ msgid ""
+#~ "If you run a firewall, you may need to temporarily open this port. As "
+#~ "this is potentially dangerous it's not done automatically. You can open "
+#~ "the port with e.g.:\n"
+#~ "'%s'"
+#~ msgstr ""
+#~ "ถ้าคุณใช้งานไฟร์วอลล์ คุณควรจะเปิดพอร์ตนี้ชั่วคราว "
+#~ "เนื่องจากเป็นสิ่งที่ไม่ปลอดภัยถ้าทำการเปิดพอร์ตทำโดยอัตโนมัติ คุณสามารถเปิดพอร์ตด้วย\n"
+#~ "'%s'"
+
+#~ msgid "Can not upgrade"
+#~ msgstr "ไม่สามารถปรับปรุงรุ่น"
+
+#, python-format
+#~ msgid "An upgrade from '%s' to '%s' is not supported with this tool."
+#~ msgstr "เครื่องมือนี้ไม่รองรับการปรับปรุงรุ่นจาก '%s' ไปเป็น '%s'"
+
+#~ msgid "Sandbox setup failed"
+#~ msgstr "การเตรียมกล่องทรายสำหรับทดลองมีปัญหา"
+
+#~ msgid "It was not possible to create the sandbox environment."
+#~ msgstr "ไม่สามารถสร้างสภาพแวดล้อมของกล่องทรายได้"
+
+#~ msgid "Sandbox mode"
+#~ msgstr "แบบกล่องทรายสำหรับทดลอง"
+
+#~ msgid ""
+#~ "Your python install is corrupted. Please fix the '/usr/bin/python' "
+#~ "symlink."
+#~ msgstr ""
+#~ "โปรแกรม python ที่คุณติดตั้งไว้ไม่สามารถใช้ได้ กรุณาแก้ไข้ symlink  '/usr/bin/python'"
+
+#~ msgid "Package 'debsig-verify' is installed"
+#~ msgstr "แพคเกจ 'debsig-verify' ถูกติดตั้งไว้แล้ว"
+
+#~ msgid ""
+#~ "The upgrade can not continue with that package installed.\n"
+#~ "Please remove it with synaptic or 'apt-get remove debsig-verify' first "
+#~ "and run the upgrade again."
+#~ msgstr ""
+#~ "ไม่สามารถอัปเกรดต่อไปได้ถ้ามีแพคเกจนั้นติดตั้งอยู่.\n"
+#~ "โปรดลบมันด้วย synaptic หรือ apt-get remove debsig-verify เสียก่อนแล้วอัปเกรดอีกครั้ง"
+
+#~ msgid "Include latest updates from the Internet?"
+#~ msgstr "รวมการปรับปรุงล่าสุดจากอินเตอร์เน็ตด้วยหรือไม่?"
+
+#~ msgid ""
+#~ "The upgrade system can use the internet to automatically download the "
+#~ "latest updates and install them during the upgrade.  If you have a "
+#~ "network connection this is highly recommended.\n"
+#~ "\n"
+#~ "The upgrade will take longer, but when it is complete, your system will "
+#~ "be fully up to date.  You can choose not to do this, but you should "
+#~ "install the latest updates soon after upgrading.\n"
+#~ "If you answer 'no' here, the network is not used at all."
+#~ msgstr ""
+#~ "โปรแกรมปรับปรุงระบบสามารถใช้อินเทอร์เน็ตดาวน์โหลดโปรแกรมต่างๆ "
+#~ "รุ่นล่าสุดและทำการติดตั้งโดยอัตโนมัติขณะทำการปรับปรุง ถ้าคุณมีระบบเครือข่ายอินเทอร์เน็ต "
+#~ "นี่เป็นแนวทางที่แนะนำให้ใช้\n"
+#~ "\n"
+#~ "การปรับปรุงจะใช้เวลานานขึ้น แต่เมื่อเสร็จแล้วระบบของคุณจะเป็นรุ่นล่าสุดทั้งหมด "
+#~ "คุณสามารถที่จะเลือกไม่ทำเช่นนี้ "
+#~ "แต่คุณควรจะทำการติดตั้งรุ่นล่าสุดโดยเร็วหลังจากเสร็จการปรับปรุงแล้ว\n"
+#~ "ถ้าคุณเลือก 'ไม่' ระบบเครือข่ายอินเทอร์เน็ตจะไม่ถูกใช้เลย"
+
+#, python-format
+#~ msgid "disabled on upgrade to %s"
+#~ msgstr "หยุดใช้งานเมื่อปรับปรุงเป็น %s"
+
+#~ msgid "No valid mirror found"
+#~ msgstr "ไม่เจอเซิรฟ์เวอร์เสริม(mirror)"
+
+#, python-format
+#~ msgid ""
+#~ "While scanning your repository information no mirror entry for the "
+#~ "upgrade was found. This can happen if you run a internal mirror or if the "
+#~ "mirror information is out of date.\n"
+#~ "\n"
+#~ "Do you want to rewrite your 'sources.list' file anyway? If you choose "
+#~ "'Yes' here it will update all '%s' to '%s' entries.\n"
+#~ "If you select 'No' the upgrade will cancel."
+#~ msgstr ""
+#~ "ในขณะที่สแกนที่คลังข้อมูลของคุณไม่พบรายการที่สำรองสำหรับปรับรุ่น "
+#~ "นี้สามารถเกิดขึ้นได้ถ้าคุณเรียกใช้ที่สำรองภายในหรือหากข้อมูลหมดอายุแล้ว\n"
+#~ "\n"
+#~ "คุณต้องการที่จะเขียนแฟ้ม 'sources.list' ใหม่หรือไม่ หากคุณเลือกที่ 'ใช่' จะทำการปรับปรุง "
+#~ "'%s' ทั้งหมดไปเป็น '%s'\n"
+#~ "หากคุณเลือก 'ไม่' การปรับรุ่นที่จะยกเลิก"
+
+#~ msgid "Generate default sources?"
+#~ msgstr "สร้าง default sources?"
+
+#, python-format
+#~ msgid ""
+#~ "After scanning your 'sources.list' no valid entry for '%s' was found.\n"
+#~ "\n"
+#~ "Should default entries for '%s' be added? If you select 'No', the upgrade "
+#~ "will cancel."
+#~ msgstr ""
+#~ "หลังจากตรวจแฟ้ม 'sources.list' ของคุณแล้วไม่พบรายการ '%s' ที่ต้องการใช้\n"
+#~ "\n"
+#~ "ควรเพิ่มรายการ '%s' หรือไม่? ถ้าคุณเลือก 'ไม่' กระบวนการปรับรุ่นจะถูกยกเลิก"
+
+#~ msgid "Repository information invalid"
+#~ msgstr "ข้อมูลเกี่ยวกับแหล่งเก็บข้อมูลใช้ไม่ได้"
+
+#~ msgid "Third party sources disabled"
+#~ msgstr "แหล่งอื่นๆใช้ไม่ได้"
+
+#~ msgid ""
+#~ "Some third party entries in your sources.list were disabled. You can re-"
+#~ "enable them after the upgrade with the 'software-properties' tool or your "
+#~ "package manager."
+#~ msgstr ""
+#~ "บางรายการใน souces.list ของคุณถูกปิดไว้ "
+#~ "คุณสามารถเปลี่ยนให้ใช้ได้หลังการปรับปรุงด้วยเครื่องมือ 'software-properties' "
+#~ "หรือด้วยโปรแกรมจัดการแพ็กเกจ"
+
+#~ msgid "Package in inconsistent state"
+#~ msgid_plural "Packages in inconsistent state"
+#~ msgstr[0] "แพคเกจเกิดความขัดแย้ง"
+
+#, python-format
+#~ msgid ""
+#~ "The package '%s' is in an inconsistent state and needs to be reinstalled, "
+#~ "but no archive can be found for it. Please reinstall the package manually "
+#~ "or remove it from the system."
+#~ msgid_plural ""
+#~ "The packages '%s' are in an inconsistent state and need to be "
+#~ "reinstalled, but no archive can be found for them. Please reinstall the "
+#~ "packages manually or remove them from the system."
+#~ msgstr[0] ""
+#~ "แพคเกจ '%s' อยู่ในสถานะที่ไม่แน่นอนและต้องทำการติดตั้งใหม่ แต่ไม่สามารถหาข้อมูลเก่าได้ "
+#~ "กรุณาติดตั้งใหม่อีกครั้งหรือลบออกจากระบบ"
+
+#~ msgid "Error during update"
+#~ msgstr "เกิดข้อผิดพลาดขณะปรับปรุง"
+
+#~ msgid "Calculating the changes"
+#~ msgstr "กำลังคำนวนปริมาณการเปลี่ยนแปลง"
+
+#~ msgid "Do you want to start the upgrade?"
+#~ msgstr "คุณต้องการที่จะเริ่มการปรับปรุงหรือไม่?"
+
+#~ msgid "Upgrade canceled"
+#~ msgstr "การปรับรุ่นถูกยกเลิก"
+
+#~ msgid ""
+#~ "The upgrade will cancel now and the original system state will be "
+#~ "restored. You can resume the upgrade at a later time."
+#~ msgstr ""
+#~ "การปรับรุ่นจะถูกยกเลิกเดี๋ยวนี้ และระบบดังเดิมจะถูกกู้คืน คุณสามารถปรับรุ่นต่อได้ในภายหลัง"
+
+#~ msgid "Could not download the upgrades"
+#~ msgstr "ไม่สามารถดาวน์โหลดข้อมูลปรับปรุงรุ่น"
+
+#~ msgid ""
+#~ "The upgrade has aborted. Please check your Internet connection or "
+#~ "installation media and try again. All files downloaded so far have been "
+#~ "kept."
+#~ msgstr ""
+#~ "การปรับรุ่นถูกยกเลิก โปรดตรวจดูการเชื่อมต่ออินเทอร์เน็ตของคุณหรือการติดตั้งสื่อแล้วลองใหม่ ทุก "
+#~ "ๆ แฟ้มที่ดาว์โหลดจะถูกเก็บไว้ก่อน"
+
+#~ msgid "Error during commit"
+#~ msgstr "เกิดข้อผิดพลาดขณะแก้ไขปรับปรุง"
+
+#~ msgid "Restoring original system state"
+#~ msgstr "คืนระบบสู่สถานะแรกเริ่ม"
+
+#~ msgid "Could not install the upgrades"
+#~ msgstr "ไม่สามารถปรับปรุงได้"
+
+#~ msgid ""
+#~ "The upgrade has aborted. Please check your Internet connection or "
+#~ "installation media and try again. "
+#~ msgstr ""
+#~ "การปรับรุ่นถูกเพิกเฉย โปรดตรวจสอบการเชื่อมต่ออินเทอร์เน็ต หรือสื่อที่ใช้ติดตั้งและลองใหม่ "
+
+#~ msgid "Remove obsolete packages?"
+#~ msgstr "ลบแพจเกจที่ล้าสมัยทิ้งหรือไม่?"
+
+#~ msgid "_Keep"
+#~ msgstr "คงไว้"
+
+#~ msgid "_Remove"
+#~ msgstr "เอาออก"
+
+#~ msgid ""
+#~ "A problem occurred during the clean-up. Please see the below message for "
+#~ "more information. "
+#~ msgstr "มีปัญหาเกิดขึ้นขณะทำการเก็บกวาด กรุณาอ่านข้อมูลข้างล่างสำหรับรายละเอียด "
+
+#~ msgid "Required depends is not installed"
+#~ msgstr "โปรแกรมที่ต้องการไม่ได้ถูกติดตั้ง"
+
+#, python-format
+#~ msgid "The required dependency '%s' is not installed. "
+#~ msgstr "โปรแกรม '%s' ที่ต้องการไม่ได้ถูกติดตั้ง "
+
+#~ msgid "Checking package manager"
+#~ msgstr "กำลังตรวจสอบโปรแกรมจัดการแพกเกจ"
+
+#~ msgid "Preparing the upgrade failed"
+#~ msgstr "การเตรียมการปรับปรุงรุ่นมีปัญหา"
+
+#~ msgid "Getting upgrade prerequisites failed"
+#~ msgstr "เอาแพคเกจที่จำเป็นก่อนการปรับปรุงมาไม่ได้"
+
+#~ msgid "Updating repository information"
+#~ msgstr "ปรับปรุงข้อมูลของแหล่งข้อมูล"
+
+#~ msgid "Failed to add the cdrom"
+#~ msgstr "เพิ่มแผ่นซีดีล้มเหลว"
+
+#~ msgid "Sorry, adding the cdrom was not successful."
+#~ msgstr "ขออภัยด้วย, ทำการเพิ่มแผ่นซีดีไม่สำเร็จ"
+
+#~ msgid "Invalid package information"
+#~ msgstr "ข้อมูลของแพกเกจไม่ถูกต้อง"
+
+#~ msgid "Fetching"
+#~ msgstr "กำลังดึงข้อมูล"
+
+#~ msgid "Upgrading"
+#~ msgstr "กำลังปรับปรุง"
+
+#~ msgid ""
+#~ "The upgrade has completed but there were errors during the upgrade "
+#~ "process."
+#~ msgstr "การปรับรุ่นสมบูรณ์ แต่เกิดข้อผิดพลาดในระหว่างขั้นตอนการปรับรุ่น"
+
+#~ msgid "Searching for obsolete software"
+#~ msgstr "ค้นหาซอฟแวร์ที่ล้าสมัย"
+
+#~ msgid "System upgrade is complete."
+#~ msgstr "ปรับปรุงระบบเสร็จแล้ว"
+
+#~ msgid "The partial upgrade was completed."
+#~ msgstr "การปรับปรุงรุ่นบางส่วนเสร็จสมบูรณ์"
+
+#~ msgid "evms in use"
+#~ msgstr "evms ใช้งานอยู่"
+
+#~ msgid ""
+#~ "Your system uses the 'evms' volume manager in /proc/mounts. The 'evms' "
+#~ "software is no longer supported, please switch it off and run the upgrade "
+#~ "again when this is done."
+#~ msgstr ""
+#~ "ระบบของคุณใช้โปรแกรมจัดการโวลุ่ม 'evms' ใน /proc/mounts ซอฟต์แวร์ 'evms' "
+#~ "ไม่มีการสนับสนุนแล้ว กรุณาหยุดใช้และทำการปรับปรุงใหม่อีกครั้ง"
+
+#~ msgid ""
+#~ "Upgrading may reduce desktop effects, and performance in games and other "
+#~ "graphically intensive programs."
+#~ msgstr ""
+#~ "การปรับปรุงอาจจะลดลูกเล่นของพื้นโต๊ะ และประสิทธิภาพในเกมและโปรแกมอื่นๆ ที่ต้องใช้กราฟิกมาก"
+
+#~ msgid ""
+#~ "This computer is currently using the NVIDIA 'nvidia' graphics driver. No "
+#~ "version of this driver is available that works with your video card in "
+#~ "Ubuntu 10.04 LTS.\n"
+#~ "\n"
+#~ "Do you want to continue?"
+#~ msgstr ""
+#~ "คอมพิวเตอร์ตัวนี้ใช้กราฟิกไดรเวอร์ของ NVIDIA 'nvidia' "
+#~ "ไม่พบรุ่นของไดรเวอร์ที่ทำงานกับการ์ดวิดีโอของคุณใน Ubuntu 10.04 LTS\n"
+#~ "\n"
+#~ "คุณต้องการทำต่อ?"
+
+#~ msgid ""
+#~ "This computer is currently using the AMD 'fglrx' graphics driver. No "
+#~ "version of this driver is available that works with your hardware in "
+#~ "Ubuntu 10.04 LTS.\n"
+#~ "\n"
+#~ "Do you want to continue?"
+#~ msgstr ""
+#~ "คอมพิวเตอร์ตัวนี้ใช้กราฟิกไดรเวอร์ของ NVIDIA 'nvidia' "
+#~ "ไม่พบรุ่นของไดรเวอร์ที่ทำงานกับการ์ดวิดีโอของคุณใน Ubuntu 10.04 LTS\n"
+#~ "\n"
+#~ "คุณต้องการทำต่อ?"
+
+#~ msgid "No i686 CPU"
+#~ msgstr "ไม่มี CPU i686"
+
+#~ msgid ""
+#~ "Your system uses an i586 CPU or a CPU that does not have the 'cmov' "
+#~ "extension. All packages were built with optimizations requiring i686 as "
+#~ "the minimal architecture. It is not possible to upgrade your system to a "
+#~ "new Ubuntu release with this hardware."
+#~ msgstr ""
+#~ "ระบบของคุณใช้ i586 CPU หรือ CPU ที่ไม่มีส่วนขยาย 'cmov' "
+#~ "แพคเกจทั้งหมดถูกสร้างขึ้นด้วยการเพิ่มประสิทธิภาพต้องเป็นสถาปัตยกรรม i686 น้อยที่สุด "
+#~ "มันเป็นไปไม่ได้ที่จะปรุบรุ่นระบบ Ubuntu ของคุณกับฮาร์ดแวร์ใหม่นี้"
+
+#~ msgid "No ARMv6 CPU"
+#~ msgstr "ไม่พบ CPU ARMv6"
+
+#~ msgid "No init available"
+#~ msgstr "ไม่พบ init"
+
+#~ msgid "Sandbox upgrade using aufs"
+#~ msgstr "กล่องทรายทดลองปรับปรุงโดยใช้ aufs"
+
+#~ msgid "Use the given path to search for a cdrom with upgradable packages"
+#~ msgstr "ใช้พาธ(path)ที่ให้ในการค้นหาซีดีรอมที่มีแพ็กเกจที่สามารถปรับปรุงได้"
+
+#~ msgid ""
+#~ "Use frontend. Currently available: \n"
+#~ "DistUpgradeViewText, DistUpgradeViewGtk, DistUpgradeViewKDE"
+#~ msgstr ""
+#~ "ใช้ส่วนหน้า(frontend) ปัจจุบันมี่ให้เลือก: \n"
+#~ "DistUpgradeViewText, DistUpgradeViewGtk, DistUpgradeViewKDE"
+
+#~ msgid "*DEPRECATED* this option will be ignored"
+#~ msgstr "*ไม่สนับสนุนให้ใช้* ตัวเลือกนี้จะไม่ถูกสนใจ"
+
+#~ msgid "Perform a partial upgrade only (no sources.list rewriting)"
+#~ msgstr "ทำการปรับปรุงบางส่วนเท่านั้น (sources.list จะไม่ถูกบันทึก)"
+
+#~ msgid "Disable GNU screen support"
+#~ msgstr "ปิดการทำงานหน้าจอ GNU"
+
+#~ msgid "Set datadir"
+#~ msgstr "ตั้งค่า datadir"
+
+#, python-format
+#~ msgid "Please insert '%s' into the drive '%s'"
+#~ msgstr "โปรดใส่ '%s' ลงใน '%s'"
+
+#~ msgid "Fetching is complete"
+#~ msgstr "ดึงข้อมูลเสร็จสิ้นแล้ว"
+
+#, python-format
+#~ msgid "Fetching file %li of %li at %sB/s"
+#~ msgstr "กำลังเอาไฟล์ที่ %li จากทั้งหมด %li ด้วยความเร็ว %sB/s"
+
+#, python-format
+#~ msgid "About %s remaining"
+#~ msgstr "เหลือประมาณ %s"
+
+#, python-format
+#~ msgid "Fetching file %li of %li"
+#~ msgstr "กำลังดึงข้อมูลแฟ้ม %li จาก %li"
+
+#~ msgid "Applying changes"
+#~ msgstr "กำลังเปลี่ยนแปลง"
+
+#~ msgid "dependency problems - leaving unconfigured"
+#~ msgstr "มีปัญหาความขึ้นต่อกันระหว่างแพกเกจ - จะทิ้งไว้โดยไม่ตั้งค่า"
+
+#, python-format
+#~ msgid "Could not install '%s'"
+#~ msgstr "ไม่สามารถติดตั้ง '%s'"
+
+#, python-format
+#~ msgid ""
+#~ "The upgrade will continue but the '%s' package may not be in a working "
+#~ "state. Please consider submitting a bug report about it."
+#~ msgstr ""
+#~ "การปรับรุ่นจะดำเนินการต่อไป แต่แพคเกจ '%s' อาจจะไม่สามารถทำงานได้ "
+#~ "โปรดตรวจสอบและส่งรายการข้อผิดพลาดที่เกี่ยวกับมัน"
+
+#, python-format
+#~ msgid ""
+#~ "Replace the customized configuration file\n"
+#~ "'%s'?"
+#~ msgstr ""
+#~ "เปลี่ยนไฟล์ปรับแต่งที่แก้ไขเอง\n"
+#~ "'%s' หรือไม่?"
+
+#~ msgid ""
+#~ "You will lose any changes you have made to this configuration file if you "
+#~ "choose to replace it with a newer version."
+#~ msgstr "คุณจะสูญเสียข้อมูลปรับแต่งที่ได้ทำไว้ในไฟล์ปรับแต่งถ้าคุณเลือกที่จะเปลี่ยนไปใช้ไฟล์รุ่นใหม่กว่านี้"
+
+#~ msgid "The 'diff' command was not found"
+#~ msgstr "ไม่เจอคำสั่ง  'diff'"
+
+#~ msgid "A fatal error occurred"
+#~ msgstr "เกิดข้อผิดพลาดอย่างร้ายแรง"
+
+#~ msgid "Ctrl-c pressed"
+#~ msgstr "Ctrl-c ถูกกดแล้ว"
+
+#~ msgid ""
+#~ "This will abort the operation and may leave the system in a broken state. "
+#~ "Are you sure you want to do that?"
+#~ msgstr ""
+#~ "การกดนี้จะยกเลิกการทำงานของโปรแกรม และอาจทำให้ระบบของคุณอยู่ในสภาพใช้การไม่ได้ "
+#~ "คุณแน่ใจหรือไม่ว่าจะหยุด?"
+
+#~ msgid "To prevent data loss close all open applications and documents."
+#~ msgstr "เพื่อป้องกันข้อมูลสูญหายกรุณาออกจากทุกโปรแกรมและเอกสารที่เปิดอยู่"
+
+#, python-format
+#~ msgid "No longer supported by Canonical (%s)"
+#~ msgstr "เลิกให้การสนับสนุนโดย Canonical แล้ว (%s)"
+
+#, python-format
+#~ msgid "<b>Downgrade (%s)</b>"
+#~ msgstr "<b>ปรับรุ่นลง (%s)</b>"
+
+#, python-format
+#~ msgid "Remove (%s)"
+#~ msgstr "ถอดถอน (%s)"
+
+#, python-format
+#~ msgid "No longer needed (%s)"
+#~ msgstr "ไม่ต้องการอีกต่อไป (%s)"
+
+#, python-format
+#~ msgid "Install (%s)"
+#~ msgstr "ติดตั้ง (%s)"
+
+#, python-format
+#~ msgid "Upgrade (%s)"
+#~ msgstr "ปรับรุ่น (%s)"
+
+#~ msgid "Media Change"
+#~ msgstr "เปลี่ยนสื่อ"
+
+#~ msgid "Show Difference >>>"
+#~ msgstr "แสดงความแตกต่าง >>>"
+
+#~ msgid "<<< Hide Difference"
+#~ msgstr "<<< ซ่อนความแตกต่าง"
+
+#~ msgid "Error"
+#~ msgstr "ผิดพลาด"
+
+#~ msgid "&Cancel"
+#~ msgstr "&ยกเลิก"
+
+#~ msgid "&Close"
+#~ msgstr "&ปิด"
+
+#~ msgid "Show Terminal >>>"
+#~ msgstr "แสดงเทอร์มินัล >>>"
+
+#~ msgid "<<< Hide Terminal"
+#~ msgstr "<<< ซ่อนเทอร์มินัล"
+
+#~ msgid "Information"
+#~ msgstr "รายละเอียด"
+
+#~ msgid "Details"
+#~ msgstr "รายละเอียด"
+
+#, python-format
+#~ msgid "No longer supported %s"
+#~ msgstr "เลิกให้การสนับสนุนแล้ว %s"
+
+#, python-format
+#~ msgid "Remove (was auto installed) %s"
+#~ msgstr "ถอดถอน %s (ที่ถูกติดตั้งโดยอัตโนมัติ)"
+
+#, python-format
+#~ msgid "Upgrade %s"
+#~ msgstr "ปรับปรุงรุ่น %s"
+
+#~ msgid "<b><big>Restart the system to complete the upgrade</big></b>"
+#~ msgstr "<b><big>เริ่มระบบใหม่เพื่อที่จะให้การปรับปรุงเสร็จสิ้น</big></b>"
+
+#~ msgid ""
+#~ "<b><big>Cancel the running upgrade?</big></b>\n"
+#~ "\n"
+#~ "The system could be in an unusable state if you cancel the upgrade. You "
+#~ "are strongly advised to resume the upgrade."
+#~ msgstr ""
+#~ "<b><big>ยกเลิกการปรับปรุงนี้หรือไม่?</big></b>\n"
+#~ "\n"
+#~ "ระบบของคุณจะอยู่ในสภาพที่ใช้การไม่ได้ถ้าคุณยกเลิกการปรับปรุง. ขอแนะนำให้ดำเนินการต่อไป"
+
+#~ msgid "Cancel Upgrade?"
+#~ msgstr "ยกเลิกการปรับปรุงรุ่นหรือไม่?"
+
+#, python-format
+#~ msgid "%li day"
+#~ msgid_plural "%li days"
+#~ msgstr[0] "%li วัน"
+
+#, python-format
+#~ msgid "%li hour"
+#~ msgid_plural "%li hours"
+#~ msgstr[0] "%li ชั่วโมง"
+
+#, python-format
+#~ msgid "%li minute"
+#~ msgid_plural "%li minutes"
+#~ msgstr[0] "%li นาที"
+
+#, python-format
+#~ msgid "%li second"
+#~ msgid_plural "%li seconds"
+#~ msgstr[0] "%li วินาที"
+
+#, python-format
+#~ msgid "%(str_days)s %(str_hours)s"
+#~ msgstr "%(str_days)s %(str_hours)s"
+
+#, python-format
+#~ msgid "%(str_hours)s %(str_minutes)s"
+#~ msgstr "%(str_hours)s %(str_minutes)s"
+
+#, python-format
+#~ msgid ""
+#~ "This download will take about %s with a 1Mbit DSL connection and about %s "
+#~ "with a 56k modem."
+#~ msgstr ""
+#~ "ดาวน์โหลดนี้จะใช้เวลาประมาณ %s ถ้าใช้สาย 1Mbit DSL หรือประมาณ %s ถ้าใช้ 56k โมเด็ม."
+
+#, python-format
+#~ msgid "This download will take about %s with your connection. "
+#~ msgstr "การดาวน์โหลดนี้จะใช้เวลาประมาณ %s จากการเชื่อมต่อของคุณ "
+
+#~ msgid "Preparing to upgrade"
+#~ msgstr "กำลังเตรียมการปรับปรุง"
+
+#~ msgid "Getting new software channels"
+#~ msgstr "ตรวจหาช่องซอฟต์แวร์ใหม่"
+
+#~ msgid "Getting new packages"
+#~ msgstr "กำลังรับแพคเกจใหม่"
+
+#~ msgid "Installing the upgrades"
+#~ msgstr "กำลังทำการปรับปรุงรุ่น"
+
+#~ msgid "Cleaning up"
+#~ msgstr "กำลังเก็บกวาด"
+
+#, python-format
+#~ msgid ""
+#~ "%(amount)d installed package is no longer supported by Canonical. You can "
+#~ "still get support from the community."
+#~ msgid_plural ""
+#~ "%(amount)d installed packages are no longer supported by Canonical. You "
+#~ "can still get support from the community."
+#~ msgstr[0] ""
+#~ "%(amount)d แพกเกจที่ติดตั้งแล้วนี้ Canonical ไม่ได้ดูแลอีกต่อไป "
+#~ "แต่คุณยังได้รับการสนับสนุนจากชุมชนอื่น ๆ ได้อีก"
+
+#, python-format
+#~ msgid "%d new package is going to be installed."
+#~ msgid_plural "%d new packages are going to be installed."
+#~ msgstr[0] "%d แพกเกจใหม่จะถูกติดตั้ง"
+
+#, python-format
+#~ msgid "%d package is going to be upgraded."
+#~ msgid_plural "%d packages are going to be upgraded."
+#~ msgstr[0] "%d แพกเกจจะถูกปรับปรุงรุ่น"
+
+#, python-format
+#~ msgid ""
+#~ "\n"
+#~ "\n"
+#~ "You have to download a total of %s. "
+#~ msgstr ""
+#~ "\n"
+#~ "\n"
+#~ "คุณจะต้องดาวน์โหลดทั้งหมด  %s "
+
+#~ msgid ""
+#~ "There are no upgrades available for your system. The upgrade will now be "
+#~ "canceled."
+#~ msgstr "ไม่มีข้อมูลปรับปรุงรุ่นสำหรับระบบของคุณ การปรับปรุงรุ่นจึงถูกยกเลิก"
+
+#~ msgid "Reboot required"
+#~ msgstr "ต้องเริ่มระบบใหม่"
+
+#~ msgid ""
+#~ "The upgrade is finished and a reboot is required. Do you want to do this "
+#~ "now?"
+#~ msgstr "การปรับปรุงเสร็จสิ้นแล้วและต้องการที่จะเริ่มระบบใหม่ คุณต้องการที่จะทำเดี๋ยวนี้หรือเปล่า?"
+
+#~ msgid "Could not run the upgrade tool"
+#~ msgstr "ไม่สามารถเรียกใช้เครื่องมือปรับปรุง"
+
+#~ msgid "Upgrade tool signature"
+#~ msgstr "รายเซ็นของเครื่องมือปรับปรุง"
+
+#~ msgid "Upgrade tool"
+#~ msgstr "เครื่องมือปรับปรุงรุ่น"
+
+#~ msgid "Failed to fetch"
+#~ msgstr "ไม่สามารถเอามาได้"
+
+#~ msgid "Fetching the upgrade failed. There may be a network problem. "
+#~ msgstr "ไม่สามารถดาวน์โหลดข้อมูลปรับปรุงได้ อาจจะเป็นปัญหาในเครือข่าย "
+
+#~ msgid "Authentication failed"
+#~ msgstr "ไม่สามารถยืนยันว่าเป็นของจริงได้"
+
+#~ msgid ""
+#~ "Authenticating the upgrade failed. There may be a problem with the "
+#~ "network or with the server. "
+#~ msgstr "ยืนยันการปรับปรุงไม่สำเร็จ อาจจะมีปัญหาในเครือข่ายหรือที่เซิรฟ์เวอร์ "
+
+#~ msgid "Failed to extract"
+#~ msgstr "ไม่สามารถเอาออกมาได้"
+
+#~ msgid ""
+#~ "Extracting the upgrade failed. There may be a problem with the network or "
+#~ "with the server. "
+#~ msgstr "ไม่สามารถแกะข้อมูลปรับปรุงออกมาได้ อาจจะเป็นปัญหาในเครือข่ายหรือที่เซิรฟ์เวอร์ "
+
+#~ msgid "Verification failed"
+#~ msgstr "การตรวจสอบล้มเหลว"
+
+#~ msgid ""
+#~ "Verifying the upgrade failed.  There may be a problem with the network or "
+#~ "with the server. "
+#~ msgstr "ตรวจทานการปรับปรุงไม่สำเร็จ อาจจะมีปัญหาในเครือข่ายหรือที่เซิร์ฟเวอร์ "
+
+#~ msgid "Can not run the upgrade"
+#~ msgstr "ไม่สามารถเริ่มโปรแกรมปรับปรุงได้"
+
+#~ msgid ""
+#~ "This usually is caused by a system where /tmp is mounted noexec. Please "
+#~ "remount without noexec and run the upgrade again."
+#~ msgstr ""
+#~ "นี้มักจะเกิดโดยที่ระบบ /tmp เชื่อมต่อด้วย noexec โปรดเชื่อมต่อใหม่โดยไม่ต้องใช้ noexec "
+#~ "และเรียกใช้ปรับรุ่นอีกครั้ง"
+
+#, python-format
+#~ msgid "The error message is '%s'."
+#~ msgstr "ข้อผิดพลาดคือ '%s'"
+
+#~ msgid "Aborting"
+#~ msgstr "กำลังยกเลิก"
+
+#~ msgid "Demoted:\n"
+#~ msgstr "ปรับลง:\n"
+
+#~ msgid "To continue please press [ENTER]"
+#~ msgstr "ทำต่อโปรดกด [ENTER]"
+
+#~ msgid "Continue [yN] "
+#~ msgstr "ดำเนินการต่อไป[ชม] "
+
+#~ msgid "Details [d]"
+#~ msgstr "รายละเอียด[ร]"
+
+#~ msgid "y"
+#~ msgstr "ช"
+
+#~ msgid "n"
+#~ msgstr "ม"
+
+#~ msgid "d"
+#~ msgstr "ร"
+
+#, python-format
+#~ msgid "No longer supported: %s\n"
+#~ msgstr "เลิกให้การสนับสนุนแล้ว: %s\n"
+
+#, python-format
+#~ msgid "Remove: %s\n"
+#~ msgstr "ลบออก: %s\n"
+
+#, python-format
+#~ msgid "Install: %s\n"
+#~ msgstr "ติดตั้ง:  %s\n"
+
+#, python-format
+#~ msgid "Upgrade: %s\n"
+#~ msgstr "ปรับปรุง: %s\n"
+
+#~ msgid "Continue [Yn] "
+#~ msgstr "ทำต่อไป [Yn] "
+
+#~ msgid ""
+#~ "To finish the upgrade, a restart is required.\n"
+#~ "If you select 'y' the system will be restarted."
+#~ msgstr ""
+#~ "คุณจำเป็นต้องเริ่มระบบใหม่เพื่อทำให้การอัพเกรดเสร็จสมบูรณ์\n"
+#~ "หากคุณเลือก 'y' จะเป็นการเริ่มระบบใหม่"
+
+#~ msgid "_Cancel Upgrade"
+#~ msgstr "ยกเลิกการปรับปรุงรุ่น"
+
+#~ msgid "_Resume Upgrade"
+#~ msgstr "ปรับปรุงรุ่นต่อจากคราวที่แล้ว"
+
+#~ msgid ""
+#~ "<b><big>Cancel the running upgrade?</big></b>\n"
+#~ "\n"
+#~ "The system could be in an unusable state if you cancel the upgrade. You "
+#~ "are strongly adviced to resume the upgrade."
+#~ msgstr ""
+#~ "<b><big>ต้องการยกเลิกการปรับปรุงที่กำลังทำอยู่หรือไม่?</big></b>\n"
+#~ "\n"
+#~ "ระบบอาจจะไม่มั่นคงถ้าคุณยกเลิกการปรับปรุง ขอแนะนำเป็นอย่างยิ่งให้คุณดำเนินการปรับปรุงต่อไป"
+
+#~ msgid "_Start Upgrade"
+#~ msgstr "เริ่มการปรับปรุงรุ่น"
+
+#~ msgid "_Replace"
+#~ msgstr "แทนที่"
+
+#~ msgid "Difference between the files"
+#~ msgstr "ข้อแตกต่างระหว่างไฟล์"
+
+#~ msgid "_Report Bug"
+#~ msgstr "ส่งรายงานปัญหา"
+
+#~ msgid "<b><big>Start the upgrade?</big></b>"
+#~ msgstr "<b><big>เริ่มการปรับปรุงหรือไม่?</big></b>"
+
+#~ msgid ""
+#~ "<b><big>Restart the system to complete the upgrade</big></b>\n"
+#~ "\n"
+#~ "Please save your work before continuing."
+#~ msgstr ""
+#~ "<b><big>เริ่มระบบใหม่เพื่อให้การปรับรุ่นสมบูรณ์</big></b>\n"
+#~ "โปรดบันทึกงานของท่านก่อนดำเนินการต่อ"
+
+#~ msgid "Distribution Upgrade"
+#~ msgstr "ปรับปรุงชุดเผยแพร่"
+
+#, fuzzy
+#~ msgid "<b><big>Upgrading Ubuntu to version 12.10</big></b>"
+#~ msgstr "<b><big>กำลังปรับรุ่น Ubuntu ไปเป็นรุ่น 11.10</big></b>"
+
+#~ msgid "    "
+#~ msgstr "    "
+
+#~ msgid "Setting new software channels"
+#~ msgstr "กำลังตั้งค่าช่องซอฟต์แวร์ใหม่"
+
+#~ msgid "Restarting the computer"
+#~ msgstr "เริ่มเครื่องคอมพิวเตอร์ใหม่"
+
+#~ msgid "Terminal"
+#~ msgstr "เทอร์มินัล"
+
+#~ msgid "Could not find the release notes"
+#~ msgstr "ไม่สามารถหาบันทึกการปล่อย"
+
+#~ msgid "The server may be overloaded. "
+#~ msgstr "เซิรฟ์เวอร์อาจจะทำงานเกินพิกัด "
+
+#~ msgid "Could not download the release notes"
+#~ msgstr "ไม่สามารถดาวน์โหลดบันทึกการปล่อย"
+
+#~ msgid "Please check your internet connection."
+#~ msgstr "กรุณาตรวจสอบการสื่อสารทางอินเตอร์เน็ตของคุณ"
+
+#~ msgid "Release Notes"
+#~ msgstr "บันทึกรายการปรับปรุง"
+
+#~ msgid "Downloading additional package files..."
+#~ msgstr "กำลังดาวน์โหลดไฟล์ของแพคเกจเพิ่มเติม..."
+
+#, python-format
+#~ msgid "File %s of %s at %sB/s"
+#~ msgstr "ไฟล์ที่ %s จากทั้งหมด %s ด้วยความเร็ว %sB/s"
+
+#, python-format
+#~ msgid "File %s of %s"
+#~ msgstr "ไฟล์ที่ %s จากทั้งหมด %s"
+
+#, python-format
+#~ msgid "Downloading file %(current)li of %(total)li with %(speed)s/s"
+#~ msgstr ""
+#~ "กำลังดาวน์โหลดไฟล์ที่ %(current)li จากทั้งหมด %(total)li ด้วยความเร็ว %(speed)s/s"
+
+#, python-format
+#~ msgid "Downloading file %(current)li of %(total)li"
+#~ msgstr "กำลังดาวน์โหลดไฟล์ที่ %(current)li จากทั้งหมด %(total)li"
+
+#~ msgid "Your Ubuntu release is not supported anymore."
+#~ msgstr "Ubuntu รุ่นที่คุณใช้ไม่ให้การสนับสนุนอีกต่อไป"
+
+#~ msgid "Upgrade information"
+#~ msgstr "ข้อมูลการปรับรุ่น"
+
+#, python-format
+#~ msgid "The package information was last updated %(days_ago)s day ago."
+#~ msgid_plural ""
+#~ "The package information was last updated %(days_ago)s days ago."
+#~ msgstr[0] "ข่าวสารของแพกเกจถูกปรับปรุงล่าสุด %(days_ago)s วันมาแล้ว"
+
+#, python-format
+#~ msgid "The package information was last updated %(hours_ago)s hour ago."
+#~ msgid_plural ""
+#~ "The package information was last updated %(hours_ago)s hours ago."
+#~ msgstr[0] "ข่าวสารของแพกเกจถูกปรับปรุงล่าสุด %(hours_ago)s ชัวโมงมาแล้ว"
+
+#~ msgid "The package information was just updated."
+#~ msgstr "ข่าวสารของแพกเกจนี้ถูกปรับปรุงแล้ว"
+
+#~ msgid "Software updates may be available for your computer."
+#~ msgstr "คอมพิวเตอร์ของคุณสามารถปรับรุ่นซอฟต์แวร์ได้แล้ว"
+
+#~ msgid "Reading package information"
+#~ msgstr "กำลังอ่านข้อมูลของแพคเกจ"
+
+#~ msgid " (New install)"
+#~ msgstr " (ติดตั้งใหม่)"
+
+#, python-format
+#~ msgid "(Size: %s)"
+#~ msgstr "(ขนาด: %s)"
+
+#, python-format
+#~ msgid "From version %(old_version)s to %(new_version)s"
+#~ msgstr "จากรุ่น %(old_version)s ไปเป็น %(new_version)s"
+
+#, python-format
+#~ msgid "Version %s"
+#~ msgstr "รุ่น %s"
+
+#~ msgid "Release upgrade not possible right now"
+#~ msgstr "ยังไม่พร้อมที่จะปรับรุ่นในตอนนี้"
+
+#~ msgid "Downloading the release upgrade tool"
+#~ msgstr "กำลังดาวน์โหลดเครื่องมือปรับรุ่น"
+
+#, python-format
+#~ msgid "<b>New Ubuntu release '%s' is available</b>"
+#~ msgstr "<b>Ubuntu รุ่นใหม่ '%s' ออกแล้ว</b>"
+
+#~ msgid "Cancel"
+#~ msgstr "ยกเลิก"
+
+#~ msgid "Building Updates List"
+#~ msgstr "กำลังสร้างรายการที่ต้องปรับปรุง"
+
+#~ msgid "Downloading changelog"
+#~ msgstr "กำลังดาวน์โหลดบันทึกของการปรับเปลี่ยน"
+
+#, python-format
+#~ msgid "Other updates (%s)"
+#~ msgstr "การปรับปรุงอื่นๆ (%s)"
+
+#~ msgid "Failed to detect distribution"
+#~ msgstr "ไม่สามารถตรวจพบชุดแจกจ่าย"
+
+#, python-format
+#~ msgid "A error '%s' occurred while checking what system you are using."
+#~ msgstr "มีปัญหา '%s' เกิดขึ้นขณะตรวจสอบว่าคุณใช้ระบบอะไร"
+
+#~ msgid "Recommended updates"
+#~ msgstr "การปรับปรุงที่แนะนำให้ทำ"
+
+#~ msgid "Proposed updates"
+#~ msgstr "การปรับปรุงที่เสนอให้ทำ"
+
+#~ msgid "Backports"
+#~ msgstr "พอร์ตย้อนหลัง"
+
+#~ msgid "Distribution updates"
+#~ msgstr "ปรับปรุงชุดเผยแพร่"
+
+#, fuzzy
+#~ msgid "<big><b>Starting Software Updater</b></big>"
+#~ msgstr "<big><b>เริ่มโปรแกรมจัดการปรับปรุง</b></big>"
+
+#~ msgid ""
+#~ "Software updates correct errors, eliminate security vulnerabilities and "
+#~ "provide new features."
+#~ msgstr "ซอฟแวร์ปรับปรุงแก้ปัญหา,กำจัดจุดอ่อนด้านความปลอดภัยและเพิ่มความสามารถใหม่"
+
+#~ msgid "Chec_k"
+#~ msgstr "ต_รวจ"
+
+#~ msgid ""
+#~ "<b><big>You must check for updates manually</big></b>\n"
+#~ "\n"
+#~ "Your system does not check for updates automatically. You can configure "
+#~ "this behavior in <i>Software Sources</i> on the <i>Updates</i> tab."
+#~ msgstr ""
+#~ "<b><big>คุณต้องตรวจหาการปรับปรุงใหม่ด้วยตนเอง</big></b>\n"
+#~ "\n"
+#~ "ระบบของคุณไม่ได้ตรวจหาโดยอัตโนมัติ คุณสามารถเปลี่ยนค่านี้ใน <i>Software Sources</i> "
+#~ "ในแถบ <i>Updates</i>"
+
+#~ msgid "_Hide this information in the future"
+#~ msgstr "ซ่อนข้อมูลนี้ในคราวหน้า"
+
+#~ msgid "Co_ntinue"
+#~ msgstr "_ดำเนินการต่อ"
+
+#~ msgid "<big><b>Running on battery</b></big>"
+#~ msgstr "<big><b>กำลังทำงานด้วยแบตเตอรี่</b></big>"
+
+#~ msgid ""
+#~ "Your system is running on battery. Are you sure you want to continue?"
+#~ msgstr "เครื่องของคุณกำลังทำงานด้วยแบตเตอรี่ คุณต้องการดำเนินการต่อ?"
+
+#~ msgid "_Upgrade"
+#~ msgstr "ปรับปรุงรุ่น"
+
+#~ msgid "Show progress of individual files"
+#~ msgstr "แสดงความคืบหน้าของแแต่ละแฟ้ม"
+
+#, fuzzy
+#~ msgid "Starting Software Updater"
+#~ msgstr "ซอฟต์แวร์ปรับปรุง"
+
+#~ msgid "U_pgrade"
+#~ msgstr "ปรับปรุง"
+
+#~ msgid ""
+#~ "<b>A new version of Ubuntu is available. Would you like to upgrade?</b>"
+#~ msgstr "<b>สามารถปรับรุ่นเป็น Ubuntu รุ่นใหม่ได้แล้ว คุณต้องการปรับรุ่นเลยหรือไม่?</b>"
+
+#~ msgid "Don't Upgrade"
+#~ msgstr "ไม่ต้องปรับรุ่น"
+
+#~ msgid "Yes, Upgrade Now"
+#~ msgstr "ใช่ ดำเนินการปรับรุ่นตอนนี้"
+
+#~ msgid "You have declined to upgrade to the new Ubuntu"
+#~ msgstr "คุณได้ตัดสินใจไม่ปรับรุ่น Ubuntu เป็นรุ่นใหม่"
+
+#, fuzzy
+#~ msgid ""
+#~ "You can upgrade at a later time by opening Software Updater and click on "
+#~ "\"Upgrade\"."
+#~ msgstr "คุณสามารถปรับรุ่นได้ในภายหลังโดยการเปิดตัวจัดการการปรับรุ่นและคลิกที่\"ปรับรุ่น\""
+
+#~ msgid "Check if upgrading to the latest devel release is possible"
+#~ msgstr "ตรวจสอบว่าสามารถปรับปรุงไปสู่รุ่นพัฒนาล่าสุด(latest devel release)ได้หรือไม่"
+
+#~ msgid "Try to run a dist-upgrade"
+#~ msgstr "พยายามเริ่ม dist-upgrade"
+
+#~ msgid "Test upgrade with a sandbox aufs overlay"
+#~ msgstr "ทดลองการปรับปรุงด้วย sandbox aufs overlay"
+
+#~ msgid "Running partial upgrade"
+#~ msgstr "เริ่มการปรับปรุงรุ่นบางส่วน"
+
+#~ msgid ""
+#~ "Try upgrading to the latest release using the upgrader from $distro-"
+#~ "proposed"
+#~ msgstr "ทดลองอัพเกรดเป็นรุ่นล่าสุดด้วยตัวอัปเกรดจาก $distro-proposed"
+
+#~ msgid ""
+#~ "Run in a special upgrade mode.\n"
+#~ "Currently 'desktop' for regular upgrades of a desktop system and 'server' "
+#~ "for server systems are supported."
+#~ msgstr ""
+#~ "ใช้งานโหมดการอัพเกรดแบบพิเศษ\n"
+#~ "ขณะนี้สามารถใช้ 'desktop' สำหรับการอัปเกรดปกติของระบบ Desktop และ 'server' "
+#~ "สำหรับระบบแม่ขาย"
+
+#~ msgid "Run the specified frontend"
+#~ msgstr "เริ่มส่วนหน้า(frontend)ที่กำหนดไว้"
+
+#~ msgid ""
+#~ "Check only if a new distribution release is available and report the "
+#~ "result via the exit code"
+#~ msgstr "ตรวจสอบเฉพาะตอนมีรุ่นใหม่ออกและรายงานผลผ่านทางรหัสออก"
+
+#~ msgid ""
+#~ "For upgrade information, please visit:\n"
+#~ "%(url)s\n"
+#~ msgstr ""
+#~ "สำหรับข้อมูลการปรับรุ่น โปรดดู:\n"
+#~ "%(url)s\n"
+
+#~ msgid "No new release found"
+#~ msgstr "ไม่เจอรุ่นล่าสุด"
+
+#, c-format
+#~ msgid "New release '%s' available."
+#~ msgstr "มี '%s' รุ่นใหม่ที่ใช้ได้"
+
+#~ msgid "Run 'do-release-upgrade' to upgrade to it."
+#~ msgstr "เรียก 'do-release-upgrade' เพื่อที่จะทำการปรับปรุง"
+
+#~ msgid "Ubuntu %(version)s Upgrade Available"
+#~ msgstr "Ubuntu %(version)s สามารถปรับรุ่นได้แล้ว"
+
+#, c-format
+#~ msgid "You have declined the upgrade to Ubuntu %s"
+#~ msgstr "คุณได้ตัดสินใจไม่ปรับเป็นรุ่น Ubuntu  %s"
+
+#~ msgid "%(count)s update has been selected."
+#~ msgid_plural "%(count)s updates have been selected."
+#~ msgstr[0] "%(count)s การปรับปรุ่งถูกเลือกแล้ว"
+
+#~ msgid "%(count_str)s %(download_str)s"
+#~ msgstr "%(count_str)s %(download_str)s"
+
+#~ msgid "Welcome to Ubuntu"
+#~ msgstr "ยินดีต้อนรับสู่อูบุนตู"
+
+#~ msgid "Update Manager"
+#~ msgstr "โปรแกรมจัดการปรับปรุง"
+
+#~ msgid "Starting Update Manager"
+#~ msgstr "กำลังเริ่มโปรแกรมจัดการการปรับปรุง"
+
+#~ msgid "You are connected via a wireless modem."
+#~ msgstr "คุณกำลังเชื่อมต่อผ่านโมเดมไร้สาย"
+
+#~ msgid ""
+#~ "This upgrade is running in sandbox (test) mode. All changes are written "
+#~ "to '%s' and will be lost on the next reboot.\n"
+#~ "\n"
+#~ "*No* changes written to a systemdir from now until the next reboot are "
+#~ "permanent."
+#~ msgstr ""
+#~ "การปรับปรุงนี้กำลังดำเนินการในกล่องทราย(ทดลอง)อยู่ ข้อมูลที่เปลี่ยนแปลงถูกบันทึกไว้ที่ '%s' "
+#~ "และจะหายไปเมื่อเริ่มเครื่องใหม่คราวหน้า"
+
+#~ msgid ""
+#~ "If you don't want to install them now, choose \"Update Manager\" from the "
+#~ "Administration menu later."
+#~ msgstr ""
+#~ "ถ้าคุณยังไม่ต้องการที่จะติดตั้งเดี๋ยวนี้ เลือก \"โปรแกรมจัดการปรับปรุง\" "
+#~ "จากเมนูบริหารระบบเมื่อพร้อมได้"
+
+#~ msgid "Your system is up-to-date"
+#~ msgstr "ระบบของคุณทันสมัยแล้ว"
+
+#~ msgid "Checking for a new ubuntu release"
+#~ msgstr "กำลังตรวจหาอูบุนตูรุ่นใหม่"
+
+#~ msgid ""
+#~ "Fetching and installing the upgrade can take several hours. Once the "
+#~ "download has finished, the process cannot be cancelled."
+#~ msgstr ""
+#~ "การดำเนินการปรับปรุงอาจใช้เวลาหลายชั่วโมง "
+#~ "ถ้าดาวน์โหลดเสร็จแล้วการดำเนินการจะไม่สามารถยกเลิกได้"
+
+#~ msgid "There are no updates to install"
+#~ msgstr "ไม่มีการปรับปรุงที่จะติดตั้ง"
+
+#~ msgid "Your graphics hardware may not be fully supported in Ubuntu 11.04."
+#~ msgstr "อุปกรณ์แสดงผลของคุณอาจจะสนับสนุน Ubuntu 11.04 ได้ไม่เต็มที่"
+
+#~ msgid ""
+#~ "The support in Ubuntu 11.04 for your intel graphics hardware is limited "
+#~ "and you may encounter problems after the upgrade. Do you want to continue "
+#~ "with the upgrade?"
+#~ msgstr ""
+#~ "การสนับสนุนใน Ubuntu 11.04 สำหรับ Intel กราฟิกฮาร์ดแวร์ของคุณจำกัด "
+#~ "และคุณอาจพบปัญหาหลังจากการปรับรุ่น คุณต้องการที่จะดำเนินการปรับรุ่นต่อหรือไม่"
+
+#~ msgid ""
+#~ "These software updates have been issued since this version of Ubuntu was "
+#~ "released. If you don't want to install them now, choose \"Update Manager"
+#~ "\" from the Administration Menu later."
+#~ msgstr ""
+#~ "การปรับปรุงโปรแกรมเหล่ามีออกตั้งแต่รุ่นของ Ubuntu นี้เปิดตัว "
+#~ "หากคุณไม่ต้องการที่จะติดตั้งที่หลังให้เลือก \"Update Update\"จากเมนูผู้ดูแลระบบในภายหลัง"
+
+#~ msgid ""
+#~ "Preparing the system for the upgrade failed. Please report this using the "
+#~ "command 'ubuntu-bug update-manager' in a terminal and include the files "
+#~ "in /var/log/dist-upgrade/ in the bug report."
+#~ msgstr ""
+#~ "การเตรียมระบบสำหรับการปรับรุ่นล้มเหลว โปรดรายงานข้อผิดพลาดนี้โดยใช้คำสั่ง 'ubuntu-bug "
+#~ "update-manager' ในเทอร์มินอลและแนบแฟ้มใน /var/log/dist-upgrade/ "
+#~ "ในรายงานข้อผิดพลาด"
+
+#~ msgid ""
+#~ "If you don't want to install them now, choose \"Update Manager\" from "
+#~ "Applications later."
+#~ msgstr "ถ้าคุณไม่ต้องการติดตั้งพวกนี้ คุณสามารถเลือก \"Update Manager\" ภายหลังได้"
+
+#~ msgid "%.0f kB"
+#~ msgstr "%.0f kB"
+
+#~ msgid "0 kB"
+#~ msgstr "0 kB"
+
+#~ msgid "1 kB"
+#~ msgstr "1 kB"

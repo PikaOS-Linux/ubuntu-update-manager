@@ -1,0 +1,875 @@
+# German, Low translation for update-manager
+# Copyright (c) 2007 Rosetta Contributors and Canonical Ltd 2007
+# This file is distributed under the same license as the update-manager package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2007.
+#
+#: ../UpdateManager/UpdatesAvailable.py:847
+msgid ""
+msgstr ""
+"Project-Id-Version: update-manager\n"
+"Report-Msgid-Bugs-To: sebastian.heinlein@web.de\n"
+"POT-Creation-Date: 2021-12-07 16:54-0800\n"
+"PO-Revision-Date: 2011-12-06 06:46+0000\n"
+"Last-Translator: ncfiedler <ncfiedler@fedoraproject.org>\n"
+"Language-Team: German, Low <nds@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Launchpad-Export-Date: 2012-04-17 13:40+0000\n"
+"X-Generator: Launchpad (build 15099)\n"
+
+#: ../UpdateManager/backend/InstallBackendAptdaemon.py:150
+msgid "Checking for updates…"
+msgstr ""
+
+#: ../UpdateManager/backend/InstallBackendAptdaemon.py:200
+#: ../UpdateManager/backend/InstallBackendAptdaemon.py:256
+#: ../UpdateManager/backend/InstallBackendAptdaemon.py:287
+msgid "Installing updates…"
+msgstr ""
+
+#: ../UpdateManager/backend/InstallBackendSynaptic.py:39
+msgid "Please wait, this can take some time."
+msgstr ""
+
+#: ../UpdateManager/backend/InstallBackendSynaptic.py:41
+msgid "Update is complete"
+msgstr ""
+
+#: ../UpdateManager/backend/__init__.py:277
+msgid "Updating snaps"
+msgstr ""
+
+#: ../UpdateManager/backend/__init__.py:304
+#, python-format
+msgid "Refreshing %s snap"
+msgstr ""
+
+#: ../UpdateManager/backend/__init__.py:310
+#, fuzzy, python-format
+msgid "Removing %s snap"
+msgstr "Lösche %s"
+
+#: ../UpdateManager/backend/__init__.py:315
+#, fuzzy, python-format
+msgid "Installing %s snap"
+msgstr ""
+"Copy text   \t\r\n"
+"Installiere %s"
+
+#: ../UpdateManager/backend/__init__.py:324
+#, fuzzy
+msgid "Upgrade only partially completed."
+msgstr "Systemupgrade fertiggestellt."
+
+#: ../UpdateManager/backend/__init__.py:325
+msgid ""
+"An error occurred while updating snaps. Please check your network connection."
+msgstr ""
+
+#: ../UpdateManager/ChangelogViewer.py:83
+msgid "Open Link in Browser"
+msgstr ""
+
+#: ../UpdateManager/ChangelogViewer.py:87
+msgid "Copy Link to Clipboard"
+msgstr ""
+
+#: ../UpdateManager/Dialogs.py:126
+msgid "Settings…"
+msgstr ""
+
+#: ../UpdateManager/Dialogs.py:171
+msgid ""
+"<b>Tip:</b> You can use Livepatch to keep your computer more secure between "
+"restarts."
+msgstr ""
+
+#: ../UpdateManager/Dialogs.py:174
+msgid "Settings & Livepatch…"
+msgstr ""
+
+#: ../UpdateManager/Dialogs.py:188
+#, python-format
+msgid "%d Livepatch update applied since the last restart."
+msgid_plural "%d Livepatch updates applied since the last restart."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../UpdateManager/Dialogs.py:196
+#, python-format
+msgid "%d Livepatch update failed to apply since the last restart."
+msgid_plural "%d Livepatch updates failed to apply since the last restart."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../UpdateManager/Dialogs.py:218 ../UpdateManager/UpdateManager.py:292
+msgid "You stopped the check for updates."
+msgstr ""
+
+#: ../UpdateManager/Dialogs.py:220
+msgid "_Check Again"
+msgstr ""
+
+#: ../UpdateManager/Dialogs.py:232
+msgid "No software updates are available."
+msgstr ""
+
+#: ../UpdateManager/Dialogs.py:234 ../UpdateManager/Dialogs.py:245
+msgid "The software on this computer is up to date."
+msgstr ""
+
+#. Translators: these are Ubuntu version names like "Ubuntu 12.04"
+#: ../UpdateManager/Dialogs.py:247
+#, python-format
+msgid "However, %s %s is now available (you have %s)."
+msgstr ""
+
+#: ../UpdateManager/Dialogs.py:252
+#, fuzzy
+msgid "Upgrade…"
+msgstr "Aktualisierung"
+
+#: ../UpdateManager/Dialogs.py:272
+msgid "New important security and hardware support update."
+msgstr ""
+
+#: ../UpdateManager/Dialogs.py:280
+#, fuzzy
+msgid "_Install…"
+msgstr "Installieren"
+
+#. Translators: this is an Ubuntu version name like "Ubuntu 12.04"
+#: ../UpdateManager/Dialogs.py:292
+#, python-format
+msgid "Software updates are no longer provided for %s %s."
+msgstr ""
+
+#. Translators: this is an Ubuntu version name like "Ubuntu 12.04"
+#: ../UpdateManager/Dialogs.py:296
+#, python-format
+msgid "To stay secure, you should upgrade to %s %s."
+msgstr ""
+
+#: ../UpdateManager/Dialogs.py:309
+msgid "Sorry, there are no more upgrades for this system"
+msgstr ""
+
+#. Translators: this is an Ubuntu version name like "Ubuntu 12.04"
+#: ../UpdateManager/Dialogs.py:311
+#, python-format
+msgid ""
+"\n"
+"There will not be any further Ubuntu releases for this system's '%s' "
+"architecture.\n"
+"\n"
+"Updates for Ubuntu %s will continue until 2023-04-26.\n"
+"\n"
+"If you reinstall Ubuntu from ubuntu.com/download, future upgrades will be "
+"available."
+msgstr ""
+
+#: ../UpdateManager/Dialogs.py:325
+msgid "Not all updates can be installed"
+msgstr ""
+
+#: ../UpdateManager/Dialogs.py:327
+msgid ""
+"Run a partial upgrade, to install as many updates as possible.\n"
+"\n"
+"    This can be caused by:\n"
+"     * A previous upgrade which didn't complete\n"
+"     * Problems with some of the installed software\n"
+"     * Unofficial software packages not provided by Ubuntu\n"
+"     * Normal changes of a pre-release version of Ubuntu"
+msgstr ""
+
+#: ../UpdateManager/Dialogs.py:335
+msgid "_Partial Upgrade"
+msgstr ""
+
+#: ../UpdateManager/Dialogs.py:336
+msgid "_Continue"
+msgstr "_Wietermaken"
+
+#: ../UpdateManager/Dialogs.py:372
+msgid "_Try Again"
+msgstr ""
+
+#: ../UpdateManager/Dialogs.py:386
+msgid "The computer needs to restart to finish installing updates."
+msgstr ""
+
+#: ../UpdateManager/Dialogs.py:388
+#, fuzzy
+msgid "Restart _Later"
+msgstr "Nu nej starten"
+
+#: ../UpdateManager/Dialogs.py:390
+msgid "_Restart Now"
+msgstr "Nu nej starten"
+
+#. Basic GTK+ parameters
+#: ../UpdateManager/UpdateManager.py:96 ../data/update-manager.desktop.in.h:1
+#: ../data/update-manager.appdata.xml.in.h:1
+msgid "Software Updater"
+msgstr ""
+
+#: ../UpdateManager/UpdateManager.py:290
+msgid "Some software couldn’t be checked for updates."
+msgstr ""
+
+#: ../UpdateManager/UpdateManager.py:293
+msgid "Updated software is available from a previous check."
+msgstr ""
+
+#. we assert a clean cache
+#: ../UpdateManager/UpdateManager.py:400
+msgid "Software index is broken"
+msgstr ""
+
+#: ../UpdateManager/UpdateManager.py:401
+msgid ""
+"It is impossible to install or remove any software. Please use the package "
+"manager \"Synaptic\" or run \"sudo apt-get install -f\" in a terminal to fix "
+"this issue at first."
+msgstr ""
+
+#: ../UpdateManager/UpdateManager.py:408
+msgid "Could not initialize the package information"
+msgstr ""
+
+#: ../UpdateManager/UpdateManager.py:409
+msgid ""
+"An unresolvable problem occurred while initializing the package "
+"information.\n"
+"\n"
+"Please report this bug against the 'update-manager' package and include the "
+"following error message:\n"
+msgstr ""
+
+#: ../UpdateManager/UpdateManager.py:437
+msgid "Could not calculate the upgrade"
+msgstr "Die Aktualisierung konnte nicht berechnet werden."
+
+#: ../UpdateManager/UpdateManager.py:438
+msgid ""
+"An unresolvable problem occurred while calculating the upgrade.\n"
+"\n"
+"Please report this bug against the 'update-manager' package and include the "
+"following error message:\n"
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:252
+#, fuzzy
+msgid "Install Now"
+msgstr "Installieren"
+
+#: ../UpdateManager/UpdatesAvailable.py:285
+#, fuzzy
+msgid "Install or remove"
+msgstr "Installieren"
+
+#: ../UpdateManager/UpdatesAvailable.py:319
+msgid "Download"
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:378
+msgid "_Remind Me Later"
+msgstr ""
+
+#. upload_archive = version_match.group(2).strip()
+#: ../UpdateManager/UpdatesAvailable.py:515
+#, python-format
+msgid "Version %s: \n"
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:580
+msgid ""
+"No network connection detected, you can not download changelog information."
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:590
+msgid "Downloading list of changes..."
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:634
+msgid "_Deselect All"
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:640
+msgid "Select _All"
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:736
+#, python-format
+msgid "%s will be downloaded."
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:750
+msgid "The update has already been downloaded."
+msgid_plural "The updates have already been downloaded."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../UpdateManager/UpdatesAvailable.py:756
+msgid "There are no updates to install."
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:765
+msgid "Unknown download size."
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:792
+#, python-format
+msgid ""
+"Updated software has been issued since %s %s was released. Do you want to "
+"install it now?"
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:797
+msgid ""
+"Updated software is available for this computer. Do you want to install it "
+"now?"
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:800
+msgid ""
+"The computer also needs to restart to finish installing previous updates."
+msgstr ""
+
+#. print("on_button_install_clicked")
+#: ../UpdateManager/UpdatesAvailable.py:830
+msgid "Not enough free disk space"
+msgstr "Nicht genügend freier Speicherplatz vorhanden."
+
+#: ../UpdateManager/UpdatesAvailable.py:831
+#, fuzzy, python-format
+msgid ""
+"The upgrade needs a total of %s free space on disk '%s'. Please free at "
+"least an additional %s of disk space on '%s'. %s"
+msgstr ""
+"Die Aktualisierung benötigt %s an freiem Festplattenspeicher auf der "
+"Festplatte »%s«. Bitte stelle %s an zusätzlichen Festplattenspeicher auf der "
+"Festplatte »%s« zur Verfügung. Leeren Sie beispielsweise Ihren Mülleimer und "
+"löschen Sie Paketdateien von früheren Installationen mit dem "
+"Befehlszeilenkommando »sudo apt-get clean«."
+
+#. specific ways to resolve lack of free space
+#: ../UpdateManager/UpdatesAvailable.py:836
+msgid ""
+"Remove temporary packages of former installations using 'sudo apt clean'."
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:838
+msgid ""
+"You can remove old kernels using 'sudo apt autoremove', and you could also "
+"set COMPRESS=xz in /etc/initramfs-tools/initramfs.conf to reduce the size of "
+"your initramfs."
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:843
+#, fuzzy
+msgid ""
+"Empty your trash and remove temporary packages of former installations using "
+"'sudo apt clean'."
+msgstr ""
+"Die Aktualisierung benötigt %s an freiem Festplattenspeicher auf der "
+"Festplatte »%s«. Bitte stelle %s an zusätzlichen Festplattenspeicher auf der "
+"Festplatte »%s« zur Verfügung. Leeren Sie beispielsweise Ihren Mülleimer und "
+"löschen Sie Paketdateien von früheren Installationen mit dem "
+"Befehlszeilenkommando »sudo apt-get clean«."
+
+#: ../UpdateManager/UpdatesAvailable.py:846
+msgid "Reboot to clean up files in /tmp."
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:888
+msgid "Connecting..."
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:904
+msgid "You may not be able to check for updates or download new updates."
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:1056
+msgid "Improved hardware support"
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:1060
+msgid "Security updates"
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:1064
+msgid "Other updates"
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:1067
+msgid "Updates"
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:1072
+msgid "Unused kernel updates to be removed"
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:1077
+msgid "Duplicate packages to be removed"
+msgstr ""
+
+#: ../UpdateManager/UnitySupport.py:70
+msgid "Install All Available Updates"
+msgstr ""
+
+#: ../UpdateManager/Core/MyCache.py:417
+msgid "This update does not come from a source that supports changelogs."
+msgstr ""
+
+#: ../UpdateManager/Core/MyCache.py:423 ../UpdateManager/Core/MyCache.py:458
+msgid ""
+"Failed to download the list of changes. \n"
+"Please check your Internet connection."
+msgstr ""
+
+#: ../UpdateManager/Core/MyCache.py:430
+#, python-format
+msgid ""
+"Changes for %s versions:\n"
+"Installed version: %s\n"
+"Available version: %s\n"
+"\n"
+msgstr ""
+
+#: ../UpdateManager/Core/MyCache.py:444
+#, python-format
+msgid ""
+"The changelog does not contain any relevant changes.\n"
+"\n"
+"Please use http://launchpad.net/ubuntu/+source/%s/%s/+changelog\n"
+"until the changes become available or try again later."
+msgstr ""
+
+#: ../UpdateManager/Core/MyCache.py:451
+#, python-format
+msgid ""
+"The list of changes is not available yet.\n"
+"\n"
+"Please use http://launchpad.net/ubuntu/+source/%s/%s/+changelog\n"
+"until the changes become available or try again later."
+msgstr ""
+
+#. Translators: the %s is a distro name, like 'Ubuntu' and 'base' as in
+#. the core components and packages.
+#: ../UpdateManager/Core/UpdateList.py:175
+#, python-format
+msgid "%s base"
+msgstr ""
+
+#. TRANSLATORS: download size of small updates, e.g. "250 kB"
+#: ../UpdateManager/Core/utils.py:483
+#, python-format
+msgid "%(size).0f kB"
+msgid_plural "%(size).0f kB"
+msgstr[0] ""
+msgstr[1] ""
+
+#. TRANSLATORS: download size of updates, e.g. "2.3 MB"
+#: ../UpdateManager/Core/utils.py:487
+#, python-format
+msgid "%.1f MB"
+msgstr "%.1f MB"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:1
+msgid "updates"
+msgstr ""
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:2
+msgid "Changes"
+msgstr ""
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:3
+msgid "Description"
+msgstr ""
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:4
+msgid "Technical description"
+msgstr ""
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:5
+msgid "Details of updates"
+msgstr ""
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:6
+msgid "The computer will need to restart."
+msgstr ""
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:7
+msgid ""
+"You are connected via roaming and may be charged for the data consumed by "
+"this update."
+msgstr ""
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:8
+msgid ""
+"You may want to wait until you’re not using a mobile broadband connection."
+msgstr ""
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:9
+msgid "It’s safer to connect the computer to AC power before updating."
+msgstr ""
+
+#: ../data/update-manager.desktop.in.h:2
+msgid "Software Updates"
+msgstr ""
+
+#: ../data/update-manager.desktop.in.h:3
+#: ../data/update-manager.appdata.xml.in.h:2
+msgid "Show and install available updates"
+msgstr ""
+
+#: ../data/update-manager.appdata.xml.in.h:3
+msgid ""
+"Software Updater checks for updates using apt and let you choose which "
+"updates to install."
+msgstr ""
+
+#: ../update-manager:71
+msgid "Show version and exit"
+msgstr ""
+
+#: ../update-manager:74
+msgid "Directory that contains the data files"
+msgstr ""
+
+#: ../update-manager:77
+msgid "Check if a new Ubuntu release is available"
+msgstr "Nahkieken, ob eene neje Verschoon vun ubuntu verföögbar is"
+
+#: ../update-manager:80
+msgid ""
+"If using the latest supported release, upgrade to the development release"
+msgstr ""
+
+#: ../update-manager:84
+msgid "Upgrade using the latest proposed version of the release upgrader"
+msgstr ""
+
+#. TRANSLATORS: this describes the "focus-on-map" gtk
+#. property that controls if a new window takes the
+#. input focus control when it is displayed for the
+#. first time (see also the gtk devhelp page)
+#: ../update-manager:91
+msgid "Do not focus on map when starting"
+msgstr ""
+
+#: ../update-manager:94
+msgid "Do not check for updates when starting"
+msgstr ""
+
+#: ../update-manager:96
+msgid "Show debug messages"
+msgstr ""
+
+#. Why do we use %s here instead of $strings or {} format placeholders?
+#. It's because we don't want to break existing translations.
+#: ../janitor/plugincore/exceptions.py:43
+#, python-format
+msgid "Unimplemented method: %s"
+msgstr ""
+
+#: ../janitor/plugincore/core/file_cruft.py:41
+msgid "A file on disk"
+msgstr ""
+
+#: ../janitor/plugincore/core/missing_package_cruft.py:40
+msgid "Install missing package."
+msgstr ""
+
+#. 2012-06-08 BAW: i18n string; don't use {} or PEP 292.
+#: ../janitor/plugincore/core/missing_package_cruft.py:50
+#, python-format
+msgid "Package %s should be installed."
+msgstr ""
+
+#: ../janitor/plugincore/core/package_cruft.py:50
+msgid ".deb package"
+msgstr ".deb-Paket"
+
+#: ../janitor/plugincore/plugins/langpack_manual_plugin.py:47
+#, python-format
+msgid "%s needs to be marked as manually installed."
+msgstr ""
+
+#: ../janitor/plugincore/plugins/kdelibs4to5_plugin.py:50
+msgid ""
+"When upgrading, if kdelibs4-dev is installed, kdelibs5-dev needs to be "
+"installed. See bugs.launchpad.net, bug #279621 for details."
+msgstr ""
+
+#: ../janitor/plugincore/plugins/dpkg_status_plugin.py:45
+#, python-format
+msgid "%i obsolete entries in the status file"
+msgstr ""
+
+#: ../janitor/plugincore/plugins/dpkg_status_plugin.py:48
+msgid "Obsolete entries in dpkg status"
+msgstr ""
+
+#. pragma: no cover
+#: ../janitor/plugincore/plugins/dpkg_status_plugin.py:51
+msgid "Obsolete dpkg status entries"
+msgstr ""
+
+#: ../janitor/plugincore/plugins/remove_lilo_plugin.py:43
+msgid "Remove lilo since grub is also installed.(See bug #314004 for details.)"
+msgstr ""
+
+#, python-format
+#~ msgid "Server for %s"
+#~ msgstr "Server für %s"
+
+#~ msgid "Main server"
+#~ msgstr "Hauptserver"
+
+#~ msgid "Custom servers"
+#~ msgstr "Eegene Server"
+
+#~ msgid "Could not calculate sources.list entry"
+#~ msgstr "Künn de Indrag sources.list nich bereknen"
+
+#~ msgid "Failed to add the CD"
+#~ msgstr "Das Hinzufügen der CD ist fehlgeschlagen"
+
+#, python-format
+#~ msgid ""
+#~ "There was a error adding the CD, the upgrade will abort. Please report "
+#~ "this as a bug if this is a valid Ubuntu CD.\n"
+#~ "\n"
+#~ "The error message was:\n"
+#~ "'%s'"
+#~ msgstr ""
+#~ "Ein Fehler beim Hinzufügen der CD ist aufgetreten. Das Upgrade wird "
+#~ "abgebrochen. Bitte berichten sie diesen Fehler, wenn es sich um eine "
+#~ "originale Ubuntu CD handelt.\n"
+#~ "\n"
+#~ "Die Fehlermeldung lautete:\n"
+#~ "'%s'"
+
+#~ msgid "Remove package in bad state"
+#~ msgid_plural "Remove packages in bad state"
+#~ msgstr[0] "Defekte Pakete löschen"
+#~ msgstr[1] "Defekte Pakete löschen"
+
+#~ msgid "Broken packages"
+#~ msgstr "Defekte Pakete"
+
+#~ msgid "Error authenticating some packages"
+#~ msgstr "Fehler beim authentifizieren einiger Pakete"
+
+#~ msgid ""
+#~ "It was not possible to authenticate some packages. This may be a "
+#~ "transient network problem. You may want to try again later. See below for "
+#~ "a list of unauthenticated packages."
+#~ msgstr ""
+#~ "Es war nicht möglich einige Pakete zu authentifizieren. Möglicher Weise "
+#~ "ist das ein vorübergehendes Netzwerkproblem. Versuchen sie es später noch "
+#~ "einmal. Untenstehend ist die Liste der nicht authentifizierten Pakete."
+
+#, python-format
+#~ msgid "Can't install '%s'"
+#~ msgstr "Installation von '%s' nicht möglich"
+
+#~ msgid ""
+#~ "Your system does not contain a ubuntu-desktop, kubuntu-desktop, xubuntu-"
+#~ "desktop or edubuntu-desktop package and it was not possible to detect "
+#~ "which version of Ubuntu you are running.\n"
+#~ " Please install one of the packages above first using synaptic or apt-get "
+#~ "before proceeding."
+#~ msgstr ""
+#~ "Ihr System enthällt kein ubuntu-desktop, kubuntu-desktop, xubuntu-desktop "
+#~ "oder edubuntu-desktop Paket. Es war nicht möglich die von ihnen genutzte "
+#~ "Ubuntu Version zu erkennen.\n"
+#~ " Bitte installieren sie eines der oben genannten Pakete, mit Synaptic "
+#~ "oder apt-get bevor sie fortfahren."
+
+#~ msgid "Reading cache"
+#~ msgstr "Lese Twüschenspieker"
+
+#~ msgid ""
+#~ "This usually means that another package management application (like apt-"
+#~ "get or aptitude) already running. Please close that application first."
+#~ msgstr ""
+#~ "Dies bedeutet üblicherweise, dass ein anderes Paketverwaltungsprogramm "
+#~ "(wie apt-get oder aptitude) bereits läuft. Bitte beenden Sie zuerst das "
+#~ "laufende Programm."
+
+#~ msgid "Continue running under SSH?"
+#~ msgstr "Weiter unter SSH schreiben?"
+
+#~ msgid "Starting additional sshd"
+#~ msgstr "Zusätzlicher SSH-Server wird gestartet"
+
+#~ msgid "Can not upgrade"
+#~ msgstr "Upgrade kann nicht durchgeführt werden."
+
+#, python-format
+#~ msgid "An upgrade from '%s' to '%s' is not supported with this tool."
+#~ msgstr ""
+#~ "Eine Aktualisierung von '%s' zu '%s' wird von diesem Programm nicht "
+#~ "unterstützt."
+
+#~ msgid "Include latest updates from the Internet?"
+#~ msgstr "Die letzten Updates aus dem Internet einbinden?"
+
+#~ msgid "No valid mirror found"
+#~ msgstr "Kein funktionierender Mirror gefunden."
+
+#~ msgid "Error during update"
+#~ msgstr "Fehler während des Updates."
+
+#~ msgid "Do you want to start the upgrade?"
+#~ msgstr "Möchtest du das Upgrade starten?"
+
+#~ msgid "Upgrade canceled"
+#~ msgstr "Aktualisierung abgebrochen"
+
+#~ msgid "Could not download the upgrades"
+#~ msgstr "Kann die Upgrades nicht downloaden."
+
+#~ msgid "Could not install the upgrades"
+#~ msgstr "Upgrade kann nicht installiert werden."
+
+#~ msgid "Remove obsolete packages?"
+#~ msgstr "Veraltete Pakete löschen?"
+
+#~ msgid "_Remove"
+#~ msgstr "_Löschen"
+
+#~ msgid "Checking package manager"
+#~ msgstr "Paketmanager wird überprüft"
+
+#~ msgid "Invalid package information"
+#~ msgstr "Falsche Paketinformation"
+
+#~ msgid "Searching for obsolete software"
+#~ msgstr "Suche nach veralteter Software"
+
+#~ msgid "No init available"
+#~ msgstr "Keen init verföögbar"
+
+#~ msgid "Use the given path to search for a cdrom with upgradable packages"
+#~ msgstr ""
+#~ "Nutze den angegebenen Pfad, um nach einer CD-ROM mit aktualisierbaren "
+#~ "Paketen zu suchen."
+
+#~ msgid "Applying changes"
+#~ msgstr "Veränderungen werden aktualisiert"
+
+#, python-format
+#~ msgid "Could not install '%s'"
+#~ msgstr "'%s' kann nicht installiert werden"
+
+#~ msgid "The 'diff' command was not found"
+#~ msgstr "Der Befehl 'diff' wurde nicht gefunden"
+
+#~ msgid "A fatal error occurred"
+#~ msgstr "Ein fataler Fehler ist aufgetreten"
+
+#~ msgid "Show Difference >>>"
+#~ msgstr ""
+#~ "Copy text   \t\r\n"
+#~ "Zeige Unterschiede >>>"
+
+#~ msgid "<<< Hide Difference"
+#~ msgstr "<<< Verstecke Unterschiede"
+
+#~ msgid "Show Terminal >>>"
+#~ msgstr "Zeige Terminal >>>"
+
+#~ msgid "<<< Hide Terminal"
+#~ msgstr "<<< Verstecke Terminal"
+
+#~ msgid "Information"
+#~ msgstr "Informatschoon"
+
+#~ msgid "Details"
+#~ msgstr "Details"
+
+#, python-format
+#~ msgid "Upgrade %s"
+#~ msgstr "Upgrade %s"
+
+#~ msgid "Cancel Upgrade?"
+#~ msgstr "Upgrade abbrechen?"
+
+#, python-format
+#~ msgid ""
+#~ "This download will take about %s with a 1Mbit DSL connection and about %s "
+#~ "with a 56k modem."
+#~ msgstr ""
+#~ "Dieser Download wird mit einer 1-MBit-DSL-Verbindung etwa %s dauern oder "
+#~ "ungefähr %s mit einem 56K-Modem."
+
+#~ msgid ""
+#~ "There are no upgrades available for your system. The upgrade will now be "
+#~ "canceled."
+#~ msgstr ""
+#~ "Es es ist kein Upgrade für dein System verfügbar. Upgrade wird beendet."
+
+#~ msgid "Reboot required"
+#~ msgstr "Neustart erforderlich"
+
+#~ msgid ""
+#~ "The upgrade is finished and a reboot is required. Do you want to do this "
+#~ "now?"
+#~ msgstr ""
+#~ "Das Upgrade wurde fertiggestellt und ein Neustart ist erforderlich. "
+#~ "Möchtest du jetzt neu starten?"
+
+#~ msgid "Could not run the upgrade tool"
+#~ msgstr "Upgradeprogramm kann nicht ausgeführt werden"
+
+#~ msgid "Authentication failed"
+#~ msgstr "Keen Togang"
+
+#~ msgid "Verification failed"
+#~ msgstr "Verifikatschoon fehlslagen"
+
+#~ msgid "Aborting"
+#~ msgstr "Brek av"
+
+#~ msgid ""
+#~ "<b><big>Cancel the running upgrade?</big></b>\n"
+#~ "\n"
+#~ "The system could be in an unusable state if you cancel the upgrade. You "
+#~ "are strongly adviced to resume the upgrade."
+#~ msgstr "<b><big>Abbruch des Upgradeprozesses?</big></b>"
+
+#~ msgid "_Replace"
+#~ msgstr "_Överschrieven"
+
+#~ msgid "    "
+#~ msgstr "    "
+
+#~ msgid "Terminal"
+#~ msgstr "Terminal"
+
+#~ msgid "Upgrade information"
+#~ msgstr "Aktualisierungsinformationen"
+
+#, python-format
+#~ msgid "<b>New Ubuntu release '%s' is available</b>"
+#~ msgstr "<b>Nejer Ubuntu Release '%s' is verföögbar</b>"
+
+#~ msgid "Cancel"
+#~ msgstr "Avbreken"
+
+#~ msgid "Co_ntinue"
+#~ msgstr "We_iter"
+
+#~ msgid "Update Manager"
+#~ msgstr "Opfrischenoppasser"
+
+#~ msgid "Your system is up-to-date"
+#~ msgstr "Dein System ist auf dem neusten Stand"

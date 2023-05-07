@@ -1,0 +1,15 @@
+debian/tmp/usr/bin/update-manager /usr/bin/update-manager-bin
+debian/extra/update-manager /usr/bin/
+debian/tmp/usr/lib/python3*/dist-packages/UpdateManager/ChangelogViewer.py
+debian/tmp/usr/lib/python3*/dist-packages/UpdateManager/Dialogs.py
+debian/tmp/usr/lib/python3*/dist-packages/UpdateManager/HelpViewer.py
+debian/tmp/usr/lib/python3*/dist-packages/UpdateManager/MetaReleaseGObject.py
+debian/tmp/usr/lib/python3*/dist-packages/UpdateManager/UpdateManager.py
+debian/tmp/usr/lib/python3*/dist-packages/UpdateManager/UpdatesAvailable.py
+debian/tmp/usr/share/GConf/gsettings
+debian/tmp/usr/share/applications/update-manager.desktop
+debian/tmp/usr/share/glib-2.0/schemas
+debian/tmp/usr/share/help
+debian/tmp/usr/share/metainfo/update-manager.appdata.xml
+debian/tmp/usr/share/update-manager/gtkbuilder
+debian/extra/update-manager/99flatpak-zenity.sh /usr/share/update-manager/post/

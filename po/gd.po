@@ -1,0 +1,2548 @@
+# Gaelic; Scottish translation for update-manager
+# Copyright (c) 2011 Rosetta Contributors and Canonical Ltd 2011
+# This file is distributed under the same license as the update-manager package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2011.
+#
+#: ../UpdateManager/UpdatesAvailable.py:847
+msgid ""
+msgstr ""
+"Project-Id-Version: update-manager\n"
+"Report-Msgid-Bugs-To: sebastian.heinlein@web.de\n"
+"POT-Creation-Date: 2021-12-07 16:54-0800\n"
+"PO-Revision-Date: 2012-03-30 13:47+0000\n"
+"Last-Translator: alasdair caimbeul <Unknown>\n"
+"Language-Team: Gaelic; Scottish <gd@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n < 2 ? 0 : n == 2 ? 1 : 2;\n"
+"X-Launchpad-Export-Date: 2012-04-17 13:41+0000\n"
+"X-Generator: Launchpad (build 15099)\n"
+
+#: ../UpdateManager/backend/InstallBackendAptdaemon.py:150
+#, fuzzy
+msgid "Checking for updates…"
+msgstr "Sgrùd son Ùrachaidhean"
+
+#: ../UpdateManager/backend/InstallBackendAptdaemon.py:200
+#: ../UpdateManager/backend/InstallBackendAptdaemon.py:256
+#: ../UpdateManager/backend/InstallBackendAptdaemon.py:287
+#, fuzzy
+msgid "Installing updates…"
+msgstr "_Stàlaich Ùrachaidhean"
+
+#: ../UpdateManager/backend/InstallBackendSynaptic.py:39
+msgid "Please wait, this can take some time."
+msgstr "Fuirichibh, bheireadh seo greis mhath."
+
+#: ../UpdateManager/backend/InstallBackendSynaptic.py:41
+msgid "Update is complete"
+msgstr "Tha leasachadh crìochnichte"
+
+#: ../UpdateManager/backend/__init__.py:277
+msgid "Updating snaps"
+msgstr ""
+
+#: ../UpdateManager/backend/__init__.py:304
+#, python-format
+msgid "Refreshing %s snap"
+msgstr ""
+
+#: ../UpdateManager/backend/__init__.py:310
+#, fuzzy, python-format
+msgid "Removing %s snap"
+msgstr "Gluasad %s"
+
+#: ../UpdateManager/backend/__init__.py:315
+#, fuzzy, python-format
+msgid "Installing %s snap"
+msgstr "Stàlaich %s"
+
+#: ../UpdateManager/backend/__init__.py:324
+#, fuzzy
+msgid "Upgrade only partially completed."
+msgstr "Leasachadh  crìochnaichte"
+
+#: ../UpdateManager/backend/__init__.py:325
+#, fuzzy
+msgid ""
+"An error occurred while updating snaps. Please check your network connection."
+msgstr ""
+"Thachair trioblaid nuair leasachadh. Mar 's àbhaist se seo seòrsa trioblaid "
+"lìonra a choreigin tha seo, sgrùd sibh a cheangal lìonra agaibh agus feuch a-"
+"rithist."
+
+#: ../UpdateManager/ChangelogViewer.py:83
+msgid "Open Link in Browser"
+msgstr "Fosgail Ceangal ann am Brabhsair"
+
+#: ../UpdateManager/ChangelogViewer.py:87
+msgid "Copy Link to Clipboard"
+msgstr "Copaig Ceangal gu Bòrd-chliopaichean"
+
+#: ../UpdateManager/Dialogs.py:126
+#, fuzzy
+msgid "Settings…"
+msgstr "_Suidheachaidhean..."
+
+#: ../UpdateManager/Dialogs.py:171
+msgid ""
+"<b>Tip:</b> You can use Livepatch to keep your computer more secure between "
+"restarts."
+msgstr ""
+
+#: ../UpdateManager/Dialogs.py:174
+msgid "Settings & Livepatch…"
+msgstr ""
+
+#: ../UpdateManager/Dialogs.py:188
+#, python-format
+msgid "%d Livepatch update applied since the last restart."
+msgid_plural "%d Livepatch updates applied since the last restart."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: ../UpdateManager/Dialogs.py:196
+#, python-format
+msgid "%d Livepatch update failed to apply since the last restart."
+msgid_plural "%d Livepatch updates failed to apply since the last restart."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: ../UpdateManager/Dialogs.py:218 ../UpdateManager/UpdateManager.py:292
+#, fuzzy
+msgid "You stopped the check for updates."
+msgstr "Na sgrùd airson ùrachaidhean nuair tòiseachadh"
+
+#: ../UpdateManager/Dialogs.py:220
+msgid "_Check Again"
+msgstr ""
+
+#: ../UpdateManager/Dialogs.py:232
+#, fuzzy
+msgid "No software updates are available."
+msgstr "Tha ùrachaidhean bathar-bog ri fhaighinn son a' choimpiutair seo."
+
+#: ../UpdateManager/Dialogs.py:234 ../UpdateManager/Dialogs.py:245
+msgid "The software on this computer is up to date."
+msgstr "Tha a' bhathar-bog air a' choimpiutair seo a dh'ionnsaigh an là."
+
+#. Translators: these are Ubuntu version names like "Ubuntu 12.04"
+#: ../UpdateManager/Dialogs.py:247
+#, python-format
+msgid "However, %s %s is now available (you have %s)."
+msgstr ""
+
+#: ../UpdateManager/Dialogs.py:252
+#, fuzzy
+msgid "Upgrade…"
+msgstr "Leasachadh"
+
+#: ../UpdateManager/Dialogs.py:272
+#, fuzzy
+msgid "New important security and hardware support update."
+msgstr "Ùrachaidhean tèarainteachd cudthromach"
+
+#: ../UpdateManager/Dialogs.py:280
+#, fuzzy
+msgid "_Install…"
+msgstr "Stàlaich"
+
+#. Translators: this is an Ubuntu version name like "Ubuntu 12.04"
+#: ../UpdateManager/Dialogs.py:292
+#, fuzzy, python-format
+msgid "Software updates are no longer provided for %s %s."
+msgstr "Tha ùrachaidhean bathar-bog ri fhaighinn son a' choimpiutair seo."
+
+#. Translators: this is an Ubuntu version name like "Ubuntu 12.04"
+#: ../UpdateManager/Dialogs.py:296
+#, python-format
+msgid "To stay secure, you should upgrade to %s %s."
+msgstr ""
+
+#: ../UpdateManager/Dialogs.py:309
+msgid "Sorry, there are no more upgrades for this system"
+msgstr ""
+
+#. Translators: this is an Ubuntu version name like "Ubuntu 12.04"
+#: ../UpdateManager/Dialogs.py:311
+#, python-format
+msgid ""
+"\n"
+"There will not be any further Ubuntu releases for this system's '%s' "
+"architecture.\n"
+"\n"
+"Updates for Ubuntu %s will continue until 2023-04-26.\n"
+"\n"
+"If you reinstall Ubuntu from ubuntu.com/download, future upgrades will be "
+"available."
+msgstr ""
+
+#: ../UpdateManager/Dialogs.py:325
+#, fuzzy
+msgid "Not all updates can be installed"
+msgstr "<big><b>Cha ghabh na h-uile ùrachaidhean a' stàlachadh</b></big>"
+
+#: ../UpdateManager/Dialogs.py:327
+#, fuzzy
+msgid ""
+"Run a partial upgrade, to install as many updates as possible.\n"
+"\n"
+"    This can be caused by:\n"
+"     * A previous upgrade which didn't complete\n"
+"     * Problems with some of the installed software\n"
+"     * Unofficial software packages not provided by Ubuntu\n"
+"     * Normal changes of a pre-release version of Ubuntu"
+msgstr ""
+"Ruith leasachadh leth-phàiteach, son stàladh cò mheud 's urrainn dhut "
+"leasachaidhean. \n"
+"\n"
+"Dh'fhaodadh seo bhith air sgath:\n"
+" *Ùrachadh roimh nach do chrìoch\n"
+" *Trioblaidean le cuid den bhathar-bog stàlaichte\n"
+" *Pacaidean bathar-bog neo-oifigeil nach do sholarach Ubuntu\n"
+" *Atharrachaidhean àbhaisteach de tionndaidh ro-sgaoileadh Ubuntu"
+
+#: ../UpdateManager/Dialogs.py:335
+msgid "_Partial Upgrade"
+msgstr "Leasachadh _Leth-phàirteach"
+
+#: ../UpdateManager/Dialogs.py:336
+msgid "_Continue"
+msgstr "_Lean"
+
+#: ../UpdateManager/Dialogs.py:372
+msgid "_Try Again"
+msgstr ""
+
+#: ../UpdateManager/Dialogs.py:386
+#, fuzzy
+msgid "The computer needs to restart to finish installing updates."
+msgstr ""
+"Feumaidh a' choimpiutair ath-thòiseachadh gu crìothnachadh ùrachaidhean. "
+"Sàbhail sibh an obair agaibh mus lean sibh air adhart."
+
+#: ../UpdateManager/Dialogs.py:388
+#, fuzzy
+msgid "Restart _Later"
+msgstr "Iarrtas ath-thòiseachadh"
+
+#: ../UpdateManager/Dialogs.py:390
+msgid "_Restart Now"
+msgstr "_Ath-thòisich an dràsta"
+
+#. Basic GTK+ parameters
+#: ../UpdateManager/UpdateManager.py:96 ../data/update-manager.desktop.in.h:1
+#: ../data/update-manager.appdata.xml.in.h:1
+#, fuzzy
+msgid "Software Updater"
+msgstr "Ùrachaidhean Bathar-bog"
+
+#: ../UpdateManager/UpdateManager.py:290
+msgid "Some software couldn’t be checked for updates."
+msgstr ""
+
+#: ../UpdateManager/UpdateManager.py:293
+msgid "Updated software is available from a previous check."
+msgstr ""
+
+#. we assert a clean cache
+#: ../UpdateManager/UpdateManager.py:400
+msgid "Software index is broken"
+msgstr "Tha clàr-amais a' bhathar-bog briste"
+
+#: ../UpdateManager/UpdateManager.py:401
+msgid ""
+"It is impossible to install or remove any software. Please use the package "
+"manager \"Synaptic\" or run \"sudo apt-get install -f\" in a terminal to fix "
+"this issue at first."
+msgstr ""
+"Tha e do-dhèanta stàladh no dubhadh às bathar-bòg sam bith. Cleachd sibh am "
+"manaidsear pacaid \"Synaptic\" no ruith \"sudo apt-get install -f\" ann an "
+"tèirmineal son càradh a' chuis an tòiseach."
+
+#: ../UpdateManager/UpdateManager.py:408
+msgid "Could not initialize the package information"
+msgstr "Cha b' urrainn ath-shuidhich fiosrachadh pacaid"
+
+#: ../UpdateManager/UpdateManager.py:409
+msgid ""
+"An unresolvable problem occurred while initializing the package "
+"information.\n"
+"\n"
+"Please report this bug against the 'update-manager' package and include the "
+"following error message:\n"
+msgstr ""
+"Thachair trioblaid neo-shònraichte nuair ath-shuidhich am fiosrachadh "
+"pacaid.\n"
+"\n"
+"Dèan sibh aithris air a' bhuga seo an aghaidh am 'manaidsear-ùrachadh' agus "
+"bheir a-steach an teachdaireachd mearachd a leanas.\n"
+
+#: ../UpdateManager/UpdateManager.py:437
+msgid "Could not calculate the upgrade"
+msgstr "Cha b' urrainn àireamhachadh an ùrachadh"
+
+#: ../UpdateManager/UpdateManager.py:438
+#, fuzzy
+msgid ""
+"An unresolvable problem occurred while calculating the upgrade.\n"
+"\n"
+"Please report this bug against the 'update-manager' package and include the "
+"following error message:\n"
+msgstr ""
+"Thachair trioblaid neo-shònraichte nuair àireamhachadh an leasachadh.\n"
+"\n"
+"Dèan sibh aithris air a' bhuga seo an aghaidh am 'manaidsear-ùrachadh' agus "
+"bheir a-steach a teachdaireachd mearachd a' leanas."
+
+#: ../UpdateManager/UpdatesAvailable.py:252
+#, fuzzy
+msgid "Install Now"
+msgstr "Stàlaich"
+
+#: ../UpdateManager/UpdatesAvailable.py:285
+#, fuzzy
+msgid "Install or remove"
+msgstr "Stàlaich"
+
+#: ../UpdateManager/UpdatesAvailable.py:319
+msgid "Download"
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:378
+#, fuzzy
+msgid "_Remind Me Later"
+msgstr "Faighnich dhomh nas anmoch"
+
+#. upload_archive = version_match.group(2).strip()
+#: ../UpdateManager/UpdatesAvailable.py:515
+#, python-format
+msgid "Version %s: \n"
+msgstr "Tionndaidh %s: \n"
+
+#: ../UpdateManager/UpdatesAvailable.py:580
+msgid ""
+"No network connection detected, you can not download changelog information."
+msgstr ""
+"Cha robh ceangal lìonra air lorg, chan urrainn dhut luchdachadh a-nuas "
+"fiosrachadh clàr-atharraich."
+
+#: ../UpdateManager/UpdatesAvailable.py:590
+msgid "Downloading list of changes..."
+msgstr "Luchdachadh a-nuas liosta de atharrachaidhean..."
+
+#: ../UpdateManager/UpdatesAvailable.py:634
+msgid "_Deselect All"
+msgstr "_Neo-thaghte Na H-Uile"
+
+#: ../UpdateManager/UpdatesAvailable.py:640
+msgid "Select _All"
+msgstr "Tagh _Na H-Uile"
+
+#: ../UpdateManager/UpdatesAvailable.py:736
+#, python-format
+msgid "%s will be downloaded."
+msgstr "%s Bithidh a luchdachadh a-nuas."
+
+#: ../UpdateManager/UpdatesAvailable.py:750
+#, fuzzy
+msgid "The update has already been downloaded."
+msgid_plural "The updates have already been downloaded."
+msgstr[0] "Chaidh an ùrachadh luchdadh a-nuas mar thà, ach gun a stàladh."
+msgstr[1] "Chaidh an ùrachadh luchdadh a-nuas mar thà, ach gun a stàladh."
+msgstr[2] "Chaidh na ùrachaidhean luchdadh a-nuas mar thà, ach gun  stàladh."
+
+#: ../UpdateManager/UpdatesAvailable.py:756
+msgid "There are no updates to install."
+msgstr "Chan eil ùrachaidhean ann son stàladh."
+
+#: ../UpdateManager/UpdatesAvailable.py:765
+msgid "Unknown download size."
+msgstr "Meud luchdachadh a-nuas neo-aithnichte."
+
+#: ../UpdateManager/UpdatesAvailable.py:792
+#, python-format
+msgid ""
+"Updated software has been issued since %s %s was released. Do you want to "
+"install it now?"
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:797
+msgid ""
+"Updated software is available for this computer. Do you want to install it "
+"now?"
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:800
+#, fuzzy
+msgid ""
+"The computer also needs to restart to finish installing previous updates."
+msgstr ""
+"Feumaidh a' choimpiutair ath-thòiseachadh gu crìothnachadh ùrachaidhean. "
+"Sàbhail sibh an obair agaibh mus lean sibh air adhart."
+
+#. print("on_button_install_clicked")
+#: ../UpdateManager/UpdatesAvailable.py:830
+msgid "Not enough free disk space"
+msgstr "Chan eil gu leòr rùm diosg saor"
+
+#: ../UpdateManager/UpdatesAvailable.py:831
+#, fuzzy, python-format
+msgid ""
+"The upgrade needs a total of %s free space on disk '%s'. Please free at "
+"least an additional %s of disk space on '%s'. %s"
+msgstr ""
+"Tha an leasachadh ag iarraidh suim de %s rùm saor air diosg '%s'. Saor sibh "
+"co dhiù an thuilleadh %s de rùm diosg air '%s'. Taom do sgudal agus gluais "
+"pacaidean sealach de sean stàlaidhean cleachdadh 'sudo apt-get clean'."
+
+#. specific ways to resolve lack of free space
+#: ../UpdateManager/UpdatesAvailable.py:836
+msgid ""
+"Remove temporary packages of former installations using 'sudo apt clean'."
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:838
+msgid ""
+"You can remove old kernels using 'sudo apt autoremove', and you could also "
+"set COMPRESS=xz in /etc/initramfs-tools/initramfs.conf to reduce the size of "
+"your initramfs."
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:843
+#, fuzzy
+msgid ""
+"Empty your trash and remove temporary packages of former installations using "
+"'sudo apt clean'."
+msgstr ""
+"Tha an leasachadh ag iarraidh suim de %s rùm saor air diosg '%s'. Saor sibh "
+"co dhiù an thuilleadh %s de rùm diosg air '%s'. Taom do sgudal agus gluais "
+"pacaidean sealach de sean stàlaidhean cleachdadh 'sudo apt-get clean'."
+
+#: ../UpdateManager/UpdatesAvailable.py:846
+msgid "Reboot to clean up files in /tmp."
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:888
+msgid "Connecting..."
+msgstr "A' Ceangal.."
+
+#: ../UpdateManager/UpdatesAvailable.py:904
+msgid "You may not be able to check for updates or download new updates."
+msgstr ""
+"'S docha nach urrainn dhut sgrùdadh son ùrachaidhean no luchdachadh a-nuas "
+"ùrachaidhean nuadh."
+
+#: ../UpdateManager/UpdatesAvailable.py:1056
+msgid "Improved hardware support"
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:1060
+#, fuzzy
+msgid "Security updates"
+msgstr "Ùrachaidhean tèarainteachd cudthromach"
+
+#: ../UpdateManager/UpdatesAvailable.py:1064
+msgid "Other updates"
+msgstr "Ùrachaidhean eile"
+
+#: ../UpdateManager/UpdatesAvailable.py:1067
+msgid "Updates"
+msgstr "Ùrachaidhean"
+
+#: ../UpdateManager/UpdatesAvailable.py:1072
+msgid "Unused kernel updates to be removed"
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:1077
+#, fuzzy
+msgid "Duplicate packages to be removed"
+msgstr "Bithidh pacaid %d a' gluasad."
+
+#: ../UpdateManager/UnitySupport.py:70
+msgid "Install All Available Updates"
+msgstr "Stàladh Na H-Uile Ùrachaidhean Ri Làimh"
+
+#: ../UpdateManager/Core/MyCache.py:417
+msgid "This update does not come from a source that supports changelogs."
+msgstr ""
+"Chan eil an ùrachadh seo a tighinn bhon bun a tha thoirt taic do clàr-"
+"atharraichean."
+
+#: ../UpdateManager/Core/MyCache.py:423 ../UpdateManager/Core/MyCache.py:458
+msgid ""
+"Failed to download the list of changes. \n"
+"Please check your Internet connection."
+msgstr ""
+"Dh' fhàilig luchdachadh a-nuas an liosta de atharraichean. \n"
+"Sgrùd sibh a' cheangal eadar-lìon agaibh."
+
+#: ../UpdateManager/Core/MyCache.py:430
+#, fuzzy, python-format
+msgid ""
+"Changes for %s versions:\n"
+"Installed version: %s\n"
+"Available version: %s\n"
+"\n"
+msgstr ""
+"Atharrachaidhean son na tionndaidhean:\n"
+"Tionndaidh stàlaichte: %s\n"
+"Tionndaidh ri laimh: %s\n"
+"\n"
+
+#: ../UpdateManager/Core/MyCache.py:444
+#, python-format
+msgid ""
+"The changelog does not contain any relevant changes.\n"
+"\n"
+"Please use http://launchpad.net/ubuntu/+source/%s/%s/+changelog\n"
+"until the changes become available or try again later."
+msgstr ""
+"Chan eil a' chlàr-atharraich a gleidheadh atharraichean iomchaidh.\n"
+"\n"
+"Cleachd sibh http://launchpad.net/ubuntu/+source/%s/%s/+changelog\n"
+"gus a bhith na atharraichean ri làimh  no feuch a-rithist nas anmoch."
+
+#: ../UpdateManager/Core/MyCache.py:451
+#, python-format
+msgid ""
+"The list of changes is not available yet.\n"
+"\n"
+"Please use http://launchpad.net/ubuntu/+source/%s/%s/+changelog\n"
+"until the changes become available or try again later."
+msgstr ""
+"Chan eil a liosta de atharraichean ri fhaighinn fhàthast.\n"
+"\n"
+"Cleachd sibh http://launchpad.net/ubuntu/+source/%s/%s/+changelog\n"
+"gus an d' thig na atharraichean ri làimh no feuch a-rithist às dèidh beagan."
+
+#. Translators: the %s is a distro name, like 'Ubuntu' and 'base' as in
+#. the core components and packages.
+#: ../UpdateManager/Core/UpdateList.py:175
+#, python-format
+msgid "%s base"
+msgstr ""
+
+#. TRANSLATORS: download size of small updates, e.g. "250 kB"
+#: ../UpdateManager/Core/utils.py:483
+#, python-format
+msgid "%(size).0f kB"
+msgid_plural "%(size).0f kB"
+msgstr[0] "%(size).0f kB"
+msgstr[1] "%(size).0f kB"
+msgstr[2] "%(size).0f kB"
+
+#. TRANSLATORS: download size of updates, e.g. "2.3 MB"
+#: ../UpdateManager/Core/utils.py:487
+#, python-format
+msgid "%.1f MB"
+msgstr "%.1f MB"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:1
+msgid "updates"
+msgstr "ùrachaidhean"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:2
+msgid "Changes"
+msgstr "Atharraichean"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:3
+msgid "Description"
+msgstr "Dealbh-chunntas"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:4
+#, fuzzy
+msgid "Technical description"
+msgstr "Dealbh-chunntas"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:5
+#, fuzzy
+msgid "Details of updates"
+msgstr "Mion-chunntas de ùrachadh"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:6
+msgid "The computer will need to restart."
+msgstr ""
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:7
+msgid ""
+"You are connected via roaming and may be charged for the data consumed by "
+"this update."
+msgstr ""
+"Tha thu ceangailte tro shiubhal 's dh'fhaodadh cosgais bualadh airson an "
+"dàta a chleachd thu leis an ùrachadh seo."
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:8
+msgid ""
+"You may want to wait until you’re not using a mobile broadband connection."
+msgstr ""
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:9
+msgid "It’s safer to connect the computer to AC power before updating."
+msgstr ""
+"Tha e nas sàbhailte ceangal a' choimpiutair gu cumhachd SA-AC os cionn "
+"ùrachadh."
+
+#: ../data/update-manager.desktop.in.h:2
+msgid "Software Updates"
+msgstr "Ùrachaidhean Bathar-bog"
+
+#: ../data/update-manager.desktop.in.h:3
+#: ../data/update-manager.appdata.xml.in.h:2
+msgid "Show and install available updates"
+msgstr "Seall agus stàlaich ùrachaidhean ri làimh"
+
+#: ../data/update-manager.appdata.xml.in.h:3
+msgid ""
+"Software Updater checks for updates using apt and let you choose which "
+"updates to install."
+msgstr ""
+
+#: ../update-manager:71
+msgid "Show version and exit"
+msgstr "Seall an tionndaidh agus fàg"
+
+#: ../update-manager:74
+msgid "Directory that contains the data files"
+msgstr "Eòlaire tha gleidheadh faidhlichean dàta"
+
+#: ../update-manager:77
+msgid "Check if a new Ubuntu release is available"
+msgstr "Sgrùd ma tha tionndaidh ùr Ubuntu ri làimh"
+
+#: ../update-manager:80
+msgid ""
+"If using the latest supported release, upgrade to the development release"
+msgstr ""
+
+#: ../update-manager:84
+msgid "Upgrade using the latest proposed version of the release upgrader"
+msgstr ""
+"Leasaich cleachdadh an tionndaidh tha air a mholadh den leasaichear "
+"sgaoileadh"
+
+#. TRANSLATORS: this describes the "focus-on-map" gtk
+#. property that controls if a new window takes the
+#. input focus control when it is displayed for the
+#. first time (see also the gtk devhelp page)
+#: ../update-manager:91
+msgid "Do not focus on map when starting"
+msgstr "Na thoir amais air mapa nuair tòiseachadh"
+
+#: ../update-manager:94
+msgid "Do not check for updates when starting"
+msgstr "Na sgrùd airson ùrachaidhean nuair tòiseachadh"
+
+#: ../update-manager:96
+msgid "Show debug messages"
+msgstr ""
+
+#. Why do we use %s here instead of $strings or {} format placeholders?
+#. It's because we don't want to break existing translations.
+#: ../janitor/plugincore/exceptions.py:43
+#, python-format
+msgid "Unimplemented method: %s"
+msgstr "Dòigh neo-ghnìomhach: %s"
+
+#: ../janitor/plugincore/core/file_cruft.py:41
+msgid "A file on disk"
+msgstr "Faidhle air diosg"
+
+#: ../janitor/plugincore/core/missing_package_cruft.py:40
+msgid "Install missing package."
+msgstr "Stàladh pacaid a dhith"
+
+#. 2012-06-08 BAW: i18n string; don't use {} or PEP 292.
+#: ../janitor/plugincore/core/missing_package_cruft.py:50
+#, python-format
+msgid "Package %s should be installed."
+msgstr "Bu chòir pacaid %s a stàlachadh"
+
+#: ../janitor/plugincore/core/package_cruft.py:50
+msgid ".deb package"
+msgstr "pacaid .deb"
+
+#: ../janitor/plugincore/plugins/langpack_manual_plugin.py:47
+#, python-format
+msgid "%s needs to be marked as manually installed."
+msgstr "Feumaidh %s bith comharraichte mar stàlachadh a làimh."
+
+#: ../janitor/plugincore/plugins/kdelibs4to5_plugin.py:50
+msgid ""
+"When upgrading, if kdelibs4-dev is installed, kdelibs5-dev needs to be "
+"installed. See bugs.launchpad.net, bug #279621 for details."
+msgstr ""
+"Nuair leasachadh, ma tha kdelibs4-dev stàlaichte, feumaidh kdelibs5-dev a "
+"stàlachadh. Faic bugs.launchpad.net, bug #279621 son mion-chunntas."
+
+#: ../janitor/plugincore/plugins/dpkg_status_plugin.py:45
+#, python-format
+msgid "%i obsolete entries in the status file"
+msgstr "%i innteartan bho fheum anns am faidhle inbhe"
+
+#: ../janitor/plugincore/plugins/dpkg_status_plugin.py:48
+msgid "Obsolete entries in dpkg status"
+msgstr "Innteartan bho fheum ann an inbhe dpkg"
+
+#. pragma: no cover
+#: ../janitor/plugincore/plugins/dpkg_status_plugin.py:51
+msgid "Obsolete dpkg status entries"
+msgstr "Innteartan bho fheum inbhe dpkg"
+
+#: ../janitor/plugincore/plugins/remove_lilo_plugin.py:43
+msgid "Remove lilo since grub is also installed.(See bug #314004 for details.)"
+msgstr ""
+"Gluais lilo sgath tha grub cuideachd stàlaichte. (Faic bug #314004 son mion-"
+"chunntas.)"
+
+#, python-format
+#~ msgid "Server for %s"
+#~ msgstr "Frithealaiche son %s"
+
+#~ msgid "Main server"
+#~ msgstr "Prìomh frithealaiche"
+
+#~ msgid "Custom servers"
+#~ msgstr "Frithealaichean gnàthach"
+
+#~ msgid "Could not calculate sources.list entry"
+#~ msgstr "Cha b' urrainn ionnrain sources.list innteart"
+
+#~ msgid ""
+#~ "Unable to locate any package files, perhaps this is not a Ubuntu Disc or "
+#~ "the wrong architecture?"
+#~ msgstr ""
+#~ "Cha b' urrainn lorg faidhlichean pacaid sam bith, 's docha nach e Diosg "
+#~ "Ubuntu tha seo no ailtearachd ceàrr?"
+
+#~ msgid "Failed to add the CD"
+#~ msgstr "Dh'fhailig an MC a  chur ris"
+
+#, python-format
+#~ msgid ""
+#~ "There was a error adding the CD, the upgrade will abort. Please report "
+#~ "this as a bug if this is a valid Ubuntu CD.\n"
+#~ "\n"
+#~ "The error message was:\n"
+#~ "'%s'"
+#~ msgstr ""
+#~ "Bha mearachd ann an MC a chur ris, bidh caisg air an ùrachadh. Dèan sibh "
+#~ "aithris air seo mar buga ma seadh MC Ubuntu dligheach th'ann.\n"
+#~ "\n"
+#~ "Seadh  teachdaireachd a'  mhearachd:\n"
+#~ "'%s'"
+
+#~ msgid "Remove package in bad state"
+#~ msgid_plural "Remove packages in bad state"
+#~ msgstr[0] "Gluasad pacaid ann an droch staid"
+#~ msgstr[1] "Gluasad pacaid ann an droch staid"
+#~ msgstr[2] "Gluasad pacaidean ann an droch staid"
+
+#, python-format
+#~ msgid ""
+#~ "The package '%s' is in an inconsistent state and needs to be reinstalled, "
+#~ "but no archive can be found for it. Do you want to remove this package "
+#~ "now to continue?"
+#~ msgid_plural ""
+#~ "The packages '%s' are in an inconsistent state and need to be "
+#~ "reinstalled, but no archives can be found for them. Do you want to remove "
+#~ "these packages now to continue?"
+#~ msgstr[0] ""
+#~ "Tha am pacaid '%s' ann an staid mì-chòrdail agus feumail air ath-"
+#~ "stàlachadh, ach chan fhaigh lorg air tasglann sam bith dha. Bheil thu ag "
+#~ "iarraidh gluasad am pacaid seo an dràsta airson leantainn?"
+#~ msgstr[1] ""
+#~ "Tha am pacaid '%s' ann an staid mì-chòrdail agus feumail air ath-"
+#~ "stàlachadh, ach chan fhaigh lorg air tasglann sam bith dha. Bheil thu ag "
+#~ "iarraidh gluasad am pacaid seo an dràsta airson leantainn?"
+#~ msgstr[2] ""
+#~ "Tha na pacaidean '%s' ann an staid mì-chòrdail agus feumail air ath-"
+#~ "stàlachadh, ach chan fhaigh lorg air tasglann sam bith dha. Bheil thu ag "
+#~ "iarraidh gluasad am pacaid seo an dràsta airson leantainn?"
+
+#~ msgid "The server may be overloaded"
+#~ msgstr "Dh'fhaodadh an-luchdachadh am frithealaiche"
+
+#~ msgid "Broken packages"
+#~ msgstr "Pacaidean briste"
+
+#~ msgid ""
+#~ "Your system contains broken packages that couldn't be fixed with this "
+#~ "software. Please fix them first using synaptic or apt-get before "
+#~ "proceeding."
+#~ msgstr ""
+#~ "Tha an t-siostam agad a glèidheadh pacaidean briste nach urrainn a "
+#~ "càireadh leis a' bhathar-bog seo. Càirich sibh iad an tòiseach cleachdadh "
+#~ "synaptic no apt-get roimh leantainn air adhart."
+
+#, python-format
+#~ msgid ""
+#~ "An unresolvable problem occurred while calculating the upgrade:\n"
+#~ "%s\n"
+#~ "\n"
+#~ " This can be caused by:\n"
+#~ " * Upgrading to a pre-release version of Ubuntu\n"
+#~ " * Running the current pre-release version of Ubuntu\n"
+#~ " * Unofficial software packages not provided by Ubuntu\n"
+#~ "\n"
+#~ msgstr ""
+#~ "Thachair trioblaid neo-chomhairlichte nuair àireamhachadh an ùrachadh:\n"
+#~ "%s\n"
+#~ "\n"
+#~ " Dh'fhaodadh seo bhith a sgath:\n"
+#~ " *Ùrachadh gu tionndaidh ro-sgaoileadh de Ubuntu\n"
+#~ " *A ruith an tionndaidh làithreach ro-sgaoileadh de Ubuntu\n"
+#~ " *Pacaidean bathar-bog neo-oifigeil nach do thabhairt Ubuntu\n"
+#~ "\n"
+
+#~ msgid "This is most likely a transient problem, please try again later."
+#~ msgstr ""
+#~ "Tha seo mar as trice na trioblaid diombuan, nach feuch sibh a-rithist nas "
+#~ "anmoch."
+
+#~ msgid ""
+#~ "If none of this applies, then please report this bug using the command "
+#~ "'ubuntu-bug update-manager' in a terminal."
+#~ msgstr ""
+#~ "Ma 's nach eil càil dhan seo iomchaidh, nach dèan sibh aithris air a' "
+#~ "bhuga seo leis an àithne 'ubuntu-bug update-manager' ann an tèirmineal."
+
+#~ msgid "Error authenticating some packages"
+#~ msgstr "Mearachd dearbhadh cuid pacaidean"
+
+#~ msgid ""
+#~ "It was not possible to authenticate some packages. This may be a "
+#~ "transient network problem. You may want to try again later. See below for "
+#~ "a list of unauthenticated packages."
+#~ msgstr ""
+#~ "Cha robh e comasach dearbhadh cuid pacaidean. Dh'fhaodadh seo bhith na "
+#~ "trioblaid lìonra diombuan. 'S mathaid gun iarraidh tu feuchainn a-rithist "
+#~ "nas anmoch. Faic gu h- ìseal airson liosta pacaidean neo-dhearbhte."
+
+#, python-format
+#~ msgid ""
+#~ "The package '%s' is marked for removal but it is in the removal blacklist."
+#~ msgstr ""
+#~ "Tha am pacaid '%s' a chomharrachadh son gluasad ach tha e air an dubh-"
+#~ "liosta gluasad."
+
+#, python-format
+#~ msgid "The essential package '%s' is marked for removal."
+#~ msgstr "Tha pacaid deatamach '%s' a chomharrachadh son gluasad."
+
+#, python-format
+#~ msgid "Trying to install blacklisted version '%s'"
+#~ msgstr "Feuchainn a  stàlachadh tionndaidh dubh-liostadh '%s'"
+
+#, python-format
+#~ msgid "Can't install '%s'"
+#~ msgstr "Chan urrainn stàlachadh '%s'"
+
+#~ msgid ""
+#~ "It was impossible to install a required package. Please report this as a "
+#~ "bug using 'ubuntu-bug update-manager' in a terminal."
+#~ msgstr ""
+#~ "Cha robh e comasach stàlachadh am pacaid riatanach. Nach dèan sibh "
+#~ "aithris air a' bhuga seo leis an àithne 'ubuntu-bug update-manager' ann "
+#~ "an tèirmineal."
+
+#~ msgid "Can't guess meta-package"
+#~ msgstr "Chan urrainn tomhais pacaid-meta"
+
+#~ msgid ""
+#~ "Your system does not contain a ubuntu-desktop, kubuntu-desktop, xubuntu-"
+#~ "desktop or edubuntu-desktop package and it was not possible to detect "
+#~ "which version of Ubuntu you are running.\n"
+#~ " Please install one of the packages above first using synaptic or apt-get "
+#~ "before proceeding."
+#~ msgstr ""
+#~ "Chan eil an t-siostam agad cumail bàrr-deasc-ubuntu, bàrr-deasc-kubuntu, "
+#~ "bàrr-deasc-xubuntu no pacaid bàrr-deasc-edubuntu agus cha robh e comasach "
+#~ "a lorg dè tionndaidh de Ubuntu tha thu a' ruith.\n"
+#~ " Nach stàlaich sibh aon den phacaidean gu h-àrd a tòiseach cleachdadh "
+#~ "synaptic no apt-get roimh leantainn air adhart."
+
+#~ msgid "Reading cache"
+#~ msgstr "Leughadh tasgadan"
+
+#~ msgid "Unable to get exclusive lock"
+#~ msgstr "Chan fhaigheadh glais toirmisgeach"
+
+#~ msgid ""
+#~ "This usually means that another package management application (like apt-"
+#~ "get or aptitude) already running. Please close that application first."
+#~ msgstr ""
+#~ "Tha seo mar 's àbhaist a'  ciallachadh gu bheil prògram manaidsear pacaid "
+#~ "eile (mar apt-get no aptitude) a ruith mar thràth. Nach dùin sibh am "
+#~ "prògram sin an tòiseach."
+
+#~ msgid "Upgrading over remote connection not supported"
+#~ msgstr "Chan eil taic ann airson ùrachadh thairis ceangal iomallach"
+
+#~ msgid ""
+#~ "You are running the upgrade over a remote ssh connection with a frontend "
+#~ "that does not support this. Please try a text mode upgrade with 'do-"
+#~ "release-upgrade'.\n"
+#~ "\n"
+#~ "The upgrade will abort now. Please try without ssh."
+#~ msgstr ""
+#~ "Tha thu a ruith ùrachadh thairis ceangal ssh iomallach le beul-chrìoch "
+#~ "nach eil toirt taic dhan seo. Feuch sibh ùrachadh ann an modh teacsa le "
+#~ "'do-release-upgrade'\n"
+#~ "\n"
+#~ "Bidh caisg a chur air an ùrachadh a-nis. Feuch sibh a-rithist às aonais "
+#~ "ssh."
+
+#~ msgid "Continue running under SSH?"
+#~ msgstr "Lean a' ruith fo SSH?"
+
+#, python-format
+#~ msgid ""
+#~ "This session appears to be running under ssh. It is not recommended to "
+#~ "perform a upgrade over ssh currently because in case of failure it is "
+#~ "harder to recover.\n"
+#~ "\n"
+#~ "If you continue, an additional ssh daemon will be started at port '%s'.\n"
+#~ "Do you want to continue?"
+#~ msgstr ""
+#~ "Tha an coltas ann gu bheil an seasan a' ruith fo ssh. Chan eil e air a "
+#~ "mholadh a'  dèanamh ùrachadh thairis ssh an dràsta air sgath ann an cùis "
+#~ "fàilligeadh tha e nas doirbh ath-shlànachadh.\n"
+#~ "\n"
+#~ "Ma tha leanas tu, tòiseachadh daemon ssh a bharrachd aig port '%s'.\n"
+#~ "Bheil thu ag iarraidh leantainn?"
+
+#~ msgid "Starting additional sshd"
+#~ msgstr "Tòiseachadh sshd a bharrachd"
+
+#, python-format
+#~ msgid ""
+#~ "To make recovery in case of failure easier, an additional sshd will be "
+#~ "started on port '%s'. If anything goes wrong with the running ssh you can "
+#~ "still connect to the additional one.\n"
+#~ msgstr ""
+#~ "Son dèanamh ath-shlànachadh nas fhasa ann an cùis fàilligeadh,  "
+#~ "tòiseachadh daemon sshd a bharrachd aig port '%s'.\n"
+#~ "Ma thèid càil ceàrr le a' ruith ssh faodaidh tu fhathast ceangal ris an "
+#~ "fhear a' bharrachd.\n"
+
+#, python-format
+#~ msgid ""
+#~ "If you run a firewall, you may need to temporarily open this port. As "
+#~ "this is potentially dangerous it's not done automatically. You can open "
+#~ "the port with e.g.:\n"
+#~ "'%s'"
+#~ msgstr ""
+#~ "Ma ruitheas tu cachaileith-theine, dh'fhaodadh gun feumaidh tu fosgail am "
+#~ "port  seo gu sealach. Leis mar a dh'fhaodadh seo bhith cunnartach chan "
+#~ "eil e air dhèanamh gu fèin-obrachail, Faodaidh tu fosgail am port le m."
+#~ "e.;\n"
+#~ "'%s'"
+
+#~ msgid "Can not upgrade"
+#~ msgstr "Chan urrainn ùrachadh"
+
+#, python-format
+#~ msgid "An upgrade from '%s' to '%s' is not supported with this tool."
+#~ msgstr "Chan eil taic ann leis an inneal seo ag ùrachadh bhon '%s' gu '%s'."
+
+#~ msgid "Sandbox setup failed"
+#~ msgstr "D'fhailig stèidheachadh suas Sandbox"
+
+#~ msgid "It was not possible to create the sandbox environment."
+#~ msgstr "Chan eil e comasach cruthachadh àrainneachd sandbox."
+
+#~ msgid "Sandbox mode"
+#~ msgstr "Modh Sandbox"
+
+#, python-format
+#~ msgid ""
+#~ "This upgrade is running in sandbox (test) mode. All changes are written "
+#~ "to '%s' and will be lost on the next reboot.\n"
+#~ "\n"
+#~ "*No* changes written to a system directory from now until the next reboot "
+#~ "are permanent."
+#~ msgstr ""
+#~ "Tha an leasachadh seo a ruith ann an modh (deuchainn).Tha na h-uile "
+#~ "atharrachaidhean sgrìobhadh ri '%s' agus air an ath bùtaich a-rithist "
+#~ "bithidh iad air chall.\n"
+#~ "\n"
+#~ "*Chan eil*  tha na atharrachaidhean gan sgrìobadh don eòlaire siostam "
+#~ "bhon an dràsta gus an ath bùtaich a-rithist buan."
+
+#~ msgid ""
+#~ "Your python install is corrupted. Please fix the '/usr/bin/python' "
+#~ "symlink."
+#~ msgstr ""
+#~ "Tha stàlachadh python agad truaillte. Càraich sibh an ceangal-samhlach - "
+#~ "symlink '/usr/bin/python'."
+
+#~ msgid "Package 'debsig-verify' is installed"
+#~ msgstr "Tha pacaid 'debsig-verify' stàlaichte"
+
+#~ msgid ""
+#~ "The upgrade can not continue with that package installed.\n"
+#~ "Please remove it with synaptic or 'apt-get remove debsig-verify' first "
+#~ "and run the upgrade again."
+#~ msgstr ""
+#~ "Chan urrainn an ùrachadh leantainn leis am pacaid sin stàlaichte.\n"
+#~ "Gluasad sibh e le synaptic no 'apt-get remove debsig-verify' an tòiseach "
+#~ "agus ruith an ùrachadh a-rithist"
+
+#, python-format
+#~ msgid "Can not write to '%s'"
+#~ msgstr "Chan urrainn sgrìobhadh gu'%s'"
+
+#, python-format
+#~ msgid ""
+#~ "Its not possible to write to the system directory '%s' on your system. "
+#~ "The upgrade can not continue.\n"
+#~ "Please make sure that the system directory is writable."
+#~ msgstr ""
+#~ "Chan eil e comasach sgrìobhadh don eòlaire siostam '%s' air do shiostam. "
+#~ "Chan urrainn an leasachadh leantainn.\n"
+#~ "Dèanaibh cinnteach gu bheil comas sgrìobhadh aig an eòlaire siostam "
+#~ "agaibh."
+
+#~ msgid "Include latest updates from the Internet?"
+#~ msgstr "Gabh a-steach ùrachadh ùr nodha bhon eadar-lìon?"
+
+#~ msgid ""
+#~ "The upgrade system can use the internet to automatically download the "
+#~ "latest updates and install them during the upgrade.  If you have a "
+#~ "network connection this is highly recommended.\n"
+#~ "\n"
+#~ "The upgrade will take longer, but when it is complete, your system will "
+#~ "be fully up to date.  You can choose not to do this, but you should "
+#~ "install the latest updates soon after upgrading.\n"
+#~ "If you answer 'no' here, the network is not used at all."
+#~ msgstr ""
+#~ "Faodadh an t-siostam ga leasachadh le cleachdadh an eadar-lìon gu fèin-"
+#~ "obrachail 's luchdachadh a-nuas na ùrachaidhean ùr nodha agus stàlaich "
+#~ "iad nuair a' leasachadh. Ma tha ceangal eadar-lìon agad tha seo air a "
+#~ "mholadh gu mòr.\n"
+#~ "\n"
+#~ "Bheireadh an leasachadh nas fhaide, ach nuair tha e deiseil, bithidh an t-"
+#~ "siostam agad a dh'ionnsaigh an là gu iomlan. Faodaidh tu taghadh gun seo "
+#~ "a dèanamh, ach bu chòir dhut stàlachadh na ùrachaidhean ùr nodha tràth às "
+#~ "dèidh leasachadh.\n"
+#~ "Ma fhreagairt tu 'chan eil'  an seo, cha bhith an lìonra ga chleachdadh "
+#~ "idir."
+
+#, python-format
+#~ msgid "disabled on upgrade to %s"
+#~ msgstr "bacadh air ùrachadh gu %s"
+
+#~ msgid "No valid mirror found"
+#~ msgstr "Gun sgàthan dligheach air lorg"
+
+#, python-format
+#~ msgid ""
+#~ "While scanning your repository information no mirror entry for the "
+#~ "upgrade was found. This can happen if you run a internal mirror or if the "
+#~ "mirror information is out of date.\n"
+#~ "\n"
+#~ "Do you want to rewrite your 'sources.list' file anyway? If you choose "
+#~ "'Yes' here it will update all '%s' to '%s' entries.\n"
+#~ "If you select 'No' the upgrade will cancel."
+#~ msgstr ""
+#~ "Nuair sganadh do stòras fiosrachadh cha robh innteart sgàthan airson an "
+#~ "leasachadh air lorg. Dh'fhaodadh seo tachairt ma ruitheas tu sgàthan an "
+#~ "thaobh a-steach no ma tha fiosrachadh sgàthan fad' air ais.\n"
+#~ "\n"
+#~ "Bheil thu ag iarraidh ath-sgrìobhadh do faidhle 'sources.list' co dhiù? "
+#~ "Ma thaghas tu 'Tha' an seo bithidh na h-uile\n"
+#~ "innteartan ùrachadh %s' gu '%s'.\n"
+#~ "Ma thaghas tu 'chan eil' sguireadh an leasachadh."
+
+#~ msgid "Generate default sources?"
+#~ msgstr "Cruthaich bunan gnàthach?"
+
+#, python-format
+#~ msgid ""
+#~ "After scanning your 'sources.list' no valid entry for '%s' was found.\n"
+#~ "\n"
+#~ "Should default entries for '%s' be added? If you select 'No', the upgrade "
+#~ "will cancel."
+#~ msgstr ""
+#~ "Às dèidh sganadh do 'sources.list' cha robh innteart dligheach son '%s' "
+#~ "air lorg.\n"
+#~ "\n"
+#~ "Am bu chòir innteartan gnàthach a chur ris son '%s' ? Ma thaghas tu 'chan "
+#~ "eil' sguireadh an leasachadh."
+
+#~ msgid "Repository information invalid"
+#~ msgstr "Fiosrachadh taisgeadan neo-dligheach"
+
+#~ msgid ""
+#~ "Upgrading the repository information resulted in a invalid file so a bug "
+#~ "reporting process is being started."
+#~ msgstr ""
+#~ "Le leasachadh an ionad-tasgaidh fiosrachadh bha faidhle neo-dhligheach "
+#~ "mar thoradh, mar sin tha am pròiseas iomradh buga a thòiseachadh."
+
+#~ msgid "Third party sources disabled"
+#~ msgstr "Bunan an treas com-pàirteach neo-chomasach"
+
+#~ msgid ""
+#~ "Some third party entries in your sources.list were disabled. You can re-"
+#~ "enable them after the upgrade with the 'software-properties' tool or your "
+#~ "package manager."
+#~ msgstr ""
+#~ "Bha cuid innteartan an treas com-pàirteach anns an sources.list  agad neo-"
+#~ "chomasaichte. Faodaidh tu ath-chomasaich iad às dèidh an leasachadh leis "
+#~ "an inneal 'software-properties'  anns am manaidsear pacaid agad."
+
+#~ msgid "Package in inconsistent state"
+#~ msgid_plural "Packages in inconsistent state"
+#~ msgstr[0] "Pacaid ann an staid mì-chòrdail"
+#~ msgstr[1] "Pacaid ann an staid mì-chòrdail"
+#~ msgstr[2] "Pacaidean ann an staid mì-chòrdail"
+
+#, python-format
+#~ msgid ""
+#~ "The package '%s' is in an inconsistent state and needs to be reinstalled, "
+#~ "but no archive can be found for it. Please reinstall the package manually "
+#~ "or remove it from the system."
+#~ msgid_plural ""
+#~ "The packages '%s' are in an inconsistent state and need to be "
+#~ "reinstalled, but no archive can be found for them. Please reinstall the "
+#~ "packages manually or remove them from the system."
+#~ msgstr[0] ""
+#~ "Tha am pacaid '%s' ann an staid mi-chòrdail agus feumail air ath-"
+#~ "stàlachadh, ach chan eil lorg air tasglann dha. Ath-stàlaich sibh am "
+#~ "pacaid le làimh no gluasad e bhon t-siostam."
+#~ msgstr[1] ""
+#~ "Tha am pacaid '%s' ann an staid mi-chòrdail agus feumail air ath-"
+#~ "stàlachadh, ach chan eil lorg air tasglann dha. Ath-stàlaich sibh am "
+#~ "pacaid le làimh no gluasad e bhon t-siostam."
+#~ msgstr[2] ""
+#~ "Tha na pacaidean '%s' ann an staid mi-chòrdail agus feumail air ath-"
+#~ "stàlachadh, ach chan eil lorg air tasglann dha. Ath-stàlaich sibh am "
+#~ "pacaid le làimh no gluasad e bhon t-siostam."
+
+#~ msgid "Error during update"
+#~ msgstr "Mearachd nuair ùrachadh"
+
+#, python-format
+#~ msgid ""
+#~ "The upgrade has aborted. The upgrade needs a total of %s free space on "
+#~ "disk '%s'. Please free at least an additional %s of disk space on '%s'. "
+#~ "Empty your trash and remove temporary packages of former installations "
+#~ "using 'sudo apt-get clean'."
+#~ msgstr ""
+#~ "Chaidh an leasachadh a bhacadh. Tha leasachadh feumail air suim de %s rùm "
+#~ "saor air diosg '%s'. Saor sibh co-dhiù a bharrachd %s de rùm diosg air "
+#~ "'%s'. Taom do sgudal agus gluasad pacaidean sealach den stàlaichean ro "
+#~ "làimh cleachdadh 'sudo apt-get clean'."
+
+#~ msgid "Calculating the changes"
+#~ msgstr "Àireamhachadh na atharraichean"
+
+#~ msgid "Do you want to start the upgrade?"
+#~ msgstr "Bheil thu ag iarraidh tòiseachadh an leasachadh?"
+
+#~ msgid "Upgrade canceled"
+#~ msgstr "Leasachadh chur dheth"
+
+#~ msgid ""
+#~ "The upgrade will cancel now and the original system state will be "
+#~ "restored. You can resume the upgrade at a later time."
+#~ msgstr ""
+#~ "Bithidh an leasachadh chur dheth an dràsta agus an staid siostam tùsail a "
+#~ "thoirt air ais. Faodaidh tu togail an-àirde às ùr aig àm nas anmoch."
+
+#~ msgid "Could not download the upgrades"
+#~ msgstr "Cha b' urrainn luchdachadh a-nuas na leasachaidhean"
+
+#~ msgid ""
+#~ "The upgrade has aborted. Please check your Internet connection or "
+#~ "installation media and try again. All files downloaded so far have been "
+#~ "kept."
+#~ msgstr ""
+#~ "Chaidh an leasachadh a bhacadh. sgrùd sibh a cheangal lìonra no meadhanan "
+#~ "stàlachadh agaibh agus feuchaibh a-rithist. Chaidh na h-uile faidhlichean "
+#~ "luchdachadh a-nuas chun seo a ghlèidheadh."
+
+#~ msgid "Error during commit"
+#~ msgstr "Mearachd nuair cuir an comas"
+
+#~ msgid "Restoring original system state"
+#~ msgstr "A'  toirt air ais staid siostam tùsail"
+
+#~ msgid "Could not install the upgrades"
+#~ msgstr "Cha b' urrainn stàlachadh na leasachaidhean"
+
+#~ msgid ""
+#~ "The upgrade has aborted. Your system could be in an unusable state. A "
+#~ "recovery will run now (dpkg --configure -a)."
+#~ msgstr ""
+#~ "Chaidh an leasachadh a bhacadh. Dh' fhaodadh an t-siostam agad bhith ann "
+#~ "staid gun fheum. Ruithe ath-shlànachadh \r\n"
+#~ "a-nis (dpkg --configure -a)."
+
+#, python-format
+#~ msgid ""
+#~ "\n"
+#~ "\n"
+#~ "Please report this bug in a browser at http://bugs.launchpad.net/ubuntu/"
+#~ "+source/update-manager/+filebug and attach the files in /var/log/dist-"
+#~ "upgrade/ to the bug report.\n"
+#~ "%s"
+#~ msgstr ""
+#~ "\n"
+#~ "\n"
+#~ "Dèan sibh iomradh air a bhuga seo ann am brabhsair aig http://bugs."
+#~ "launchpad.net/ubuntu/+source/update-manager/+filebug agus na faidhlichean "
+#~ "ann an /var/log/dist-upgrade/  an cois  an iomradh buga.\n"
+#~ "%s"
+
+#~ msgid ""
+#~ "The upgrade has aborted. Please check your Internet connection or "
+#~ "installation media and try again. "
+#~ msgstr ""
+#~ "Chaidh an leasachadh a bhacadh. Sgrùd sibh a cheangal lìonra no meadhanan "
+#~ "stàlachadh agaibh agus feuch a-rithist. "
+
+#~ msgid "Remove obsolete packages?"
+#~ msgstr "Gluasad pacaidean o fheum?"
+
+#~ msgid "_Keep"
+#~ msgstr "_Glèidh"
+
+#~ msgid "_Remove"
+#~ msgstr "_Thoir às"
+
+#~ msgid ""
+#~ "A problem occurred during the clean-up. Please see the below message for "
+#~ "more information. "
+#~ msgstr ""
+#~ "Thachair trioblaid nuair glanadh-suas. Seallaibh ris an teachdaireachd gu "
+#~ "ìseal son barrachd fiosrachadh. "
+
+#~ msgid "Required depends is not installed"
+#~ msgstr "Chan eil an eismealachd deatamach stàlaichte"
+
+#, python-format
+#~ msgid "The required dependency '%s' is not installed. "
+#~ msgstr "Chan eil an eismealachd deatamach '%s' stàlaichte. "
+
+#~ msgid "Checking package manager"
+#~ msgstr "Sgrùdadh manaidsear pacaid"
+
+#~ msgid "Preparing the upgrade failed"
+#~ msgstr "D'fhàilig ullachadh an leasachadh"
+
+#~ msgid ""
+#~ "Preparing the system for the upgrade failed so a bug reporting process is "
+#~ "being started."
+#~ msgstr ""
+#~ "Dh'fhàgail ullachadh an t-siostam airson leasachadh mar sin thathar a "
+#~ "tòiseachadh am pròiseas iomradh buga."
+
+#~ msgid "Getting upgrade prerequisites failed"
+#~ msgstr "D' fhàilig fhaighinn leasachadh ro-ghoireasan"
+
+#~ msgid ""
+#~ "The system was unable to get the prerequisites for the upgrade. The "
+#~ "upgrade will abort now and restore the original system state.\n"
+#~ "\n"
+#~ "Additionally, a bug reporting process is being started."
+#~ msgstr ""
+#~ "Cha robh an comas aig an t-siostam faighinn na riatanasan son an "
+#~ "leasachadh.  Sguireadh an leasachadh an dràsta agus bheirear air ais an "
+#~ "staid siostam tùsail.\n"
+#~ "\n"
+#~ "A bharrachd, tha pròiseas iomradh buga a tòiseachadh."
+
+#~ msgid "Updating repository information"
+#~ msgstr "Leasachadh fiosrachadh taisgeadan"
+
+#~ msgid "Failed to add the cdrom"
+#~ msgstr "D' fhàilig cuir ris an cdrom - mccla"
+
+#~ msgid "Sorry, adding the cdrom was not successful."
+#~ msgstr "Duilich,  neo-shoirbheachail cuir ris cdrom - mccla"
+
+#~ msgid "Invalid package information"
+#~ msgstr "Fiosrachadh pacaid neo-dligheach"
+
+#~ msgid "Fetching"
+#~ msgstr "Faighinn"
+
+#~ msgid "Upgrading"
+#~ msgstr "Leasachadh"
+
+#~ msgid ""
+#~ "The upgrade has completed but there were errors during the upgrade "
+#~ "process."
+#~ msgstr ""
+#~ "Chaidh an leasachadh a' chrìochnachadh ach bha mearachdan. fad a` "
+#~ "phròiseas leasachadh."
+
+#~ msgid "Searching for obsolete software"
+#~ msgstr "Sireadh airson bathar-bog o fheum"
+
+#~ msgid "System upgrade is complete."
+#~ msgstr "Tha an leasachadh crìochnaichte."
+
+#~ msgid "The partial upgrade was completed."
+#~ msgstr "Bha an leasachadh leth-phàirteach crìochnaichte."
+
+#~ msgid "evms in use"
+#~ msgstr "tha evms chleachdadh"
+
+#~ msgid ""
+#~ "Your system uses the 'evms' volume manager in /proc/mounts. The 'evms' "
+#~ "software is no longer supported, please switch it off and run the upgrade "
+#~ "again when this is done."
+#~ msgstr ""
+#~ "Tha do shiostam a' cleachdadh manaidsear iom-leabhar 'evms' ann an /proc/"
+#~ "mounts. Chan eil taic ann tuilleadh son bathar-bog 'evms' , cuir sibh "
+#~ "dheth e,  agus ruith sibh an leasachadh a-rithist às dèidh seo a dhèanamh."
+
+#~ msgid ""
+#~ "Your graphics hardware may not be fully supported in Ubuntu 12.04 LTS."
+#~ msgstr ""
+#~ "Dh'fhaodadh nach fhaigh do bhathar-cruaidh grafaigeach làn taic ann an "
+#~ "Ubuntu 12.04 LTS."
+
+#~ msgid ""
+#~ "The support in Ubuntu 12.04 LTS for your Intel graphics hardware is "
+#~ "limited and you may encounter problems after the upgrade. For more "
+#~ "information see https://wiki.ubuntu.com/X/Bugs/"
+#~ "UpdateManagerWarningForI8xx Do you want to continue with the upgrade?"
+#~ msgstr ""
+#~ "Tha an taic ann an Ubuntu 12.04 LTS son do bhathar-cruaidh grafaigeach "
+#~ "Intel cuingichte agus faodaidh tu tachairt le trioblaidean às dèidh an "
+#~ "leasachadh. Son barrachd fiosrachadh faic  https://wiki.ubuntu.com/X/Bugs/"
+#~ "UpdateManagerWarningForI8xx Bheil thu ag iarraidh leantainn leis an "
+#~ "leasachadh?"
+
+#~ msgid ""
+#~ "Upgrading may reduce desktop effects, and performance in games and other "
+#~ "graphically intensive programs."
+#~ msgstr ""
+#~ "Dh'fhaodadh leasachadh lughdachadh buaidhean a' bhàrr-deasc, agus "
+#~ "dèanadas ann an geamannan agus prògraman dian grafaigeach eile."
+
+#~ msgid ""
+#~ "This computer is currently using the NVIDIA 'nvidia' graphics driver. No "
+#~ "version of this driver is available that works with your video card in "
+#~ "Ubuntu 10.04 LTS.\n"
+#~ "\n"
+#~ "Do you want to continue?"
+#~ msgstr ""
+#~ "Tha a' choimpiutair seo an dràsta a' cleachdadh an dràibhear grafaichean "
+#~ "NVIDIA 'nvidia'. Chan eil  tionndaidh sam bith den dràibhear seo ri làimh "
+#~ "a dh'obraicheas leis a cairt bhidio agad ann an Ubuntu 10.04 LTS.\n"
+#~ "\n"
+#~ "Bheil thu ag iarraidh leantainn?"
+
+#~ msgid ""
+#~ "This computer is currently using the AMD 'fglrx' graphics driver. No "
+#~ "version of this driver is available that works with your hardware in "
+#~ "Ubuntu 10.04 LTS.\n"
+#~ "\n"
+#~ "Do you want to continue?"
+#~ msgstr ""
+#~ "Tha a' choimpiutair seo an dràsta a' cleachdadh an dràibhear grafaichean "
+#~ "AMD 'fglrx'. Chan eil tionndaidh sam bith den dràibhear seo ri làimh "
+#~ "dh'obraicheas leis a cairt bhidio agad ann an Ubuntu 10.04 LTS.\n"
+#~ "\n"
+#~ "Bheil thu ag iarraidh leantainn?"
+
+#~ msgid "No i686 CPU"
+#~ msgstr "Gun i686 CPU"
+
+#~ msgid ""
+#~ "Your system uses an i586 CPU or a CPU that does not have the 'cmov' "
+#~ "extension. All packages were built with optimizations requiring i686 as "
+#~ "the minimal architecture. It is not possible to upgrade your system to a "
+#~ "new Ubuntu release with this hardware."
+#~ msgstr ""
+#~ "Tha an t-siostam agad a cleachdadh IPM (cpu) i586  no IPM às aonais "
+#~ "leudachadh 'cmov'. Bha na h-uile  pacaid air thogail le comasan  ag "
+#~ "iarraidh i686  mar bu lugha ailteireachd. Chan eil e comasach leasachadh "
+#~ "an t-siostam agad gu tionndaidh ùr Ubuntu leis a' bhathar-cruaidh seo."
+
+#~ msgid "No ARMv6 CPU"
+#~ msgstr "Gun ARMv6 CPU"
+
+#~ msgid ""
+#~ "Your system uses an ARM CPU that is older than the ARMv6 architecture. "
+#~ "All packages in karmic were built with optimizations requiring ARMv6 as "
+#~ "the minimal architecture. It is not possible to upgrade your system to a "
+#~ "new Ubuntu release with this hardware."
+#~ msgstr ""
+#~ "Tha an t-siostam agad a' cleachdadh IPM (cpu) ARM  tha nas aosda na "
+#~ "ailteireachd ARMv6 . Bha na h-uile  pacaid ann  an karmic air thogail le "
+#~ "comasan ag iarraidh ARMv6 mar bu lugha ailteireachd. Chan eil e comasach "
+#~ "leasachadh an t-siostam agad gu tionndaidh ùr Ubuntu leis a' bhathar-"
+#~ "cruaidh seo."
+
+#~ msgid "No init available"
+#~ msgstr "Gun init ri fhaighinn"
+
+#~ msgid ""
+#~ "Your system appears to be a virtualised environment without an init "
+#~ "daemon, e.g. Linux-VServer. Ubuntu 10.04 LTS cannot function within this "
+#~ "type of environment, requiring an update to your virtual machine "
+#~ "configuration first.\n"
+#~ "\n"
+#~ "Are you sure you want to continue?"
+#~ msgstr ""
+#~ "Tha an t-siostam agad coltach ri àrainneachd mas fhìor tha às aonais "
+#~ "daemon init m.e.  Linux-VServer. Chan urrainn Ubuntu 10.04 LTS obrachadh "
+#~ "taobh a-staigh seòrsa àrainneachd seo, tha iarratas ùrachadh an rian-"
+#~ "coimpiutair mas fhìor agad an thòiseach."
+
+#~ msgid "Sandbox upgrade using aufs"
+#~ msgstr "Leasachadh Sandbox cleachdadh aufs"
+
+#~ msgid "Use the given path to search for a cdrom with upgradable packages"
+#~ msgstr ""
+#~ "Cleachd an t-slighe thabhairt a' sireadh airson mccla-cdrom le pacaidean "
+#~ "gabh leasachadh"
+
+#~ msgid ""
+#~ "Use frontend. Currently available: \n"
+#~ "DistUpgradeViewText, DistUpgradeViewGtk, DistUpgradeViewKDE"
+#~ msgstr ""
+#~ "Cleachd beul-chrìoch. Ri làimh an dràsta: \n"
+#~ "DistUpgradeViewText, DistUpgradeViewGtk, DistUpgradeViewKDE"
+
+#~ msgid "*DEPRECATED* this option will be ignored"
+#~ msgstr "*TÀIREALACHD* bidh roghainn seo air leigeil seachad"
+
+#~ msgid "Perform a partial upgrade only (no sources.list rewriting)"
+#~ msgstr ""
+#~ "Dèan leasachadh leth-phàirteach a-mhàin (gun ath-sgrìobhadh sources.list)"
+
+#~ msgid "Disable GNU screen support"
+#~ msgstr "Neo-chomasaich taic sgrìn GNU"
+
+#~ msgid "Set datadir"
+#~ msgstr "Stèidhte datadir"
+
+#, python-format
+#~ msgid "Please insert '%s' into the drive '%s'"
+#~ msgstr "Cuir sibh a-steach  '%s' dhan dràibh  '%s'"
+
+#~ msgid "Fetching is complete"
+#~ msgstr "Tha faighinn crìochnaichte"
+
+#, python-format
+#~ msgid "Fetching file %li of %li at %sB/s"
+#~ msgstr "Faighinn faidhle  %li de %li aig %sB/s"
+
+#, python-format
+#~ msgid "About %s remaining"
+#~ msgstr "Mu dhèidhinn  %s air fhàgal"
+
+#, python-format
+#~ msgid "Fetching file %li of %li"
+#~ msgstr "Faighinn faidhle %li de %li"
+
+#~ msgid "Applying changes"
+#~ msgstr "Builich atharraichean"
+
+#~ msgid "dependency problems - leaving unconfigured"
+#~ msgstr "trioblaidean eismealachd – fàgail neo-rianail"
+
+#, python-format
+#~ msgid "Could not install '%s'"
+#~ msgstr "Cha b' urrainn stàlachadh '%s'"
+
+#, python-format
+#~ msgid ""
+#~ "The upgrade will continue but the '%s' package may not be in a working "
+#~ "state. Please consider submitting a bug report about it."
+#~ msgstr ""
+#~ "Leanaidh an leasachadh ach dh'fhaodadh am pacaid '%s' bhith an ann staid "
+#~ "briste. Smaoinibh a cur a-steach aithris buga mu dheidhinn."
+
+#, python-format
+#~ msgid ""
+#~ "Replace the customized configuration file\n"
+#~ "'%s'?"
+#~ msgstr ""
+#~ "Cuir an àite am faidhle rian gnàthachadh\n"
+#~ "'%s'?"
+
+#~ msgid ""
+#~ "You will lose any changes you have made to this configuration file if you "
+#~ "choose to replace it with a newer version."
+#~ msgstr ""
+#~ "Caillidh tu atharraichean sam bith  a rinn thu ri rian-faidhle seo ma 's "
+#~ "e do roghainn cuir tionndaidh ùr an àite."
+
+#~ msgid "The 'diff' command was not found"
+#~ msgstr "Cha robh àithne 'diff' air lorg"
+
+#~ msgid "A fatal error occurred"
+#~ msgstr "Thachair mearachd marbhteach"
+
+#~ msgid ""
+#~ "Please report this as a bug (if you haven't already) and include the "
+#~ "files /var/log/dist-upgrade/main.log and /var/log/dist-upgrade/apt.log in "
+#~ "your report. The upgrade has aborted.\n"
+#~ "Your original sources.list was saved in /etc/apt/sources.list.distUpgrade."
+#~ msgstr ""
+#~ "Dèan sibh aithris air seo mar buga (ma 's nach d'rinn thu mu thràth) agus "
+#~ "bheir a-steach na faidhlichean /var/log/dist-upgrade/main.log agus /var/"
+#~ "log/dist-upgrade/apt.log anns an aithris agaibh. Tha bacadh air an "
+#~ "leasachadh.\n"
+#~ "Bha an sources.list tùsail a shàbhail ann an /etc/apt/sources.list."
+#~ "distUpgrade."
+
+#~ msgid "Ctrl-c pressed"
+#~ msgstr "Brùthadh Ctrl-c"
+
+#~ msgid ""
+#~ "This will abort the operation and may leave the system in a broken state. "
+#~ "Are you sure you want to do that?"
+#~ msgstr ""
+#~ "Cuireadh seo bacadh air an obrachaidh agus dh'fhaodadh fhàgail an t-"
+#~ "siostam agad ann an staid briste. Cinnteach gu bheil thu ag iarraidh sin "
+#~ "a dhèanamh?"
+
+#~ msgid "To prevent data loss close all open applications and documents."
+#~ msgstr ""
+#~ "Son a cuir bac air call dàta dùin na h-uile prògraman agus sgrìobhainnean "
+#~ "fosgailte."
+
+#, python-format
+#~ msgid "No longer supported by Canonical (%s)"
+#~ msgstr "Às aonais taic tuilleadh bho Canonical (%s)"
+
+#, python-format
+#~ msgid "<b>Downgrade (%s)</b>"
+#~ msgstr "<b>Beagachadh (%s)</b>"
+
+#, python-format
+#~ msgid "Remove (%s)"
+#~ msgstr "Gluasad (%s)"
+
+#, python-format
+#~ msgid "No longer needed (%s)"
+#~ msgstr "Gun iarraidh tuilleadh (%s)"
+
+#, python-format
+#~ msgid "Install (%s)"
+#~ msgstr "Stàlaich (%s)"
+
+#, python-format
+#~ msgid "Upgrade (%s)"
+#~ msgstr "Leasachadh (%s)"
+
+#~ msgid "Media Change"
+#~ msgstr "Atharraichean Meadhanan"
+
+#~ msgid "Show Difference >>>"
+#~ msgstr "Seall An Diofar >>>"
+
+#~ msgid "<<< Hide Difference"
+#~ msgstr "<<< Falaich An Diofar"
+
+#~ msgid "Error"
+#~ msgstr "Mearachd"
+
+#~ msgid "&Cancel"
+#~ msgstr "%Cuir dheth"
+
+#~ msgid "&Close"
+#~ msgstr "&Dùin"
+
+#~ msgid "Show Terminal >>>"
+#~ msgstr "Seall Tèirmineal >>>"
+
+#~ msgid "<<< Hide Terminal"
+#~ msgstr "<<< Falaich Tèirmineal"
+
+#~ msgid "Information"
+#~ msgstr "Fiosrachadh"
+
+#~ msgid "Details"
+#~ msgstr "Mion-chunntas"
+
+#, python-format
+#~ msgid "No longer supported %s"
+#~ msgstr "Gun taic tuilleadh %s"
+
+#, python-format
+#~ msgid "Remove (was auto installed) %s"
+#~ msgstr "Gluasad (bha fhèin stàlaichte) %s"
+
+#, python-format
+#~ msgid "Upgrade %s"
+#~ msgstr "Leasachadh %s"
+
+#~ msgid "<b><big>Restart the system to complete the upgrade</big></b>"
+#~ msgstr ""
+#~ "<b><big>Ath-thòisich an t-siostam son crìochnachadh an leasachadh</big></"
+#~ "b>"
+
+#~ msgid ""
+#~ "<b><big>Cancel the running upgrade?</big></b>\n"
+#~ "\n"
+#~ "The system could be in an unusable state if you cancel the upgrade. You "
+#~ "are strongly advised to resume the upgrade."
+#~ msgstr ""
+#~ "<b><big>Sguir a ruith an leasachadh?</big></b>\n"
+#~ "\n"
+#~ "Dh'fhaodadh an t-siostam bhith ann an staid caochlaideach ma sguireas tu "
+#~ "an leasachadh. Tha thu air do chomhairleachadh gu làidir togail an-àirde "
+#~ "às ùr an leasachadh a-rithist."
+
+#~ msgid "Cancel Upgrade?"
+#~ msgstr "Sguir Leasachadh?"
+
+#, python-format
+#~ msgid "%li day"
+#~ msgid_plural "%li days"
+#~ msgstr[0] "%li làtha"
+#~ msgstr[1] "%li làtha"
+#~ msgstr[2] "%li làithean"
+
+#, python-format
+#~ msgid "%li hour"
+#~ msgid_plural "%li hours"
+#~ msgstr[0] "%li uair"
+#~ msgstr[1] "%li uair"
+#~ msgstr[2] "%li uairean"
+
+#, python-format
+#~ msgid "%li minute"
+#~ msgid_plural "%li minutes"
+#~ msgstr[0] "%li mionaid"
+#~ msgstr[1] "%li mionaid"
+#~ msgstr[2] "%li mionaidean"
+
+#, python-format
+#~ msgid "%li second"
+#~ msgid_plural "%li seconds"
+#~ msgstr[0] "%li diog"
+#~ msgstr[1] "%li diog"
+#~ msgstr[2] "%li diogan"
+
+#, python-format
+#~ msgid "%(str_days)s %(str_hours)s"
+#~ msgstr "%(str_days)s %(str_hours)s"
+
+#, python-format
+#~ msgid "%(str_hours)s %(str_minutes)s"
+#~ msgstr "%(str_hours)s %(str_minutes)s"
+
+#, python-format
+#~ msgid ""
+#~ "This download will take about %s with a 1Mbit DSL connection and about %s "
+#~ "with a 56k modem."
+#~ msgstr ""
+#~ "Bheireadh luchdachadh a-nuas seo mu %s le ceangal 1Mbiod DSL agus mu %s "
+#~ "le mòdam 56c."
+
+#, python-format
+#~ msgid "This download will take about %s with your connection. "
+#~ msgstr "Bheireadh luchdachadh a-nuas seo mu %s le do cheangal. "
+
+#~ msgid "Preparing to upgrade"
+#~ msgstr "Ag ullachadh son leasachadh"
+
+#~ msgid "Getting new software channels"
+#~ msgstr "Faighinn sianalan ùr bathar-bog"
+
+#~ msgid "Getting new packages"
+#~ msgstr "Faighinn pacaidean ùr"
+
+#~ msgid "Installing the upgrades"
+#~ msgstr "Stàlachadh na leasachaidhean"
+
+#~ msgid "Cleaning up"
+#~ msgstr "Glanadh an àirde"
+
+#, python-format
+#~ msgid ""
+#~ "%(amount)d installed package is no longer supported by Canonical. You can "
+#~ "still get support from the community."
+#~ msgid_plural ""
+#~ "%(amount)d installed packages are no longer supported by Canonical. You "
+#~ "can still get support from the community."
+#~ msgstr[0] ""
+#~ "Chan eil Cananical a thuilleadh thoirt taic ris a' phacaid stàlaichte "
+#~ "%(amount)d. 'S urrainn dhut fhathast fhaighinn taic bhon coimhearsnachdh."
+#~ msgstr[1] ""
+#~ "Chan eil Cananical a thuilleadh thoirt taic ris a' phacaid stàlaichte "
+#~ "%(amount)d. 'S urrainn dhut fhathast fhaighinn taic bhon coimhearsnachdh."
+#~ msgstr[2] ""
+#~ "Chan eil Cananical a thuilleadh thoirt taic ri na pacaidean stàlaichte "
+#~ "%(amount)d. 'S urrainn dhut fhathast fhaighinn taic bhon coimhearsnachdh."
+
+#, python-format
+#~ msgid "%d new package is going to be installed."
+#~ msgid_plural "%d new packages are going to be installed."
+#~ msgstr[0] "Bithidh pacaid ùr %d ga stàlachadh"
+#~ msgstr[1] "Bithidh pacaid ùr %d ga stàlachadh"
+#~ msgstr[2] "Bithidh pacaidean ùr %d nan stàlachadh"
+
+#, python-format
+#~ msgid "%d package is going to be upgraded."
+#~ msgid_plural "%d packages are going to be upgraded."
+#~ msgstr[0] "Bithidh pacaid %d ga leasachadh"
+#~ msgstr[1] "Bithidh pacaid %d ga leasachadh"
+#~ msgstr[2] "Bithidh pacaidean %d nan leasachadh"
+
+#, python-format
+#~ msgid ""
+#~ "\n"
+#~ "\n"
+#~ "You have to download a total of %s. "
+#~ msgstr ""
+#~ "\n"
+#~ "\n"
+#~ "Feumaidh tu luchdachadh a-nuas suim de %s. "
+
+#~ msgid ""
+#~ "Installing the upgrade can take several hours. Once the download has "
+#~ "finished, the process cannot be canceled."
+#~ msgstr ""
+#~ "Dh’fhaodadh stàlachadh an leasachadh gabhail iomadaidh uairean. An t-àm "
+#~ "a' chrìochnaicheas an luchdadh a-nuas, chan urrainn cuir dheth am "
+#~ "pròiseas."
+
+#~ msgid ""
+#~ "Fetching and installing the upgrade can take several hours. Once the "
+#~ "download has finished, the process cannot be canceled."
+#~ msgstr ""
+#~ "Dh'fhaodadh faigh agus stàlachadh an leasachadh toirt iomadaidh uairean. "
+#~ "Aon uair a chrìochnaich a luchdaich a-nuas, chan urrainn a chur dheth."
+
+#~ msgid "Removing the packages can take several hours. "
+#~ msgstr "Dh’fhaodadh toirt na pacaidean às gabhail iomadaidh uairean. "
+
+#~ msgid ""
+#~ "There are no upgrades available for your system. The upgrade will now be "
+#~ "canceled."
+#~ msgstr ""
+#~ "Chan eil leasachaidhean ri làimh airson an t-siostam agad. Bithidh bacadh "
+#~ "air an leasachadh a-nis."
+
+#~ msgid "Reboot required"
+#~ msgstr "Ath-bhùtaich riatanach"
+
+#~ msgid ""
+#~ "The upgrade is finished and a reboot is required. Do you want to do this "
+#~ "now?"
+#~ msgstr ""
+#~ "Tha an leasachadh deiseil agus tha ath-bhùtaich riatanach. Bheil thu ag "
+#~ "iarraidh seo a dhèanamh an dràsta?"
+
+#, python-format
+#~ msgid "authenticate '%(file)s' against '%(signature)s' "
+#~ msgstr "dèan cinnteach '%(file)s'  an aghaidh '%(signature)s' "
+
+#, python-format
+#~ msgid "extracting '%s'"
+#~ msgstr "tarraing '%s'"
+
+#~ msgid "Could not run the upgrade tool"
+#~ msgstr "Cha b'urrainn ruith an t-inneal leasachadh"
+
+#~ msgid ""
+#~ "This is most likely a bug in the upgrade tool. Please report it as a bug "
+#~ "using the command 'ubuntu-bug update-manager'."
+#~ msgstr ""
+#~ "Tha seo nas dualtach bhith na bhuga anns an t-inneal leasachadh. Dèan "
+#~ "sibh aithris air mar buga cleachdadh an àithne 'ubuntu-bug update-"
+#~ "manager'."
+
+#~ msgid "Upgrade tool signature"
+#~ msgstr "Leasaich ainm-sgrìobhte an t-inneal"
+
+#~ msgid "Upgrade tool"
+#~ msgstr "Inneal leasaich"
+
+#~ msgid "Failed to fetch"
+#~ msgstr "D'fhàilig ri fhaighinn"
+
+#~ msgid "Fetching the upgrade failed. There may be a network problem. "
+#~ msgstr ""
+#~ "D'fhàilig faighinn an leasachadh. D' fhaodadh gu bheil trioblaid leis an "
+#~ "lìonra. "
+
+#~ msgid "Authentication failed"
+#~ msgstr "Dh'fhàillig dearbhachadh"
+
+#~ msgid ""
+#~ "Authenticating the upgrade failed. There may be a problem with the "
+#~ "network or with the server. "
+#~ msgstr ""
+#~ "Dh'fhàillig le dearbhachadh an leasachadh. Dh' fhaodadh gu bheil "
+#~ "trioblaid leis an lìonra no leis am frithealaiche. "
+
+#~ msgid "Failed to extract"
+#~ msgstr "Dh'fhàillig a tharraing"
+
+#~ msgid ""
+#~ "Extracting the upgrade failed. There may be a problem with the network or "
+#~ "with the server. "
+#~ msgstr ""
+#~ "Dh'fhàillig a' tarraing an leasachadh. Dh' fhaodadh gu bheil trioblaid "
+#~ "leis an lìonra no leis am frithealaiche. "
+
+#~ msgid "Verification failed"
+#~ msgstr "Dh'fhàillig dearbhachadh"
+
+#~ msgid ""
+#~ "Verifying the upgrade failed.  There may be a problem with the network or "
+#~ "with the server. "
+#~ msgstr ""
+#~ "Dh'fhàillig dearbhadh an leasachadh. Dh' fhaodadh gu bheil trioblaid leis "
+#~ "an lìonra no leis am frithealaiche. "
+
+#~ msgid "Can not run the upgrade"
+#~ msgstr "Chan urrainn ruith an leasachadh"
+
+#~ msgid ""
+#~ "This usually is caused by a system where /tmp is mounted noexec. Please "
+#~ "remount without noexec and run the upgrade again."
+#~ msgstr ""
+#~ "Mar as trice an adhbhar son seo se siostam le /tmp ga àrdachadh noexec. "
+#~ "Ath-àrdaich sibh às aonais noexec agus ruith sibh an leasachadh a-rithist."
+
+#, python-format
+#~ msgid "The error message is '%s'."
+#~ msgstr "'S e teachdaireachd a' mhearachd '%s'."
+
+#~ msgid ""
+#~ "Please report this as a bug and include the files /var/log/dist-upgrade/"
+#~ "main.log and /var/log/dist-upgrade/apt.log in your report. The upgrade "
+#~ "has aborted.\n"
+#~ "Your original sources.list was saved in /etc/apt/sources.list.distUpgrade."
+#~ msgstr ""
+#~ "Dèan sibh aithris air seo mar buga agus bheir a-steach na faidhlichean /"
+#~ "var/log/dist-upgrade/main.log agus /var/log/dist-upgrade/apt.log anns an "
+#~ "aithris agad. Tha bacadh air an leasachadh.\n"
+#~ "Chaidh sources.list tùsail a' shàbhaladh ann an /etc/apt/sources.list."
+#~ "distUpgrade."
+
+#~ msgid "Aborting"
+#~ msgstr "An-torrachadh"
+
+#~ msgid "Demoted:\n"
+#~ msgstr "Dh' ìslicheadh:\n"
+
+#~ msgid "To continue please press [ENTER]"
+#~ msgstr "Gu leantainn brùth sibh [ENTER]"
+
+#~ msgid "Continue [yN] "
+#~ msgstr "Lean [yN] "
+
+#~ msgid "Details [d]"
+#~ msgstr "Mion-chunntasan [d]"
+
+#~ msgid "y"
+#~ msgstr "t"
+
+#~ msgid "n"
+#~ msgstr "C"
+
+#~ msgid "d"
+#~ msgstr "m"
+
+#, python-format
+#~ msgid "No longer supported: %s\n"
+#~ msgstr "Gun taic tuilleadh: %s\n"
+
+#, python-format
+#~ msgid "Remove: %s\n"
+#~ msgstr "Gluasad: %s\n"
+
+#, python-format
+#~ msgid "Install: %s\n"
+#~ msgstr "Stàlaich: %s\n"
+
+#, python-format
+#~ msgid "Upgrade: %s\n"
+#~ msgstr "Leasaich: %s\n"
+
+#~ msgid "Continue [Yn] "
+#~ msgstr "Lean [Yn] "
+
+#~ msgid ""
+#~ "To finish the upgrade, a restart is required.\n"
+#~ "If you select 'y' the system will be restarted."
+#~ msgstr ""
+#~ "Son crìochnaich an leasachadh, tha ath-thòiseachadh riatanach.\n"
+#~ "Ma thaghas tu 't' ath-thòisichidh  an t-siostam."
+
+#~ msgid "_Cancel Upgrade"
+#~ msgstr "_Sguir Leasachadh"
+
+#~ msgid "_Resume Upgrade"
+#~ msgstr "_Togail an-àirde Leasachadh"
+
+#~ msgid ""
+#~ "<b><big>Cancel the running upgrade?</big></b>\n"
+#~ "\n"
+#~ "The system could be in an unusable state if you cancel the upgrade. You "
+#~ "are strongly adviced to resume the upgrade."
+#~ msgstr ""
+#~ "<b><big>Sguir an leasachadh tha a' ruith?</big></b>\n"
+#~ "\n"
+#~ "Dh'fhaodadh an t-siostam bhith ann an staid caochlaideach ma sguireas tu "
+#~ "an leasachadh. Tha thu air do chomhairleachadh gu làidir togail an-àirde "
+#~ "an leasachadh a-rithist."
+
+#~ msgid "_Start Upgrade"
+#~ msgstr "_Tòisich Leasachadh"
+
+#~ msgid "_Replace"
+#~ msgstr "_Cuir an àite"
+
+#~ msgid "Difference between the files"
+#~ msgstr "An diofar eadar na faidhlichean"
+
+#~ msgid "_Report Bug"
+#~ msgstr "_Aithris Buga"
+
+#~ msgid "<b><big>Start the upgrade?</big></b>"
+#~ msgstr "<b><big>Tòisich an leasachadh?</big></b>"
+
+#~ msgid ""
+#~ "<b><big>Restart the system to complete the upgrade</big></b>\n"
+#~ "\n"
+#~ "Please save your work before continuing."
+#~ msgstr ""
+#~ "<b><big>Ath-thòisich an t-siostam son crìochnachadh an leasachadh</big></"
+#~ "b>\n"
+#~ "\n"
+#~ "Sàbhail sibh an obair agaibh mus leantainn air adhart."
+
+#~ msgid "Distribution Upgrade"
+#~ msgstr "Leasachadh Sgaoileadh"
+
+#, fuzzy
+#~ msgid "<b><big>Upgrading Ubuntu to version 12.10</big></b>"
+#~ msgstr "<b><big>Leasachadh Ubuntu gu tionndaidh 11.10</big></b>"
+
+#~ msgid "    "
+#~ msgstr "    "
+
+#~ msgid "Setting new software channels"
+#~ msgstr "Stèidheachadh seanailean bathar-bog ùr"
+
+#~ msgid "Restarting the computer"
+#~ msgstr "Ath-thòiseachadh a' choimpiutair"
+
+#~ msgid "Terminal"
+#~ msgstr "Tèirmineal"
+
+#~ msgid "Could not find the release notes"
+#~ msgstr "Cha b'urrainn lorg na nòtaichean sgaoilidh"
+
+#~ msgid "The server may be overloaded. "
+#~ msgstr "Dh'fhaodadh am frithealaiche bhith an-luchdachadh. "
+
+#~ msgid "Could not download the release notes"
+#~ msgstr "Cha b' urrainn luchdachadh a-nuas na nòtaichean sgaoilidh"
+
+#~ msgid "Please check your internet connection."
+#~ msgstr "Sgrùd sibh a'cheangal eadar-lìon agaibh."
+
+#~ msgid "Release Notes"
+#~ msgstr "Nòtaichean Sgaoilidh"
+
+#~ msgid "Downloading additional package files..."
+#~ msgstr "Luchdachadh a-nuas faidhlichean pacaid a' bharrachd..."
+
+#, python-format
+#~ msgid "File %s of %s at %sB/s"
+#~ msgstr "Faidhle %s de %s aig %sB/s"
+
+#, python-format
+#~ msgid "File %s of %s"
+#~ msgstr "Faidhle %s de %s"
+
+#, python-format
+#~ msgid "Downloading file %(current)li of %(total)li with %(speed)s/s"
+#~ msgstr ""
+#~ "Luchdachadh a-nuas faidhle %(current)li de %(total)li le %(speed)s/s"
+
+#, python-format
+#~ msgid "Downloading file %(current)li of %(total)li"
+#~ msgstr "Luchdachadh a-nuas faidhle %(current)li de %(total)li"
+
+#~ msgid "Your Ubuntu release is not supported anymore."
+#~ msgstr "Chan eil taic dhan sgaoileadh Ubuntu agad ann tuilleadh."
+
+#~ msgid ""
+#~ "You will not get any further security fixes or critical updates. Please "
+#~ "upgrade to a later version of Ubuntu."
+#~ msgstr ""
+#~ "Chan fhaigh thu tuilleadh càiridhean tèarainteachd no ùrachaidhean "
+#~ "èiginneach. Leasaich sibh gu tionndaidh nas anmoch de Ubuntu."
+
+#~ msgid "Upgrade information"
+#~ msgstr "Fiosrachadh Leasachadh"
+
+#~ msgid "Name"
+#~ msgstr "Ainm"
+
+#~ msgid ""
+#~ "It is unknown when the package information was updated last. Please click "
+#~ "the 'Check' button to update the information."
+#~ msgstr ""
+#~ "Tha e neo-aithnichte cuin a bha am fiosrachadh pacaid air ùrachadh mu "
+#~ "dheireadh. Briog sibh am putan 'Sgrùd' son ùrachadh am fiosrachadh."
+
+#, python-format
+#~ msgid ""
+#~ "The package information was last updated %(days_ago)s days ago.\n"
+#~ "Press the 'Check' button below to check for new software updates."
+#~ msgstr ""
+#~ "Bha fiosrachadh pacaid ùrachadh mu dheireadh %(days_ago)s làithean air "
+#~ "ais.\n"
+#~ "Brùth am putan 'Sgrùd' gu ìseal son sgrùdadh airson ùrachaidhean bathar-"
+#~ "bog ùr."
+
+#, python-format
+#~ msgid "The package information was last updated %(days_ago)s day ago."
+#~ msgid_plural ""
+#~ "The package information was last updated %(days_ago)s days ago."
+#~ msgstr[0] ""
+#~ "Bha fiosrachadh pacaid ùrachadh mu dheireadh %(days_ago)s làtha air ais."
+#~ msgstr[1] ""
+#~ "Bha fiosrachadh pacaid ùrachadh mu dheireadh %(days_ago)s làtha air ais."
+#~ msgstr[2] ""
+#~ "Bha fiosrachadh pacaid ùrachadh mu dheireadh %(days_ago)s làithean air "
+#~ "ais."
+
+#, python-format
+#~ msgid "The package information was last updated %(hours_ago)s hour ago."
+#~ msgid_plural ""
+#~ "The package information was last updated %(hours_ago)s hours ago."
+#~ msgstr[0] ""
+#~ "Bha fiosrachadh pacaid ùrachadh mu dheireadh %(hours_ago)s uair air ais."
+#~ msgstr[1] ""
+#~ "Bha fiosrachadh pacaid ùrachadh mu dheireadh %(hours_ago)s uair air ais."
+#~ msgstr[2] ""
+#~ "Bha fiosrachadh pacaid ùrachadh mu dheireadh %(hours_ago)s uairean air "
+#~ "ais."
+
+#, python-format
+#~ msgid "The package information was last updated about %s minutes ago."
+#~ msgstr "Bha fiosrachadh pacaid ùrachadh mu dheireadh %s mionaidean air ais."
+
+#~ msgid "The package information was just updated."
+#~ msgstr "Chaidh fiosrachadh pacaid dìreach a dh' ùrachadh."
+
+#~ msgid "Software updates may be available for your computer."
+#~ msgstr ""
+#~ "'S docha gu bheil ùrachaidhean bathar-bog ri làimh son a' choimpiutair "
+#~ "agad."
+
+#~ msgid "Reading package information"
+#~ msgstr "Leughadh fiosrachadh pasgan"
+
+#~ msgid " (New install)"
+#~ msgstr " (Stàladh ùr)"
+
+#, python-format
+#~ msgid "(Size: %s)"
+#~ msgstr "(Meud: %s)"
+
+#, python-format
+#~ msgid "From version %(old_version)s to %(new_version)s"
+#~ msgstr "bhon tionnaidh %(old_version)s gu %(new_version)s"
+
+#, python-format
+#~ msgid "Version %s"
+#~ msgstr "Tionnaidh  %s"
+
+#~ msgid "Release upgrade not possible right now"
+#~ msgstr "Chan urrainn leasaich a sgaoileadh an dràsta."
+
+#, c-format, python-format
+#~ msgid ""
+#~ "The release upgrade can not be performed currently, please try again "
+#~ "later. The server reported: '%s'"
+#~ msgstr ""
+#~ "Chan urrainn leasaich a sgaoileadh an dràsta. Feuchaibh a-rithist nas "
+#~ "anmoch. Dh'aithris am frithealaiche:  '%s'"
+
+#~ msgid "Downloading the release upgrade tool"
+#~ msgstr "Luchdachadh a-nuas an inneal-leasachadh ùrachadh"
+
+#, python-format
+#~ msgid "<b>New Ubuntu release '%s' is available</b>"
+#~ msgstr "<b>Tionndaidh Ubuntu ùr '%s' ri làimh</b>"
+
+#~ msgid "Cancel"
+#~ msgstr "Sguir"
+
+#~ msgid "Changelog"
+#~ msgstr "Clàr-atharraich"
+
+#~ msgid "Building Updates List"
+#~ msgstr "Togail Liosta Ùrachaidhean"
+
+#~ msgid ""
+#~ "\n"
+#~ "A normal upgrade can not be calculated, please run: \n"
+#~ "  sudo apt-get dist-upgrade\n"
+#~ "\n"
+#~ "\n"
+#~ "This can be caused by:\n"
+#~ " * A previous upgrade which didn't complete\n"
+#~ " * Problems with some of the installed software\n"
+#~ " * Unofficial software packages not provided by Ubuntu\n"
+#~ " * Normal changes of a pre-release version of Ubuntu"
+#~ msgstr ""
+#~ "\n"
+#~ "Chan urrainn obrachadh a-mach leasachadh àbhaisteach, ruith sibh: \n"
+#~ "sudo apt-get dist-upgrade\n"
+#~ "\n"
+#~ "\n"
+#~ "Dh'fhaodadh seo bhith air sgath:\n"
+#~ " *Ùrachadh roimh seo nach do chrìoch\n"
+#~ " *Trioblaidean le cuid den bhathar-bog stàlaichte\n"
+#~ " *Pacaidean bathar-bog neo-oifigeil nach do sholaraich Ubuntu\n"
+#~ " *Atharrachaidhean àbhaisteach de tionndaidh ro-sgaoileadh Ubuntu"
+
+#~ msgid "Downloading changelog"
+#~ msgstr "Luchdachadh a-nuas clàr-atharraich"
+
+#, python-format
+#~ msgid "Other updates (%s)"
+#~ msgstr "Ùrachaidhean eile (%s)"
+
+#~ msgid "Failed to detect distribution"
+#~ msgstr "D'fhàilig lorg a sgaoileadh"
+
+#, python-format
+#~ msgid "A error '%s' occurred while checking what system you are using."
+#~ msgstr ""
+#~ "Thachair mearachd '%s' nuair sgrùdadh dè an t-siostam tha thu a' "
+#~ "chleachdadh."
+
+#~ msgid "Recommended updates"
+#~ msgstr "Ùrachaidhean air mholadh"
+
+#~ msgid "Proposed updates"
+#~ msgstr "Ùrachaidhean a tha ann am beachd"
+
+#~ msgid "Backports"
+#~ msgstr "Port-chùl"
+
+#~ msgid "Distribution updates"
+#~ msgstr "Ùrachaidhean Sgaoileadh"
+
+#, fuzzy
+#~ msgid "<big><b>Starting Software Updater</b></big>"
+#~ msgstr "<big><b>Tòiseachadh Manaidsear Ùrachadh</b></big>"
+
+#~ msgid ""
+#~ "Software updates correct errors, eliminate security vulnerabilities and "
+#~ "provide new features."
+#~ msgstr ""
+#~ "Tha ùrachaidhean bathar-bog a' ceartachadh mearachdan, cuir as laigsean "
+#~ "agus a' solarachadh feartan ùr."
+
+#~ msgid "Chec_k"
+#~ msgstr "Sgrù_d"
+
+#~ msgid ""
+#~ "<b><big>You must check for updates manually</big></b>\n"
+#~ "\n"
+#~ "Your system does not check for updates automatically. You can configure "
+#~ "this behavior in <i>Software Sources</i> on the <i>Updates</i> tab."
+#~ msgstr ""
+#~ "<b><big>Feumaidh tu sgrùdadh a làimh son ùrachaidhean</big></b>\n"
+#~ " \n"
+#~ "Chan eil do shiostam a sgrùdadh son ùrachaidhean gu fèin-obrachail. "
+#~ "Faodaidh tu rèitich am modh anns na <i>Bunan Bathar-bog</i> air taba na "
+#~ "<i>Ùrachaidhean</i>."
+
+#~ msgid "_Hide this information in the future"
+#~ msgstr "_Falaich am fiosrachadh san àm ri teachd"
+
+#~ msgid "Co_ntinue"
+#~ msgstr "Le_an"
+
+#~ msgid "<big><b>Running on battery</b></big>"
+#~ msgstr "<big><b>A ruith air bataraidh</b></big>"
+
+#~ msgid ""
+#~ "Your system is running on battery. Are you sure you want to continue?"
+#~ msgstr ""
+#~ "Tha do shiostam a ruith air bataraidh. Bheil thu cinnteach gu bheil thu "
+#~ "ag iarraidh leantainn?"
+
+#~ msgid "_Upgrade"
+#~ msgstr "_Leasaich"
+
+#~ msgid "Show progress of individual files"
+#~ msgstr "Seall adhartas den faidhlichean fa leth"
+
+#, fuzzy
+#~ msgid "Starting Software Updater"
+#~ msgstr "Ùrachaidhean Bathar-bog"
+
+#~ msgid "U_pgrade"
+#~ msgstr "L_easaich"
+
+#~ msgid ""
+#~ "<b>A new version of Ubuntu is available. Would you like to upgrade?</b>"
+#~ msgstr ""
+#~ "<b>Tha tionndaidh ùr de Ubuntu ri làimh. A bu Chaomh leat ùrachadh?</b>"
+
+#~ msgid "Don't Upgrade"
+#~ msgstr "Na Ùraich"
+
+#~ msgid "Yes, Upgrade Now"
+#~ msgstr "Tha, Leasaich An Dràsta"
+
+#~ msgid "You have declined to upgrade to the new Ubuntu"
+#~ msgstr "Tha thu air diùltadh a' leasachadh gu Ubuntu ùr"
+
+#, fuzzy
+#~ msgid ""
+#~ "You can upgrade at a later time by opening Software Updater and click on "
+#~ "\"Upgrade\"."
+#~ msgstr ""
+#~ "Faodaidh tu leasachadh aig àm nas anmoch le fosgladh Manaidsear Ùrachadh "
+#~ "agus briog air “Leasaich”."
+
+#~ msgid "Check if upgrading to the latest devel release is possible"
+#~ msgstr "Sgrùd ma tha e comasach leasachadh gu sgaoileadh -devel- ùr nodha"
+
+#~ msgid "Try to run a dist-upgrade"
+#~ msgstr "Feuch ri ruith leasachadh-sgaoil"
+
+#~ msgid "Test upgrade with a sandbox aufs overlay"
+#~ msgstr "Feuch an leasachadh le tar-chòmhdachadh sandbox aufs"
+
+#~ msgid "Running partial upgrade"
+#~ msgstr "A ruith leasachadh leth-phàirteach"
+
+#~ msgid "Show description of the package instead of the changelog"
+#~ msgstr "Seall mion-chunntas den pacaid an àite a' chlàr-atharraich"
+
+#~ msgid ""
+#~ "Try upgrading to the latest release using the upgrader from $distro-"
+#~ "proposed"
+#~ msgstr ""
+#~ "Feuch leasachadh gu an sgaoileadh ùr nodha cleachdadh an leasaichear bhon "
+#~ "$distro-proposed"
+
+#~ msgid ""
+#~ "Run in a special upgrade mode.\n"
+#~ "Currently 'desktop' for regular upgrades of a desktop system and 'server' "
+#~ "for server systems are supported."
+#~ msgstr ""
+#~ "Ruith ann an modh leasachadh àraid.\n"
+#~ "An dràsta tha 'desktop' son leasachaidhean riaghlach den siostam bàrr-"
+#~ "deasc agus 'server' son siostaman frithealaiche gan taiceadh."
+
+#~ msgid "Run the specified frontend"
+#~ msgstr "Ruith a' chùl-beòil àraid"
+
+#~ msgid ""
+#~ "Check only if a new distribution release is available and report the "
+#~ "result via the exit code"
+#~ msgstr ""
+#~ "Sgrùd a-mhàin ma tha sgaoileadh ùr ri làimh agus dèan aithris air an "
+#~ "toradh tro còd fàgail"
+
+#~ msgid "Checking for a new Ubuntu release"
+#~ msgstr "Sgrùdadh son sgaoileadh ùr Ubuntu"
+
+#~ msgid ""
+#~ "For upgrade information, please visit:\n"
+#~ "%(url)s\n"
+#~ msgstr ""
+#~ "Son fiosrachadh leasachadh, Cèilidh sibh air:\n"
+#~ "%(url)s\n"
+
+#~ msgid "No new release found"
+#~ msgstr "Cha robh sgaoileadh air lorg"
+
+#, c-format
+#~ msgid "New release '%s' available."
+#~ msgstr "Sgaoileadh ùr '%s' ri làimh."
+
+#~ msgid "Run 'do-release-upgrade' to upgrade to it."
+#~ msgstr "Ruith 'do-release-upgrade' son leasachadh a dh'ionnsaigh."
+
+#~ msgid "Ubuntu %(version)s Upgrade Available"
+#~ msgstr "Ubuntu %(version)s Leasachadh Ri Làimh"
+
+#, c-format
+#~ msgid "You have declined the upgrade to Ubuntu %s"
+#~ msgstr "Tha thu air diùltadh an leasachadh gu Ubuntu %s"
+
+#~ msgid "Add debug output"
+#~ msgstr "Cuir ris mach-chur dì-bhugaich"
+
+#~ msgid "Show unsupported packages on this machine"
+#~ msgstr "Seall pacaidean gun taic air an innleachd seo"
+
+#~ msgid "Show supported packages on this machine"
+#~ msgstr "Seall pacaidean le taic air an innleachd seo"
+
+#~ msgid "Show all packages with their status"
+#~ msgstr "Seall na h-uile pacaidean leis an inbhe aca"
+
+#~ msgid "Show all packages in a list"
+#~ msgstr "Seall na h-uile pacaidean ann a liosta"
+
+#, c-format
+#~ msgid "Support status summary of '%s':"
+#~ msgstr "Geàrr-chunntas inbhe taic de '%s':"
+
+#~ msgid "You have %(num)s packages (%(percent).1f%%) supported until %(time)s"
+#~ msgstr "Tha agad % (num)s pacaidean (%(percent).1f%%) le taic gu %(time)s"
+
+#~ msgid ""
+#~ "You have %(num)s packages (%(percent).1f%%) that can not/no-longer be "
+#~ "downloaded"
+#~ msgstr ""
+#~ "Tha agad %(num)s pacaidean (%(percent).1f%%) nach urrainn/a thuilleadh "
+#~ "bhith a' luchdachadh a-nuas"
+
+#~ msgid "You have %(num)s packages (%(percent).1f%%) that are unsupported"
+#~ msgstr "Tha agad %(num)s pacaidean (%(percent).1f%%) a tha gun taic"
+
+#~ msgid ""
+#~ "Run with --show-unsupported, --show-supported or --show-all to see more "
+#~ "details"
+#~ msgstr ""
+#~ "Ruith le --show-unsupported, --show-supported neo -–show-all son faicinn "
+#~ "barrachd mion-chunntas"
+
+#~ msgid "No longer downloadable:"
+#~ msgstr "Cha ghabh a luchdachadh a-nuas tuilleadh:"
+
+#~ msgid "Unsupported: "
+#~ msgstr "Gun taic: "
+
+#, c-format
+#~ msgid "Supported until %s:"
+#~ msgstr "Le taic gu %s:"
+
+#~ msgid "Unsupported"
+#~ msgstr "Gun taic"
+
+#~ msgid ""
+#~ "After your package information was updated the essential package '%s' can "
+#~ "not be found anymore so a bug reporting process is being started."
+#~ msgstr ""
+#~ "Às dèidh ùrachadh do fhiosrachadh phacaid chan fhaigh lorg tilleadh air "
+#~ "am pacaid riatanach '%s' mar sin tha am pròiseas iomradh buga a'  "
+#~ "tòiseachadh."
+
+#~ msgid "<b><big>Upgrading Ubuntu to version 12.04</big></b>"
+#~ msgstr "<b><big>Leasachadh Ubuntu gu tionndaidh 12.04</big></b>"
+
+#~ msgid "%(count)s update has been selected."
+#~ msgid_plural "%(count)s updates have been selected."
+#~ msgstr[0] "%(count)s ùrachadh taghte."
+#~ msgstr[1] "%(count)s ùrachadh taghte."
+#~ msgstr[2] "%(count)s ùrachaidhean taghte."
+
+#~ msgid "%(count_str)s %(download_str)s"
+#~ msgstr "%(count_str)s %(download_str)s"
+
+#~ msgid "Welcome to Ubuntu"
+#~ msgstr "Fàilte gu Ubuntu"
+
+#~ msgid ""
+#~ "These software updates have been issued since this version of Ubuntu was "
+#~ "released."
+#~ msgstr ""
+#~ "Chaidh na ùrachaidhean bathar-bog seo a chur a-mach o chionn an "
+#~ "tionndaidh seo de Ubuntu ga sgaoileadh."
+
+#~ msgid "Update Manager"
+#~ msgstr "Manaidsear Ùrachadh"
+
+#~ msgid "Starting Update Manager"
+#~ msgstr "Tòiseachadh Manaidsear Ùrachadh"
+
+#~ msgid "You are connected via a wireless modem."
+#~ msgstr "Tha thu ceangailte tro mòdam uèirleas."
+
+#~ msgid "0 kB"
+#~ msgstr "0 cB"
+
+#~ msgid "1 kB"
+#~ msgstr "1 cB"
+
+#~ msgid "%.0f kB"
+#~ msgstr "%.0f cB"
+
+#~ msgid ""
+#~ "This upgrade is running in sandbox (test) mode. All changes are written "
+#~ "to '%s' and will be lost on the next reboot.\n"
+#~ "\n"
+#~ "*No* changes written to a systemdir from now until the next reboot are "
+#~ "permanent."
+#~ msgstr ""
+#~ "Tha an ùrachadh seo a' ruith ann an sandbox (test) modh. Tha na h-uile "
+#~ "atharraichean sgrìobhte gu '%s' agus bithidh iad air chall aig an ath-"
+#~ "bhùtachadh a leanas\n"
+#~ "\n"
+#~ "*No* atharraichean sgrìobhte ri -systemdir- bho an dràsta gus an ath-"
+#~ "bhùtachadh a leanas, bithidh iad maireannach."
+
+#~ msgid ""
+#~ "Upgrading the repository information resulted in a invalid file. Please "
+#~ "report this as a bug using the command 'ubuntu-bug update-manager' in a "
+#~ "terminal."
+#~ msgstr ""
+#~ "Le leasachadh an taisgeadan fiosrachadh bha toradh faidhle neo-dligheach "
+#~ "ann. Dèan aithris air seo mar buga le cleachdadh an àithne 'ubuntu-bug "
+#~ "update-manager' ann an tèirmineal."
+
+#~ msgid ""
+#~ "\n"
+#~ "\n"
+#~ "Please report this bug using the command 'ubuntu-bug update-manager' in a "
+#~ "terminal and include the files in /var/log/dist-upgrade/ in the bug "
+#~ "report.\n"
+#~ "%s"
+#~ msgstr ""
+#~ "\n"
+#~ "\n"
+#~ "Dèan sibh aithris air a' bhuga seo a' cleachdadh an àithne 'ubuntu-bug "
+#~ "update-manager'  ann an tèirmineal agus bheir a-steach na faidhlichean "
+#~ "ann  an /var/log/dist-upgrade/  anns an aithris buga.\n"
+#~ "%s"
+
+#~ msgid ""
+#~ "Preparing the system for the upgrade failed. Please report this using the "
+#~ "command 'ubuntu-bug update-manager' in a terminal and include the files "
+#~ "in /var/log/dist-upgrade/ in the bug report."
+#~ msgstr ""
+#~ "D'fhàilig ag ullachadh an t-siostam airson leasachadh. Dèan sibh aithris "
+#~ "air a bhuga seo cleachdadh an àithne 'ubuntu-bug update-manager'  ann an "
+#~ "tèirmineal agus bheir a-steach na faidhlichean ann an /var/log/dist-"
+#~ "upgrade/  anns an aithris buga."
+
+#~ msgid ""
+#~ "The system was unable to get the prerequisites for the upgrade. The "
+#~ "upgrade will abort now and restore the original system state.\n"
+#~ "\n"
+#~ "Please report this as a bug using the command 'ubuntu-bug update-manager' "
+#~ "in a terminal and include the files in /var/log/dist-upgrade/ in the bug "
+#~ "report."
+#~ msgstr ""
+#~ "Cha b' urrainn dhan t-siostam fhaighinn na ro-ghoireasan airson an "
+#~ "leasachadh. Bidh bacadh air an leasachadh an dràsta agus an t-siostam a "
+#~ "thoirt air ais dhan staid tùsail."
+
+#~ msgid ""
+#~ "After your package information was updated the essential package '%s' can "
+#~ "not be found anymore.\n"
+#~ "This indicates a serious error, please report this bug using the command "
+#~ "'ubuntu-bug update-manager' in a terminal and include the files in /var/"
+#~ "log/dist-upgrade/ in the bug report."
+#~ msgstr ""
+#~ "Às dèidh ùrachadh am fhiosrachadh pacaid agad cha b' urrainn lorg am "
+#~ "pacaid deatamach '%s'  tuilleadh.\n"
+#~ "Tha seo a taisbeanach mearachd cudromach, dèan sibh aithris air a bhuga "
+#~ "seo cleachdadh an àithne 'ubuntu-bug update-manager'  ann an tèirmineal "
+#~ "agus bheir a-steach na faidhlichean ann  an /var/log/dist-upgrade/  anns "
+#~ "an aithris buga."
+
+#~ msgid "Your graphics hardware may not be fully supported in Ubuntu 11.04."
+#~ msgstr ""
+#~ "Dh'fhaodadh nach eil làn taic ann an Ubuntu 11.04 airson a' bhathar-"
+#~ "cruaidh grafaigeach agad."
+
+#~ msgid ""
+#~ "The support in Ubuntu 11.04 for your intel graphics hardware is limited "
+#~ "and you may encounter problems after the upgrade. Do you want to continue "
+#~ "with the upgrade?"
+#~ msgstr ""
+#~ "Tha an taic ann an Ubuntu 11.04 airson a' bhathar-cruaidh grafaigeach "
+#~ "agad cuibhrichte agus dh' fhaodadh gun tachair thu ri  trioblaidean às "
+#~ "dèidh an leasachadh. Bheil thu ag iarraidh leantainn leis an leasachadh?"
+
+#~ msgid "Your system is up-to-date"
+#~ msgstr "Tha an t-siostam agad a dh'ionnsaigh an là"
+
+#~ msgid ""
+#~ "Fetching and installing the upgrade can take several hours. Once the "
+#~ "download has finished, the process cannot be cancelled."
+#~ msgstr ""
+#~ "Dh'fhaodadh faighinn agus a' stàladh an leasachadh thoirt iomadach "
+#~ "uairean a thìde. Nuair a chrìochnaicheas an luchdachadh a-nuas, chan "
+#~ "urrainn a chur stad ris a' phròiseas."
+
+#~ msgid ""
+#~ "You will not get any further security fixes or critical updates. Please "
+#~ "upgrade to a later version of Ubuntu Linux."
+#~ msgstr ""
+#~ "Cha fhaigh thu a' chòrr fuasglaidhean tèarainteachd no leasachaidhean "
+#~ "èiginneach. Leasaichibh gu tionndaidh nas anmoch de Ubuntu Linux."
+
+#~ msgid "The update has already been downloaded, but not installed"
+#~ msgid_plural "The updates have already been downloaded, but not installed"
+#~ msgstr[0] ""
+#~ "Bha an ùrachadh mu thràth air a luchdachadh a-nuas, ach cha robh "
+#~ "stàlaichte."
+#~ msgstr[1] ""
+#~ "Bha an ùrachadh mu thràth air a luchdachadh a-nuas, ach cha robh "
+#~ "stàlaichte."
+#~ msgstr[2] ""
+#~ "Bha na ùrachaidhean mu thràth air a luchdachadh a-nuas, ach cha robh "
+#~ "stàlaichte."
+
+#~ msgid "There are no updates to install"
+#~ msgstr "Chan eil gin ùrachaidhean son stàladh"
+
+#~ msgid ""
+#~ "These software updates have been issued since this version of Ubuntu was "
+#~ "released. If you don't want to install them now, choose \"Update Manager"
+#~ "\" from Applications later."
+#~ msgstr ""
+#~ "Chaidh na ùrachaidhean bathar-bog seo a chur a-mach às dèidh sgaoileadh "
+#~ "an tionndaidh seo de Ubuntu. Ma 's e nach eil thu ag iarraidh iad a "
+#~ "stàladh an dràsta , tagh “Manaidsear Ùrachadh” bhon Chlàr-iùil Prògraman "
+#~ "nas anmoch."
+
+#~ msgid ""
+#~ "These software updates have been issued since this version of Ubuntu was "
+#~ "released. If you don't want to install them now, choose \"Update Manager"
+#~ "\" from the Administration Menu later."
+#~ msgstr ""
+#~ "Chaidh na ùrachaidhean bathar-bog seo a chur a-mach às dèidh sgaoileadh "
+#~ "an tionndaidh seo de Ubuntu. Ma 's e nach eil thu ag iarraidh iad a "
+#~ "stàladh an dràsta , tagh “Manaidsear Ùrachadh” bhon Chlàr-iùil Rianachd "
+#~ "nas anmoch."
+
+#~ msgid "Software updates are available for this computer"
+#~ msgstr "Tha ùrachaidhean bathar-bog ri làimh son a' choimpiutair agad."
+
+#~ msgid ""
+#~ "If you don't want to install them now, choose \"Update Manager\" from "
+#~ "Applications later."
+#~ msgstr ""
+#~ "Ma 's e nach eil thu ag iarraidh iad a stàladh an dràsta , tagh "
+#~ "“Manaidsear Ùrachadh” bhon Chlàr-iùil Rianachd nas anmoch."
+
+#~ msgid ""
+#~ "If you don't want to install them now, choose \"Update Manager\" from the "
+#~ "Administration menu later."
+#~ msgstr ""
+#~ "Ma 's e nach eil thu ag iarraidh iad a stàladh an dràsta , tagh "
+#~ "“Manaidsear Ùrachadh” bhon Chlàr-iùil Rianachd nas anmoch."
+
+#~ msgid "Checking for a new ubuntu release"
+#~ msgstr "Sgrùdadh airson sgaoileadh ùr ubuntu"

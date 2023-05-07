@@ -1,0 +1,1371 @@
+# Amharic translation for update-manager
+# Copyright (c) (c) 2006 Canonical Ltd, and Rosetta Contributors 2006
+# This file is distributed under the same license as the update-manager package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2006.
+#
+#: ../UpdateManager/UpdatesAvailable.py:847
+msgid ""
+msgstr ""
+"Project-Id-Version: update-manager\n"
+"Report-Msgid-Bugs-To: sebastian.heinlein@web.de\n"
+"POT-Creation-Date: 2021-12-07 16:54-0800\n"
+"PO-Revision-Date: 2011-12-06 06:39+0000\n"
+"Last-Translator: samson <Unknown>\n"
+"Language-Team: Amharic <am@li.org>\n"
+"Language: am\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Launchpad-Export-Date: 2012-04-17 13:40+0000\n"
+"X-Generator: Launchpad (build 15099)\n"
+
+#: ../UpdateManager/backend/InstallBackendAptdaemon.py:150
+#, fuzzy
+msgid "Checking for updates…"
+msgstr "ሌሎች ማሻሻያዎች"
+
+#: ../UpdateManager/backend/InstallBackendAptdaemon.py:200
+#: ../UpdateManager/backend/InstallBackendAptdaemon.py:256
+#: ../UpdateManager/backend/InstallBackendAptdaemon.py:287
+#, fuzzy
+msgid "Installing updates…"
+msgstr "_መግጠም ማሻሻያውን"
+
+#: ../UpdateManager/backend/InstallBackendSynaptic.py:39
+msgid "Please wait, this can take some time."
+msgstr "እባክዎ ይቆዩ ይህ ትንሽ ጊዜ ሊፈጅ ይችላል"
+
+#: ../UpdateManager/backend/InstallBackendSynaptic.py:41
+msgid "Update is complete"
+msgstr "ማሻሻሉ ተጠናቋል"
+
+#: ../UpdateManager/backend/__init__.py:277
+msgid "Updating snaps"
+msgstr ""
+
+#: ../UpdateManager/backend/__init__.py:304
+#, python-format
+msgid "Refreshing %s snap"
+msgstr ""
+
+#: ../UpdateManager/backend/__init__.py:310
+#, fuzzy, python-format
+msgid "Removing %s snap"
+msgstr "ማስወገጃ %s"
+
+#: ../UpdateManager/backend/__init__.py:315
+#, fuzzy, python-format
+msgid "Installing %s snap"
+msgstr "መግጠሚያ %s"
+
+#: ../UpdateManager/backend/__init__.py:324
+#, fuzzy
+msgid "Upgrade only partially completed."
+msgstr "ማሻሻሉ ተጠናቋል"
+
+#: ../UpdateManager/backend/__init__.py:325
+#, fuzzy
+msgid ""
+"An error occurred while updating snaps. Please check your network connection."
+msgstr ""
+"ስህተት ተፈጥሯል በማሻሻል ላይ ፡ ይህ ምናልባት የኔትዎርክ ችግር ይሆናል ፡ እባክዎ የኔትዎርክ ግንኙነትዎን ይመርምሩና "
+"እንደገና ይሞክሩ"
+
+#: ../UpdateManager/ChangelogViewer.py:83
+msgid "Open Link in Browser"
+msgstr ""
+
+#: ../UpdateManager/ChangelogViewer.py:87
+msgid "Copy Link to Clipboard"
+msgstr ""
+
+#: ../UpdateManager/Dialogs.py:126
+msgid "Settings…"
+msgstr ""
+
+#: ../UpdateManager/Dialogs.py:171
+msgid ""
+"<b>Tip:</b> You can use Livepatch to keep your computer more secure between "
+"restarts."
+msgstr ""
+
+#: ../UpdateManager/Dialogs.py:174
+msgid "Settings & Livepatch…"
+msgstr ""
+
+#: ../UpdateManager/Dialogs.py:188
+#, python-format
+msgid "%d Livepatch update applied since the last restart."
+msgid_plural "%d Livepatch updates applied since the last restart."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../UpdateManager/Dialogs.py:196
+#, python-format
+msgid "%d Livepatch update failed to apply since the last restart."
+msgid_plural "%d Livepatch updates failed to apply since the last restart."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../UpdateManager/Dialogs.py:218 ../UpdateManager/UpdateManager.py:292
+msgid "You stopped the check for updates."
+msgstr ""
+
+#: ../UpdateManager/Dialogs.py:220
+msgid "_Check Again"
+msgstr ""
+
+#: ../UpdateManager/Dialogs.py:232
+#, fuzzy
+msgid "No software updates are available."
+msgstr "የሶፍትዌር ማሻሻያ ለዚህ ኮምፒዩተር ዝግጁ ነው"
+
+#: ../UpdateManager/Dialogs.py:234 ../UpdateManager/Dialogs.py:245
+msgid "The software on this computer is up to date."
+msgstr ""
+
+#. Translators: these are Ubuntu version names like "Ubuntu 12.04"
+#: ../UpdateManager/Dialogs.py:247
+#, python-format
+msgid "However, %s %s is now available (you have %s)."
+msgstr ""
+
+#: ../UpdateManager/Dialogs.py:252
+#, fuzzy
+msgid "Upgrade…"
+msgstr "ማሻሻል"
+
+#: ../UpdateManager/Dialogs.py:272
+#, fuzzy
+msgid "New important security and hardware support update."
+msgstr "ጠቃሚ የደህንነት ማሻሻያዎች"
+
+#: ../UpdateManager/Dialogs.py:280
+#, fuzzy
+msgid "_Install…"
+msgstr "መግጠም"
+
+#. Translators: this is an Ubuntu version name like "Ubuntu 12.04"
+#: ../UpdateManager/Dialogs.py:292
+#, fuzzy, python-format
+msgid "Software updates are no longer provided for %s %s."
+msgstr "የሶፍትዌር ማሻሻያ ለዚህ ኮምፒዩተር ዝግጁ ነው"
+
+#. Translators: this is an Ubuntu version name like "Ubuntu 12.04"
+#: ../UpdateManager/Dialogs.py:296
+#, python-format
+msgid "To stay secure, you should upgrade to %s %s."
+msgstr ""
+
+#: ../UpdateManager/Dialogs.py:309
+msgid "Sorry, there are no more upgrades for this system"
+msgstr ""
+
+#. Translators: this is an Ubuntu version name like "Ubuntu 12.04"
+#: ../UpdateManager/Dialogs.py:311
+#, python-format
+msgid ""
+"\n"
+"There will not be any further Ubuntu releases for this system's '%s' "
+"architecture.\n"
+"\n"
+"Updates for Ubuntu %s will continue until 2023-04-26.\n"
+"\n"
+"If you reinstall Ubuntu from ubuntu.com/download, future upgrades will be "
+"available."
+msgstr ""
+
+#: ../UpdateManager/Dialogs.py:325
+#, fuzzy
+msgid "Not all updates can be installed"
+msgstr "<big><b>ሁሉኑም ማሻሻያዎች መግጠም አልተቻለም </b></big>"
+
+#: ../UpdateManager/Dialogs.py:327
+msgid ""
+"Run a partial upgrade, to install as many updates as possible.\n"
+"\n"
+"    This can be caused by:\n"
+"     * A previous upgrade which didn't complete\n"
+"     * Problems with some of the installed software\n"
+"     * Unofficial software packages not provided by Ubuntu\n"
+"     * Normal changes of a pre-release version of Ubuntu"
+msgstr ""
+
+#: ../UpdateManager/Dialogs.py:335
+msgid "_Partial Upgrade"
+msgstr "_በከፊል ማሻሻል"
+
+#: ../UpdateManager/Dialogs.py:336
+msgid "_Continue"
+msgstr "_ይቀጥሉ"
+
+#: ../UpdateManager/Dialogs.py:372
+msgid "_Try Again"
+msgstr ""
+
+#: ../UpdateManager/Dialogs.py:386
+#, fuzzy
+msgid "The computer needs to restart to finish installing updates."
+msgstr ""
+"ኮምፒዩተሩን አጥፍቶ ማብራት ያስፈልጋል ማሻሻያውን ገጥሞ ለመጨረስ። እባክዎን የሚሰሩትን ያስቀምጡ ከመቀጠሎት በፊት"
+
+#: ../UpdateManager/Dialogs.py:388
+#, fuzzy
+msgid "Restart _Later"
+msgstr "እንደገና ማስጀመር ያስፈልጋል"
+
+#: ../UpdateManager/Dialogs.py:390
+msgid "_Restart Now"
+msgstr "_አሁን እንደገና ላስጀምር"
+
+#. Basic GTK+ parameters
+#: ../UpdateManager/UpdateManager.py:96 ../data/update-manager.desktop.in.h:1
+#: ../data/update-manager.appdata.xml.in.h:1
+#, fuzzy
+msgid "Software Updater"
+msgstr "የሶፍትዌር ማሻሻያ"
+
+#: ../UpdateManager/UpdateManager.py:290
+msgid "Some software couldn’t be checked for updates."
+msgstr ""
+
+#: ../UpdateManager/UpdateManager.py:293
+msgid "Updated software is available from a previous check."
+msgstr ""
+
+#. we assert a clean cache
+#: ../UpdateManager/UpdateManager.py:400
+msgid "Software index is broken"
+msgstr "የሶፍትዌር ማውጫ ተሰብሯል"
+
+#: ../UpdateManager/UpdateManager.py:401
+msgid ""
+"It is impossible to install or remove any software. Please use the package "
+"manager \"Synaptic\" or run \"sudo apt-get install -f\" in a terminal to fix "
+"this issue at first."
+msgstr ""
+
+#: ../UpdateManager/UpdateManager.py:408
+msgid "Could not initialize the package information"
+msgstr "የጥቅል መረጃውን ማስነሳት አልተቻለም"
+
+#: ../UpdateManager/UpdateManager.py:409
+msgid ""
+"An unresolvable problem occurred while initializing the package "
+"information.\n"
+"\n"
+"Please report this bug against the 'update-manager' package and include the "
+"following error message:\n"
+msgstr ""
+
+#: ../UpdateManager/UpdateManager.py:437
+msgid "Could not calculate the upgrade"
+msgstr "ማሻሻያውን ማስላት አልተቻለም"
+
+#: ../UpdateManager/UpdateManager.py:438
+msgid ""
+"An unresolvable problem occurred while calculating the upgrade.\n"
+"\n"
+"Please report this bug against the 'update-manager' package and include the "
+"following error message:\n"
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:252
+#, fuzzy
+msgid "Install Now"
+msgstr "መግጠም"
+
+#: ../UpdateManager/UpdatesAvailable.py:285
+#, fuzzy
+msgid "Install or remove"
+msgstr "መግጠም"
+
+#: ../UpdateManager/UpdatesAvailable.py:319
+msgid "Download"
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:378
+#, fuzzy
+msgid "_Remind Me Later"
+msgstr "በኋላ አስታውሰኝ"
+
+#. upload_archive = version_match.group(2).strip()
+#: ../UpdateManager/UpdatesAvailable.py:515
+#, python-format
+msgid "Version %s: \n"
+msgstr "እትም %s: \n"
+
+#: ../UpdateManager/UpdatesAvailable.py:580
+msgid ""
+"No network connection detected, you can not download changelog information."
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:590
+msgid "Downloading list of changes..."
+msgstr "በመጫን ላይ ዝርዝር ለውጦችን..."
+
+#: ../UpdateManager/UpdatesAvailable.py:634
+msgid "_Deselect All"
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:640
+msgid "Select _All"
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:736
+#, python-format
+msgid "%s will be downloaded."
+msgstr "%s ይወርዳሉ"
+
+#: ../UpdateManager/UpdatesAvailable.py:750
+#, fuzzy
+msgid "The update has already been downloaded."
+msgid_plural "The updates have already been downloaded."
+msgstr[0] "ማሻሻያው ቀደም ሲል ወርዷል ነገር ግን አልተገጠመም"
+msgstr[1] "ማሻሻያዎቹ ቀደም ሲል ወርደዋል  ነገር ግን አልተገጠሙም"
+
+#: ../UpdateManager/UpdatesAvailable.py:756
+msgid "There are no updates to install."
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:765
+msgid "Unknown download size."
+msgstr "የሚወርደው መጠን ያልታወቀ"
+
+#: ../UpdateManager/UpdatesAvailable.py:792
+#, python-format
+msgid ""
+"Updated software has been issued since %s %s was released. Do you want to "
+"install it now?"
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:797
+msgid ""
+"Updated software is available for this computer. Do you want to install it "
+"now?"
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:800
+#, fuzzy
+msgid ""
+"The computer also needs to restart to finish installing previous updates."
+msgstr ""
+"ኮምፒዩተሩን አጥፍቶ ማብራት ያስፈልጋል ማሻሻያውን ገጥሞ ለመጨረስ። እባክዎን የሚሰሩትን ያስቀምጡ ከመቀጠሎት በፊት"
+
+#. print("on_button_install_clicked")
+#: ../UpdateManager/UpdatesAvailable.py:830
+msgid "Not enough free disk space"
+msgstr "በቂ ባዶ ቦታ ዲስኩ ላይ የለም"
+
+#: ../UpdateManager/UpdatesAvailable.py:831
+#, python-format
+msgid ""
+"The upgrade needs a total of %s free space on disk '%s'. Please free at "
+"least an additional %s of disk space on '%s'. %s"
+msgstr ""
+
+#. specific ways to resolve lack of free space
+#: ../UpdateManager/UpdatesAvailable.py:836
+msgid ""
+"Remove temporary packages of former installations using 'sudo apt clean'."
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:838
+msgid ""
+"You can remove old kernels using 'sudo apt autoremove', and you could also "
+"set COMPRESS=xz in /etc/initramfs-tools/initramfs.conf to reduce the size of "
+"your initramfs."
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:843
+msgid ""
+"Empty your trash and remove temporary packages of former installations using "
+"'sudo apt clean'."
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:846
+msgid "Reboot to clean up files in /tmp."
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:888
+msgid "Connecting..."
+msgstr "በመገናኘት ላይ"
+
+#: ../UpdateManager/UpdatesAvailable.py:904
+msgid "You may not be able to check for updates or download new updates."
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:1056
+msgid "Improved hardware support"
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:1060
+#, fuzzy
+msgid "Security updates"
+msgstr "ጠቃሚ የደህንነት ማሻሻያዎች"
+
+#: ../UpdateManager/UpdatesAvailable.py:1064
+msgid "Other updates"
+msgstr "ሌሎች ማሻሻያዎች"
+
+#: ../UpdateManager/UpdatesAvailable.py:1067
+msgid "Updates"
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:1072
+msgid "Unused kernel updates to be removed"
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:1077
+#, fuzzy
+msgid "Duplicate packages to be removed"
+msgstr "%d ጥቅሉ ይወገዳል"
+
+#: ../UpdateManager/UnitySupport.py:70
+msgid "Install All Available Updates"
+msgstr ""
+
+#: ../UpdateManager/Core/MyCache.py:417
+msgid "This update does not come from a source that supports changelogs."
+msgstr ""
+
+#: ../UpdateManager/Core/MyCache.py:423 ../UpdateManager/Core/MyCache.py:458
+msgid ""
+"Failed to download the list of changes. \n"
+"Please check your Internet connection."
+msgstr ""
+"የለውጦችን ዝርዝር ማውረድ አልተቻለም  \n"
+"እባክዎን የኢንተርኔት ግንኙነትዎን ይመርምሩ"
+
+#: ../UpdateManager/Core/MyCache.py:430
+#, python-format
+msgid ""
+"Changes for %s versions:\n"
+"Installed version: %s\n"
+"Available version: %s\n"
+"\n"
+msgstr ""
+
+#: ../UpdateManager/Core/MyCache.py:444
+#, python-format
+msgid ""
+"The changelog does not contain any relevant changes.\n"
+"\n"
+"Please use http://launchpad.net/ubuntu/+source/%s/%s/+changelog\n"
+"until the changes become available or try again later."
+msgstr ""
+
+#: ../UpdateManager/Core/MyCache.py:451
+#, python-format
+msgid ""
+"The list of changes is not available yet.\n"
+"\n"
+"Please use http://launchpad.net/ubuntu/+source/%s/%s/+changelog\n"
+"until the changes become available or try again later."
+msgstr ""
+"የለውጦቹ ዝርዝር ዝግጁ አይደለም \n"
+"\n"
+"እባክዎን ይህን ይጠቀሙ http://launchpad.net/ubuntu/+source/%s/%s/+changelog\n"
+"የለውጦቹ ዝርዝር ዝግጁ እስከሚሆኑ ድረስ። ወይም ትንሽ ቆይተው ይሞክሩ"
+
+#. Translators: the %s is a distro name, like 'Ubuntu' and 'base' as in
+#. the core components and packages.
+#: ../UpdateManager/Core/UpdateList.py:175
+#, python-format
+msgid "%s base"
+msgstr ""
+
+#. TRANSLATORS: download size of small updates, e.g. "250 kB"
+#: ../UpdateManager/Core/utils.py:483
+#, python-format
+msgid "%(size).0f kB"
+msgid_plural "%(size).0f kB"
+msgstr[0] ""
+msgstr[1] ""
+
+#. TRANSLATORS: download size of updates, e.g. "2.3 MB"
+#: ../UpdateManager/Core/utils.py:487
+#, python-format
+msgid "%.1f MB"
+msgstr "%.1f  ሜ/ባ"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:1
+msgid "updates"
+msgstr "ማሻሻያ"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:2
+msgid "Changes"
+msgstr "ለውጦች"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:3
+msgid "Description"
+msgstr "መግለጫ"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:4
+#, fuzzy
+msgid "Technical description"
+msgstr "መግለጫ"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:5
+#, fuzzy
+msgid "Details of updates"
+msgstr "የማሻሻያው መግለጫ"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:6
+msgid "The computer will need to restart."
+msgstr ""
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:7
+msgid ""
+"You are connected via roaming and may be charged for the data consumed by "
+"this update."
+msgstr ""
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:8
+msgid ""
+"You may want to wait until you’re not using a mobile broadband connection."
+msgstr ""
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:9
+msgid "It’s safer to connect the computer to AC power before updating."
+msgstr ""
+
+#: ../data/update-manager.desktop.in.h:2
+msgid "Software Updates"
+msgstr "የሶፍትዌር ማሻሻያ"
+
+#: ../data/update-manager.desktop.in.h:3
+#: ../data/update-manager.appdata.xml.in.h:2
+msgid "Show and install available updates"
+msgstr "ማሳያ እና መግጠሚያ ዝግጁ የሆኑ ማሻሻያዎችን"
+
+#: ../data/update-manager.appdata.xml.in.h:3
+msgid ""
+"Software Updater checks for updates using apt and let you choose which "
+"updates to install."
+msgstr ""
+
+#: ../update-manager:71
+msgid "Show version and exit"
+msgstr "እትሙን አሳይቶ መውጣት"
+
+#: ../update-manager:74
+msgid "Directory that contains the data files"
+msgstr ""
+
+#: ../update-manager:77
+msgid "Check if a new Ubuntu release is available"
+msgstr "መመርመር አዲስ የተለቀቀ የኡቡንቱ እትም እንዳለ"
+
+#: ../update-manager:80
+msgid ""
+"If using the latest supported release, upgrade to the development release"
+msgstr ""
+
+#: ../update-manager:84
+msgid "Upgrade using the latest proposed version of the release upgrader"
+msgstr ""
+
+#. TRANSLATORS: this describes the "focus-on-map" gtk
+#. property that controls if a new window takes the
+#. input focus control when it is displayed for the
+#. first time (see also the gtk devhelp page)
+#: ../update-manager:91
+msgid "Do not focus on map when starting"
+msgstr ""
+
+#: ../update-manager:94
+msgid "Do not check for updates when starting"
+msgstr ""
+
+#: ../update-manager:96
+msgid "Show debug messages"
+msgstr ""
+
+#. Why do we use %s here instead of $strings or {} format placeholders?
+#. It's because we don't want to break existing translations.
+#: ../janitor/plugincore/exceptions.py:43
+#, python-format
+msgid "Unimplemented method: %s"
+msgstr ""
+
+#: ../janitor/plugincore/core/file_cruft.py:41
+msgid "A file on disk"
+msgstr "ፋይል በዲስክ ላይ"
+
+#: ../janitor/plugincore/core/missing_package_cruft.py:40
+msgid "Install missing package."
+msgstr "የጎደሉ ጥቅሎችን መግጠሚያ"
+
+#. 2012-06-08 BAW: i18n string; don't use {} or PEP 292.
+#: ../janitor/plugincore/core/missing_package_cruft.py:50
+#, python-format
+msgid "Package %s should be installed."
+msgstr "ጥቅሉ %s መገጠም አለበት"
+
+#: ../janitor/plugincore/core/package_cruft.py:50
+msgid ".deb package"
+msgstr ".የዴቢያን ጥቅል"
+
+#: ../janitor/plugincore/plugins/langpack_manual_plugin.py:47
+#, python-format
+msgid "%s needs to be marked as manually installed."
+msgstr ""
+
+#: ../janitor/plugincore/plugins/kdelibs4to5_plugin.py:50
+msgid ""
+"When upgrading, if kdelibs4-dev is installed, kdelibs5-dev needs to be "
+"installed. See bugs.launchpad.net, bug #279621 for details."
+msgstr ""
+
+#: ../janitor/plugincore/plugins/dpkg_status_plugin.py:45
+#, python-format
+msgid "%i obsolete entries in the status file"
+msgstr ""
+
+#: ../janitor/plugincore/plugins/dpkg_status_plugin.py:48
+msgid "Obsolete entries in dpkg status"
+msgstr ""
+
+#. pragma: no cover
+#: ../janitor/plugincore/plugins/dpkg_status_plugin.py:51
+msgid "Obsolete dpkg status entries"
+msgstr ""
+
+#: ../janitor/plugincore/plugins/remove_lilo_plugin.py:43
+msgid "Remove lilo since grub is also installed.(See bug #314004 for details.)"
+msgstr ""
+
+#, python-format
+#~ msgid "Server for %s"
+#~ msgstr "ሰርቨር ለ %s"
+
+#~ msgid "Main server"
+#~ msgstr "ዋናው ሰርቨር"
+
+#~ msgid "Custom servers"
+#~ msgstr "ልማዳዊ ሰርቨሮች"
+
+#~ msgid "Could not calculate sources.list entry"
+#~ msgstr "የምንጩን ዝርዝር አገባብ ማስላት አልተቻለም"
+
+#~ msgid ""
+#~ "Unable to locate any package files, perhaps this is not a Ubuntu Disc or "
+#~ "the wrong architecture?"
+#~ msgstr ""
+#~ "የጥቅል ፋይሎችን ማግኘት አልተቻለም ፡ ምናልባት ይህ የኡቡንቱ ዲስክ ላይሆን ይችላል ወይም የተሳሳተ አሰራር ይሆን?"
+
+#~ msgid "Failed to add the CD"
+#~ msgstr "ሲዲ መጨመር አልተቻለም"
+
+#, python-format
+#~ msgid ""
+#~ "There was a error adding the CD, the upgrade will abort. Please report "
+#~ "this as a bug if this is a valid Ubuntu CD.\n"
+#~ "\n"
+#~ "The error message was:\n"
+#~ "'%s'"
+#~ msgstr ""
+#~ "ሲዲው ሲጨመር ስህተት ተፈጥሯል ፡ ማሻሻሉ ይቋረጣል ፡ እባክዎን ይህን ችግር ያመልክቱ ፡ ይህ ትክክለኛ የኡቡንቱ "
+#~ "ሲዲ ከሆነ \n"
+#~ "የስህተቱ መልእክት \n"
+#~ "'%s'"
+
+#~ msgid "Remove package in bad state"
+#~ msgid_plural "Remove packages in bad state"
+#~ msgstr[0] "በመጥፎ ሁኔታ ላይ ያለን ጥቅል ማስወገጃ"
+#~ msgstr[1] "በመጥፎ ሁኔታ ላይ ያሉትን ጥቅሎች ማስወገጃ"
+
+#~ msgid "The server may be overloaded"
+#~ msgstr "ሰርቨሩ ከአቅሙ በላይ ተጭኗል"
+
+#~ msgid "Broken packages"
+#~ msgstr "የተሰበሩ ጥቅሎች"
+
+#~ msgid ""
+#~ "Your system contains broken packages that couldn't be fixed with this "
+#~ "software. Please fix them first using synaptic or apt-get before "
+#~ "proceeding."
+#~ msgstr ""
+#~ "ስርአቱ የያዘው ጥቅል የተሰበረ ነው ፤ በዚህ ሶፍትዌር መጠገን አይቻልም ፤ እባክዎ በመጀመሪያ ሲናፕቲክ ወይንም "
+#~ "አፕት-ጌትን በመጠቀም ስብራቱን ያስተካክሉ"
+
+#~ msgid "This is most likely a transient problem, please try again later."
+#~ msgstr "ይህ ትንሽ ጊዜ የሚቆይ ችግር ነው ፤ እባክዎ  እንደገና ይሞክሩ ትንሽ ቆይተው"
+
+#~ msgid "Error authenticating some packages"
+#~ msgstr "ስህተት በማረጋገጥ ላይ አንዳንድ ጥቅሎችን"
+
+#, python-format
+#~ msgid ""
+#~ "The package '%s' is marked for removal but it is in the removal blacklist."
+#~ msgstr "ጥቅሉ '%s' ምልክት ተድርጎበታል ለማስወገድ ነገር ግን ከሚወገዱት ዝርዝሮች ውስጥ አለ"
+
+#, python-format
+#~ msgid "The essential package '%s' is marked for removal."
+#~ msgstr "በጣም አስፈላጊ ጥቅል '%s' ለማስወገድ ምልክት ተደርጎበታል"
+
+#, python-format
+#~ msgid "Trying to install blacklisted version '%s'"
+#~ msgstr "ለመግጠም በመሞከር ላይ በመጥፎ ዝርዝር እትም ውስጥ ካሉ '%s'"
+
+#, python-format
+#~ msgid "Can't install '%s'"
+#~ msgstr "መግጠም አልተቻለም '%s'"
+
+#~ msgid "Can't guess meta-package"
+#~ msgstr "ስለ-ጥቅል መገመት አልተቻለም"
+
+#~ msgid ""
+#~ "Your system does not contain a ubuntu-desktop, kubuntu-desktop, xubuntu-"
+#~ "desktop or edubuntu-desktop package and it was not possible to detect "
+#~ "which version of Ubuntu you are running.\n"
+#~ " Please install one of the packages above first using synaptic or apt-get "
+#~ "before proceeding."
+#~ msgstr ""
+#~ "ስርአቱ ውስጥ ኡቡንቱ-ዴስክቶፕ ፤ ኩቡንቱ-ዴስክቶፕ ፤ ዙቡንቱ-ዴስክቶፕ ወይም ኤዱቡንቱ-ዴስክቶፕ ጥቅል አልተገኘም "
+#~ "። የትኛውን የኡቡንቱ እትም እንደሚያስኬዱም አልታወቀም ። \n"
+#~ "እባክዎን በመጀመሪያ አንዱን ጥቅል እላይ ከተጠቀሱት መካከል ይግጠሙ ሲናፕቴክን ወይም አፕት-ጌትን በመጠቀም ከመቀጠሎ "
+#~ "በፊት"
+
+#~ msgid "Reading cache"
+#~ msgstr "ካሽን በማንበብ ላይ"
+
+#~ msgid "Upgrading over remote connection not supported"
+#~ msgstr "ማሻሻል በርቀት ግንኙነት የተደገፈ አይደለም"
+
+#~ msgid "Starting additional sshd"
+#~ msgstr "በመጀመር ላይ ተጨማሪ sshd"
+
+#~ msgid "Can not upgrade"
+#~ msgstr "ማሻሻል አልተቻለም"
+
+#, python-format
+#~ msgid "An upgrade from '%s' to '%s' is not supported with this tool."
+#~ msgstr "ማሻሻያ ከ '%s' ወደ '%s' በዚህ እቃ የተደገፈ አይደለም"
+
+#~ msgid "Sandbox setup failed"
+#~ msgstr "መሞከሪያ የአሸዋ ሳጥን ማሰናዳት ወድቋል"
+
+#~ msgid "It was not possible to create the sandbox environment."
+#~ msgstr "መሞከሪያ የአሸዋ ሳጥን አካባቢ ማሰናዳት አልተቻለም"
+
+#~ msgid "Sandbox mode"
+#~ msgstr "መሞከሪያ የአሸዋ ሳጥን ዘዴ"
+
+#~ msgid "Include latest updates from the Internet?"
+#~ msgstr "ከኢንተርኔት ዘመናዊ ማሻሻያዎችን ልጨምር?"
+
+#, python-format
+#~ msgid "disabled on upgrade to %s"
+#~ msgstr "ያልተቻለ ለማሻሻል ወደ %s"
+
+#~ msgid "No valid mirror found"
+#~ msgstr "ዋጋ ያለው mirror አልተገኘም"
+
+#~ msgid "Generate default sources?"
+#~ msgstr "ነባር ምንጮችን ላመንጭ?"
+
+#~ msgid "Repository information invalid"
+#~ msgstr "የማስቀመጫው መረጃ ዋጋ የለውም"
+
+#~ msgid "Third party sources disabled"
+#~ msgstr "የ3ኛ ፓርቲ ምንጮችን አለማስቻል"
+
+#~ msgid "Error during update"
+#~ msgstr "ስህተት በማሻሻል ላይ"
+
+#~ msgid "Calculating the changes"
+#~ msgstr "ለውጦቹን በማስላት ላይ"
+
+#~ msgid "Do you want to start the upgrade?"
+#~ msgstr "ማሻሻሉን አሁን መጀመር ይፈልጋሉ?"
+
+#~ msgid "Upgrade canceled"
+#~ msgstr "ማሻሻሉ ተሰርዟል"
+
+#~ msgid "Could not download the upgrades"
+#~ msgstr "የማሻሻያውን ጭነት ማውረድ አልተቻለም"
+
+#~ msgid "Error during commit"
+#~ msgstr "በመፈጸም ላይ ስህተት"
+
+#~ msgid "Restoring original system state"
+#~ msgstr "መጀመሪያ ወደነበረበት ስርአት መመለሰ"
+
+#~ msgid "Could not install the upgrades"
+#~ msgstr "ማሻሻያውን መግጠም አልተቻለም"
+
+#~ msgid "Remove obsolete packages?"
+#~ msgstr "ላስወግዳቸው አሮጌ ጥቅሎችን?"
+
+#~ msgid "_Keep"
+#~ msgstr "_ማስቀመጥ"
+
+#~ msgid "_Remove"
+#~ msgstr "_ማስወገጃ"
+
+#~ msgid ""
+#~ "A problem occurred during the clean-up. Please see the below message for "
+#~ "more information. "
+#~ msgstr "ማጽዳት በሚካሄድበት ጊዜ ችግር ተፈጥሯል ፤ እባክዎ ከስር ያለውን መረጃ ይመልከቱ በበለጠ ለመረዳት "
+
+#~ msgid "Required depends is not installed"
+#~ msgstr "የሚያስፈልጉት ጥገኞች አልተገጠሙም"
+
+#, python-format
+#~ msgid "The required dependency '%s' is not installed. "
+#~ msgstr "የሚያስፈልጉት ጥገኞች '%s'  አልተገጠሙም "
+
+#~ msgid "Checking package manager"
+#~ msgstr "የጥቅል አስተዳዳሪን በመመርመር ላይ"
+
+#~ msgid "Preparing the upgrade failed"
+#~ msgstr "ማሻሻያውን ማሰናዳት አልተቻለም"
+
+#~ msgid "Updating repository information"
+#~ msgstr "የማስቀመጫውን መረጃ በማሻሻል ላይ"
+
+#~ msgid "Failed to add the cdrom"
+#~ msgstr "ሲዲ ራም መጨመር አልተቻለም"
+
+#~ msgid "Sorry, adding the cdrom was not successful."
+#~ msgstr "አዝናለሁ ሲዲ ራም መጨመሩ አልተሳካም"
+
+#~ msgid "Invalid package information"
+#~ msgstr "ዋጋ የሌለው የጥቅል መረጃ"
+
+#~ msgid "Fetching"
+#~ msgstr "ሄዶ ማምጣት"
+
+#~ msgid "Upgrading"
+#~ msgstr "በማሻሻል ላይ"
+
+#~ msgid "Searching for obsolete software"
+#~ msgstr "ጊዜው ያለፈበትን ሶፍትዌር በመፈለግ ላይ"
+
+#~ msgid "System upgrade is complete."
+#~ msgstr "ስርአቱን ማሻሻል ተጠናቋል"
+
+#~ msgid "The partial upgrade was completed."
+#~ msgstr "በከፊል ማሻሻሉ ተጠናቋል"
+
+#~ msgid "No i686 CPU"
+#~ msgstr "i686 ሲፒዩ አይደለም"
+
+#, python-format
+#~ msgid "Please insert '%s' into the drive '%s'"
+#~ msgstr "እባክዎ ያስገቡ '%s' በመንጂያው ውስጥ '%s'"
+
+#~ msgid "Fetching is complete"
+#~ msgstr "ሄዶ ማምጣት ተጠናቋል"
+
+#, python-format
+#~ msgid "Fetching file %li of %li at %sB/s"
+#~ msgstr "ፋይል ሄዳ በማምጣት ላይ %li ከ %li ወደ %sቢ/ሰ"
+
+#, python-format
+#~ msgid "About %s remaining"
+#~ msgstr "ስለ %s ቀሪው"
+
+#, python-format
+#~ msgid "Fetching file %li of %li"
+#~ msgstr "ፋይል ሄዶ ማምጣት %li ከ %li"
+
+#~ msgid "Applying changes"
+#~ msgstr "ለውጦችን በመፈጸም ላይ"
+
+#, python-format
+#~ msgid "Could not install '%s'"
+#~ msgstr "መግጠም አልተቻለም '%s'"
+
+#~ msgid "A fatal error occurred"
+#~ msgstr "አደገኛ ስህተት ተፈጥሯል"
+
+#~ msgid "Ctrl-c pressed"
+#~ msgstr "ኮንትሮል-ሲ መጫን"
+
+#~ msgid ""
+#~ "This will abort the operation and may leave the system in a broken state. "
+#~ "Are you sure you want to do that?"
+#~ msgstr "ይህ ተግባሩን ያቋርጣል እና ስርአቱን በተሰበረ ሁኔታ ላይ ይተወዋል ፤ በእርግጥ ይህን ማድረግ ይፈልጋሉ?"
+
+#~ msgid "To prevent data loss close all open applications and documents."
+#~ msgstr "የተከፈቱ መተግበሪያዎች እና ሰነዶችን ይዝጉ ዳታዎች እንዳይጠፉ ለመከላከል"
+
+#, python-format
+#~ msgid "Remove (%s)"
+#~ msgstr "ማስወገጃ (%s)"
+
+#, python-format
+#~ msgid "Install (%s)"
+#~ msgstr "መግጠሚያ (%s)"
+
+#, python-format
+#~ msgid "Upgrade (%s)"
+#~ msgstr "ማሻሻያ (%s)"
+
+#~ msgid "Media Change"
+#~ msgstr "የሜዲያ ለውጥ"
+
+#~ msgid "Show Difference >>>"
+#~ msgstr "ልዩነቱን ማሳያ >>>"
+
+#~ msgid "<<< Hide Difference"
+#~ msgstr "<<< ልዩነቱን መደበቂያ"
+
+#~ msgid "Error"
+#~ msgstr "ስህተት"
+
+#~ msgid "&Cancel"
+#~ msgstr "&መሰረዣ"
+
+#~ msgid "&Close"
+#~ msgstr "&መዝጊያ"
+
+#~ msgid "Show Terminal >>>"
+#~ msgstr "ተርሚናልን ማሳያ >>>"
+
+#~ msgid "<<< Hide Terminal"
+#~ msgstr "<<< ተርሚናልን መደበቂያ"
+
+#~ msgid "Information"
+#~ msgstr "መረጃ"
+
+#~ msgid "Details"
+#~ msgstr "ዝርዝሮች"
+
+#, python-format
+#~ msgid "Remove (was auto installed) %s"
+#~ msgstr "ማስወገድ (በራሱ ተገጥሟል) %s"
+
+#, python-format
+#~ msgid "Upgrade %s"
+#~ msgstr "ማሻሻያ %s"
+
+#~ msgid "<b><big>Restart the system to complete the upgrade</big></b>"
+#~ msgstr "<b><big>እንደገና ማስጀመር ያስፈልጋል ማሻሻያውን ለማጠናቀቅ</big></b>"
+
+#~ msgid ""
+#~ "<b><big>Cancel the running upgrade?</big></b>\n"
+#~ "\n"
+#~ "The system could be in an unusable state if you cancel the upgrade. You "
+#~ "are strongly advised to resume the upgrade."
+#~ msgstr ""
+#~ "<b><big>እየተካሄደ ያለውን ማሻሻል ልሰረዝ ?</big></b>\n"
+#~ "\n"
+#~ "ማሻሻሉን ከሰረዙት ስርአቱ ባልተረጋጋ ሁኔታ ላይ ይሆናል ፤ ማሻሻሉን አንዲቀጥሉ አጥብቀን እናሳስባለን"
+
+#~ msgid "Cancel Upgrade?"
+#~ msgstr "ማሻሻሉን ልሰረዝ?"
+
+#, python-format
+#~ msgid "%li day"
+#~ msgid_plural "%li days"
+#~ msgstr[0] "%li ቀን"
+#~ msgstr[1] "%li ቀኖች"
+
+#, python-format
+#~ msgid "%li hour"
+#~ msgid_plural "%li hours"
+#~ msgstr[0] "%li ሰአት"
+#~ msgstr[1] "%li ሰአቶች"
+
+#, python-format
+#~ msgid "%li minute"
+#~ msgid_plural "%li minutes"
+#~ msgstr[0] "%li ደቂቃ"
+#~ msgstr[1] "%li ደቂቆች"
+
+#, python-format
+#~ msgid "%li second"
+#~ msgid_plural "%li seconds"
+#~ msgstr[0] "%li ሴኮንድ"
+#~ msgstr[1] "%li ሴኮንዶች"
+
+#, python-format
+#~ msgid ""
+#~ "This download will take about %s with a 1Mbit DSL connection and about %s "
+#~ "with a 56k modem."
+#~ msgstr ""
+#~ "ይህ ማውረድ የሚወስደው ጊዜ በግምት %s በ 1ሜጋ ቢት በዲኤስኤል ግንኙነት እና በግምት %s በ 56ኬ ሞደም"
+
+#, python-format
+#~ msgid "This download will take about %s with your connection. "
+#~ msgstr "ማውረዱ የሚወስደው ጊዜ በግምት %s በእርስዎ ግንኙነት "
+
+#~ msgid "Preparing to upgrade"
+#~ msgstr "ለማሻሻል በዝግጅት ላይ"
+
+#~ msgid "Getting new software channels"
+#~ msgstr "አዲስ የሶፍትዌር መገናኛዎች ስለ ማግኘት"
+
+#~ msgid "Getting new packages"
+#~ msgstr "አዲስ ጥቅሎችን ስለ ማግኘት"
+
+#~ msgid "Installing the upgrades"
+#~ msgstr "ማሻሻያውን በመግጠም ላይ"
+
+#~ msgid "Cleaning up"
+#~ msgstr "በማጽዳት ላይ"
+
+#, python-format
+#~ msgid "%d new package is going to be installed."
+#~ msgid_plural "%d new packages are going to be installed."
+#~ msgstr[0] "%d አዲሱ ጥቅል ይገጠማል"
+#~ msgstr[1] "%d አዲሶቹ ጥቅሎች ይገጠማሉ"
+
+#, python-format
+#~ msgid "%d package is going to be upgraded."
+#~ msgid_plural "%d packages are going to be upgraded."
+#~ msgstr[0] "%d ጥቅሉ ይሻሻላል"
+#~ msgstr[1] "%d ጥቅሎቹ ይሻሻላሉ"
+
+#, python-format
+#~ msgid ""
+#~ "\n"
+#~ "\n"
+#~ "You have to download a total of %s. "
+#~ msgstr ""
+#~ "\n"
+#~ "\n"
+#~ "በድምሩ ማውረድ ያለብዎት ከ %s. "
+
+#~ msgid ""
+#~ "There are no upgrades available for your system. The upgrade will now be "
+#~ "canceled."
+#~ msgstr "ለእርስዎ ስርአት ማሻሻያ የለም ፡ ማሻሻያው አሁን ይሰረዛል"
+
+#~ msgid "Reboot required"
+#~ msgstr "እንደገና ማስጀመር ያስፈልጋል"
+
+#~ msgid ""
+#~ "The upgrade is finished and a reboot is required. Do you want to do this "
+#~ "now?"
+#~ msgstr "ይህ ማሻሻያ ተፈጽሟል እና እንደገና ማስነሳት ያስፈልጋል ፡ ይህን  አሁን ማድረግ ይፈልጋሉ?"
+
+#~ msgid "Could not run the upgrade tool"
+#~ msgstr "የማሻሻያውን መሳሪያዎች ማስኬድ አልተቻለም"
+
+#~ msgid "Upgrade tool signature"
+#~ msgstr "የማሻሻያዎች መሳሪያዎች ፊርማ"
+
+#~ msgid "Upgrade tool"
+#~ msgstr "ማሻሻያ መሳሪያዎች"
+
+#~ msgid "Failed to fetch"
+#~ msgstr "ሄዶ ማምጣት ወድቋል"
+
+#~ msgid "Fetching the upgrade failed. There may be a network problem. "
+#~ msgstr "ማሻሻያውን ሄዶ ማምጣት ወድቋል ፤ ምናልባት የኔትዎርክ ችግር ሊሆን ይችላል "
+
+#~ msgid "Authentication failed"
+#~ msgstr "ማጽደቂያው ወድቋል"
+
+#~ msgid "Failed to extract"
+#~ msgstr "ለይቶ ማውጣት ወድቋል"
+
+#~ msgid ""
+#~ "Extracting the upgrade failed. There may be a problem with the network or "
+#~ "with the server. "
+#~ msgstr "ማሻሻያውን ለይቶ ማውጣት ወድቋል ፤ ምናልባት የኔትዎርክ ወይም የሰርቨር ችግር ሊሆን ይችላል "
+
+#~ msgid "Verification failed"
+#~ msgstr "ማረጋገጫው ወድቋል"
+
+#~ msgid "Can not run the upgrade"
+#~ msgstr "ማሻሻያውን ማስኬድ አልተቻለም"
+
+#, python-format
+#~ msgid "The error message is '%s'."
+#~ msgstr "የስህተቱ መልእክት ነው '%s'."
+
+#~ msgid "Aborting"
+#~ msgstr "በማቋረጥ ላይ"
+
+#~ msgid "Demoted:\n"
+#~ msgstr "ዝቅ ማድረጊያ :\n"
+
+#~ msgid "To continue please press [ENTER]"
+#~ msgstr "እባክዎን ለመቀጠል ማስገቢያውን ይጫኑ"
+
+#~ msgid "Continue [yN] "
+#~ msgstr "መቀጠል [yN] "
+
+#~ msgid "Details [d]"
+#~ msgstr "ዝርዝሮች [d]"
+
+#~ msgid "y"
+#~ msgstr "አዎ"
+
+#~ msgid "n"
+#~ msgstr "አይ"
+
+#~ msgid "d"
+#~ msgstr "ዝርዝር"
+
+#, python-format
+#~ msgid "No longer supported: %s\n"
+#~ msgstr "የተደገፈ አይደለም : %s\n"
+
+#, python-format
+#~ msgid "Remove: %s\n"
+#~ msgstr "ማስወገጃ : %s\n"
+
+#, python-format
+#~ msgid "Install: %s\n"
+#~ msgstr "መግጠሚያ : %s\n"
+
+#, python-format
+#~ msgid "Upgrade: %s\n"
+#~ msgstr "ማሻሻያ : %s\n"
+
+#~ msgid "Continue [Yn] "
+#~ msgstr "መቀጠል [Yn] "
+
+#~ msgid ""
+#~ "To finish the upgrade, a restart is required.\n"
+#~ "If you select 'y' the system will be restarted."
+#~ msgstr ""
+#~ "ማሻሻሉን ለመጨረስ እንደገና ማስጀመር ያስፈልጋል \n"
+#~ "'ዋይን' ከመረጡ ስርአቱ እንደገና ይጀምራል"
+
+#~ msgid "_Cancel Upgrade"
+#~ msgstr "ማሻሻያውን _መሰረዣ"
+
+#~ msgid "_Resume Upgrade"
+#~ msgstr "ማሻሻያውን _መቀጠያ"
+
+#~ msgid "_Start Upgrade"
+#~ msgstr "ማሻሻያውን _መጀመሪያ"
+
+#~ msgid "_Replace"
+#~ msgstr "_መተኪያ"
+
+#~ msgid "Difference between the files"
+#~ msgstr "በፋይሎች መሀል ያለው ልዩነት"
+
+#~ msgid "_Report Bug"
+#~ msgstr "_ችግሩን ማመልከት"
+
+#~ msgid "<b><big>Start the upgrade?</big></b>"
+#~ msgstr "<b><big>ማሻሻያውን ልጀምር?</big></b>"
+
+#~ msgid ""
+#~ "<b><big>Restart the system to complete the upgrade</big></b>\n"
+#~ "\n"
+#~ "Please save your work before continuing."
+#~ msgstr ""
+#~ "<b><big>ማሻሻሉን ለመጨረስ ስርአቱን እንደገና ማስጀመር ያስፈልጋል</big></b>\n"
+#~ "\n"
+#~ "እባክዎን ከመቀጠልዎት በፊት ስራዎቾን ያስቀምጡ"
+
+#~ msgid "Distribution Upgrade"
+#~ msgstr "የማሻሻያ ስርጭት"
+
+#~ msgid "    "
+#~ msgstr "    "
+
+#~ msgid "Setting new software channels"
+#~ msgstr "አዲስ የሶፍትዌር መገናኛ በማሰናዳት ላይ"
+
+#~ msgid "Restarting the computer"
+#~ msgstr "ኮምፒዩተሩን እንደገና በማስጀመር ላይ"
+
+#~ msgid "Terminal"
+#~ msgstr "ተርሚናል"
+
+#~ msgid "Could not find the release notes"
+#~ msgstr "የመልቀቂያ ማስታወሻዎችን ማግኘት አልተቻለም"
+
+#~ msgid "The server may be overloaded. "
+#~ msgstr "ሰርቨሩ ምናልባት ካቅሙ በላይ ተጭኗል "
+
+#~ msgid "Could not download the release notes"
+#~ msgstr "የመልቀቂያ ማስታወሻዎችን ማውረድ አልተቻለም"
+
+#~ msgid "Please check your internet connection."
+#~ msgstr "እባክዎ የኢንተርኔት ግንኙነትዎን ይመርምሩ"
+
+#~ msgid "Release Notes"
+#~ msgstr "የተለቀቀ ማስታወሻ"
+
+#~ msgid "Downloading additional package files..."
+#~ msgstr "ጭነት ማውረድ ተጨማሪ የጥቅል ፋይሎች"
+
+#, python-format
+#~ msgid "File %s of %s at %sB/s"
+#~ msgstr "ፋይል %s ከ %s በ %sB/s"
+
+#, python-format
+#~ msgid "File %s of %s"
+#~ msgstr "ፋይል %s ከ %s"
+
+#~ msgid "Your Ubuntu release is not supported anymore."
+#~ msgstr "የእርስዎ ኡቡንቱ የተደገፈ አይደለም"
+
+#~ msgid "Upgrade information"
+#~ msgstr "የማሻሻያ መረጃ"
+
+#, python-format
+#~ msgid "The package information was last updated %(days_ago)s day ago."
+#~ msgid_plural ""
+#~ "The package information was last updated %(days_ago)s days ago."
+#~ msgstr[0] "የጥቅል መረጃ መጨረሻ የተሻሻለው %(days_ago)s ቀን በፊት ነው"
+#~ msgstr[1] "የጥቅል መረጃ መጨረሻ የተሻሻለው %(days_ago)s ቀኖች በፊት ነው"
+
+#, python-format
+#~ msgid "The package information was last updated %(hours_ago)s hour ago."
+#~ msgid_plural ""
+#~ "The package information was last updated %(hours_ago)s hours ago."
+#~ msgstr[0] "የጥቅል መረጃ መጨረሻ የተሻሻለው %(hours_ago)s ሰአት በፊት ነው"
+#~ msgstr[1] "የጥቅል መረጃ መጨረሻ የተሻሻለው  %(hours_ago)s ሰአቶች በፊት ነው"
+
+#~ msgid "Software updates may be available for your computer."
+#~ msgstr "የሶፍትዌር ማሻሻያ ለኮምፒዩተሩ ዝግጁ ነው"
+
+#~ msgid "Reading package information"
+#~ msgstr "የጥቅል መረጃን በማንበብ ላይ"
+
+#~ msgid " (New install)"
+#~ msgstr " (አዲስ መግጠም)"
+
+#, python-format
+#~ msgid "(Size: %s)"
+#~ msgstr "(መጠን: %s)"
+
+#, python-format
+#~ msgid "Version %s"
+#~ msgstr "እትም %s"
+
+#~ msgid "Downloading the release upgrade tool"
+#~ msgstr "በማውረድ ላይ የተለቀቀውን የማሻሻያ መሳሪያ"
+
+#, python-format
+#~ msgid "<b>New Ubuntu release '%s' is available</b>"
+#~ msgstr "<b>አዲስ የኡቡንቱ እትም የተለቀቀ '%s' ዝግጁ ነው</b>"
+
+#~ msgid "Cancel"
+#~ msgstr "መሰረዝ"
+
+#~ msgid "Building Updates List"
+#~ msgstr "ማሻሻያ ዝርዝር በመገንባት ላይ"
+
+#, python-format
+#~ msgid "Other updates (%s)"
+#~ msgstr "ሌሎች ማሻሻያዎች (%s)"
+
+#, python-format
+#~ msgid "A error '%s' occurred while checking what system you are using."
+#~ msgstr "ስህተት '%s' ተፈጥሯል ምን አይነት ስርአት እንደሚጠቀሙ በመመርመር ላይ እንዳለ"
+
+#~ msgid "Recommended updates"
+#~ msgstr "የተጠቆሙት ማሻሻያዎች"
+
+#~ msgid "Proposed updates"
+#~ msgstr "የቀረቡ ሃሳቦች ለማሻሻያ"
+
+#, fuzzy
+#~ msgid "<big><b>Starting Software Updater</b></big>"
+#~ msgstr "<big><b>የማሻሻያ አስተዳዳሪን መጀመር</b></big>"
+
+#~ msgid "Chec_k"
+#~ msgstr "መመርመ_ር"
+
+#~ msgid "_Hide this information in the future"
+#~ msgstr "_ይህን መረጃ ለወደፊቱ መደበቅ"
+
+#~ msgid "Co_ntinue"
+#~ msgstr "መቀ_ጠል"
+
+#~ msgid "<big><b>Running on battery</b></big>"
+#~ msgstr "<big><b>በባትሪ ማስኬድ</b></big>"
+
+#~ msgid ""
+#~ "Your system is running on battery. Are you sure you want to continue?"
+#~ msgstr "ሲስተሙ እየሰራ ያለው  በባትሪ ነው ፡ በእርግጥ መቀጠል ይፈልጋሉ?"
+
+#~ msgid "_Upgrade"
+#~ msgstr "_ማሻሻል"
+
+#~ msgid "Show progress of individual files"
+#~ msgstr "ማሳየት የየአንዳንዱን ፋይሎች እድገት"
+
+#, fuzzy
+#~ msgid "Starting Software Updater"
+#~ msgstr "የሶፍትዌር ማሻሻያ"
+
+#~ msgid "U_pgrade"
+#~ msgstr "ማ_ሻሻያ"
+
+#~ msgid ""
+#~ "<b>A new version of Ubuntu is available. Would you like to upgrade?</b>"
+#~ msgstr "<b>አዲስ የኡቡንቱ እትም ዝግጁ ነው ፤ ማሻሻል ይፈልጋሉ?</b>"
+
+#~ msgid "Don't Upgrade"
+#~ msgstr "ማሻሻል አልፈልግም"
+
+#~ msgid "Yes, Upgrade Now"
+#~ msgstr "አዎን አሁን አሻሽል"
+
+#~ msgid "Running partial upgrade"
+#~ msgstr "በከፊል ማሻሻያውን ማስኬድ"
+
+#~ msgid ""
+#~ "For upgrade information, please visit:\n"
+#~ "%(url)s\n"
+#~ msgstr ""
+#~ "ላማሻሻያ መረጃ እባክዎን ይህን ይጎብኙ :\n"
+#~ "%(url)s\n"
+
+#~ msgid "No new release found"
+#~ msgstr "አዲስ የተለቀቀ እትም የለም"
+
+#, c-format
+#~ msgid "New release '%s' available."
+#~ msgstr "አዲሱ እትም '%s' ዝግጁ ነው"
+
+#~ msgid "Ubuntu %(version)s Upgrade Available"
+#~ msgstr "የኡቡንቱ %(version)s ማሻሻያ ዝግጁ ነው"
+
+#~ msgid "%(count)s update has been selected."
+#~ msgid_plural "%(count)s updates have been selected."
+#~ msgstr[0] "%(count)s ማሻሻያ ተመርጧል"
+#~ msgstr[1] "%(count)s ማሻሻያዎች ተመርጠዋል"
+
+#~ msgid "Welcome to Ubuntu"
+#~ msgstr "እንኳን ደህና መጡ ወደ ኡቡንቱ"
+
+#~ msgid "Update Manager"
+#~ msgstr "የማሻሻያ አስተዳዳሪ"
+
+#~ msgid "Starting Update Manager"
+#~ msgstr "የማሻሻያ አስተዳዳሪን በማስጀመር ላይ"
+
+#~ msgid "You are connected via a wireless modem."
+#~ msgstr "የተገናኙት በሽቦ አልባ ሞደም ነው"
+
+#~ msgid ""
+#~ "Fetching and installing the upgrade can take several hours. Once the "
+#~ "download has finished, the process cannot be cancelled."
+#~ msgstr ""
+#~ "ማሻሻሉን ሄዶ ማምጣት እና መግጠም ትንሽ ሰአት ይወስዳል ፤ ማውረዱ ከተጠናቀቀ በኋላ ሂደቱን ማቋረጥ አይቻልም"
+
+#~ msgid "Your system is up-to-date"
+#~ msgstr "ስርአቱ  ዘመናዊ ነው"
+
+#~ msgid "There are no updates to install"
+#~ msgstr "ለመግጠም ማሻሻያ የለም"
+
+#~ msgid "Checking for a new ubuntu release"
+#~ msgstr "አዲስ የተለቀቀ የኡቡንቱ እትም በመፈለግ ላይ"
+
+#~ msgid "0 kB"
+#~ msgstr "0 ኪ/ባ"
+
+#~ msgid "1 kB"
+#~ msgstr "1 ኪ/ባ"
+
+#~ msgid "%.0f kB"
+#~ msgstr "%.0f ኪ/ባ"

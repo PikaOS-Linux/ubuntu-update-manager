@@ -1,0 +1,9 @@
+Tests: nose-tests
+Depends: apt,
+         aptdaemon,
+         pycodestyle,
+         pyflakes3,
+         python3-mock,
+         python3-nose,
+         xvfb,
+         @,

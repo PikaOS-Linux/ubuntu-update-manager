@@ -1,0 +1,2457 @@
+# Ubuntu-ja translation of update-manager.
+# Copyright (C) 2006 THE update-manager'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the update-manager package.
+# Ikuya Awashiro <ikuya@fruitsbasket.info>, 2006.
+# Hiroyuki Ikezoe <ikezoe@good-day.co.jp>, 2005
+#
+#
+#: ../UpdateManager/UpdatesAvailable.py:847
+msgid ""
+msgstr ""
+"Project-Id-Version: update-manager 0.42.4\n"
+"Report-Msgid-Bugs-To: sebastian.heinlein@web.de\n"
+"POT-Creation-Date: 2021-12-07 16:54-0800\n"
+"PO-Revision-Date: 2012-04-12 16:16+0000\n"
+"Last-Translator: Mitsuya Shibata <mty.shibata@gmail.com>\n"
+"Language-Team: Ubuntu Japanese Team <ubuntu-ja-users@freeml.com>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Launchpad-Export-Date: 2012-04-17 13:41+0000\n"
+"X-Generator: Launchpad (build 15099)\n"
+
+#: ../UpdateManager/backend/InstallBackendAptdaemon.py:150
+#, fuzzy
+msgid "Checking for updates…"
+msgstr "アップデートを確認"
+
+#: ../UpdateManager/backend/InstallBackendAptdaemon.py:200
+#: ../UpdateManager/backend/InstallBackendAptdaemon.py:256
+#: ../UpdateManager/backend/InstallBackendAptdaemon.py:287
+#, fuzzy
+msgid "Installing updates…"
+msgstr "アップデートをインストール(_I)"
+
+#: ../UpdateManager/backend/InstallBackendSynaptic.py:39
+msgid "Please wait, this can take some time."
+msgstr "しばらくお待ちください。少し時間がかかります。"
+
+#: ../UpdateManager/backend/InstallBackendSynaptic.py:41
+msgid "Update is complete"
+msgstr "アップデートが完了しました"
+
+#: ../UpdateManager/backend/__init__.py:277
+msgid "Updating snaps"
+msgstr ""
+
+#: ../UpdateManager/backend/__init__.py:304
+#, python-format
+msgid "Refreshing %s snap"
+msgstr ""
+
+#: ../UpdateManager/backend/__init__.py:310
+#, fuzzy, python-format
+msgid "Removing %s snap"
+msgstr "%s を削除"
+
+#: ../UpdateManager/backend/__init__.py:315
+#, fuzzy, python-format
+msgid "Installing %s snap"
+msgstr "インストール %s"
+
+#: ../UpdateManager/backend/__init__.py:324
+#, fuzzy
+msgid "Upgrade only partially completed."
+msgstr "アップグレードが完了しました"
+
+#: ../UpdateManager/backend/__init__.py:325
+#, fuzzy
+msgid ""
+"An error occurred while updating snaps. Please check your network connection."
+msgstr ""
+"アップデート中に問題が発生しました。通常、これはネットワークにおける何らかの"
+"問題です。ネットワーク接続が可能であることをチェックし、あらためて試してくだ"
+"さい。"
+
+#: ../UpdateManager/ChangelogViewer.py:83
+msgid "Open Link in Browser"
+msgstr "リンクをブラウザで開く"
+
+#: ../UpdateManager/ChangelogViewer.py:87
+msgid "Copy Link to Clipboard"
+msgstr "リンクをクリップボードにコピー"
+
+#: ../UpdateManager/Dialogs.py:126
+#, fuzzy
+msgid "Settings…"
+msgstr "設定(_S)..."
+
+#: ../UpdateManager/Dialogs.py:171
+msgid ""
+"<b>Tip:</b> You can use Livepatch to keep your computer more secure between "
+"restarts."
+msgstr ""
+
+#: ../UpdateManager/Dialogs.py:174
+msgid "Settings & Livepatch…"
+msgstr ""
+
+#: ../UpdateManager/Dialogs.py:188
+#, python-format
+msgid "%d Livepatch update applied since the last restart."
+msgid_plural "%d Livepatch updates applied since the last restart."
+msgstr[0] ""
+
+#: ../UpdateManager/Dialogs.py:196
+#, python-format
+msgid "%d Livepatch update failed to apply since the last restart."
+msgid_plural "%d Livepatch updates failed to apply since the last restart."
+msgstr[0] ""
+
+#: ../UpdateManager/Dialogs.py:218 ../UpdateManager/UpdateManager.py:292
+#, fuzzy
+msgid "You stopped the check for updates."
+msgstr "起動時にアップデートをチェックしない"
+
+#: ../UpdateManager/Dialogs.py:220
+msgid "_Check Again"
+msgstr ""
+
+#: ../UpdateManager/Dialogs.py:232
+#, fuzzy
+msgid "No software updates are available."
+msgstr "ソフトウェアアップデートが利用可能です。"
+
+#: ../UpdateManager/Dialogs.py:234 ../UpdateManager/Dialogs.py:245
+msgid "The software on this computer is up to date."
+msgstr "このコンピューターのソフトウェアは最新です。"
+
+#. Translators: these are Ubuntu version names like "Ubuntu 12.04"
+#: ../UpdateManager/Dialogs.py:247
+#, python-format
+msgid "However, %s %s is now available (you have %s)."
+msgstr ""
+
+#: ../UpdateManager/Dialogs.py:252
+#, fuzzy
+msgid "Upgrade…"
+msgstr "アップグレード"
+
+#: ../UpdateManager/Dialogs.py:272
+#, fuzzy
+msgid "New important security and hardware support update."
+msgstr "重要なセキュリティアップデート"
+
+#: ../UpdateManager/Dialogs.py:280
+#, fuzzy
+msgid "_Install…"
+msgstr "インストール"
+
+#. Translators: this is an Ubuntu version name like "Ubuntu 12.04"
+#: ../UpdateManager/Dialogs.py:292
+#, fuzzy, python-format
+msgid "Software updates are no longer provided for %s %s."
+msgstr "ソフトウェアアップデートが利用可能です。"
+
+#. Translators: this is an Ubuntu version name like "Ubuntu 12.04"
+#: ../UpdateManager/Dialogs.py:296
+#, python-format
+msgid "To stay secure, you should upgrade to %s %s."
+msgstr ""
+
+#: ../UpdateManager/Dialogs.py:309
+msgid "Sorry, there are no more upgrades for this system"
+msgstr ""
+
+#. Translators: this is an Ubuntu version name like "Ubuntu 12.04"
+#: ../UpdateManager/Dialogs.py:311
+#, python-format
+msgid ""
+"\n"
+"There will not be any further Ubuntu releases for this system's '%s' "
+"architecture.\n"
+"\n"
+"Updates for Ubuntu %s will continue until 2023-04-26.\n"
+"\n"
+"If you reinstall Ubuntu from ubuntu.com/download, future upgrades will be "
+"available."
+msgstr ""
+
+#: ../UpdateManager/Dialogs.py:325
+#, fuzzy
+msgid "Not all updates can be installed"
+msgstr "<big><b>一部のアップデートだけがインストール可能です</b></big>"
+
+#: ../UpdateManager/Dialogs.py:327
+#, fuzzy
+msgid ""
+"Run a partial upgrade, to install as many updates as possible.\n"
+"\n"
+"    This can be caused by:\n"
+"     * A previous upgrade which didn't complete\n"
+"     * Problems with some of the installed software\n"
+"     * Unofficial software packages not provided by Ubuntu\n"
+"     * Normal changes of a pre-release version of Ubuntu"
+msgstr ""
+"できる限り多くのアップデートをインストールするため、部分アップグレードを実行"
+"します。 \n"
+"\n"
+"以下の原因が考えられます:\n"
+"* 以前のアップグレードが完了していなかった。\n"
+"* インストールしたソフトウェアのどれかに問題がある。\n"
+"* Ubuntu が提供していない、非公式なパッケージを使用している。\n"
+"* 開発版 Ubuntu を利用している（開発版における通常の変更）。"
+
+#: ../UpdateManager/Dialogs.py:335
+msgid "_Partial Upgrade"
+msgstr "部分的なアップグレード(_P)"
+
+#: ../UpdateManager/Dialogs.py:336
+msgid "_Continue"
+msgstr "続行する(_C)"
+
+#: ../UpdateManager/Dialogs.py:372
+msgid "_Try Again"
+msgstr ""
+
+#: ../UpdateManager/Dialogs.py:386
+#, fuzzy
+msgid "The computer needs to restart to finish installing updates."
+msgstr ""
+"アップデートパッケージのインストール完了には再起動が必要です。再起動の前に、"
+"各アプリケーションで作業を保存してください。"
+
+#: ../UpdateManager/Dialogs.py:388
+#, fuzzy
+msgid "Restart _Later"
+msgstr "再起動が必要です"
+
+#: ../UpdateManager/Dialogs.py:390
+msgid "_Restart Now"
+msgstr "すぐに再起動(_R)"
+
+#. Basic GTK+ parameters
+#: ../UpdateManager/UpdateManager.py:96 ../data/update-manager.desktop.in.h:1
+#: ../data/update-manager.appdata.xml.in.h:1
+#, fuzzy
+msgid "Software Updater"
+msgstr "ソフトウェアのアップデート"
+
+#: ../UpdateManager/UpdateManager.py:290
+msgid "Some software couldn’t be checked for updates."
+msgstr ""
+
+#: ../UpdateManager/UpdateManager.py:293
+msgid "Updated software is available from a previous check."
+msgstr ""
+
+#. we assert a clean cache
+#: ../UpdateManager/UpdateManager.py:400
+msgid "Software index is broken"
+msgstr "ソフトウェア・インデックスが壊れています"
+
+#: ../UpdateManager/UpdateManager.py:401
+msgid ""
+"It is impossible to install or remove any software. Please use the package "
+"manager \"Synaptic\" or run \"sudo apt-get install -f\" in a terminal to fix "
+"this issue at first."
+msgstr ""
+"どのソフトウェアもインストールまたは削除することができません。 まずこの問題を"
+"解決するために \"Synapticパッケージマネージャー\" を起動するか、  \"sudo apt-"
+"get install -f\" コマンドをターミナルで実行してください。"
+
+#: ../UpdateManager/UpdateManager.py:408
+msgid "Could not initialize the package information"
+msgstr "パッケージ情報を初期化できませんでした"
+
+#: ../UpdateManager/UpdateManager.py:409
+msgid ""
+"An unresolvable problem occurred while initializing the package "
+"information.\n"
+"\n"
+"Please report this bug against the 'update-manager' package and include the "
+"following error message:\n"
+msgstr ""
+"パッケージ情報の初期化中に解決できない問題が発生しました。\n"
+"\n"
+"'update-manager'パッケージのバグとして、以下のエラーメッセージを含めてレポー"
+"トしてください:\n"
+
+#: ../UpdateManager/UpdateManager.py:437
+msgid "Could not calculate the upgrade"
+msgstr "アップグレード作業を見積もれません"
+
+#: ../UpdateManager/UpdateManager.py:438
+#, fuzzy
+msgid ""
+"An unresolvable problem occurred while calculating the upgrade.\n"
+"\n"
+"Please report this bug against the 'update-manager' package and include the "
+"following error message:\n"
+msgstr ""
+"アップグレードの計算中に解決できない問題が発生しました．\n"
+"\n"
+"'update-manager'パッケージのバグとして、以下のエラーメッセージを含めてレポー"
+"トしてください:"
+
+#: ../UpdateManager/UpdatesAvailable.py:252
+#, fuzzy
+msgid "Install Now"
+msgstr "インストール"
+
+#: ../UpdateManager/UpdatesAvailable.py:285
+#, fuzzy
+msgid "Install or remove"
+msgstr "インストール"
+
+#: ../UpdateManager/UpdatesAvailable.py:319
+msgid "Download"
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:378
+#, fuzzy
+msgid "_Remind Me Later"
+msgstr "次回にたずねる"
+
+#. upload_archive = version_match.group(2).strip()
+#: ../UpdateManager/UpdatesAvailable.py:515
+#, python-format
+msgid "Version %s: \n"
+msgstr "バージョン %s: \n"
+
+#: ../UpdateManager/UpdatesAvailable.py:580
+msgid ""
+"No network connection detected, you can not download changelog information."
+msgstr ""
+"ネットワーク接続が見つからないので、変更履歴情報をダウンロードできません。"
+
+#: ../UpdateManager/UpdatesAvailable.py:590
+msgid "Downloading list of changes..."
+msgstr "変更点のリストを取得中..."
+
+#: ../UpdateManager/UpdatesAvailable.py:634
+msgid "_Deselect All"
+msgstr "すべての選択を外す(_D)"
+
+#: ../UpdateManager/UpdatesAvailable.py:640
+msgid "Select _All"
+msgstr "すべて選択(_A)"
+
+#: ../UpdateManager/UpdatesAvailable.py:736
+#, python-format
+msgid "%s will be downloaded."
+msgstr "%s をダウンロードします。"
+
+#: ../UpdateManager/UpdatesAvailable.py:750
+#, fuzzy
+msgid "The update has already been downloaded."
+msgid_plural "The updates have already been downloaded."
+msgstr[0] ""
+"アップデートは既にダウンロードされていますが、インストールされていません。"
+
+#: ../UpdateManager/UpdatesAvailable.py:756
+msgid "There are no updates to install."
+msgstr "インストールするアップデートはありません。"
+
+#: ../UpdateManager/UpdatesAvailable.py:765
+msgid "Unknown download size."
+msgstr "不明なダウンロードサイズです。"
+
+#: ../UpdateManager/UpdatesAvailable.py:792
+#, python-format
+msgid ""
+"Updated software has been issued since %s %s was released. Do you want to "
+"install it now?"
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:797
+msgid ""
+"Updated software is available for this computer. Do you want to install it "
+"now?"
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:800
+#, fuzzy
+msgid ""
+"The computer also needs to restart to finish installing previous updates."
+msgstr ""
+"アップデートパッケージのインストール完了には再起動が必要です。再起動の前に、"
+"各アプリケーションで作業を保存してください。"
+
+#. print("on_button_install_clicked")
+#: ../UpdateManager/UpdatesAvailable.py:830
+msgid "Not enough free disk space"
+msgstr "ディスクの空き領域が足りません"
+
+#: ../UpdateManager/UpdatesAvailable.py:831
+#, fuzzy, python-format
+msgid ""
+"The upgrade needs a total of %s free space on disk '%s'. Please free at "
+"least an additional %s of disk space on '%s'. %s"
+msgstr ""
+"アップグレードには全体で%sの空き領域がディスク'%s'に必要です。少なくとも%sの"
+"領域を'%s'に確保してください。ゴミ箱を空にしたり、'sudo apt-get clean'を使っ"
+"て過去にインストールした一時パッケージを削除してください。"
+
+#. specific ways to resolve lack of free space
+#: ../UpdateManager/UpdatesAvailable.py:836
+msgid ""
+"Remove temporary packages of former installations using 'sudo apt clean'."
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:838
+msgid ""
+"You can remove old kernels using 'sudo apt autoremove', and you could also "
+"set COMPRESS=xz in /etc/initramfs-tools/initramfs.conf to reduce the size of "
+"your initramfs."
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:843
+#, fuzzy
+msgid ""
+"Empty your trash and remove temporary packages of former installations using "
+"'sudo apt clean'."
+msgstr ""
+"アップグレードには全体で%sの空き領域がディスク'%s'に必要です。少なくとも%sの"
+"領域を'%s'に確保してください。ゴミ箱を空にしたり、'sudo apt-get clean'を使っ"
+"て過去にインストールした一時パッケージを削除してください。"
+
+#: ../UpdateManager/UpdatesAvailable.py:846
+msgid "Reboot to clean up files in /tmp."
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:888
+msgid "Connecting..."
+msgstr "接続しています..."
+
+#: ../UpdateManager/UpdatesAvailable.py:904
+msgid "You may not be able to check for updates or download new updates."
+msgstr ""
+"アップデートの情報をチェックしたり新規アップデートをダウンロードすることがで"
+"きません。"
+
+#: ../UpdateManager/UpdatesAvailable.py:1056
+msgid "Improved hardware support"
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:1060
+#, fuzzy
+msgid "Security updates"
+msgstr "重要なセキュリティアップデート"
+
+#: ../UpdateManager/UpdatesAvailable.py:1064
+msgid "Other updates"
+msgstr "その他のアップデート"
+
+#: ../UpdateManager/UpdatesAvailable.py:1067
+msgid "Updates"
+msgstr "アップデート"
+
+#: ../UpdateManager/UpdatesAvailable.py:1072
+msgid "Unused kernel updates to be removed"
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:1077
+#, fuzzy
+msgid "Duplicate packages to be removed"
+msgstr "%d 個のパッケージが削除されます。"
+
+#: ../UpdateManager/UnitySupport.py:70
+msgid "Install All Available Updates"
+msgstr "利用可能なアップデートをすべてインストールする"
+
+#: ../UpdateManager/Core/MyCache.py:417
+msgid "This update does not come from a source that supports changelogs."
+msgstr ""
+"このアップデートは変更履歴をサポートしているソースからのものではありません。"
+
+#: ../UpdateManager/Core/MyCache.py:423 ../UpdateManager/Core/MyCache.py:458
+msgid ""
+"Failed to download the list of changes. \n"
+"Please check your Internet connection."
+msgstr ""
+"変更内容のダウンロードに失敗しました。\n"
+"インターネットに接続されているか確認してください。"
+
+#: ../UpdateManager/Core/MyCache.py:430
+#, fuzzy, python-format
+msgid ""
+"Changes for %s versions:\n"
+"Installed version: %s\n"
+"Available version: %s\n"
+"\n"
+msgstr ""
+"バージョンの変更点:\n"
+"インストールされているバージョン: %s\n"
+"利用可能なバージョン: %s\n"
+"\n"
+
+#: ../UpdateManager/Core/MyCache.py:444
+#, python-format
+msgid ""
+"The changelog does not contain any relevant changes.\n"
+"\n"
+"Please use http://launchpad.net/ubuntu/+source/%s/%s/+changelog\n"
+"until the changes become available or try again later."
+msgstr ""
+"変更履歴には関連する変更点がありません。\n"
+"\n"
+"変更内容が表示されるようになるまで、http://launchpad.net/ubuntu/+source/%s/"
+"%s/+changelog\n"
+"を利用するか、後ほど再び試してください。"
+
+#: ../UpdateManager/Core/MyCache.py:451
+#, python-format
+msgid ""
+"The list of changes is not available yet.\n"
+"\n"
+"Please use http://launchpad.net/ubuntu/+source/%s/%s/+changelog\n"
+"until the changes become available or try again later."
+msgstr ""
+"変更点のリストはまだ利用できません。\n"
+"\n"
+"変更内容が表示されるようになるまで、http://launchpad.net/ubuntu/+source/%s/"
+"%s/+changelog\n"
+"を利用するか、後ほど再び試してください。"
+
+#. Translators: the %s is a distro name, like 'Ubuntu' and 'base' as in
+#. the core components and packages.
+#: ../UpdateManager/Core/UpdateList.py:175
+#, python-format
+msgid "%s base"
+msgstr ""
+
+#. TRANSLATORS: download size of small updates, e.g. "250 kB"
+#: ../UpdateManager/Core/utils.py:483
+#, python-format
+msgid "%(size).0f kB"
+msgid_plural "%(size).0f kB"
+msgstr[0] "%(size).0f kB"
+
+#. TRANSLATORS: download size of updates, e.g. "2.3 MB"
+#: ../UpdateManager/Core/utils.py:487
+#, python-format
+msgid "%.1f MB"
+msgstr "%.1f MB"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:1
+msgid "updates"
+msgstr "アップデート"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:2
+msgid "Changes"
+msgstr "変更箇所"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:3
+msgid "Description"
+msgstr "詳細"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:4
+#, fuzzy
+msgid "Technical description"
+msgstr "詳細"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:5
+#, fuzzy
+msgid "Details of updates"
+msgstr "アップデートの詳細"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:6
+msgid "The computer will need to restart."
+msgstr ""
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:7
+msgid ""
+"You are connected via roaming and may be charged for the data consumed by "
+"this update."
+msgstr ""
+"ローミングサービス経由で接続しているため、アップデートによる帯域消費によって"
+"課金される可能性があります。"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:8
+msgid ""
+"You may want to wait until you’re not using a mobile broadband connection."
+msgstr ""
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:9
+msgid "It’s safer to connect the computer to AC power before updating."
+msgstr "アップデートを行う前にAC電源をコンピューターに接続しておくと安全です。"
+
+#: ../data/update-manager.desktop.in.h:2
+msgid "Software Updates"
+msgstr "ソフトウェアのアップデート"
+
+#: ../data/update-manager.desktop.in.h:3
+#: ../data/update-manager.appdata.xml.in.h:2
+msgid "Show and install available updates"
+msgstr "利用できるアップデートの閲覧・インストール"
+
+#: ../data/update-manager.appdata.xml.in.h:3
+msgid ""
+"Software Updater checks for updates using apt and let you choose which "
+"updates to install."
+msgstr ""
+
+#: ../update-manager:71
+msgid "Show version and exit"
+msgstr "バージョンを表示して終了"
+
+#: ../update-manager:74
+msgid "Directory that contains the data files"
+msgstr "データファイルの含まれるディレクトリ"
+
+#: ../update-manager:77
+msgid "Check if a new Ubuntu release is available"
+msgstr ""
+"新しい Ubuntu のリリースが\r\n"
+"利用可能かどうかチェックする"
+
+#: ../update-manager:80
+msgid ""
+"If using the latest supported release, upgrade to the development release"
+msgstr ""
+
+#: ../update-manager:84
+msgid "Upgrade using the latest proposed version of the release upgrader"
+msgstr ""
+"リリースアップグレードが提案する最新のバージョンを使ってアップグレードを行う"
+
+#. TRANSLATORS: this describes the "focus-on-map" gtk
+#. property that controls if a new window takes the
+#. input focus control when it is displayed for the
+#. first time (see also the gtk devhelp page)
+#: ../update-manager:91
+msgid "Do not focus on map when starting"
+msgstr "起動時にウィンドウに入力フォーカスを当てない"
+
+#: ../update-manager:94
+msgid "Do not check for updates when starting"
+msgstr "起動時にアップデートをチェックしない"
+
+#: ../update-manager:96
+msgid "Show debug messages"
+msgstr ""
+
+#. Why do we use %s here instead of $strings or {} format placeholders?
+#. It's because we don't want to break existing translations.
+#: ../janitor/plugincore/exceptions.py:43
+#, python-format
+msgid "Unimplemented method: %s"
+msgstr "未実装のメソッド： %s"
+
+#: ../janitor/plugincore/core/file_cruft.py:41
+msgid "A file on disk"
+msgstr "ディスクにあるファイル"
+
+#: ../janitor/plugincore/core/missing_package_cruft.py:40
+msgid "Install missing package."
+msgstr "見つからないパッケージをインストール"
+
+#. 2012-06-08 BAW: i18n string; don't use {} or PEP 292.
+#: ../janitor/plugincore/core/missing_package_cruft.py:50
+#, python-format
+msgid "Package %s should be installed."
+msgstr "パッケージ %s がインストールされているべきです。"
+
+#: ../janitor/plugincore/core/package_cruft.py:50
+msgid ".deb package"
+msgstr ".deb パッケージ"
+
+#: ../janitor/plugincore/plugins/langpack_manual_plugin.py:47
+#, python-format
+msgid "%s needs to be marked as manually installed."
+msgstr "%s は手動インストール済みとマークされている必要があります。"
+
+#: ../janitor/plugincore/plugins/kdelibs4to5_plugin.py:50
+msgid ""
+"When upgrading, if kdelibs4-dev is installed, kdelibs5-dev needs to be "
+"installed. See bugs.launchpad.net, bug #279621 for details."
+msgstr ""
+"アップグレードを行う場合、kdelibs4-dev がインストールされているなら、"
+"kdelibs5-dev をインストールする必要があります。詳細は bugs.launchpad.net の "
+"bug #279621 を参照してください。"
+
+#: ../janitor/plugincore/plugins/dpkg_status_plugin.py:45
+#, python-format
+msgid "%i obsolete entries in the status file"
+msgstr "ステータスファイル内に %i 個の廃止されたエントリがあります。"
+
+#: ../janitor/plugincore/plugins/dpkg_status_plugin.py:48
+msgid "Obsolete entries in dpkg status"
+msgstr "dpkgステータス内に廃止されたエントリがあります"
+
+#. pragma: no cover
+#: ../janitor/plugincore/plugins/dpkg_status_plugin.py:51
+msgid "Obsolete dpkg status entries"
+msgstr "廃止されたdpkgステータスエントリ"
+
+#: ../janitor/plugincore/plugins/remove_lilo_plugin.py:43
+msgid "Remove lilo since grub is also installed.(See bug #314004 for details.)"
+msgstr ""
+"grub もインストールされているので lilo を削除します。(詳細は bug #314004 を参"
+"照してください。)"
+
+#, python-format
+#~ msgid "Server for %s"
+#~ msgstr "%s にあるサーバー"
+
+#~ msgid "Main server"
+#~ msgstr "メインサーバー"
+
+#~ msgid "Custom servers"
+#~ msgstr "カスタムサーバー群"
+
+#~ msgid "Could not calculate sources.list entry"
+#~ msgstr "sources.listのエントリーから作業内容を見積もれません"
+
+#~ msgid ""
+#~ "Unable to locate any package files, perhaps this is not a Ubuntu Disc or "
+#~ "the wrong architecture?"
+#~ msgstr ""
+#~ "パッケージファイルが見つかりません。UbuntuのCDではないか、異なるアーキテク"
+#~ "チャー向けのCDかもしれません。"
+
+#~ msgid "Failed to add the CD"
+#~ msgstr "CDの追加に失敗しました"
+
+#, python-format
+#~ msgid ""
+#~ "There was a error adding the CD, the upgrade will abort. Please report "
+#~ "this as a bug if this is a valid Ubuntu CD.\n"
+#~ "\n"
+#~ "The error message was:\n"
+#~ "'%s'"
+#~ msgstr ""
+#~ "CD をリソースとして追加できなかったため、アップグレードは終了されます。こ"
+#~ "の CD が正規の Ubuntu CD の場合は、このことをバグとして報告してくださ"
+#~ "い。\n"
+#~ "\n"
+#~ "エラーメッセージ：\n"
+#~ "'%s'"
+
+#~ msgid "Remove package in bad state"
+#~ msgid_plural "Remove packages in bad state"
+#~ msgstr[0] "壊れた状態のパッケージを削除する"
+
+#, python-format
+#~ msgid ""
+#~ "The package '%s' is in an inconsistent state and needs to be reinstalled, "
+#~ "but no archive can be found for it. Do you want to remove this package "
+#~ "now to continue?"
+#~ msgid_plural ""
+#~ "The packages '%s' are in an inconsistent state and need to be "
+#~ "reinstalled, but no archives can be found for them. Do you want to remove "
+#~ "these packages now to continue?"
+#~ msgstr[0] ""
+#~ "パッケージ '%s' は 矛盾した状態にあり再インストールが必要ですが、そのため"
+#~ "のアーカイブを見つけることができません。 このパッケージを削除して先に進め"
+#~ "ますか？"
+
+#~ msgid "The server may be overloaded"
+#~ msgstr "サーバーが過負荷状態にある可能性があります"
+
+#~ msgid "Broken packages"
+#~ msgstr "壊れたパッケージ"
+
+#~ msgid ""
+#~ "Your system contains broken packages that couldn't be fixed with this "
+#~ "software. Please fix them first using synaptic or apt-get before "
+#~ "proceeding."
+#~ msgstr ""
+#~ "システムにはこのソフトウェアでは修復できない壊れたパッケージが含まれていま"
+#~ "す。 Synaptic や apt-get を使って最初に修正してください。"
+
+#, python-format
+#~ msgid ""
+#~ "An unresolvable problem occurred while calculating the upgrade:\n"
+#~ "%s\n"
+#~ "\n"
+#~ " This can be caused by:\n"
+#~ " * Upgrading to a pre-release version of Ubuntu\n"
+#~ " * Running the current pre-release version of Ubuntu\n"
+#~ " * Unofficial software packages not provided by Ubuntu\n"
+#~ "\n"
+#~ msgstr ""
+#~ "アップグレードの見積もり中に解決できない問題が発生しました:\n"
+#~ "%s\n"
+#~ "\n"
+#~ " 以下の原因が考えられます:\n"
+#~ " * Ubuntu のリリース前バージョンへアップグレードしようとしている。\n"
+#~ " * Ubuntu のリリース前バージョンを使っている。\n"
+#~ " * Ubuntu が提供していない、非公式なパッケージを利用している。\n"
+#~ "\n"
+
+#~ msgid "This is most likely a transient problem, please try again later."
+#~ msgstr "これは一時的な問題のようです。後でもう一度試してください。"
+
+#~ msgid ""
+#~ "If none of this applies, then please report this bug using the command "
+#~ "'ubuntu-bug update-manager' in a terminal."
+#~ msgstr ""
+#~ "これが適用できない場合は、端末で 'ubuntu-bug update-manager' コマンドを実"
+#~ "行してバグ報告を行ってください。"
+
+#~ msgid "Error authenticating some packages"
+#~ msgstr "パッケージの認証において、エラーがありました"
+
+#~ msgid ""
+#~ "It was not possible to authenticate some packages. This may be a "
+#~ "transient network problem. You may want to try again later. See below for "
+#~ "a list of unauthenticated packages."
+#~ msgstr ""
+#~ "いくつかのパッケージが認証できませんでした。これは一時的なネットワークの問"
+#~ "題かもしれません。あとで再び試してみてください。以下に認証できなかったパッ"
+#~ "ケージのリストが表示されます。"
+
+#, python-format
+#~ msgid ""
+#~ "The package '%s' is marked for removal but it is in the removal blacklist."
+#~ msgstr ""
+#~ "パッケージ'%s'は「削除」と指定されていますが、削除ブラックリストに入ってい"
+#~ "ます。"
+
+#, python-format
+#~ msgid "The essential package '%s' is marked for removal."
+#~ msgstr "必須パッケージ'%s'に「削除」マークがついています。"
+
+#, python-format
+#~ msgid "Trying to install blacklisted version '%s'"
+#~ msgstr ""
+#~ "ブラックリストに入っているバージョン '%s' をインストールしようとしています"
+
+#, python-format
+#~ msgid "Can't install '%s'"
+#~ msgstr "'%s'をインストールすることができません。"
+
+#~ msgid ""
+#~ "It was impossible to install a required package. Please report this as a "
+#~ "bug using 'ubuntu-bug update-manager' in a terminal."
+#~ msgstr ""
+#~ "要求されたパッケージをインストールすることができません。端末で 'ubuntu-"
+#~ "bug update-manager' を実行して、バグ報告を行なってください。"
+
+#~ msgid "Can't guess meta-package"
+#~ msgstr "メタパッケージを推測できません"
+
+#~ msgid ""
+#~ "Your system does not contain a ubuntu-desktop, kubuntu-desktop, xubuntu-"
+#~ "desktop or edubuntu-desktop package and it was not possible to detect "
+#~ "which version of Ubuntu you are running.\n"
+#~ " Please install one of the packages above first using synaptic or apt-get "
+#~ "before proceeding."
+#~ msgstr ""
+#~ "システムに ubuntu-desktop, kubuntu-desktop, xubuntu-desktop, もしくは"
+#~ "edubuntu-desktop パッケージが含まれていません。このため、実行している "
+#~ "ubuntu のバージョンが検出できません。 \n"
+#~ " 続ける前に、Synaptic や apt-get を使用して、まずは上記のパッケージのうち"
+#~ "のいずれかをインストールしてください。"
+
+#~ msgid "Reading cache"
+#~ msgstr "キャッシュを読み込み中"
+
+#~ msgid "Unable to get exclusive lock"
+#~ msgstr "排他的なロックができません"
+
+#~ msgid ""
+#~ "This usually means that another package management application (like apt-"
+#~ "get or aptitude) already running. Please close that application first."
+#~ msgstr ""
+#~ "パッケージマネージャーは一度にひとつしか起動できません。apt-getやaptitude"
+#~ "などのような、他のパッケージマネージャーを終了してください。"
+
+#~ msgid "Upgrading over remote connection not supported"
+#~ msgstr "リモート接続経由でのアップグレードはサポートされていません"
+
+#~ msgid ""
+#~ "You are running the upgrade over a remote ssh connection with a frontend "
+#~ "that does not support this. Please try a text mode upgrade with 'do-"
+#~ "release-upgrade'.\n"
+#~ "\n"
+#~ "The upgrade will abort now. Please try without ssh."
+#~ msgstr ""
+#~ "このアップグレード処理は、リモートSSH経由で実行されたフロントエンドGUIから"
+#~ "実行されているようです。\n"
+#~ "このツールはそうした処理をサポートしていません。\n"
+#~ "\n"
+#~ "もしリモートからのアップグレードを望むなら、テキストモードでのアップグレー"
+#~ "ド 'do-release-upgrade' を試してみてください。\n"
+#~ "\n"
+#~ "アップグレードは中断されます。SSHを経由しない起動方法で実行してください。"
+
+#~ msgid "Continue running under SSH?"
+#~ msgstr "SSH経由で実行していますが、続けますか？"
+
+#, python-format
+#~ msgid ""
+#~ "This session appears to be running under ssh. It is not recommended to "
+#~ "perform a upgrade over ssh currently because in case of failure it is "
+#~ "harder to recover.\n"
+#~ "\n"
+#~ "If you continue, an additional ssh daemon will be started at port '%s'.\n"
+#~ "Do you want to continue?"
+#~ msgstr ""
+#~ "このセッションはSSH上で実行されているようです。アップグレードをSSH越しに行"
+#~ "うことは推奨されません。アップグレードに失敗した時の復元が困難になるからで"
+#~ "す。\n"
+#~ "\n"
+#~ "続行する場合、追加のSSHデーモンをポート '%s' で起動します。\n"
+#~ "本当に作業を進めてよろしいですか？"
+
+#~ msgid "Starting additional sshd"
+#~ msgstr "予備のsshdを開始します"
+
+#, python-format
+#~ msgid ""
+#~ "To make recovery in case of failure easier, an additional sshd will be "
+#~ "started on port '%s'. If anything goes wrong with the running ssh you can "
+#~ "still connect to the additional one.\n"
+#~ msgstr ""
+#~ "障害が起こったときに復旧しやすくするため、ポート '%s' でもう一つの sshd を"
+#~ "開始します。現在実行中のsshにおかしなことが起きても、もう一方のポートに接"
+#~ "続することができます。\n"
+
+#, python-format
+#~ msgid ""
+#~ "If you run a firewall, you may need to temporarily open this port. As "
+#~ "this is potentially dangerous it's not done automatically. You can open "
+#~ "the port with e.g.:\n"
+#~ "'%s'"
+#~ msgstr ""
+#~ "ファイアウォールを実行している場合、このポートを一時的に開く必要がありま"
+#~ "す。この操作は、潜在的な危険があるため自動的には行われません。以下の例のよ"
+#~ "うにしてポートを開けます:\n"
+#~ "'%s'"
+
+#~ msgid "Can not upgrade"
+#~ msgstr "アップグレードできません"
+
+#, python-format
+#~ msgid "An upgrade from '%s' to '%s' is not supported with this tool."
+#~ msgstr ""
+#~ "'%s' から '%s' へのアップグレードは、このツールではサポートされていませ"
+#~ "ん。"
+
+#~ msgid "Sandbox setup failed"
+#~ msgstr "サンドボックス環境のセットアップに失敗しました"
+
+#~ msgid "It was not possible to create the sandbox environment."
+#~ msgstr "サンドボックス環境を構築することができませんでした。"
+
+#~ msgid "Sandbox mode"
+#~ msgstr "サンドボックスモード"
+
+#, python-format
+#~ msgid ""
+#~ "This upgrade is running in sandbox (test) mode. All changes are written "
+#~ "to '%s' and will be lost on the next reboot.\n"
+#~ "\n"
+#~ "*No* changes written to a system directory from now until the next reboot "
+#~ "are permanent."
+#~ msgstr ""
+#~ "このアップグレードはサンドボックス(テスト)モードで実行中です。すべての変更"
+#~ "は '%s' に書きこまれ、次に再起動したときに破棄されます。\n"
+#~ "\n"
+#~ "現時点から次に再起動するまでの間にシステムディレクトリに書き込まれた変更"
+#~ "は、破棄されます。"
+
+#~ msgid ""
+#~ "Your python install is corrupted. Please fix the '/usr/bin/python' "
+#~ "symlink."
+#~ msgstr ""
+#~ "インストールされたPythonが破損しています。シンボリックリンク'/usr/bin/"
+#~ "python'を修正してください。"
+
+#~ msgid "Package 'debsig-verify' is installed"
+#~ msgstr "'debsig-verify'パッケージがインストールされています"
+
+#~ msgid ""
+#~ "The upgrade can not continue with that package installed.\n"
+#~ "Please remove it with synaptic or 'apt-get remove debsig-verify' first "
+#~ "and run the upgrade again."
+#~ msgstr ""
+#~ "'debsig-verify'パッケージがインストールされていると、アップグレードを継続"
+#~ "することができません。\n"
+#~ "Synapticパッケージマネージャーか 'apt-get remove debsig-verify' で削除した"
+#~ "後で、再度アップグレードを実行してください。"
+
+#, python-format
+#~ msgid "Can not write to '%s'"
+#~ msgstr "'%s' に書き込みできません"
+
+#, python-format
+#~ msgid ""
+#~ "Its not possible to write to the system directory '%s' on your system. "
+#~ "The upgrade can not continue.\n"
+#~ "Please make sure that the system directory is writable."
+#~ msgstr ""
+#~ "システムディレクトリ '%s' に書き込みできないため、アップグレードを続行でき"
+#~ "ません。\n"
+#~ "システムディレクトリが書き込み可能かどうか確認してください。"
+
+#~ msgid "Include latest updates from the Internet?"
+#~ msgstr "インターネットからの最新のアップデート情報を取得しますか？"
+
+#~ msgid ""
+#~ "The upgrade system can use the internet to automatically download the "
+#~ "latest updates and install them during the upgrade.  If you have a "
+#~ "network connection this is highly recommended.\n"
+#~ "\n"
+#~ "The upgrade will take longer, but when it is complete, your system will "
+#~ "be fully up to date.  You can choose not to do this, but you should "
+#~ "install the latest updates soon after upgrading.\n"
+#~ "If you answer 'no' here, the network is not used at all."
+#~ msgstr ""
+#~ "アップグレードシステムは、ネットワークを利用したシステムのアップグレードに"
+#~ "対応しています。最新のパッケージを自動的にダウンロードし、アップグレード時"
+#~ "に併せてインストールできるため、ネットワークへの接続が可能なら、この方法を"
+#~ "使うことを強く推奨します。\n"
+#~ "\n"
+#~ "アップグレードには時間がかかりますが、ネットワークを利用すれば、完了時に最"
+#~ "新のアップデータが導入された状態になります。ネットワークを利用しないアップ"
+#~ "グレードも可能ですが、この場合はアップグレードが完了した後で、さらにアップ"
+#~ "データをインストールする必要があります。\n"
+#~ "ここで「いいえ」を選択すると、アップグレードにネットワークを利用しません。"
+
+#, python-format
+#~ msgid "disabled on upgrade to %s"
+#~ msgstr "%sへのアップグレード時に無効化されました"
+
+#~ msgid "No valid mirror found"
+#~ msgstr "利用可能なミラーが見つかりません"
+
+#, python-format
+#~ msgid ""
+#~ "While scanning your repository information no mirror entry for the "
+#~ "upgrade was found. This can happen if you run a internal mirror or if the "
+#~ "mirror information is out of date.\n"
+#~ "\n"
+#~ "Do you want to rewrite your 'sources.list' file anyway? If you choose "
+#~ "'Yes' here it will update all '%s' to '%s' entries.\n"
+#~ "If you select 'No' the upgrade will cancel."
+#~ msgstr ""
+#~ "システムに設定されたリポジトリ情報を確認しましたが、アップグレードに利用可"
+#~ "能なミラーサーバーのエントリが見つかりませんでした。プライベートなミラー"
+#~ "サーバーを利用していたり、ミラー情報が古い可能性があります。\n"
+#~ "\n"
+#~ "ミラーサーバーの設定ファイル 'sources.list' をとにかく編集しますか？　「は"
+#~ "い」を選択すると、'%s' エントリは '%s' に置き換わります。\n"
+#~ "「いいえ」を選択すると、アップグレードをキャンセルします。"
+
+#~ msgid "Generate default sources?"
+#~ msgstr "標準のリポジトリ設定ファイルを生成しますか？"
+
+#, python-format
+#~ msgid ""
+#~ "After scanning your 'sources.list' no valid entry for '%s' was found.\n"
+#~ "\n"
+#~ "Should default entries for '%s' be added? If you select 'No', the upgrade "
+#~ "will cancel."
+#~ msgstr ""
+#~ "システムの 'sources.list' を確認しましたが、有効な '%s' のためのエントリが"
+#~ "見つかりません。\n"
+#~ "\n"
+#~ "'%s' のためのデフォルト設定エントリを追加しますか？　「いいえ」を選択する"
+#~ "と、アップグレードはキャンセルされます。"
+
+#~ msgid "Repository information invalid"
+#~ msgstr "リポジトリ情報が無効です"
+
+#~ msgid ""
+#~ "Upgrading the repository information resulted in a invalid file so a bug "
+#~ "reporting process is being started."
+#~ msgstr ""
+#~ "リポジトリの情報を更新した際にファイルが破損しました。それによりバグ報告の"
+#~ "プロセスが開始されました。"
+
+#~ msgid "Third party sources disabled"
+#~ msgstr "サードパーティが提供するリポジトリを使わない設定にしました"
+
+#~ msgid ""
+#~ "Some third party entries in your sources.list were disabled. You can re-"
+#~ "enable them after the upgrade with the 'software-properties' tool or your "
+#~ "package manager."
+#~ msgstr ""
+#~ "sources.list にあるサードパーティが提供するリポジトリを使わない設定にしま"
+#~ "した。アップグレード完了後、'ソフトウェアソース' ツールもしくはパッケージ"
+#~ "マネージャーを使って再び利用可能な設定にすることができます。"
+
+#~ msgid "Package in inconsistent state"
+#~ msgid_plural "Packages in inconsistent state"
+#~ msgstr[0] "矛盾した状態のパッケージ"
+
+#, python-format
+#~ msgid ""
+#~ "The package '%s' is in an inconsistent state and needs to be reinstalled, "
+#~ "but no archive can be found for it. Please reinstall the package manually "
+#~ "or remove it from the system."
+#~ msgid_plural ""
+#~ "The packages '%s' are in an inconsistent state and need to be "
+#~ "reinstalled, but no archive can be found for them. Please reinstall the "
+#~ "packages manually or remove them from the system."
+#~ msgstr[0] ""
+#~ "パッケージ '%s' は 矛盾した状態にあり再インストールが必要ですが、そのため"
+#~ "のアーカイブを見つけることができません。パッケージを手動で再インストールす"
+#~ "るか、システムからパッケージを削除してください。"
+
+#~ msgid "Error during update"
+#~ msgstr "アップデート中にエラーが発生しました"
+
+#, python-format
+#~ msgid ""
+#~ "The upgrade has aborted. The upgrade needs a total of %s free space on "
+#~ "disk '%s'. Please free at least an additional %s of disk space on '%s'. "
+#~ "Empty your trash and remove temporary packages of former installations "
+#~ "using 'sudo apt-get clean'."
+#~ msgstr ""
+#~ "アップグレードを中断しました。アップグレードを行うには、 %s の空き容量が"
+#~ "ディスク %s に必要です。少なくともあと %s の空き容量をディスク %s に作って"
+#~ "ください。ゴミ箱を空にしたり、'sudo apt-get clean' を実行して今までにイン"
+#~ "ストールした一時パッケージを削除してください。"
+
+#~ msgid "Calculating the changes"
+#~ msgstr "変更点を確認中"
+
+#~ msgid "Do you want to start the upgrade?"
+#~ msgstr "アップグレードを開始しますか？"
+
+#~ msgid "Upgrade canceled"
+#~ msgstr "アップグレードをキャンセルしました"
+
+#~ msgid ""
+#~ "The upgrade will cancel now and the original system state will be "
+#~ "restored. You can resume the upgrade at a later time."
+#~ msgstr ""
+#~ "アップグレードはすぐにキャンセルされ、システムは元の状態に戻ります。後で"
+#~ "アップグレードをやり直すことができます。"
+
+#~ msgid "Could not download the upgrades"
+#~ msgstr "アップグレードに必要なデータをダウンロードできません"
+
+#~ msgid ""
+#~ "The upgrade has aborted. Please check your Internet connection or "
+#~ "installation media and try again. All files downloaded so far have been "
+#~ "kept."
+#~ msgstr ""
+#~ "アップグレードを中断しました。インターネット接続またはインストールメディア"
+#~ "を確認して再度試してください。これまでにダウンロードしたすべてのファイルは"
+#~ "保存されています。"
+
+#~ msgid "Error during commit"
+#~ msgstr "反映中にエラーが発生しました"
+
+#~ msgid "Restoring original system state"
+#~ msgstr "システムを元に戻しています"
+
+#~ msgid "Could not install the upgrades"
+#~ msgstr "アップグレードをインストールできません"
+
+#~ msgid ""
+#~ "The upgrade has aborted. Your system could be in an unusable state. A "
+#~ "recovery will run now (dpkg --configure -a)."
+#~ msgstr ""
+#~ "アップグレードを中断しました。システムが不安定な状態の可能性があります。今"
+#~ "からリカバリーを実行します。(dpkg --configure -a)"
+
+#, python-format
+#~ msgid ""
+#~ "\n"
+#~ "\n"
+#~ "Please report this bug in a browser at http://bugs.launchpad.net/ubuntu/"
+#~ "+source/update-manager/+filebug and attach the files in /var/log/dist-"
+#~ "upgrade/ to the bug report.\n"
+#~ "%s"
+#~ msgstr ""
+#~ "\n"
+#~ "\n"
+#~ "ブラウザーで http://bugs.launchpad.net/ubuntu/+source/update-manager/"
+#~ "+filebug を開いて、このバグを報告してください。バグ報告には /var/log/dist-"
+#~ "upgrade/ にあるファイルを添付してください。\n"
+#~ "%s"
+
+#~ msgid ""
+#~ "The upgrade has aborted. Please check your Internet connection or "
+#~ "installation media and try again. "
+#~ msgstr ""
+#~ "アップグレードを中断しました。インターネット接続またはインストールメディア"
+#~ "を確認して、もう一度実行してください。 "
+
+#~ msgid "Remove obsolete packages?"
+#~ msgstr ""
+#~ "サポートが中止された（あるいはリポジトリに存在しない）パッケージを削除しま"
+#~ "すか？"
+
+#~ msgid "_Keep"
+#~ msgstr "そのまま(_K)"
+
+#~ msgid "_Remove"
+#~ msgstr "削除(_R)"
+
+#~ msgid ""
+#~ "A problem occurred during the clean-up. Please see the below message for "
+#~ "more information. "
+#~ msgstr ""
+#~ "クリーンアップ中に問題が発生しました。詳細情報は下記のメッセージを参照して"
+#~ "ください。 "
+
+#~ msgid "Required depends is not installed"
+#~ msgstr "依存するパッケージがインストールされていません"
+
+#, python-format
+#~ msgid "The required dependency '%s' is not installed. "
+#~ msgstr "依存するパッケージ '%s' がインストールされていません。 "
+
+#~ msgid "Checking package manager"
+#~ msgstr "パッケージマネージャーをチェック中です"
+
+#~ msgid "Preparing the upgrade failed"
+#~ msgstr "アップグレードの準備に失敗しました"
+
+#~ msgid ""
+#~ "Preparing the system for the upgrade failed so a bug reporting process is "
+#~ "being started."
+#~ msgstr ""
+#~ "アップグレードのための準備に失敗しました。それによりバグ報告のプロセスが開"
+#~ "始されました。"
+
+#~ msgid "Getting upgrade prerequisites failed"
+#~ msgstr "アップグレードの事前作業に失敗しました"
+
+#~ msgid ""
+#~ "The system was unable to get the prerequisites for the upgrade. The "
+#~ "upgrade will abort now and restore the original system state.\n"
+#~ "\n"
+#~ "Additionally, a bug reporting process is being started."
+#~ msgstr ""
+#~ "アップグレードに必要なものを取得できませんでした。アップグレードはすぐに中"
+#~ "止され、システムは以前の状態に戻されます。\n"
+#~ "\n"
+#~ "同時にバグ報告のプロセスが開始されました。"
+
+#~ msgid "Updating repository information"
+#~ msgstr "リポジトリ情報のアップデート"
+
+#~ msgid "Failed to add the cdrom"
+#~ msgstr "cdromの追加に失敗しました"
+
+#~ msgid "Sorry, adding the cdrom was not successful."
+#~ msgstr "cdrom の追加に失敗しました。"
+
+#~ msgid "Invalid package information"
+#~ msgstr "利用できないパッケージ情報です"
+
+#~ msgid "Fetching"
+#~ msgstr "取得中"
+
+#~ msgid "Upgrading"
+#~ msgstr "アップグレード中です"
+
+#~ msgid ""
+#~ "The upgrade has completed but there were errors during the upgrade "
+#~ "process."
+#~ msgstr ""
+#~ "アップグレードは完了しましたが、アップグレード中にいくつかのエラーが発生し"
+#~ "ました。"
+
+#~ msgid "Searching for obsolete software"
+#~ msgstr "古いソフトウェアを検索しています"
+
+#~ msgid "System upgrade is complete."
+#~ msgstr "システムのアップグレードが完了しました。"
+
+#~ msgid "The partial upgrade was completed."
+#~ msgstr "部分的なアップグレードが完了しました。"
+
+#~ msgid "evms in use"
+#~ msgstr "evms は使用中です"
+
+#~ msgid ""
+#~ "Your system uses the 'evms' volume manager in /proc/mounts. The 'evms' "
+#~ "software is no longer supported, please switch it off and run the upgrade "
+#~ "again when this is done."
+#~ msgstr ""
+#~ "システムは/proc/mountsでボリュームマネジャとして 'evms' を使っていま"
+#~ "す。'evms' ソフトウェアはもうサポートされていません。オフにしてからアップ"
+#~ "グレードしてください。"
+
+#~ msgid ""
+#~ "Your graphics hardware may not be fully supported in Ubuntu 12.04 LTS."
+#~ msgstr ""
+#~ "現在使用中のグラフィックハードウェアのサポートは Ubuntu 12.04 LTS では不完"
+#~ "全な可能性があります。"
+
+#~ msgid ""
+#~ "The support in Ubuntu 12.04 LTS for your Intel graphics hardware is "
+#~ "limited and you may encounter problems after the upgrade. For more "
+#~ "information see https://wiki.ubuntu.com/X/Bugs/"
+#~ "UpdateManagerWarningForI8xx Do you want to continue with the upgrade?"
+#~ msgstr ""
+#~ "現在使用中の Intel 製グラフィックハードウェアは Ubuntu 12.04 LTS では制限"
+#~ "付きのサポートとなっているため、アップグレード後に不具合が発生する可能性が"
+#~ "あります。詳しくは https://wiki.ubuntu.com/X/Bugs/"
+#~ "UpdateManagerWarningForI8xx をご覧ください。アップグレードを続行しますか?"
+
+#~ msgid ""
+#~ "Upgrading may reduce desktop effects, and performance in games and other "
+#~ "graphically intensive programs."
+#~ msgstr ""
+#~ "アップグレードによって、デスクトップ効果（3Dデスクトップ）やゲーム、グラ"
+#~ "フィックに強く依存するその他のプログラムなどのパフォーマンスが低下するかも"
+#~ "しれません。"
+
+#~ msgid ""
+#~ "This computer is currently using the NVIDIA 'nvidia' graphics driver. No "
+#~ "version of this driver is available that works with your video card in "
+#~ "Ubuntu 10.04 LTS.\n"
+#~ "\n"
+#~ "Do you want to continue?"
+#~ msgstr ""
+#~ "現在、このコンピューターはNVIDIA 'nvidia' グラフィックドライバーを利用して"
+#~ "います。Ubuntu 10.04 LTS では、このハードウェアで動作可能なドライバーの"
+#~ "バージョンはありません。\n"
+#~ "\n"
+#~ "作業を続けますか？"
+
+#~ msgid ""
+#~ "This computer is currently using the AMD 'fglrx' graphics driver. No "
+#~ "version of this driver is available that works with your hardware in "
+#~ "Ubuntu 10.04 LTS.\n"
+#~ "\n"
+#~ "Do you want to continue?"
+#~ msgstr ""
+#~ "現在、このコンピューターはAMD 'fglrx' グラフィックドライバーを利用していま"
+#~ "す。Ubuntu 10.04 LTS では、このハードウェアで動作可能なドライバーのバー"
+#~ "ジョンはありません。\n"
+#~ "\n"
+#~ "作業を続けますか？"
+
+#~ msgid "No i686 CPU"
+#~ msgstr "i686 CPU ではありません"
+
+#~ msgid ""
+#~ "Your system uses an i586 CPU or a CPU that does not have the 'cmov' "
+#~ "extension. All packages were built with optimizations requiring i686 as "
+#~ "the minimal architecture. It is not possible to upgrade your system to a "
+#~ "new Ubuntu release with this hardware."
+#~ msgstr ""
+#~ "あなたのコンピューターは、i586 CPU または 'cmov' 拡張命令に対応していない "
+#~ "CPU を使用しています。すべてのパッケージは、最低限のアーキテクチャとして "
+#~ "i686 を必要とする最適化でビルドされています。このハードウェアでは、新しい"
+#~ "バージョンの Ubuntu にアップグレードすることができません。"
+
+#~ msgid "No ARMv6 CPU"
+#~ msgstr "ARMv6 準拠ではない CPU です"
+
+#~ msgid ""
+#~ "Your system uses an ARM CPU that is older than the ARMv6 architecture. "
+#~ "All packages in karmic were built with optimizations requiring ARMv6 as "
+#~ "the minimal architecture. It is not possible to upgrade your system to a "
+#~ "new Ubuntu release with this hardware."
+#~ msgstr ""
+#~ "このシステムでは ARM CPU が使われていますが、ARMv6 アーキテクチャより古い"
+#~ "もののようです。karmic の全てのパッケージは、ARMv6 アーキテクチャへの対応"
+#~ "が必須な最適化オプションを利用してビルドされています。このハードウェアでは"
+#~ "新しい Ubuntu のリリースにアップグレードできません。"
+
+#~ msgid "No init available"
+#~ msgstr "initデーモンが見つかりません"
+
+#~ msgid ""
+#~ "Your system appears to be a virtualised environment without an init "
+#~ "daemon, e.g. Linux-VServer. Ubuntu 10.04 LTS cannot function within this "
+#~ "type of environment, requiring an update to your virtual machine "
+#~ "configuration first.\n"
+#~ "\n"
+#~ "Are you sure you want to continue?"
+#~ msgstr ""
+#~ "このシステムは、initデーモンの関与なしで稼働している仮想環境のようです"
+#~ "（例：Linux-VServer）。 Ubuntu 10.04 LTS ではこのタイプの環境を稼働させる"
+#~ "ことができません。アップグレードの前に、仮想マシン設定を設定しなおす必要が"
+#~ "あります。\n"
+#~ "\n"
+#~ "本当に作業を進めてよろしいですか？"
+
+#~ msgid "Sandbox upgrade using aufs"
+#~ msgstr "aufsを使用したサンドボックスアップグレード"
+
+#~ msgid "Use the given path to search for a cdrom with upgradable packages"
+#~ msgstr "アップグレードパッケージが含まれたCD-ROMへのパスを指定してください"
+
+#~ msgid ""
+#~ "Use frontend. Currently available: \n"
+#~ "DistUpgradeViewText, DistUpgradeViewGtk, DistUpgradeViewKDE"
+#~ msgstr ""
+#~ "フロントエンドを使用してください。現在利用可能なもの: \n"
+#~ "DistUpgradeViewText, DistUpgradeViewGtk, DistUpgradeViewKDE"
+
+#~ msgid "*DEPRECATED* this option will be ignored"
+#~ msgstr "*DEPRECATED* このオプションは無視されます"
+
+#~ msgid "Perform a partial upgrade only (no sources.list rewriting)"
+#~ msgstr "部分アップグレードだけを実行します（sources.listを書き換えません）"
+
+#~ msgid "Disable GNU screen support"
+#~ msgstr "GNU screen のサポートを無効にする"
+
+#~ msgid "Set datadir"
+#~ msgstr "datadirを設定"
+
+#, python-format
+#~ msgid "Please insert '%s' into the drive '%s'"
+#~ msgstr "メディア '%s' をドライブ '%s' に挿入してください"
+
+#~ msgid "Fetching is complete"
+#~ msgstr "取得が完了しました"
+
+#, python-format
+#~ msgid "Fetching file %li of %li at %sB/s"
+#~ msgstr "%li / %li を取得中（%s B/s）"
+
+#, python-format
+#~ msgid "About %s remaining"
+#~ msgstr "残り時間 約%s"
+
+#, python-format
+#~ msgid "Fetching file %li of %li"
+#~ msgstr "%li / %li を取得中です"
+
+#~ msgid "Applying changes"
+#~ msgstr "変更を適用しています"
+
+#~ msgid "dependency problems - leaving unconfigured"
+#~ msgstr "依存関係の問題 - 設定を見送ります"
+
+#, python-format
+#~ msgid "Could not install '%s'"
+#~ msgstr "'%s' がインストールできません"
+
+#, python-format
+#~ msgid ""
+#~ "The upgrade will continue but the '%s' package may not be in a working "
+#~ "state. Please consider submitting a bug report about it."
+#~ msgstr ""
+#~ "アップグレードを続けますが、'%s' パッケージが動かない状態にある可能性があ"
+#~ "ります。この件に関してバグレポートを送信することを検討してください。"
+
+#, python-format
+#~ msgid ""
+#~ "Replace the customized configuration file\n"
+#~ "'%s'?"
+#~ msgstr ""
+#~ "以下のカスタマイズ済みの設定ファイルを置き換えますか？\n"
+#~ "'%s'"
+
+#~ msgid ""
+#~ "You will lose any changes you have made to this configuration file if you "
+#~ "choose to replace it with a newer version."
+#~ msgstr ""
+#~ "より新しいバージョンと入れ換えた場合、この構成ファイルへの変更内容は失われ"
+#~ "ます。"
+
+#~ msgid "The 'diff' command was not found"
+#~ msgstr "'diff' コマンドが見つかりません"
+
+#~ msgid "A fatal error occurred"
+#~ msgstr "致命的なエラーが起こりました"
+
+#~ msgid ""
+#~ "Please report this as a bug (if you haven't already) and include the "
+#~ "files /var/log/dist-upgrade/main.log and /var/log/dist-upgrade/apt.log in "
+#~ "your report. The upgrade has aborted.\n"
+#~ "Your original sources.list was saved in /etc/apt/sources.list.distUpgrade."
+#~ msgstr ""
+#~ "（まだ報告されていなければ）この現象をバグとして報告してください。報告に"
+#~ "は /var/log/dist-upgrade/main.log と /var/log/dist-upgrade/apt.log を添付"
+#~ "する必要があります。アップグレードは完了しませんでした。\n"
+#~ "変更前のsources.listは/etc/apt/sources.list.distUpgradeに保存されていま"
+#~ "す。"
+
+#~ msgid "Ctrl-c pressed"
+#~ msgstr "Ctrl-c が入力されました"
+
+#~ msgid ""
+#~ "This will abort the operation and may leave the system in a broken state. "
+#~ "Are you sure you want to do that?"
+#~ msgstr ""
+#~ "これは操作を中断することになり、システムを壊れた状態にしてしまうかもしれま"
+#~ "せん。本当に実行しますか？"
+
+#~ msgid "To prevent data loss close all open applications and documents."
+#~ msgstr ""
+#~ "データが失われることを避けるため、利用中のアプリケーションとドキュメントを"
+#~ "閉じてください。"
+
+#, python-format
+#~ msgid "No longer supported by Canonical (%s)"
+#~ msgstr "Canonical によってサポートされなくなりました (%s)"
+
+#, python-format
+#~ msgid "<b>Downgrade (%s)</b>"
+#~ msgstr "<b>ダウングレード (%s)</b>"
+
+#, python-format
+#~ msgid "Remove (%s)"
+#~ msgstr "削除 (%s)"
+
+#, python-format
+#~ msgid "No longer needed (%s)"
+#~ msgstr "もう不要なもの (%s)"
+
+#, python-format
+#~ msgid "Install (%s)"
+#~ msgstr "インストール (%s)"
+
+#, python-format
+#~ msgid "Upgrade (%s)"
+#~ msgstr "アップグレード (%s)"
+
+#~ msgid "Media Change"
+#~ msgstr "メディアの交換"
+
+#~ msgid "Show Difference >>>"
+#~ msgstr "差分を表示 >>>"
+
+#~ msgid "<<< Hide Difference"
+#~ msgstr "<<< 差分を隠す"
+
+#~ msgid "Error"
+#~ msgstr "エラー"
+
+#~ msgid "&Cancel"
+#~ msgstr "キャンセル(&C)"
+
+#~ msgid "&Close"
+#~ msgstr "閉じる(&C)"
+
+#~ msgid "Show Terminal >>>"
+#~ msgstr "端末を表示 >>>"
+
+#~ msgid "<<< Hide Terminal"
+#~ msgstr "<<< 端末を隠す"
+
+#~ msgid "Information"
+#~ msgstr "情報"
+
+#~ msgid "Details"
+#~ msgstr "詳細"
+
+#, python-format
+#~ msgid "No longer supported %s"
+#~ msgstr "サポートされなくなりました %s"
+
+#, python-format
+#~ msgid "Remove (was auto installed) %s"
+#~ msgstr "(自動インストールされた) %s を削除"
+
+#, python-format
+#~ msgid "Upgrade %s"
+#~ msgstr "アップグレード %s"
+
+#~ msgid "<b><big>Restart the system to complete the upgrade</big></b>"
+#~ msgstr ""
+#~ "<b><big>アップグレードを完了するには、システムの再起動が必要です</big></b>"
+
+#~ msgid ""
+#~ "<b><big>Cancel the running upgrade?</big></b>\n"
+#~ "\n"
+#~ "The system could be in an unusable state if you cancel the upgrade. You "
+#~ "are strongly advised to resume the upgrade."
+#~ msgstr ""
+#~ "<b><big>実行中のアップグレードをキャンセルしますか？</big></b>\n"
+#~ "\n"
+#~ "アップグレードをキャンセルしてしまうと、システムが不安定な状態になる恐れが"
+#~ "あります。アップグレードを再開することを強くお勧めします。"
+
+#~ msgid "Cancel Upgrade?"
+#~ msgstr "アップグレードをキャンセルしますか?"
+
+#, python-format
+#~ msgid "%li day"
+#~ msgid_plural "%li days"
+#~ msgstr[0] "%li 日"
+
+#, python-format
+#~ msgid "%li hour"
+#~ msgid_plural "%li hours"
+#~ msgstr[0] "%li 時間"
+
+#, python-format
+#~ msgid "%li minute"
+#~ msgid_plural "%li minutes"
+#~ msgstr[0] "%li 分"
+
+#, python-format
+#~ msgid "%li second"
+#~ msgid_plural "%li seconds"
+#~ msgstr[0] "%li 秒"
+
+#, python-format
+#~ msgid "%(str_days)s %(str_hours)s"
+#~ msgstr "%(str_days)s %(str_hours)s"
+
+#, python-format
+#~ msgid "%(str_hours)s %(str_minutes)s"
+#~ msgstr "%(str_hours)s %(str_minutes)s"
+
+#, python-format
+#~ msgid ""
+#~ "This download will take about %s with a 1Mbit DSL connection and about %s "
+#~ "with a 56k modem."
+#~ msgstr ""
+#~ "このダウンロードは 1Mbit DSL 接続で約 %s 、56k モデムで約 %s かかります。"
+
+#, python-format
+#~ msgid "This download will take about %s with your connection. "
+#~ msgstr "このダウンロードは約 %s かかります。 "
+
+#~ msgid "Preparing to upgrade"
+#~ msgstr "アップグレードの準備"
+
+#~ msgid "Getting new software channels"
+#~ msgstr "新しいソフトウェア・チャンネルの取得"
+
+#~ msgid "Getting new packages"
+#~ msgstr "新しいパッケージの取得"
+
+#~ msgid "Installing the upgrades"
+#~ msgstr "アップグレードのインストール"
+
+#~ msgid "Cleaning up"
+#~ msgstr "クリーンアップ"
+
+#, python-format
+#~ msgid ""
+#~ "%(amount)d installed package is no longer supported by Canonical. You can "
+#~ "still get support from the community."
+#~ msgid_plural ""
+#~ "%(amount)d installed packages are no longer supported by Canonical. You "
+#~ "can still get support from the community."
+#~ msgstr[0] ""
+#~ "%(amount)d 個のインストール済みパッケージは Canonical によってサポートされ"
+#~ "なくなりました。ただしコミュニティからのサポートは受けることができます。"
+
+#, python-format
+#~ msgid "%d new package is going to be installed."
+#~ msgid_plural "%d new packages are going to be installed."
+#~ msgstr[0] "%d 個の新規パッケージがインストールされます。"
+
+#, python-format
+#~ msgid "%d package is going to be upgraded."
+#~ msgid_plural "%d packages are going to be upgraded."
+#~ msgstr[0] "%d 個のパッケージがアップグレードされます。"
+
+#, python-format
+#~ msgid ""
+#~ "\n"
+#~ "\n"
+#~ "You have to download a total of %s. "
+#~ msgstr ""
+#~ "\n"
+#~ "\n"
+#~ "合計 %s をダウンロードする必要があります。 "
+
+#~ msgid ""
+#~ "Installing the upgrade can take several hours. Once the download has "
+#~ "finished, the process cannot be canceled."
+#~ msgstr ""
+#~ "アップグレードをインストールするのに数時間かかることがあります。ダウンロー"
+#~ "ドが完了してしまうと、処理はキャンセルできません。"
+
+#~ msgid ""
+#~ "Fetching and installing the upgrade can take several hours. Once the "
+#~ "download has finished, the process cannot be canceled."
+#~ msgstr ""
+#~ "アップグレードの取得とインストールには数時間かかることがあります。ダウン"
+#~ "ロードが完了してしまうと、処理はキャンセルできません。"
+
+#~ msgid "Removing the packages can take several hours. "
+#~ msgstr "パッケージの削除に数時間かかることがあります。 "
+
+#~ msgid ""
+#~ "There are no upgrades available for your system. The upgrade will now be "
+#~ "canceled."
+#~ msgstr ""
+#~ "システムに適用可能なアップグレードはありません。アップグレードは中止されま"
+#~ "す。"
+
+#~ msgid "Reboot required"
+#~ msgstr "再起動が必要です"
+
+#~ msgid ""
+#~ "The upgrade is finished and a reboot is required. Do you want to do this "
+#~ "now?"
+#~ msgstr ""
+#~ "アップグレードが終了しました。再起動が必要です。今すぐ自動で再起動します"
+#~ "か？"
+
+#, python-format
+#~ msgid "authenticate '%(file)s' against '%(signature)s' "
+#~ msgstr "「%(signature)s」を用いて「%(file)s」の認証を行ないます "
+
+#, python-format
+#~ msgid "extracting '%s'"
+#~ msgstr "'%s' の展開中"
+
+#~ msgid "Could not run the upgrade tool"
+#~ msgstr "アップグレード・ツールを実行できません"
+
+#~ msgid ""
+#~ "This is most likely a bug in the upgrade tool. Please report it as a bug "
+#~ "using the command 'ubuntu-bug update-manager'."
+#~ msgstr ""
+#~ "この問題はアップグレードツールのバグの可能性が高いです。'ubuntu-bug "
+#~ "update-manager' コマンドを実行してバグ報告を行ってください。"
+
+#~ msgid "Upgrade tool signature"
+#~ msgstr "ツールの署名のアップグレード"
+
+#~ msgid "Upgrade tool"
+#~ msgstr "ツールのアップグレード"
+
+#~ msgid "Failed to fetch"
+#~ msgstr "取得に失敗しました"
+
+#~ msgid "Fetching the upgrade failed. There may be a network problem. "
+#~ msgstr ""
+#~ "アップグレードの取得に失敗しました。おそらくネットワークの問題です。 "
+
+#~ msgid "Authentication failed"
+#~ msgstr "認証に失敗しました"
+
+#~ msgid ""
+#~ "Authenticating the upgrade failed. There may be a problem with the "
+#~ "network or with the server. "
+#~ msgstr ""
+#~ "アップグレードの認証に失敗しました。おそらくネットワークまたはサーバーの問"
+#~ "題です。 "
+
+#~ msgid "Failed to extract"
+#~ msgstr "抽出に失敗しました"
+
+#~ msgid ""
+#~ "Extracting the upgrade failed. There may be a problem with the network or "
+#~ "with the server. "
+#~ msgstr ""
+#~ "アップグレードの展開に失敗しました。おそらくネットワークまたはサーバーの問"
+#~ "題です。 "
+
+#~ msgid "Verification failed"
+#~ msgstr "認証に失敗しました"
+
+#~ msgid ""
+#~ "Verifying the upgrade failed.  There may be a problem with the network or "
+#~ "with the server. "
+#~ msgstr ""
+#~ "アップグレードの検証に失敗しました。ネットワーク接続もしくはサーバーに問題"
+#~ "があるかもしれません。 "
+
+#~ msgid "Can not run the upgrade"
+#~ msgstr "アップグレードを実行できません"
+
+#~ msgid ""
+#~ "This usually is caused by a system where /tmp is mounted noexec. Please "
+#~ "remount without noexec and run the upgrade again."
+#~ msgstr ""
+#~ "この現象は、通常/tmpがnoexecでマウントされている場合にシステムで発生しま"
+#~ "す。noexecを付けずに再マウントして、再度アップグレードを実行してください。"
+
+#, python-format
+#~ msgid "The error message is '%s'."
+#~ msgstr "エラーメッセージは'%s'です。"
+
+#~ msgid ""
+#~ "Please report this as a bug and include the files /var/log/dist-upgrade/"
+#~ "main.log and /var/log/dist-upgrade/apt.log in your report. The upgrade "
+#~ "has aborted.\n"
+#~ "Your original sources.list was saved in /etc/apt/sources.list.distUpgrade."
+#~ msgstr ""
+#~ "この現象をバグとして報告してください。報告には /var/log/dist-upgrade/main."
+#~ "log と /var/log/dist-upgrade/apt.log を添付する必要があります。アップグ"
+#~ "レードは完了しませんでした。\n"
+#~ "変更前のsources.listは/etc/apt/sources.list.distUpgradeに保存されていま"
+#~ "す。"
+
+#~ msgid "Aborting"
+#~ msgstr "中断します"
+
+#~ msgid "Demoted:\n"
+#~ msgstr "サポートレベルの格下げ:\n"
+
+#~ msgid "To continue please press [ENTER]"
+#~ msgstr "続けるには [ENTER] キーを押してください"
+
+#~ msgid "Continue [yN] "
+#~ msgstr "続行する[yN] "
+
+#~ msgid "Details [d]"
+#~ msgstr "詳細 [d]"
+
+#~ msgid "y"
+#~ msgstr "y"
+
+#~ msgid "n"
+#~ msgstr "n"
+
+#~ msgid "d"
+#~ msgstr "d"
+
+#, python-format
+#~ msgid "No longer supported: %s\n"
+#~ msgstr "サポートされなくなりました: %s\n"
+
+#, python-format
+#~ msgid "Remove: %s\n"
+#~ msgstr "削除: %s\n"
+
+#, python-format
+#~ msgid "Install: %s\n"
+#~ msgstr "インストール: %s\n"
+
+#, python-format
+#~ msgid "Upgrade: %s\n"
+#~ msgstr "アップグレード: %s\n"
+
+#~ msgid "Continue [Yn] "
+#~ msgstr "続ける [Yn] "
+
+#~ msgid ""
+#~ "To finish the upgrade, a restart is required.\n"
+#~ "If you select 'y' the system will be restarted."
+#~ msgstr ""
+#~ "アップグレードを完了するには再起動が必要です。\n"
+#~ "'Y' を選択すると再起動します。"
+
+#~ msgid "_Cancel Upgrade"
+#~ msgstr "アップグレードをキャンセル(_C)"
+
+#~ msgid "_Resume Upgrade"
+#~ msgstr "アップグレードを再開(_R)"
+
+#~ msgid ""
+#~ "<b><big>Cancel the running upgrade?</big></b>\n"
+#~ "\n"
+#~ "The system could be in an unusable state if you cancel the upgrade. You "
+#~ "are strongly adviced to resume the upgrade."
+#~ msgstr ""
+#~ "<b><big>アップグレードをキャンセルしますか？</big></b>\n"
+#~ "\n"
+#~ "アップグレードをキャンセルすると、おそらくシステムは不安定な状態になりま"
+#~ "す。アップグレードを再開することを強くおすすめします。"
+
+#~ msgid "_Start Upgrade"
+#~ msgstr "アップグレードを開始(_S)"
+
+#~ msgid "_Replace"
+#~ msgstr "置き換える(_R)"
+
+#~ msgid "Difference between the files"
+#~ msgstr "ファイル同士の差異"
+
+#~ msgid "_Report Bug"
+#~ msgstr "バグを報告する(_R)"
+
+#~ msgid "<b><big>Start the upgrade?</big></b>"
+#~ msgstr "<b><big>アップグレードを開始しますか？</big></b>"
+
+#~ msgid ""
+#~ "<b><big>Restart the system to complete the upgrade</big></b>\n"
+#~ "\n"
+#~ "Please save your work before continuing."
+#~ msgstr ""
+#~ "<b><big>アップグレードを完了するには再起動してください</big></b>\n"
+#~ "\n"
+#~ "先へ進む前に、他のアプリケーションで行っているすべての作業を保存してくださ"
+#~ "い。"
+
+#~ msgid "Distribution Upgrade"
+#~ msgstr "ディストリビューションのアップグレード"
+
+#, fuzzy
+#~ msgid "<b><big>Upgrading Ubuntu to version 12.10</big></b>"
+#~ msgstr "<b><big>Ubuntu 11.10にアップグレードする</big></b>"
+
+#~ msgid "    "
+#~ msgstr "    "
+
+#~ msgid "Setting new software channels"
+#~ msgstr "新しいソフトウェア・チャンネルを設定しています"
+
+#~ msgid "Restarting the computer"
+#~ msgstr "コンピューターの再起動"
+
+#~ msgid "Terminal"
+#~ msgstr "端末"
+
+#~ msgid "Could not find the release notes"
+#~ msgstr "リリースノートが見つかりません"
+
+#~ msgid "The server may be overloaded. "
+#~ msgstr "サーバーに大きな負荷がかかっています。 "
+
+#~ msgid "Could not download the release notes"
+#~ msgstr "リリースノートをダウンロードできません"
+
+#~ msgid "Please check your internet connection."
+#~ msgstr "インターネット接続を確認してください。"
+
+#~ msgid "Release Notes"
+#~ msgstr "リリースノート"
+
+#~ msgid "Downloading additional package files..."
+#~ msgstr "追加パッケージのダウンロード..."
+
+#, python-format
+#~ msgid "File %s of %s at %sB/s"
+#~ msgstr "ファイル %s / %s (%sB/s)"
+
+#, python-format
+#~ msgid "File %s of %s"
+#~ msgstr "ファイル %s / %s"
+
+#, python-format
+#~ msgid "Downloading file %(current)li of %(total)li with %(speed)s/s"
+#~ msgstr "ファイル %(current)li / %(total)li をダウンロード中 (%(speed)s/秒)"
+
+#, python-format
+#~ msgid "Downloading file %(current)li of %(total)li"
+#~ msgstr "ファイル %(current)li / %(total)li をダウンロード中"
+
+#~ msgid "Your Ubuntu release is not supported anymore."
+#~ msgstr "このバージョンのUbuntuは既にサポートが打ち切られています。"
+
+#~ msgid ""
+#~ "You will not get any further security fixes or critical updates. Please "
+#~ "upgrade to a later version of Ubuntu."
+#~ msgstr ""
+#~ "今後、セキュリティ修正や重要な更新は行われません。新しいリリースの Ubuntu "
+#~ "にアップグレードしてください。"
+
+#~ msgid "Upgrade information"
+#~ msgstr "アップグレード情報"
+
+#~ msgid "Name"
+#~ msgstr "名前"
+
+#~ msgid ""
+#~ "It is unknown when the package information was updated last. Please click "
+#~ "the 'Check' button to update the information."
+#~ msgstr ""
+#~ "パッケージ情報の最終更新日時は不明です。'再チェック' ボタンをクリックして"
+#~ "情報を更新してください。"
+
+#, python-format
+#~ msgid ""
+#~ "The package information was last updated %(days_ago)s days ago.\n"
+#~ "Press the 'Check' button below to check for new software updates."
+#~ msgstr ""
+#~ "パッケージ情報は %(days_ago)s 日前に更新されました。\n"
+#~ "'再チェック' ボタンを押して新しいソフトウェアアップデートをチェックしてく"
+#~ "ださい。"
+
+#, python-format
+#~ msgid "The package information was last updated %(days_ago)s day ago."
+#~ msgid_plural ""
+#~ "The package information was last updated %(days_ago)s days ago."
+#~ msgstr[0] "パッケージ情報は %(days_ago)s 日前に更新されました。"
+
+#, python-format
+#~ msgid "The package information was last updated %(hours_ago)s hour ago."
+#~ msgid_plural ""
+#~ "The package information was last updated %(hours_ago)s hours ago."
+#~ msgstr[0] "パッケージ情報は %(hours_ago)s 時間前に更新されました。"
+
+#, python-format
+#~ msgid "The package information was last updated about %s minutes ago."
+#~ msgstr "パッケージ情報は約 %s 分前に更新されました。"
+
+#~ msgid "The package information was just updated."
+#~ msgstr "パッケージ情報が更新されました。"
+
+#~ msgid "Software updates may be available for your computer."
+#~ msgstr "このコンピューターでソフトウェアのアップデートが利用できます。"
+
+#~ msgid "Reading package information"
+#~ msgstr "パッケージ情報を取得しています"
+
+#~ msgid " (New install)"
+#~ msgstr " (新規インストール)"
+
+#, python-format
+#~ msgid "(Size: %s)"
+#~ msgstr "(サイズ: %s)"
+
+#, python-format
+#~ msgid "From version %(old_version)s to %(new_version)s"
+#~ msgstr "バージョン %(old_version)s から %(new_version)s　へ"
+
+#, python-format
+#~ msgid "Version %s"
+#~ msgstr "バージョン %s"
+
+#~ msgid "Release upgrade not possible right now"
+#~ msgstr "今はリリースアップグレードができません。"
+
+#, c-format, python-format
+#~ msgid ""
+#~ "The release upgrade can not be performed currently, please try again "
+#~ "later. The server reported: '%s'"
+#~ msgstr ""
+#~ "リリースアップグレードが現在実行できないので後でもう一度試してください。"
+#~ "サーバーの報告は以下のとおりです: '%s'"
+
+#~ msgid "Downloading the release upgrade tool"
+#~ msgstr "リリースアップグレードツールのダウンロード"
+
+#, python-format
+#~ msgid "<b>New Ubuntu release '%s' is available</b>"
+#~ msgstr "<b>Ubuntu の新しいリリース '%s' が利用可能です</b>"
+
+#~ msgid "Cancel"
+#~ msgstr "キャンセル"
+
+#~ msgid "Changelog"
+#~ msgstr "更新履歴"
+
+#~ msgid "Building Updates List"
+#~ msgstr "アップデートリストを構成しています"
+
+#~ msgid ""
+#~ "\n"
+#~ "A normal upgrade can not be calculated, please run: \n"
+#~ "  sudo apt-get dist-upgrade\n"
+#~ "\n"
+#~ "\n"
+#~ "This can be caused by:\n"
+#~ " * A previous upgrade which didn't complete\n"
+#~ " * Problems with some of the installed software\n"
+#~ " * Unofficial software packages not provided by Ubuntu\n"
+#~ " * Normal changes of a pre-release version of Ubuntu"
+#~ msgstr ""
+#~ "\n"
+#~ "通常のアップグレードの見積もりが行えませんでした。以下を実行してくださ"
+#~ "い: \n"
+#~ "  sudo apt-get dist-upgrade\n"
+#~ "\n"
+#~ "\n"
+#~ "以下の原因が考えられます:\n"
+#~ " * 前回のアップグレードが完了していなかった。\n"
+#~ " * インストールしたソフトウェアのどれかに問題がある。\n"
+#~ " * Ubuntu が提供していない、非公式なパッケージを利用している。\n"
+#~ " * Ubuntu のリリース前バージョンにおける、通常の変更。"
+
+#~ msgid "Downloading changelog"
+#~ msgstr "変更履歴をダウンロードしています"
+
+#, python-format
+#~ msgid "Other updates (%s)"
+#~ msgstr "その他のアップデート (%s)"
+
+#~ msgid "Failed to detect distribution"
+#~ msgstr "ディストリビューションの検出に失敗しました"
+
+#, python-format
+#~ msgid "A error '%s' occurred while checking what system you are using."
+#~ msgstr "使用しているシステムを確認している際に、エラー '%s' が起きました。"
+
+#~ msgid "Recommended updates"
+#~ msgstr "推奨アップデート"
+
+#~ msgid "Proposed updates"
+#~ msgstr "「Proposed」（テスト版）アップデート"
+
+#~ msgid "Backports"
+#~ msgstr "バックポート"
+
+#~ msgid "Distribution updates"
+#~ msgstr "ディストリビューションのアップデート"
+
+#, fuzzy
+#~ msgid "<big><b>Starting Software Updater</b></big>"
+#~ msgstr "<big><b>アップデートマネージャーを起動しています</b></big>"
+
+#~ msgid ""
+#~ "Software updates correct errors, eliminate security vulnerabilities and "
+#~ "provide new features."
+#~ msgstr ""
+#~ "ソフトウェアアップデートはエラーを修正し、セキュリティホールを取り除き、新"
+#~ "しい機能を提供します。"
+
+#~ msgid "Chec_k"
+#~ msgstr "再チェック(_K)"
+
+#~ msgid ""
+#~ "<b><big>You must check for updates manually</big></b>\n"
+#~ "\n"
+#~ "Your system does not check for updates automatically. You can configure "
+#~ "this behavior in <i>Software Sources</i> on the <i>Updates</i> tab."
+#~ msgstr ""
+#~ "<b><big>アップデートの確認を手動で行う必要があります</big></b>\n"
+#~ "\n"
+#~ "アップデートの確認を自動で行わない設定になっています。この動作の変更は、"
+#~ "<i>ソフトウェアソース</i>の<i>アップデート</i>タブで行ないます。"
+
+#~ msgid "_Hide this information in the future"
+#~ msgstr "今後この情報を表示しない(_H)"
+
+#~ msgid "Co_ntinue"
+#~ msgstr "続行(_N)"
+
+#~ msgid "<big><b>Running on battery</b></big>"
+#~ msgstr "<big><b>バッテリーで動作中です</b></big>"
+
+#~ msgid ""
+#~ "Your system is running on battery. Are you sure you want to continue?"
+#~ msgstr ""
+#~ "このシステムはバッテリーで動作中です。このまま処理を継続してもよろしいです"
+#~ "か？"
+
+#~ msgid "_Upgrade"
+#~ msgstr "アップグレード(_U)"
+
+#~ msgid "Show progress of individual files"
+#~ msgstr "個別のファイルの進捗を表示"
+
+#, fuzzy
+#~ msgid "Starting Software Updater"
+#~ msgstr "ソフトウェアのアップデート"
+
+#~ msgid "U_pgrade"
+#~ msgstr "アップグレード(_P)"
+
+#~ msgid ""
+#~ "<b>A new version of Ubuntu is available. Would you like to upgrade?</b>"
+#~ msgstr ""
+#~ "<b>新しいバージョンの Ubuntu が利用可能です。アップグレードしますか?</b>"
+
+#~ msgid "Don't Upgrade"
+#~ msgstr "アップグレードしない"
+
+#~ msgid "Yes, Upgrade Now"
+#~ msgstr "今すぐアップグレードする"
+
+#~ msgid "You have declined to upgrade to the new Ubuntu"
+#~ msgstr "新しいUbuntuへのアップグレードを拒絶"
+
+#, fuzzy
+#~ msgid ""
+#~ "You can upgrade at a later time by opening Software Updater and click on "
+#~ "\"Upgrade\"."
+#~ msgstr ""
+#~ "後でアップデートマネージャーを開いて \"アップグレード\" をクリックすれば"
+#~ "アップグレードできます。"
+
+#~ msgid "Check if upgrading to the latest devel release is possible"
+#~ msgstr "最新の開発リリースへのアップデートが利用可能かどうかチェックする"
+
+#~ msgid "Try to run a dist-upgrade"
+#~ msgstr "dist-upgradeを実行する"
+
+#~ msgid "Test upgrade with a sandbox aufs overlay"
+#~ msgstr "aufsオーバレイを実験環境に用いてのテストアップグレード"
+
+#~ msgid "Running partial upgrade"
+#~ msgstr "部分的なアップグレードを実行"
+
+#~ msgid "Show description of the package instead of the changelog"
+#~ msgstr "変更履歴の代わりにパッケージの説明を表示"
+
+#~ msgid ""
+#~ "Try upgrading to the latest release using the upgrader from $distro-"
+#~ "proposed"
+#~ msgstr ""
+#~ "アップグレードソフトウェアを使って $distro-proposed から最新のリリースへの"
+#~ "アップグレードを試す"
+
+#~ msgid ""
+#~ "Run in a special upgrade mode.\n"
+#~ "Currently 'desktop' for regular upgrades of a desktop system and 'server' "
+#~ "for server systems are supported."
+#~ msgstr ""
+#~ "特別なアップグレードモードで実行する。\n"
+#~ "現在、デスクトップシステムの標準的なアップグレードを行う 'desktop' オプ"
+#~ "ションと、サーバーシステム向けの 'server' オプションがサポートされていま"
+#~ "す。"
+
+#~ msgid "Run the specified frontend"
+#~ msgstr "特定のフロントエンドで実行"
+
+#~ msgid ""
+#~ "Check only if a new distribution release is available and report the "
+#~ "result via the exit code"
+#~ msgstr ""
+#~ "新しいディストリビューション・リリースが利用可能かどうかチェックし、終了"
+#~ "コードで結果を通知する"
+
+#~ msgid "Checking for a new Ubuntu release"
+#~ msgstr "新しい Ubuntu のリリースをチェックしています"
+
+#~ msgid ""
+#~ "For upgrade information, please visit:\n"
+#~ "%(url)s\n"
+#~ msgstr ""
+#~ "アップグレード情報は以下を参照:\n"
+#~ "%(url)s\n"
+
+#~ msgid "No new release found"
+#~ msgstr "新しくリリースされたものはありません"
+
+#, c-format
+#~ msgid "New release '%s' available."
+#~ msgstr "新しいリリース '%s' が利用可能になっています。"
+
+#~ msgid "Run 'do-release-upgrade' to upgrade to it."
+#~ msgstr "'do-release-upgrade' を実行してアップグレードしてください"
+
+#~ msgid "Ubuntu %(version)s Upgrade Available"
+#~ msgstr "Ubuntu %(version) のアップグレードが利用可能です"
+
+#, c-format
+#~ msgid "You have declined the upgrade to Ubuntu %s"
+#~ msgstr "Ubuntu %s へのアップグレードを拒絶"
+
+#~ msgid "Add debug output"
+#~ msgstr "デバッグ出力を追加"
+
+#~ msgid "Show unsupported packages on this machine"
+#~ msgstr "このコンピューターでサポートされていないパッケージを表示"
+
+#~ msgid "Show supported packages on this machine"
+#~ msgstr "このコンピューターでサポートされているパッケージを表示"
+
+#~ msgid "Show all packages with their status"
+#~ msgstr "すべてのパッケージを状態とともに表示"
+
+#~ msgid "Show all packages in a list"
+#~ msgstr "すべてのパッケージをリストで表示"
+
+#, c-format
+#~ msgid "Support status summary of '%s':"
+#~ msgstr "'%s' のサポート状況の概要:"
+
+#~ msgid "You have %(num)s packages (%(percent).1f%%) supported until %(time)s"
+#~ msgstr ""
+#~ "%(num)s 個のパッケージ (%(percent).1f%%) は、%(time)s までサポートされます"
+
+#~ msgid ""
+#~ "You have %(num)s packages (%(percent).1f%%) that can not/no-longer be "
+#~ "downloaded"
+#~ msgstr "%(num)s 個のパッケージ (%(percent).1f%%) は、ダウンロードできません"
+
+#~ msgid "You have %(num)s packages (%(percent).1f%%) that are unsupported"
+#~ msgstr "%(num)s 個のパッケージ (%(percent).1f%%) は、サポートされていません"
+
+#~ msgid ""
+#~ "Run with --show-unsupported, --show-supported or --show-all to see more "
+#~ "details"
+#~ msgstr ""
+#~ "詳細を見るには、--show-unsupported または --show-supported または --show-"
+#~ "all を付けて実行してください"
+
+#~ msgid "No longer downloadable:"
+#~ msgstr "ダウンロード不可能なパッケージ:"
+
+#~ msgid "Unsupported: "
+#~ msgstr "サポートされていないパッケージ: "
+
+#, c-format
+#~ msgid "Supported until %s:"
+#~ msgstr "%s までサポートされるパッケージ:"
+
+#~ msgid "Unsupported"
+#~ msgstr "サポートされていません"
+
+#~ msgid ""
+#~ "After your package information was updated the essential package '%s' can "
+#~ "not be found anymore so a bug reporting process is being started."
+#~ msgstr ""
+#~ "パッケージ情報が更新された際に、必要なパッケー「%s」が見つからなくなってし"
+#~ "まいました。それによりバグ報告のプロセスが開始されました。"
+
+#~ msgid "<b><big>Upgrading Ubuntu to version 12.04</big></b>"
+#~ msgstr "<b><big>Ubuntu バージョン 12.04 へのアップグレード</big></b>"
+
+#~ msgid "%(count)s update has been selected."
+#~ msgid_plural "%(count)s updates have been selected."
+#~ msgstr[0] "%(count)s 個のアップデートが選択されています。"
+
+#~ msgid "%(count_str)s %(download_str)s"
+#~ msgstr "%(count_str)s %(download_str)s"
+
+#~ msgid "Welcome to Ubuntu"
+#~ msgstr "Ubuntuへようこそ"
+
+#~ msgid ""
+#~ "These software updates have been issued since this version of Ubuntu was "
+#~ "released."
+#~ msgstr ""
+#~ "これらのソフトウェアアップデートは、このバージョンのUbuntu のリリース以降"
+#~ "に提供されたものです。"
+
+#~ msgid "Update Manager"
+#~ msgstr "アップデートマネージャー"
+
+#~ msgid "Starting Update Manager"
+#~ msgstr "アップデートマネージャーを起動しています"
+
+#~ msgid "You are connected via a wireless modem."
+#~ msgstr "無線モデム経由で接続しています。"
+
+#~ msgid "Checking for a new ubuntu release"
+#~ msgstr "新しいUbuntuのリリースをチェックする"
+
+#~ msgid "Your system is up-to-date"
+#~ msgstr "システムは最新の状態です"
+
+#~ msgid ""
+#~ "This upgrade is running in sandbox (test) mode. All changes are written "
+#~ "to '%s' and will be lost on the next reboot.\n"
+#~ "\n"
+#~ "*No* changes written to a systemdir from now until the next reboot are "
+#~ "permanent."
+#~ msgstr ""
+#~ "このアップグレードはサンドボックス(テスト)モードで実行されています。あらゆ"
+#~ "る変更は '%s' に書き込まれ、次の再起動時に消されます。\n"
+#~ "\n"
+#~ "現在から次の再起動までにシステムディレクトリに書き込まれる変更は、あくまで"
+#~ "一時的なものです。"
+
+#~ msgid "Software updates are available for this computer"
+#~ msgstr "このコンピュータで利用できるソフトウェアアップデートがあります"
+
+#~ msgid ""
+#~ "Fetching and installing the upgrade can take several hours. Once the "
+#~ "download has finished, the process cannot be cancelled."
+#~ msgstr ""
+#~ "アップグレードの取得とインストールには数時間かかることがあります。ダウン"
+#~ "ロードが終了すると、アップグレードをキャンセルすることはできません。"
+
+#~ msgid "The update has already been downloaded, but not installed"
+#~ msgid_plural "The updates have already been downloaded, but not installed"
+#~ msgstr[0] ""
+#~ "アップデートファイルはすでにダウンロードされていますが、インストールされて"
+#~ "いません。"
+
+#~ msgid "There are no updates to install"
+#~ msgstr "インストールできるアップデートはありません"
+
+#~ msgid ""
+#~ "You will not get any further security fixes or critical updates. Please "
+#~ "upgrade to a later version of Ubuntu Linux."
+#~ msgstr ""
+#~ "今後、追加のセキュリティーアップグレードあるいは重要なアップグレードを行う"
+#~ "ことはできません。より新しいバージョンのUbuntuへアップグレードしてくださ"
+#~ "い。"
+
+#~ msgid ""
+#~ "The support in Ubuntu 11.04 for your intel graphics hardware is limited "
+#~ "and you may encounter problems after the upgrade. Do you want to continue "
+#~ "with the upgrade?"
+#~ msgstr ""
+#~ "Ubuntu 11.04での intel グラフィックスのサポートは限定されており、アップグ"
+#~ "レード後にトラブルにあう可能性があります。アップグレードを続けますか?"
+
+#~ msgid "Your graphics hardware may not be fully supported in Ubuntu 11.04."
+#~ msgstr ""
+#~ "あなたのグラフィックデバイスはUbuntu 11.04では完全にサポートされていない可"
+#~ "能性があります。"
+
+#~ msgid ""
+#~ "\n"
+#~ "\n"
+#~ "Please report this bug using the command 'ubuntu-bug update-manager' in a "
+#~ "terminal and include the files in /var/log/dist-upgrade/ in the bug "
+#~ "report.\n"
+#~ "%s"
+#~ msgstr ""
+#~ "\n"
+#~ "\n"
+#~ "このバグは、端末で 'ubuntu-bug update-manager' コマンドを実行した上で、/"
+#~ "var/log/dist-upgrade/ にあるファイルを含めてバグ報告してください。\n"
+#~ "%s"
+
+#~ msgid "%.0f kB"
+#~ msgstr "%.0f kB"
+
+#~ msgid "0 kB"
+#~ msgstr "0 kB"
+
+#~ msgid "1 kB"
+#~ msgstr "1 kB"
+
+#~ msgid ""
+#~ "Upgrading the repository information resulted in a invalid file. Please "
+#~ "report this as a bug using the command 'ubuntu-bug update-manager' in a "
+#~ "terminal."
+#~ msgstr ""
+#~ "リポジトリ情報のアップグレードを行った結果、無効なファイルになってしまいま"
+#~ "した。端末で 'ubuntu-bug update-manager' コマンドを利用してバグ報告を行っ"
+#~ "てください。"
+
+#~ msgid ""
+#~ "Preparing the system for the upgrade failed. Please report this using the "
+#~ "command 'ubuntu-bug update-manager' in a terminal and include the files "
+#~ "in /var/log/dist-upgrade/ in the bug report."
+#~ msgstr ""
+#~ "システムのアップグレードの準備中に失敗しました。端末で 'ubuntu-bug update-"
+#~ "manager' コマンドを実行してバグ報告を行ってください。また、その際 /var/"
+#~ "log/dist-upgrade/ にあるファイルをバグレポートに含めてください。"
+
+#~ msgid ""
+#~ "The system was unable to get the prerequisites for the upgrade. The "
+#~ "upgrade will abort now and restore the original system state.\n"
+#~ "\n"
+#~ "Please report this as a bug using the command 'ubuntu-bug update-manager' "
+#~ "in a terminal and include the files in /var/log/dist-upgrade/ in the bug "
+#~ "report."
+#~ msgstr ""
+#~ "アップグレードに必要な情報を取得できませんでした。アップグレードを中断し、"
+#~ "元のシステムの状態に戻ります。\n"
+#~ "\n"
+#~ "端末で 'ubuntu-bug update-manager' コマンドを実行してバグ報告を行ってくだ"
+#~ "さい。また、その際 /var/log/dist-upgrade/ にあるファイルをバグレポートに含"
+#~ "めてください。"
+
+#~ msgid ""
+#~ "After your package information was updated the essential package '%s' can "
+#~ "not be found anymore.\n"
+#~ "This indicates a serious error, please report this bug using the command "
+#~ "'ubuntu-bug update-manager' in a terminal and include the files in /var/"
+#~ "log/dist-upgrade/ in the bug report."
+#~ msgstr ""
+#~ "パッケージ情報を更新したところ、必要なパッケージ '%s' が見つかりません。\n"
+#~ "深刻なエラーが考えられるため、端末で 'ubuntu-bug update-manager' コマンド"
+#~ "を実行してバグ報告を行ってください。また、その際 /var/log/dist-upgrade/ に"
+#~ "あるファイルをバグレポートに含めてください。"
+
+#~ msgid ""
+#~ "These software updates have been issued since this version of Ubuntu was "
+#~ "released. If you don't want to install them now, choose \"Update Manager"
+#~ "\" from Applications later."
+#~ msgstr ""
+#~ "これらのソフトウェアアップデートは、このバージョンのUbuntuのリリース後に出"
+#~ "されたものです。ソフトを今すぐインストールしない場合は、 後でアプリケー"
+#~ "ションから \"アップデートマネージャー\" を選択してください。"
+
+#~ msgid ""
+#~ "These software updates have been issued since this version of Ubuntu was "
+#~ "released. If you don't want to install them now, choose \"Update Manager"
+#~ "\" from the Administration Menu later."
+#~ msgstr ""
+#~ "これらのソフトウェアアップデートは、このバージョンのUbuntuのリリース後に出"
+#~ "されたものです。ソフトを今すぐインストールしない場合は、 後でシステム管理"
+#~ "メニューから \"アップデートマネージャー\" を選択してください。"
+
+#~ msgid ""
+#~ "If you don't want to install them now, choose \"Update Manager\" from "
+#~ "Applications later."
+#~ msgstr ""
+#~ "今すぐインストールしない場合は、後で「アプリケーション」から \"アップデー"
+#~ "トマネージャー\" を起動してください。"
+
+#~ msgid ""
+#~ "If you don't want to install them now, choose \"Update Manager\" from the "
+#~ "Administration menu later."
+#~ msgstr ""
+#~ "今すぐインストールしない場合は、後で「システム管理」メニューから “アップ"
+#~ "デートマネージャー” を起動してください。"

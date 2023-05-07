@@ -1,0 +1,4 @@
+debian/source_update-manager.py /usr/share/apport/package-hooks/
+debian/tmp/usr/bin/hwe-support-status
+debian/tmp/usr/bin/ubuntu-security-status
+debian/tmp/usr/share/locale

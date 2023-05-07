@@ -1,0 +1,2457 @@
+# update-manager's Finnish translation.
+# Copyright (C) 2005-2006 Timo Jyrinki
+# This file is distributed under the same license as the update-manager package.
+# Timo Jyrinki <timo.jyrinki@iki.fi>, 2005-2006.
+#
+#: ../UpdateManager/UpdatesAvailable.py:847
+msgid ""
+msgstr ""
+"Project-Id-Version: update-manager\n"
+"Report-Msgid-Bugs-To: sebastian.heinlein@web.de\n"
+"POT-Creation-Date: 2021-12-07 16:54-0800\n"
+"PO-Revision-Date: 2012-04-16 05:36+0000\n"
+"Last-Translator: Aleksi Kinnunen <Unknown>\n"
+"Language-Team: Finnish <ubuntu-fi@lists.ubuntu.com>\n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Launchpad-Export-Date: 2012-04-17 13:40+0000\n"
+"X-Generator: Launchpad (build 15099)\n"
+
+#: ../UpdateManager/backend/InstallBackendAptdaemon.py:150
+#, fuzzy
+msgid "Checking for updates…"
+msgstr "Tarkista päivitykset"
+
+#: ../UpdateManager/backend/InstallBackendAptdaemon.py:200
+#: ../UpdateManager/backend/InstallBackendAptdaemon.py:256
+#: ../UpdateManager/backend/InstallBackendAptdaemon.py:287
+#, fuzzy
+msgid "Installing updates…"
+msgstr "_Asenna päivitykset"
+
+#: ../UpdateManager/backend/InstallBackendSynaptic.py:39
+msgid "Please wait, this can take some time."
+msgstr "Odota, tämä voi kestää jonkin aikaa."
+
+#: ../UpdateManager/backend/InstallBackendSynaptic.py:41
+msgid "Update is complete"
+msgstr "Päivitys on valmis"
+
+#: ../UpdateManager/backend/__init__.py:277
+msgid "Updating snaps"
+msgstr ""
+
+#: ../UpdateManager/backend/__init__.py:304
+#, python-format
+msgid "Refreshing %s snap"
+msgstr ""
+
+#: ../UpdateManager/backend/__init__.py:310
+#, fuzzy, python-format
+msgid "Removing %s snap"
+msgstr "Poista %s"
+
+#: ../UpdateManager/backend/__init__.py:315
+#, fuzzy, python-format
+msgid "Installing %s snap"
+msgstr "Asenna %s"
+
+#: ../UpdateManager/backend/__init__.py:324
+#, fuzzy
+msgid "Upgrade only partially completed."
+msgstr "Päivitys on valmis"
+
+#: ../UpdateManager/backend/__init__.py:325
+#, fuzzy
+msgid ""
+"An error occurred while updating snaps. Please check your network connection."
+msgstr ""
+"Päivitettäessä tapahtui virhe. Tämä on yleensä jonkinlainen verkko-ongelma. "
+"Tarkista verkkoyhteytesi toiminta ja yritä uudelleen."
+
+#: ../UpdateManager/ChangelogViewer.py:83
+msgid "Open Link in Browser"
+msgstr "Avaa linkki selaimessa"
+
+#: ../UpdateManager/ChangelogViewer.py:87
+msgid "Copy Link to Clipboard"
+msgstr "Kopioi linkki leikepöydälle"
+
+#: ../UpdateManager/Dialogs.py:126
+#, fuzzy
+msgid "Settings…"
+msgstr "_Asetukset..."
+
+#: ../UpdateManager/Dialogs.py:171
+msgid ""
+"<b>Tip:</b> You can use Livepatch to keep your computer more secure between "
+"restarts."
+msgstr ""
+
+#: ../UpdateManager/Dialogs.py:174
+msgid "Settings & Livepatch…"
+msgstr ""
+
+#: ../UpdateManager/Dialogs.py:188
+#, python-format
+msgid "%d Livepatch update applied since the last restart."
+msgid_plural "%d Livepatch updates applied since the last restart."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../UpdateManager/Dialogs.py:196
+#, python-format
+msgid "%d Livepatch update failed to apply since the last restart."
+msgid_plural "%d Livepatch updates failed to apply since the last restart."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../UpdateManager/Dialogs.py:218 ../UpdateManager/UpdateManager.py:292
+#, fuzzy
+msgid "You stopped the check for updates."
+msgstr "Älä tarkista päivityksiä käynnistyksen yhteydessä"
+
+#: ../UpdateManager/Dialogs.py:220
+msgid "_Check Again"
+msgstr ""
+
+#: ../UpdateManager/Dialogs.py:232
+#, fuzzy
+msgid "No software updates are available."
+msgstr "Ohjelmistopäivityksiä on saatavilla tälle tietokoneelle."
+
+#: ../UpdateManager/Dialogs.py:234 ../UpdateManager/Dialogs.py:245
+msgid "The software on this computer is up to date."
+msgstr "Tämän tietokoneen ohjelmistot on päivitetty."
+
+#. Translators: these are Ubuntu version names like "Ubuntu 12.04"
+#: ../UpdateManager/Dialogs.py:247
+#, python-format
+msgid "However, %s %s is now available (you have %s)."
+msgstr ""
+
+#: ../UpdateManager/Dialogs.py:252
+#, fuzzy
+msgid "Upgrade…"
+msgstr "Päivitä"
+
+#: ../UpdateManager/Dialogs.py:272
+#, fuzzy
+msgid "New important security and hardware support update."
+msgstr "Tärkeät tietoturvapäivitykset"
+
+#: ../UpdateManager/Dialogs.py:280
+#, fuzzy
+msgid "_Install…"
+msgstr "Asenna"
+
+#. Translators: this is an Ubuntu version name like "Ubuntu 12.04"
+#: ../UpdateManager/Dialogs.py:292
+#, fuzzy, python-format
+msgid "Software updates are no longer provided for %s %s."
+msgstr "Ohjelmistopäivityksiä on saatavilla tälle tietokoneelle."
+
+#. Translators: this is an Ubuntu version name like "Ubuntu 12.04"
+#: ../UpdateManager/Dialogs.py:296
+#, python-format
+msgid "To stay secure, you should upgrade to %s %s."
+msgstr ""
+
+#: ../UpdateManager/Dialogs.py:309
+msgid "Sorry, there are no more upgrades for this system"
+msgstr ""
+
+#. Translators: this is an Ubuntu version name like "Ubuntu 12.04"
+#: ../UpdateManager/Dialogs.py:311
+#, python-format
+msgid ""
+"\n"
+"There will not be any further Ubuntu releases for this system's '%s' "
+"architecture.\n"
+"\n"
+"Updates for Ubuntu %s will continue until 2023-04-26.\n"
+"\n"
+"If you reinstall Ubuntu from ubuntu.com/download, future upgrades will be "
+"available."
+msgstr ""
+
+#: ../UpdateManager/Dialogs.py:325
+#, fuzzy
+msgid "Not all updates can be installed"
+msgstr "<big><b>Kaikkia päivityksiä ei voida asentaa</b></big>"
+
+#: ../UpdateManager/Dialogs.py:327
+#, fuzzy
+msgid ""
+"Run a partial upgrade, to install as many updates as possible.\n"
+"\n"
+"    This can be caused by:\n"
+"     * A previous upgrade which didn't complete\n"
+"     * Problems with some of the installed software\n"
+"     * Unofficial software packages not provided by Ubuntu\n"
+"     * Normal changes of a pre-release version of Ubuntu"
+msgstr ""
+"Tee osittainen päivitys ja päivitä niin monta ohjelmapakettia kuin "
+"mahdollista. \n"
+"\n"
+"Tähän tilanteeseen päädytään seuraavista syistä:\n"
+" * Edellistä päivitystä ei suoritettu loppuun asti\n"
+" * Jonkun asennetun ohjelman kanssa on ongelmia\n"
+" * Järjestelmään on asennettu kolmannen osapuolen ohjelmapaketteja\n"
+" * Ubuntun esiversion normaalit muutokset estävät päivityksen"
+
+#: ../UpdateManager/Dialogs.py:335
+msgid "_Partial Upgrade"
+msgstr "_Osittainen päivitys"
+
+#: ../UpdateManager/Dialogs.py:336
+msgid "_Continue"
+msgstr "_Jatka"
+
+#: ../UpdateManager/Dialogs.py:372
+msgid "_Try Again"
+msgstr ""
+
+#: ../UpdateManager/Dialogs.py:386
+#, fuzzy
+msgid "The computer needs to restart to finish installing updates."
+msgstr ""
+"Tietokoneen tulee käynnistyä uudelleen päivityksien asennuksen "
+"valmistumiseksi. Tallenna työsi ennen jatkamista."
+
+#: ../UpdateManager/Dialogs.py:388
+#, fuzzy
+msgid "Restart _Later"
+msgstr "Uudelleenkäynnistys vaaditaan"
+
+#: ../UpdateManager/Dialogs.py:390
+msgid "_Restart Now"
+msgstr "_Uudelleenkäynnistä nyt"
+
+#. Basic GTK+ parameters
+#: ../UpdateManager/UpdateManager.py:96 ../data/update-manager.desktop.in.h:1
+#: ../data/update-manager.appdata.xml.in.h:1
+#, fuzzy
+msgid "Software Updater"
+msgstr "Ohjelmistopäivitykset"
+
+#: ../UpdateManager/UpdateManager.py:290
+msgid "Some software couldn’t be checked for updates."
+msgstr ""
+
+#: ../UpdateManager/UpdateManager.py:293
+msgid "Updated software is available from a previous check."
+msgstr ""
+
+#. we assert a clean cache
+#: ../UpdateManager/UpdateManager.py:400
+msgid "Software index is broken"
+msgstr "Ohjelmaluettelo on rikkinäinen"
+
+#: ../UpdateManager/UpdateManager.py:401
+msgid ""
+"It is impossible to install or remove any software. Please use the package "
+"manager \"Synaptic\" or run \"sudo apt-get install -f\" in a terminal to fix "
+"this issue at first."
+msgstr ""
+"Mitään ohjelmia ei voida asentaa tai poistaa. Korjaa ongelma käyttämällä "
+"Synaptic-pakettienhallintaa tai komentoa \"sudo apt-get install -f\" "
+"päätteessä."
+
+#: ../UpdateManager/UpdateManager.py:408
+msgid "Could not initialize the package information"
+msgstr "Pakettitietoja ei voitu alustaa"
+
+#: ../UpdateManager/UpdateManager.py:409
+msgid ""
+"An unresolvable problem occurred while initializing the package "
+"information.\n"
+"\n"
+"Please report this bug against the 'update-manager' package and include the "
+"following error message:\n"
+msgstr ""
+"Pakettitietoja alustettaessa tapahtui virhe jota ei voitu korjata.\n"
+"\n"
+"Ilmoita tästä virheraportilla paketille \"update-manager\", ja sisällytä "
+"raporttiin seuraava virheviesti:\n"
+
+#: ../UpdateManager/UpdateManager.py:437
+msgid "Could not calculate the upgrade"
+msgstr "Tarvittavia päivitykseen liittyviä tarkistuksia ei voitu tehdä"
+
+#: ../UpdateManager/UpdateManager.py:438
+#, fuzzy
+msgid ""
+"An unresolvable problem occurred while calculating the upgrade.\n"
+"\n"
+"Please report this bug against the 'update-manager' package and include the "
+"following error message:\n"
+msgstr ""
+"Määriteltäessä päivitystä tapahtui virhe jota ei voitu korjata.\n"
+"\n"
+"Ilmoita tästä virheraportilla paketille \"update-manager\" ja sisällytä "
+"raporttiin seuraava virheviesti:"
+
+#: ../UpdateManager/UpdatesAvailable.py:252
+#, fuzzy
+msgid "Install Now"
+msgstr "Asenna"
+
+#: ../UpdateManager/UpdatesAvailable.py:285
+#, fuzzy
+msgid "Install or remove"
+msgstr "Asenna"
+
+#: ../UpdateManager/UpdatesAvailable.py:319
+msgid "Download"
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:378
+#, fuzzy
+msgid "_Remind Me Later"
+msgstr "Kysy myöhemmin uudestaan"
+
+#. upload_archive = version_match.group(2).strip()
+#: ../UpdateManager/UpdatesAvailable.py:515
+#, python-format
+msgid "Version %s: \n"
+msgstr "Versio %s: \n"
+
+#: ../UpdateManager/UpdatesAvailable.py:580
+msgid ""
+"No network connection detected, you can not download changelog information."
+msgstr "Verkkoyhteyttä ei havaittu. Muutosluetteloa ei voida noutaa."
+
+#: ../UpdateManager/UpdatesAvailable.py:590
+msgid "Downloading list of changes..."
+msgstr "Noudetaan muutosluetteloa..."
+
+#: ../UpdateManager/UpdatesAvailable.py:634
+msgid "_Deselect All"
+msgstr "_Poista kaikki valinnat"
+
+#: ../UpdateManager/UpdatesAvailable.py:640
+msgid "Select _All"
+msgstr "_Valitse kaikki"
+
+#: ../UpdateManager/UpdatesAvailable.py:736
+#, python-format
+msgid "%s will be downloaded."
+msgstr "%s noudetaan."
+
+#: ../UpdateManager/UpdatesAvailable.py:750
+#, fuzzy
+msgid "The update has already been downloaded."
+msgid_plural "The updates have already been downloaded."
+msgstr[0] "Päivitys on jo ladattu, mutta ei asennettu."
+msgstr[1] "Päivitykset on jo ladattu, mutta ei asennettu."
+
+#: ../UpdateManager/UpdatesAvailable.py:756
+msgid "There are no updates to install."
+msgstr "Tietokoneelle ei ole saatavilla päivityksiä."
+
+#: ../UpdateManager/UpdatesAvailable.py:765
+msgid "Unknown download size."
+msgstr "Tuntematon noudettavan määrä."
+
+#: ../UpdateManager/UpdatesAvailable.py:792
+#, python-format
+msgid ""
+"Updated software has been issued since %s %s was released. Do you want to "
+"install it now?"
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:797
+msgid ""
+"Updated software is available for this computer. Do you want to install it "
+"now?"
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:800
+#, fuzzy
+msgid ""
+"The computer also needs to restart to finish installing previous updates."
+msgstr ""
+"Tietokoneen tulee käynnistyä uudelleen päivityksien asennuksen "
+"valmistumiseksi. Tallenna työsi ennen jatkamista."
+
+#. print("on_button_install_clicked")
+#: ../UpdateManager/UpdatesAvailable.py:830
+msgid "Not enough free disk space"
+msgstr "Levytilaa ei ole riittävästi"
+
+#: ../UpdateManager/UpdatesAvailable.py:831
+#, fuzzy, python-format
+msgid ""
+"The upgrade needs a total of %s free space on disk '%s'. Please free at "
+"least an additional %s of disk space on '%s'. %s"
+msgstr ""
+"Päivitys tarvitsee yhteensä %s vapaata tilaa levyllä \"%s\". Vapauta "
+"vähintään %s lisää levytilaa levyllä \"%s\". Tyhjennä roskakori, ja poista "
+"väliaikaiset aiempien asennuksien paketit käyttämällä komentoa \"sudo apt-"
+"get clean\"."
+
+#. specific ways to resolve lack of free space
+#: ../UpdateManager/UpdatesAvailable.py:836
+msgid ""
+"Remove temporary packages of former installations using 'sudo apt clean'."
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:838
+msgid ""
+"You can remove old kernels using 'sudo apt autoremove', and you could also "
+"set COMPRESS=xz in /etc/initramfs-tools/initramfs.conf to reduce the size of "
+"your initramfs."
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:843
+#, fuzzy
+msgid ""
+"Empty your trash and remove temporary packages of former installations using "
+"'sudo apt clean'."
+msgstr ""
+"Päivitys tarvitsee yhteensä %s vapaata tilaa levyllä \"%s\". Vapauta "
+"vähintään %s lisää levytilaa levyllä \"%s\". Tyhjennä roskakori, ja poista "
+"väliaikaiset aiempien asennuksien paketit käyttämällä komentoa \"sudo apt-"
+"get clean\"."
+
+#: ../UpdateManager/UpdatesAvailable.py:846
+msgid "Reboot to clean up files in /tmp."
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:888
+msgid "Connecting..."
+msgstr "Yhdistetään..."
+
+#: ../UpdateManager/UpdatesAvailable.py:904
+msgid "You may not be able to check for updates or download new updates."
+msgstr "Et ehkä voi tarkistaa päivityksiä tai noutaa uusia päivityksiä."
+
+#: ../UpdateManager/UpdatesAvailable.py:1056
+msgid "Improved hardware support"
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:1060
+#, fuzzy
+msgid "Security updates"
+msgstr "Tärkeät tietoturvapäivitykset"
+
+#: ../UpdateManager/UpdatesAvailable.py:1064
+msgid "Other updates"
+msgstr "Muut päivitykset"
+
+#: ../UpdateManager/UpdatesAvailable.py:1067
+msgid "Updates"
+msgstr "Päivitykset"
+
+#: ../UpdateManager/UpdatesAvailable.py:1072
+msgid "Unused kernel updates to be removed"
+msgstr ""
+
+#: ../UpdateManager/UpdatesAvailable.py:1077
+#, fuzzy
+msgid "Duplicate packages to be removed"
+msgstr "%d paketti tullaan poistamaan."
+
+#: ../UpdateManager/UnitySupport.py:70
+msgid "Install All Available Updates"
+msgstr "Asenna kaikki saatavilla olevat päivitykset"
+
+#: ../UpdateManager/Core/MyCache.py:417
+msgid "This update does not come from a source that supports changelogs."
+msgstr "Tämän päivityksen julkaisija ei tue muutosluettelon esittämistä."
+
+#: ../UpdateManager/Core/MyCache.py:423 ../UpdateManager/Core/MyCache.py:458
+msgid ""
+"Failed to download the list of changes. \n"
+"Please check your Internet connection."
+msgstr ""
+"Muutosluettelon nouto epäonnistui. \n"
+"Tarkista Internet-yhteytesi toimivuus."
+
+#: ../UpdateManager/Core/MyCache.py:430
+#, fuzzy, python-format
+msgid ""
+"Changes for %s versions:\n"
+"Installed version: %s\n"
+"Available version: %s\n"
+"\n"
+msgstr ""
+"Versiomuutokset:\n"
+"Asennettu versio: %s\n"
+"Saatavilla oleva versio: %s\n"
+"\n"
+
+#: ../UpdateManager/Core/MyCache.py:444
+#, python-format
+msgid ""
+"The changelog does not contain any relevant changes.\n"
+"\n"
+"Please use http://launchpad.net/ubuntu/+source/%s/%s/+changelog\n"
+"until the changes become available or try again later."
+msgstr ""
+"Muutosluettelossa ei ole mainittu mitään oleellisia muutoksia.\n"
+"\n"
+"Käytä osoitetta http://launchpad.net/ubuntu/+source/%s/%s/+changelog\n"
+"kunnes muutokset tulevat saataville tai yritä myöhemmin uudelleen."
+
+#: ../UpdateManager/Core/MyCache.py:451
+#, python-format
+msgid ""
+"The list of changes is not available yet.\n"
+"\n"
+"Please use http://launchpad.net/ubuntu/+source/%s/%s/+changelog\n"
+"until the changes become available or try again later."
+msgstr ""
+"Muutosluettelo ei ole vielä saatavilla.\n"
+"\n"
+"Käytä osoitetta http://launchpad.net/ubuntu/+source/%s/%s/+changelog\n"
+"kunnes muutokset tulevat saataville, tai yritä myöhemmin uudelleen."
+
+#. Translators: the %s is a distro name, like 'Ubuntu' and 'base' as in
+#. the core components and packages.
+#: ../UpdateManager/Core/UpdateList.py:175
+#, python-format
+msgid "%s base"
+msgstr ""
+
+#. TRANSLATORS: download size of small updates, e.g. "250 kB"
+#: ../UpdateManager/Core/utils.py:483
+#, python-format
+msgid "%(size).0f kB"
+msgid_plural "%(size).0f kB"
+msgstr[0] "%(size).0f kt"
+msgstr[1] "%(size).0f kt"
+
+#. TRANSLATORS: download size of updates, e.g. "2.3 MB"
+#: ../UpdateManager/Core/utils.py:487
+#, python-format
+msgid "%.1f MB"
+msgstr "%.1f Mt"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:1
+msgid "updates"
+msgstr "päivitykset"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:2
+msgid "Changes"
+msgstr "Muutokset"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:3
+msgid "Description"
+msgstr "Kuvaus"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:4
+#, fuzzy
+msgid "Technical description"
+msgstr "Kuvaus"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:5
+#, fuzzy
+msgid "Details of updates"
+msgstr "Päivityksen kuvaus"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:6
+msgid "The computer will need to restart."
+msgstr ""
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:7
+msgid ""
+"You are connected via roaming and may be charged for the data consumed by "
+"this update."
+msgstr ""
+"Päivityksen käyttämä datansiirto voi olla maksullista, sillä käytät "
+"langatonta mobiiliyhteyttä."
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:8
+msgid ""
+"You may want to wait until you’re not using a mobile broadband connection."
+msgstr ""
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:9
+msgid "It’s safer to connect the computer to AC power before updating."
+msgstr ""
+"Tietokone suositellaan kytkemään verkkovirtalähteeseen ennen päivityksen "
+"aloittamista."
+
+#: ../data/update-manager.desktop.in.h:2
+msgid "Software Updates"
+msgstr "Ohjelmistopäivitykset"
+
+#: ../data/update-manager.desktop.in.h:3
+#: ../data/update-manager.appdata.xml.in.h:2
+msgid "Show and install available updates"
+msgstr "Näytä ja asenna saatavilla olevat päivitykset"
+
+#: ../data/update-manager.appdata.xml.in.h:3
+msgid ""
+"Software Updater checks for updates using apt and let you choose which "
+"updates to install."
+msgstr ""
+
+#: ../update-manager:71
+msgid "Show version and exit"
+msgstr "Näytä versio ja poistu"
+
+#: ../update-manager:74
+msgid "Directory that contains the data files"
+msgstr "Datatiedostoja sisältävä hakemisto"
+
+#: ../update-manager:77
+msgid "Check if a new Ubuntu release is available"
+msgstr "Tarkista onko uutta Ubuntu-julkaisua saatavilla"
+
+#: ../update-manager:80
+msgid ""
+"If using the latest supported release, upgrade to the development release"
+msgstr ""
+
+#: ../update-manager:84
+msgid "Upgrade using the latest proposed version of the release upgrader"
+msgstr "Päivitä käyttäen uusinta ehdotettua julkaisupäivitysohjelmaa"
+
+#. TRANSLATORS: this describes the "focus-on-map" gtk
+#. property that controls if a new window takes the
+#. input focus control when it is displayed for the
+#. first time (see also the gtk devhelp page)
+#: ../update-manager:91
+msgid "Do not focus on map when starting"
+msgstr "Älä kohdista karttaan käynnistettäessä"
+
+#: ../update-manager:94
+msgid "Do not check for updates when starting"
+msgstr "Älä tarkista päivityksiä käynnistyksen yhteydessä"
+
+#: ../update-manager:96
+msgid "Show debug messages"
+msgstr ""
+
+#. Why do we use %s here instead of $strings or {} format placeholders?
+#. It's because we don't want to break existing translations.
+#: ../janitor/plugincore/exceptions.py:43
+#, python-format
+msgid "Unimplemented method: %s"
+msgstr "Toteuttamaton metodi: %s"
+
+#: ../janitor/plugincore/core/file_cruft.py:41
+msgid "A file on disk"
+msgstr "Tiedosto levyllä"
+
+#: ../janitor/plugincore/core/missing_package_cruft.py:40
+msgid "Install missing package."
+msgstr "Asenna puuttuva paketti."
+
+#. 2012-06-08 BAW: i18n string; don't use {} or PEP 292.
+#: ../janitor/plugincore/core/missing_package_cruft.py:50
+#, python-format
+msgid "Package %s should be installed."
+msgstr "Paketti %s tulisi asentaa."
+
+#: ../janitor/plugincore/core/package_cruft.py:50
+msgid ".deb package"
+msgstr ".deb-paketti"
+
+#: ../janitor/plugincore/plugins/langpack_manual_plugin.py:47
+#, python-format
+msgid "%s needs to be marked as manually installed."
+msgstr "%s tulee merkitä käsin asennetuksi."
+
+#: ../janitor/plugincore/plugins/kdelibs4to5_plugin.py:50
+msgid ""
+"When upgrading, if kdelibs4-dev is installed, kdelibs5-dev needs to be "
+"installed. See bugs.launchpad.net, bug #279621 for details."
+msgstr ""
+"Jos paketti kdelibs4-dev on asennettu, on päivityksen aikana oltava "
+"asennettuna myös paketti kdelibs5-dev. Lisätietoja löytyy osoitteesta bugs."
+"launchpad.net löytyvästä virheraportista #279621."
+
+#: ../janitor/plugincore/plugins/dpkg_status_plugin.py:45
+#, python-format
+msgid "%i obsolete entries in the status file"
+msgstr "%i vanhentunutta tietoa tilatiedostossa"
+
+#: ../janitor/plugincore/plugins/dpkg_status_plugin.py:48
+msgid "Obsolete entries in dpkg status"
+msgstr "Vanhentuneita kohtia dpkg-tilatiedoissa"
+
+#. pragma: no cover
+#: ../janitor/plugincore/plugins/dpkg_status_plugin.py:51
+msgid "Obsolete dpkg status entries"
+msgstr "Vanhentuneita dpkg-tilatietoja"
+
+#: ../janitor/plugincore/plugins/remove_lilo_plugin.py:43
+msgid "Remove lilo since grub is also installed.(See bug #314004 for details.)"
+msgstr ""
+"Poista lilo, koska grub on myös asennettu (katso bugista #314004 lisätietoja)"
+
+#, python-format
+#~ msgid "Server for %s"
+#~ msgstr "Palvelin maalle %s"
+
+#~ msgid "Main server"
+#~ msgstr "Pääpalvelin"
+
+#~ msgid "Custom servers"
+#~ msgstr "Määrittele palvelin"
+
+#~ msgid "Could not calculate sources.list entry"
+#~ msgstr "sources.list-riviä ei voi laskea"
+
+#~ msgid ""
+#~ "Unable to locate any package files, perhaps this is not a Ubuntu Disc or "
+#~ "the wrong architecture?"
+#~ msgstr ""
+#~ "Pakettitiedostoja ei löydetty. Ehkä tämä ei ole Ubuntu-levy, tai kyseessä "
+#~ "on väärä arkkitehtuuri?"
+
+#~ msgid "Failed to add the CD"
+#~ msgstr "CD-levyä ei voitu lisätä"
+
+#, python-format
+#~ msgid ""
+#~ "There was a error adding the CD, the upgrade will abort. Please report "
+#~ "this as a bug if this is a valid Ubuntu CD.\n"
+#~ "\n"
+#~ "The error message was:\n"
+#~ "'%s'"
+#~ msgstr ""
+#~ "CD-levyä lisättäessä tapahtui virhe, päivitys keskeytyy. Tee tästä "
+#~ "virheraportti, jos kyseessä on toimiva Ubuntu-CD.\n"
+#~ "\n"
+#~ "Virheilmoitus oli:\n"
+#~ "\"%s\""
+
+#~ msgid "Remove package in bad state"
+#~ msgid_plural "Remove packages in bad state"
+#~ msgstr[0] "Poista huonossa tilassa oleva paketti"
+#~ msgstr[1] "Poista huonossa tilassa olevat paketit"
+
+#, python-format
+#~ msgid ""
+#~ "The package '%s' is in an inconsistent state and needs to be reinstalled, "
+#~ "but no archive can be found for it. Do you want to remove this package "
+#~ "now to continue?"
+#~ msgid_plural ""
+#~ "The packages '%s' are in an inconsistent state and need to be "
+#~ "reinstalled, but no archives can be found for them. Do you want to remove "
+#~ "these packages now to continue?"
+#~ msgstr[0] ""
+#~ "Paketti ”%s” on ristiriitaisessa tilassa ja se tulee asentaa uudelleen, "
+#~ "mutta sen pakettitiedostoa ei löydy. Haluatko poistaa tämän paketin nyt "
+#~ "jatkaaksesi?"
+#~ msgstr[1] ""
+#~ "Paketit ”%s” ovat ristiriitaisessa tilassa ja ne tulee asentaa uudelleen, "
+#~ "mutta niiden pakettitiedostoja ei löydy. Haluatko poistaa nämä paketit "
+#~ "nyt jatkaaksesi?"
+
+#~ msgid "The server may be overloaded"
+#~ msgstr "Palvelin saattaa olla ylikuormitettu"
+
+#~ msgid "Broken packages"
+#~ msgstr "Rikkinäisiä paketteja"
+
+#~ msgid ""
+#~ "Your system contains broken packages that couldn't be fixed with this "
+#~ "software. Please fix them first using synaptic or apt-get before "
+#~ "proceeding."
+#~ msgstr ""
+#~ "Järjestelmä sisältää rikkinäisiä paketteja, joita ei voitu korjata tällä "
+#~ "ohjelmalla. Korjaa ne käyttämällä synapticia tai apt-get -komentoa ennen "
+#~ "jatkamista."
+
+#, python-format
+#~ msgid ""
+#~ "An unresolvable problem occurred while calculating the upgrade:\n"
+#~ "%s\n"
+#~ "\n"
+#~ " This can be caused by:\n"
+#~ " * Upgrading to a pre-release version of Ubuntu\n"
+#~ " * Running the current pre-release version of Ubuntu\n"
+#~ " * Unofficial software packages not provided by Ubuntu\n"
+#~ "\n"
+#~ msgstr ""
+#~ "Päivitystä määriteltäessä tapahtui ratkaisematon ongelma:\n"
+#~ "%s\n"
+#~ "\n"
+#~ " Tämä voi johtua:\n"
+#~ " * Päivittämisestä Ubuntun julkaisemattomaan kehitysversioon\n"
+#~ " * Ubuntun tämänhetkisen kehitysversion käyttämisestä\n"
+#~ " * Ubuntuun kuulumattomien, epävirallisten ohjelmapakettien "
+#~ "käyttämisestä\n"
+#~ "\n"
+
+#~ msgid "This is most likely a transient problem, please try again later."
+#~ msgstr "Tämä on luultavasti hetkellinen ongelma. Yritä myöhemmin uudelleen."
+
+#~ msgid ""
+#~ "If none of this applies, then please report this bug using the command "
+#~ "'ubuntu-bug update-manager' in a terminal."
+#~ msgstr ""
+#~ "Jos mikään näistä ei täsmää, niin ilmoita ohjelmistovirheestä "
+#~ "kirjoittamalla päätteeseen \"ubuntu-bug update-manager\"."
+
+#~ msgid "Error authenticating some packages"
+#~ msgstr "Joitain paketteja todennettaessa tapahtui virhe"
+
+#~ msgid ""
+#~ "It was not possible to authenticate some packages. This may be a "
+#~ "transient network problem. You may want to try again later. See below for "
+#~ "a list of unauthenticated packages."
+#~ msgstr ""
+#~ "Joitain paketteja ei voitu todentaa. Tämä voi olla ohimenevä verkko-"
+#~ "ongelma. Voit yrittää myöhemmin uudelleen. Alla on luettelo "
+#~ "todentamattomista paketeista."
+
+#, python-format
+#~ msgid ""
+#~ "The package '%s' is marked for removal but it is in the removal blacklist."
+#~ msgstr ""
+#~ "Paketti \"%s\" on merkitty poistettavaksi, mutta se on poistojen "
+#~ "estolistalla."
+
+#, python-format
+#~ msgid "The essential package '%s' is marked for removal."
+#~ msgstr "Pakollinen paketti \"%s\" on merkitty poistettavaksi."
+
+#, python-format
+#~ msgid "Trying to install blacklisted version '%s'"
+#~ msgstr ""
+#~ "Paketista yritetään asentaa mustalla listalla olevaa versiota \"%s\""
+
+#, python-format
+#~ msgid "Can't install '%s'"
+#~ msgstr "Ei voitu asentaa pakettia \"%s\""
+
+#~ msgid ""
+#~ "It was impossible to install a required package. Please report this as a "
+#~ "bug using 'ubuntu-bug update-manager' in a terminal."
+#~ msgstr ""
+#~ "Oli mahdotonta asentaa vaadittu paketti. Ilmoita tästä "
+#~ "ohjelmistovirheestä kirjoittamalla päätteeseen \"ubuntu-bug update-manager"
+#~ "\"."
+
+#~ msgid "Can't guess meta-package"
+#~ msgstr "Metapakettia ei voitu arvata"
+
+#~ msgid ""
+#~ "Your system does not contain a ubuntu-desktop, kubuntu-desktop, xubuntu-"
+#~ "desktop or edubuntu-desktop package and it was not possible to detect "
+#~ "which version of Ubuntu you are running.\n"
+#~ " Please install one of the packages above first using synaptic or apt-get "
+#~ "before proceeding."
+#~ msgstr ""
+#~ "Järjestelmääsi ei ole asennettu ubuntu-desktop-, kubuntu-desktop-, "
+#~ "xubuntu-desktop- tai edubuntu-desktop-pakettia, joten käytössä olevaa "
+#~ "Ubuntun versiota ei voitu tunnistaa.\n"
+#~ "Asenna jokin luetelluista paketeista synapticilla tai apt-get-ohjelmalla "
+#~ "ennen jatkamista."
+
+#~ msgid "Reading cache"
+#~ msgstr "Luetaan välimuistia"
+
+#~ msgid "Unable to get exclusive lock"
+#~ msgstr "Ei saatu haluttua lukitusta"
+
+#~ msgid ""
+#~ "This usually means that another package management application (like apt-"
+#~ "get or aptitude) already running. Please close that application first."
+#~ msgstr ""
+#~ "Tämä tarkoittaa yleensä, että toinen pakettienhallintaohjelma (kuten apt-"
+#~ "get tai aptitude) on jo käynnissä. Sulje tämä toinen ohjelma ensin."
+
+#~ msgid "Upgrading over remote connection not supported"
+#~ msgstr "Päivittäminen etäyhteyden yli ei ole tuettu"
+
+#~ msgid ""
+#~ "You are running the upgrade over a remote ssh connection with a frontend "
+#~ "that does not support this. Please try a text mode upgrade with 'do-"
+#~ "release-upgrade'.\n"
+#~ "\n"
+#~ "The upgrade will abort now. Please try without ssh."
+#~ msgstr ""
+#~ "Versiopäivitys ssh-yhteyden välityksellä ei ole tuettu. Jos haluat tehdä "
+#~ "versiopäivityksen ssh-yhteyden välityksellä, kirjoita komentoriville 'do-"
+#~ "release-upgrade'.\n"
+#~ "\n"
+#~ "Päivitys sulkeutuu nyt. Jos mahdollista, suorita päivitys käyttämättä ssh-"
+#~ "yhteyttä."
+
+#~ msgid "Continue running under SSH?"
+#~ msgstr "Jatka käyttäen SSH:ta?"
+
+#, python-format
+#~ msgid ""
+#~ "This session appears to be running under ssh. It is not recommended to "
+#~ "perform a upgrade over ssh currently because in case of failure it is "
+#~ "harder to recover.\n"
+#~ "\n"
+#~ "If you continue, an additional ssh daemon will be started at port '%s'.\n"
+#~ "Do you want to continue?"
+#~ msgstr ""
+#~ "Nykyinen istunto on muodostettu ssh-protokollan välityksellä. Päivitys "
+#~ "ssh:n välityksellä ei ole suositeltavaa, sillä mahdollisessa "
+#~ "virhetilanteessa palautuminen saattaa olla vaikeaa.\n"
+#~ "\n"
+#~ "Jos jatkat, ylimääräinen ssh-palvelu avataan porttiin '%s'.\n"
+#~ "Haluatko jatkaa?"
+
+#~ msgid "Starting additional sshd"
+#~ msgstr "Käynnistän ylimääräisen SSH-palvelimen"
+
+#, python-format
+#~ msgid ""
+#~ "To make recovery in case of failure easier, an additional sshd will be "
+#~ "started on port '%s'. If anything goes wrong with the running ssh you can "
+#~ "still connect to the additional one.\n"
+#~ msgstr ""
+#~ "Jotta toipuminen ongelmatilanteesta olisi helpompaa,  käynnistetään "
+#~ "porttiin \"%s\" ylimääräinen SSH-palvelin. Jos jokin menee pieleen "
+#~ "nykyisen SSH-istunnon kanssa, voit silti yhdistää tähän uuteen.\n"
+
+#, python-format
+#~ msgid ""
+#~ "If you run a firewall, you may need to temporarily open this port. As "
+#~ "this is potentially dangerous it's not done automatically. You can open "
+#~ "the port with e.g.:\n"
+#~ "'%s'"
+#~ msgstr ""
+#~ "Jos käytössäsi on palomuuri, tämän portin avaaminen väliaikaisesti "
+#~ "saattaa olla tarpeen. Koska portin avaus saattaa aiheuttaa "
+#~ "tietoturvauhan, porttia ei avata automaattisesti. Voit avata portin "
+#~ "seuraavasti:\n"
+#~ "'%s'"
+
+#~ msgid "Can not upgrade"
+#~ msgstr "Päivitys ei onnistu"
+
+#, python-format
+#~ msgid "An upgrade from '%s' to '%s' is not supported with this tool."
+#~ msgstr "Tämä työkalu ei tue päivitystä \"%s\" -> \"%s\"."
+
+#~ msgid "Sandbox setup failed"
+#~ msgstr "Hiekkalaatikon asettaminen epäonnistui"
+
+#~ msgid "It was not possible to create the sandbox environment."
+#~ msgstr "Hiekkalaatikkoympäristöä ei ollut mahdollista luoda."
+
+#~ msgid "Sandbox mode"
+#~ msgstr "Hiekkalaatikko-tila"
+
+#, python-format
+#~ msgid ""
+#~ "This upgrade is running in sandbox (test) mode. All changes are written "
+#~ "to '%s' and will be lost on the next reboot.\n"
+#~ "\n"
+#~ "*No* changes written to a system directory from now until the next reboot "
+#~ "are permanent."
+#~ msgstr ""
+#~ "Päivitys ajetaan rajoitetussa hiekkalaatikko- eli testiympäristössä. "
+#~ "Muutokset tallennetaan hakemistoon '%s' ja ne katoavat seuraavan "
+#~ "uudelleenkäynnistyksen yhteydessä.\n"
+#~ "\n"
+#~ "*Mitään* muuotoksia ei tallenneta järjestelmähakemistoon tästä hetkestä "
+#~ "lähtien seuraavaan uudelleenkäynnistykseen"
+
+#~ msgid ""
+#~ "Your python install is corrupted. Please fix the '/usr/bin/python' "
+#~ "symlink."
+#~ msgstr ""
+#~ "Python-asennuksesi on viallinen. Korjaa symbolinen linkki \"/usr/bin/"
+#~ "python\"."
+
+#~ msgid "Package 'debsig-verify' is installed"
+#~ msgstr "Paketti \"debsig-verify\" on asennettu"
+
+#~ msgid ""
+#~ "The upgrade can not continue with that package installed.\n"
+#~ "Please remove it with synaptic or 'apt-get remove debsig-verify' first "
+#~ "and run the upgrade again."
+#~ msgstr ""
+#~ "Päivitys ei voi jatkua kyseisen paketin ollessa asennettu.\n"
+#~ "Poista paketti Synaptic-ohjelmalla tai komennolla \"apt-get remove debsig-"
+#~ "verify\" ja käynnistä päivitys uudelleen."
+
+#, python-format
+#~ msgid "Can not write to '%s'"
+#~ msgstr "Ei voida kirjoittaa kohteeseen \"%s\""
+
+#, python-format
+#~ msgid ""
+#~ "Its not possible to write to the system directory '%s' on your system. "
+#~ "The upgrade can not continue.\n"
+#~ "Please make sure that the system directory is writable."
+#~ msgstr ""
+#~ "Hakemistoon '%s' ei voida tehdä muutoksia. Päivitystä ei voida jatkaa.\n"
+#~ "Varmista, että kansiolla on kirjoitusoikeudet."
+
+#~ msgid "Include latest updates from the Internet?"
+#~ msgstr "Sisällytä uusimmat päivitykset Internetistä?"
+
+#~ msgid ""
+#~ "The upgrade system can use the internet to automatically download the "
+#~ "latest updates and install them during the upgrade.  If you have a "
+#~ "network connection this is highly recommended.\n"
+#~ "\n"
+#~ "The upgrade will take longer, but when it is complete, your system will "
+#~ "be fully up to date.  You can choose not to do this, but you should "
+#~ "install the latest updates soon after upgrading.\n"
+#~ "If you answer 'no' here, the network is not used at all."
+#~ msgstr ""
+#~ "Päivitysjärjestelmä voi ladata Internetistä uusimmat päivitykset "
+#~ "automaattisesti ja asentaa ne päivityksen aikana. Jos sinulla on "
+#~ "verkkoyhteys käytettävissä, tämä on hyvin suositeltavaa.\n"
+#~ "\n"
+#~ "Päivitys kestää tällöin pidempään, mutta valmistuttuaan järjestelmä on "
+#~ "täysin ajan tasalla. Jos et tee tätä nyt, uusimmat päivitykset tulee joka "
+#~ "tapauksessa ladata pian päivityksen jälkeen.\n"
+#~ "Jos vastaat \"ei\" tähän, verkkoa ei käytetä lainkaan."
+
+#, python-format
+#~ msgid "disabled on upgrade to %s"
+#~ msgstr "otettu pois käytöstä päivitettäessä versioon %s"
+
+#~ msgid "No valid mirror found"
+#~ msgstr "Sopivaa peilipalvelinta ei löytynyt"
+
+#, python-format
+#~ msgid ""
+#~ "While scanning your repository information no mirror entry for the "
+#~ "upgrade was found. This can happen if you run a internal mirror or if the "
+#~ "mirror information is out of date.\n"
+#~ "\n"
+#~ "Do you want to rewrite your 'sources.list' file anyway? If you choose "
+#~ "'Yes' here it will update all '%s' to '%s' entries.\n"
+#~ "If you select 'No' the upgrade will cancel."
+#~ msgstr ""
+#~ "Ohjelmalähteen tietoja luettaessa ei löytynyt merkintää päivityksestä. "
+#~ "Tämä voi tapahtua jos käytössäsi on yksityinen ohjelmalähde tai "
+#~ "ohjelmalähteen tiedot eivät ole ajan tasalla.\n"
+#~ "\n"
+#~ "Korvataanko \"sources.list\"-tiedosto joka tapauksessa? Jos valitset "
+#~ "\"Kyllä\", jokainen \"%s\" muutetaan muotoon \"%s\"."
+
+#~ msgid "Generate default sources?"
+#~ msgstr "Lisätäänkö oletusohjelmalähteet?"
+
+#, python-format
+#~ msgid ""
+#~ "After scanning your 'sources.list' no valid entry for '%s' was found.\n"
+#~ "\n"
+#~ "Should default entries for '%s' be added? If you select 'No', the upgrade "
+#~ "will cancel."
+#~ msgstr ""
+#~ "”sources.list”-tiedostosta ei löytynyt kelvollista riviä lähteelle ”%s”.\n"
+#~ "\n"
+#~ "Tulisiko lähteen ”%s” oletusrivit lisätä? Jos valitse ”Ei”, päivitys "
+#~ "keskeytyy."
+
+#~ msgid "Repository information invalid"
+#~ msgstr "Virhe ohjelmalähdetiedoissa"
+
+#~ msgid ""
+#~ "Upgrading the repository information resulted in a invalid file so a bug "
+#~ "reporting process is being started."
+#~ msgstr ""
+#~ "Ohjelmistolähdetietojen päivitys tuotti virheellisen tiedoston, joten "
+#~ "vianilmoitusprosessi käynnistetään."
+
+#~ msgid "Third party sources disabled"
+#~ msgstr "Kolmannen osapuolen ohjelmalähteet poissa käytöstä"
+
+#~ msgid ""
+#~ "Some third party entries in your sources.list were disabled. You can re-"
+#~ "enable them after the upgrade with the 'software-properties' tool or your "
+#~ "package manager."
+#~ msgstr ""
+#~ "Jotkin kolmannen osapuolen lähteet sources.list-tiedostossa ovat nyt "
+#~ "poissa käytöstä. Voit ottaa ne uudelleen käyttöön päivityksen jälkeen "
+#~ "\"Ohjelmalähteet\"-työkalulla tai pakettienhallintaohjelmalla."
+
+#~ msgid "Package in inconsistent state"
+#~ msgid_plural "Packages in inconsistent state"
+#~ msgstr[0] "Paketti ristiriitaisessa tilassa"
+#~ msgstr[1] "Paketteja ristiriitaisessa tilassa"
+
+#, python-format
+#~ msgid ""
+#~ "The package '%s' is in an inconsistent state and needs to be reinstalled, "
+#~ "but no archive can be found for it. Please reinstall the package manually "
+#~ "or remove it from the system."
+#~ msgid_plural ""
+#~ "The packages '%s' are in an inconsistent state and need to be "
+#~ "reinstalled, but no archive can be found for them. Please reinstall the "
+#~ "packages manually or remove them from the system."
+#~ msgstr[0] ""
+#~ "Paketti ”%s” on ristiriitaisessa tilassa ja se tulee asentaa uudelleen, "
+#~ "mutta sen pakettitiedostoa ei löydy. Asenna paketti uudelleen käsin tai "
+#~ "poista se järjestelmästä."
+#~ msgstr[1] ""
+#~ "Paketit ”%s” ovat ristiriitaisessa tilassa ja ne tulee asentaa uudelleen, "
+#~ "mutta niiden pakettitiedostoja ei löydy. Asenna paketit uudelleen käsin "
+#~ "tai poista ne järjestelmästä."
+
+#~ msgid "Error during update"
+#~ msgstr "Virhe päivitettäessä"
+
+#, python-format
+#~ msgid ""
+#~ "The upgrade has aborted. The upgrade needs a total of %s free space on "
+#~ "disk '%s'. Please free at least an additional %s of disk space on '%s'. "
+#~ "Empty your trash and remove temporary packages of former installations "
+#~ "using 'sudo apt-get clean'."
+#~ msgstr ""
+#~ "Päivitys on keskeytynyt. Päivitys vaatii yhteensä %s vapaata tilaa "
+#~ "levyllä ”%s”. Vapauta siis vähintään %s lisää tilaa levyllä ”%s”. "
+#~ "Tyhjennä roskakori sekä poista aiempien asennusten väliaikaiset tiedostot "
+#~ "komennolla ”sudo apt-get clean”."
+
+#~ msgid "Calculating the changes"
+#~ msgstr "Lasketaan muutoksia"
+
+#~ msgid "Do you want to start the upgrade?"
+#~ msgstr "Haluatko aloittaa päivityksen?"
+
+#~ msgid "Upgrade canceled"
+#~ msgstr "Päivitys peruttiin"
+
+#~ msgid ""
+#~ "The upgrade will cancel now and the original system state will be "
+#~ "restored. You can resume the upgrade at a later time."
+#~ msgstr ""
+#~ "Päivitys perutaan ja järjestelmän alkuperäinen tila palautetaan. Voit "
+#~ "jatkaa päivitystä halutessasi myöhemmin."
+
+#~ msgid "Could not download the upgrades"
+#~ msgstr "Päivityksiä ei voitu noutaa"
+
+#~ msgid ""
+#~ "The upgrade has aborted. Please check your Internet connection or "
+#~ "installation media and try again. All files downloaded so far have been "
+#~ "kept."
+#~ msgstr ""
+#~ "Päivitys on keskeytynyt. Tarkista Internet-yhteytesi tai asennusmedia ja "
+#~ "yritä uudelleen. Kaikki ladatut tiedostot on toistaiseksi pidetty."
+
+#~ msgid "Error during commit"
+#~ msgstr "Virhe suoritettaessa"
+
+#~ msgid "Restoring original system state"
+#~ msgstr "Palautetaan alkuperäistä järjestelmän tilaa"
+
+#~ msgid "Could not install the upgrades"
+#~ msgstr "Päivityksiä ei voitu asentaa"
+
+#~ msgid ""
+#~ "The upgrade has aborted. Your system could be in an unusable state. A "
+#~ "recovery will run now (dpkg --configure -a)."
+#~ msgstr ""
+#~ "Päivitys on keskeytynyt. Järjestelmä saattaa olla epävakaassa tilassa. "
+#~ "Palautuskomento suoritetaan nyt (dpkg --configure -a)."
+
+#, python-format
+#~ msgid ""
+#~ "\n"
+#~ "\n"
+#~ "Please report this bug in a browser at http://bugs.launchpad.net/ubuntu/"
+#~ "+source/update-manager/+filebug and attach the files in /var/log/dist-"
+#~ "upgrade/ to the bug report.\n"
+#~ "%s"
+#~ msgstr ""
+#~ "\n"
+#~ "\n"
+#~ "Ilmoita ongelmasta selaimellasi osoitteessa http://bugs.launchpad.net/"
+#~ "ubuntu/+source/update-manager/+filebug ja liitä kansiossa /var/log/dist-"
+#~ "upgrade/ olevat tiedostot mukaan ilmoitukseen.\n"
+#~ "%s"
+
+#~ msgid ""
+#~ "The upgrade has aborted. Please check your Internet connection or "
+#~ "installation media and try again. "
+#~ msgstr ""
+#~ "Päivitys on keskeytynyt. Tarkista Internet-yhteytesi tai asennusmediasi "
+#~ "ja yritä uudelleen. "
+
+#~ msgid "Remove obsolete packages?"
+#~ msgstr "Poistetaanko vanhentuneet paketit?"
+
+#~ msgid "_Keep"
+#~ msgstr "_Säilytä"
+
+#~ msgid "_Remove"
+#~ msgstr "_Poista"
+
+#~ msgid ""
+#~ "A problem occurred during the clean-up. Please see the below message for "
+#~ "more information. "
+#~ msgstr ""
+#~ "Siistimisvaiheessa ilmeni ongelma. Lisätietoja alla olevassa viestissä. "
+
+#~ msgid "Required depends is not installed"
+#~ msgstr "Vaadittuja riippuvuuksia ei ole asennettu"
+
+#, python-format
+#~ msgid "The required dependency '%s' is not installed. "
+#~ msgstr "Vaadittu riippuvuus \"%s\" ei ole asennettu. "
+
+#~ msgid "Checking package manager"
+#~ msgstr "Tarkistetaan pakettienhallintaa"
+
+#~ msgid "Preparing the upgrade failed"
+#~ msgstr "Päivityksen valmistelu epäonnistui"
+
+#~ msgid ""
+#~ "Preparing the system for the upgrade failed so a bug reporting process is "
+#~ "being started."
+#~ msgstr ""
+#~ "Järjestelmän valmistelu versiopäivitystä varten epäonnistui, joten "
+#~ "vianilmoitusprosessi käynnistetään."
+
+#~ msgid "Getting upgrade prerequisites failed"
+#~ msgstr "Päivityksen esivaatimusten nouto epäonnistui"
+
+#~ msgid ""
+#~ "The system was unable to get the prerequisites for the upgrade. The "
+#~ "upgrade will abort now and restore the original system state.\n"
+#~ "\n"
+#~ "Additionally, a bug reporting process is being started."
+#~ msgstr ""
+#~ "Päivityksen esivaatimuksia ei saatu, ja päivitys lopetetaan. Järjestelmä "
+#~ "palautetaan alkuperäiseen tilaansa.\n"
+#~ "\n"
+#~ "Virheraportointityökalu käynnistetään."
+
+#~ msgid "Updating repository information"
+#~ msgstr "Päivitetään ohjelmalähdetietoja"
+
+#~ msgid "Failed to add the cdrom"
+#~ msgstr "CD-levyn lisääminen ei onnistunut"
+
+#~ msgid "Sorry, adding the cdrom was not successful."
+#~ msgstr "CD-levyn lisääminen ei onnistunut"
+
+#~ msgid "Invalid package information"
+#~ msgstr "Pakettitiedot viallisia"
+
+#~ msgid "Fetching"
+#~ msgstr "Noudetaan"
+
+#~ msgid "Upgrading"
+#~ msgstr "Päivitetään"
+
+#~ msgid ""
+#~ "The upgrade has completed but there were errors during the upgrade "
+#~ "process."
+#~ msgstr "Päivitys valmistui, mutta päivityksen yhteydessä tapahtui virheitä."
+
+#~ msgid "Searching for obsolete software"
+#~ msgstr "Etsitään vanhentuneita ohjelmistoja"
+
+#~ msgid "System upgrade is complete."
+#~ msgstr "Järjestelmän päivitys on valmis."
+
+#~ msgid "The partial upgrade was completed."
+#~ msgstr "Osittainen päivitys valmistui."
+
+#~ msgid "evms in use"
+#~ msgstr "evms on käytössä"
+
+#~ msgid ""
+#~ "Your system uses the 'evms' volume manager in /proc/mounts. The 'evms' "
+#~ "software is no longer supported, please switch it off and run the upgrade "
+#~ "again when this is done."
+#~ msgstr ""
+#~ "/proc/mounts -tiedoston mukaan järjestelmässäsi on käytössä evms-"
+#~ "taltionhallinta. evms-ohjelmistoa ei enää tueta, joten ole hyvä ja poista "
+#~ "se käytöstä ja suorita päivitys uudelleen."
+
+#~ msgid ""
+#~ "Your graphics hardware may not be fully supported in Ubuntu 12.04 LTS."
+#~ msgstr ""
+#~ "Näytönohjaimesi ei välttämättä ole täysin tuettu Ubuntu 12.04 LTS -"
+#~ "versiossa."
+
+#~ msgid ""
+#~ "The support in Ubuntu 12.04 LTS for your Intel graphics hardware is "
+#~ "limited and you may encounter problems after the upgrade. For more "
+#~ "information see https://wiki.ubuntu.com/X/Bugs/"
+#~ "UpdateManagerWarningForI8xx Do you want to continue with the upgrade?"
+#~ msgstr ""
+#~ "Intel-näytönohjaimesi tuki on rajoittunut Ubuntu 12.04 LTS -versiossa, "
+#~ "joten saatat havaita ongelmia päivityksen jälkeen. Lisätietoja "
+#~ "englanniksi: https://wiki.ubuntu.com/X/Bugs/UpdateManagerWarningForI8xx - "
+#~ "Haluatko jatkaa päivitystä?"
+
+#~ msgid ""
+#~ "Upgrading may reduce desktop effects, and performance in games and other "
+#~ "graphically intensive programs."
+#~ msgstr ""
+#~ "Päivitys saattaa poistaa käytöstä visuaalisia tehosteita ja huonontaa "
+#~ "joidenkin pelien ja graafisesti raskaiden ohjelmien suorituskykyä."
+
+#~ msgid ""
+#~ "This computer is currently using the NVIDIA 'nvidia' graphics driver. No "
+#~ "version of this driver is available that works with your video card in "
+#~ "Ubuntu 10.04 LTS.\n"
+#~ "\n"
+#~ "Do you want to continue?"
+#~ msgstr ""
+#~ "Tämä tietokone käyttää tällä hetkellä NVIDIAn ”nvidia”-näyttöajuria. "
+#~ "Näytönohjaimesi kanssa toimivaa versiota tästä ajurista ei ole saatavilla "
+#~ "Ubuntu 10.04 LTS:lle.\n"
+#~ "\n"
+#~ "Haluatko jatkaa?"
+
+#~ msgid ""
+#~ "This computer is currently using the AMD 'fglrx' graphics driver. No "
+#~ "version of this driver is available that works with your hardware in "
+#~ "Ubuntu 10.04 LTS.\n"
+#~ "\n"
+#~ "Do you want to continue?"
+#~ msgstr ""
+#~ "Tämä tietokone käyttää tällä hetkellä AMD:n ”fglrx”-näyttöajuria. "
+#~ "Näytönohjaimesi kanssa toimivaa versiota tästä ajurista ei ole saatavilla "
+#~ "Ubuntu 10.04 LTS:lle.\n"
+#~ "\n"
+#~ "Haluatko jatkaa?"
+
+#~ msgid "No i686 CPU"
+#~ msgstr "Ei i686-suoritin"
+
+#~ msgid ""
+#~ "Your system uses an i586 CPU or a CPU that does not have the 'cmov' "
+#~ "extension. All packages were built with optimizations requiring i686 as "
+#~ "the minimal architecture. It is not possible to upgrade your system to a "
+#~ "new Ubuntu release with this hardware."
+#~ msgstr ""
+#~ "Järjestelmäsi käyttää i586-suoritinta tai muuta suoritinta, jossa ei ole "
+#~ "cmov-laajennusta. Kaikki paketit on käännetty asetuksin, jotka vaativat "
+#~ "vähintään i686-suorittimen. Nykyistä laitteistoasi ei siis ole "
+#~ "mahdollista päivittää uudempaan Ubuntu-versioon."
+
+#~ msgid "No ARMv6 CPU"
+#~ msgstr "Ei ARMv6-suoritinta"
+
+#~ msgid ""
+#~ "Your system uses an ARM CPU that is older than the ARMv6 architecture. "
+#~ "All packages in karmic were built with optimizations requiring ARMv6 as "
+#~ "the minimal architecture. It is not possible to upgrade your system to a "
+#~ "new Ubuntu release with this hardware."
+#~ msgstr ""
+#~ "Järjestelmässäsi on ARM-suoritin jonka arkkitehtuuri on vanhempi kuin "
+#~ "ARMv6. Kaikki Karmicin ohjelmapaketit on optimoitu siten, että ne "
+#~ "vaativat vähintään ARMv6-arkkitehtuuria tukevan suorittimen. Tästä syystä "
+#~ "järjestelmäsi päivittäminen uuteen Ubuntun julkaisuun ei ole mahdollista."
+
+#~ msgid "No init available"
+#~ msgstr "Init-palvelua ei löydy"
+
+#~ msgid ""
+#~ "Your system appears to be a virtualised environment without an init "
+#~ "daemon, e.g. Linux-VServer. Ubuntu 10.04 LTS cannot function within this "
+#~ "type of environment, requiring an update to your virtual machine "
+#~ "configuration first.\n"
+#~ "\n"
+#~ "Are you sure you want to continue?"
+#~ msgstr ""
+#~ "Järjestelmäsi vaikuttaisi toimivan virtualisoidussa ympäristössä, jossa "
+#~ "ei ole init-taustaohjelmaa. Tällaisia ovat esimerkiksi Linux-VServer. "
+#~ "Ubuntu 10.04 LTS ei toimi tällaisessa ympäristössä, vaan vaatii ensin "
+#~ "virtuaalikoneen asetusten päivitystä.\n"
+#~ "\n"
+#~ "Haluatko varmasti jatkaa?"
+
+#~ msgid "Sandbox upgrade using aufs"
+#~ msgstr "Hiekkalaatikkopäivitys aufs:ää käyttäen"
+
+#~ msgid "Use the given path to search for a cdrom with upgradable packages"
+#~ msgstr ""
+#~ "Käytä annettua polkua päivitettyjen pakettien etsimiseksi CD-levyltä."
+
+#~ msgid ""
+#~ "Use frontend. Currently available: \n"
+#~ "DistUpgradeViewText, DistUpgradeViewGtk, DistUpgradeViewKDE"
+#~ msgstr ""
+#~ "Valitse käyttöliittymä. Tällä hetkellä valittavissa ovat: \n"
+#~ "DistUpgradeViewText, DistUpgradeViewGtk, DistUpgradeViewKDE"
+
+#~ msgid "*DEPRECATED* this option will be ignored"
+#~ msgstr "*VANHENNETTU* tämä valitsin ohitetaan"
+
+#~ msgid "Perform a partial upgrade only (no sources.list rewriting)"
+#~ msgstr ""
+#~ "Suorita vain osittainen päivitys (ei sources.list-uudelleenkirjoitusta)"
+
+#~ msgid "Disable GNU screen support"
+#~ msgstr "Poista käytöstä GNU screen -tuki"
+
+#~ msgid "Set datadir"
+#~ msgstr "Aseta datahakemisto"
+
+#, python-format
+#~ msgid "Please insert '%s' into the drive '%s'"
+#~ msgstr "Aseta \"%s\" asemaan \"%s\""
+
+#~ msgid "Fetching is complete"
+#~ msgstr "Nouto on valmis"
+
+#, python-format
+#~ msgid "Fetching file %li of %li at %sB/s"
+#~ msgstr "Noudetaan tiedostoa %li/%li nopeudella %sB/s"
+
+#, python-format
+#~ msgid "About %s remaining"
+#~ msgstr "Noin %s jäljellä"
+
+#, python-format
+#~ msgid "Fetching file %li of %li"
+#~ msgstr "Noudetaan tiedostoa %li/%li"
+
+#~ msgid "Applying changes"
+#~ msgstr "Muutoksia toteutetaan"
+
+#~ msgid "dependency problems - leaving unconfigured"
+#~ msgstr "riippuvuusongelmia - jätetään asetukset säätämättä"
+
+#, python-format
+#~ msgid "Could not install '%s'"
+#~ msgstr "Pakettia \"%s\" ei voitu asentaa"
+
+#, python-format
+#~ msgid ""
+#~ "The upgrade will continue but the '%s' package may not be in a working "
+#~ "state. Please consider submitting a bug report about it."
+#~ msgstr ""
+#~ "Päivitys jatkuu mutta paketti %s ei välttämättä toimi päivityksen "
+#~ "jälkeen. Harkitse vikailmoituksen tekemistä virheestä."
+
+#, python-format
+#~ msgid ""
+#~ "Replace the customized configuration file\n"
+#~ "'%s'?"
+#~ msgstr ""
+#~ "Korvataanko alkuperäisestä muutettu asetustiedosto\n"
+#~ "\"%s\"?"
+
+#~ msgid ""
+#~ "You will lose any changes you have made to this configuration file if you "
+#~ "choose to replace it with a newer version."
+#~ msgstr ""
+#~ "Tähän asetustiedostoon tehdyt muutokset menetetään, jos se korvataan "
+#~ "uudemmalla versiolla."
+
+#~ msgid "The 'diff' command was not found"
+#~ msgstr "Komentoa 'diff' ei löytynyt"
+
+#~ msgid "A fatal error occurred"
+#~ msgstr "Tapahtui vakava virhe"
+
+#~ msgid ""
+#~ "Please report this as a bug (if you haven't already) and include the "
+#~ "files /var/log/dist-upgrade/main.log and /var/log/dist-upgrade/apt.log in "
+#~ "your report. The upgrade has aborted.\n"
+#~ "Your original sources.list was saved in /etc/apt/sources.list.distUpgrade."
+#~ msgstr ""
+#~ "Ilmoita tästä virheraportilla (jos et ole niin jo tehnyt) ja sisällytä "
+#~ "siihen tiedostot /var/log/dist-upgrade/main.log ja /var/log/dist-upgrade/"
+#~ "apt.log. Päivitys on keskeytynyt.\n"
+#~ "Alkuperäinen sources.list tallennettiin nimellä /etc/apt/sources.list."
+#~ "distUpgrade."
+
+#~ msgid "Ctrl-c pressed"
+#~ msgstr "Ctrl-c painettu"
+
+#~ msgid ""
+#~ "This will abort the operation and may leave the system in a broken state. "
+#~ "Are you sure you want to do that?"
+#~ msgstr ""
+#~ "Tämä keskeyttää toiminnon ja saattaa jättää järjestelmän rikkinäiseen "
+#~ "tilaan. Haluatko varmasti tehdä sen?"
+
+#~ msgid "To prevent data loss close all open applications and documents."
+#~ msgstr ""
+#~ "Jottei tietoja häviäisi, sulje kaikki avoinna olevat ohjelmat ja "
+#~ "asiakirjat."
+
+#, python-format
+#~ msgid "No longer supported by Canonical (%s)"
+#~ msgstr "Canonical ei enää tue seuraavia (%s)"
+
+#, python-format
+#~ msgid "<b>Downgrade (%s)</b>"
+#~ msgstr "<b>Varhenna (%s)</b>"
+
+#, python-format
+#~ msgid "Remove (%s)"
+#~ msgstr "Poista (%s)"
+
+#, python-format
+#~ msgid "No longer needed (%s)"
+#~ msgstr "Ei enää tarpeellinen (%s)"
+
+#, python-format
+#~ msgid "Install (%s)"
+#~ msgstr "Asenna (%s)"
+
+#, python-format
+#~ msgid "Upgrade (%s)"
+#~ msgstr "Päivitä (%s)"
+
+#~ msgid "Media Change"
+#~ msgstr "Median vaihto"
+
+#~ msgid "Show Difference >>>"
+#~ msgstr "Näytä erot >>>"
+
+#~ msgid "<<< Hide Difference"
+#~ msgstr "<<< Piilota erot"
+
+#~ msgid "Error"
+#~ msgstr "Virhe"
+
+#~ msgid "&Cancel"
+#~ msgstr "&Peru"
+
+#~ msgid "&Close"
+#~ msgstr "&Sulje"
+
+#~ msgid "Show Terminal >>>"
+#~ msgstr "Näytä pääte >>>"
+
+#~ msgid "<<< Hide Terminal"
+#~ msgstr "<<< Piilota pääte"
+
+#~ msgid "Information"
+#~ msgstr "Tiedot"
+
+#~ msgid "Details"
+#~ msgstr "Yksityiskohdat"
+
+#, python-format
+#~ msgid "No longer supported %s"
+#~ msgstr "Ei enää tuettu %s"
+
+#, python-format
+#~ msgid "Remove (was auto installed) %s"
+#~ msgstr "Poistetaan (oli automaattisesti asennettu) %s"
+
+#, python-format
+#~ msgid "Upgrade %s"
+#~ msgstr "Päivitä %s"
+
+#~ msgid "<b><big>Restart the system to complete the upgrade</big></b>"
+#~ msgstr ""
+#~ "<b><big>Käynnistä järjestelmä uudelleen päivityksen viimeistelemiseksi</"
+#~ "big></b>"
+
+#~ msgid ""
+#~ "<b><big>Cancel the running upgrade?</big></b>\n"
+#~ "\n"
+#~ "The system could be in an unusable state if you cancel the upgrade. You "
+#~ "are strongly advised to resume the upgrade."
+#~ msgstr ""
+#~ "<b><big>Peru käynnissä oleva päivitys?</big></b>\n"
+#~ "\n"
+#~ "Järjestelmä voi olla käyttökelvottomassa tilassa, jos perut päivityksen. "
+#~ "Päivityksen jatkaminen on erittäin suositeltavaa."
+
+#~ msgid "Cancel Upgrade?"
+#~ msgstr "Peru päivitys?"
+
+#, python-format
+#~ msgid "%li day"
+#~ msgid_plural "%li days"
+#~ msgstr[0] "%li päivä"
+#~ msgstr[1] "%li päivää"
+
+#, python-format
+#~ msgid "%li hour"
+#~ msgid_plural "%li hours"
+#~ msgstr[0] "%li tunti"
+#~ msgstr[1] "%li tuntia"
+
+#, python-format
+#~ msgid "%li minute"
+#~ msgid_plural "%li minutes"
+#~ msgstr[0] "%li minuutti"
+#~ msgstr[1] "%li minuuttia"
+
+#, python-format
+#~ msgid "%li second"
+#~ msgid_plural "%li seconds"
+#~ msgstr[0] "%li sekunti"
+#~ msgstr[1] "%li sekuntia"
+
+#, python-format
+#~ msgid "%(str_days)s %(str_hours)s"
+#~ msgstr "%(str_days)s %(str_hours)s"
+
+#, python-format
+#~ msgid "%(str_hours)s %(str_minutes)s"
+#~ msgstr "%(str_hours)s %(str_minutes)s"
+
+#, python-format
+#~ msgid ""
+#~ "This download will take about %s with a 1Mbit DSL connection and about %s "
+#~ "with a 56k modem."
+#~ msgstr ""
+#~ "Nouto kestää noin %s 1Mbit-DSL-yhteydellä ja noin %s 56kbit-modeemilla."
+
+#, python-format
+#~ msgid "This download will take about %s with your connection. "
+#~ msgstr "Nouto kestää yhteydelläsi noin %s. "
+
+#~ msgid "Preparing to upgrade"
+#~ msgstr "Valmistellaan päivitystä"
+
+#~ msgid "Getting new software channels"
+#~ msgstr "Noudetaan uusia ohjelmalähteitä"
+
+#~ msgid "Getting new packages"
+#~ msgstr "Haetaan uusia paketteja"
+
+#~ msgid "Installing the upgrades"
+#~ msgstr "Asennetaan päivityksiä"
+
+#~ msgid "Cleaning up"
+#~ msgstr "Siistitään"
+
+#, python-format
+#~ msgid ""
+#~ "%(amount)d installed package is no longer supported by Canonical. You can "
+#~ "still get support from the community."
+#~ msgid_plural ""
+#~ "%(amount)d installed packages are no longer supported by Canonical. You "
+#~ "can still get support from the community."
+#~ msgstr[0] ""
+#~ "Canonical ei enää tue %(amount)d asennettua pakettia. Voit edelleen "
+#~ "vastaanottaa yhteisön tarjoaman tuen."
+#~ msgstr[1] ""
+#~ "Canonical ei enää tue %(amount)d asennettua pakettia. Voit edelleen "
+#~ "vastaanottaa yhteisön tarjoaman tuen."
+
+#, python-format
+#~ msgid "%d new package is going to be installed."
+#~ msgid_plural "%d new packages are going to be installed."
+#~ msgstr[0] "%d uusi paketti asennetaan."
+#~ msgstr[1] "%d uutta pakettia asennetaan."
+
+#, python-format
+#~ msgid "%d package is going to be upgraded."
+#~ msgid_plural "%d packages are going to be upgraded."
+#~ msgstr[0] "%d paketti päivitetään."
+#~ msgstr[1] "%d pakettia päivitetään."
+
+#, python-format
+#~ msgid ""
+#~ "\n"
+#~ "\n"
+#~ "You have to download a total of %s. "
+#~ msgstr ""
+#~ "\n"
+#~ "\n"
+#~ "Noudettavaa yhteensä %s. "
+
+#~ msgid ""
+#~ "Installing the upgrade can take several hours. Once the download has "
+#~ "finished, the process cannot be canceled."
+#~ msgstr ""
+#~ "Versiopäivityksen asennus saattaa kestää useita tunteja. Kun lataus on "
+#~ "valmis, prosessia ei ole mahdollista perua."
+
+#~ msgid ""
+#~ "Fetching and installing the upgrade can take several hours. Once the "
+#~ "download has finished, the process cannot be canceled."
+#~ msgstr ""
+#~ "Päivitysten lataaminen ja asentaminen voi kestää useita tunteja. "
+#~ "Lataamisen valmistuttua päivitystä ei voi peruuttaa."
+
+#~ msgid "Removing the packages can take several hours. "
+#~ msgstr "Pakettien poisto saattaa kestää useita tunteja. "
+
+#~ msgid ""
+#~ "There are no upgrades available for your system. The upgrade will now be "
+#~ "canceled."
+#~ msgstr "Päivityksiä ei ole saatavilla järjestelmälle. Päivitys keskeytyy."
+
+#~ msgid "Reboot required"
+#~ msgstr "Uudelleenkäynnistys vaaditaan"
+
+#~ msgid ""
+#~ "The upgrade is finished and a reboot is required. Do you want to do this "
+#~ "now?"
+#~ msgstr ""
+#~ "Päivitys on valmis ja uudelleenkäynnistys vaaditaan. Haluatko käynnistää "
+#~ "tietokoneen uudelleen nyt?"
+
+#, python-format
+#~ msgid "authenticate '%(file)s' against '%(signature)s' "
+#~ msgstr "todentaa '%(file)s' vastaan '%(signature)s' "
+
+#, python-format
+#~ msgid "extracting '%s'"
+#~ msgstr "puretaan \"%s\""
+
+#~ msgid "Could not run the upgrade tool"
+#~ msgstr "Päivitystyökalua ei voitu suorittaa"
+
+#~ msgid ""
+#~ "This is most likely a bug in the upgrade tool. Please report it as a bug "
+#~ "using the command 'ubuntu-bug update-manager'."
+#~ msgstr ""
+#~ "Todennäköisesti vika päivitystyökalussa. Ilmoita se virheenä komennolla "
+#~ "\"ubuntu-bug update-manager\"."
+
+#~ msgid "Upgrade tool signature"
+#~ msgstr "Päivitystyökalun allekirjoitus"
+
+#~ msgid "Upgrade tool"
+#~ msgstr "Päivitystyökalu"
+
+#~ msgid "Failed to fetch"
+#~ msgstr "Nouto epäonnistui"
+
+#~ msgid "Fetching the upgrade failed. There may be a network problem. "
+#~ msgstr ""
+#~ "Päivityksen noutaminen epäonnistui. Tämä voi johtua verkko-ongelmasta. "
+
+#~ msgid "Authentication failed"
+#~ msgstr "Todennus epäonnistui"
+
+#~ msgid ""
+#~ "Authenticating the upgrade failed. There may be a problem with the "
+#~ "network or with the server. "
+#~ msgstr ""
+#~ "Päivityksen todennus epäonnistui. Tämä voi johtua ongelmasta "
+#~ "verkkoyhteydessä tai palvelimessa. "
+
+#~ msgid "Failed to extract"
+#~ msgstr "Purku epäonnistui"
+
+#~ msgid ""
+#~ "Extracting the upgrade failed. There may be a problem with the network or "
+#~ "with the server. "
+#~ msgstr ""
+#~ "Päivityksen purkaminen epäonnistui. Tämä voi johtua ongelmasta "
+#~ "verkkoyhteydessä tai palvelimessa. "
+
+#~ msgid "Verification failed"
+#~ msgstr "Varmennus epäonnistui"
+
+#~ msgid ""
+#~ "Verifying the upgrade failed.  There may be a problem with the network or "
+#~ "with the server. "
+#~ msgstr ""
+#~ "Päivityksen tarkistaminen epäonnistui. Tämä voi johtua ongelmasta "
+#~ "verkkoyhteydessä tai palvelimessa. "
+
+#~ msgid "Can not run the upgrade"
+#~ msgstr "Päivitystä ei voi suorittaa"
+
+#~ msgid ""
+#~ "This usually is caused by a system where /tmp is mounted noexec. Please "
+#~ "remount without noexec and run the upgrade again."
+#~ msgstr ""
+#~ "Tämä johtuu yleensä siitä, että /tmp on liitetty noexec-valintaa "
+#~ "käyttäen. Liitä /tmp uudelleen ilman noexec-valintaa ja suorita päivitys "
+#~ "uudelleen."
+
+#, python-format
+#~ msgid "The error message is '%s'."
+#~ msgstr "Virheviesti oli \"%s\"."
+
+#~ msgid ""
+#~ "Please report this as a bug and include the files /var/log/dist-upgrade/"
+#~ "main.log and /var/log/dist-upgrade/apt.log in your report. The upgrade "
+#~ "has aborted.\n"
+#~ "Your original sources.list was saved in /etc/apt/sources.list.distUpgrade."
+#~ msgstr ""
+#~ "Ilmoita tästä virheraportilla ja sisällytä siihen tiedostot /var/log/dist-"
+#~ "upgrade/main.log ja /var/log/dist-upgrade/apt.log. Päivitys on "
+#~ "keskeytynyt.\n"
+#~ "Alkuperäinen sources.list tallennettiin nimellä /etc/apt/sources.list."
+#~ "distUpgrade."
+
+#~ msgid "Aborting"
+#~ msgstr "Peruutetaan"
+
+#~ msgid "Demoted:\n"
+#~ msgstr "Alennettu:\n"
+
+#~ msgid "To continue please press [ENTER]"
+#~ msgstr "Jatka painamalla Enter"
+
+#~ msgid "Continue [yN] "
+#~ msgstr "Jatka [yN] "
+
+#~ msgid "Details [d]"
+#~ msgstr "Yksityiskohdat [d]"
+
+#~ msgid "y"
+#~ msgstr "y"
+
+#~ msgid "n"
+#~ msgstr "n"
+
+#~ msgid "d"
+#~ msgstr "d"
+
+#, python-format
+#~ msgid "No longer supported: %s\n"
+#~ msgstr "Ei enää tuettu: %s\n"
+
+#, python-format
+#~ msgid "Remove: %s\n"
+#~ msgstr "Poista: %s\n"
+
+#, python-format
+#~ msgid "Install: %s\n"
+#~ msgstr "Asenna: %s\n"
+
+#, python-format
+#~ msgid "Upgrade: %s\n"
+#~ msgstr "Päivitä: %s\n"
+
+#~ msgid "Continue [Yn] "
+#~ msgstr "Jatka [yN] "
+
+#~ msgid ""
+#~ "To finish the upgrade, a restart is required.\n"
+#~ "If you select 'y' the system will be restarted."
+#~ msgstr ""
+#~ "Uudelleenkäynnistys vaaditaan päivityksen saattamiseksi loppuun.\n"
+#~ "Jos valitset \"y\" (\"yes\" eli \"kyllä\") järjestelmä käynnistetään "
+#~ "uudelleen."
+
+#~ msgid "_Cancel Upgrade"
+#~ msgstr "_Peru päivitys"
+
+#~ msgid "_Resume Upgrade"
+#~ msgstr "_Jatka päivitystä"
+
+#~ msgid ""
+#~ "<b><big>Cancel the running upgrade?</big></b>\n"
+#~ "\n"
+#~ "The system could be in an unusable state if you cancel the upgrade. You "
+#~ "are strongly adviced to resume the upgrade."
+#~ msgstr ""
+#~ "<b><big>Peruuta käynnissä oleva päivitys?</big></b>\n"
+#~ "\n"
+#~ "Järjestelmä voi olla käyttökelvottomassa tilassa, jos peruutat "
+#~ "päivityksen. Päivityksen jatkaminen on erittäin suositeltavaa."
+
+#~ msgid "_Start Upgrade"
+#~ msgstr "_Aloita päivitys"
+
+#~ msgid "_Replace"
+#~ msgstr "_Korvaa"
+
+#~ msgid "Difference between the files"
+#~ msgstr "Tiedostojen väliset erot"
+
+#~ msgid "_Report Bug"
+#~ msgstr "_Tee virheraportti"
+
+#~ msgid "<b><big>Start the upgrade?</big></b>"
+#~ msgstr "<b><big>Aloitetaanko päivitys?</big></b>"
+
+#~ msgid ""
+#~ "<b><big>Restart the system to complete the upgrade</big></b>\n"
+#~ "\n"
+#~ "Please save your work before continuing."
+#~ msgstr ""
+#~ "<b><big>Käynnistä järjestelmä uudelleen, jotta päivitys valmistuu</big></"
+#~ "b>\n"
+#~ "\n"
+#~ "Tallenna työsi ennen jatkamista."
+
+#~ msgid "Distribution Upgrade"
+#~ msgstr "Jakelupäivitys"
+
+#, fuzzy
+#~ msgid "<b><big>Upgrading Ubuntu to version 12.10</big></b>"
+#~ msgstr "<b><big>Päivitetään Ubuntu versioon 11.10</big></b>"
+
+#~ msgid "    "
+#~ msgstr "    "
+
+#~ msgid "Setting new software channels"
+#~ msgstr "Asetetaan uusia ohjelmalähteitä"
+
+#~ msgid "Restarting the computer"
+#~ msgstr "Käynnistetään tietokone uudelleen"
+
+#~ msgid "Terminal"
+#~ msgstr "Pääte"
+
+#~ msgid "Could not find the release notes"
+#~ msgstr "Julkaisutietoja ei löytynyt"
+
+#~ msgid "The server may be overloaded. "
+#~ msgstr "Palvelin voi olla ylikuormitettu. "
+
+#~ msgid "Could not download the release notes"
+#~ msgstr "Julkaisutietoja ei voitu noutaa"
+
+#~ msgid "Please check your internet connection."
+#~ msgstr "Tarkista Internet-yhteytesi toimivuus."
+
+#~ msgid "Release Notes"
+#~ msgstr "Julkaisutiedot"
+
+#~ msgid "Downloading additional package files..."
+#~ msgstr "Noudetaan tarvittavia pakettitiedostoja..."
+
+#, python-format
+#~ msgid "File %s of %s at %sB/s"
+#~ msgstr "Tiedosto %s/%s nopeudella %sB/s"
+
+#, python-format
+#~ msgid "File %s of %s"
+#~ msgstr "Tiedosto %s/%s"
+
+#, python-format
+#~ msgid "Downloading file %(current)li of %(total)li with %(speed)s/s"
+#~ msgstr "Noudetaan tiedostoa %(current)li/%(total)li nopeudella %(speed)s/s"
+
+#, python-format
+#~ msgid "Downloading file %(current)li of %(total)li"
+#~ msgstr "Noudetaan tiedostoa %(current)li/%(total)li"
+
+#~ msgid "Your Ubuntu release is not supported anymore."
+#~ msgstr "Ubuntu-versiosi ei ole enää tuettu."
+
+#~ msgid ""
+#~ "You will not get any further security fixes or critical updates. Please "
+#~ "upgrade to a later version of Ubuntu."
+#~ msgstr ""
+#~ "Et tule enää saamaan turvallisuuspäivityksiä tai muita tärkeitä "
+#~ "päivityksiä. Päivitä uudempaan Ubuntu-versioon."
+
+#~ msgid "Upgrade information"
+#~ msgstr "Tietoja päivityksestä"
+
+#~ msgid "Name"
+#~ msgstr "Nimi"
+
+#~ msgid ""
+#~ "It is unknown when the package information was updated last. Please click "
+#~ "the 'Check' button to update the information."
+#~ msgstr ""
+#~ "Päivitysten viimeisin tarkistusajankohta ei ole tiedossa. Päivitä ne "
+#~ "napsauttamalla \"Tarkista\"."
+
+#, python-format
+#~ msgid ""
+#~ "The package information was last updated %(days_ago)s days ago.\n"
+#~ "Press the 'Check' button below to check for new software updates."
+#~ msgstr ""
+#~ "Päivitykset tarkistettiin viimeksi %(days_ago)s päivää sitten.\n"
+#~ "Etsi uusia ohjelmistopäivityksiä napsauttamalla ”Tarkista”."
+
+#, python-format
+#~ msgid "The package information was last updated %(days_ago)s day ago."
+#~ msgid_plural ""
+#~ "The package information was last updated %(days_ago)s days ago."
+#~ msgstr[0] "Päivitykset tarkistettiin viimeksi %(days_ago)s päivä sitten."
+#~ msgstr[1] "Päivitykset tarkistettiin viimeksi %(days_ago)s päivää sitten."
+
+#, python-format
+#~ msgid "The package information was last updated %(hours_ago)s hour ago."
+#~ msgid_plural ""
+#~ "The package information was last updated %(hours_ago)s hours ago."
+#~ msgstr[0] "Päivitykset tarkistettiin viimeksi %(hours_ago)s tunti sitten."
+#~ msgstr[1] "Päivitykset tarkistettiin viimeksi %(hours_ago)s tuntia sitten."
+
+#, python-format
+#~ msgid "The package information was last updated about %s minutes ago."
+#~ msgstr "Päivitykset tarkistettiin viimeksi %s minuuttia sitten."
+
+#~ msgid "The package information was just updated."
+#~ msgstr "Päivitykset tarkistettiin hetki sitten."
+
+#~ msgid "Software updates may be available for your computer."
+#~ msgstr "Ohjelmistopäivityksiä saattaa olla tarjolla tietokoneellesi."
+
+#~ msgid "Reading package information"
+#~ msgstr "Luetaan pakettitietoja"
+
+#~ msgid " (New install)"
+#~ msgstr " (uusi asennus)"
+
+#, python-format
+#~ msgid "(Size: %s)"
+#~ msgstr "(Koko: %s)"
+
+#, python-format
+#~ msgid "From version %(old_version)s to %(new_version)s"
+#~ msgstr "Versiosta %(old_version)s versioon %(new_version)s"
+
+#, python-format
+#~ msgid "Version %s"
+#~ msgstr "Versio %s"
+
+#~ msgid "Release upgrade not possible right now"
+#~ msgstr "Julkaisupäivitystä ei ole mahdollista suorittaa juuri nyt"
+
+#, c-format, python-format
+#~ msgid ""
+#~ "The release upgrade can not be performed currently, please try again "
+#~ "later. The server reported: '%s'"
+#~ msgstr ""
+#~ "Julkaisupäivitystä ei voi suorittaa juuri nyt, koeta myöhemmin uudelleen. "
+#~ "Palvelimen vastaus: '%s'"
+
+#~ msgid "Downloading the release upgrade tool"
+#~ msgstr "Noudetaan julkaisupäivitystyökalua"
+
+#, python-format
+#~ msgid "<b>New Ubuntu release '%s' is available</b>"
+#~ msgstr "<b>Uusi Ubuntu-julkaisu ”%s” on saatavilla</b>"
+
+#~ msgid "Cancel"
+#~ msgstr "Peru"
+
+#~ msgid "Changelog"
+#~ msgstr "Muutosluettelo"
+
+#~ msgid "Building Updates List"
+#~ msgstr "Rakennetaan päivitysluetteloa"
+
+#~ msgid ""
+#~ "\n"
+#~ "A normal upgrade can not be calculated, please run: \n"
+#~ "  sudo apt-get dist-upgrade\n"
+#~ "\n"
+#~ "\n"
+#~ "This can be caused by:\n"
+#~ " * A previous upgrade which didn't complete\n"
+#~ " * Problems with some of the installed software\n"
+#~ " * Unofficial software packages not provided by Ubuntu\n"
+#~ " * Normal changes of a pre-release version of Ubuntu"
+#~ msgstr ""
+#~ "\n"
+#~ "Tavallista päivitystä ei voi laskea. Suorita: \n"
+#~ "  sudo apt-get dist-upgrade\n"
+#~ "\n"
+#~ "\n"
+#~ "Tämä voi johtua seuraavista asioista:\n"
+#~ " * Edellinen päivitys ei valmistunut\n"
+#~ " * Ongelmia joidenkin asennettujen ohjelmistojen kanssa\n"
+#~ " * Käytössä on epävirallisia ohjelmapaketteja, joita Ubuntu ei tarjoa\n"
+#~ " * Kyse on tavallisista muutoksista Ubuntun esijulkaisuversiossa"
+
+#~ msgid "Downloading changelog"
+#~ msgstr "Noudetaan muutosluetteloa"
+
+#, python-format
+#~ msgid "Other updates (%s)"
+#~ msgstr "Muita päivityksiä (%s)"
+
+#~ msgid "Failed to detect distribution"
+#~ msgstr "Jakelun tunnistus epäonnistui"
+
+#, python-format
+#~ msgid "A error '%s' occurred while checking what system you are using."
+#~ msgstr "Järjestelmän tyypin tarkistamista tehtäessä tapahtui virhe \"%s\"."
+
+#~ msgid "Recommended updates"
+#~ msgstr "Suositellut päivitykset"
+
+#~ msgid "Proposed updates"
+#~ msgstr "Ehdotetut päivitykset"
+
+#~ msgid "Backports"
+#~ msgstr "Takaisinsovitukset"
+
+#~ msgid "Distribution updates"
+#~ msgstr "Jakelupäivitykset"
+
+#, fuzzy
+#~ msgid "<big><b>Starting Software Updater</b></big>"
+#~ msgstr "<big><b>Käynnistetään päivitysten hallintaa</b></big>"
+
+#~ msgid ""
+#~ "Software updates correct errors, eliminate security vulnerabilities and "
+#~ "provide new features."
+#~ msgstr ""
+#~ "Ohjelmistopäivitykset korjaavat ohjelmistojen mahdollisia virheitä ja "
+#~ "tietoturva-aukkoja sekä tarjoavat uusia ominaisuuksia."
+
+#~ msgid "Chec_k"
+#~ msgstr "_Tarkista"
+
+#~ msgid ""
+#~ "<b><big>You must check for updates manually</big></b>\n"
+#~ "\n"
+#~ "Your system does not check for updates automatically. You can configure "
+#~ "this behavior in <i>Software Sources</i> on the <i>Updates</i> tab."
+#~ msgstr ""
+#~ "<b><big>Päivitykset tulee tarkistaa käsin</big></b>\n"
+#~ "Järjestelmä ei tällä hetkellä seuraa päivityksiä automaattisesti. Voit "
+#~ "muuttaa näitä asetuksia <i>Ohjelmalähteet</i>-ylläpitotyökalun "
+#~ "<i>Päivitykset</i>-välilehdellä."
+
+#~ msgid "_Hide this information in the future"
+#~ msgstr "P_iilota tämä tieto jatkossa"
+
+#~ msgid "Co_ntinue"
+#~ msgstr "_Jatka"
+
+#~ msgid "<big><b>Running on battery</b></big>"
+#~ msgstr "<big><b>Akkukäytössä</b></big>"
+
+#~ msgid ""
+#~ "Your system is running on battery. Are you sure you want to continue?"
+#~ msgstr "Järjestelmä toimii akun varassa. Haluatko varmasti jatkaa?"
+
+#~ msgid "_Upgrade"
+#~ msgstr "_Päivitä"
+
+#~ msgid "Show progress of individual files"
+#~ msgstr "Näytä tiedostojen edistyminen"
+
+#, fuzzy
+#~ msgid "Starting Software Updater"
+#~ msgstr "Ohjelmistopäivitykset"
+
+#~ msgid "U_pgrade"
+#~ msgstr "_Päivitä"
+
+#~ msgid ""
+#~ "<b>A new version of Ubuntu is available. Would you like to upgrade?</b>"
+#~ msgstr ""
+#~ "<b>Uusi Ubuntun versio on saatavilla. Haluatko aloittaa päivityksen?</b>"
+
+#~ msgid "Don't Upgrade"
+#~ msgstr "Älä päivitä"
+
+#~ msgid "Yes, Upgrade Now"
+#~ msgstr "Kyllä, päivitä nyt"
+
+#~ msgid "You have declined to upgrade to the new Ubuntu"
+#~ msgstr "Valitsin päivittämisen uuteen Ubuntun versioon"
+
+#, fuzzy
+#~ msgid ""
+#~ "You can upgrade at a later time by opening Software Updater and click on "
+#~ "\"Upgrade\"."
+#~ msgstr ""
+#~ "Voit päivittää koska tahansa myöhemmin käynnistämällä Päivitysten "
+#~ "hallinta -sovelluksen ja napsauttamalla ”Päivitä”-painiketta."
+
+#~ msgid "Check if upgrading to the latest devel release is possible"
+#~ msgstr "Tarkista onko päivittäminen uusimpaan kehitysversioon mahdollista"
+
+#~ msgid "Try to run a dist-upgrade"
+#~ msgstr "Yritä ajaa jakelupäivitys (dist-upgrade)"
+
+#~ msgid "Test upgrade with a sandbox aufs overlay"
+#~ msgstr "Testaa päivitystä hiekkalaatikossa aufs-peitekerroksella"
+
+#~ msgid "Running partial upgrade"
+#~ msgstr "Suoritetaan osittaista päivitystä"
+
+#~ msgid "Show description of the package instead of the changelog"
+#~ msgstr "Näytä paketin kuvaus muutostietojen sijaan"
+
+#~ msgid ""
+#~ "Try upgrading to the latest release using the upgrader from $distro-"
+#~ "proposed"
+#~ msgstr ""
+#~ "Yritä päivittää uusimpaan julkaisuun käyttäen päivitysohjelmaa kohteesta "
+#~ "$distro-proposed"
+
+#~ msgid ""
+#~ "Run in a special upgrade mode.\n"
+#~ "Currently 'desktop' for regular upgrades of a desktop system and 'server' "
+#~ "for server systems are supported."
+#~ msgstr ""
+#~ "Suorita erityisessä päivitystilassa.\n"
+#~ "Tällä hetkellä tuettuina ovat \"desktop\" työpöytäjärjestelmän ja \"server"
+#~ "\" palvelinjärjestelmän päivittämiseen."
+
+#~ msgid "Run the specified frontend"
+#~ msgstr "Aja määritetty edustaohjelma"
+
+#~ msgid ""
+#~ "Check only if a new distribution release is available and report the "
+#~ "result via the exit code"
+#~ msgstr ""
+#~ "Tarkista vain onko uusi jakelujulkaisu saatavilla, ja kerro tulos "
+#~ "poistumiskoodilla"
+
+#~ msgid "Checking for a new Ubuntu release"
+#~ msgstr "Etsitään uutta Ubuntu-julkaisua"
+
+#~ msgid ""
+#~ "For upgrade information, please visit:\n"
+#~ "%(url)s\n"
+#~ msgstr ""
+#~ "Lisätietoja päivityksestä osoitteessa\n"
+#~ "%(url)\n"
+
+#~ msgid "No new release found"
+#~ msgstr "Uutta julkaisua ei löytynyt"
+
+#, c-format
+#~ msgid "New release '%s' available."
+#~ msgstr "Uusi julkaisu ”%s” saatavilla."
+
+#~ msgid "Run 'do-release-upgrade' to upgrade to it."
+#~ msgstr "Aja \"do-release-upgrade\" päivittääksesi siihen."
+
+#~ msgid "Ubuntu %(version)s Upgrade Available"
+#~ msgstr "Päivitys versioon Ubuntu %(version)s on saatavilla"
+
+#, c-format
+#~ msgid "You have declined the upgrade to Ubuntu %s"
+#~ msgstr "Voit valita päivityksen Ubuntun versioon %s"
+
+#~ msgid "Add debug output"
+#~ msgstr "Lisää virheenjäljitystiedot"
+
+#~ msgid "Show unsupported packages on this machine"
+#~ msgstr "Näytä tukemattomat paketit tällä laitteella"
+
+#~ msgid "Show supported packages on this machine"
+#~ msgstr "Näytä tuetut paketit tällä laitteella"
+
+#~ msgid "Show all packages with their status"
+#~ msgstr "Näytä kaikki paketit tukitiedon kanssa"
+
+#~ msgid "Show all packages in a list"
+#~ msgstr "Näytä luettelossa kaikki paketit"
+
+#, c-format
+#~ msgid "Support status summary of '%s':"
+#~ msgstr "Tukitiedot paketille \"%s\"."
+
+#~ msgid "You have %(num)s packages (%(percent).1f%%) supported until %(time)s"
+#~ msgstr ""
+#~ "Sinulla on %(num)s pakettia (%(percent).1f%%), jotka ovat tuettuja "
+#~ "%(time)s saakka."
+
+#~ msgid ""
+#~ "You have %(num)s packages (%(percent).1f%%) that can not/no-longer be "
+#~ "downloaded"
+#~ msgstr ""
+#~ "Sinulla on %(num)s pakettia (%(percent).1f%%) joita ei (enää) voida "
+#~ "ladata."
+
+#~ msgid "You have %(num)s packages (%(percent).1f%%) that are unsupported"
+#~ msgstr "Sinulla on %(num)s pakettia (%(percent).1f%%), joita ei tueta."
+
+#~ msgid ""
+#~ "Run with --show-unsupported, --show-supported or --show-all to see more "
+#~ "details"
+#~ msgstr ""
+#~ "Käynnistä valitsimella --show-unsupported, --show-supported tai --show-"
+#~ "all nähdäksesi lisätietoja"
+
+#~ msgid "No longer downloadable:"
+#~ msgstr "Ei enää ladattavissa:"
+
+#~ msgid "Unsupported: "
+#~ msgstr "Tukematon: "
+
+#, c-format
+#~ msgid "Supported until %s:"
+#~ msgstr "Tuettu %s saakka:"
+
+#~ msgid "Unsupported"
+#~ msgstr "Ei tuettu"
+
+#~ msgid ""
+#~ "After your package information was updated the essential package '%s' can "
+#~ "not be found anymore so a bug reporting process is being started."
+#~ msgstr ""
+#~ "Pakettitietojen päivittämisen jälkeen oleellista pakettia '%s' ei enää "
+#~ "löydy, joten vikailmoitusprosessi käynnistetään."
+
+#~ msgid "<b><big>Upgrading Ubuntu to version 12.04</big></b>"
+#~ msgstr "<b><big>Päivitetään Ubuntu versioon 12.04</big></b>"
+
+#~ msgid "%(count)s update has been selected."
+#~ msgid_plural "%(count)s updates have been selected."
+#~ msgstr[0] "%(count)s päivitys on valittu."
+#~ msgstr[1] "%(count)s päivitystä on valittu."
+
+#~ msgid "%(count_str)s %(download_str)s"
+#~ msgstr "%(count_str)s %(download_str)s"
+
+#~ msgid "Welcome to Ubuntu"
+#~ msgstr "Tervetuloa Ubuntuun"
+
+#~ msgid ""
+#~ "These software updates have been issued since this version of Ubuntu was "
+#~ "released."
+#~ msgstr ""
+#~ "Nämä ohjelmistopäivitykset on julkaistu vasta Ubuntun julkaisun jälkeen."
+
+#~ msgid "Update Manager"
+#~ msgstr "Päivitysten hallinta"
+
+#~ msgid "Starting Update Manager"
+#~ msgstr "Käynnistetään päivitysten hallintaa"
+
+#~ msgid "You are connected via a wireless modem."
+#~ msgstr "Langaton mobiiliyhteys on käytössä"
+
+#~ msgid "Checking for a new ubuntu release"
+#~ msgstr "Tarkistetaan onko uutta Ubuntu-julkaisua saatavilla"
+
+#~ msgid "Your system is up-to-date"
+#~ msgstr "Järjestelmäsi on ajan tasalla"
+
+#~ msgid ""
+#~ "This upgrade is running in sandbox (test) mode. All changes are written "
+#~ "to '%s' and will be lost on the next reboot.\n"
+#~ "\n"
+#~ "*No* changes written to a systemdir from now until the next reboot are "
+#~ "permanent."
+#~ msgstr ""
+#~ "Tämä päivitys suoritetaan hiekkalaatikko- eli testitilassa. Kaikki "
+#~ "kohteeseen ”%s” kirjoitetut muutokset hukataan, kun seuraavan kerran "
+#~ "käynnistetään uudelleen."
+
+#~ msgid ""
+#~ "Fetching and installing the upgrade can take several hours. Once the "
+#~ "download has finished, the process cannot be cancelled."
+#~ msgstr ""
+#~ "Ubuntu-päivityksen noutaminen ja asentaminen saattaa kestää useita "
+#~ "tunteja. Noutamisen päätyttyä päivityksen suoritusta ei voi enää "
+#~ "keskeyttää."
+
+#~ msgid "There are no updates to install"
+#~ msgstr "Ei päivityksiä asennettavaksi"
+
+#~ msgid "The update has already been downloaded, but not installed"
+#~ msgid_plural "The updates have already been downloaded, but not installed"
+#~ msgstr[0] "Päivitys on jo ladattu, mutta ei asennettu"
+#~ msgstr[1] "Päivitykset on jo ladattu, mutta ei asennettu"
+
+#~ msgid ""
+#~ "If you don't want to install them now, choose \"Update Manager\" from "
+#~ "Applications later."
+#~ msgstr ""
+#~ "Jos et halua asentaa niitä nyt, avaa ”Päivitysten hallinta” sovelluksista "
+#~ "myöhemmin."
+
+#~ msgid "%.0f kB"
+#~ msgstr "%.0f kt"
+
+#~ msgid "0 kB"
+#~ msgstr "0 kt"
+
+#~ msgid "1 kB"
+#~ msgstr "1 kt"
+
+#~ msgid ""
+#~ "The system was unable to get the prerequisites for the upgrade. The "
+#~ "upgrade will abort now and restore the original system state.\n"
+#~ "\n"
+#~ "Please report this as a bug using the command 'ubuntu-bug update-manager' "
+#~ "in a terminal and include the files in /var/log/dist-upgrade/ in the bug "
+#~ "report."
+#~ msgstr ""
+#~ "Järjestelmä ei saanut edellytyksiä päivitykseen. Päivitys keskeytyy nyt "
+#~ "ja palauttaa alkuperäisen järjestelmän tilan.\n"
+#~ "\n"
+#~ "\n"
+#~ "Ilmoita tämä virhe komennolla 'ubuntu-bug update-manager' päätteessä ja "
+#~ "sisällytä kansion /var/log/dist-upgrade/ tiedostot vikailmoitukseen."
+
+#~ msgid ""
+#~ "After your package information was updated the essential package '%s' can "
+#~ "not be found anymore.\n"
+#~ "This indicates a serious error, please report this bug using the command "
+#~ "'ubuntu-bug update-manager' in a terminal and include the files in /var/"
+#~ "log/dist-upgrade/ in the bug report."
+#~ msgstr ""
+#~ "Kun paketin tiedot päivitettiin olennainen paketti '%s' ei löydy enää.\n"
+#~ "Tämä kertoo vakavasta virheestä. Ilmoita tämä virhe komennolla 'ubuntu-"
+#~ "bug update-manager' päätteessä ja sisällytä kansion /var/log/dist-"
+#~ "upgrade/ tiedostot vikailmoitukseen."
+
+#~ msgid ""
+#~ "Preparing the system for the upgrade failed. Please report this using the "
+#~ "command 'ubuntu-bug update-manager' in a terminal and include the files "
+#~ "in /var/log/dist-upgrade/ in the bug report."
+#~ msgstr ""
+#~ "Järjestelmän valmisteleminen päivitykseen epäonnistui. Ilmoita tämä virhe "
+#~ "komennolla 'ubuntu-bug update-manager' päätteessä ja sisällytä kansion /"
+#~ "var/log/dist-upgrade/ tiedostot vikailmoitukseen."
+
+#~ msgid ""
+#~ "\n"
+#~ "\n"
+#~ "Please report this bug using the command 'ubuntu-bug update-manager' in a "
+#~ "terminal and include the files in /var/log/dist-upgrade/ in the bug "
+#~ "report.\n"
+#~ "%s"
+#~ msgstr ""
+#~ "\n"
+#~ "\n"
+#~ "Ilmoita tämä ohjelmistovirhe kirjoittamalla päätteeseen \"ubuntu-bug "
+#~ "update-manager\" ja sisällytä kansion /var/log/dist-upgrade/ tiedostot "
+#~ "vikailmoitukseen.\n"
+#~ "%s"
+
+#~ msgid ""
+#~ "These software updates have been issued since this version of Ubuntu was "
+#~ "released. If you don't want to install them now, choose \"Update Manager"
+#~ "\" from Applications later."
+#~ msgstr ""
+#~ "Nämä ohjelmistopäivitykset on julkaistu vasta Ubuntun julkaisemisen "
+#~ "jälkeen. Jos et halua asentaa näitä päivityksiä nyt, valitse "
+#~ "\"Päivitysten hallinta\" myöhemmin Sovellukset-valikosta."
+
+#~ msgid "Your graphics hardware may not be fully supported in Ubuntu 11.04."
+#~ msgstr "Laitteistosi ei välttämättä tue täydellisesti Ubuntu 11.04:ää."
+
+#~ msgid ""
+#~ "The support in Ubuntu 11.04 for your intel graphics hardware is limited "
+#~ "and you may encounter problems after the upgrade. Do you want to continue "
+#~ "with the upgrade?"
+#~ msgstr ""
+#~ "Tuki Intelin näytönohjaimellesi Ubuntu 11.04:ssä on rajoitettu, ja tästä "
+#~ "johtuen voit kohdata ongelmia laitteiston yhteensopivuudessa päivityksen "
+#~ "jälkeen. Haluatko jatkaa?"
+
+#~ msgid ""
+#~ "Upgrading the repository information resulted in a invalid file. Please "
+#~ "report this as a bug using the command 'ubuntu-bug update-manager' in a "
+#~ "terminal."
+#~ msgstr ""
+#~ "Ohjelmalähdetietojen päivitys johti virheelliseen tiedostoon. Ilmoita "
+#~ "tästä viasta suorittamalla komento \"ubuntu-bug update-manager\" "
+#~ "päätteessä."
+
+#~ msgid "Software updates are available for this computer"
+#~ msgstr "Ohjelmistopäivityksiä on saatavilla tälle tietokoneelle"
+
+#~ msgid ""
+#~ "These software updates have been issued since this version of Ubuntu was "
+#~ "released. If you don't want to install them now, choose \"Update Manager"
+#~ "\" from the Administration Menu later."
+#~ msgstr ""
+#~ "Nämä ohjelmistopäivitykset on julkaistu vasta Ubuntun julkaisemisen "
+#~ "jälkeen. Jos et halua asentaa näitä päivityksiä nyt, valitse "
+#~ "\"Päivityksiä saatavilla...\" tai myöhemmin järjestelmävalikosta."
+
+#~ msgid ""
+#~ "If you don't want to install them now, choose \"Update Manager\" from the "
+#~ "Administration menu later."
+#~ msgstr ""
+#~ "Jos et halua asentaa niitä nyt, valitse ”Päivityksiä saatavilla” "
+#~ "myöhemmin järjestelmävalikosta."
+
+#~ msgid ""
+#~ "You will not get any further security fixes or critical updates. Please "
+#~ "upgrade to a later version of Ubuntu Linux."
+#~ msgstr ""
+#~ "Järjestelmääsi ei enää tarjota tietoturvapäivityksiä tai muita tärkeitä "
+#~ "päivityksiä. Päivitä järjestelmäsi uudempaan Ubuntu-versioon."
