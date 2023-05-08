@@ -4,9 +4,9 @@ add-apt-repository https://ppa.pika-os.com
 add-apt-repository ppa:pikaos/pika
 add-apt-repository ppa:kubuntu-ppa/backports
 # Clone Upstream
-mkdir -p ./update-manager
-cp -rvf ./* ./update-manager 
-cd ./update-manager
+mkdir -p ./pkg-pika/update-manager
+rsync -av ./* ./pkg-pika/update-manager/ --exclude=pkg-pika
+cd ./pkg-pika/update-manager
 # Get build deps
 apt-get build-dep ./ -y
 
@@ -15,5 +15,5 @@ dpkg-buildpackage --no-sign
 
 # Move the debs to output
 cd ../
-mkdir -p ./output
-mv ./*.deb ./output/
+mkdir -p ../output
+mv ./*.deb ../output/
