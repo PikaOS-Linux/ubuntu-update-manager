@@ -3,9 +3,9 @@
 export PYBUILD_INTERPRETERS=python3
 
 override_dh_install:
-mkdir -p debian/update-manager/usr/bin/
-mv debian/tmp/usr/bin/update-manager debian/update-manager/usr/bin/update-manager-bin
-dh_install
+	mkdir -p debian/update-manager/usr/bin/
+	mv debian/tmp/usr/bin/update-manager debian/update-manager/usr/bin/update-manager-bin
+	dh_install
 
 %:
 	dh $@ --with=python3 --buildsystem=pybuild
