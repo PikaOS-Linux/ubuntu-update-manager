@@ -1,4 +1,4 @@
-update-manager (1:23.04.99) lunar; urgency=medium
+update-manager (1:23.04.99.2) lunar; urgency=medium
 
   [ Benjamin Drung ]
   * Update Vcs-* links to git
