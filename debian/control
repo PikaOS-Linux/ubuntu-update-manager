@@ -58,7 +58,6 @@ Package: update-manager
 Architecture: all
 Depends: gir1.2-gtk-3.0,
          gir1.2-handy-1 (>= 1.5.90),
-         gir1.2-snapd-2,
          gnome-shell | policykit-1-gnome | polkit-kde-agent-1 | lxpolkit | lxqt-policykit | mate-polkit | polkit-1-auth-agent,
          libgtk3-perl,
          pkexec,
