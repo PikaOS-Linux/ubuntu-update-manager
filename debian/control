@@ -5,6 +5,7 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Build-Depends: debhelper (>= 9),
                dh-python,
                gir1.2-gtk-3.0,
+               gir1.2-snapd-2,
                python3-all (>= 3.3.0-2),
                python3-dbus,
                python3-distro-info,
@@ -58,6 +59,7 @@ Package: update-manager
 Architecture: all
 Depends: gir1.2-gtk-3.0,
          gir1.2-handy-1 (>= 1.5.90),
+         gir1.2-snapd-2,
          gnome-shell | policykit-1-gnome | polkit-kde-agent-1 | lxpolkit | lxqt-policykit | mate-polkit | polkit-1-auth-agent,
          libgtk3-perl,
          pkexec,
