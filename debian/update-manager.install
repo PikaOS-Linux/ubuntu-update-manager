@@ -1,4 +1,3 @@
-debian/tmp/usr/bin/update-manager /usr/bin/update-manager-bin
 debian/extra/update-manager /usr/bin/
 debian/tmp/usr/lib/python3*/dist-packages/UpdateManager/ChangelogViewer.py
 debian/tmp/usr/lib/python3*/dist-packages/UpdateManager/Dialogs.py
