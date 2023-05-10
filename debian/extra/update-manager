@@ -1,2 +1,2 @@
 #! /bin/bash
-/usr/bin/update-manager-bin "$@" && for i in /usr/share/update-manager/post/*; do exec $; done
+/usr/bin/update-manager-bin "$@" && for i in /usr/share/update-manager/post/*; do exec $i; done
