@@ -1,3 +1,10 @@
+update-manager (1:23.04.99.4-99pika1.mantic) mantic; urgency=medium
+
+  Update to mantic
+
+ -- Benjamin Drung <bdrung@ubuntu.com>  Thu, 13 Apr 2023 19:25:57 +0200
+
+
 update-manager (1:23.04.99.4) lunar; urgency=medium
 
   [ Benjamin Drung ]
